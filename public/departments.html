@@ -9,13 +9,52 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title -->
-    <title>Holy Vietnamese Martyr's Mission | CHANGE_ME></title>
+    <title>Holy Vietnamese Martyr's Mission | KHC</title>
 
     <!-- Favicon -->
     <link rel="icon" href="img/core-img/gxfavicon.ico">
 
     <!-- Core Stylesheet -->
     <link rel="stylesheet" href="style.css">
+
+    <script>
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+        var image = "img/core-img/" + getUrlVars()["x"] + ".jpg";
+        switch(getUrlVars()["x"]) {
+            case "KCS":
+            var name = "Khối Cơ Sở";
+            break;
+            case "KDS":
+            var name = "Khối Đời Sống";
+            break;
+            case "KGD":
+            var name = "Khối Giáo Dục";
+            break;
+            case "KHC":
+            var name = "Khối Hành Chánh";
+            break;
+            case "KPT":
+            var name = "Khối Phụng Tự";
+            break;
+            case "KTG":
+            var name = "Khối Truyền Giáo";
+            break;
+            case "KQT":
+            var name = "Khối Quản Trị";
+            break;
+            case "KGQ":
+            var name = "Khối Gây Quỹ";
+            break;
+        }
+    </script>
+
+
 
 </head>
 
@@ -105,15 +144,15 @@
                                     <li><a href="#">BAN NGÀNH</a>
                                         <ul class="dropdown">
                                             <li><a href="org.html">Sơ Đồ Tổ Chức</a></li>
-                                            <li><a href="kcs.html">Khối Cơ Sở</a></li>
-                                            <li><a href="kds.html">Khối Đời Sống</a></li>
-                                            <li><a href="kgd.html">Khối Giáo Dục</a></li>
-                                            <li><a href="khc.html">Khối Hành Chánh</a></li>
-                                            <li><a href="kpt.html">Khối Phụng Tự</a></li>                                            
-                                            <li><a href="ktg.html">Khối Truyền Giáo</a></li>
-                                            <li><a href="kpt.html">Khối Phụng Tự</a></li>                                            
-                                            <li><a href="kqt.html">Khối Quản Trị</a></li>
-                                            <li><a href="kgq.html">Khối Gây Quỹ</a></li>
+                                            <li><a href="departments.html?x=KCS">Khối Cơ Sở</a></li>
+                                            <li><a href="departments.html?x=KDS">Khối Đời Sống</a></li>
+                                            <li><a href="departments.html?x=KGD">Khối Giáo Dục</a></li>
+                                            <li><a href="departments.html?x=KHC">Khối Hành Chánh</a></li>
+                                            <li><a href="departments.html?x=KPT">Khối Phụng Tự</a></li>                                            
+                                            <li><a href="departments.html?x=KTG">Khối Truyền Giáo</a></li>
+                                            <li><a href="departments.html?x=KPT">Khối Phụng Tự</a></li>                                            
+                                            <li><a href="departments.html?x=KQT">Khối Quản Trị</a></li>
+                                            <li><a href="departments.html?x=KGQ">Khối Gây Quỹ</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="#">Thư Viện</a>
@@ -170,7 +209,8 @@
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="index.html">Trang Chủ</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">CHANGE_ME</li>
+                            <li class="breadcrumb-item active" aria-current="page"><script>
+                                document.write(name)</script></li>
                         </ol>
                     </nav>
                 </div>
@@ -181,8 +221,18 @@
 
     <!-- ##### About Us Area Start ##### -->
     <div class="Sơ Đồ Tổ Chức-area section-padding-25">
-        <center><h2>CHANGE_ME</h2></center>
-        <center><h2>Articles Pages</h2></center>
+        <center><h1 id="department"></h1></center>
+            <h1><script>
+                document.getElementById("department").innerHTML = name;
+                </script>
+            </h1>
+        <td><img id="img" src="default.gif" class="center-50"></td>
+            <script>
+                document.getElementById("img").src=image; 
+            </script>             
+    </div>
+
+
         <!-- Copwrite Area -->
         <div class="copywrite-area">
             <div class="container h-100">

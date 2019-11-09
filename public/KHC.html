@@ -17,6 +17,17 @@
     <!-- Core Stylesheet -->
     <link rel="stylesheet" href="style.css">
 
+    <script>
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+    </script>
+
+
 </head>
 
 <body>
@@ -183,6 +194,13 @@
     <div class="Sơ Đồ Tổ Chức-area section-padding-25">
         <center><h2>Khối Hành Chánh</h2></center>
         <img src="img/core-img/KHC.jpg" class="center-50">
+        <p id="demo"></p>
+            <h1><script>
+                document.getElementById("demo").innerHTML =
+                "Page location is " + getUrlVars()["x"];;
+                </script>
+              </h1>
+        
     </div>
 
 

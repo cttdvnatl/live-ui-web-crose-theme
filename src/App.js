@@ -1,6 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+
+import {
+  BrowserRouter as Router,
+  Route,
+} from 'react-router-dom';
+import BlogPage from './pages/BlogPage';
+import BlogListPage from './pages/BlogListPage';
 
 function App() {
   // return (
@@ -21,7 +27,15 @@ function App() {
   //     </header>
   //   </div>
   // );
-  return '';
+  //return '';
+  return (
+    <Router>
+    	<div className="App">
+			    <Route path="/blog-list/:id" component={BlogPage} exact />
+        	<Route path="/blog-list" component={BlogListPage} exact />
+      	</div>
+    </Router>
+  ) 
 }
 
 export default App;
