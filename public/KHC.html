@@ -9,13 +9,24 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title -->
-    <title>Holy Vietnamese Martyr's Mission | Qúy Chức</title>
+    <title>Holy Vietnamese Martyr's Mission | KHC</title>
 
     <!-- Favicon -->
     <link rel="icon" href="img/core-img/gxfavicon.ico">
 
     <!-- Core Stylesheet -->
     <link rel="stylesheet" href="style.css">
+
+    <script>
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+    </script>
+
 
 </head>
 
@@ -37,10 +48,12 @@
                         <div class="top-header-content d-flex flex-wrap align-items-center justify-content-between">
                             <!-- Top Header Meta -->
                             <div class="top-header-meta d-flex flex-wrap">
+                                <a href="#" class="open" data-toggle="tooltip" data-placement="bottom" title="10 Am to 6 PM"><i class="fa fa-clock-o" aria-hidden="true"></i> <span>Opening Hours - 10 Am to 6 PM</span></a>
+                                <!-- Social Info -->
                                 <div class="top-social-info">
-                                    <a href="http://www.facebook.com/ThanhTuDaoVietnam"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                    <a href="http://www.youtube.com/thanhtudaovietnam"><i class="fa fa-youtube" aria-hidden="true"></i></a>
-                                    <a href="http://twitter.com/thanhtudaovn"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
                                 </div>
                             </div>
                             <!-- Top Header Meta -->
@@ -103,15 +116,15 @@
                                     <li><a href="#">BAN NGÀNH</a>
                                         <ul class="dropdown">
                                             <li><a href="org.html">Sơ Đồ Tổ Chức</a></li>
-                                            <li><a href="departments.html?x=KCS">Khối Cơ Sở</a></li>
-                                            <li><a href="departments.html?x=KDS">Khối Đời Sống</a></li>
-                                            <li><a href="departments.html?x=KGD">Khối Giáo Dục</a></li>
-                                            <li><a href="departments.html?x=KHC">Khối Hành Chánh</a></li>
-                                            <li><a href="departments.html?x=KPT">Khối Phụng Tự</a></li>                                            
-                                            <li><a href="departments.html?x=KTG">Khối Truyền Giáo</a></li>
-                                            <li><a href="departments.html?x=KPT">Khối Phụng Tự</a></li>                                            
-                                            <li><a href="departments.html?x=KQT">Khối Quản Trị</a></li>
-                                            <li><a href="departments.html?x=KGQ">Khối Gây Quỹ</a></li>
+                                            <li><a href="kcs.html">Khối Cơ Sở</a></li>
+                                            <li><a href="kds.html">Khối Đời Sống</a></li>
+                                            <li><a href="kgd.html">Khối Giáo Dục</a></li>
+                                            <li><a href="khc.html">Khối Hành Chánh</a></li>
+                                            <li><a href="kpt.html">Khối Phụng Tự</a></li>                                            
+                                            <li><a href="ktg.html">Khối Truyền Giáo</a></li>
+                                            <li><a href="kpt.html">Khối Phụng Tự</a></li>                                            
+                                            <li><a href="kqt.html">Khối Quản Trị</a></li>
+                                            <li><a href="kgq.html">Khối Gây Quỹ</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="#">Thư Viện</a>
@@ -126,6 +139,9 @@
                                     <li><a href="contact.html">LIÊN HỆ</a></li>
                                 </ul>
 
+                                <!-- Search Button -->
+                                <div id="header-search"><i class="fa fa-search" aria-hidden="true"></i></div>
+
                                 <!-- Donate Button -->
                                 <a href="https://giving.parishsoft.com/App/Giving/holy4545250" class="btn crose-btn header-btn">DÂNG HIẾN</a>
 
@@ -133,6 +149,23 @@
                             <!-- Nav End -->
                         </div>
                     </nav>
+                </div>
+            </div>
+
+            <!-- ***** Search Form Area ***** -->
+            <div class="search-form-area">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12">
+                            <div class="searchForm">
+                                <form action="#" method="post">
+                                    <input type="search" name="search" id="search" placeholder="Enter keywords &amp; hit enter...">
+                                    <button type="submit" class="d-none"></button>
+                                </form>
+                                <div class="close-icon" id="searchCloseIcon"><i class="fa fa-close" aria-hidden="true"></i></div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -148,7 +181,7 @@
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="index.html">Trang Chủ</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Qúy Chức</li>
+                            <li class="breadcrumb-item active" aria-current="page">Khối Hành Chánh</li>
                         </ol>
                     </nav>
                 </div>
@@ -159,13 +192,19 @@
 
     <!-- ##### About Us Area Start ##### -->
     <div class="Sơ Đồ Tổ Chức-area section-padding-25">
-        <center><h2>Hội Đồng Mục Vụ 2019-2023</h2></center>
-        <img src="img/core-img/HDMV2019.jpg" alt="HDMV2019" class="center-50">
+        <center><h2>Khối Hành Chánh</h2></center>
+        <img src="img/core-img/KHC.jpg" class="center-50">
+        <p id="demo"></p>
+            <h1><script>
+                document.getElementById("demo").innerHTML =
+                "Page location is " + getUrlVars()["x"];;
+                </script>
+              </h1>
+        
     </div>
 
 
-
-      <!-- ##### Footer Area Start #####-->
+  <!-- ##### Footer Area Start #####-->
         <footer class="footer-area">
         <!-- Main Footer Area -->
         <div class="main-footer-area">
@@ -262,6 +301,20 @@
                             <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                             <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
                             <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>        <!-- Copwrite Area -->
+        <div class="copywrite-area">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center flex-wrap">
+                    <!-- Copywrite Text -->
+                    <div class="col-12 col-md-6">
+                        <div class="copywrite-text">
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Holy Vietnamese Martyrs Catholic Church</a>
+</p>
                         </div>
                     </div>
                 </div>
