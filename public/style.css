@@ -15,6 +15,7 @@ Version: - v1.0.0
 @import url(css/animate.css);
 @import url(css/magnific-popup.css);
 @import url(css/font-awesome.min.css);
+@import url(css/timeline.css);
 /* :: 3.0 Base CSS */
 * {
   margin: 0;
@@ -1280,7 +1281,7 @@ img {
     position: relative;
     z-index: 1;
     padding-top: 70px;
-    background-image: linear-gradient(to bottom, #5b051f, #560732, #491343, #321e50, #052657); }
+    background-image: linear-gradient(to bottom, #DBA901, #B18904,#886A08, #5F4C0B); }
     .footer-area .main-footer-area .single-footer-widget {
       position: relative;
       z-index: 1; }
@@ -1293,7 +1294,7 @@ img {
       .footer-area .main-footer-area .single-footer-widget .widget-title {
         font-size: 18px;
         margin-bottom: 30px;
-        color: #ffffff;
+        color: #c2c2c2;
         font-weight: 600; }
       .footer-area .main-footer-area .single-footer-widget .footer-menu ul {
         display: -webkit-box;
@@ -1309,7 +1310,7 @@ img {
           width: 50%; }
           .footer-area .main-footer-area .single-footer-widget .footer-menu ul li a {
             font-size: 14px;
-            color: #959595;
+            color: #c2c2c2;
             font-weight: 600;
             padding: 7px 0;
             display: block; }
@@ -1906,6 +1907,21 @@ img {
 .contact-form-area textarea.form-control {
   height: 150px; }
 
+/* :: 23.0 Weekly News Area CSS */
+.weekly-news-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: DodgerBlue;
+}
+
+.weekly-news-container > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
 /* ======= The End ======= */
 
 /*# sourceMappingURL=style.css.map */
