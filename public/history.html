@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,526 +9,420 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title -->
-    <title>Test Giáo Xứ Các Thánh Tử  Đạo Việt Nam | Home</title>
+    <title>Quá Trình Thành Lập</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="img/core-img/gxfavicon.ico">
+    <link rel="icon" href="img/bg-img/logo.png">
 
     <!-- Core Stylesheet -->
     <link rel="stylesheet" href="style.css">
-    <style>
-* {
-  box-sizing: border-box;
-}
 
-body {
-  background-color: #474e5d;
-  font-family: Helvetica, sans-serif;
-}
-
-/* The actual timeline (the vertical ruler) */
-.timeline {
-  position: relative;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-/* The actual timeline (the vertical ruler) */
-.timeline::after {
-  content: '';
-  position: absolute;
-  width: 6px;
-  background-color: white;
-  top: 0;
-  bottom: 0;
-  left: 50%;
-  margin-left: -3px;
-}
-
-/* Container around content */
-.container {
-  padding: 10px 40px;
-  position: relative;
-  background-color: inherit;
-  width: 50%;
-}
-
-/* The circles on the timeline */
-.container::after {
-  content: '';
-  position: absolute;
-  width: 25px;
-  height: 25px;
-  right: -17px;
-  background-color: white;
-  border: 4px solid #FF9F55;
-  top: 15px;
-  border-radius: 50%;
-  z-index: 1;
-}
-
-/* Place the container to the left */
-.left {
-  left: 0;
-}
-
-/* Place the container to the right */
-.right {
-  left: 50%;
-}
-
-/* Add arrows to the left container (pointing right) */
-.left::before {
-  content: " ";
-  height: 0;
-  position: absolute;
-  top: 22px;
-  width: 0;
-  z-index: 1;
-  right: 30px;
-  border: medium solid white;
-  border-width: 10px 0 10px 10px;
-  border-color: transparent transparent transparent white;
-}
-
-/* Add arrows to the right container (pointing left) */
-.right::before {
-  content: " ";
-  height: 0;
-  position: absolute;
-  top: 22px;
-  width: 0;
-  z-index: 1;
-  left: 30px;
-  border: medium solid white;
-  border-width: 10px 10px 10px 0;
-  border-color: transparent white transparent transparent;
-}
-
-/* Fix the circle for containers on the right side */
-.right::after {
-  left: -16px;
-}
-
-/* The actual content */
-.content {
-  padding: 20px 30px;
-  background-color: white;
-  position: relative;
-  border-radius: 6px;
-}
-
-/* Media queries - Responsive timeline on screens less than 600px wide */
-@media screen and (max-width: 600px) {
-  /* Place the timelime to the left */
-  .timeline::after {
-  left: 31px;
-  }
-  
-  /* Full-width containers */
-  .container {
-  width: 100%;
-  padding-left: 70px;
-  padding-right: 25px;
-  }
-  
-  /* Make sure that all arrows are pointing leftwards */
-  .container::before {
-  left: 60px;
-  border: medium solid white;
-  border-width: 10px 10px 10px 0;
-  border-color: transparent white transparent transparent;
-  }
-
-  /* Make sure all circles are at the same spot */
-  .left::after, .right::after {
-  left: 15px;
-  }
-  
-  /* Make all right containers behave like the left ones */
-  .right {
-  left: 0%;
-  }
-}
-</style>
-      
 </head>
 
 <body>
-   <div id="root"></div>
-    <!-- ##### Preloader ##### -->
-    <div class="preloader d-flex align-items-center justify-content-center">
-        <!-- Line -->
-        <div class="line-preloader"></div>
-    </div>
+<!-- ##### Preloader ##### -->
+<div class="preloader d-flex align-items-center justify-content-center">
+    <!-- Line -->
+    <div class="line-preloader"></div>
+</div>
 
-    <!-- ##### Header Area Start ##### -->
-    
-    
-        <header class="header-area">
+<!-- ##### Header Area Start ##### -->
+<header class="header-area">
 
-        <!-- ***** Top Header Area ***** -->
-
-    
-        <div class="top-header">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="top-header-content d-flex flex-wrap align-items-center justify-content-between">
-                            <!-- Top Header Meta -->
-                            <div class="top-header-meta d-flex flex-wrap">
-                                <a href="#" class="open" data-toggle="tooltip" data-placement="bottom" title="10 Am to 6 PM"><i class="fa fa-clock-o" aria-hidden="true"></i> <span>Opening Hours - 10 Am to 6 PM</span></a>
-                                <!-- Social Info -->
-                                <div class="top-social-info">
-                                    <a href="http://www.facebook.com/ThanhTuDaoVietnam"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                                    <a href="http://www.youtube.com/thanhtudaovietnam"><i class="fa fa-youtube" aria-hidden="true"></i></a>
-                                    <a href="http://twitter.com/thanhtudaovn"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                                </div>
+    <!-- ***** Top Header Area ***** -->
+    <div class="top-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="top-header-content d-flex flex-wrap align-items-center justify-content-between">
+                        <!-- Top Header Meta -->
+                        <div class="top-header-meta d-flex flex-wrap">
+                            <!-- Social Info -->
+                            <div class="top-social-info">
+                                <a href="http://www.facebook.com/ThanhTuDaoVietnam"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                <a href="http://www.youtube.com/thanhtudaovietnam"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                                <a href="http://twitter.com/thanhtudaovn"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                             </div>
-                            <!-- Top Header Meta -->
-                            <div class="top-header-meta">
-                                <a href="massTime.html" class="email-address"><i class="fa fa-clock-o fa-lg" aria-hidden="true"></i>&nbsp<span>Giờ Lễ</span></a>
-                                <a href="mailto:info@cttdvn.org" class="email-address"><i class="fa fa-envelope" aria-hidden="true"></i> <span>info@cttdvn.org</span></a>
-                                <a href="#" class="phone"><i class="fa fa-phone" aria-hidden="true"></i> <span>770-921-0077</span></a>
-                            </div>
+                        </div>
+                        <!-- Top Header Meta -->
+                        <div class="top-header-meta">
+                            <a href="massTime.html" class="email-address"><i class="fa fa-clock-o fa-lg" aria-hidden="true"></i>&nbsp<span>Giờ Lễ</span></a>
+                            <a href="mailto:info.deercreative@gmail.com" class="email-address"><i class="fa fa-envelope" aria-hidden="true"></i> <span>info.deercreative@gmail.com</span></a>
+                            <a href="#" class="phone"><i class="fa fa-phone" aria-hidden="true"></i> <span>+12 345 678 910</span></a>
                         </div>
                     </div>
                 </div>
             </div>
-        </div> 
-    
-        <!-- ***** Top Header Area ***** -->
+        </div>
+    </div>
+    <!-- ***** Top Header Area ***** -->
 
-        <!-- ***** Navbar Area ***** -->
-        <div class="crose-main-menu">
-            <div class="classy-nav-container breakpoint-off">
-                <div class="container">
+    <!-- ***** Navbar Area ***** -->
+    <div class="crose-main-menu">
+        <div class="classy-nav-container breakpoint-off">
+            <div class="container">
+                <!-- Menu -->
+                <nav class="classy-navbar justify-content-between" id="croseNav">
+
+                    <!-- Nav brand -->
+                    <a href="index.html" class="nav-brand"><img src="img/core-img/gxlogo.png" alt=""></a>
+
+                    <!-- Navbar Toggler -->
+                    <div class="classy-navbar-toggler">
+                        <span class="navbarToggler"><span></span><span></span><span></span></span>
+                    </div>
+
                     <!-- Menu -->
-                    <nav class="classy-navbar justify-content-between" id="croseNav">
+                    <div class="classy-menu">
 
-                        <!-- Nav brand -->
-                        <a href="index.html" class="nav-brand"><img src="img/core-img/gxlogo.png" alt=""></a>
-
-                        <!-- Navbar Toggler -->
-                        <div class="classy-navbar-toggler">
-                            <span class="navbarToggler"><span></span><span></span><span></span></span>
+                        <!-- close btn -->
+                        <div class="classycloseIcon">
+                            <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
                         </div>
 
-                        <!-- Menu -->
-                        <div class="classy-menu">
-
-                            <!-- close btn -->
-                            <div class="classycloseIcon">
-                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
-                            </div>
-
-                            <!-- Nav Start -->
-                                
+                        <!-- Nav Start -->
                         <div class="classynav">
-                                <ul>
-                                    <!--li><a href="index.php">TRANG CHÙ</a></li-->
-                                    <li><a href="#">GIÁO XỨ</a>
-                                        <ul class="dropdown">
-                                            <li><a href="index.php">Trang Chủ</a></li>
-                                            <li><a href="about.php">Sứ Mệnh Giáo Xứ</a></li>
-                                            <li><a href="history.php">Lịch Sử Giáo Xứ</a></li>
-                                            <li><a href="liturgicalCalendar.php">Lịch Phụng Vụ</a></li>
-                                            <li><a href="priestSister.php">Linh Mục/Tu Sĩ</a></li>
-                                            <li><a href="directors.php">Qúy Chứ</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">TIN TỨC/SỰ KIỆN</a>
-                                        <ul class="dropdown">
-                                            <li><a href="catholicNews.php">Tin Tức Công Giáo</a></li>
-                                            <li><a href="activites.php">Sinh Hoạt Giáo Xứ</a></li>
-                                            <li><a href="calendar2020.php">Lịch 2020</a></li>
-                                            <li><a href="https://fallfestivalatl.org">Hội Chợ Mùa Thu</a></li>
-                                            <li><a href="https://www.tomathienatl.org">TNTT Tôma Thiện</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">BAN NGÀNH</a>
-                                        <ul class="dropdown">
-                                            <li><a href="org.html">Sơ Đồ Tổ Chức</a></li>
-                                            <li><a href="departments.php?x=KCS">Khối Cơ Sở</a></li>
-                                            <li><a href="departments.php?x=KDS">Khối Đời Sống</a></li>
-                                            <li><a href="departments.php?x=KGD">Khối Giáo Dục</a></li>
-                                            <li><a href="departments.php?x=KHC">Khối Hành Chánh</a></li>
-                                            <li><a href="departments.php?x=KPT">Khối Phụng Tự</a></li>                                            
-                                            <li><a href="departments.php?x=KTG">Khối Truyền Giáo</a></li>
-                                            <li><a href="departments.php?x=KPT">Khối Phụng Tự</a></li>                                            
-                                            <li><a href="departments.php?x=KQT">Khối Quản Trị</a></li>
-                                            <li><a href="departments.php?x=KGQ">Khối Gây Quỹ</a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="#">Thư Viện</a>
-                                        <ul class="dropdown">
-                                            <li><a href="WeeklyNews.php">Thông Tin Mục Vụ</a></li>
-                                            <li><a href="articles.php">Các Bài Viết</a></li>
-                                            <li><a href="photos.php">Thư Viện Hình Ảnh</a></li>
-                                            <li><a href="forms.php">Đơn Từ</a></li>
-                                            <li><a href="prayerRequest.php">Prayer Request</a></li>
-                                        </ul>
-                                    </li>                                                                     
-                                    <li><a href="contact.php">LIÊN HỆ</a></li>
-                                </ul>
+                            <ul>
+                                <!--li><a href="index.html">TRANG CHÙ</a></li-->
+                                <li><a href="#">GIÁO XỨ</a>
+                                    <ul class="dropdown">
+                                        <li><a href="index.html">Trang Chủ</a></li>
+                                        <li><a href="about.html">Sứ Mệnh Giáo Xứ</a></li>
+                                        <li><a href="history.html">Lịch Sử Giáo Xứ</a></li>
+                                        <li><a href="liturgicalCalendar.html">Lịch Phụng Vụ</a></li>
+                                        <li><a href="priestSister.html">Linh Mục/Tu Sĩ</a></li>
+                                        <li><a href="directors.html">Qúy Chứ</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">TIN TỨC/SỰ KIỆN</a>
+                                    <ul class="dropdown">
+                                        <li><a href="catholicNews.html">Tin Tức Công Giáo</a></li>
+                                        <li><a href="activites.html">Sinh Hoạt Giáo Xứ</a></li>
+                                        <li><a href="./pdf/Calendar2020.pdf">Lịch 2020</a></li>
+                                        <li><a href="https://fallfestivalatl.org">Hội Chợ Mùa Thu</a></li>
+                                        <li><a href="https://www.tomathienatl.org">TNTT Tôma Thiện</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">BAN NGÀNH</a>
+                                    <ul class="dropdown">
+                                        <li><a href="org.html">Sơ Đồ Tổ Chức</a></li>
+                                        <li><a href="departments.html?x=KCS">Khối Cơ Sở</a></li>
+                                        <li><a href="departments.html?x=KDS">Khối Đời Sống</a></li>
+                                        <li><a href="departments.html?x=KGD">Khối Giáo Dục</a></li>
+                                        <li><a href="departments.html?x=KHC">Khối Hành Chánh</a></li>
+                                        <li><a href="departments.html?x=KPT">Khối Phụng Tự</a></li>
+                                        <li><a href="departments.html?x=KTG">Khối Truyền Giáo</a></li>
+                                        <li><a href="departments.html?x=KPT">Khối Phụng Tự</a></li>
+                                        <li><a href="departments.html?x=KQT">Khối Quản Trị</a></li>
+                                        <li><a href="departments.html?x=KGQ">Khối Gây Quỹ</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Thư Viện</a>
+                                    <ul class="dropdown">
+                                        <li><a href="index.html">Thông Tin Mục Vụ</a></li>
+                                        <li><a href="sermons.html">Các Bài Viết</a></li>
+                                        <li><a href="sermons-details.html">Các Bài Giảng</a></li>
+                                        <li><a href="events.html">Thư Viện Hình Ảnh</a></li>
+                                        <li><a href="blog.html">Đơn Từ</a></li>
+                                        <li><a href="about.html">Prayer Request</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="contact.html">LIÊN HỆ</a></li>
+                            </ul>
 
-                                <!-- Search Button -->
-                                
+                            <!-- Donate Button -->
+                            <a href="https://giving.parishsoft.com/App/Giving/holy4545250" class="btn crose-btn header-btn">DÂNG HIẾN</a>
 
-                                <!-- Donate Button -->
-                                <a href="#" class="btn crose-btn header-btn">DÂNG HIẾN</a>
-
-                            </div> 
-
-
-
-
-                            <!-- Nav End -->
                         </div>
-                    </nav>
-                </div>
+                        <!-- Nav End -->
+                    </div>
+                </nav>
             </div>
-
-            <!-- ***** Search Form Area ***** -->
-     
         </div>
-        <!-- ***** Navbar Area ***** -->
+    </div>
+    <!-- ***** Navbar Area ***** -->
 </header>
-    <!-- ##### Header Area End ##### -->
+<!-- ##### Header Area End ##### -->
 
-    <!-- ##### History Area Start ##### -->
-    
-    
-<div class="container">
-<div class="timeline">
-  <div class="container left">
-    <div class="content">
-      <h2>2017</h2>
-      <p>Động thổ cho nhà thờ mới. Được Đức Tổng Giám mục Wilton D. Gregory ban phước vào ngày 27 tháng 8, tảng đá khổng lồ và nghi thức động thổ đã đánh dấu một bước tiến khác đến mục tiêu tìm kiếm lâu dài của nhà thờ mới. Groundbreaking for new church. Blessed</p>
-    </div>
-  </div>
-  <div class="container right">
-    <div class="content">
-      <h2>2013</h2>
-      <p>The mission becomes the second Vietnamese parish in the archdiocese.</p>
-    </div>
-  </div>
-  <div class="container left">
-    <div class="content">
-      <h2>2011</h2>
-      <p>Vào ngày 11 tháng 1 năm 2011, Tổng giáo phận Atlanta và nhà thờ của chúng tôi, Nhà thờ Công giáo Thánh của Việt Nam, đã hoàn tất việc mua bất động sản rộng 9 mẫu. On January 11, 2011 the Archdiocese of Atlanta and our church, The Holy Martyrs of Vietnam Catholic Church, completed the purchase of the 9-acre property.</p>
-    </div>
-  </div>
-  <div class="container right">
-    <div class="content">
-      <h2>2006</h2>
-      <p>Thánh Lễ tiếng Việt đầu tiên tại cơ sở mới họ đạo cùng những sinh hoạt tôn giáo và văn hóa khác. Bài Sai mới của Lình Mục Phêrô Vũ Ngọc Đức, Quản Nhiệm Họ Đạo. Nghi Lễ Thánh Hiến Thánh Đường được cừ hành bời Đức Tổng Giám Mục Wilton D. Gregory</p>
-    </div>
-  </div>
-  <div class="container left">
-    <div class="content">
-      <h2>2005</h2>
-      <p>Nghi thức khời công tu sửa.</p>
-    </div>
-  </div>
-  <div class="container right">
-    <div class="content">
-      <h2>2004</h2>
-      <p>Tạo mãi 7 mẫu Anh của cơ sở mua bán xe hơi Chevrolet trước đây với tòa nhà tiên chế 50,000 SF.</p>
-    </div>
-  </div>
-  <div class="container left">
-    <div class="content">
-      <h2>2003</h2>
-      <p>Họ Đạo Các Thánh Từ Đạo Việt Nam được thành lập bời Đức Tổng Giám Mục John F. Donoghue. Father Francis Tuan Tran pastor of Holy Vietnamese Martyrs Catholic Church</p>
-    </div>
-  </div>
-  <div class="container right">
-    <div class="content">
-      <h2>2002</h2>
-      <p>Thực hiện việc gây quỹ xây dựng Thánh Đường. <BR>Fundraising begins for the new church.</p>
-    </div>
-  </div> 
-  <div class="container left">
-    <div class="content">
-      <h2>2001</h2>
-      <p>Giấy phép Gây Quỹ Xây Dựng được ban bởi Tổng Giám Mục John F. Donoghue, Tổng Giáo Phận Atlanta.
+<h3 style="text-align: center;">Quá Trình Thành Lập<br/> Giáo Xứ Các Thánh Tử Đạo Việt Nam &#8211; Atlanta, Georgia</h3>
+<section id="timeline">
+    <article>
+        <div class="inner">
+               <span class="date">
+                   <span class="year">2019</span>
+               </span>
+            <h2>Thánh lễ đầu tiên tại Nhà thờ mới được cử hành vào Lễ Tạ ơn (First Mass at New Church Celebrated on
+                Thanksgiving)</h2>
+            <p></p>
+        </div>
+    </article>
+    <article>
+        <div class="inner">
+      <span class="date">
+        <span class="year">2017</span>
+      </span>
+            <h2>Động thổ cho nhà thờ mới (Ground Breaking New Church)</h2>
+            <p>Động thổ cho nhà thờ mới. Được Đức Tổng Giám mục Wilton D. Gregory ban phước vào ngày 27 tháng 8, tảng đá
+                khổng lồ và nghi thức động thổ đã đánh dấu một bước tiến khác đến mục tiêu tìm kiếm lâu dài của nhà thờ
+                mới. </p>
+            <p> Groundbreaking for new church. Blessed by Archbishop Wilton D. Gregory on Aug. 27, the huge stone and
+                ceremonial groundbreaking marked another step toward the long-sought goal of the new church.</p>
+        </div>
+    </article>
+    <article>
+        <div class="inner">
+      <span class="date">
+        <span class="year">2013</span>
+      </span>
+            <h2>Giáo xứ Việt Nam mới (New Vietnamese Parish)</h2>
+            <p>Nhiệm vụ trở thành giáo xứ Việt Nam thứ hai trong tổng giáo phận.</p>
+            <p>The mission becomes the second Vietnamese parish in the archdiocese. </p>
+        </div>
+    </article>
+    <article>
+        <div class="inner">
+      <span class="date">
+        <span class="year">2011 </span>
+      </span>
+            <h2>Đất nhà thờ mở rộng (Expanded Church Land)</h2>
+            <p>Vào ngày 11 tháng 1 năm 2011, Tổng giáo phận Atlanta và nhà thờ của chúng tôi, Nhà thờ Công giáo Thánh
+                của
+                Việt Nam, đã hoàn tất việc mua bất động sản rộng 9 mẫu. </p>
+            <p>On January 11, 2011 the Archdiocese of Atlanta and our church, The Holy Martyrs of Vietnam Catholic
+                Church,
+                completed the purchase of the 9-acre property.</p>
+        </div>
+    </article>
+    <article>
+        <div class="inner">
+      <span class="date">
+        <span class="year">2009</span>
+      </span>
+            <h2>hội chợ mùa thu (First Fall Festival)</h2>
+            <p>Lễ hội mùa thu được phát động vào cuối tuần Ngày Lao động để gây quỹ cho nhà thờ mới và lớn hơn cho cộng đồng đang phát triển.</p>
+            <p>The fall festival launched on Labor Day weekend to raise funds for the new and larger church for the growing community.</p>
+        </div>
+    </article>
+    <article>
+        <div class="inner">
+      <span class="date">
+        <span class="year">2006</span>
+      </span>
+            <h2>Thánh lễ đầu tiên tại địa điểm nhà thờ mới (First Mass at New Church Site)</h2>
+            <p>Thánh Lễ tiếng Việt đầu tiên tại cơ sở mới họ đạo cùng những sinh hoạt tôn giáo và văn hóa khác. Bài Sai
+                mới
+                của Lình Mục Phêrô Vũ Ngọc Đức, Quản Nhiệm Họ Đạo. Nghi Lễ Thánh Hiến Thánh Đường được cừ hành bời Đức
+                Tổng
+                Giám Mục Wilton D. Gregory</p>
+            <p>The first Vietnamese Mass at the new facility, with other religious and cultural activities
+                lead by Pastor Peter Vu Ngoc Duc. Consecrated Rite was celebrated by Archbishop Wilton D. Gregory</p>
+        </div>
+    </article>
+    <article>
+        <div class="inner">
+      <span class="date">
+        <span class="year">2005</span>
+      </span>
+            <h2>Nghi thức khời công tu sửa. (Renovations Begin)</h2>
+            <p></p>
+        </div>
+    </article>
+    <article>
+        <div class="inner">
+  <span class="date">
+    <span class="year">2004</span>
+  </span>
+            <h2>Mua nhà thờ (Purchase Church Site)</h2>
+            <p>Tạo mãi 7 mẫu Anh của cơ sở mua bán xe hơi Chevrolet trước đây với tòa nhà tiên chế 50,000 SF.</p>
+            <p>Old Chevrolet car dealership with 7 acres of land and 50,000 SF buildings purchased for the new
+                church</p>
+        </div>
+    </article>
+    <article>
+        <div class="inner">
+        <span class="date">
+            <span class="year">2003</span>
+        </span>
+            <h2>Phước lành của Đức Tổng Giám mục (Blessing by the Archbishop)</h2>
+            <p>Họ Đạo Các Thánh Từ Đạo Việt Nam được thành lập bời Đức Tổng Giám Mục John F. Donoghue</p>
+            <p>Holy Vietnamese Martyrs parish consecrated by Archbishop John F. Donoghue</p>
+        </div>
+    </article>
+    <article>
+        <div class="inner">
+    <span class="date">
+        <span class="year">2002</span>
+    </span>
+            <h2>Thực hiện việc gây quỹ (Fundraising Begins)</h2>
+            <p>Thực hiện việc gây quỹ xây dựng Thánh Đường.</p>
+            <p>Fundraising begins for the new church.</p>
+        </div>
+    </article>
+    <article>
+        <div class="inner">
+    <span class="date">
+        <span class="year">2001</span>
+    </span>
+            <h2>Giấy phép được cung cấp bởi Archbishop để bắt đầu gây quỹ (Permission given by Archbishop to start
+                fundraising)</h2>
+            <p>Giấy phép Gây Quỹ Xây Dựng được ban bởi Tổng Giám Mục John F. Donoghue, Tổng Giáo Phận Atlanta.</p>
+            <p>The Building Fundraising license was granted by Archbishop John F. Donoghue, Archdiocese of Atlanta.</p>
+        </div>
+    </article>
+    <article>
+        <div class="inner">
+    <span class="date">
+        <span class="year">1996</span>
+    </span>
+            <h2>Linh mục Peter Vũ phong chức (Priest Peter Vu Ngoc Duc Ordained)</h2>
+            <p>Linh Mục Việt Nam đầu tiên thụ phong cho Tổng Giáo Phận Atlanta:
+                Linh Mục Phêrô Vũ Ngọc Đức
+                Bài Sai dầu tiên của Linh Mục Phêrô Vũ Ngọc Đức: Phó Giáo Xứ Holy Cross và Mục Vụ đặc biệt cho người
+                Việt Công Giáo tại giáo xứ.</p>
+            <p>First Vietnamese Priest to be ordained to the Archdiocese of Atlanta: Priest Peter Vu Ngoc Duc
+                Deputy Holy Cross Parish and Pastoral Special for Vietnamese Catholics in the parish</p>
+        </div>
+    </article>
+    <article>
+        <div class="inner">
+    <span class="date">
+        <span class="year">1996</span>
+    </span>
+            <h2>Đoàn Tôma Thiện was formed.(Youth Group Formed)</h2>
+            <p>Thiếu nhi do Nguyễn Quốc Tuấn dẫn đầu với hơn 200 người tham gia.</p>
+            <p>The youth group was leaded by Nguyen Quoc Tuan with over 200 participants..</p>
+        </div>
+    </article>
+    <article>
+        <div class="inner">
+    <span class="date">
+        <span class="year">1992</span>
+    </span>
+            <h2>Nguồn gốc của Giáo xứ Thánh Tử Đạo Việt Nam(Origin of Holy Vietnamese Martyrs Parish)</h2>
+            <p>Thánh Lễ tiếng Việt dầu tiên tại Giáo Xứ Holy Cross. Tuyên Úy: Linh Mục Tôma Nguyễn Thái Thành. Sister
+                Christine Trương Mỹ Hạnh.</p>
+            <p>Sister Christine Truong My Hanh, Sister of the Good Shepherd, begins gathering Vietnamese Catholics for
+                Mass at Holy Cross Church, the second Sunday of every month.</p>
+        </div>
+    </article>
+</section>
 
-The Building Fundraising license was granted by Archbishop John F. Donoghue, Archdiocese of Atlanta.</p>
-    </div>
-  </div>
-  <div class="container right">
-    <div class="content">
-      <h2>1996</h2>
-      <p>Linh Mục Việt Nam đầu tiên thụ phong cho Tổng Giáo Phận Atlanta:
-Linh Mục Phêrô Vũ Ngọc Đức
-Bài Sai dầu tiên của Linh Mục Phêrô Vũ Ngọc Đức: Phó Giáo Xứ Holy Cross và Mục Vụ đặc biệt cho người Việt Công Giáo tại giáo xứ.<BR><BR>
-First Vietnamese Priest to be ordained to the Archdiocese of Atlanta: Priest Peter Vu Ngoc Duc
-Deputy Holy Cross Parish and Pastoral Special for Vietnamese Catholics in the parish</p>
-    </div>
-  </div>
-  <div class="container left">
-    <div class="content">
-      <h2>1992</h2>
-      <p>Thánh Lễ tiếng Việt dầu tiên tại Giáo Xứ Holy Cross. Tuyên Úy: Linh Mục Tôma Nguyễn Thái Thành. Sister Christine Trương Mỹ Hạnh.<BR><BR>
-      Sister Christine Truong My Hanh, Sister of the Good Shepherd, begins gathering Vietnamese Catholics for Mass at Holy Cross Church, the second Sunday of every month.</p>
-    </div>
-  </div>
-</div>
-</div>
-    <!-- ##### History Area Start ##### -->
+<!-- ##### Footer Area Start ##### -->
+<footer class="footer-area">
+    <!-- Main Footer Area -->
+    <div class="main-footer-area">
+        <div class="container">
+            <div class="row">
 
-
-    <!-- ##### About Area End ##### -->
-    
-    
-
-    <!-- ##### About Area End ##### -->
-
-    <!-- ##### Upcoming Events Area Start ##### -->
-    
-    
-    <!-- ##### Upcoming Events Area End ##### -->
-
-    <!-- ##### Call To Action Area Start ##### -->
-    
-    
-    <!-- ##### Call To Action Area End ##### -->
-
-    <!-- ##### Latest Sermons Area Start ##### -->
-
-    
-    <!-- ##### Latest Sermons Area End ##### -->
-
-    <!-- ##### Gallery Area Start ##### -->
-
-    
-    <!-- ##### Gallery Area End ##### -->
-
-
-
-    <!-- ##### Footer Area Start ##### -->
-
-    
-    <footer class="footer-area">
-        <!-- Main Footer Area -->
-        <div class="main-footer-area">
-            <div class="container">
-                <div class="row">
-
-                    <!-- Single Footer Widget -->
-                    <div class="col-12 col-sm-6 col-lg-3">
-                        <div class="single-footer-widget mb-70">
-                            <a href="#" class="footer-logo"><img src="img/core-img/gxlogo.png" alt=""></a>
-                            <p></p>
-                        </div>
+                <!-- Single Footer Widget -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="single-footer-widget mb-70">
+                        <a href="#" class="footer-logo"><img src="img/core-img/gxlogo.png" alt=""></a>
+                        <p></p>
                     </div>
+                </div>
 
-                    <!-- Single Footer Widget -->
-                    <div class="col-12 col-sm-6 col-lg-3">
-                        <div class="single-footer-widget mb-70">
-                            <h5 class="widget-title">Quick Link</h5>
-                            <nav class="footer-menu">
-                                <ul><a href="#">Trang Nhà</a>
-                                  <li><a href="#"></a></li>
-                                    <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Thông Báo</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Giới Thiệu</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Hình Ảnh</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Bài Viết</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Liên Hệ</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Dâng Hiến <BR> Online</a></li>
-                                </ul>
-                            </nav>
-                        </div>
+                <!-- Single Footer Widget -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="single-footer-widget mb-70">
+                        <h5 class="widget-title">Quick Link</h5>
+                        <nav class="footer-menu">
+                            <ul><a href="#">Trang Nhà</a>
+                                <li><a href="#"></a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Thông Báo</a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Giới Thiệu</a></li>
+                                <li><a></a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Hình Ảnh</a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Bài Viết</a></li>
+                                <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Liên Hệ</a></li>
+                                <!--li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i> Blogs</a></li-->
+                                <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Dâng Hiến Online</a></li>
+                            </ul>
+                        </nav>
                     </div>
+                </div>
 
-                    <!-- Single Footer Widget -->
-                    <div class="col-12 col-sm-6 col-lg-3">
-                        <div class="single-footer-widget mb-70">
-                            <h5 class="widget-title">Thông Báo</h5>
-
-
-                            <div class="single-latest-news">
-                                <a href="#">Lớp Giáo Lý Dự Tòng 2019</a>
-                                <p><i class="fa fa-calendar" aria-hidden="true"></i> February 11, 2017</p>
-                            </div>
+                <!-- Single Footer Widget -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="single-footer-widget mb-70">
+                        <h5 class="widget-title">Thông Báo</h5>
 
 
-                            <div class="single-latest-news">
-                                <a href="#">Lớp Giáo Lý Chuẩn bị Hôn Nhân 2019</a>
-                                <p><i class="fa fa-calendar" aria-hidden="true"></i> May 11, 2017</p>
-                            </div>
-
+                        <div class="single-latest-news">
+                            <a href="#">Lớp Giáo Lý Dự Tòng 2019</a>
+                            <p><i class="fa fa-calendar" aria-hidden="true"></i> February 11, 2017</p>
                         </div>
-                    </div>
 
 
-
-                    <!-- Single Footer Widget -->
-                    <div class="col-12 col-sm-6 col-lg-3">
-                        <div class="single-footer-widget mb-70">
-                            <h5 class="widget-title">Contact Us</h5>
-
-                            <div class="contact-information">
-                                <p><i class="fa fa-map-marker" aria-hidden="true"></i> 4545-A Timmers Way, Norcross, GA </p>
-                                <a href="callto:770-921-0077"><i class="fa fa-phone" aria-hidden="true"></i> 770-921-0077</a>
-                                <a href="mailto:info@cttdvn.org"><i class="fa fa-envelope" aria-hidden="true"></i> info@cttdvn.org</a>
-                                <p><i class="fa fa-clock-o" aria-hidden="true"></i> Mon - Fri: 08.00 am - 5:30 pm</p>
-                            </div>
-
+                        <div class="single-latest-news">
+                            <a href="#">Lớp Giáo Lý Chuẩn bị Hôn Nhân 2019</a>
+                            <p><i class="fa fa-calendar" aria-hidden="true"></i> May 11, 2017</p>
                         </div>
-                    </div>
 
+                    </div>
+                </div>
+
+
+
+                <!-- Single Footer Widget -->
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="single-footer-widget mb-70">
+                        <h5 class="widget-title">Contact Us</h5>
+
+                        <div class="contact-information">
+                            <p><i class="fa fa-map-marker" aria-hidden="true"></i> 4545-A Timmers Way, Norcross, GA </p>
+                            <a href="callto:770-921-0077"><i class="fa fa-phone" aria-hidden="true"></i> 770-921-0077</a>
+                            <a href="mailto:info@cttdvn.org"><i class="fa fa-envelope" aria-hidden="true"></i> info@cttdvn.org</a>
+                            <p><i class="fa fa-clock-o" aria-hidden="true"></i> Mon - Fri: 08.00 am - 5:30 pm</p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Copwrite Area -->
+    <div class="copywrite-area">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center flex-wrap">
+                <!-- Copywrite Text -->
+                <div class="col-12 col-md-6">
+                    <div class="copywrite-text">
+                        <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | GX CTTĐVN - ATL<a href="https://colorlib.com" target="_blank"></a>
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Footer Social Icon -->
+                <div class="col-12 col-md-6">
+                    <div class="footer-social-icon">
+                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
+    </div>
+</footer>
+<!-- ##### Footer Area End ##### -->
 
-        <!-- Copwrite Area -->
-        <div class="copywrite-area">
-            <div class="container h-100">
-                <div class="row h-100 align-items-center flex-wrap">
-                    <!-- Copywrite Text -->
-                    <div class="col-12 col-md-6">
-                        <div class="copywrite-text">
-                            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                              Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | GX CTTĐVN - ATL<a href="https://colorlib.com" target="_blank"></a>
-                              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                            </p>
-                        </div>
-                    </div>
-
-                    <!-- Footer Social Icon -->
-                    <div class="col-12 col-md-6">
-                        <div class="footer-social-icon">
-                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                            <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-
-    <!-- ##### Footer Area End ##### -->
-
-    <!-- ##### All Javascript Script ##### -->
-    <!-- jQuery-2.2.4 js -->
-
-    
-    <!-- jQuery-2.2.4 js -->
-    <script src="js/jquery/jquery-2.2.4.min.js"></script>
-    <!-- Popper js -->
-    <script src="js/bootstrap/popper.min.js"></script>
-    <!-- Bootstrap js -->
-    <script src="js/bootstrap/bootstrap.min.js"></script>
-    <!-- All Plugins js -->
-    <script src="js/plugins/plugins.js"></script>
-    <!-- Active js -->
-    <script src="js/active.js"></script> 
-    
+<!-- ##### All Javascript Script ##### -->
+<!-- jQuery-2.2.4 js -->
+<script src="js/jquery/jquery-2.2.4.min.js"></script>
+<!-- Popper js -->
+<script src="js/bootstrap/popper.min.js"></script>
+<!-- Bootstrap js -->
+<script src="js/bootstrap/bootstrap.min.js"></script>
+<!-- All Plugins js -->
+<script src="js/plugins/plugins.js"></script>
+<!-- Active js -->
+<script src="js/active.js"></script>
 </body>
 
 </html>
