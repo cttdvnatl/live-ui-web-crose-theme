@@ -1,0 +1,37 @@
+table.tablecontrol {
+    font-family: Helvetica, sans-serif;
+    border: 1px solid #ffffff;
+    width: 1000px;
+    height: 200px;
+    text-align: left;
+    border-collapse: collapse;
+    margin-left:auto;
+    margin-right:auto;
+    table-layout: auto;
+    background: #FFF8CF;
+}
+table.tablecontrol td, table.tablecontrol th {
+    border: 1px solid #ffffff;
+    padding: 3px 2px;
+}
+table.tablecontrol tbody td {
+    font-size: 14px;
+}
+table.tablecontrol tr:nth-child(even) {
+    background: #fcdb7e;
+}
+
+table.tablecontrol thead {
+    background: #f2bf25;
+    border-bottom: 2px solid #ffffff;
+}
+table.tablecontrol thead th {
+    font-size: 17px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    border-left: 2px solid #ffffff;
+}
+table.tablecontrol thead th:first-child {
+    border-left: none;
+}
