@@ -126,9 +126,9 @@ section#timeline article div.inner2 span.date2 {
     font-size: 12px;
     font-weight: 900;
     text-transform: uppercase;
-    background: #fafad2; /*Inner circle*/
+    background: #cfb53b; /*Inner circle*/
     color: #000000;  /* Text Color in circle */
-    border: 5px solid #cf2d20;
+    border: 5px solid #e7c97c;
     box-shadow: 0 0 0 2px  #000000;
 }
 section#timeline article div.inner2 span.date2 span {
@@ -147,7 +147,7 @@ section#timeline article div.inner2 h2 {
     letter-spacing: -1px;
     border-radius: 6px 6px 0 0;
     position: relative;
-    background: #cf2d20;
+    background: #e7c97c;
 }
 section#timeline article div.inner2 h2:after {
     content: '';
@@ -157,13 +157,13 @@ section#timeline article div.inner2 h2:after {
     width: 10px;
     height: 10px;
     -webkit-transform: rotate(-45deg);
-    background: #cf2d20;
+    background: #e7c97c;
 }
 section#timeline article div.inner2 p {
     padding: 15px;
     margin: 0;
     font-size: 14px;
-    background: #fafad2;
+    background: #cfb53b;
     color: #000000;
     border-radius: 0 0 6px 6px;
 }
