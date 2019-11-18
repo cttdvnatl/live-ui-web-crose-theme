@@ -609,10 +609,10 @@ img {
         h2 {
             font-size: $raleway-fonts;
             letter-spacing: 1px;
-            @include trans-duration(500ms);
+            @include trans-duration(900ms);
             color: $white-color;
             font-weight: 700;
-            font-size: 72px;
+            font-size: 54px;
             @media #{$breakpoint-md} {
                 font-size: 48px;
             }
@@ -621,7 +621,7 @@ img {
             }
         }
         p {
-            font-size: 20px;
+            font-size: 28px;
             color: $white-color;
             margin-bottom: 40px;
             @media #{$breakpoint-xs} {
