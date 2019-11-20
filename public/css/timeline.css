@@ -1,9 +1,3 @@
-html, body {
-    margin: 0;
-    padding: 0;
-    font-family: Helvetica, sans-serif;
-}
-
 section#timeline {
     width: 80%;
     margin: 20px auto;
@@ -47,7 +41,7 @@ section#timeline article div.inner span.date {
     margin: 0 0 0 -32px;
     border-radius: 100%;
     font-size: 12px;
-    font-weight: 900;
+    font-weight: 600;
     text-transform: uppercase;
     background: #fafad2; /*Inner circle*/
     color: #000000;  /* Text Color in circle */
@@ -66,6 +60,7 @@ section#timeline article div.inner h2 {
     margin: 0;
     color: #000000;
     font-size: 18px;
+    font-weight: 600;
     text-transform: uppercase;
     letter-spacing: -1px;
     border-radius: 6px 6px 0 0;
@@ -124,9 +119,9 @@ section#timeline article div.inner2 span.date2 {
     margin: 0 0 0 -32px;
     border-radius: 100%;
     font-size: 12px;
-    font-weight: 900;
+    font-weight: 600;
     text-transform: uppercase;
-    background: #cfb53b; /*Inner circle*/
+    background: #850000; /*Inner circle*/
     color: #000000;  /* Text Color in circle */
     border: 5px solid #e7c97c;
     box-shadow: 0 0 0 2px  #000000;
@@ -137,12 +132,14 @@ section#timeline article div.inner2 span.date2 span {
 }
 section#timeline article div.inner2 span.date2 span.year2 {
     font-size: 18px;
+    color: #e7c97c;
 }
 section#timeline article div.inner2 h2 {
     padding: 5px;
     margin: 0;
     color: #000000;
     font-size: 18px;
+    font-weight: 600;
     text-transform: uppercase;
     letter-spacing: -1px;
     border-radius: 6px 6px 0 0;
