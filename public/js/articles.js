@@ -21,7 +21,7 @@ let getArticleString = (title, date, body) => (
                     <!-- <a href="#">Read More <i class="fa fa-angle-double-right"></i></a> -->
                 </div>
                 <div class="find-out-more-btn">
-                    <a href="#" class="btn crose-btn btn-2">Find Out More</a>
+                    <a href="single-article.html?date=${date}" class="btn crose-btn btn-2">Find Out More</a>
                 </div>
             </div>
         </div>
