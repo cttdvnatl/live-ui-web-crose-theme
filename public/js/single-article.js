@@ -6,10 +6,14 @@ function getUrlVars() {
     var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
         vars[key] = value;
     });
+    return vars;
 }
 
+let date = String(getUrlVars()["date"]);
+let article = articles.find(article => article.date == date);
 
-let getArticleString = (title, date, body) => (
+
+let getArticleString = (title, body) => (
     `
     <!-- Post Details Area -->
     <div class="single-post-details-area">
@@ -24,3 +28,4 @@ let getArticleString = (title, date, body) => (
     `
 );
 
+if (article) container.innerHTML += getArticleString(article.title, article.body);
