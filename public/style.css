@@ -147,7 +147,7 @@ img {
 
 .section-padding-25 {
   padding-top: 25px;
-  padding-bottom: 25px; }  
+  padding-bottom: 25px; }
 
 /* center */
 .center {
@@ -1921,6 +1921,10 @@ img {
   text-align: center;
   line-height: 75px;
   font-size: 30px;
+}
+/* Tin Tuc Cong Giao Area CSS */
+.tintuc {
+  margin: 5% 15%;
 }
 /* ======= The End ======= */
 
