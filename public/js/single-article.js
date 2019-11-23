@@ -17,9 +17,9 @@ let getArticleString = (title, body) => (
     `
     <!-- Post Details Area -->
     <div class="single-post-details-area">
-        <div class="post-thumbnail mb-30 col-12 col-lg-2">
-            <img src="img/bg-img/27.jpg" alt="">
-        </div>
+        <!-- <div class="post-thumbnail mb-30 col-12 col-lg-2">
+            <img src="" alt="">
+        </div> -->
         <div class="post-content col-12 col-lg-auto">
             <h2 class="post-title">${title}</h2>
             <p>${body.replace(/(?:\r\n|\r|\n)/g, '<br>')}</p>
