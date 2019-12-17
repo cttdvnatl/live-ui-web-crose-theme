@@ -25,7 +25,11 @@ body {
   font-family: "Open Sans", sans-serif;
   font-size: 14px; }
 
-h1,
+h1 {
+  color: #ffffff;
+  font-size: 35px;
+  font-weight: 700; }
+
 h2,
 h3,
 h4,
