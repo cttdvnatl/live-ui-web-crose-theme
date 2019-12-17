@@ -36,7 +36,7 @@
             dots: false,
             autoplay: true,
             center: true,
-            autoplayTimeout: 7000,
+            autoplayTimeout: 8000,
             smartSpeed: 1000
         });
 
@@ -74,7 +74,7 @@
             navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
             dots: false,
             autoplay: true,
-            autoplayTimeout: 7000,
+            autoplayTimeout: 8000,
             smartSpeed: 1500
         });
     }
