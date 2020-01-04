@@ -1,0 +1,33 @@
+[
+    {
+        "title": [
+            "Lễ Đức Maria Mẹ Thiên Chúa",
+            "Lễ Trọng và Buộc"
+        ],
+        "image": "img/bg-img/Christmas_exterior.jpg",
+        "content": [
+            "9:30 AM  | - Thánh Lễ tại Nhà Thờ mới",
+            "11:30 AM | - Thánh Lễ tại Nhà Thờ mới"
+        ]
+    },
+    {
+        "title": [
+            "Giờ Lễ"
+        ],
+        "image": "img/bg-img/interior2.jpg",
+        "content": [
+            "Thứ Hai - Thứ Bảy: | 8:00 Sáng",
+            "Thứ Năm - Thứ Sáu: | 7:00 Tối",
+            "Thứ Bảy:           | Lễ Vọng Chúa Nhật 5:30 Chiều",
+            "Chúa Nhật:         | 7:30 , 9:30 , 11:30 Sáng và 1:30 Chiều",
+            "Giải Tội:          | Ngày thường: Sau thánh Lễ  8:00 - Thứ Bảy: 4:30 - 5:15 Chiều",
+            "Rửa tội trẻ em:    | Lớp Giáo Lý: CN tuần thứ I 9:30 - 10:30 Sáng - Rửa Tội: Tuần II sau lễ 8:00 Sáng",
+            "Xức dầu bệnh nhân: | Hàng tháng sau Lễ CN thứ III",
+            "KHẨN CẤP: 770-910-2443"
+        ],
+        "button":{
+            "title": "Contact Us",
+            "action": "/contact.html"
+        }
+    }
+]
