@@ -15,6 +15,36 @@ Please update a new article in this form:
 
 const articles =
 [
+  
+  {
+    "Section": "Các Bài Viết",
+    "date":"2020-01-26",
+    "title": "Tuần Cầu nguyện cho hiệp nhất các tín hữu Kitô (18-25.1.2020)",
+    "body": `Hằng năm, các Giáo Hội Kitô bao gồm Công Giáo, Chính Thống Giáo, Tin Lành, Anh Giáo tổ chức “Tuần Cầu nguyện cho hiệp nhất các tín hữu Kitô” từ ngày 18 đến 25 tháng giêng. Qua đó, tất cả những ai tin vào Chúa Kitô trên khắp thế giới được mời gọi cùng cầu nguyện cho sự hiệp nhất trong tuần lễ này và có thể kéo dài trong cả năm. Việc cầu nguyện cho hiệp nhất rất cần thiết vì chính Chúa Giêsu đã cầu xin cùng Chúa Cha cho môn đệ nên một: “Lạy Cha, xin cho tất cả nên một, như Cha ở trong con và con ở trong Cha để họ cũng ở trong chúng ta” (Ga 17: 21).
+
+    Chủ đề của tuần cầu nguyện cho sự hiệp nhất các tín hữu Kitô năm 2020 dựa trên câu Kinh Thánh: “Họ đối xử với chúng tôi với lòng nhân đạo hiếm có” (Cv 28,2). Chủ đề này nhắc nhớ câu chuyện thánh Phaolô Tông đồ bị đắm tàu và trôi dạt vào đảo Malta, và được dân địa phương đón tiếp với lòng hiếu khách. Chủ đề này đã được Hội đồng Giám mục Công Giáo và Hội đồng các Giáo Hội Kitô Malta và Gozo chọn và soạn thảo các tài liệu cho tuần cầu nguyện.  
+
+    Như chúng ta được biết, hàng năm các tín hữu Kitô Malta đều cảm tạ Chúa vì biến cố thánh Phaolô và coi đây là nguồn gốc niềm tin Kitô tại đảo này. Lòng hiếu khách không phải là một nhân đức riêng biệt của Kitô giáo. Những người đón tiếp thánh Phaolô và những người đồng hành với ngài đã chứng tỏ lòng nhân đạo trong tinh thần hiếu khách. Nhưng cũng chính sự giúp đỡ khách lạ vì lòng nhân đạo hiếu khách mà họ được rao giảng và lãnh nhận đức tin.
+
+    Về nội dung, tám chủ đề sẽ được đào sâu trong tuần lễ cầu nguyện và suốt năm nay là: hòa giải, ánh sáng, hy vọng, tin tưởng, sức mạnh, lòng hiếu khách, sự hoán cải và lòng quảng đại.
+
+    Về phụng vụ Tại Roma, như thường lệ, chiều ngày 25/01, lễ Thánh Phaolô trở lại, Đức Thánh Cha Phanxicô sẽ chủ sự kinh chiều trọng thể tại Đền thờ Thánh Phaolô ngoại thành, nhân dịp bế mạc tuần cầu nguyện cho sự hiệp nhất, với sự tham dự của các đại diện cộng đồng các Giáo Hội Kitô ở Rôma.
+
+    Vậy ta làm gì để cổ động và áp dụng hiệp nhất trong đời sống Kitô hữu?
+
+    Trước hết, ta phải xác tín rằng: Giáo Hội của Chúa Kitô được mời gọi trở thành hoa quả đầu mùa của Nước Thiên Chúa. Nhưng trong tiến trình ‘trở thành’ này, chúng ta đã có những hành động bất công và gây chia rẽ. Vì vậy, được hiệp nhất với nhau dưới thập giá của Chúa Kitô để bày tỏ lòng hối hận và tin nơi quyền năng của Chúa Kitô để được tha thứ và chữa lành. Đồng thời, chúng ta cầu khẩn ơn thánh của Chúa để có thể chiến đấu chống lại bất công, chia rẽ đang xảy ra giữa các giáo hội tin vào Chúa Kitô.
+
+    Kế đến, hãy áp dụng tám (8) chủ đề suy tư và cầu nguyện trong tám ngày của Tuần Cầu nguyện cho sự Hiệp Nhất và đem ra thực hành trong cuộc sống hằng ngày. Chính từ trong tư tưởng, lời nói và hành động của từng người sẽ là phần đóng góp của chúng ta vào trong những nỗ lực của các giáo hội cho sự hiệp nhất giữa các Kitô hữu. Hy vọng rằng tuần cầu nguyện cho sự hiệp nhất các tín hữu Kitô năm nay là cơ hội để làm chứng tá, cầu nguyện và cùng nhau đón tiếp, “để thế gian tin.”
+
+    Sau nữa, Thiên Chúa có  thể dùng tất cả mọi cơ hội như vụ đắm tàu của thánh Phaolô ở đảo Malta chứng tỏ rằng qua những cuộc du hành nguy hiểm và những cuộc gặp gỡ tình cờ, việc loan báo Tin Mừng cứu độ của Chúa Kitô được thực hiện cho mọi người. Xin cho chính chúng ta cũng biết tận dụng mọi cơ hội khi thuận lợi cũng như khi không thuận lợi để Tin Mừng được loan báo.
+
+    Nguyện xin Thiên Chúa Ba Ngôi khấng nhậm lời cầu nguyện cho sự hiệp nhất, chúc lành cho những cố gắng xích lại gần, và thêm sức để chính mỗi người, qua những việc bác ái và tử tế với những người xa lạ, trở thành dấu chỉ sự hiệp nhất trong cuộc sống mỗi ngày.
+
+    Thân mến,
+
+    Lm. Phanxicô Trần Quốc Tuấn
+`
+  },
   {
     "Section": "Các Bài Viết",
     "date":"2020-01-12",
