@@ -53,16 +53,7 @@ const Directors = (prop) => {
                             <h4>Giuse Nguyễn Đức Sơn, Trưởng HDTC</h4>
                         </div>
                     </div>
-                </div>
-                {/* <!-- Single About Us Content --> */}
-                <div class="col-12 col-md-4 col-lg-3">
-                    <div class="about-us-content mb-100">
-                        <img src="" alt=""/>
-                        <div class="about-text">
-                            <h4></h4>
-                        </div>
-                    </div>
-                </div>               
+                </div>         
             </div>
         </div>
     </section>
