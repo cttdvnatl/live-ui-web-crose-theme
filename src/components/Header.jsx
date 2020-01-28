@@ -1,9 +1,9 @@
 import React, {useEffect, useState, useRef} from 'react';
 import './style.css';
-import axios from 'axios';
+// import axios from 'axios';
 
 const Header = (prop) => {
-    const [getTemp, setTemp] = useState(0);
+    const [getTemp] = useState(0);
     const [getTime, setTime] = useState("00:00 AM");
 
     //Element references
@@ -26,18 +26,19 @@ const Header = (prop) => {
     const mainMenu = useRef(null);
 
     //Get current temperature
-    const setTempCallback = () => navigator.geolocation.watchPosition((pos) => {
-        axios({
-            url:"https://api.openweathermap.org/data/2.5/weather",
-            method: 'get',
-            params: {
-                lat: pos.coords.latitude,
-                lon: pos.coords.longitude,
-                appid: 'a1f8ea13ceb084b2fc8527fa54ffa3c3',
-                units:'imperial'
-            },
-        }).then(result => setTemp(Math.round(result.data.main.temp)));
-    });
+    const setTempCallback = () => {};
+    // navigator.geolocation.watchPosition((pos) => {
+        // axios({
+        //     url:"https://api.openweathermap.org/data/2.5/weather",
+        //     method: 'get',
+        //     params: {
+        //         lat: pos.coords.latitude,
+        //         lon: pos.coords.longitude,
+        //         appid: 'a1f8ea13ceb084b2fc8527fa54ffa3c3',
+        //         units:'imperial'
+        //     },
+        // }).then(result => setTemp(Math.round(result.data.main.temp)));
+    // });
 
     //Get current time
     const setTimeCallback = () => {
