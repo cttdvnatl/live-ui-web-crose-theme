@@ -1306,6 +1306,11 @@ img {
   margin-bottom: 10px;
 }
 
+.footer-area .main-footer-area .single-footer-widget .footer-logo > img {
+  width: 220px;
+  height: 220px;
+}
+
 .footer-area .main-footer-area .single-footer-widget .widget-title {
   font-size: 18px;
   margin-bottom: 10px;
@@ -1384,6 +1389,10 @@ img {
   .footer-area .copywrite-area {
     height: auto;
     padding: 15px 0;
+  }
+  .footer-area .main-footer-area .single-footer-widget .footer-logo > img{
+    width: 130px;
+    height: 130px;
   }
 }
 
