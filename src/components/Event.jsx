@@ -1,4 +1,5 @@
 import React from 'react';
+import Carousel from 'react-bootstrap/Carousel';
 
 const Event = (prop) => {
     return (
@@ -19,12 +20,11 @@ const Event = (prop) => {
             </div>
 
             {/* <!-- Upcoming Events Slide --> */}
-            <div className="upcoming-events-slides-area">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-12">
-                            <div className="upcoming-slides owl-carousel">
-
+            <Carousel controls="false">
+                <Carousel.Item>
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-12">
                                 <div className="single-slide">
                                     {/* <!-- Single Upcoming Events Area --> */}
                                     <div className="single-upcoming-events-area d-flex flex-wrap align-items-center">
@@ -52,8 +52,8 @@ const Event = (prop) => {
                             </div>
                         </div>
                     </div>
-                </div>
-            </div>
+                </Carousel.Item>
+            </Carousel>
         </section>
     );
 }
