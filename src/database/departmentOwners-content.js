@@ -18,7 +18,7 @@ const departments = [
     deptName: 'Khối Đời Sống',
     primaryOwner: 'Anna Lê Tuyết Mai',
     primaryOwnerTitle: 'Trưởng Khối',
-    primaryOwnerImg: 'http://www.cttdvnatl.net/gallery/img/core-img/TuyetMai.jpg',
+    primaryOwnerImg: 'http://www.cttdvnatl.net/gallery/img/core-img/MaiLe.jpg',
     primaryOwnerPhone: '770-241-0264',
     primaryOwnerEmail: 'tuyetmai680@yahoo.com',
     secondaryOwner: 'Phêrô Hà Thanh Hùng',
