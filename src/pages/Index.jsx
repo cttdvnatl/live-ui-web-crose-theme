@@ -4,7 +4,7 @@ import Header from '../components/Header';
 import CustomCarousel from '../components/Carousel';
 import Footer from '../components/Footer';
 import Info from '../components/Info';
-
+import Event from '../components/Event';
 const Index = (prop) => {
     return(
         <div>
@@ -12,6 +12,7 @@ const Index = (prop) => {
             <Header/>
             <CustomCarousel/>
             <Info/>
+            <Event/>
             <Footer/>
         </div>
     )
