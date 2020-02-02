@@ -1,5 +1,5 @@
 import React from 'react';
-import Data from '../resources/Gallery.json';
+import Data from '../database/Gallery.json';
 const Gallery = (prop) => {
     return(
         <section>

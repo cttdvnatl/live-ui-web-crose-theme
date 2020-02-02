@@ -1,7 +1,7 @@
 import React from "react";
 import Carousel from 'react-bootstrap/Carousel';
 import './css/carousel.css';
-import Data from '../resources/Carousel.json';
+import Data from '../database/Carousel.json';
 
 const CustomCarousel = (prop) => {
     return (
