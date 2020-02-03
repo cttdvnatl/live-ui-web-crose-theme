@@ -8,7 +8,7 @@ let getArticleString = (title, date, body) => (
         <div class="single-upcoming-events-area d-flex flex-wrap align-items-center">
             <!-- Thumbnail -->
             <div class="upcoming-events-thumbnail">
-                <img src="img/core-img/articles-chaTuan.jpg" alt="">
+                <img src="http://cttdvnatl.net/gallery/img/core-img/articles-chaTuan.jpg" alt="">
             </div>
             <!-- Content -->
             <div class="upcoming-events-content d-flex flex-wrap align-items-center">
