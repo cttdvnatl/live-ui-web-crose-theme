@@ -1,9 +1,9 @@
-import React, {useEffect, useState, useRef} from 'react';
+import React, {useEffect, useState, useRef, useCallback} from 'react';
 import './style.css';
-// import axios from 'axios';
+import axios from 'axios';
 
 const Header = (prop) => {
-    const [getTemp] = useState(0);
+    const [getTemp, setTemp] = useState(0);
     const [getTime, setTime] = useState("00:00 AM");
 
     //Element references
@@ -25,23 +25,32 @@ const Header = (prop) => {
     const youtube = useRef(null);
     const mainMenu = useRef(null);
 
-    //Get current temperature
-    const setTempCallback = () => {};
-    // navigator.geolocation.watchPosition((pos) => {
-        // axios({
-        //     url:"https://api.openweathermap.org/data/2.5/weather",
-        //     method: 'get',
-        //     params: {
-        //         lat: pos.coords.latitude,
-        //         lon: pos.coords.longitude,
-        //         appid: 'a1f8ea13ceb084b2fc8527fa54ffa3c3',
-        //         units:'imperial'
-        //     },
-        // }).then(result => setTemp(Math.round(result.data.main.temp)));
-    // });
+    //Init the current temperature
+    useEffect(() => {
+        if(sessionStorage.getItem('temp'))
+            setTemp(sessionStorage.getItem('temp'));
+        else {    
+            navigator.geolocation.watchPosition((pos) => {
+                axios({
+                    url:"https://api.openweathermap.org/data/2.5/weather",
+                    method: 'get',
+                    params: {
+                        lat: pos.coords.latitude,
+                        lon: pos.coords.longitude,
+                        appid: 'a1f8ea13ceb084b2fc8527fa54ffa3c3',
+                        units:'imperial'
+                    },
+                }).then(result => {
+                    const temp = Math.round(result.data.main.temp);
+                    sessionStorage.setItem('temp', temp);
+                    setTemp(temp);
+                });
+            })
+        }
+    }, []);
 
     //Get current time
-    const setTimeCallback = () => {
+    const setTimeCallback = useCallback(() => {
         if(window.innerWidth < 1450) {
             setTime(new Date().toLocaleTimeString('en-US', {hc:'h12', hour:'numeric', minute:'numeric'}));
             time.current.classList.remove('fa-lg');
@@ -52,10 +61,10 @@ const Header = (prop) => {
             time.current.classList.add('fa-lg');
             temperature.current.classList.add('fa-lg');
         }
-    };
+    }, []);
 
     //Modify styling when the window size is changing
-    const resizeCallback = () => {
+    const resizeCallback = useCallback(() => {
         setTimeCallback();
         if(window.innerWidth < 1450) {
             massSchedule.current.classList.remove('fa-lg');
@@ -76,9 +85,9 @@ const Header = (prop) => {
             twitter.current.classList.add('fa-lg');
             youtube.current.classList.add('fa-lg');
         }
-    };
+    }, [setTimeCallback]);
     //Modify styling when the window is scrolled
-    const scrollCallback = () => {
+    const scrollCallback = useCallback(() => {
         const sticky = mainMenu.current.offsetTop;
         if (window.pageYOffset > sticky) {
         //   stickyWrapper.current.classList.add("is-sticky");
@@ -86,10 +95,9 @@ const Header = (prop) => {
         } else {
         //   stickyWrapper.current.classList.remove("is-sticky");
           mainMenu.current.classList.remove("is-sticky");
-          setTempCallback();
           setTimeCallback();
       }
-    }
+    }, [setTimeCallback]);
 
     const activateSidebar = () => {
         if(window.innerWidth < 1450) {
@@ -127,7 +135,6 @@ const Header = (prop) => {
     //Add event handler after the element is rendered
     useEffect(() => {
         //Call all the callbacks to setup initial value after the element is mounted
-        setTempCallback();
         setTimeCallback();
         resizeCallback();
         window.addEventListener("resize", resizeCallback);
@@ -137,7 +144,7 @@ const Header = (prop) => {
             window.removeEventListener("scroll", scrollCallback);
             window.removeEventListener("resize", resizeCallback);
         };
-      });
+      }, [setTimeCallback, resizeCallback, scrollCallback]);
     
     //JSX represent the header element
     return (

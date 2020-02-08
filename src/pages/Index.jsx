@@ -6,6 +6,7 @@ import Footer from '../components/Footer';
 import Info from '../components/Info';
 import Event from '../components/Event';
 import Gallery from '../components/Gallery';
+
 const Index = (prop) => {
     return(
         <div>
