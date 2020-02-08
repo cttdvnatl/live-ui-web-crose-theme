@@ -1,6 +1,6 @@
 import React, {useEffect, useState, useRef, useCallback} from 'react';
 import './style.css';
-import axios from 'axios';
+// import axios from 'axios';
 
 const Header = (prop) => {
     const [getTemp, setTemp] = useState(0);
