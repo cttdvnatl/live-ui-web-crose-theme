@@ -1,14 +1,14 @@
 import React from 'react';
-import Data from '../resources/Gallery.json';
+import Data from '../database/Gallery.json';
 const Gallery = (prop) => {
     return(
         <section>
-            <div class="gallery-area d-flex flex-wrap">
+            <div className="gallery-area d-flex flex-wrap">
             {
                 Data.assets.map((src,indx) => {
                     return(
-                        <div class="single-gallery-area">
-                            <a href={src} class="gallery-img" title={`Gallery Image ${indx}`}>
+                        <div key= {indx} className="single-gallery-area">
+                            <a href={src} className="gallery-img" title={`Gallery Image ${indx}`}>
                                 <img src={src} alt=""/>
                             </a>
                         </div>
