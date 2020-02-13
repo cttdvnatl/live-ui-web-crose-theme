@@ -1,8 +1,4 @@
 import React from 'react';
-<<<<<<< HEAD
-
-=======
->>>>>>> 461efec73fa929c416924450ad1ac06ce11d065a
 import {
   BrowserRouter as Router,
   Route,
