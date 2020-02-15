@@ -6,6 +6,7 @@ import './css/carousel.css';
 
 const CustomCarousel = (prop) => {
     const [getData, setData] = useState([]);
+    
     useEffect(() => {  
         axios.post('https://hvmatl-backend.herokuapp.com/authentication', {
             username: 'anonymous',
@@ -18,7 +19,7 @@ const CustomCarousel = (prop) => {
                 'Authorization': `Bearer ${auth.data.token}`
             },
             params:{
-                date:'02-08-2020'
+                date:'02-10-2020'
             }
         }).then(res => setData(Array.isArray(res.data) ? res.data: []));
     })}, [prop]);
@@ -29,7 +30,7 @@ const CustomCarousel = (prop) => {
                 return(
                     <Carousel.Item key={index}>
                         {item.image !== undefined ? 
-                            <img src={item.image} alt={item.image.slice(item.image.lastIndexOf('/') + 1)}/> : null}
+                            <img src={item.image} style={{overflow:"hidden"}} alt={item.image.slice(item.image.lastIndexOf('/') + 1)}/> : null}
                         <Carousel.Caption>
                             <div>
                                 {item.title.map((title, indx) => <h1 className="animated fadeInUpShort" key={indx}>{title}</h1>)}
