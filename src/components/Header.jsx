@@ -1,6 +1,6 @@
 import React, {useEffect, useState, useRef, useCallback} from 'react';
-import './style.css';
-// import axios from 'axios';
+// import './style.css';
+import axios from 'axios';
 
 const Header = (prop) => {
     const [getTemp, setTemp] = useState(0);
@@ -30,22 +30,22 @@ const Header = (prop) => {
         if(sessionStorage.getItem('temp'))
             setTemp(sessionStorage.getItem('temp'));
         else {    
-            // navigator.geolocation.watchPosition((pos) => {
-            //     axios({
-            //         url:"https://api.openweathermap.org/data/2.5/weather",
-            //         method: 'get',
-            //         params: {
-            //             lat: pos.coords.latitude,
-            //             lon: pos.coords.longitude,
-            //             appid: 'a1f8ea13ceb084b2fc8527fa54ffa3c3',
-            //             units:'imperial'
-            //         },
-            //     }).then(result => {
-            //         const temp = Math.round(result.data.main.temp);
-            //         sessionStorage.setItem('temp', temp);
-            //         setTemp(temp);
-            //     });
-            // })
+            navigator.geolocation.watchPosition((pos) => {
+                axios({
+                    url:"https://api.openweathermap.org/data/2.5/weather",
+                    method: 'get',
+                    params: {
+                        lat: pos.coords.latitude,
+                        lon: pos.coords.longitude,
+                        appid: 'a1f8ea13ceb084b2fc8527fa54ffa3c3',
+                        units:'imperial'
+                    },
+                }).then(result => {
+                    const temp = Math.round(result.data.main.temp);
+                    sessionStorage.setItem('temp', temp);
+                    setTemp(temp);
+                });
+            })
         }
     }, []);
 

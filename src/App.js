@@ -7,7 +7,7 @@ import ClergyListPage from './pages/ClergyListPage';
 import Index from './pages/Index';
 import Directors from './pages/Directors';
 import DeptInfo from './pages/DeptOwnerPage';
-
+import './css/style.css';
 const App = () => {
   return (
     <Router>
