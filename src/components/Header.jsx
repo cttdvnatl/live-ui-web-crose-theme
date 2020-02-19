@@ -5,7 +5,6 @@ import axios from 'axios';
 const Header = (prop) => {
     const [getTemp, setTemp] = useState(0);
     const [getTime, setTime] = useState("00:00 AM");
-
     //Element references
     const navbarToggler = useRef(null);
     const navbarMenu = useRef(null);
@@ -24,7 +23,6 @@ const Header = (prop) => {
     const twitter = useRef(null);
     const youtube = useRef(null);
     const mainMenu = useRef(null);
-
     //Init the current temperature
     useEffect(() => {
         if(sessionStorage.getItem('temp'))
@@ -172,6 +170,7 @@ const Header = (prop) => {
                     </div>
                 </div>
             </div>
+            <div style={{height: "90px"}}>
                 <div className="crose-main-menu" ref={mainMenu}>
                     <div className="classy-nav-container breakpoint-off" ref={navbar}>
                         <div className="container">
@@ -189,7 +188,7 @@ const Header = (prop) => {
                                             <li className="cn-dropdown-item has-down" onClick={(e) => toggleSubMenu(0, e)}><a href="/#">GIÁO XỨ</a>
                                                 <ul className="dropdown">
                                                     <li><a href="/">Trang Chủ</a></li>
-                                                    <li><a href="about.html">Sứ Mệnh Giáo Xứ</a></li>
+                                                    <li><a href="/about">Sứ Mệnh Giáo Xứ</a></li>
                                                     <li><a href="history.html">Lịch Sử Giáo Xứ</a></li>
                                                     <li><a href="https://drive.google.com/file/d/15MIqXgWDNfav8VOyCwepnhgZnvay7Eai/preview">Lịch Phụng Vụ</a></li>
                                                     <li><a href="clergy-list">Linh Mục/Tu Sĩ</a></li>
@@ -242,6 +241,7 @@ const Header = (prop) => {
                         </div>
                     </div>
                 </div>
+            </div>
         </header>
     );
 };
