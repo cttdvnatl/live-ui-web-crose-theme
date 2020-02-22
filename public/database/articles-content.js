@@ -37,7 +37,7 @@ const articles =
     
     Nguyện xin Thiên Chúa chúc lành cho từng người biết dung phương thức suy niệm Kitô giáo này để cầu nguyện và thăng tiến trong đời sống cầu nguyện.
     
-    Thân mến,
+    Thân mến, -------------------
     
     Lm Phanxicô Trần Quốc Tuấn.
     `
