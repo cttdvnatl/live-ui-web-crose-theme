@@ -15,7 +15,33 @@ Please update a new article in this form:
 
 const articles =
 [
-
+  {
+    "Section": "Các Bài Viết",
+    "date":"2020-02-16",
+    "title": "Cầu Nguyện Bằng Suy Niệm",
+    "body": `Khi để cập đến cầu nguyện, chúng ta thường dễ đồng hoá “đọc kinh” với “cầu nguyện”.  Thực ra đọc kinh là một cách cầu nguyện, nhưng đọc kinh không phải là cầu nguyện khi chỉ đọc một cách máy móc mà không đạt được sự hiệp thông với Thiên Chúa.  Trong phạm vi của bài chia sẻ, chúng ta cùng tìm hiểu về mục đích của cầu nguyện và những cách cầu nguyện. 
+    
+    Trước tiên, ta cùng tìm hiểu cầu nguyện là gì?  Ta có thể nói cầu nguyện là nâng tâm hồn lên cùng Chúa, hay xin Ngài ban cho những ơn cần thiết.  Nâng tâm hồn lên là nâng sự hiểu biết từ việc đặt mình làm trọng tâm đến mức đặt Thiên Chúa làm trọng tâm. Nâng tâm hồn lên là kết hợp với Thiên Chúa – là hiệp thông với Ngài. Để giúp chúng ta tập trung vào việc hiệp thông, chúng ta thường dùng những tâm tình sau: Thờ Lạy, Chúc Tụng, Cầu Xin, Xin Lỗi, và Xin Ơn.
+    
+    Kế đến, chúng ta đề cập đến những phương tiện giúp chúng ta cầu nguyện.
+    
+    Chúa Thánh Thần: dạy chúng ta cầu nguyện. Thực vậy, để cầu nguyện chúng ta phải có ý muốn và học cầu nguyện cũng như mở lòng để đón nhận Chúa Thánh Thần là nguổn mạch mọi ân phúc. Khi ta được Thiên Chúa xức dầu bằng Thánh Thần, Chúa Thánh Thần thấm nhập toàn thể con người ta, trở thành vị Thầy Nội Tâm dạy cho ta cầu nguyện. Vì thế, Hội Thánh kêu gọi chúng ta cầu xin Chúa Thánh Thần mỗi ngày, nhất là khi bắt đầu và kết thúc mỗi việc quan trọng.
+    
+    Lời Chúa – Giáo Hội luôn khuyến khích mọi Kitô hữu năng đọc Thánh Kinh để học, để biết, và yêu mến Đức Kitô.” Ta có thể nói rằng chúng ta thưa chuyện cùng Thiên Chúa khi cầu nguyện, và nghe Ngài khi đọc Thánh Kinh.
+    
+    Phụng Vụ của Hội Thánh – Sứ mạng của Ðức Kitô và Chúa Thánh Thần là công bố, hiện thực và thông truyền mầu nhiệm cứu độ trong Phụng Vụ của Hội Thánh.  Cử hành Phụng Vụ được tiếp nối nơi tâm hồn người cầu nguyện.  Nhờ cầu nguyện, tâm hồn được đồng hóa với Phụng Vụ trong khi và sau khi được cử hành.  
+    
+    Sau nữa là chúng ta cần cố gắng thiết lập cho mình một thói quen cầu nguyện và suy niệm Kitô giáo. Hôm nay tôi xin đan cử một phương pháp suy niệm đơn giản được thánh Phanxicô de Sales đề nghị trong cuốn Dẫn Vào Đời Sống Mến Yêu để chúng ta là người giáo dân tham gia vào đời sống cầu nguyện cách dễ dàng hơn. Bước thứ nhất chính là mỗi khi cầu nguyện, chúng ta phải bắt đầu bằng cách đặt mình trước sự hiện diện của Thiên Chúa. Cách để thực hiện điều này là dùng trí tưởng tượng của chúng ta để có thể thấy Chúa đang hiện diện bên cạnh chúng ta nơi chúng ta thực hành việc cầu nguyện. Thánh Phanxicô dạy rằng: “Để thực hành trí tưởng tượng cách đơn giản, anh em hãy tưởng tượng đến Đấng Cứu Rỗi anh em trong Nhân Tính như thể đang ở cạnh anh em, theo kiểu hướng suy nghĩ của mình về những người bạn, tưởng tượng mình đang nhìn thấy họ và cảm nhận họ đang ở cạnh mình.”
+    
+    Cụ thể, ta có thể nhắm mắt và tưởng tượng về một căn phòng, nơi đó chúng ta gặp thấy Chúa đang hiện diện trước mặt, hoặc thấy Ngài đang ngồi cạnh chúng ta. Chính từ bước thứ nhất này giúp chúng ta tiến vào bước thứ hai là hiệp thông với Chúa. Ta có thể thực hiện trong vài phút, hoặc nhiều hơn có thể tưởng tượng Chúa đang ở cạnh mình chừng nửa giờ.
+    
+    Nguyện xin Thiên Chúa chúc lành cho từng người biết dung phương thức suy niệm Kitô giáo này để cầu nguyện và thăng tiến trong đời sống cầu nguyện.
+    
+    Thân mến,
+    
+    Lm Phanxicô Trần Quốc Tuấn.
+    `
+  },
   {
     "Section": "Các Bài Viết",
     "date":"2020-02-09",
