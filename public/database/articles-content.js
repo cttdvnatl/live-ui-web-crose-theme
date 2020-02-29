@@ -5,7 +5,7 @@ Please update a new article in this form:
   {
     "Section": "Các Bài Viết",
     "date":"yyyy-mm-dd",
-    "title": "Tháng Mân Côi",
+    "title": "The title",
     "body": `sometext
 
     sometext`
@@ -17,7 +17,40 @@ const articles =
 [
   {
     "Section": "Các Bài Viết",
-    "date":"2020-23-02",
+    "date":"2020-03-01",
+    "title": "Sứ điệp Mùa Chay 2020 của Đức Thánh Cha Phanxicô",
+    "body": `Ngày 24 tháng 2 năm 2020, Tòa Thánh đã công bố Sứ điệp Mùa Chay 2020 của Đức Thánh Cha Phanxicô. Sứ điệp này được dựa trên câu Kinh Thánh của thánh Phaolô: “Chúng tôi cầu xin anh em, nhân danh Chúa Kitô, hãy hòa giải với Thiên Chúa” (2 Cr 5:20). Trong tâm tình tìm hiểu và sống sứ điệp trên, tôi xin chia sẻ mấy tâm tình sau:
+    
+    Trước tiên, về nội dung, ĐTC Phanxicô mời gọi các tín hữu hãy hướng về mầu nhiệm Vượt Qua là mầu nhiệm chịu nạn, sự chết và sự phục sinh của Đức Kitô, như là trung tâm của tiến trình hoán cải qua mấy điểm nhấn sau:
+    
+    Lời mời gọi hoán cải (Kerygma) là trọng điểm của thông điệp Tin Mừng. Đó chính là lời mời gọi từng người chúng ta hãy thể hiện mối thân tình với Thiên Chúa.  ĐTC Phanxicô muốn mời gọi mọi tín hữu trong Mùa Chay này, hãy hướng mắt nhìn lên Chúa bị đóng đinh, nhờ đó mà chúng ta được vực dậy hết lần này đến lần khác. Ngài cũng trình bày cho chúng ta rằng: Chúa Giêsu Phục Sinh không phải là một sự kiện quá khứ; nhưng nhờ quyền năng của Chúa Thánh Thần, nó luôn là một sự kiện sống động hiện tại, nhờ đức tin cho phép chúng ta nhìn nhận và đụng chạm tới một Chúa Kitô hiện thân chịu khổ nạn.
+    
+    Lời cầu nguyện rất quan trọng trong Mùa Chay, như một phương tiện để đáp lại tình yêu của Chúa, một tình yêu yêu thương chúng ta trước và mãi mãi! Chúng ta cũng được mời gọi để nghe và đáp lại Lời Chúa Giêsu, để trải nghiệm về lòng thương xót của Ngài, Ngài tự nguyện hiến thân vì chúng ta.
+    
+    Lời mời gọi ta nhận ra hình ảnh Chúa Kitô trong cuộc khổ nạn bi thương của Ngài qua hình ảnh của những người vô tội của các cuộc chiến, của các cuộc tấn công cướp đi sự sống của những thai nhi, đến những hất hủi người già neo đơn và nạn nhân của bạo lực dưới nhiều hình thức khác nhau...
+    
+    Lời mời gọi và thúc đẩy mỗi người chúng ta phải cam kết tham gia vào việc xây dựng một thế giới tốt đẹp hơn.
+    
+    ĐTC Phanxicô kết thúc sứ điệp bằng lời cầu nguyện cùng Đức Trinh Nữ Maria, ước mong trong suốt Mùa Chay này, chúng ta sẽ mở rộng tâm hồn để nghe tiếng mời gọi của Thiên Chúa đến hòa giải với chính Ngài, giúp chúng ta nhìn về mầu nhiệm vượt qua, và mong được hoán cải cuộc sống kết hợp mật thiết cùng Chúa với một tâm hồn rộng mở và chân thành…
+    
+    Kế đến là câu hỏi về Hành Trình Mùa Chay của từng người và từng gia đình của chúng ta. Như Giáo Hội nhắc nhớ trong Lòi Nguyện Khởi Đầu Mùa Chay: ‘Chúng ta bước vào Mùa Tập Luyện Thiêng Liêng’, tôi xin gợi ra mấy để nghị cụ thể để cùng tập luyện như sau:
+    
+    <b>-</b>  Gia tăng việc cầu nguyện bằng việc bắt đầu việc Cầu Nguyện và Suy niệm bằng Kinh Thánh. Chính mình và gia đình mình hãy bắt đầu mở Kinh Thánh, đọc và suy niệm về cuộc thương khó của Đức Kitô theo thánh Matthew. Cụ thể, hãy chuẩn bị chính mình và gia đình mình “được tái sinh một lần nữa” qua bí tích Hòa Giải.  Khi xưng thú các tội lỗi của mình, hãy vững tin vào lòng thương xót của Thiên Chúa, qua đó ta được giải thoát khỏi mặc cảm tội lỗi và trở nên giống Ngài hơn.
+    
+    <b>-</b>  Gia tăng việc hãm mình bằng những việc ăn chay từ miệng của những lời nói không tốt lành; từ mắt là những hình ảnh xấu xa, khiêu dâm trên internet, trang mạng xã hội; từ tai là những lời khuyến dụ của quảng cáo, xúi dục làm những điều không tốt….
+    
+    <b>-</b>  Gia tăng việc bác ái bằng việc kiểm tra những chi tiêu không cần thiết, để chính mình và từng thành viên trong gia đình ý thức và thực hiện việc góp tay xây dựng một thế giới tốt đẹp hơn bằng những hi sinh chia sẻ với những anh chị em đang kém may mắn về điều kiện vật chất.  
+    
+    Nguyện xin Thiên Chúa chúc lành cho những cố gắng để có thân tình với Chúa, hoán cải, và xây dựng thế giới này tốt đẹp hơn trong Mùa Chay Thánh 2020 này.
+    
+    Thân mến
+    
+    Lm. Phanxicô Tần Quốc Tuấn
+    `
+  },
+  {
+    "Section": "Các Bài Viết",
+    "date":"2020-02-23",
     "title": "Hành Trình Mùa Chay Thánh 2020",
     "body": `Chỉ còn mấy ngày nữa chúng ta bước vào Mùa Chay Thánh 2020. Mùa Chay bắt đầu từ Thứ Tư Lễ Tro cho đến đêm Vọng Phục Sinh. Để chuẩn bị tâm hồn bước vào Mùa Chay Thánh cũng còn gọi là Mùa Tập Luyện Thiêng Liêng, tôi xin gợi lên mấy nét chính của hành trình Mùa Chay như sau:
     
