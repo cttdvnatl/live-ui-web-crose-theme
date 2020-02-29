@@ -15,7 +15,35 @@ Please update a new article in this form:
 
 const articles =
 [
-
+  {
+    "Section": "Các Bài Viết",
+    "date":"2020-23-02",
+    "title": "Hành Trình Mùa Chay Thánh 2020",
+    "body": `Chỉ còn mấy ngày nữa chúng ta bước vào Mùa Chay Thánh 2020. Mùa Chay bắt đầu từ Thứ Tư Lễ Tro cho đến đêm Vọng Phục Sinh. Để chuẩn bị tâm hồn bước vào Mùa Chay Thánh cũng còn gọi là Mùa Tập Luyện Thiêng Liêng, tôi xin gợi lên mấy nét chính của hành trình Mùa Chay như sau:
+    
+    Về phụng vụ, mục đích của Mùa Chay nhằm chuẩn bị cử hành mầu nhiệm Phục Sinh. Phụng vụ Mùa Chay nổi bật hai đặc tính là việc sám hối và nhất là việc nhớ lại hoặc dọn mình chịu Phép Rửa, chuẩn bị các tín hữu cử hành mầu nhiệm Phục Sinh. Các dự tòng được chuẩn bị qua những giai đoạn khác nhau của việc nhập đạo, còn các tín hữu thì qua việc tưởng niệm bí tich Thánh Tẩy và việc sám hối (Hiến Chế Phụng Vụ, số 109).
+    
+    Khởi đầu Mùa Chay bằng nghi thức xức tro trong Thứ Tư Lễ Tro. Việc xức tro là hành vi thống hối công khai biểu lộ sự đau khổ, xấu hổ và hối hận vì đã phạm tội. Việc xức tro còn mang ý nghĩa khi chân thành nhìn vào thân phận làm người mong manh của mình, chỉ là bụi đất, và nếu Chúa không cứu chuộc, nếu không giữ được Ơn Cứu Chuộc của Chúa, thì vĩnh viễn trở về với bụi đất. Như vậy, Mùa Chay kéo dài 40 ngày là thời gian để hoán cải, để mọi tín hữu tiến bước trên một hành trình tiến về Thiên Chúa.  Để về tới đích này, mỗi người phải đối diện với chính mình, với đời sống mình để trả lời cho các câu hỏi: Cuộc sống này đưa ta đến đâu? Ai sẽ đưa ta đến? Ta tiến về Thiên Chúa một mình hay cùng với những người khác? Cả ba điều này gắn bó mật thiết với nhau, đến độ chỉ thiếu một, hai điều kia sẽ không trọn vẹn.
+    
+    Sứ điệp cho Mùa Chay năm nay của Đức Thánh Cha Phanxicô với chủ đề :  « Nhân danh Đức Kitô, chúng tôi nài xin anh em hãy làm hòa với Thiên Chúa » (2Cor 5,20) sẽ được Tòa Thánh công bố vào ngày 24/02/2020.
+    
+    Với Lời Chúa, để giúp ta tiến bước trong hành trình Mùa Chay, Giáo Hội trình bày việc chính Đức Giêsu chỉ ra ba việc đạo đức quan trọng là cầu nguyện, bố thí, ăn chay, để giúp ta từ bỏ những cái cũ xấu và đổi mới bản thân cho tốt lành hơn, cho đúng với phẩm giá của con Thiên Chúa.
+    
+    1. Gia tăng cầu nguyện là để giúp ta tìm về và thiết lập mối tương quan thân thiết với Thiên Chúa; là để để đối thoại, tìm kiếm, và thi hành thánh ý Chúa Cha như Đức Giêsu đã thực hành.
+    
+    2. Ăn chay là để luyện tập ta chống lại quyền lực sự dữ của ba ngẫu tượng luôn thống trị người ta là những đam mê vui thú, sự tham lam vô độ, và quyền lực danh vọng.  Qua đó, chúng ta thực sự bày tỏ tâm tình: ta cần đến Thiên Chúa và Lòng thương xót của Người.
+    
+    3. Chia sẻ để nói lên tình yêu thương và sự liên đới với anh chị em mình qua việc chia sẻ của cải cho những người đang thiếu thốn; cũng để nói lên những giá trị thật của của cải: ta làm chủ nó chứ không bị của điều khiển; và cũng để diễn tả lòng biết ơn và tình yêu Chúa đã ban cho chúng ta. Tất cả những của cải là những phương tiện hữu dụng để nhận ra Đức Kitô cần trợ giúp và để vào được Nước Trời.  
+    
+    Tại Giáo Xứ CTTĐVN, chúng ta sẽ tổ chức những buổi suy ngắm Đàng Thánh Giá, học hỏi Giáo Lý Sống Thánh Thể của HĐGM Hoa Kỳ, Giảng thuyết, Hòa Giải, và Chương trình bác ái “Chia Cơm Sẻ Áo” trong suốt Mùa Chay này.  Mong mỗi thành viên và từng gia đình lưu tâm, sắp xếp chương trình tham dự, và biết tận dụng hành trình này để ý thức rằng “Bốn Mươi Ngày”  không chỉ là 40 ngày chay tịnh của Chúa trong hoang địa, mà thực sự là một hành trình của mỗi người về lại với Thiên Chúa để sống trọn vẹn tình Cha – con với những cơ hội và ơn lành mà Mẹ Giáo Hội đã chuẩn bị cho chúng ta.
+    
+    Nguyện xin Thiên Chúa chúc lành cho từng thành viên, từng gia đình và cả Giáo Xứ, nhất là các anh chị em Dự Tuyển trong Mùa Chay Thánh 2020 này.
+    
+    Thân mến
+    
+    Lm. Fx Trần Quốc Tuấn
+    `
+  },
   {
     "Section": "Các Bài Viết",
     "date":"2020-02-09",
@@ -39,6 +67,7 @@ Năm nay, vào 11g00 trưa ngày 11/02, giáo xứ chúng ta có Thánh Lễ c�
 Chúng ta cùng hiệp ý với ĐTC Phanxicô cầu nguyện và tín thác các bệnh nhân cho sự bảo trợ của Mẹ Maria, xin Mẹ chuyển cầu cho tất cả các bệnh nhân và những người săn sóc họ.
 
 Thân mến
+
 Lm. Phanxico Trần Quốc Tuấn
 
 `
