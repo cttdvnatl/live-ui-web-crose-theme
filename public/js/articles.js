@@ -29,7 +29,8 @@ let getArticleString = (title, date, body) => (
     `
 );
 
-for (let i = 0; i < 7; i++) {
+for (let i = 0; i < articles.length; i++) {
     let article = articles[i];//articles.find(article => article.date = "2018-10-26");
-    container.innerHTML += getArticleString(article.title, article.date, article.body);
+    let formattedDate = article.date.split("-").reverse().join("-");
+    container.innerHTML += getArticleString(article.title, formattedDate, article.body);
 }

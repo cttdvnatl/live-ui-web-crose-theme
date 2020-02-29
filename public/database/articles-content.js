@@ -5,7 +5,7 @@ Please update a new article in this form:
   {
     "Section": "Các Bài Viết",
     "date":"yyyy-mm-dd",
-    "title": "Tháng Mân Côi",
+    "title": "The title",
     "body": `sometext
 
     sometext`
@@ -15,7 +15,93 @@ Please update a new article in this form:
 
 const articles =
 [
-
+  {
+    "Section": "Các Bài Viết",
+    "date":"2020-03-01",
+    "title": "Sứ điệp Mùa Chay 2020 của Đức Thánh Cha Phanxicô",
+    "body": `Ngày 24 tháng 2 năm 2020, Tòa Thánh đã công bố Sứ điệp Mùa Chay 2020 của Đức Thánh Cha Phanxicô. Sứ điệp này được dựa trên câu Kinh Thánh của thánh Phaolô: “Chúng tôi cầu xin anh em, nhân danh Chúa Kitô, hãy hòa giải với Thiên Chúa” (2 Cr 5:20). Trong tâm tình tìm hiểu và sống sứ điệp trên, tôi xin chia sẻ mấy tâm tình sau:
+    
+    Trước tiên, về nội dung, ĐTC Phanxicô mời gọi các tín hữu hãy hướng về mầu nhiệm Vượt Qua là mầu nhiệm chịu nạn, sự chết và sự phục sinh của Đức Kitô, như là trung tâm của tiến trình hoán cải qua mấy điểm nhấn sau:
+    
+    Lời mời gọi hoán cải (Kerygma) là trọng điểm của thông điệp Tin Mừng. Đó chính là lời mời gọi từng người chúng ta hãy thể hiện mối thân tình với Thiên Chúa.  ĐTC Phanxicô muốn mời gọi mọi tín hữu trong Mùa Chay này, hãy hướng mắt nhìn lên Chúa bị đóng đinh, nhờ đó mà chúng ta được vực dậy hết lần này đến lần khác. Ngài cũng trình bày cho chúng ta rằng: Chúa Giêsu Phục Sinh không phải là một sự kiện quá khứ; nhưng nhờ quyền năng của Chúa Thánh Thần, nó luôn là một sự kiện sống động hiện tại, nhờ đức tin cho phép chúng ta nhìn nhận và đụng chạm tới một Chúa Kitô hiện thân chịu khổ nạn.
+    
+    Lời cầu nguyện rất quan trọng trong Mùa Chay, như một phương tiện để đáp lại tình yêu của Chúa, một tình yêu yêu thương chúng ta trước và mãi mãi! Chúng ta cũng được mời gọi để nghe và đáp lại Lời Chúa Giêsu, để trải nghiệm về lòng thương xót của Ngài, Ngài tự nguyện hiến thân vì chúng ta.
+    
+    Lời mời gọi ta nhận ra hình ảnh Chúa Kitô trong cuộc khổ nạn bi thương của Ngài qua hình ảnh của những người vô tội của các cuộc chiến, của các cuộc tấn công cướp đi sự sống của những thai nhi, đến những hất hủi người già neo đơn và nạn nhân của bạo lực dưới nhiều hình thức khác nhau...
+    
+    Lời mời gọi và thúc đẩy mỗi người chúng ta phải cam kết tham gia vào việc xây dựng một thế giới tốt đẹp hơn.
+    
+    ĐTC Phanxicô kết thúc sứ điệp bằng lời cầu nguyện cùng Đức Trinh Nữ Maria, ước mong trong suốt Mùa Chay này, chúng ta sẽ mở rộng tâm hồn để nghe tiếng mời gọi của Thiên Chúa đến hòa giải với chính Ngài, giúp chúng ta nhìn về mầu nhiệm vượt qua, và mong được hoán cải cuộc sống kết hợp mật thiết cùng Chúa với một tâm hồn rộng mở và chân thành…
+    
+    Kế đến là câu hỏi về Hành Trình Mùa Chay của từng người và từng gia đình của chúng ta. Như Giáo Hội nhắc nhớ trong Lòi Nguyện Khởi Đầu Mùa Chay: ‘Chúng ta bước vào Mùa Tập Luyện Thiêng Liêng’, tôi xin gợi ra mấy để nghị cụ thể để cùng tập luyện như sau:
+    
+    <b>-</b>  Gia tăng việc cầu nguyện bằng việc bắt đầu việc Cầu Nguyện và Suy niệm bằng Kinh Thánh. Chính mình và gia đình mình hãy bắt đầu mở Kinh Thánh, đọc và suy niệm về cuộc thương khó của Đức Kitô theo thánh Matthew. Cụ thể, hãy chuẩn bị chính mình và gia đình mình “được tái sinh một lần nữa” qua bí tích Hòa Giải.  Khi xưng thú các tội lỗi của mình, hãy vững tin vào lòng thương xót của Thiên Chúa, qua đó ta được giải thoát khỏi mặc cảm tội lỗi và trở nên giống Ngài hơn.
+    
+    <b>-</b>  Gia tăng việc hãm mình bằng những việc ăn chay từ miệng của những lời nói không tốt lành; từ mắt là những hình ảnh xấu xa, khiêu dâm trên internet, trang mạng xã hội; từ tai là những lời khuyến dụ của quảng cáo, xúi dục làm những điều không tốt….
+    
+    <b>-</b>  Gia tăng việc bác ái bằng việc kiểm tra những chi tiêu không cần thiết, để chính mình và từng thành viên trong gia đình ý thức và thực hiện việc góp tay xây dựng một thế giới tốt đẹp hơn bằng những hi sinh chia sẻ với những anh chị em đang kém may mắn về điều kiện vật chất.  
+    
+    Nguyện xin Thiên Chúa chúc lành cho những cố gắng để có thân tình với Chúa, hoán cải, và xây dựng thế giới này tốt đẹp hơn trong Mùa Chay Thánh 2020 này.
+    
+    Thân mến
+    
+    Lm. Phanxicô Tần Quốc Tuấn
+    `
+  },
+  {
+    "Section": "Các Bài Viết",
+    "date":"2020-02-23",
+    "title": "Hành Trình Mùa Chay Thánh 2020",
+    "body": `Chỉ còn mấy ngày nữa chúng ta bước vào Mùa Chay Thánh 2020. Mùa Chay bắt đầu từ Thứ Tư Lễ Tro cho đến đêm Vọng Phục Sinh. Để chuẩn bị tâm hồn bước vào Mùa Chay Thánh cũng còn gọi là Mùa Tập Luyện Thiêng Liêng, tôi xin gợi lên mấy nét chính của hành trình Mùa Chay như sau:
+    
+    Về phụng vụ, mục đích của Mùa Chay nhằm chuẩn bị cử hành mầu nhiệm Phục Sinh. Phụng vụ Mùa Chay nổi bật hai đặc tính là việc sám hối và nhất là việc nhớ lại hoặc dọn mình chịu Phép Rửa, chuẩn bị các tín hữu cử hành mầu nhiệm Phục Sinh. Các dự tòng được chuẩn bị qua những giai đoạn khác nhau của việc nhập đạo, còn các tín hữu thì qua việc tưởng niệm bí tich Thánh Tẩy và việc sám hối (Hiến Chế Phụng Vụ, số 109).
+    
+    Khởi đầu Mùa Chay bằng nghi thức xức tro trong Thứ Tư Lễ Tro. Việc xức tro là hành vi thống hối công khai biểu lộ sự đau khổ, xấu hổ và hối hận vì đã phạm tội. Việc xức tro còn mang ý nghĩa khi chân thành nhìn vào thân phận làm người mong manh của mình, chỉ là bụi đất, và nếu Chúa không cứu chuộc, nếu không giữ được Ơn Cứu Chuộc của Chúa, thì vĩnh viễn trở về với bụi đất. Như vậy, Mùa Chay kéo dài 40 ngày là thời gian để hoán cải, để mọi tín hữu tiến bước trên một hành trình tiến về Thiên Chúa.  Để về tới đích này, mỗi người phải đối diện với chính mình, với đời sống mình để trả lời cho các câu hỏi: Cuộc sống này đưa ta đến đâu? Ai sẽ đưa ta đến? Ta tiến về Thiên Chúa một mình hay cùng với những người khác? Cả ba điều này gắn bó mật thiết với nhau, đến độ chỉ thiếu một, hai điều kia sẽ không trọn vẹn.
+    
+    Sứ điệp cho Mùa Chay năm nay của Đức Thánh Cha Phanxicô với chủ đề :  « Nhân danh Đức Kitô, chúng tôi nài xin anh em hãy làm hòa với Thiên Chúa » (2Cor 5,20) sẽ được Tòa Thánh công bố vào ngày 24/02/2020.
+    
+    Với Lời Chúa, để giúp ta tiến bước trong hành trình Mùa Chay, Giáo Hội trình bày việc chính Đức Giêsu chỉ ra ba việc đạo đức quan trọng là cầu nguyện, bố thí, ăn chay, để giúp ta từ bỏ những cái cũ xấu và đổi mới bản thân cho tốt lành hơn, cho đúng với phẩm giá của con Thiên Chúa.
+    
+    <b>1.</b> Gia tăng cầu nguyện là để giúp ta tìm về và thiết lập mối tương quan thân thiết với Thiên Chúa; là để để đối thoại, tìm kiếm, và thi hành thánh ý Chúa Cha như Đức Giêsu đã thực hành.
+    
+    <b>2.</b> Ăn chay là để luyện tập ta chống lại quyền lực sự dữ của ba ngẫu tượng luôn thống trị người ta là những đam mê vui thú, sự tham lam vô độ, và quyền lực danh vọng.  Qua đó, chúng ta thực sự bày tỏ tâm tình: ta cần đến Thiên Chúa và Lòng thương xót của Người.
+    
+    <b>3.</b> Chia sẻ để nói lên tình yêu thương và sự liên đới với anh chị em mình qua việc chia sẻ của cải cho những người đang thiếu thốn; cũng để nói lên những giá trị thật của của cải: ta làm chủ nó chứ không bị của điều khiển; và cũng để diễn tả lòng biết ơn và tình yêu Chúa đã ban cho chúng ta. Tất cả những của cải là những phương tiện hữu dụng để nhận ra Đức Kitô cần trợ giúp và để vào được Nước Trời.  
+    
+    Tại Giáo Xứ CTTĐVN, chúng ta sẽ tổ chức những buổi suy ngắm Đàng Thánh Giá, học hỏi Giáo Lý Sống Thánh Thể của HĐGM Hoa Kỳ, Giảng thuyết, Hòa Giải, và Chương trình bác ái “Chia Cơm Sẻ Áo” trong suốt Mùa Chay này.  Mong mỗi thành viên và từng gia đình lưu tâm, sắp xếp chương trình tham dự, và biết tận dụng hành trình này để ý thức rằng “Bốn Mươi Ngày”  không chỉ là 40 ngày chay tịnh của Chúa trong hoang địa, mà thực sự là một hành trình của mỗi người về lại với Thiên Chúa để sống trọn vẹn tình Cha – con với những cơ hội và ơn lành mà Mẹ Giáo Hội đã chuẩn bị cho chúng ta.
+    
+    Nguyện xin Thiên Chúa chúc lành cho từng thành viên, từng gia đình và cả Giáo Xứ, nhất là các anh chị em Dự Tuyển trong Mùa Chay Thánh 2020 này.
+    
+    Thân mến
+    
+    Lm. Fx Trần Quốc Tuấn`
+  },
+  {
+    "Section": "Các Bài Viết",
+    "date":"2020-02-16",
+    "title": "Cầu Nguyện Bằng Suy Niệm",
+    "body": `Khi để cập đến cầu nguyện, chúng ta thường dễ đồng hoá “đọc kinh” với “cầu nguyện”.  Thực ra đọc kinh là một cách cầu nguyện, nhưng đọc kinh không phải là cầu nguyện khi chỉ đọc một cách máy móc mà không đạt được sự hiệp thông với Thiên Chúa.  Trong phạm vi của bài chia sẻ, chúng ta cùng tìm hiểu về mục đích của cầu nguyện và những cách cầu nguyện. 
+    
+    Trước tiên, ta cùng tìm hiểu cầu nguyện là gì?  Ta có thể nói cầu nguyện là nâng tâm hồn lên cùng Chúa, hay xin Ngài ban cho những ơn cần thiết.  Nâng tâm hồn lên là nâng sự hiểu biết từ việc đặt mình làm trọng tâm đến mức đặt Thiên Chúa làm trọng tâm. Nâng tâm hồn lên là kết hợp với Thiên Chúa – là hiệp thông với Ngài. Để giúp chúng ta tập trung vào việc hiệp thông, chúng ta thường dùng những tâm tình sau: Thờ Lạy, Chúc Tụng, Cầu Xin, Xin Lỗi, và Xin Ơn.
+    
+    Kế đến, chúng ta đề cập đến những phương tiện giúp chúng ta cầu nguyện.
+    
+    Chúa Thánh Thần: dạy chúng ta cầu nguyện. Thực vậy, để cầu nguyện chúng ta phải có ý muốn và học cầu nguyện cũng như mở lòng để đón nhận Chúa Thánh Thần là nguổn mạch mọi ân phúc. Khi ta được Thiên Chúa xức dầu bằng Thánh Thần, Chúa Thánh Thần thấm nhập toàn thể con người ta, trở thành vị Thầy Nội Tâm dạy cho ta cầu nguyện. Vì thế, Hội Thánh kêu gọi chúng ta cầu xin Chúa Thánh Thần mỗi ngày, nhất là khi bắt đầu và kết thúc mỗi việc quan trọng.
+    
+    Lời Chúa – Giáo Hội luôn khuyến khích mọi Kitô hữu năng đọc Thánh Kinh để học, để biết, và yêu mến Đức Kitô.” Ta có thể nói rằng chúng ta thưa chuyện cùng Thiên Chúa khi cầu nguyện, và nghe Ngài khi đọc Thánh Kinh.
+    
+    Phụng Vụ của Hội Thánh – Sứ mạng của Ðức Kitô và Chúa Thánh Thần là công bố, hiện thực và thông truyền mầu nhiệm cứu độ trong Phụng Vụ của Hội Thánh.  Cử hành Phụng Vụ được tiếp nối nơi tâm hồn người cầu nguyện.  Nhờ cầu nguyện, tâm hồn được đồng hóa với Phụng Vụ trong khi và sau khi được cử hành.  
+    
+    Sau nữa là chúng ta cần cố gắng thiết lập cho mình một thói quen cầu nguyện và suy niệm Kitô giáo. Hôm nay tôi xin đan cử một phương pháp suy niệm đơn giản được thánh Phanxicô de Sales đề nghị trong cuốn Dẫn Vào Đời Sống Mến Yêu để chúng ta là người giáo dân tham gia vào đời sống cầu nguyện cách dễ dàng hơn. Bước thứ nhất chính là mỗi khi cầu nguyện, chúng ta phải bắt đầu bằng cách đặt mình trước sự hiện diện của Thiên Chúa. Cách để thực hiện điều này là dùng trí tưởng tượng của chúng ta để có thể thấy Chúa đang hiện diện bên cạnh chúng ta nơi chúng ta thực hành việc cầu nguyện. Thánh Phanxicô dạy rằng: “Để thực hành trí tưởng tượng cách đơn giản, anh em hãy tưởng tượng đến Đấng Cứu Rỗi anh em trong Nhân Tính như thể đang ở cạnh anh em, theo kiểu hướng suy nghĩ của mình về những người bạn, tưởng tượng mình đang nhìn thấy họ và cảm nhận họ đang ở cạnh mình.”
+    
+    Cụ thể, ta có thể nhắm mắt và tưởng tượng về một căn phòng, nơi đó chúng ta gặp thấy Chúa đang hiện diện trước mặt, hoặc thấy Ngài đang ngồi cạnh chúng ta. Chính từ bước thứ nhất này giúp chúng ta tiến vào bước thứ hai là hiệp thông với Chúa. Ta có thể thực hiện trong vài phút, hoặc nhiều hơn có thể tưởng tượng Chúa đang ở cạnh mình chừng nửa giờ.
+    
+    Nguyện xin Thiên Chúa chúc lành cho từng người biết dung phương thức suy niệm Kitô giáo này để cầu nguyện và thăng tiến trong đời sống cầu nguyện.
+    
+    Thân mến,
+    
+    Lm Phanxicô Trần Quốc Tuấn.`
+  },
   {
     "Section": "Các Bài Viết",
     "date":"2020-02-09",
@@ -39,6 +125,7 @@ Năm nay, vào 11g00 trưa ngày 11/02, giáo xứ chúng ta có Thánh Lễ c�
 Chúng ta cùng hiệp ý với ĐTC Phanxicô cầu nguyện và tín thác các bệnh nhân cho sự bảo trợ của Mẹ Maria, xin Mẹ chuyển cầu cho tất cả các bệnh nhân và những người săn sóc họ.
 
 Thân mến
+
 Lm. Phanxico Trần Quốc Tuấn
 
 `
