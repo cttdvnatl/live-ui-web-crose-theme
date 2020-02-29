@@ -990,7 +990,8 @@ img {
 .single-upcoming-events-area {
   position: relative;
   z-index: 1;
-  margin-top: 40px; }
+  margin-top: 40px;
+   }
   .single-upcoming-events-area .upcoming-events-thumbnail {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 300px;
@@ -998,7 +999,8 @@ img {
     max-width: 300px;
     width: 300px;
     border-radius: 5px;
-    padding-left: 15px; }
+    padding-left: 15px; 
+    }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
       .single-upcoming-events-area .upcoming-events-thumbnail {
         -webkit-box-flex: 0;
@@ -1006,7 +1008,10 @@ img {
         flex: 0 0 100%;
         max-width: 100%;
         width: 100%;
-        margin-bottom: 50px; } }
+        margin-bottom: 50px; 
+        
+        } 
+      }
     @media only screen and (max-width: 767px) {
       .single-upcoming-events-area .upcoming-events-thumbnail {
         -webkit-box-flex: 0;
@@ -1014,11 +1019,13 @@ img {
         flex: 0 0 100%;
         max-width: 100%;
         width: 100%;
-        margin-bottom: 50px; } }
+        margin-bottom: 50px; 
+        } }
     .single-upcoming-events-area .upcoming-events-thumbnail img {
       border-radius: 5px;
       box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.15);
-      width: 100%; }
+      width: 100%; 
+      }
   .single-upcoming-events-area .upcoming-events-content {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 calc(100% - 300px);
@@ -1026,14 +1033,16 @@ img {
     max-width: calc(100% - 300px);
     width: calc(100% - 300px);
     padding-left: 50px;
-    padding-right: 15px; }
+    padding-right: 15px; 
+    }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
       .single-upcoming-events-area .upcoming-events-content {
         -webkit-box-flex: 0;
         -ms-flex: 0 0 100%;
         flex: 0 0 100%;
         max-width: 100%;
-        width: 100%; } }
+        width: 100%; 
+        } }
     @media only screen and (max-width: 767px) {
       .single-upcoming-events-area .upcoming-events-content {
         -webkit-box-flex: 0;
@@ -1047,7 +1056,8 @@ img {
       -ms-flex: 0 0 70%;
       flex: 0 0 70%;
       max-width: 70%;
-      width: 70%; }
+      width: 70%; 
+      }
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
         .single-upcoming-events-area .upcoming-events-content .events-text {
           -webkit-box-flex: 0;
