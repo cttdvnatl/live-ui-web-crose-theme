@@ -29,11 +29,11 @@ const articles =
     
     Với Lời Chúa, để giúp ta tiến bước trong hành trình Mùa Chay, Giáo Hội trình bày việc chính Đức Giêsu chỉ ra ba việc đạo đức quan trọng là cầu nguyện, bố thí, ăn chay, để giúp ta từ bỏ những cái cũ xấu và đổi mới bản thân cho tốt lành hơn, cho đúng với phẩm giá của con Thiên Chúa.
     
-    1. Gia tăng cầu nguyện là để giúp ta tìm về và thiết lập mối tương quan thân thiết với Thiên Chúa; là để để đối thoại, tìm kiếm, và thi hành thánh ý Chúa Cha như Đức Giêsu đã thực hành.
+    <b>1.</b> Gia tăng cầu nguyện là để giúp ta tìm về và thiết lập mối tương quan thân thiết với Thiên Chúa; là để để đối thoại, tìm kiếm, và thi hành thánh ý Chúa Cha như Đức Giêsu đã thực hành.
     
-    2. Ăn chay là để luyện tập ta chống lại quyền lực sự dữ của ba ngẫu tượng luôn thống trị người ta là những đam mê vui thú, sự tham lam vô độ, và quyền lực danh vọng.  Qua đó, chúng ta thực sự bày tỏ tâm tình: ta cần đến Thiên Chúa và Lòng thương xót của Người.
+    <b>2.</b> Ăn chay là để luyện tập ta chống lại quyền lực sự dữ của ba ngẫu tượng luôn thống trị người ta là những đam mê vui thú, sự tham lam vô độ, và quyền lực danh vọng.  Qua đó, chúng ta thực sự bày tỏ tâm tình: ta cần đến Thiên Chúa và Lòng thương xót của Người.
     
-    3. Chia sẻ để nói lên tình yêu thương và sự liên đới với anh chị em mình qua việc chia sẻ của cải cho những người đang thiếu thốn; cũng để nói lên những giá trị thật của của cải: ta làm chủ nó chứ không bị của điều khiển; và cũng để diễn tả lòng biết ơn và tình yêu Chúa đã ban cho chúng ta. Tất cả những của cải là những phương tiện hữu dụng để nhận ra Đức Kitô cần trợ giúp và để vào được Nước Trời.  
+    <b>3.</b> Chia sẻ để nói lên tình yêu thương và sự liên đới với anh chị em mình qua việc chia sẻ của cải cho những người đang thiếu thốn; cũng để nói lên những giá trị thật của của cải: ta làm chủ nó chứ không bị của điều khiển; và cũng để diễn tả lòng biết ơn và tình yêu Chúa đã ban cho chúng ta. Tất cả những của cải là những phương tiện hữu dụng để nhận ra Đức Kitô cần trợ giúp và để vào được Nước Trời.  
     
     Tại Giáo Xứ CTTĐVN, chúng ta sẽ tổ chức những buổi suy ngắm Đàng Thánh Giá, học hỏi Giáo Lý Sống Thánh Thể của HĐGM Hoa Kỳ, Giảng thuyết, Hòa Giải, và Chương trình bác ái “Chia Cơm Sẻ Áo” trong suốt Mùa Chay này.  Mong mỗi thành viên và từng gia đình lưu tâm, sắp xếp chương trình tham dự, và biết tận dụng hành trình này để ý thức rằng “Bốn Mươi Ngày”  không chỉ là 40 ngày chay tịnh của Chúa trong hoang địa, mà thực sự là một hành trình của mỗi người về lại với Thiên Chúa để sống trọn vẹn tình Cha – con với những cơ hội và ơn lành mà Mẹ Giáo Hội đã chuẩn bị cho chúng ta.
     
