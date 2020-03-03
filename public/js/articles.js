@@ -15,7 +15,7 @@ let getArticleString = (title, date, body) => (
                 <div class="events-text">
                     <h4>${title}</h4>
                     <div class="events-meta">
-                        <a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>${date}</a>
+                        <a href="#"><i class="fa fa-calendar" aria-hidden="true"></i>${date.split("-").reverse().join("-")}</a>
                     </div>
                     <p>${body.replace(/(?:\r\n|\r|\n)/g, '<br>').substring(0,101) + "..."}</p>
                     <!-- <a href="#">Read More <i class="fa fa-angle-double-right"></i></a> -->
@@ -30,7 +30,6 @@ let getArticleString = (title, date, body) => (
 );
 
 for (let i = 0; i < articles.length; i++) {
-    let article = articles[i];//articles.find(article => article.date = "2018-10-26");
-    let formattedDate = article.date.split("-").reverse().join("-");
-    container.innerHTML += getArticleString(article.title, formattedDate, article.body);
+    let article = articles[i];
+    container.innerHTML += getArticleString(article.title, article.date, article.body);
 }
