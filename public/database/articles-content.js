@@ -1,12 +1,15 @@
 /*
 
 Please update a new article in this form:
+The image attribute is the link to the image in the article
+If there is no image, the default image will be added in articles.js
 
   {
     "Section": "Các Bài Viết",
     "date":"yyyy-mm-dd",
-    "title": "The title",
-    "body": `sometext
+    "image":"http://cttdvnatl.net/gallery/img/link-to-the-image"
+    "title":"The title",
+    "body":`sometext
 
     sometext`
   },
@@ -18,8 +21,9 @@ const articles =
   {
     "Section": "Các Bài Viết",
     "date":"2020-03-08",
-    "title": "Tin Vui Trong Mùa Chay",
-    "body": `Tâm tình phụng vụ của Mùa Chay là ăn năm sám hối và trai tịnh. Tuy vậy, chúng ta cũng có những tin vui, hôm nay tôi hân hoan chia sẻ cùng quý thành viên mấy tin vui rất đặc biệt sau:
+    "image":"http://cttdvnatl.net/gallery/img/index/Hero_1.jpg",
+    "title":"Tin Vui Trong Mùa Chay",
+    "body":`Tâm tình phụng vụ của Mùa Chay là ăn năm sám hối và chay tịnh. Tuy vậy, chúng ta cũng có những tin vui, hôm nay tôi hân hoan chia sẻ cùng quý thành viên mấy tin vui rất đặc biệt sau:
     
     Trước hết là sự kiện Bổ Nhiệm Đức Tân Tổng Giám Mục Atlanta. Sau 11 tháng trống ngôi, sáng ngày 5 tháng 3 vừa qua, ĐTC Phanxicô đã bổ nhiệm Đức cha Gregory John Hartmayer, Giám mục giáo phận Savannah trở thành Tổng giám mục thứ 7 của TGP Atlanta. Đức Tổng Hartmayer, là tu sĩ Dòng Phanxicô (Conventual Franciscan Friar) và đến từ Buffalo, New York năm 1995. Ngài đã là cha sở giáo xứ Thánh Phillip Benizi tại Jonesborro 15 năm, sau đó là cha sở xứ Thánh Gioan Vianey tại Lithia Spring 1 năm trước khi được bổ nhiệm là Giám mục của Giáo phận Savannah, Georgia. Thánh lễ tấn phong Tổng Giám Mục sẽ được cử hành vào ngày 06 tháng 05 năm 2020 tại nhà thờ Thánh Peter Chanel.
     
