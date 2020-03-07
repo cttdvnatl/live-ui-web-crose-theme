@@ -17,6 +17,41 @@ const articles =
 [
   {
     "Section": "Các Bài Viết",
+    "date":"2020-03-08",
+    "title": "Tin Vui Trong Mùa Chay",
+    "body": `Tâm tình phụng vụ của Mùa Chay là ăn năm sám hối và trai tịnh. Tuy vậy, chúng ta cũng có những tin vui, hôm nay tôi hân hoan chia sẻ cùng quý thành viên mấy tin vui rất đặc biệt sau:
+    
+    Trước hết là sự kiện Bổ Nhiệm Đức Tân Tổng Giám Mục Atlanta. Sau 11 tháng trống ngôi, sáng ngày 5 tháng 3 vừa qua, ĐTC Phanxicô đã bổ nhiệm Đức cha Gregory John Hartmayer, Giám mục giáo phận Savannah trở thành Tổng giám mục thứ 7 của TGP Atlanta. Đức Tổng Hartmayer, là tu sĩ Dòng Phanxicô (Conventual Franciscan Friar) và đến từ Buffalo, New York năm 1995. Ngài đã là cha sở giáo xứ Thánh Phillip Benizi tại Jonesborro 15 năm, sau đó là cha sở xứ Thánh Gioan Vianey tại Lithia Spring 1 năm trước khi được bổ nhiệm là Giám mục của Giáo phận Savannah, Georgia. Thánh lễ tấn phong Tổng Giám Mục sẽ được cử hành vào ngày 06 tháng 05 năm 2020 tại nhà thờ Thánh Peter Chanel.
+    
+    Chúng ta hân hoan cùng tạ ơn Thiên Chúa và chào đón Đức Tân Tổng Giám Mục. Đồng thời, chúng ta cùng cầu nguyện để ngài chu toàn trách vụ Mục Tử tại TGP Atlanta này.
+    
+    Kế đến, chúng ta hân hoan chúc mừng gần 2000 anh chị em, trong đó có  18 anh chị em thuộc giáo xứ CTTĐVN đã được chính thức tuyển chọn gia nhập vào Chương trình Dự Tòng của TGP Atlanta và sẽ được gia nhập đức tin Công Giáo vào Đêm Vọng Phục Sinh sắp tới.  Tôi cũng mượn cơ hội này, một lần nữa chia sẻ Tiến trình của Chương Trình Giáo Lý Dự Tòng để chúng ta nắm rõ và đồng hành với những anh chị em này.
+    
+    -  Về thời gian, mỗi năm Chương Trình Giáo Lý Dự Tòng (GLDT) được bắt đầu từ tháng 8 (Tám) cho đến Lễ Chúa Thánh Thần Hiện Xuống.
+    
+    -  Về tiến trình tìm hiểu và tập sống niềm tin Công Giáo, những anh chị em Dự Tòng trải qua 4 Giai Đoạn sau: 
+    
+    &nbsp&nbsp&nbsp&nbsp <b>a.</b> Giai đoạn 1: Tìm Hiểu (Period of Inquiry) bắt đầu từ đầu tháng Tám; 
+    
+    &nbsp&nbsp&nbsp&nbsp <b>b.</b> Giai Đoạn 2: Dự Tòng (The Period of the Catechumenate) bắt đầu bằng nghi thức Đón Nhận của Cộng Đoàn và kéo dài từ tháng 9 cho đến Chúa Nhật thứ I Mùa Chay; 
+    
+    &nbsp&nbsp&nbsp&nbsp <b>c.</b> Giai đoạn 3: Thanh Tẩy và Giác Ngộ (The Period of Purification & Enlightenment): Bắt đầu bằng Nghi Thức Tiến Cử của Cộng Đoàn và Nghi Thức Tuyển Chọn của Đức Tổng Giám Mục; 
+    
+    &nbsp&nbsp&nbsp&nbsp <b>d.</b> Giai Đoạn 4: Giai Đoạn The Period of Mystagogy Or Post-Baptism (50 days). Giai đoạn này từ Chúa Nhật Phục Sinh cho đến Chúa Nhật Hiện xuống.
+    
+    Qua Nghi Lễ Tiến Cử tại Giáo Xứ và Nghi Lễ Tuyển Chọn (Rite of Election) tại nhà thờ Thánh Lawrence lúc 2g00 chiều thứ Bảy ngày 29 tháng 2 vừa qua, những anh chị này đã được gọi là những người Được Tuyển Chọn của Tổng Giáo Phận để lãnh nhận các Bí Tích Khai Tâm. Giai đoạn này nhắm tới việc giúp họ loại bỏ dần những yếu hèn của tội lỗi để trở nên một người Kitô hữu thánh thiện. 
+    
+    Xin tạ ơn và xin Thiên Chúa chúc lành cho Đức Tân TGM Hartmayer và những anh chị em Dự Tòng đang trong giai đoạn quyết liệt để thanh tẩy và tiến đến gần Chúa hơn.  Đồng thời, mỗi người chúng ta cũng nhớ cầu nguyện, khuyến khích, và đồng hành với những anh chị em Dự Tuyển này. Nhớ đừng quên chuẩn bị tâm hồn chính mình và các thành viên trong gia đình mình sẵn sàng lập lại Lời Hứa của bí tích Rửa Tội trong dịp Lễ Phục Sinh này.
+    
+    Nguyện chúc từng gia đình và mỗi thành viên tràn đầy ơn lành của Thiên Chúa trong Mùa Chay 2020 này.
+    
+    Thân mến,
+    
+    Lm. Phanxicô Trần Quốc Tuấn
+    `
+  },
+  {
+    "Section": "Các Bài Viết",
     "date":"2020-03-01",
     "title": "Sứ điệp Mùa Chay 2020 của Đức Thánh Cha Phanxicô",
     "body": `Ngày 24 tháng 2 năm 2020, Tòa Thánh đã công bố Sứ điệp Mùa Chay 2020 của Đức Thánh Cha Phanxicô. Sứ điệp này được dựa trên câu Kinh Thánh của thánh Phaolô: “Chúng tôi cầu xin anh em, nhân danh Chúa Kitô, hãy hòa giải với Thiên Chúa” (2 Cr 5:20). Trong tâm tình tìm hiểu và sống sứ điệp trên, tôi xin chia sẻ mấy tâm tình sau:
