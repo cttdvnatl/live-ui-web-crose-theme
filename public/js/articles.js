@@ -1,14 +1,14 @@
 import articles from "../database/articles-content.js";
 var container = document.getElementsByClassName("articles-container")[0];
 
-let getArticleString = (title, date, body) => (
+let getArticleString = (image, title, date, body) => (
     `
     <div class="col-12">
         <!-- Single Upcoming Artile Area -->
         <div class="single-upcoming-events-area d-flex flex-wrap align-items-center">
             <!-- Thumbnail -->
             <div class="upcoming-events-thumbnail">
-                <img src="http://cttdvnatl.net/gallery/img/core-img/articles-chaTuan.jpg" alt="">
+                <img src="${image}" alt="">
             </div>
             <!-- Content -->
             <div class="upcoming-events-content d-flex flex-wrap align-items-center">
@@ -29,7 +29,11 @@ let getArticleString = (title, date, body) => (
     `
 );
 
+// traverse through all article objects in the database
 for (let i = 0; i < articles.length; i++) {
     let article = articles[i];
-    container.innerHTML += getArticleString(article.title, article.date, article.body);
+    //if there is no image in the article object, set the default image for the article object
+    if (!article.image) article.image = "http://cttdvnatl.net/gallery/img/core-img/articles-chaTuan.jpg";
+    //add one article to the page
+    container.innerHTML += getArticleString(article.image, article.title, article.date, article.body);
 }
