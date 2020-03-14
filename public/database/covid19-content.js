@@ -34,6 +34,14 @@ const articles =
   {
     "Section":"covid19",
     "date":"2020-03-13",
+    "image":"http://cttdvnatl.net/gallery/img/hvm_covid19/Facebook-announcement-2020-03-13.jpg",
+    "title":"Thông báo trên Facebook của giáo xứ",
+    "body":`Để biết thêm chi tiết, xin vui lòng vào trang Facebook của giáo xứ`,
+    "pdf":"http://cttdvnatl.net/gallery/pdf/hvm_covid19/Facebook-announcement-2020-03-13.pdf"
+  },
+  {
+    "Section":"covid19",
+    "date":"2020-03-12",
     "image":"http://cttdvnatl.net/gallery/img/hvm_covid19/ArchAtl_logoBox.png",
     "title":"Thông báo của Tổng Giáo phận Atlanta",
     "body":`Thông báo của Tổng Giáo phận Atlanta về dịch bệnh COVID-19`,
@@ -43,7 +51,7 @@ const articles =
     "Section":"Blog",
     "SubSec":"covid19",
     "image":"http://cttdvnatl.net/gallery/img/hvm_covid19/VAHPAG_logoBox.png",
-    "date":"2020-03-12",
+    "date":"2020-03-11",
     "title":"Thông Tin Về Bệnh Dịch Coronavirus 2019 (COVID-19)",
     "body":"Thông tin về dịch bệnh đến từ Hội Chuyên gia Y tế Việt Nam tại Georgia",
     "pdf":`http://cttdvnatl.net/gallery/pdf/hvm_covid19/TT_COVID_19.pdf`
