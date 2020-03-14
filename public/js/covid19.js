@@ -1,7 +1,7 @@
 import articles from "../database/covid19-content.js";
 var container = document.getElementsByClassName("articles-container")[0];
 
-let getArticleString = (image, title, date, body) => (
+let getArticleString = (image, title, date, body, link) => (
     `
     <div class="col-12">
         <!-- Single Upcoming Artile Area -->
@@ -21,7 +21,7 @@ let getArticleString = (image, title, date, body) => (
                     <!-- <a href="#">Read More <i class="fa fa-angle-double-right"></i></a> -->
                 </div>
                 <div class="find-out-more-btn">
-                    <a href="single-article.html?date=${date}" class="btn crose-btn btn-2">Xem thêm</a>
+                    <a href="${link}" class="btn crose-btn btn-2">Xem thêm</a>
                 </div>
             </div>
         </div>
@@ -32,8 +32,22 @@ let getArticleString = (image, title, date, body) => (
 // traverse through all article objects in the database
 for (let i = 0; i < articles.length; i++) {
     let article = articles[i];
+    
     //if there is no image in the article object, set the default image for the article object
     if (!article.image) article.image = "http://cttdvnatl.net/gallery/img/core-img/articles-chaTuan.jpg";
+
+    //preprocess link to the article
+    //if there is a specific link, use it
+    if (article.link);    
+    //if there is pdf link, use pdf link as the link
+    else if (article.pdf){
+        article.link = article.pdf;
+    }
+    //if there is no pdf arttribute, use default html link
+    else {
+        article.link = `single-article.html?date=${article.date}`;
+    }
+
     //add one article to the page
-    container.innerHTML += getArticleString(article.image, article.title, article.date, article.body);
+    container.innerHTML += getArticleString(article.image, article.title, article.date, article.body, article.link);
 }
