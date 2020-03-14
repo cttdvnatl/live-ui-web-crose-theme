@@ -34,7 +34,7 @@ for (let i = 0; i < articles.length; i++) {
     let article = articles[i];
     
     //if there is no image in the article object, set the default image for the article object
-    if (!article.image) article.image = "http://cttdvnatl.net/gallery/img/core-img/articles-chaTuan.jpg";
+    if (!article.image) article.image = "http://cttdvnatl.net/gallery/img/hvm_covid19/hvmCovid_logoBox.png";
 
     //preprocess link to the article
     //if there is a specific link, use it
@@ -45,7 +45,7 @@ for (let i = 0; i < articles.length; i++) {
     }
     //if there is no pdf arttribute, use default html link
     else {
-        article.link = `single-article.html?date=${article.date}`;
+        article.link = `hvm_covid19_single-article.html?date=${article.date}`;
     }
 
     //add one article to the page
