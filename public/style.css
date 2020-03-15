@@ -491,6 +491,23 @@ img {
     .header-area .search-form-area.search-on {
       left: 0; }
 
+      li.KGD ul {
+        display : none;
+      }
+      
+      li.KGD ul li {
+        margin-left: 20px;
+      }
+      
+      li.KGD:hover ul {
+        display: block;
+        position: absolute;
+        margin-top: -38px;
+        margin-left: 150px;
+        min-width : 130px;
+        background: white;
+      } 
+
 /* :: 5.0 Hero Slides Area */
 .hero-area,
 .hero-post-slides {
