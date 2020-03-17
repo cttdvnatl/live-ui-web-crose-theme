@@ -36,7 +36,7 @@ const articles =
     "date":"2020-03-13",
     "image":"http://cttdvnatl.net/gallery/img/hvm_covid19/hvmCovid_logoBox.png",
     "title":"Thông báo trên Facebook của giáo xứ",
-    "body":`Để biết thêm chi tiết, xin vui lòng vào trang Facebook của giáo xứ`,
+    "body":`Để biết thêm chi tiết, vui lòng vào trang Facebook của giáo xứ tại https://www.facebook.com/cttdvn`,
     "pdf":"http://cttdvnatl.net/gallery/pdf/hvm_covid19/Facebook-announcement-2020-03-13.pdf"
   },
   {
