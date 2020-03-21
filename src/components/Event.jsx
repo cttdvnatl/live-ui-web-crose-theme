@@ -1,7 +1,24 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Carousel from 'react-bootstrap/Carousel';
+import PopupModal from "./PopupModal";
 
 const Event = (prop) => {
+    const [show, setShow] = useState(false);
+    const [content, setContent] = useState({});
+    const displayModal = (e, title, content) => {
+        e.preventDefault();
+        setShow(true);
+        setContent({
+            title: title,
+            url: content
+        });
+    };
+
+    const hideModal = () => {
+        setShow(false);
+        setContent({});
+    };
+
     return (
         <section className="upcoming-events-area section-padding-0-100">
             {/* <!-- Upcoming Events Heading Area --> */}
@@ -35,17 +52,14 @@ const Event = (prop) => {
                                         {/* <!-- Content --> */}
                                         <div className="upcoming-events-content d-flex flex-wrap align-items-center">
                                             <div className="events-text">
-                                                <p><a href="activites.html#target21" style={{color:"#850000"}}>PHỤNG VỤ TẾT NGUYÊN ĐÁN CANH TÝ 2020.</a></p>
-                                                <p><a href="activites.html#target20" style={{color:"#850000"}}>KHỐI GIÁO DỤC - Thông báo nghỉ học.  Tĩnh Tâm lớp 4.  Giáo Lý Rửa Tội</a></p>
-                                                <p><a href="activites.html#target19" style={{color:"#850000"}}>THÁNH LỄ CẦU CHO CÁC BỆNH NHÂN - Đây là cơ hội để các bệnh nhân, các người chăm sóc bệnh nhân, và các thân quyến của bệnh nhân đến nhà thờ cử hành Thánh lễ chữa lành kính Đức Mẹ Lộ Đức.</a></p>
-                                                <p><a href="activites.html#target18" style={{color:"#850000"}}>KHỐI ĐỜI SỐNG - BUỔI CHÀO ĐÓN THÀNH VIÊN MỚI</a></p>
-                                                <p><a href="activites.html#target17" style={{color:"#850000"}}>MỤC VỤ EMBRACE - Để giúp đỡ và đồng hành với các cha mẹ bị sẩy thai hay có con trẻ qua đời sớm, Mục Vụ Embrace sẽ có NGHI LỄ cho các linh hồn thai nhi trong và ngoài giáo xứ. </a></p>
-                                                <p><a href="activites.html#target16" style={{color:"#850000"}}>LỚP DIỀU HÒA SINH SẢN - Lớp điều hòa sinh sản theo phương pháp tự nhiên</a></p>
-                                                <p><a href="activites.html#target15" style={{color:"#850000"}}>CHÚC MỪNG THÀNH VIÊN MỚI: Joseph Ly Tri, Têrêsa Nguyen Nu Thuc Hanh, Francis Le Hong Minh, Joseph  Pham Quoc Toản, Vincent Nguyen Van Tuan</a></p>
-                                                <p><a href="activites.html#target14" style={{color:"#850000"}}>MARRIAGE ANNOUNCEMENT - Francis Khanh Ngoc Bao Le & Tho Thi Trinh</a></p>
-                                                <p><a href="activites.html#target13" style={{color:"#850000"}}>MARRIAGE ANNOUNCEMENT - Gioan Baotixita Khanh Kim Nguyen & Mary Uyen Hoang Xuan Chu</a></p>
-                                                <p><a href="activites.html#target12" style={{color:"#850000"}}>MARRIAGE ANNOUNCEMENT - Paul Tuan An Dao Vu & Ine Nhi Ai Nguyen</a></p>
+                                                <p><a href="/" onClick={(e) => displayModal(e, "Lễ Truyền Tin", "news/UPDATE.html#target0")} style={{color:"#850000"}}>PHỤNG VỤ -Ngày 25.3.2019, Lễ Truyền Tin</a></p>
+                                                <p><a href="/" onClick={(e) => displayModal(e, "CẬP NHẬT HÓA CORONAVIRUS", "news/UPDATE.html#target1")} style={{color:"#850000"}}>CẬP NHẬT HÓA CORONAVIRUS</a></p>
+                                                <p><a href="/" onClick={(e) => displayModal(e, "KHỐI GIÁO DỤC", "news/UPDATE.html#target2")} style={{color:"#850000"}}>KHỐI GIÁO DỤC: COVID 19 dừng tất cả các sinh hoạt cho đến khi có thông báo lại</a></p>
+                                                <p><a href="/" onClick={(e) => displayModal(e, "HỘI CHỢ MÙA THU 2020", "news/UPDATE.html#target3")} style={{color:"#850000"}}>HỘI CHỢ MÙA THU 2020</a></p>
+                                                <p><a href="/" onClick={(e) => displayModal(e, "BAN BÁC ÁI XÃ HỘI", "news/UPDATE.html#target4")} style={{color:"#850000"}}>BAN BÁC ÁI XÃ HỘI</a></p>
+                                                <p><a href="/" onClick={(e) => displayModal(e, "KHỐI GÂY QUỸ", "news/UPDATE.html#target5")} style={{color:"#850000"}}>KHỐI GÂY QUỸ</a></p>
                                             </div>
+                                            {show ? <PopupModal show="true" content={content} onHide={hideModal}/> : null}
                                         </div>
                                     </div>
                                 </div>
@@ -56,6 +70,6 @@ const Event = (prop) => {
             </Carousel>
         </section>
     );
-}
+};
 
 export default Event;

@@ -1,6 +1,7 @@
 import React, {useEffect, useState, useRef, useCallback} from 'react';
 // import './style.css';
 import axios from 'axios';
+import EmergencyEvent from "./EmergencyNotice";
 
 const Header = (prop) => {
     const [getTemp, setTemp] = useState(0);
@@ -23,6 +24,7 @@ const Header = (prop) => {
     const twitter = useRef(null);
     const youtube = useRef(null);
     const mainMenu = useRef(null);
+
     //Init the current temperature
     useEffect(() => {
         if(sessionStorage.getItem('temp'))
@@ -105,16 +107,16 @@ const Header = (prop) => {
             navbarToggler.current.classList.remove("active");
             navbarMenu.current.classList.remove("menu-on");
         }
-    }
+    };
 
     const closeSidebar = () => {
         if(window.innerWidth < 1450)
             navbarToggler.current.classList.remove("active");
             navbarMenu.current.classList.remove("menu-on");
-    }
+    };
 
     const toggleSubMenu = (index, e) => {
-        e.stopPropagation()
+        e.stopPropagation();
         if(window.innerWidth < 1450) {
             for(let i = 0; i < navbarItem.current.children.length; i++) {
                 if(i === index && !navbarItem.current.children[i].classList.contains("active")) {
@@ -128,7 +130,7 @@ const Header = (prop) => {
                 }
             }
         }
-    }
+    };
 
     //Add event handler after the element is rendered
     useEffect(() => {
@@ -170,18 +172,18 @@ const Header = (prop) => {
                     </div>
                 </div>
             </div>
-            <div style={{height: "90px"}}>
+            <div style={{"minHeight":"147px", "maxHeight":"158px"}}>
                 <div className="crose-main-menu" ref={mainMenu}>
                     <div className="classy-nav-container breakpoint-off" ref={navbar}>
                         <div className="container">
                             <nav className="classy-navbar justify-content-between" id="croseNav">
-                                <a href="/" className="nav-brand"><img src="img/core-img/gxlogo.png" alt=""/></a>
+                                <a href="/" className="nav-brand"><img src="../img/core-img/gxlogo.png" alt=""/></a>
                                 <div className="classy-navbar-toggler" onClick={activateSidebar}>
-                                    <span className="navbarToggler" ref={navbarToggler}><span></span><span></span><span></span></span>
+                                    <span className="navbarToggler" ref={navbarToggler}><span/><span/><span/></span>
                                 </div>
                                 <div className="classy-menu" ref={navbarMenu} onClick={closeSidebar}>
                                     <div className="classycloseIcon">
-                                        <div className="cross-wrap" ref={navbarClose}><span className="top"></span><span className="bottom"></span></div>
+                                        <div className="cross-wrap" ref={navbarClose}><span className="top"/><span className="bottom"/></div>
                                     </div>
                                     <div className="classynav">
                                         <ul ref={navbarItem}>
@@ -194,7 +196,7 @@ const Header = (prop) => {
                                                     <li><a href="clergy-list">Linh Mục/Tu Sĩ</a></li>
                                                     <li><a href="directors">Qúy Chức</a></li>
                                                 </ul>
-                                                <span className="dd-trigger"></span>
+                                                <span className="dd-trigger"/>
                                             </li>
                                             <li className="cn-dropdown-item has-down" onClick={(e) => toggleSubMenu(1, e)}><a href="/#">TIN TỨC/SỰ KIỆN</a>
                                                 <ul className="dropdown">
@@ -203,7 +205,7 @@ const Header = (prop) => {
                                                     <li><a href="https://fallfestivalatl.org">Hội Chợ Mùa Thu</a></li>
                                                     <li><a href="https://www.tomathienatl.org">TNTT Tôma Thiện</a></li>
                                                 </ul>
-                                                <span className="dd-trigger"></span>
+                                                <span className="dd-trigger"/>
                                             </li>
                                             <li className="cn-dropdown-item has-down" onClick={(e) => toggleSubMenu(2, e)}>
                                                 <a href="/#">BAN NGÀNH</a>
@@ -230,15 +232,16 @@ const Header = (prop) => {
                                                     <li><a href="forms.html">Đơn Từ</a></li>
                                                     <li><a href="prayerRequest.html">Prayer Request</a></li>
                                                 </ul>
-                                                <span className="dd-trigger"></span>
+                                                <span className="dd-trigger"/>
                                             </li>
                                             <li><a href="contact.html">LIÊN HỆ</a></li>
                                         </ul>
-                                        <a href="https://giving.parishsoft.com/App/Giving/holy4545250" className="crose-btn header-btn">DÂNG HIẾN</a>
+                                        <a href="https://giving.parishsoft.com/App/Giving/holy4545250" className="crose-btn header-btn">DONATION</a>
                                     </div>
                                 </div>
                             </nav>
                         </div>
+                        <EmergencyEvent emergency={'emergency' in prop ? prop.emergency : false} message={prop.emergencyMsg} url={prop.url}/>
                     </div>
                 </div>
             </div>

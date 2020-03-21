@@ -8,25 +8,19 @@ import Index from './pages/Index';
 import Directors from './pages/Directors';
 import DeptInfo from './pages/DeptOwnerPage';
 import About from './pages/About';
-import Acitivities from './pages/Activities';
+import Activities from './pages/Activities';
 import './css/style.css';
-import Articles from './pages/Articles';
-import ArticleDetail from './pages/ArticleDetail';
 
 const App = () => {
   return (
     <Router>
           <Route path="/clergy-list" component={ClergyListPage} exact />
-          <Route path="/departments/:id" render={(prop) => <DeptInfo {...prop}/>} exact />
-          <Route path="/directors" render={() => <Directors/>} exact/>
-          <Route path="/" render={(prop) => <Index {...prop}/>} exact/>   
-          <Route path="/about" render={() => <About/>}/>
-          <Route path="/activities" render={() => <Acitivities/>}/>
-          <Route path="/articles" component={Articles}/>   
-          <Route path="/detail/:date" component={ArticleDetail}/>
+          <Route path="/departments/:id" component={DeptInfo} exact />
+          <Route path="/directors" component={Directors} exact/>
+          <Route path="/" component={Index} exact/>
+          <Route path="/about" component={About}/>}/>
+          <Route path="/activities" component={Activities}/>
     </Router>
   ) 
-}
-
-
+};
 export default App;

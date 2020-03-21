@@ -9,7 +9,6 @@ Version: - v1.0.0
 /* :: 1.0 Import Fonts */
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Raleway:700,800");
 /* :: 2.0 Import All CSS */
-@import url(bootstrap.min.css);
 @import url(classy-nav.css);
 @import url(animate.css);
 /* @import url(css/magnific-popup.css); */
@@ -170,7 +169,6 @@ img {
 .section-heading {
   position: relative;
   z-index: 1;
-  margin-bottom: 50px;
   text-align: center;
   max-width: 730px;
   margin: 0 auto 50px; }
@@ -302,11 +300,12 @@ img {
   color: #ffffff;
   background-color: #c92f2f;
   border-radius: 3px;
-  padding: 0 30px;
   font-size: 14px;
   line-height: 46px;
   text-transform: uppercase;
-  font-weight: 700; }
+  font-weight: 700;
+  text-align: center;
+}
   .crose-btn.active, .crose-btn:hover, .crose-btn:focus {
     font-size: 14px;
     color: #ffffff;
@@ -520,7 +519,6 @@ img {
     z-index: 1;
     text-align: center; }
     .single-hero-slide .hero-slides-content h2 {
-      font-size: "Raleway", sans-serif;
       letter-spacing: 1px;
       -webkit-transition-duration: 900ms;
       transition-duration: 900ms;

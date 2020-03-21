@@ -33,5 +33,5 @@ const ClergyList = (prop) => {
             })}
         </section>
     );
-}
+};
 export default ClergyList;

@@ -14,7 +14,7 @@ const CustomCarousel = (prop) => {
         }).then(auth => { 
             axios({
             method: 'GET',    
-            url:'https://hvmatl-backend.herokuapp.com/upcoming-event',
+            url:'https://hvmatl-backend.herokuapp.com/carousel',
             headers: {
                 'Authorization': `Bearer ${auth.data.token}`
             },
@@ -33,7 +33,7 @@ const CustomCarousel = (prop) => {
                             <img src={item.image} alt={item.image.slice(item.image.lastIndexOf('/') + 1)}/> : null}
                         <Carousel.Caption>
                             <div>
-                                {item.title.map((title, indx) => <h1 className="animated fadeInUpShort" key={indx}>{title}</h1>)}
+                                {item.title.map((title, idx) => <h1 className="animated fadeInUpShort" key={idx}>{title}</h1>)}
                                 <div className="animated fadeInUpShort">
                                     {
                                         item.content !== undefined ? 
