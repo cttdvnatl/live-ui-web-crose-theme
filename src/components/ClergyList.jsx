@@ -1,11 +1,10 @@
 import React from 'react';
-
 const ClergyList = (prop) => {
     return (
         <section className="about-area section-padding-100-0">
-            {prop.data.map(section => {
+            {prop.data.map((section, index) => {
                 return (
-                    <div className="container">
+                    <div className="container" key={index}>
                         <div className="row">
                             <div className="col-12">
                                 <div className="section-heading">
@@ -14,9 +13,9 @@ const ClergyList = (prop) => {
                             </div>
                         </div>
                         <div className="row about-content justify-content-center">
-                            {section.content.map(clergy => {
+                            {section.content.map((clergy,idx) => {
                                 return(
-                                    <div className="col-12 col-md-6 col-lg-4">
+                                    <div className="col-12 col-md-6 col-lg-4" key={idx}>
                                         <div className="about-us-content mb-100">
                                             <img src={clergy.image} alt=""/>
                                             <div className="about-text text-center">

@@ -47,7 +47,7 @@ const Event = (prop) => {
                                     <div className="single-upcoming-events-area d-flex flex-wrap align-items-center">
                                         {/* <!-- Thumbnail --> */}
                                         <div className="upcoming-events-thumbnail">
-                                            <img src="http://cttdvnatl.net/gallery/img/bg-img/upcoming_events.jpg" alt=""/>
+                                            <img src="http://cttdvnatl.net/gallery/img/index/upcoming-upcoming_events.jpg" alt=""/>
                                         </div>
                                         {/* <!-- Content --> */}
                                         <div className="upcoming-events-content d-flex flex-wrap align-items-center">

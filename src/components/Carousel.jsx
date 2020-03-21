@@ -54,5 +54,5 @@ const CustomCarousel = (prop) => {
             })}
         </Carousel>
     )
-}
+};
 export default CustomCarousel;
