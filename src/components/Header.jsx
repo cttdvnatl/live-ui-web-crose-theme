@@ -153,7 +153,7 @@ const Header = (prop) => {
                         <div className="col-12">
                             <div className="top-header-content d-flex flex-wrap align-items-center justify-content-between">
                                 <div className="top-header-meta d-flex flex-wrap">
-                                    <div><i className="fa fa-clock-o fa-lg time"aria-hidden="true" ref={time}></i><span ref={navbarTime}>{getTime}</span><i className="fa fa-thermometer-half fa-lg temperature" ref={temperature} aria-hidden="true"></i><span ref={navbarTemp}>{getTemp} &#176;F</span></div>
+                                    <div><i className="fa fa-clock-o fa-lg time"aria-hidden="true" ref={time}/><span ref={navbarTime}>{getTime}</span><i className="fa fa-thermometer-half fa-lg temperature" ref={temperature} aria-hidden="true"></i><span ref={navbarTemp}>{getTemp} &#176;F</span></div>
                                     <div className="top-social-info">
                                         <a href="https://www.facebook.com/cttdvn" aria-label="facebook"><i className="fa fa-facebook fa-lg" ref={facebook}></i></a>
                                         <a href="https://www.youtube.com/thanhtudaovietnam" aria-label="youtube"><i className="fa fa-youtube fa-lg" ref={youtube}></i></a>
