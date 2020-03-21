@@ -9,13 +9,52 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title -->
-    <title>Holy Vietnamese Martyr's Mission | Weekly News</title>
+    <title>Holy Vietnamese Martyr's Mission | Departments</title>
 
     <!-- Favicon -->
     <link rel="icon" href="http://cttdvnatl.net/gallery/img/core-img/gxfavicon.ico">
 
     <!-- Core Stylesheet -->
     <link rel="stylesheet" href="style.css">
+
+    <script>
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+        var image = "http://cttdvnatl.net/gallery/img/core-img/" + getUrlVars()["x"] + ".jpg";
+        switch(getUrlVars()["x"]) {
+            case "KCS":
+            var name = "Khối Cơ Sở";
+            break;
+            case "KDS":
+            var name = "Khối Đời Sống";
+            break;
+            case "KGD":
+            var name = "Khối Giáo Dục";
+            break;
+            case "KHC":
+            var name = "Khối Hành Chánh";
+            break;
+            case "KPT":
+            var name = "Khối Phụng Tự";
+            break;
+            case "KTG":
+            var name = "Khối Truyền Giáo";
+            break;
+            case "KQT":
+            var name = "Khối Quản Trị";
+            break;
+            case "KGQ":
+            var name = "Khối Gây Quỹ";
+            break;
+        }
+    </script>
+
+
 
 </head>
 
@@ -106,7 +145,16 @@
                                             <li><a href="org.html">Sơ Đồ Tổ Chức</a></li>
                                             <li><a href="departments.html?x=KCS">Khối Cơ Sở</a></li>
                                             <li><a href="departments.html?x=KDS">Khối Đời Sống</a></li>
-                                            <li><a href="departments.html?x=KGD">Khối Giáo Dục</a></li>
+                                            <li class="KGD"><a href="departments.html?x=KGD">Khối Giáo Dục</a>
+                                                <ul>
+                                                    <li>
+                                                        <a target="_blank" href="https://infinite-coast-35894.herokuapp.com/"><i>Giáo Lý</i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="VietHongSchool.html"><i>Việt Ngữ</i></a>
+                                                    </li>
+                                                </ul>
+                                                </li>
                                             <li><a href="departments.html?x=KHC">Khối Hành Chánh</a></li>
                                             <li><a href="departments.html?x=KPT">Khối Phụng Tự</a></li>
                                             <li><a href="departments.html?x=KTG">Khối Truyền Giáo</a></li>
@@ -128,7 +176,7 @@
                                 </ul>
 
                                 <!-- Donate Button -->
-                                <a href="https://giving.parishsoft.com/App/Giving/holy4545250" class="btn crose-btn header-btn">DONATION</a>
+                                <a href="https://giving.parishsoft.com/App/Giving/holy4545250" class="btn crose-btn header-btn">DÂNG HIẾN</a>
 
                             </div>
                             <!-- Nav End -->
@@ -141,20 +189,18 @@
     </header>
     <!-- ##### Header Area End ##### -->
 
-    <!-- ##### Weekly News Area Start ##### -->
-    <div class="about-us-area about-page section-padding-100">
-
-        <div class="container">
-            <center><h2>Tờ Thông Tin Mục Vụ</h2></center>
-            <div class="row align-items-center justify-content-between">
-                <iframe src="https://drive.google.com/embeddedfolderview?id=1KQvCLvTucrt9jR1NDwgPB-OAxAk2A1I3#grid" style="width:100%; height:300px; border:0;"></iframe>
-            </div>
-            <div class="row align-items-center justify-content-between">
-                <a href="https://drive.google.com/open?id=1yvioAIyTmJA7NMko0hH0hKVRa4YW-KnQ"><i><img src="http://cttdvnatl.net/gallery/img/bg-img/OldNewsIcon.png" width="35%"></a>
-            </div>
-        </div>
+    <!-- ##### About Us Area Start ##### -->
+    <div class="Sơ Đồ Tổ Chức-area section-padding-25">
+        <center><h1 id="department"></h1></center>
+            <h1><script>
+                document.getElementById("department").innerHTML = name;
+                </script>
+            </h1>
+        <td><img id="img" src="default.gif" class="center-50"></td>
+            <script>
+                document.getElementById("img").src=image; 
+            </script>             
     </div>
-    <!-- ##### Weekly News Area End ##### -->
 
    <!-- ##### Footer Area Start ##### -->
    <footer class="footer-area">
