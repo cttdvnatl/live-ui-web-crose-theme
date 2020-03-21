@@ -25,6 +25,14 @@ const articles =
 [
   {
     "Section":"covid19",
+    "date":"2020-03-17",
+    "image":"http://cttdvnatl.net/gallery/img/hvm_covid19/ArchAtl_logoBox.png",
+    "title":"Thông báo của Tổng Giáo phận Atlanta ( 2020-03-17)",
+    "body":`Thông báo của Tổng Giáo phận Atlanta`,
+    "pdf":"http://cttdvnatl.net/gallery/pdf/hvm_covid19/Covid19_RCAoA_GA.pdf"
+  },
+  {
+    "Section":"covid19",
     "date":"2020-03-14",
     "image":"http://cttdvnatl.net/gallery/img/hvm_covid19/cttd_logoBox.png",
     "title":"CẬP NHẬT HÓA CORONAVIRUS (COVID-19)",
