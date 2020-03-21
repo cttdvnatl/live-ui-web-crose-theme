@@ -1313,7 +1313,7 @@ img {
 .footer-area .main-footer-area {
   position: center;
   z-index: 1;
-  padding-top: 10px;
+  padding-top: 20px;
   background-image: linear-gradient(to bottom, #f2d16b, #d7be69, #996515);
 }
 
