@@ -9,13 +9,52 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title -->
-    <title>Holy Vietnamese Martyr's Mission | Sứ Mệnh Giáo Xứ</title>
+    <title>Holy Vietnamese Martyr's Mission | Departments</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="http://cttdvnatl.net/gallery/img/bg-img/gxfavicon.ico">
+    <link rel="icon" href="http://cttdvnatl.net/gallery/img/core-img/gxfavicon.ico">
 
     <!-- Core Stylesheet -->
     <link rel="stylesheet" href="style.css">
+
+    <script>
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+        var image = "http://cttdvnatl.net/gallery/img/core-img/" + getUrlVars()["x"] + ".jpg";
+        switch(getUrlVars()["x"]) {
+            case "KCS":
+            var name = "Khối Cơ Sở";
+            break;
+            case "KDS":
+            var name = "Khối Đời Sống";
+            break;
+            case "KGD":
+            var name = "Khối Giáo Dục";
+            break;
+            case "KHC":
+            var name = "Khối Hành Chánh";
+            break;
+            case "KPT":
+            var name = "Khối Phụng Tự";
+            break;
+            case "KTG":
+            var name = "Khối Truyền Giáo";
+            break;
+            case "KQT":
+            var name = "Khối Quản Trị";
+            break;
+            case "KGQ":
+            var name = "Khối Gây Quỹ";
+            break;
+        }
+    </script>
+
+
 
 </head>
 
@@ -137,7 +176,7 @@
                                 </ul>
 
                                 <!-- Donate Button -->
-                                <a href="https://giving.parishsoft.com/App/Giving/holy4545250" class="btn crose-btn header-btn">DONATION</a>
+                                <a href="https://giving.parishsoft.com/App/Giving/holy4545250" class="btn crose-btn header-btn">DÂNG HIẾN</a>
 
                             </div>
                             <!-- Nav End -->
@@ -151,38 +190,18 @@
     <!-- ##### Header Area End ##### -->
 
     <!-- ##### About Us Area Start ##### -->
-    <div class="about-us-area about-page section-padding-100">
-
-        <div class="container">
-            <center><h2>Sứ Mệnh Giáo Xứ</h2></center>
-            <div class="row align-items-center justify-content-between">
-                <div class="col-12 col-lg-6">
-                        <div class="about-content">
-                            <a href="http://cttdvnatl.net/gallery/img/bg-img/meaning_symbol.jpg"><img src="http://cttdvnatl.net/gallery/img/core-img/Logo1.png" alt=""></a>
-                            <p style="text-align:center"><i>
-                                <a href="http://cttdvnatl.net/gallery/img/bg-img/vietsym.jpg" style="color:#850000">Ý nghĩa dấu hiệu</a> / <a href="http://cttdvnatl.net/gallery/img/bg-img/engsym.jpg" style="color:#850000">Symbol significant</a></i>
-                            </p>
-                        </div>
-                </div>
-                <div class="col-12 col-lg-5">
-                    <div class="about-content">
-                        <h2>Giáo Xứ Các Thánh Tử Đạo Việt Nam</h2>
-                        <p>Giáo Xứ Các Thánh Tử Đạo Việt Nam thuộc Tổng Giáo Phận Atlanta
-là cộng đoàn người Công Giáo gốc Việt cùng sống cử hành,
-loan truyền đức tin Công Giáo, đồng thời duy trì
-và phát triển truyền thống văn hoá Việt Nam.</p>
-                        <div class="opening-hours-location mt-30 d-flex align-items-center">
-                            <!-- Opening Hours -->
-
-                            <!-- Location -->
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <div class="Sơ Đồ Tổ Chức-area section-padding-25">
+        <center><h1 id="department"></h1></center>
+            <h1><script>
+                document.getElementById("department").innerHTML = name;
+                </script>
+            </h1>
+        <td><img id="img" src="default.gif" class="center-50"></td>
+            <script>
+                document.getElementById("img").src=image; 
+            </script>             
     </div>
-    <!-- ##### About Us Area End ##### -->
+
    <!-- ##### Footer Area Start ##### -->
    <footer class="footer-area">
        <div w3-include-html="main_footer.html"></div>

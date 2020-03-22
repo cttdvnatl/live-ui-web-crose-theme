@@ -1,0 +1,89 @@
+table.tablecontrol {
+    font-family: Helvetica, sans-serif;
+    border: 1px solid #ffffff;
+    width: 1000px;
+    height: 200px;
+    text-align: left;
+    border-collapse: collapse;
+    margin-left:auto;
+    margin-right:auto;
+    table-layout: auto;
+    background: #FFF8CF;
+}
+table.tablecontrol td, table.tablecontrol th {
+    border: 1px solid #ffffff;
+    padding: 3px 2px;
+}
+table.tablecontrol tbody td {
+    font-size: 14px;
+}
+table.tablecontrol tr:nth-child(even) {
+    background: #fcdb7e;
+}
+
+table.tablecontrol thead {
+    background: #f2bf25;
+    border-bottom: 2px solid #ffffff;
+}
+table.tablecontrol thead th {
+    font-size: 17px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    border-left: 2px solid #ffffff;
+}
+table.tablecontrol thead th:first-child {
+    border-left: none;
+}
+
+@media
+only screen and (max-width: 1080px),
+(min-device-width: 320px) and (max-device-width: 1080px) {
+
+    /* Force table to not be like tables anymore */
+    table.tablecontrol table, table.tablecontrol thead, table.tablecontrolt body, table.tablecontrol th, table.tablecontrol td, table.tablecontrol tr {
+        display: block;
+    }
+
+    table.tablecontrol {
+        font-family: Helvetica, sans-serif;
+        border: 1px solid #ffffff;
+        width: 320px;
+        height: 200px;
+        text-align: left;
+        border-collapse: collapse;
+        margin-left:auto;
+        margin-right:auto;
+        table-layout: auto;
+        background: #FFF8CF;
+    }
+
+    /* Hide table headers (but not display: none;, for accessibility) */
+    table.tablecontrol thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+
+    table.tablecontrol tr {
+        border: 1px solid #ccc;
+    }
+
+    table.tablecontrol td {
+        /* Behave  like a "row" */
+        border: none;
+        border-bottom: 1px solid #eee;
+        position: relative;
+    }
+
+    table.tablecontrol td:before {
+        /* Now like a table header */
+        position: center;
+        /* Top/left values mimic padding */
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+        white-space: nowrap;
+    }
+}
