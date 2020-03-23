@@ -162,7 +162,7 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 70%;
 }
 
 /* :: 3.4.0 Section Heading */
@@ -496,6 +496,15 @@ img {
     .header-area .search-form-area.search-on {
       left: 0; }
 
+      li.KGD ul li {
+        margin-left: 20px;
+      }
+      
+      li.KGD ul {
+        display: block;
+        background: white;
+      } 
+      
 /* :: 5.0 Hero Slides Area */
 .hero-area,
 .hero-post-slides {

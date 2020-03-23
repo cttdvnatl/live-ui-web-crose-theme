@@ -112,7 +112,7 @@ const departments = [
     secondaryOwnerEmail: 'JennieLe@cttdvnatl.org',
     thirdOwner: 'Madalena Toyama Madalena ',
     thirdOwnerTitle: 'Thư Ký',
-    thirdOwnerImg: 'ftp.cttdvnatl.net/img/core-img/NaMadalena.jpg',
+    thirdOwnerImg: 'http://www.cttdvnatl.net/gallery/img/core-img/NaMadalena.jpg',
     thirdOwnerPhone: '770-899-3548',
     thirdOwnerEmail: 'MadalenaMails@yahoo.com',   
 }

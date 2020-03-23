@@ -210,15 +210,24 @@ const Header = (prop) => {
                                             <li className="cn-dropdown-item has-down" onClick={(e) => toggleSubMenu(2, e)}>
                                                 <a href="/#">BAN NGÀNH</a>
                                                 <ul className="dropdown">
-                                                    <li><a href="org.html">Sơ Đồ Tổ Chức</a></li>
-                                                    <li><a href="departments.html?x=KCS">Khối Cơ Sở</a></li>
-                                                    <li><a href="departments.html?x=KDS">Khối Đời Sống</a></li>
-                                                    <li><a href="departments.html?x=KGD">Khối Giáo Dục</a></li>
-                                                    <li><a href="departments.html?x=KHC">Khối Hành Chánh</a></li>
-                                                    <li><a href="departments.html?x=KPT">Khối Phụng Tự</a></li>
-                                                    <li><a href="departments.html?x=KTG">Khối Truyền Giáo</a></li>
-                                                    <li><a href="departments.html?x=KQT">Khối Quản Trị</a></li>
-                                                    <li><a href="departments.html?x=KGQ">Khối Gây Quỹ</a></li>
+                                                <li><a href="../Org">Sơ Đồ Tổ Chức</a></li>
+                                                    <li><a href="/departments/KCS">Khối Cơ Sở</a></li>
+                                                    <li><a href="/departments/KDS">Khối Đời Sống</a></li>
+                                                    <li className="KGD"><a href="/departments/KGD">Khối Giáo Dục</a>
+                                                        <ul>
+                                                            <li>
+                                                            <a target="_blank" href="https://infinite-coast-35894.herokuapp.com/"><i>Giáo Lý</i></a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="VietHong"><i>Việt Ngữ</i></a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>                                                    
+                                                    <li><a href="/departments/KHC">Khối Hành Chánh</a></li>
+                                                    <li><a href="/departments/KPT">Khối Phụng Tự</a></li>
+                                                    <li><a href="/departments/KTG">Khối Truyền Giáo</a></li>
+                                                    <li><a href="/departments/KQT">Khối Quản Trị</a></li>
+                                                    <li><a href="/departments/KGQ">Khối Gây Quỹ</a></li>
                                                 </ul>
                                                 <span className="dd-trigger"></span>
                                             </li>
