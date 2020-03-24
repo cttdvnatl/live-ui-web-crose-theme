@@ -192,7 +192,6 @@ const Header = (prop) => {
                                                     <li><a href="/">Trang Chủ</a></li>
                                                     <li><a href="/about">Sứ Mệnh Giáo Xứ</a></li>
                                                     <li><a href="history.html">Lịch Sử Giáo Xứ</a></li>
-                                                    <li><a href="https://drive.google.com/file/d/15MIqXgWDNfav8VOyCwepnhgZnvay7Eai/preview">Lịch Phụng Vụ</a></li>
                                                     <li><a href="clergy-list">Linh Mục/Tu Sĩ</a></li>
                                                     <li><a href="directors">Qúy Chức</a></li>
                                                 </ul>
@@ -213,13 +212,13 @@ const Header = (prop) => {
                                                 <li><a href="../Org">Sơ Đồ Tổ Chức</a></li>
                                                     <li><a href="/departments/KCS">Khối Cơ Sở</a></li>
                                                     <li><a href="/departments/KDS">Khối Đời Sống</a></li>
-                                                    <li className="KGD"><a href="/departments/KGD">Khối Giáo Dục</a>
+                                                    <li className="KGD"><a href="../departments/KGD">Khối Giáo Dục</a>
                                                         <ul>
                                                             <li>
                                                             <a target="_blank" href="https://infinite-coast-35894.herokuapp.com/"><i>Giáo Lý</i></a>
                                                             </li>
                                                             <li>
-                                                                <a href="VietHong"><i>Việt Ngữ</i></a>
+                                                                <a href="/VietHong"><i>Việt Ngữ</i></a>
                                                             </li>
                                                         </ul>
                                                     </li>                                                    
@@ -245,7 +244,7 @@ const Header = (prop) => {
                                             </li>
                                             <li><a href="contact.html">LIÊN HỆ</a></li>
                                         </ul>
-                                        <a href="https://giving.parishsoft.com/App/Giving/holy4545250" className="crose-btn header-btn">DONATION</a>
+                                        <a target="_blank" href="https://giving.parishsoft.com/App/Giving/holy4545250" className="crose-btn header-btn">DONATION</a>
                                     </div>
                                 </div>
                             </nav>

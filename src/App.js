@@ -8,7 +8,7 @@ import Index from './pages/Index';
 import Directors from './pages/Directors';
 import DeptInfo from './pages/DeptOwnerPage';
 import About from './pages/About';
-import Org from './pages/OrgPage';
+import Org from './pages/Org';
 import VietHong from './pages/VietHongPage';
 import Activities from './pages/Activities';
 import './css/style.css';
