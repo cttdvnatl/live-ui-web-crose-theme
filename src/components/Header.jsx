@@ -163,6 +163,7 @@ const Header = (prop) => {
                                     </div>
                                 </div>
                                 <div className="top-header-meta">
+                                    <a target="_blank" href="https://giving.parishsoft.com/App/Giving/holy4545250"><span className="donation">DÂNG HIẾN/DONATION</span></a>
                                     <a href="/massTime.html" className="email-address"><i className="fa fa-calendar-o fa-lg" aria-hidden="true" ref={massSchedule}></i><span>Giờ Lễ / MassTimes</span></a>
                                     <a href="mailto:info@cttdvnatl.org" className="email-address"><i className="fa fa-envelope fa-lg" aria-hidden="true" ref={email}></i> <span>info@cttdvnatl.org</span></a>
                                     <a href="tel:770-921-0077" className="phone"><i className="fa fa-phone fa-lg" aria-hidden="true" ref= {phone}></i> <span>770-921-0077</span></a>

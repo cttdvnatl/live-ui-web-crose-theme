@@ -39,10 +39,20 @@ const Info = (prop) => {
                     {/* <!-- Single About Us Content --> */}
                     <div className="col-12 col-md-6 col-lg-4">
                         <div className="about-us-content mb-100">
-                            <a href="https://www.facebook.com/pg/cttdvn/videos/?ref=page_internal"><img src="http://cttdvnatl.net/gallery/img/index/about3.png" alt=""/></a>
+                            <a target="_blank" href="https://www.facebook.com/pg/cttdvn/videos/?ref=page_internal"><img src="http://cttdvnatl.net/gallery/img/index/about3.png" alt=""/></a>
                             <div className="about-text">
-                                <a href="https://www.facebook.com/pg/cttdvn/videos/?ref=page_internal"><h4>Xem Lễ Trực Tuyến Tại Đây</h4></a>
+                                <a target="_blank" href="https://www.facebook.com/pg/cttdvn/videos/?ref=page_internal"><h4>Xem Lễ Trực Tuyến Tại Đây</h4></a>
                                 <p>Vào trang Facebook của Giáo Xứ Để Tham Dự Thánh Lễ Trực Tuyến</p>
+                            </div>
+                        </div>
+                    </div>
+                    {/* <!-- Single About Us Content --> */}
+                    <div className="col-12 col-md-6 col-lg-4">
+                        <div className="about-us-content mb-100">
+                            <a target="_blank" href="https://www.youtube.com/results?search_query=%23HolyVietnameseMartyrs"><img src="http://cttdvnatl.net/gallery/img/index/YouTube.jpg" alt=""/></a>
+                            <div className="about-text">
+                                <a target="_blank" href="https://www.youtube.com/results?search_query=%23HolyVietnameseMartyrs"><h4>Thánh Lễ Thâu Lại Trên YouTube</h4></a>
+                                <p>Truy vấn các Thánh Lễ tại Giáo Xứ Các Thánh Tử Đạo VietNam Atlanta, GA trên YouTube</p>
                             </div>
                         </div>
                     </div>
