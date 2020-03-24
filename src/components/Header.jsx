@@ -163,7 +163,7 @@ const Header = (prop) => {
                                     </div>
                                 </div>
                                 <div className="top-header-meta">
-                                    <a href="massTime.html" className="email-address"><i className="fa fa-calendar-o fa-lg" aria-hidden="true" ref={massSchedule}></i><span>Giờ Lễ / MassTimes</span></a>
+                                    <a href="/massTime.html" className="email-address"><i className="fa fa-calendar-o fa-lg" aria-hidden="true" ref={massSchedule}></i><span>Giờ Lễ / MassTimes</span></a>
                                     <a href="mailto:info@cttdvnatl.org" className="email-address"><i className="fa fa-envelope fa-lg" aria-hidden="true" ref={email}></i> <span>info@cttdvnatl.org</span></a>
                                     <a href="tel:770-921-0077" className="phone"><i className="fa fa-phone fa-lg" aria-hidden="true" ref= {phone}></i> <span>770-921-0077</span></a>
                                 </div>
@@ -191,9 +191,9 @@ const Header = (prop) => {
                                                 <ul className="dropdown">
                                                     <li><a href="/">Trang Chủ</a></li>
                                                     <li><a href="/about">Sứ Mệnh Giáo Xứ</a></li>
-                                                    <li><a href="history.html">Lịch Sử Giáo Xứ</a></li>
-                                                    <li><a href="clergy-list">Linh Mục/Tu Sĩ</a></li>
-                                                    <li><a href="directors">Qúy Chức</a></li>
+                                                    <li><a href="/history.html">Lịch Sử Giáo Xứ</a></li>
+                                                    <li><a href="/clergy-list">Linh Mục/Tu Sĩ</a></li>
+                                                    <li><a href="/directors">Qúy Chức</a></li>
                                                 </ul>
                                                 <span className="dd-trigger"/>
                                             </li>
@@ -209,7 +209,7 @@ const Header = (prop) => {
                                             <li className="cn-dropdown-item has-down" onClick={(e) => toggleSubMenu(2, e)}>
                                                 <a href="/#">BAN NGÀNH</a>
                                                 <ul className="dropdown">
-                                                <li><a href="../Org">Sơ Đồ Tổ Chức</a></li>
+                                                <li><a href="/Org">Sơ Đồ Tổ Chức</a></li>
                                                     <li><a href="/departments/KCS">Khối Cơ Sở</a></li>
                                                     <li><a href="/departments/KDS">Khối Đời Sống</a></li>
                                                     <li className="KGD"><a href="../departments/KGD">Khối Giáo Dục</a>
@@ -233,16 +233,16 @@ const Header = (prop) => {
                                             <li className="cn-dropdown-item has-down" onClick={(e) => toggleSubMenu(3, e)}>
                                                 <a href="/#">Thư Viện</a>
                                                 <ul className="dropdown">
-                                                    <li><a href="weeklyNews.html">Thông Tin Mục Vụ</a></li>
-                                                    <li><a href="articles.html">Các Bài Viết</a></li>
-                                                    <li><a href="catholic_teaching.html">Giáo Lý</a></li>
-                                                    <li><a href="photos.html">Thư Viện Hình Ảnh</a></li>
-                                                    <li><a href="forms.html">Đơn Từ</a></li>
-                                                    <li><a href="prayerRequest.html">Prayer Request</a></li>
+                                                    <li><a href="/weeklyNews.html">Thông Tin Mục Vụ</a></li>
+                                                    <li><a href="/articles.html">Các Bài Viết</a></li>
+                                                    <li><a href="/catholic_teaching.html">Giáo Lý</a></li>
+                                                    <li><a href="/photos.html">Thư Viện Hình Ảnh</a></li>
+                                                    <li><a href="/forms.html">Đơn Từ</a></li>
+                                                    <li><a href="/prayerRequest.html">Prayer Request</a></li>
                                                 </ul>
                                                 <span className="dd-trigger"/>
                                             </li>
-                                            <li><a href="contact.html">LIÊN HỆ</a></li>
+                                            <li><a href="/contact.html">LIÊN HỆ</a></li>
                                         </ul>
                                         <a target="_blank" href="https://giving.parishsoft.com/App/Giving/holy4545250" className="crose-btn header-btn">DONATION</a>
                                     </div>
