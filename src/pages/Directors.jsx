@@ -1,6 +1,7 @@
 import React from 'react';
 import Preloader from '../components/Preloader';
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 
 const Directors = (prop) => {
@@ -14,6 +15,7 @@ const Directors = (prop) => {
                 <center><h2>Hội Đồng Mục Vụ 2019-2023</h2></center>
                 <img src="img/core-img/HDMV2019.jpg" alt="HDMV2019" class="center-50"/>
             </div>
+            <Footer/>
         </div>
     )
 }

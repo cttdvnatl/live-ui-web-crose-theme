@@ -192,10 +192,9 @@ const Header = (prop) => {
                                                 <ul className="dropdown">
                                                     <li><a href="/">Trang Chủ</a></li>
                                                     <li><a href="/about">Sứ Mệnh Giáo Xứ</a></li>
-                                                    <li><a href="history.html">Lịch Sử Giáo Xứ</a></li>
-                                                    <li><a href="https://drive.google.com/file/d/15MIqXgWDNfav8VOyCwepnhgZnvay7Eai/preview">Lịch Phụng Vụ</a></li>
-                                                    <li><a href="clergy-list">Linh Mục/Tu Sĩ</a></li>
-                                                    <li><a href="directors">Qúy Chức</a></li>
+                                                    <li><a href="/history.html">Lịch Sử Giáo Xứ</a></li>
+                                                    <li><a href="/clergy-list">Linh Mục/Tu Sĩ</a></li>
+                                                    <li><a href="/directors">Qúy Chức</a></li>
                                                 </ul>
                                                 <span className="dd-trigger"/>
                                             </li>
@@ -211,31 +210,40 @@ const Header = (prop) => {
                                             <li className="cn-dropdown-item has-down" onClick={(e) => toggleSubMenu(2, e)}>
                                                 <a href="/#">BAN NGÀNH</a>
                                                 <ul className="dropdown">
-                                                    <li><a href="org.html">Sơ Đồ Tổ Chức</a></li>
-                                                    <li><a href="departments.html?x=KCS">Khối Cơ Sở</a></li>
-                                                    <li><a href="departments.html?x=KDS">Khối Đời Sống</a></li>
-                                                    <li><a href="departments.html?x=KGD">Khối Giáo Dục</a></li>
-                                                    <li><a href="departments.html?x=KHC">Khối Hành Chánh</a></li>
-                                                    <li><a href="departments.html?x=KPT">Khối Phụng Tự</a></li>
-                                                    <li><a href="departments.html?x=KTG">Khối Truyền Giáo</a></li>
-                                                    <li><a href="departments.html?x=KQT">Khối Quản Trị</a></li>
-                                                    <li><a href="departments.html?x=KGQ">Khối Gây Quỹ</a></li>
+                                                <li><a href="/Org">Sơ Đồ Tổ Chức</a></li>
+                                                    <li><a href="/departments/KCS">Khối Cơ Sở</a></li>
+                                                    <li><a href="/departments/KDS">Khối Đời Sống</a></li>
+                                                    <li className="KGD"><a href="../departments/KGD">Khối Giáo Dục</a>
+                                                        <ul>
+                                                            <li>
+                                                            <a href="https://infinite-coast-35894.herokuapp.com/"><i>Giáo Lý</i></a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="/VietHong"><i>Việt Ngữ</i></a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="/departments/KHC">Khối Hành Chánh</a></li>
+                                                    <li><a href="/departments/KPT">Khối Phụng Tự</a></li>
+                                                    <li><a href="/departments/KTG">Khối Truyền Giáo</a></li>
+                                                    <li><a href="/departments/KQT">Khối Quản Trị</a></li>
+                                                    <li><a href="/departments/KGQ">Khối Gây Quỹ</a></li>
                                                 </ul>
                                                 <span className="dd-trigger"></span>
                                             </li>
                                             <li className="cn-dropdown-item has-down" onClick={(e) => toggleSubMenu(3, e)}>
                                                 <a href="/#">Thư Viện</a>
                                                 <ul className="dropdown">
-                                                    <li><a href="weeklyNews.html">Thông Tin Mục Vụ</a></li>
-                                                    <li><a href="articles.html">Các Bài Viết</a></li>
-                                                    <li><a href="catholic_teaching.html">Giáo Lý</a></li>
-                                                    <li><a href="photos.html">Thư Viện Hình Ảnh</a></li>
-                                                    <li><a href="forms.html">Đơn Từ</a></li>
-                                                    <li><a href="prayerRequest.html">Prayer Request</a></li>
+                                                    <li><a href="/weeklyNews.html">Thông Tin Mục Vụ</a></li>
+                                                    <li><a href="/articles.html">Các Bài Viết</a></li>
+                                                    <li><a href="/catholic_teaching.html">Giáo Lý</a></li>
+                                                    <li><a href="/photos.html">Thư Viện Hình Ảnh</a></li>
+                                                    <li><a href="/forms.html">Đơn Từ</a></li>
+                                                    <li><a href="/prayerRequest.html">Prayer Request</a></li>
                                                 </ul>
                                                 <span className="dd-trigger"/>
                                             </li>
-                                            <li><a href="contact.html">LIÊN HỆ</a></li>
+                                            <li><a href="/contact.html">LIÊN HỆ</a></li>
                                         </ul>
                                         {window.innerWidth < 1450 ? null : <a href="https://giving.parishsoft.com/App/Giving/holy4545250" className="crose-btn header-btn">DONATION</a>}
                                     </div>
