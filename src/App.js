@@ -3,13 +3,13 @@ import {
   BrowserRouter as Router,
   Route,
 } from 'react-router-dom';
+import './css/style.css';
 import ClergyListPage from './pages/ClergyListPage';
 import Index from './pages/Index';
 import Directors from './pages/Directors';
 import DeptInfo from './pages/DeptOwnerPage';
 import About from './pages/About';
 import Activities from './pages/Activities';
-import './css/style.css';
 
 const App = () => {
   return (
@@ -18,7 +18,7 @@ const App = () => {
           <Route path="/departments/:id" component={DeptInfo} exact />
           <Route path="/directors" component={Directors} exact/>
           <Route path="/" component={Index} exact/>
-          <Route path="/about" component={About}/>}/>
+          <Route path="/about" component={About}/>
           <Route path="/activities" component={Activities}/>
     </Router>
   ) 

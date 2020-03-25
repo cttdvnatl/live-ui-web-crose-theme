@@ -317,7 +317,60 @@ img {
     .crose-btn.btn-2.active, .crose-btn.btn-2:hover, .crose-btn.btn-2:focus {
       color: #ffffff;
       background-color: #c92f2f; }
+@media only screen and (min-width: 765px) and (max-width: 1435px) {
+  .crose-btn {
+    display: inline-block;
+    min-width: 100px;
+    height: 40px;
+    color: #ffffff;
+    background-color: #c92f2f;
+    border-radius: 3px;
+    line-height: 40px;
+    margin-left: 400px;
+    margin-right: 10px;
+  }
+}
 
+@media only screen and (min-width: 500px) and (max-width: 765px) {
+  .crose-btn {
+    display: inline-block;
+    min-width: 100px;
+    height: 40px;
+    color: #ffffff;
+    background-color: #c92f2f;
+    border-radius: 3px;
+    line-height: 40px;
+    margin-left: 200px;
+    margin-right: 10px;
+  }
+}
+@media only screen and (min-width: 360px) and (max-width: 500px) {
+  .crose-btn {
+    display: inline-block;
+    min-width: 100px;
+    height: 40px;
+    color: #ffffff;
+    background-color: #c92f2f;
+    border-radius: 3px;
+    line-height: 40px;
+    margin-left: 140px;
+    margin-right: 10px;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .crose-btn {
+    display: inline-block;
+    min-width: 85px;
+    height: 30px;
+    color: #ffffff;
+    background-color: #c92f2f;
+    border-radius: 1px;
+    font-size: 10px;
+    line-height: 30px;
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+}
 /* :: 4.0 Header Area CSS */
 .header-area {
   position: relative;
@@ -399,7 +452,7 @@ img {
     box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.15); } 
     .header-area .crose-main-menu .classy-navbar {
       height: 90px;
-      padding: 0; }
+      padding: 0 15px; }
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
         .header-area .crose-main-menu .classy-navbar .nav-brand {
           max-width: 120px; } }
@@ -429,6 +482,11 @@ img {
     left: 0;
     z-index: 9999;
     box-shadow: 0 5px 50px 15px rgba(0, 0, 0, 0.2); }
+@media only screen and (max-width: 1900px) {
+  .header-area .is-sticky.crose-main-menu {
+    padding-right: 15px;
+  }
+}
   .header-area .header-btn {
     color: #ffffff;
     font-weight: 700; }
