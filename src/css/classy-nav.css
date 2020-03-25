@@ -41,23 +41,23 @@ img {
   /* sticky */ }
   .classy-nav-container * {
     box-sizing: border-box; }
-  .classy-nav-container a {
-    -webkit-transition-duration: 500ms;
-    transition-duration: 500ms;
-    text-decoration: none;
-    outline: none;
-    font-size: 14px;
-    font-weight: 400;
-    color: #232323;
-    display: inline-block; }
-    .classy-nav-container a:hover, .classy-nav-container a:focus {
-      -webkit-transition-duration: 500ms;
-      transition-duration: 500ms;
-      text-decoration: none;
-      outline: none;
-      font-size: 14px;
-      font-weight: 400;
-      color: #1abc9c; }
+  /*.classy-nav-container a {*/
+  /*  -webkit-transition-duration: 500ms;*/
+  /*  transition-duration: 500ms;*/
+  /*  text-decoration: none;*/
+  /*  outline: none;*/
+  /*  font-size: 14px;*/
+  /*  font-weight: 400;*/
+  /*  color: #232323;*/
+  /*  display: inline-block; }*/
+  /*  .classy-nav-container a:hover, .classy-nav-container a:focus {*/
+  /*    -webkit-transition-duration: 500ms;*/
+  /*    transition-duration: 500ms;*/
+  /*    text-decoration: none;*/
+  /*    outline: none;*/
+  /*    font-size: 14px;*/
+  /*    font-weight: 400;*/
+  /*    color: #1abc9c; }*/
   .classy-nav-container.classy-sticky {
     position: fixed;
     z-index: 1010;

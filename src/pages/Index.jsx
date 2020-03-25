@@ -5,7 +5,6 @@ import CustomCarousel from '../components/Carousel';
 import Footer from '../components/Footer';
 import Info from '../components/Info';
 import Event from '../components/Event';
-import Gallery from '../components/Gallery';
 import Calendar from "../components/Calendar";
 
 const Index = (prop) => {
@@ -17,7 +16,6 @@ const Index = (prop) => {
             <Info/>
             <Event/>
             <Calendar/>
-            <Gallery/>
             <Footer/>
         </div>
     )

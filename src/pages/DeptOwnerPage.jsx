@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 
 import DeptOwnerContent from '../database/departmentOwners-content';
@@ -48,6 +49,7 @@ const DeptOwnerPage = ({match}) => {
             </div>
         </div>
     </div>
+    <Footer/>
     </>   
     );
 }
