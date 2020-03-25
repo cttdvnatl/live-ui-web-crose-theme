@@ -318,7 +318,7 @@ img {
       color: #ffffff;
       background-color: #c92f2f; }
 @media only screen and (min-width: 765px) and (max-width: 1435px) {
-  .crose-btn {
+  .header-area .crose-btn {
     display: inline-block;
     min-width: 100px;
     height: 40px;
@@ -332,7 +332,7 @@ img {
 }
 
 @media only screen and (min-width: 500px) and (max-width: 765px) {
-  .crose-btn {
+  .header-area .crose-btn {
     display: inline-block;
     min-width: 100px;
     height: 40px;
@@ -345,7 +345,7 @@ img {
   }
 }
 @media only screen and (min-width: 360px) and (max-width: 500px) {
-  .crose-btn {
+  .header-area .crose-btn {
     display: inline-block;
     min-width: 100px;
     height: 40px;
@@ -358,7 +358,7 @@ img {
   }
 }
 @media only screen and (max-width: 360px) {
-  .crose-btn {
+  .header-area .crose-btn {
     display: inline-block;
     min-width: 85px;
     height: 30px;
