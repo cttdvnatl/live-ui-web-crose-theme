@@ -61,9 +61,6 @@ ol {
   ol li {
     list-style: none; }
 
-img {
-  height: auto;
-  max-width: 100%; }
 
 /* :: 3.1.0 Spacing */
 .mt-15 {
@@ -162,7 +159,7 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 70%;
 }
 
 /* :: 3.4.0 Section Heading */
@@ -305,6 +302,7 @@ img {
   text-transform: uppercase;
   font-weight: 700;
   text-align: center;
+  margin: 0 20px 0 10px;
 }
   .crose-btn.active, .crose-btn:hover, .crose-btn:focus {
     font-size: 14px;
@@ -317,6 +315,44 @@ img {
     .crose-btn.btn-2.active, .crose-btn.btn-2:hover, .crose-btn.btn-2:focus {
       color: #ffffff;
       background-color: #c92f2f; }
+@media only screen and (min-width: 451px) and (max-width: 1435px) {
+  .header-area .crose-btn {
+    display: inline-block;
+    min-width: 140px;
+    height: 40px;
+    color: #ffffff;
+    background-color: #c92f2f;
+    border-radius: 3px;
+    line-height: 40px;
+  }
+  .classynav > a.crose-btn {
+    display: none;
+  }
+}
+@media only screen and (min-width: 301px) and (max-width: 450px) {
+  .header-area .crose-btn {
+    display: inline-block;
+    min-width: 80px;
+    height: 40px;
+    color: #ffffff;
+    background-color: #c92f2f;
+    border-radius: 1px;
+    font-size: 12px;
+    line-height: 40px;
+  }
+  .classynav > a.crose-btn {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .header-area .crose-btn {
+    display: none;
+  }
+  .classynav > a.crose-btn {
+    display: inline-block;
+  }
+}
 
 /* :: 4.0 Header Area CSS */
 .header-area {
@@ -393,6 +429,8 @@ img {
               padding: 0 5px; } }
           .header-area .top-header .top-header-content .top-social-info a:hover {
             color: #c92f2f; }
+            .header-area .top-header .top-header-meta a span.donation {
+              color: red;}
   .header-area .crose-main-menu {
     position: relative;
     z-index: 1;
@@ -402,13 +440,16 @@ img {
       padding: 0; }
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
         .header-area .crose-main-menu .classy-navbar .nav-brand {
-          max-width: 120px; } }
+          max-height: 90px;
+          max-width: 200px; } }
       @media only screen and (min-width: 768px) and (max-width: 991px) {
         .header-area .crose-main-menu .classy-navbar .nav-brand {
-          max-width: 120px; } }
+          max-width: 200px;
+          max-height: 90px} }
       @media only screen and (max-width: 767px) {
         .header-area .crose-main-menu .classy-navbar .nav-brand {
-          max-width: 120px; } }
+          max-width: 200px;
+          max-height: 90px} }
   .header-area .classynav ul li a {
     font-weight: 700;
     text-transform: uppercase; }
@@ -429,6 +470,11 @@ img {
     left: 0;
     z-index: 9999;
     box-shadow: 0 5px 50px 15px rgba(0, 0, 0, 0.2); }
+@media only screen and (max-width: 1900px) {
+  .header-area .is-sticky.crose-main-menu {
+    padding-right: 15px;
+  }
+}
   .header-area .header-btn {
     color: #ffffff;
     font-weight: 700; }
@@ -495,6 +541,15 @@ img {
         color: #ffffff; }
     .header-area .search-form-area.search-on {
       left: 0; }
+
+      li.KGD ul li {
+        margin-left: 20px;
+      }
+      
+      li.KGD ul {
+        display: block;
+        background: white;
+      } 
 
 /* :: 5.0 Hero Slides Area */
 .hero-area,
