@@ -172,7 +172,7 @@ const Header = (prop) => {
                     </div>
                 </div>
             </div>
-            <div style={{"minHeight":"132px", "maxHeight":"158px"}}>
+            <div style={{"height":"132px", "maxHeight":"158px"}}>
                 <div className="crose-main-menu" ref={mainMenu}>
                     <div className="classy-nav-container breakpoint-off" ref={navbar}>
                         <div className="container">
