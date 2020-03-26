@@ -27,7 +27,7 @@ const Covid19 = (prop) => {
                                         <p>{item.body}</p>
                                     </div>
                                     <div className="find-out-more-btn">
-                                        <a href={item.pdf} className="crose-btn">Xem thêm</a>
+                                        <a href={item.pdf} className="crose-btn btn-2">Xem thêm</a>
                                     </div>
                                 </div>
                             </div>
