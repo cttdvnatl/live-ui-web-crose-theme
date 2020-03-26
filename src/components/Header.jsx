@@ -200,7 +200,7 @@ const Header = (prop) => {
                                             </li>
                                             <li className="cn-dropdown-item has-down" onClick={(e) => toggleSubMenu(1, e)}><a href="/#">TIN TỨC/SỰ KIỆN</a>
                                                 <ul className="dropdown">
-                                                    <li><a href="activites.html">Sinh Hoạt Giáo Xứ</a></li>
+                                                    <li><a href="/activities">Sinh Hoạt Giáo Xứ</a></li>
                                                     <li><a href="https://drive.google.com/file/d/15MIqXgWDNfav8VOyCwepnhgZnvay7Eai/preview">Lịch 2020</a></li>
                                                     <li><a href="https://fallfestivalatl.org">Hội Chợ Mùa Thu</a></li>
                                                     <li><a href="https://www.tomathienatl.org">TNTT Tôma Thiện</a></li>
