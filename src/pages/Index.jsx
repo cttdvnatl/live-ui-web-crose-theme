@@ -11,7 +11,7 @@ const Index = (prop) => {
     return(
         <div>
             <Preloader/>
-            <Header emergency={true} emergencyMsg="Thông Báo Về Bệnh Dịch Coronavirus 2019 (COVID-19)" url="hvm_covid19.html"/>
+            <Header emergency={true} emergencyMsg="Thông Báo Về Bệnh Dịch Coronavirus 2019 (COVID-19)" url="/covid19"/>
             <CustomCarousel/>
             <Info/>
             <Event/>

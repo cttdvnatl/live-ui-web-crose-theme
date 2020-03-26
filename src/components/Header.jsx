@@ -178,8 +178,8 @@ const Header = (prop) => {
                         <div className="container">
                             <nav className="classy-navbar justify-content-between" id="croseNav">
                                 <a href="/" className="nav-brand"><img src="../img/core-img/gxlogo.png" alt=""/></a>
-                                {window.innerWidth < 1450 ? <a href="https://giving.parishsoft.com/App/Giving/holy4545250" className="crose-btn">DONATION</a> : null}
                                 <div className="classy-navbar-toggler" onClick={activateSidebar}>
+                                    <a href="https://giving.parishsoft.com/App/Giving/holy4545250" className="crose-btn">DONATION</a>
                                     <span className="navbarToggler" ref={navbarToggler}><span/><span/><span/></span>
                                 </div>
                                 <div className="classy-menu" ref={navbarMenu} onClick={closeSidebar}>
@@ -245,7 +245,7 @@ const Header = (prop) => {
                                             </li>
                                             <li><a href="/contact.html">LIÊN HỆ</a></li>
                                         </ul>
-                                        {window.innerWidth < 1450 ? null : <a href="https://giving.parishsoft.com/App/Giving/holy4545250" className="crose-btn header-btn">DONATION</a>}
+                                        <a href="https://giving.parishsoft.com/App/Giving/holy4545250" className="crose-btn header-btn">DONATION</a>
                                     </div>
                                 </div>
                             </nav>

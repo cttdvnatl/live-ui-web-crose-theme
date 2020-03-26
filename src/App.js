@@ -12,6 +12,7 @@ import Org from './pages/Org';
 import VietHong from './pages/VietHongPage';
 import Activities from './pages/Activities';
 import './css/style.css';
+import Covid19 from "./pages/covid19";
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
           <Route path="/org" component={Org}/>
           <Route path="/vietHong" component={VietHong}/>
           <Route path="/activities" component={Activities}/>
+          <Route path="/covid19" component={Covid19}/>
     </Router>
   ) 
 };

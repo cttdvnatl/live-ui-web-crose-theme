@@ -61,9 +61,6 @@ ol {
   ol li {
     list-style: none; }
 
-img {
-  height: auto;
-  max-width: 100%; }
 
 /* :: 3.1.0 Spacing */
 .mt-15 {
@@ -305,6 +302,7 @@ img {
   text-transform: uppercase;
   font-weight: 700;
   text-align: center;
+  margin: 0 20px 0 10px;
 }
   .crose-btn.active, .crose-btn:hover, .crose-btn:focus {
     font-size: 14px;
@@ -317,60 +315,45 @@ img {
     .crose-btn.btn-2.active, .crose-btn.btn-2:hover, .crose-btn.btn-2:focus {
       color: #ffffff;
       background-color: #c92f2f; }
-@media only screen and (min-width: 765px) and (max-width: 1435px) {
+@media only screen and (min-width: 451px) and (max-width: 1435px) {
   .header-area .crose-btn {
     display: inline-block;
-    min-width: 100px;
+    min-width: 140px;
     height: 40px;
     color: #ffffff;
     background-color: #c92f2f;
     border-radius: 3px;
     line-height: 40px;
-    margin-left: 400px;
-    margin-right: 10px;
+  }
+  .classynav > a.crose-btn {
+    display: none;
   }
 }
-
-@media only screen and (min-width: 500px) and (max-width: 765px) {
+@media only screen and (min-width: 390px) and (max-width: 450px) {
   .header-area .crose-btn {
     display: inline-block;
-    min-width: 100px;
+    min-width: 80px;
     height: 40px;
-    color: #ffffff;
-    background-color: #c92f2f;
-    border-radius: 3px;
-    line-height: 40px;
-    margin-left: 200px;
-    margin-right: 10px;
-  }
-}
-@media only screen and (min-width: 360px) and (max-width: 500px) {
-  .header-area .crose-btn {
-    display: inline-block;
-    min-width: 100px;
-    height: 40px;
-    color: #ffffff;
-    background-color: #c92f2f;
-    border-radius: 3px;
-    line-height: 40px;
-    margin-left: 140px;
-    margin-right: 10px;
-  }
-}
-@media only screen and (max-width: 360px) {
-  .header-area .crose-btn {
-    display: inline-block;
-    min-width: 85px;
-    height: 30px;
     color: #ffffff;
     background-color: #c92f2f;
     border-radius: 1px;
-    font-size: 10px;
-    line-height: 30px;
-    margin-left: 20px;
-    margin-right: 10px;
+    font-size: 12px;
+    line-height: 40px;
+  }
+  .classynav > a.crose-btn {
+    display: none;
   }
 }
+
+@media only screen and (max-width: 389px) {
+  .header-area .crose-btn {
+    display: none;
+  }
+  .classynav > a.crose-btn {
+    display: inline-block;
+  }
+}
+
 /* :: 4.0 Header Area CSS */
 .header-area {
   position: relative;
@@ -454,16 +437,19 @@ img {
     box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.15); } 
     .header-area .crose-main-menu .classy-navbar {
       height: 90px;
-      padding: 0 15px; }
+      padding: 0; }
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
         .header-area .crose-main-menu .classy-navbar .nav-brand {
-          max-width: 120px; } }
+          max-height: 90px;
+          max-width: 200px; } }
       @media only screen and (min-width: 768px) and (max-width: 991px) {
         .header-area .crose-main-menu .classy-navbar .nav-brand {
-          max-width: 120px; } }
+          max-width: 200px;
+          max-height: 90px} }
       @media only screen and (max-width: 767px) {
         .header-area .crose-main-menu .classy-navbar .nav-brand {
-          max-width: 120px; } }
+          max-width: 200px;
+          max-height: 90px} }
   .header-area .classynav ul li a {
     font-weight: 700;
     text-transform: uppercase; }

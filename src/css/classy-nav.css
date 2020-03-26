@@ -95,8 +95,7 @@ img {
     font-size: 26px;
     font-weight: 500;
     color: #565656;
-    display: inline-block;
-    margin-right: 30px; }
+    display: inline-block;}
     .classy-navbar .nav-brand:focus, .classy-navbar .nav-brand:hover {
       font-size: 26px;
       font-weight: 500; }

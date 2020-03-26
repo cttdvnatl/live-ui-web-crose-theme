@@ -9,10 +9,10 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title -->
-    <title>Holy Vietnamese Martyr's Mission | COVID19></title>
+    <title>Holy Vietnamese Martyr's Mission | Sứ Mệnh Giáo Xứ</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="http://cttdvnatl.net/gallery/img/core-img/gxfavicon.ico">
+    <link rel="icon" href="http://cttdvnatl.net/gallery/img/bg-img/gxfavicon.ico">
 
     <!-- Core Stylesheet -->
     <link rel="stylesheet" href="style.css">
@@ -106,7 +106,16 @@
                                             <li><a href="org.html">Sơ Đồ Tổ Chức</a></li>
                                             <li><a href="departments.html?x=KCS">Khối Cơ Sở</a></li>
                                             <li><a href="departments.html?x=KDS">Khối Đời Sống</a></li>
-                                            <li><a href="departments.html?x=KGD">Khối Giáo Dục</a></li>
+                                            <li class="KGD"><a href="departments.html?x=KGD">Khối Giáo Dục</a>
+                                                <ul>
+                                                    <li>
+                                                        <a target="_blank" href="https://infinite-coast-35894.herokuapp.com/"><i>Giáo Lý</i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="VietHongSchool.html"><i>Việt Ngữ</i></a>
+                                                    </li>
+                                                </ul>
+                                                </li>
                                             <li><a href="departments.html?x=KHC">Khối Hành Chánh</a></li>
                                             <li><a href="departments.html?x=KPT">Khối Phụng Tự</a></li>
                                             <li><a href="departments.html?x=KTG">Khối Truyền Giáo</a></li>
@@ -141,26 +150,37 @@
     </header>
     <!-- ##### Header Area End ##### -->
 
-    <!-- ##### Articles Area Start ##### -->
-    <div class="events-area section-padding-100">
+    <!-- ##### About Us Area Start ##### -->
+    <div class="about-us-area about-page section-padding-100">
+        
         <div class="container">
-            <div class="row articles-container">
+            <center><h2> Giáo Lý của Giáo Hội Công Giáo. </h2></center>
+            <div class="row align-items-center justify-content-between">
+                <div class="col-12 col-lg-6">
+                        <div class="about-content">
+                            <img src="http://cttdvnatl.net/gallery/img/bg-img/catholic2.jpg" alt="">
+                        </div>
+                </div>
+                <div class="col-12 col-lg-5">
+                    <div class="about-content">
+                        <p style="font-size: 130%">- 7 <a href="http://ccc.usccb.org/flipbooks/catechism/index.html#312" style="color: #850000;font-size: 100%">Sacraments.</a></p>
+                        <p style="font-size: 130%">- <a href="http://ccc.usccb.org/flipbooks/catechism" style="color: #850000;font-size: 100%">General reference.</a></p>
 
-                <!-- Articles Title -->
-                <div class="col-12">
-                    <div class="events-title">
-                        <center>
-                            <h2>Thông báo về bệnh dịch Coronavirus 2019</h2>
-                        </center>
+                        <!-- TODO: someone needs to change the reference link to an english page.-->
+                        <!-- TODO: also translate the link-name to English-->
+                        <p style="font-size: 130%">- <a href="religion/lent.html" style="color: #850000;font-size: 100%">Học hỏi mùa chay và mùa phục sinh</a>
+                            <div class="opening-hours-location mt-30 d-flex align-items-center">
+                            <!-- Opening Hours -->
+                     
+                            <!-- Location -->
+                          
+                        </div>
                     </div>
                 </div>
-
-
             </div>
         </div>
     </div>
-    <!-- ##### Articles Area End ##### -->
-
+    <!-- ##### About Us Area End ##### -->
    <!-- ##### Footer Area Start ##### -->
    <footer class="footer-area">
        <div w3-include-html="main_footer.html"></div>
@@ -181,9 +201,6 @@
     <script>
         includeHTML();
     </script>
-    <!-- Build covid19 js -->
-    <script src="js/covid19.js" type="module"></script>
 </body>
 
 </html>
-
