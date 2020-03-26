@@ -1,7 +1,6 @@
 import React from 'react';
 import Modal from 'react-bootstrap/Modal';
 const PopupModal = (prop) => {
-    console.log(JSON.stringify(prop));
     return (
         <Modal show={prop.show} size="xl" onHide={prop.onHide}>
             <Modal.Header closeButton>
