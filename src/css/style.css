@@ -354,6 +354,10 @@ ol {
   }
 }
 
+a.nav-brand > img {
+  max-height: 80px;
+}
+
 /* :: 4.0 Header Area CSS */
 .header-area {
   position: relative;
