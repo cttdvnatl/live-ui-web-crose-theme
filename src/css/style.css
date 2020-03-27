@@ -471,7 +471,7 @@ ol {
     left: 0;
     z-index: 9999;
     box-shadow: 0 5px 50px 15px rgba(0, 0, 0, 0.2); }
-@media only screen and (min-width: 350px) and (max-width: 1900px) {
+@media only screen and (min-width: 450px) and (max-width: 1900px) {
   .header-area .is-sticky.crose-main-menu {
     padding-right: 15px;
   }
