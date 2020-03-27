@@ -6,7 +6,7 @@ const ActivitiesPage = () => (
     <>
     <Header />
     <div id="Container" style={{paddingBottom : '56.25%', position: 'relative', display : 'block', width : '100%'}}>
-        <iframe id="ViostreamIframe"
+        <iframe title="ViostreamIframe" id="ViostreamIframe"
                 width="100%" height="100%"
                 src="news/UPDATE.html"
                 frameborder="0" allowfullscreen=""
