@@ -476,11 +476,6 @@ ol {
     padding-right: 15px;
   }
 }
-@media only screen and (max-width: 449px) {
-  .header-area .is-sticky.crose-main-menu {
-    padding-right: 10px;
-  }
-}
   .header-area .header-btn {
     color: #ffffff;
     font-weight: 700; }
