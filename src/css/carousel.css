@@ -49,19 +49,20 @@
 @media only screen and (max-width: 767px) {
     .carousel .carousel-caption h1 {
         font-size: 15px;
+        padding-bottom: 5px;
     }
     .carousel .carousel-caption p {
-        font-size: 8px;
-        line-height:0.5em;
+        font-size: 10px;
+        line-height:15px;
     }
     .carousel .carousel-caption a.crose-btn {
-        height: 45px;
+        height: 25px;
         font-size: 12px;
         padding: 1px 5px;
         min-width: 100px;
+        line-height: 25px;
     }
 }
-
 
 .fadeInUpShort {
     opacity: 0;

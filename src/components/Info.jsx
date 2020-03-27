@@ -40,7 +40,7 @@ const Info = (prop) => {
                         <div className="about-us-content mb-100">
                             <img src="http://cttdvnatl.net/gallery/img/index/about3.png" alt=""/>
                             <div className="about-text">
-                                <a href="https://www.facebook.com/pg/cttdvn/videos/?ref=page_internal"><h4>2 Cách Xem Lễ Trực Tuyến:</h4></a>
+                                <h4>2 Cách Xem Lễ Trực Tuyến:</h4>
                                 <div className="find-out-more-btn">
                                     <p style={{display : 'flex'}}><a href="https://www.facebook.com/pg/cttdvn/videos/?ref=page_internal" style={{backgroundColor: '#809fff'}} className="crose-btn">FaceBook</a>
                                     <a style={{backgroundColor: '#ff6666', color : '#b30000'}} href="https://www.youtube.com/results?search_query=%23HolyVietnameseMartyrs"  className="crose-btn">YouTube</a></p>

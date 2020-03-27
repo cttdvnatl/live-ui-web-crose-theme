@@ -218,7 +218,7 @@ const Header = (prop) => {
                                                     <li className="KGD"><a href="../departments/KGD">Khối Giáo Dục</a>
                                                         <ul>
                                                             <li>
-                                                            <a href="https://infinite-coast-35894.herokuapp.com/"><i>Giáo Lý</i></a>
+                                                            <a href="/Giaoly"><i>Giáo Lý</i></a>
                                                             </li>
                                                             <li>
                                                                 <a href="/VietHong"><i>Việt Ngữ</i></a>
@@ -239,7 +239,7 @@ const Header = (prop) => {
                                                     <li><a href="/weeklyNews.html">Thông Tin Mục Vụ</a></li>
                                                     <li><a href="/articles.html">Các Bài Viết</a></li>
                                                     <li><a href="/catholic_teaching.html">Giáo Lý</a></li>
-                                                    <li><a href="/photos.html">Thư Viện Hình Ảnh</a></li>
+                                                    <li><a href="/photos">Thư Viện Hình Ảnh</a></li>
                                                     <li><a href="/forms.html">Đơn Từ</a></li>
                                                     <li><a href="/prayerRequest.html">Prayer Request</a></li>
                                                 </ul>

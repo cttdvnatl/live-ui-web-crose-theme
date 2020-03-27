@@ -2,15 +2,15 @@ import React from 'react';
 import Header from "../components/Header";
 import Preloader from "../components/Preloader";
 import Footer from "../components/Footer";
-import content from "../database/covid19.json";
+import content from "../database/photos.json";
 
-const Covid19 = (prop) => {
+const photos = (prop) => {
     return (
         <div>
             <Preloader/>
             <Header/>
-            <section className="section-padding-100">
-                <h2 className="section-heading">Thông báo về bệnh dịch Coronavirus 2019</h2>
+            <section>
+                <h2 className="section-heading">Thư Viện Hình Ảnh</h2>
                 <div className="container">
                     { content.map((item, idx) => {
                         return (
@@ -34,9 +34,10 @@ const Covid19 = (prop) => {
                         );
                     })}
                 </div>
+                <p>&nbsp;</p>
             </section>
             <Footer/>
         </div>
     );
 };
-export default Covid19;
+export default photos;
