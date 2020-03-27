@@ -13,6 +13,8 @@ import VietHong from './pages/VietHongPage';
 import Activities from './pages/ActivitiesPage';
 import './css/style.css';
 import Covid19 from "./pages/covid19";
+import Giaoly from "./pages/giaoly";
+import photos from "./pages/photos";
 
 const App = () => {
   return (
@@ -26,6 +28,8 @@ const App = () => {
           <Route path="/vietHong" component={VietHong}/>
           <Route path="/activities" component={Activities}/>
           <Route path="/covid19" component={Covid19}/>
+          <Route path="/giaoly" component={Giaoly}/>
+          <Route path="/photos" component={photos}/>
     </Router>
   ) 
 };

@@ -1,0 +1,70 @@
+[
+  {
+    "Section":"covid19",
+    "date":"11-28-2019",
+    "image":"http://cttdvnatl.net/gallery/img/bg-img/191128.jpg",
+    "title":"2019 THÁNH ĐƯỜNG",
+    "body":"Giáo  Xứ  chúng  ta</b>  View the Construction of our new church.  We have been committed to",
+    "pdf":"gallery/2019_TD.html"
+  },
+  {
+    "Section":"covid19",
+    "date":"05-11-2019",
+    "image":"http://cttdvnatl.net/gallery/img/bg-img/20190511_RLLD.JPG",
+    "title":"2019 Ruoc Le Lan Dau",
+    "body":"Thông báo của cha chánh xứ",
+    "pdf":"gallery/20190511_RLLD.html"
+  },
+  {
+    "Section":"covid19",
+    "date":"03-13-2020",
+    "image":"http://cttdvnatl.net/gallery/img/bg-img/20190504_ThemSuc.JPG",
+    "title":"2019 Them Suc",
+    "body":"",
+    "pdf":"gallery/20190504_ThemSuc.html"
+  },
+  {
+    "Section":"covid19",
+    "date":"04-21-2019",
+    "image":"http://cttdvnatl.net/gallery/img/bg-img/20190421_NCT_001.jpg",
+    "title":"2019 New Church Tour",
+    "body":"",
+    "pdf":"gallery/20190421_NCT.html"
+  },
+  {
+    "Section":"Blog",
+    "SubSec":"covid19",
+    "image":"http://cttdvnatl.net/gallery/img/bg-img/20190420_PhucSinh.JPG",
+    "date":"04-20-2019",
+    "title":"2019 Phuc Sinh",
+    "body":"",
+    "pdf":"gallery/20190420_PhucSinh.html"
+  },
+  {
+    "Section":"Blog",
+    "SubSec":"covid19",
+    "image":"http://cttdvnatl.net/gallery/img/bg-img/180602b.JPG",
+    "date":"06-08-2018",
+    "title":"2018 Dai Hoi Thanh Th",
+    "body":"",
+    "pdf":"gallery/201806_DHTT.html"
+  },
+  {
+    "Section":"Blog",
+    "SubSec":"covid19",
+    "image":"http://cttdvnatl.net/gallery/img/bg-img/180520a.JPG",
+    "date":"05-27-2018",
+    "title":"2018 Giao Ly Hon Nhan",
+    "body":"",
+    "pdf":"gallery/201805_GLHH.html"
+  },
+  {
+    "Section":"Blog",
+    "SubSec":"covid19",
+    "image":"http://cttdvnatl.net/gallery/img/bg-img/20190420_PhucSinh.JPG",
+    "date":"04-20-2019",
+    "title":"2018 Dang Hoa",
+    "body":"",
+    "pdf":"gallery/201805_DangHoa.html"
+  }
+]
