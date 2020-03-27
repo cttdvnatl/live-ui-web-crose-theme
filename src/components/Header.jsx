@@ -6,6 +6,7 @@ import EmergencyEvent from "./EmergencyNotice";
 const Header = (prop) => {
     const [getTemp, setTemp] = useState(0);
     const [getTime, setTime] = useState("00:00 AM");
+    const [logo, setLogo] = useState("")
     //Element references
     const navbarToggler = useRef(null);
     const navbarMenu = useRef(null);
@@ -85,7 +86,8 @@ const Header = (prop) => {
             twitter.current.classList.add('fa-lg');
             youtube.current.classList.add('fa-lg');
         }
-    }, [setTimeCallback]);
+        setLogo(window.innerWidth < 400 ? "../img/core-img/Logo1.png" : "../img/core-img/gxlogo.png");
+    }, [setTimeCallback, setLogo]);
     //Modify styling when the window is scrolled
     const scrollCallback = useCallback(() => {
         const sticky = mainMenu.current.offsetTop;
@@ -172,12 +174,12 @@ const Header = (prop) => {
                     </div>
                 </div>
             </div>
-            <div style={{"height":"132px", "maxHeight":"158px"}}>
+            <div style={{"minHeight":"90px"}}>
                 <div className="crose-main-menu" ref={mainMenu}>
                     <div className="classy-nav-container breakpoint-off" ref={navbar}>
                         <div className="container">
                             <nav className="classy-navbar justify-content-between" id="croseNav">
-                                <a href="/" className="nav-brand"><img src="../img/core-img/gxlogo.png" alt=""/></a>
+                                <a href="/" className="nav-brand"><img src={logo} alt=""/></a>
                                 <div className="classy-navbar-toggler" onClick={activateSidebar}>
                                     <a href="https://giving.parishsoft.com/App/Giving/holy4545250" className="crose-btn">DONATION</a>
                                     <span className="navbarToggler" ref={navbarToggler}><span/><span/><span/></span>
@@ -200,7 +202,7 @@ const Header = (prop) => {
                                             </li>
                                             <li className="cn-dropdown-item has-down" onClick={(e) => toggleSubMenu(1, e)}><a href="/#">TIN TỨC/SỰ KIỆN</a>
                                                 <ul className="dropdown">
-                                                    <li><a href="activites.html">Sinh Hoạt Giáo Xứ</a></li>
+                                                    <li><a href="/activities">Sinh Hoạt Giáo Xứ</a></li>
                                                     <li><a href="https://drive.google.com/file/d/15MIqXgWDNfav8VOyCwepnhgZnvay7Eai/preview">Lịch 2020</a></li>
                                                     <li><a href="https://fallfestivalatl.org">Hội Chợ Mùa Thu</a></li>
                                                     <li><a href="https://www.tomathienatl.org">TNTT Tôma Thiện</a></li>

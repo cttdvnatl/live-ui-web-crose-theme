@@ -10,7 +10,7 @@ import DeptInfo from './pages/DeptOwnerPage';
 import About from './pages/About';
 import Org from './pages/Org';
 import VietHong from './pages/VietHongPage';
-import Activities from './pages/Activities';
+import Activities from './pages/ActivitiesPage';
 import './css/style.css';
 import Covid19 from "./pages/covid19";
 
