@@ -16,6 +16,7 @@ import Covid19 from "./pages/covid19";
 import Giaoly from "./pages/giaoly";
 import Glgh from "./pages/Glgh";
 import photos from "./pages/photos";
+import Contact from "./pages/ContactPage";
 
 const App = () => {
   return (
@@ -32,6 +33,7 @@ const App = () => {
           <Route path="/giaoly" component={Giaoly}/>
           <Route path="/glgh" component={Glgh}/>
           <Route path="/photos" component={photos}/>
+          <Route path="/contact" component={Contact}/>
     </Router>
   ) 
 };
