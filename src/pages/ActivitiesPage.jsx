@@ -5,13 +5,12 @@ import Footer from '../components/Footer';
 const ActivitiesPage = () => (
     <>
     <Header />
-    <div id="Container" style={{paddingBottom : '56.25%', position: 'relative', display : 'block', width : '100%'}}>
-        <iframe title="ViostreamIframe" id="ViostreamIframe"
-                width="100%" height="100%"
-                src="news/UPDATE.html"
-                frameborder="0" allowfullscreen=""
-                style={{position: 'absolute',top:'0', left: '0', overflow:'hidden'}}></iframe>
-    </div>
+    <section className="section-padding-25">
+        <h2 className="section-heading">Sinh Hoạt Giáo Xứ</h2>
+        <iframe title="Sinh Hoạt Giáo Xứ" src="news/UPDATE.html"
+            frameBorder="0"
+            style={{'width':"100%", 'height':"1000px"}}/>
+    </section>
     <Footer />
     </>
 );
