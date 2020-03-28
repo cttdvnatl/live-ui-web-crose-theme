@@ -1,12 +1,12 @@
 import React, {useEffect, useState, useRef, useCallback} from 'react';
-// import './style.css';
 import axios from 'axios';
 import EmergencyEvent from "./EmergencyNotice";
+import PopupModal from "./PopupModal";
 
 const Header = (prop) => {
     const [getTemp, setTemp] = useState(0);
     const [getTime, setTime] = useState("00:00 AM");
-    const [logo, setLogo] = useState("")
+    const [logo, setLogo] = useState("");
     //Element references
     const navbarToggler = useRef(null);
     const navbarMenu = useRef(null);
@@ -25,6 +25,9 @@ const Header = (prop) => {
     const twitter = useRef(null);
     const youtube = useRef(null);
     const mainMenu = useRef(null);
+
+    const [show, setShow] = useState(false);
+    const [content, setContent] = useState({});
 
     //Init the current temperature
     useEffect(() => {
@@ -147,7 +150,26 @@ const Header = (prop) => {
             window.removeEventListener("resize", resizeCallback);
         };
       }, [setTimeCallback, resizeCallback, scrollCallback]);
-    
+
+    const displayModal = (e, title, content) => {
+        if(!sessionStorage.hasOwnProperty('showDonationInst') || sessionStorage.getItem('showDonationInst') ==='true') {
+            e.preventDefault();
+            setShow(true);
+            setContent({
+                title: title,
+                url: content,
+                fileExt: content.slice(-3),
+                confirm: e.target.getAttribute("href")
+            });
+        }
+        sessionStorage.setItem('showDonationInst', 'false');
+    };
+
+    const hideModal = () => {
+        setShow(false);
+        setContent({});
+    };
+
     //JSX represent the header element
     return (
         <header className="header-area">
@@ -181,7 +203,7 @@ const Header = (prop) => {
                             <nav className="classy-navbar justify-content-between" id="croseNav">
                                 <a href="/" className="nav-brand"><img src={logo} alt=""/></a>
                                 <div className="classy-navbar-toggler" onClick={activateSidebar}>
-                                    <a href="https://giving.parishsoft.com/App/Giving/holy4545250" className="crose-btn">DONATION</a>
+                                    <a href="https://giving.parishsoft.com/App/Giving/holy4545250" className="crose-btn" onClick={(e) => displayModal(e, "Huong dan Donation", "img/core-img/donation_instruction.jpg")}>DONATION</a>
                                     <span className="navbarToggler" ref={navbarToggler}><span/><span/><span/></span>
                                 </div>
                                 <div className="classy-menu" ref={navbarMenu} onClick={closeSidebar}>
@@ -247,7 +269,7 @@ const Header = (prop) => {
                                             </li>
                                             <li><a href="/contact">LIÊN HỆ</a></li>
                                         </ul>
-                                        <a href="https://giving.parishsoft.com/App/Giving/holy4545250" className="crose-btn header-btn">DONATION</a>
+                                        <a href="https://giving.parishsoft.com/App/Giving/holy4545250" className="crose-btn header-btn" onClick={(e) => displayModal(e, "Huong dan Donation", "img/core-img/donation_instruction.jpg")}>DONATION</a>
                                     </div>
                                 </div>
                             </nav>
@@ -256,6 +278,7 @@ const Header = (prop) => {
                     </div>
                 </div>
             </div>
+            {show ? <PopupModal show={show} content={content} onHide={hideModal}/> : null}
         </header>
     );
 };

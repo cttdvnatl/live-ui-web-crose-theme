@@ -18,5 +18,5 @@ const Directors = (prop) => {
             <Footer/>
         </div>
     )
-}
+};
 export default Directors;
