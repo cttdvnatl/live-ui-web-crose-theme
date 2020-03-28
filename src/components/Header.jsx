@@ -238,7 +238,7 @@ const Header = (prop) => {
                                                 <ul className="dropdown">
                                                     <li><a href="/weeklyNews.html">Thông Tin Mục Vụ</a></li>
                                                     <li><a href="/articles.html">Các Bài Viết</a></li>
-                                                    <li><a href="/catholic_teaching.html">Giáo Lý</a></li>
+                                                    <li><a href="/glgh">Giáo Lý</a></li>
                                                     <li><a href="/photos">Thư Viện Hình Ảnh</a></li>
                                                     <li><a href="/forms.html">Đơn Từ</a></li>
                                                     <li><a href="/prayerRequest.html">Prayer Request</a></li>

@@ -14,6 +14,7 @@ import Activities from './pages/ActivitiesPage';
 import './css/style.css';
 import Covid19 from "./pages/covid19";
 import Giaoly from "./pages/giaoly";
+import Glgh from "./pages/Glgh";
 import photos from "./pages/photos";
 
 const App = () => {
@@ -29,6 +30,7 @@ const App = () => {
           <Route path="/activities" component={Activities}/>
           <Route path="/covid19" component={Covid19}/>
           <Route path="/giaoly" component={Giaoly}/>
+          <Route path="/glgh" component={Glgh}/>
           <Route path="/photos" component={photos}/>
     </Router>
   ) 
