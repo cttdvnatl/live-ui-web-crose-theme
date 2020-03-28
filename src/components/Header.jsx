@@ -245,7 +245,7 @@ const Header = (prop) => {
                                                 </ul>
                                                 <span className="dd-trigger"/>
                                             </li>
-                                            <li><a href="/contact.html">LIÊN HỆ</a></li>
+                                            <li><a href="/contact">LIÊN HỆ</a></li>
                                         </ul>
                                         <a href="https://giving.parishsoft.com/App/Giving/holy4545250" className="crose-btn header-btn">DONATION</a>
                                     </div>
