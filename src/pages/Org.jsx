@@ -11,6 +11,6 @@ const Org = () => {
         <Footer/>
         </div>
     );
-}
+};
 
 export default Org;

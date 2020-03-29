@@ -22,6 +22,23 @@ const articles =
 [
   {
     "Section": "Các Bài Viết",
+    "date":"2020-03-28",
+    "title":"ĐỊNH HƯỚNG TÂM LINH",
+    "body":`Đứng trước nạn đại dịch COVID-19, chúng ta đang sống trong tình trạng lo lắng, hoảng loạn, và khẩn cấp. Lo lắng vì trận chiến chống lại Coronavirus này không có biên giới nên lan tràn khắp thế giới; không kiêng nể sắc tộc, tôn giáo nào; và không phân biệt trẻ-già, giàu-nghèo, sang-hèn.
+    Trong tâm tình trên, xin được chia sẻ cùng quý thành viên mấy điểm sau:
+    Trước hết trong hoàn cảnh khẩn cấp hiện nay, chúng ta không được tu họp trên 10 người kể cả để cử hành Thánh Lễ Chúa Nhật và các nghi thức phụng vụ để ngăn ngừa lây lan dịch bệnh.  Riêng các linh mục đang sống trong nghịch lý: vẫn muốn gần gũi với giáo dân mà không gia tăng sự lây nhiễm, điều này chỉ có cách qua phương tiện truyền thông kỹ thuật số. Thật cám ơn những anh chị em trong Ban Truyền Thông, kể cả quý sơ đã học hỏi, thiết kế và thực hiện để chúng tôi là giáo sĩ vẫn có thể liên lạc với quý vị và quý vị vẫn nghe được tâm tình chia sẻ của chúng tôi. Có lẽ quý vị cũng đồng ý với các linh mục rằng: sự gặp gỡ, gần gũi thể lý với giáo dân lúc này là vô trách nhiệm; và yêu thương cộng đồng thì phải tránh xa ra. Chắc chắn việc tham dự Thánh Lễ trực tuyến và Rước Lễ Thiêng Liêng không thể nào thay thế cho việc cử hành bí tích với sự hiện thể lý nhưng đây cũng là cơ hội để chúng ta gặp gỡ Thiên Chúa và nối kết với anh chị em bằng những phương thế khác đang khi ta không thể hiện diện thực thụ.
+    Kế đến, đây là cơ hội để cho các giáo hội tại gia (domestic church) sinh hoạt, chia sẻ và gắn bó. Chúng tôi cố gắng giữ những giờ cử hành các Thánh Lễ Cuồi Tuần, kể cả ngày thường để quý vị vẫn có thể giữ được thói quen tốt lành, tức là nhân đức trung thành trong việc cầu nguyện cho thờ phượng Thiên Chúa. Thêm vào đó, mỗi gia đình cũng hãy cùng nhau giữ những giờ cầu nguyện này trong gia đình. Tôi tha thiết xin các vị gia trưởng hãy chiếm giữ lại truyền thống gia đình Công giáo để chu toàn bổn phận và tích cực hướng dẫn gia đình cử hành phụng vụ tại nhà, như truyền thống các gia đình Công giáo thuở sơ khai vẫn thực hành.
+    Sau cùng, hãy hiệp nhất với toàn Giáo hội và thế giới để cầu nguyện cho chính mình và cho nhau. Hãy bày tỏ lòng ngưỡng mộ đến những người đang ở tuyến đầu. Tất cả các bác sĩ, y tá, các tuyên úy, cả những người mà dù cho tình trạng khẩn cấp vẫn tiếp tục công việc của họ. Nhất là hãy biết quan tâm đến nhau và có tinh thần chung để chia sẻ và sống tinh thần bác ái Kitô giáo. Chúng ta cũng đã nhận biết, trong những ngày khan hiếm dụng cụ y tế này, có một số anh chị em trong ngành Nails đã sẵn sàng ủng hộ bao tay (Gloves) và dụng cụ che miệng (face mask) cho những bệnh viện địa phương, nơi không còn đủ dụng cụ để bảo vệ an toàn cho những người đang phục vụ các bệnh nhân.
+    Xin hãy tiếp tục trên hành trình Mùa Chay và sẵn sàng bước vào Tuần Thánh bằng những hi sinh và bác ái của mỗi người. Đồng thời, xin tiếp tục giữ giáo xứ và xã hội của chúng ta tiếp tục hoạt động bằng những nối kết của quý vị, dù rằng trong những điều kiện khó khăn và hoảng loạn hiện tại, chúng ta vẫn còn có nhau bằng những sự nối kết và lòng bác ái để quan tâm và chia sẻ trong cầu nguyện và trong tình thương yêu của Thiên Chúa chúng ta.
+     
+    Nguyện xin Thiên Chúa tiếp tục chúc lành và gìn giữ chúng ta qua khỏi nạn đại dịch COVID-19 này để tiếp tục thờ phượng Thiên Chúa và yêu thương nhau.
+    
+    Thân mến
+    Lm. Phanxico Trần Quốc Tuấn.
+    `
+  },
+  {
+    "Section": "Các Bài Viết",
     "date":"2020-03-22",
     "title":"HƯỚNG DẪN MỤC VỤ TÂM LINH",
     "body":`Đứng trước nạn dịch COVID-19 đang lây lan rất nhanh chóng, xã hội có những phản ứng khác nhau: Tích cực là tìm cách phòng chống nó cho mình, cho người thân, cho cộng đồng.  Tiêu cực của COVID-19 là quá lo sợ và chỉ lo thủ cho mình mà không nghĩ đến ai.  Trong những ngày này, chúng ta nhận được rất nhiều thông tin, nơi này hoặc nơi kia không cử hành Thánh lễ công cộng trong ngày Chúa Nhật. Đây quả là một hiện tượng rất lạ vì nó xảy ra trên nhiều nước trên thế giới, tuy rằng trước đây đã từng xảy ra tại Milan nước Ý năm 1576 để tránh lây lan của bệnh dịch ngay vào Mùa Giáng Sinh.</br>

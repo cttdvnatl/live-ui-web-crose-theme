@@ -25,7 +25,7 @@ const CustomCarousel = (prop) => {
     })}, [prop]);
 
     return (
-        <Carousel>
+        <Carousel interval="10000">
             {getData.map((item, index) => {
                 return(
                     <Carousel.Item key={index}>
