@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import { withRouter } from 'react-router-dom';
+import PopupModal from "./PopupModal";
 
 const Event = (prop) => {
     const [show, setShow] = useState(false);
@@ -57,6 +58,7 @@ const Event = (prop) => {
                                                 <p><a href="/" onClick={(e) => displayModal(e, "BAN BÁC ÁI XÃ HỘI", "http://cttdvnatl.net/gallery/img/bg-img/news/activities_headings2.html#target2")} style={{color:"#850000"}}>BAN BÁC ÁI XÃ HỘI</a></p>
                                                 <p><a href="/" onClick={(e) => displayModal(e, "KHỐI GÂY QUỸ", "http://cttdvnatl.net/gallery/img/bg-img/news/activities_headings2.html#target3")} style={{color:"#850000"}}>KHỐI GÂY QUỸ</a></p>
                                             </div>
+                                            {show ? <PopupModal show="true" content={content} onHide={hideModal}/> : null}
                                         </div>
                                     </div>
                                 </div>
