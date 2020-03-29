@@ -20,7 +20,7 @@ const Footer = (prop) => {
                             <a href="/"><i className="fa fa-angle-double-right" aria-hidden="true"/> Trang Chủ</a>
                             <a href="about.html"><i className="fa fa-angle-double-right" aria-hidden="true"/> Giới Thiệu</a>
                             <a href="massTime.html"><i style={{color: "#c92f2f"}} className="fa fa-clock-o" aria-hidden="true"/>  GIỜ LỄ / MASSTIMES</a>
-                            <a href="activites.html"><i style={{color: "#c92f2f"}} className="fa fa-bullhorn" aria-hidden="true"/> Thông Báo</a>
+                            <a href="/activities"><i style={{color: "#c92f2f"}} className="fa fa-bullhorn" aria-hidden="true"/> Thông Báo</a>
                             <a href="weeklyNews.html"><i style={{color: "#c92f2f"}} className="fa fa-newspaper-o" aria-hidden="true"/> Tờ Thông Tin</a>
                             <a href="https://www.tomathienatl.org"><i className="fa fa-angle-double-right" aria-hidden="true"/> Thiếu Nhi Thánh Thể</a>
                             <a href="departments.html?x=KGD"><i className="fa fa-angle-double-right" aria-hidden="true"/> Khối Giáo Dục</a>

@@ -258,11 +258,11 @@ const Header = (prop) => {
                                             <li className="cn-dropdown-item has-down" onClick={(e) => toggleSubMenu(3, e)}>
                                                 <a href="/#">Thư Viện</a>
                                                 <ul className="dropdown">
-                                                    <li><a href="/weeklyNews.html">Thông Tin Mục Vụ</a></li>
+                                                    <li><a href="/weeklyNews">Thông Tin Mục Vụ</a></li>
                                                     <li><a href="/articles.html">Các Bài Viết</a></li>
-                                                    <li><a href="/glgh">Giáo Lý</a></li>
+                                                    <li><a href="/catholic_teaching">Giáo Lý</a></li>
                                                     <li><a href="/photos">Thư Viện Hình Ảnh</a></li>
-                                                    <li><a href="/forms.html">Đơn Từ</a></li>
+                                                    <li><a href="/forms">Đơn Từ</a></li>
                                                     <li><a href="/prayerRequest.html">Prayer Request</a></li>
                                                 </ul>
                                                 <span className="dd-trigger"/>
