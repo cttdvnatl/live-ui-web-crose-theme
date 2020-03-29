@@ -12,7 +12,7 @@ const PopupModal = (prop) => {
             <Modal.Body >
                 {prop.content.hasOwnProperty('fileExt') && prop.content.fileExt === 'jpg' ?
                     <img src={prop.content.url} alt="donation_instruction"/> :
-                    <object aria-label={prop.content.title} title={prop.content.title} data={prop.content.url} width="100%" height="100%"/>}
+                    <iframe frameBorder="0" aria-label={prop.content.title} title={prop.content.title} src={prop.content.url} width="100%" height="100%"/>}
             </Modal.Body>
             {console.log(prop.content.confirm)}
             {prop.content.confirm !== undefined && prop.content.confirm !== "" ?
