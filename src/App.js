@@ -15,6 +15,9 @@ import './css/style.css';
 import Covid19 from "./pages/covid19";
 import Giaoly from "./pages/giaoly";
 import photos from "./pages/photos";
+import Catholic_teaching from "./pages/catholic_teaching";
+import Forms from "./pages/forms";
+import WeeklyNews from "./pages/weeklyNews";
 
 const App = () => {
   return (
@@ -30,6 +33,9 @@ const App = () => {
           <Route path="/covid19" component={Covid19}/>
           <Route path="/giaoly" component={Giaoly}/>
           <Route path="/photos" component={photos}/>
+          <Route path="/forms" component={Forms}/>
+          <Route path="/catholic_teaching" component={Catholic_teaching}/>
+          <Route path="/weeklyNews" component={WeeklyNews}/>
     </Router>
   ) 
 };

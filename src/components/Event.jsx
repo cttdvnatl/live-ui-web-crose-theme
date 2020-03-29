@@ -1,24 +1,8 @@
-import React, {useState} from 'react';
+import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import PopupModal from "./PopupModal";
+import { withRouter } from 'react-router-dom';
 
 const Event = (prop) => {
-    const [show, setShow] = useState(false);
-    const [content, setContent] = useState({});
-    const displayModal = (e, title, content) => {
-        e.preventDefault();
-        setShow(true);
-        setContent({
-            title: title,
-            url: content
-        });
-    };
-
-    const hideModal = () => {
-        setShow(false);
-        setContent({});
-    };
-
     return (
         <section className="upcoming-events-area section-padding-0-100">
             {/* <!-- Upcoming Events Heading Area --> */}
@@ -52,14 +36,19 @@ const Event = (prop) => {
                                         {/* <!-- Content --> */}
                                         <div className="upcoming-events-content d-flex flex-wrap align-items-center">
                                             <div className="events-text">
-                                                <p><a href="/" onClick={(e) => displayModal(e, "Lễ Truyền Tin", "news/UPDATE.html#target0")} style={{color:"#850000"}}>PHỤNG VỤ -Ngày 25.3.2019, Lễ Truyền Tin</a></p>
-                                                <p><a href="/" onClick={(e) => displayModal(e, "CẬP NHẬT HÓA CORONAVIRUS", "news/UPDATE.html#target1")} style={{color:"#850000"}}>CẬP NHẬT HÓA CORONAVIRUS</a></p>
-                                                <p><a href="/" onClick={(e) => displayModal(e, "KHỐI GIÁO DỤC", "news/UPDATE.html#target2")} style={{color:"#850000"}}>KHỐI GIÁO DỤC: COVID 19 dừng tất cả các sinh hoạt cho đến khi có thông báo lại</a></p>
-                                                <p><a href="/" onClick={(e) => displayModal(e, "HỘI CHỢ MÙA THU 2020", "news/UPDATE.html#target3")} style={{color:"#850000"}}>HỘI CHỢ MÙA THU 2020</a></p>
-                                                <p><a href="/" onClick={(e) => displayModal(e, "BAN BÁC ÁI XÃ HỘI", "news/UPDATE.html#target4")} style={{color:"#850000"}}>BAN BÁC ÁI XÃ HỘI</a></p>
-                                                <p><a href="/" onClick={(e) => displayModal(e, "KHỐI GÂY QUỸ", "news/UPDATE.html#target5")} style={{color:"#850000"}}>KHỐI GÂY QUỸ</a></p>
+                                                <div id="Container"
+                                                     style={{"padding-bottom": "56.25%", "position":"relative", "display":"block", "width": "100%"}}>
+                                                    <iframe title="ViostreamIframe" id="ViostreamIframe" name={"ViostreamIframe"}
+                                                            width="100%" height="100%" align="right"
+                                                            src="http://cttdvnatl.net/gallery/img/bg-img/news/activities_headings2.html"
+                                                            frameBorder="0" allowFullScreen=""
+                                                            style={{"position":"absolute", "top":"0", "left":"0"}}></iframe>
+                                                </div>
+                                                <p><a href={"http://cttdvnatl.net/gallery/img/bg-img/news/activities_headings2.html"}
+                                                      target={"ViostreamIframe"} style={{"border":"2px solid #850000",
+                                                      "padding": "1em", "color": "#850000"}}>MỤC LỤC</a></p>
+
                                             </div>
-                                            {show ? <PopupModal show="true" content={content} onHide={hideModal}/> : null}
                                         </div>
                                     </div>
                                 </div>
@@ -72,4 +61,4 @@ const Event = (prop) => {
     );
 };
 
-export default Event;
+export default withRouter(Event);
