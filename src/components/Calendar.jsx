@@ -16,7 +16,7 @@ const Calendar = (prop) => {
     return(
         <section>
             <div className="container-fluid text-center" style={{"height": "750px", "padding":"20px 0"}}>
-                <iframe style={{"width":"75%", "height":"100%"}} title={"liturgicalCalendar"} src={calendar}/>
+                <iframe style={{"width":"100%", "height":"100%"}} title={"liturgicalCalendar"} src={calendar}/>
             </div>
         </section>
     );

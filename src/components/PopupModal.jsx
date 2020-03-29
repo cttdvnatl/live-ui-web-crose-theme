@@ -10,8 +10,7 @@ const PopupModal = (prop) => {
                 </Modal.Title>
             </Modal.Header>
             <Modal.Body >
-                {console.log(prop.content.fileExt.toString())}
-                {prop.content.fileExt === 'jpg' ?
+                {prop.content.hasOwnProperty('fileExt') && prop.content.fileExt === 'jpg' ?
                     <img src={prop.content.url} alt="donation_instruction"/> :
                     <object aria-label={prop.content.title} title={prop.content.title} data={prop.content.url} width="100%" height="100%"/>}
             </Modal.Body>
