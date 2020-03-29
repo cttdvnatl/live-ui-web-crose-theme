@@ -1,8 +1,24 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import { withRouter } from 'react-router-dom';
 
 const Event = (prop) => {
+    const [show, setShow] = useState(false);
+    const [content, setContent] = useState({});
+    const displayModal = (e, title, content) => {
+        e.preventDefault();
+        setShow(true);
+        setContent({
+            title: title,
+            url: content
+        });
+    };
+
+    const hideModal = () => {
+        setShow(false);
+        setContent({});
+    };
+
     return (
         <section className="upcoming-events-area section-padding-0-100">
             {/* <!-- Upcoming Events Heading Area --> */}
