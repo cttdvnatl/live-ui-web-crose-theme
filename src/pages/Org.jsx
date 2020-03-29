@@ -6,7 +6,7 @@ const Org = () => {
         <div>
         <Header/>
             <div>
-                <img className="center" src="http://cttdvnatl.net/gallery/img/core-img/SDTC.jpg" alt=""/>
+                <img className="center" src="https://cttdvnatl.net/gallery/img/core-img/SDTC.jpg" alt=""/>
             </div>
         <Footer/>
         </div>

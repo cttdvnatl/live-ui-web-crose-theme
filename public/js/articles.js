@@ -33,7 +33,7 @@ let getArticleString = (image, title, date, body) => (
 for (let i = 0; i < articles.length; i++) {
     let article = articles[i];
     //if there is no image in the article object, set the default image for the article object
-    if (!article.image) article.image = "http://cttdvnatl.net/gallery/img/core-img/articles-chaTuan.jpg";
+    if (!article.image) article.image = "https://cttdvnatl.net/gallery/img/core-img/articles-chaTuan.jpg";
     //add one article to the page
     container.innerHTML += getArticleString(article.image, article.title, article.date, article.body);
 }
