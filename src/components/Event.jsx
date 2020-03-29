@@ -58,7 +58,7 @@ const Event = (prop) => {
                                                 <p><a href="/" onClick={(e) => displayModal(e, "BAN BÁC ÁI XÃ HỘI", "https://cttdvnatl.net/gallery/img/bg-img/news/UPDATE.html#target2")} style={{color:"#850000"}}>BAN BÁC ÁI XÃ HỘI</a></p>
                                                 <p><a href="/" onClick={(e) => displayModal(e, "KHỐI GÂY QUỸ", "https://cttdvnatl.net/gallery/img/bg-img/news/UPDATE.html#target3")} style={{color:"#850000"}}>KHỐI GÂY QUỸ</a></p>
                                             </div>
-                                            {show ? <PopupModal show="true" content={content} onHide={hideModal}/> : null}
+                                            {show ? <PopupModal show={show} content={content} onHide={hideModal}/> : null}
                                         </div>
                                     </div>
                                 </div>
