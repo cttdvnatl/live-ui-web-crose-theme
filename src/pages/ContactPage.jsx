@@ -6,7 +6,7 @@ const ContactPage = () => (
     <>
         <Header />
             <div class="map-area mt-30">
-                    <iframe class ="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3310.177549303099!2d-84.15922744913351!3d33.93656128054265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f5a38e4dc6feff%3A0xa3ef814945ace642!2sHoly%20Vietnamese%20Martyrs%20Catholic%20Church!5e0!3m2!1sen!2sus!4v1573065797357!5m2!1sen!2sus" width="600" height="450" frameborder="0" allowfullscreen=""></iframe>
+                    <iframe title="contact" class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3310.177549303099!2d-84.15922744913351!3d33.93656128054265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f5a38e4dc6feff%3A0xa3ef814945ace642!2sHoly%20Vietnamese%20Martyrs%20Catholic%20Church!5e0!3m2!1sen!2sus!4v1573065797357!5m2!1sen!2sus" width="600" height="450" frameborder="0" allowfullscreen=""></iframe>
             </div>
             <section class="contact-area">
                 <div class="container">

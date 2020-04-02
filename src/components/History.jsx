@@ -10,7 +10,7 @@ const History = ({list}) => (
                 <span class={history.significance}>{history.year}</span>
             </span>
             <h2>{history.title}</h2>
-            <p><img className="history-image" src={history.imgsrc} height={history.imgheight} width={history.imgwidth}></img>{history.description}</p>
+            <p><img alt="history" className="history-image" src={history.imgsrc} height={history.imgheight} width={history.imgwidth}></img>{history.description}</p>
             <p> {history.translate}</p>
         </div>
     </article>
