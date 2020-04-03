@@ -11,7 +11,6 @@ import About from './pages/About';
 import Org from './pages/Org';
 import VietHong from './pages/VietHongPage';
 import Activities from './pages/ActivitiesPage';
-import './css/style.css';
 import Covid19 from "./pages/covid19";
 import Giaoly from "./pages/giaoly";
 import Glgh from "./pages/Glgh";

@@ -53,10 +53,13 @@ const Event = (prop) => {
                                         {/* <!-- Content --> */}
                                         <div className="upcoming-events-content d-flex flex-wrap align-items-center">
                                             <div className="events-text">
-                                                <p><a href="/" onClick={(e) => displayModal(e, "CẬP NHẬT HÓA CORONAVIRUS", "https://cttdvnatl.net/gallery/img/bg-img/news/UPDATE.html#target0")} style={{color:"#850000"}}>CẬP NHẬT HÓA CORONAVIRUS</a></p>
-                                                <p><a href="/" onClick={(e) => displayModal(e, "KHỐI GIÁO DỤC: COVID 19 dừng tất cả các sinh hoạt cho đến khi có thông báo lại", "https://cttdvnatl.net/gallery/img/bg-img/news/UPDATE.html#target1")} style={{color:"#850000"}}>KHỐI GIÁO DỤC: COVID 19 dừng tất cả các sinh hoạt cho đến khi có thông báo lại</a></p>
-                                                <p><a href="/" onClick={(e) => displayModal(e, "BAN BÁC ÁI XÃ HỘI", "https://cttdvnatl.net/gallery/img/bg-img/news/UPDATE.html#target2")} style={{color:"#850000"}}>BAN BÁC ÁI XÃ HỘI</a></p>
-                                                <p><a href="/" onClick={(e) => displayModal(e, "KHỐI GÂY QUỸ", "https://cttdvnatl.net/gallery/img/bg-img/news/UPDATE.html#target3")} style={{color:"#850000"}}>KHỐI GÂY QUỸ</a></p>
+                                                <h4>CHƯƠNG TRÌNH PHỤNG VỤ TUẦN THÁNH 2020</h4>
+                                                <p><a href="/" onClick={(e) => displayModal(e, "CHƯƠNG TRÌNH PHỤNG VỤ TUẦN THÁNH 2020", "news/UPDATE.html#target0")} style={{color:"#850000"}}><i className="fa fa-calendar"/>  CHÚA NHẬT LỄ LÁ 5/4</a></p>
+                                                <p><a href="/" onClick={(e) => displayModal(e, "CHƯƠNG TRÌNH PHỤNG VỤ TUẦN THÁNH 2020", "news/UPDATE.html#target1")} style={{color:"#850000"}}><i className="fa fa-calendar"/>  THỨ HAI, THỨ BA, THỨ TƯ (6-7-8/4)</a></p>
+                                                <p><a href="/" onClick={(e) => displayModal(e, "CHƯƠNG TRÌNH PHỤNG VỤ TUẦN THÁNH 2020", "news/UPDATE.html#target2")} style={{color:"#850000"}}><i className="fa fa-calendar"/>  THỨ NĂM TUẦN THÁNH 9/4</a></p>
+                                                <p><a href="/" onClick={(e) => displayModal(e, "CHƯƠNG TRÌNH PHỤNG VỤ TUẦN THÁNH 2020", "news/UPDATE.html#target3")} style={{color:"#850000"}}><i className="fa fa-calendar"/>  THỨ SÁU TUẦN THÁNH 10/4</a></p>
+                                                <p><a href="/" onClick={(e) => displayModal(e, "CHƯƠNG TRÌNH PHỤNG VỤ TUẦN THÁNH 2020", "news/UPDATE.html#target4")} style={{color:"#850000"}}><i className="fa fa-calendar"/>  THỨ BẢY TUẦN THÁNH 11/4</a></p>
+                                                <p><a href="/" onClick={(e) => displayModal(e, "CHƯƠNG TRÌNH PHỤNG VỤ TUẦN THÁNH 2020", "news/UPDATE.html#target5")} style={{color:"#850000"}}><i className="fa fa-calendar"/>  CHÚA NHẬT PHỤC SINH 12/4</a></p>
                                             </div>
                                             {show ? <PopupModal show={show} content={content} onHide={hideModal}/> : null}
                                         </div>
