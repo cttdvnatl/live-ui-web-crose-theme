@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import Carousel from 'react-bootstrap/Carousel';
+import { withRouter } from 'react-router-dom';
 import PopupModal from "./PopupModal";
 
 const Event = (prop) => {
@@ -52,14 +53,19 @@ const Event = (prop) => {
                                         {/* <!-- Content --> */}
                                         <div className="upcoming-events-content d-flex flex-wrap align-items-center">
                                             <div className="events-text">
-                                                <p><a href="/" onClick={(e) => displayModal(e, "Lễ Truyền Tin", "news/UPDATE.html#target0")} style={{color:"#850000"}}>PHỤNG VỤ -Ngày 25.3.2019, Lễ Truyền Tin</a></p>
-                                                <p><a href="/" onClick={(e) => displayModal(e, "CẬP NHẬT HÓA CORONAVIRUS", "news/UPDATE.html#target1")} style={{color:"#850000"}}>CẬP NHẬT HÓA CORONAVIRUS</a></p>
-                                                <p><a href="/" onClick={(e) => displayModal(e, "KHỐI GIÁO DỤC", "news/UPDATE.html#target2")} style={{color:"#850000"}}>KHỐI GIÁO DỤC: COVID 19 dừng tất cả các sinh hoạt cho đến khi có thông báo lại</a></p>
-                                                <p><a href="/" onClick={(e) => displayModal(e, "HỘI CHỢ MÙA THU 2020", "news/UPDATE.html#target3")} style={{color:"#850000"}}>HỘI CHỢ MÙA THU 2020</a></p>
-                                                <p><a href="/" onClick={(e) => displayModal(e, "BAN BÁC ÁI XÃ HỘI", "news/UPDATE.html#target4")} style={{color:"#850000"}}>BAN BÁC ÁI XÃ HỘI</a></p>
-                                                <p><a href="/" onClick={(e) => displayModal(e, "KHỐI GÂY QUỸ", "news/UPDATE.html#target5")} style={{color:"#850000"}}>KHỐI GÂY QUỸ</a></p>
+                                                <p><a href="/" onClick={(e) => displayModal(e, "PHỤNG VỤ", "news/UPDATE.html#target0")} style={{color:"#850000"}}><i className="fa fa-calendar"/>  PHỤNG VỤ</a></p>
+                                                <p><a href="/" onClick={(e) => displayModal(e, "CHẶNG ĐÀNG THÁNH GIÁ MÙA CHAY 2020", "news/UPDATE.html#target1")} style={{color:"#850000"}}><i className="fa fa-calendar"/> CHẶNG ĐÀNG THÁNH GIÁ MÙA CHAY 2020</a></p>
+                                                <p><a href="/" onClick={(e) => displayModal(e, "NGẮM NĂM DẤU THÁNH CHÚA GIÊSU VÀ DÂNG HẠT MÙA CHAY 2020", "news/UPDATE.html#target2")} style={{color:"#850000"}}><i className="fa fa-calendar"/>  NGẮM NĂM DẤU THÁNH CHÚA GIÊSU VÀ DÂNG HẠT MÙA CHAY 2020</a></p>
+                                                <p><a href="/" onClick={(e) => displayModal(e, "TĨNH TÂM MÙA CHAY 2020", "news/UPDATE.html#target3")} style={{color:"#850000"}}><i className="fa fa-calendar"/>  TĨNH TÂM MÙA CHAY 2020</a></p>
+                                                <p><a href="/" onClick={(e) => displayModal(e, "KHỐI GIÁO DỤC", "news/UPDATE.html#target4")} style={{color:"#850000"}}><i className="fa fa-calendar"/>  KHỐI GIÁO DỤC</a></p>
+                                                <p><a href="/" onClick={(e) => displayModal(e, "CHÚC MỪNG BỔN MẠNG", "news/UPDATE.html#target5")} style={{color:"#850000"}}><i className="fa fa-calendar"/>  CHÚC MỪNG BỔN MẠNG</a></p>
+                                                <p><a href="/" onClick={(e) => displayModal(e, "CHÚC MỪNG RỬA TỘI", "news/UPDATE.html#target6")} style={{color:"#850000"}}><i className="fa fa-calendar"/>  CHÚC MỪNG RỬA TỘI</a></p>
+                                                <p><a href="/" onClick={(e) => displayModal(e, "HỘI CHỢ MÙA THU 2020", "news/UPDATE.html#target7")} style={{color:"#850000"}}><i className="fa fa-calendar"/>  HỘI CHỢ MÙA THU 2020</a></p>
+                                                <p><a href="/" onClick={(e) => displayModal(e, "BAN BÁC ÁI XÃ HỘI", "news/UPDATE.html#target8")} style={{color:"#850000"}}><i className="fa fa-calendar"/>  BAN BÁC ÁI XÃ HỘI</a></p>
+                                                <p><a href="/" onClick={(e) => displayModal(e, "HỘI CAO NIÊN DIÊN HỒNG", "news/UPDATE.html#target9")} style={{color:"#850000"}}><i className="fa fa-calendar"/>  HỘI CAO NIÊN DIÊN HỒNG</a></p>
+                                                <p><a href="/" onClick={(e) => displayModal(e, "KHỐI GÂY QUỸ", "news/UPDATE.html#target10")} style={{color:"#850000"}}><i className="fa fa-calendar"/>  KHỐI GÂY QUỸ</a></p>
                                             </div>
-                                            {show ? <PopupModal show="true" content={content} onHide={hideModal}/> : null}
+                                            {show ? <PopupModal show={show} content={content} onHide={hideModal}/> : null}
                                         </div>
                                     </div>
                                 </div>
@@ -72,4 +78,4 @@ const Event = (prop) => {
     );
 };
 
-export default Event;
+export default withRouter(Event);

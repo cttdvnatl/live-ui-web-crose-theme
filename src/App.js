@@ -11,11 +11,13 @@ import About from './pages/About';
 import Org from './pages/Org';
 import VietHong from './pages/VietHongPage';
 import Activities from './pages/ActivitiesPage';
-import './css/style.css';
 import Covid19 from "./pages/covid19";
 import Giaoly from "./pages/giaoly";
 import Glgh from "./pages/Glgh";
 import photos from "./pages/photos";
+import Catholic_teaching from "./pages/catholic_teaching";
+import Forms from "./pages/forms";
+import WeeklyNews from "./pages/weeklyNews";
 import Contact from "./pages/ContactPage";
 import History from './pages/HistoryPage';
 import PrintedCalenderPage from './pages/PrintedCalenderPage';
@@ -38,6 +40,9 @@ const App = () => {
           <Route path="/giaoly" component={Giaoly}/>
           <Route path="/glgh" component={Glgh}/>
           <Route path="/photos" component={photos}/>
+          <Route path="/forms" component={Forms}/>
+          <Route path="/catholic_teaching" component={Catholic_teaching}/>
+          <Route path="/weeklyNews" component={WeeklyNews}/>
           <Route path="/contact" component={Contact}/>
           <Route path="/history" component={History}/>
           <Route path="/printed-calender" component={PrintedCalenderPage}/>
