@@ -24,6 +24,9 @@ import PrintedCalenderPage from './pages/PrintedCalenderPage';
 import FallFestPage from './pages/FallFestPage';
 import ThieuNhiPage from './pages/ThieuNhiPage';
 import VietNguThayCoPage from './pages/VietNguThayCoPage';
+import Articles from './pages/Articles';
+import ArticleDetail from './pages/ArticleDetail';
+
 
 const App = () => {
   return (
@@ -49,6 +52,8 @@ const App = () => {
           <Route path="/fall-fest" component={FallFestPage}/>
           <Route path="/thieu-nhi" component={ThieuNhiPage}/>
           <Route path="/saturday-school-teachers" component={VietNguThayCoPage}/>
+          <Route path="/Articles" component={Articles}/>
+          <Route path="/ArticleDetail/:date" component={ArticleDetail}/>
     </Router>
   ) 
 };
