@@ -29,6 +29,8 @@ import VietHongDocumentsPage from './pages/VietHongDocumentsPage';
 import VietHongContactPage from './pages/VietHongContactPage';
 import MassSchedule from "./pages/MassSchedule";
 import LearnBible from "./pages/LearnBible";
+import Articles from './pages/Articles';
+import ArticleDetail from './pages/ArticleDetail';
 
 const App = () => {
   return (
@@ -59,6 +61,8 @@ const App = () => {
           <Route path="/viet-hong-activities" component={VietHongActivitiesPage}/>
           <Route path="/viet-hong-documents" component={VietHongDocumentsPage}/>
           <Route path="/viet-hong-contact" component={VietHongContactPage}/>
+          <Route path="/Articles" component={Articles}/>
+          <Route path="/ArticleDetail/:date" component={ArticleDetail}/>
     </Router>
   ) 
 };
