@@ -53,7 +53,7 @@ const Event = (prop) => {
                                         {/* <!-- Content --> */}
                                         <div className="upcoming-events-content d-flex flex-wrap align-items-center">
                                             <div className="events-text">
-                                                <p><a href="/" onClick={(e) => displayModal(e, "PHỤNG VỤ", "https://docs.google.com/document/d/e/2PACX-1vTeVX_F_3ZImj6feG5XpDdof9_xQ8gIfxYdFxRYbPCRgnBu5Z8aFIZPzDj-2CtK4B7z_cBKy4gY_XLC/pub")} style={{color:"#850000"}}><i className="fa fa-calendar"/>  PHỤNG VỤ</a></p>
+                                                <p><a href="/" onClick={(e) => displayModal(e, "PHỤNG VỤ", "https://docs.google.com/document/d/e/2PACX-1vTeVX_F_3ZImj6feG5XpDdof9_xQ8gIfxYdFxRYbPCRgnBu5Z8aFIZPzDj-2CtK4B7z_cBKy4gY_XLC/pub?embedded=true")} style={{color:"#850000"}}><i className="fa fa-calendar"/>  PHỤNG VỤ</a></p>
                                                 <p><a href="/" onClick={(e) => displayModal(e, "CHẶNG ĐÀNG THÁNH GIÁ MÙA CHAY 2020", "news/UPDATE.html#target1")} style={{color:"#850000"}}><i className="fa fa-calendar"/> CHẶNG ĐÀNG THÁNH GIÁ MÙA CHAY 2020</a></p>
                                                 <p><a href="/" onClick={(e) => displayModal(e, "NGẮM NĂM DẤU THÁNH CHÚA GIÊSU VÀ DÂNG HẠT MÙA CHAY 2020", "news/UPDATE.html#target2")} style={{color:"#850000"}}><i className="fa fa-calendar"/>  NGẮM NĂM DẤU THÁNH CHÚA GIÊSU VÀ DÂNG HẠT MÙA CHAY 2020</a></p>
                                                 <p><a href="/" onClick={(e) => displayModal(e, "TĨNH TÂM MÙA CHAY 2020", "news/UPDATE.html#target3")} style={{color:"#850000"}}><i className="fa fa-calendar"/>  TĨNH TÂM MÙA CHAY 2020</a></p>
