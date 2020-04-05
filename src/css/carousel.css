@@ -51,8 +51,8 @@
         font-size: 15px;
         padding-bottom: 5px;
     }
-    .carousel .carousel-caption p {
-        font-size: 10px;
+    .carousel .carousel-caption p, .carousel .carousel-caption p a {
+        font-size: 12px;
         line-height:15px;
     }
     .carousel .carousel-caption a.crose-btn {
