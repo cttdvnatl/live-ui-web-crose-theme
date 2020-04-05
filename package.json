@@ -2,6 +2,9 @@
   "name": "ui-web",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "12.16.x"
+  },
   "dependencies": {
     "axios": "^0.19.2",
     "bootstrap": "^4.4.1",
