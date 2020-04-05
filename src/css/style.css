@@ -12,7 +12,6 @@ Version: - v1.0.0
 /*@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css");*/
 @import url(classy-nav.css);
 @import url(animate.css);
-/*@import url("font-awesome.min.css");*/
 @import url(timeline.css);
 /* :: 3.0 Base CSS */
 * {
@@ -332,7 +331,7 @@ ol {
 @media only screen and (min-width: 311px) and (max-width: 450px) {
   .header-area .crose-btn {
     display: inline-block;
-    min-width: 80px;
+    min-width: 100px;
     height: 40px;
     color: #ffffff;
     background-color: #c92f2f;
@@ -391,11 +390,11 @@ a.nav-brand > img {
             .header-area .top-header .top-header-content .time+span {
               font-size: 12px;
             }}
-        .header-area .top-header .top-header-content .open i,
-        .header-area .top-header .top-header-content .email-address i,
-        .header-area .top-header .top-header-content .phone i,
-        .header-area .top-header .top-header-content i.temperature,
-        .header-area .top-header .top-header-content i.time {
+        .header-area .top-header .top-header-content .open svg,
+        .header-area .top-header .top-header-content .email-address svg,
+        .header-area .top-header .top-header-content .phone svg,
+        .header-area .top-header .top-header-content svg.temperature,
+        .header-area .top-header .top-header-content svg.time {
           color: #c92f2f;
           margin-right: 5px;
           margin-left: 10px;}
@@ -627,12 +626,12 @@ a.nav-brand > img {
   .about-us-content .about-text a {
     font-weight: 700;
     color: #000000; }
-    .about-us-content .about-text a i {
+    .about-us-content .about-text a svg {
       -webkit-transition-duration: 500ms;
       transition-duration: 500ms; }
     .about-us-content .about-text a:hover, .about-us-content .about-text a:focus {
       color: #c92f2f; }
-      .about-us-content .about-text a:hover i, .about-us-content .about-text a:focus i {
+      .about-us-content .about-text a:hover i, .about-us-content .about-text a:focus svg {
         padding-left: 5px; }
   .about-us-content:hover .about-text h4 {
     color: #c92f2f; }
@@ -845,7 +844,7 @@ a.nav-brand > img {
         color: #959595; }
         .single-latest-sermons .sermons-content .sermons-meta-data p:last-child {
           margin-bottom: 0; }
-        .single-latest-sermons .sermons-content .sermons-meta-data p i {
+        .single-latest-sermons .sermons-content .sermons-meta-data p svg {
           width: 15px;
           color: #c92f2f; }
         .single-latest-sermons .sermons-content .sermons-meta-data p span {
@@ -1136,12 +1135,12 @@ a.nav-brand > img {
       .single-upcoming-events-area .upcoming-events-content .events-text a {
         font-weight: 700;
         color: #959595; }
-        .single-upcoming-events-area .upcoming-events-content .events-text a i {
+        .single-upcoming-events-area .upcoming-events-content .events-text a svg {
           -webkit-transition-duration: 500ms;
           transition-duration: 500ms; }
         .single-upcoming-events-area .upcoming-events-content .events-text a:hover, .single-upcoming-events-area .upcoming-events-content .events-text a:focus {
           color: #c92f2f; }
-          .single-upcoming-events-area .upcoming-events-content .events-text a:hover i, .single-upcoming-events-area .upcoming-events-content .events-text a:focus i {
+          .single-upcoming-events-area .upcoming-events-content .events-text a:hover svg, .single-upcoming-events-area .upcoming-events-content .events-text a:focus svg {
             padding-left: 5px; }
       .single-upcoming-events-area .upcoming-events-content .events-text .events-meta {
         position: relative;
@@ -1154,12 +1153,12 @@ a.nav-brand > img {
           font-style: italic;
           margin-right: 15px;
           font-weight: 400; }
-          .single-upcoming-events-area .upcoming-events-content .events-text .events-meta a i {
+          .single-upcoming-events-area .upcoming-events-content .events-text .events-meta a svg {
             color: #c92f2f;
             padding-right: 5px; }
           .single-upcoming-events-area .upcoming-events-content .events-text .events-meta a:hover, .single-upcoming-events-area .upcoming-events-content .events-text .events-meta a:focus {
             color: #c92f2f; }
-            .single-upcoming-events-area .upcoming-events-content .events-text .events-meta a:hover i, .single-upcoming-events-area .upcoming-events-content .events-text .events-meta a:focus i {
+            .single-upcoming-events-area .upcoming-events-content .events-text .events-meta a:hover svg, .single-upcoming-events-area .upcoming-events-content .events-text .events-meta a:focus svg {
               padding-left: 0; }
     .single-upcoming-events-area .upcoming-events-content .find-out-more-btn {
       padding-left: 50px;
@@ -1250,7 +1249,7 @@ a.nav-brand > img {
       margin-right: 30px;
       font-size: 14px;
       text-align: center; }
-      .sermons-content-area .sermons-text .sermons-meta-data p i {
+      .sermons-content-area .sermons-text .sermons-meta-data p svg {
         color: #c92f2f; }
     .sermons-content-area .sermons-text .sermons-cata {
       position: relative;
@@ -1273,12 +1272,12 @@ a.nav-brand > img {
     .sermons-content-area .sermons-text .read-more-share .read-more-btn a {
       font-weight: 700;
       color: #959595; }
-      .sermons-content-area .sermons-text .read-more-share .read-more-btn a i {
+      .sermons-content-area .sermons-text .read-more-share .read-more-btn a svg {
         -webkit-transition-duration: 500ms;
         transition-duration: 500ms; }
       .sermons-content-area .sermons-text .read-more-share .read-more-btn a:hover, .sermons-content-area .sermons-text .read-more-share .read-more-btn a:focus {
         color: #c92f2f; }
-        .sermons-content-area .sermons-text .read-more-share .read-more-btn a:hover i, .sermons-content-area .sermons-text .read-more-share .read-more-btn a:focus i {
+        .sermons-content-area .sermons-text .read-more-share .read-more-btn a:hover svg, .sermons-content-area .sermons-text .read-more-share .read-more-btn a:focus svg {
           padding-left: 5px; }
     @media only screen and (max-width: 767px) {
       .sermons-content-area .sermons-text .read-more-share .share {
@@ -1395,8 +1394,8 @@ a.nav-brand > img {
   margin-bottom: 10px;
 }
 
-.footer-area .main-footer-area .single-footer-widget .quick-link p i,
-.footer-area .main-footer-area .single-footer-widget .quick-link a i {
+.footer-area .main-footer-area .single-footer-widget .quick-link p svg,
+.footer-area .main-footer-area .single-footer-widget .quick-link a svg {
   color: #590b05;
   -webkit-box-flex: 0;
   -ms-flex: 0 0 25px;
@@ -1418,8 +1417,8 @@ a.nav-brand > img {
   margin-bottom: 10px;
 }
 
-.footer-area .main-footer-area .single-footer-widget .contact-information p i,
-.footer-area .main-footer-area .single-footer-widget .contact-information a i {
+.footer-area .main-footer-area .single-footer-widget .contact-information p svg,
+.footer-area .main-footer-area .single-footer-widget .contact-information a svg {
   color: #c92f2f;
   -webkit-box-flex: 0;
   -ms-flex: 0 0 25px;
@@ -1435,7 +1434,7 @@ a.nav-brand > img {
 .footer-area .copywrite-area {
   position: relative;
   z-index: 1;
-  background-color: #996515;
+  background-color: transparent;
   height: 50px;
   width: 100%;
 }
@@ -1560,7 +1559,7 @@ a.nav-brand > img {
           border-right: 1px solid #d2d2d2;
           margin-right: 15px;
           padding-right: 15px; }
-        .single-blog-post .post-content .post-meta a i {
+        .single-blog-post .post-content .post-meta a svg {
           color: #c92f2f; }
         .single-blog-post .post-content .post-meta a:hover, .single-blog-post .post-content .post-meta a:focus {
           color: #c92f2f; }
@@ -1762,7 +1761,7 @@ a.nav-brand > img {
         font-style: normal; }
         .single-widget-area .single-latest-post .sermons-meta-data p:last-child {
           margin-bottom: 0; }
-        .single-widget-area .single-latest-post .sermons-meta-data p i {
+        .single-widget-area .single-latest-post .sermons-meta-data p svg {
           width: 15px;
           color: #c92f2f; }
         .single-widget-area .single-latest-post .sermons-meta-data p span {
@@ -1793,7 +1792,7 @@ a.nav-brand > img {
       color: #636363; }
       .single-widget-area .crose-catagories li a:hover {
         color: #c92f2f; }
-      .single-widget-area .crose-catagories li a i {
+      .single-widget-area .crose-catagories li a svg {
         margin-right: 5px; }
     .single-widget-area .crose-catagories li:last-child a {
       margin-bottom: 0; }
@@ -1871,7 +1870,7 @@ a.nav-brand > img {
       .single-post-details-area .post-content .post-meta a:first-child {
         font-style: italic; }
       .single-post-details-area .post-content .post-meta a span,
-      .single-post-details-area .post-content .post-meta a i {
+      .single-post-details-area .post-content .post-meta a svg {
         color: #959595;
         margin-left: 3px; }
       .single-post-details-area .post-content .post-meta a:hover {

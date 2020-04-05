@@ -7,7 +7,7 @@ const About = () => {
             <Header/>
             <div className="about-us-area about-page section-padding-100">
                 <div className="container">
-                    <center><h2>Sứ Mệnh Giáo Xứ</h2></center>
+                    <h2 className="section-heading">Sứ Mệnh Giáo Xứ</h2>
                     <div className="row align-items-center justify-content-between">
                         <div className="col-12 col-lg-6">
                                 <div className="about-content">
@@ -25,9 +25,6 @@ const About = () => {
                                     loan truyền đức tin Công Giáo, đồng thời duy trì 
                                     và phát triển truyền thống văn hoá Việt Nam.</p>
                                 <div className="opening-hours-location mt-30 d-flex align-items-center">
-                                    {/* <!-- Opening Hours --> */}
-
-                                    {/* <!-- Location --> */}
                                 </div>
                             </div>
                         </div>

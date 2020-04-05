@@ -1,4 +1,5 @@
 import React, {useEffect, useState, useCallback} from 'react';
+import ResponsiveEmbed from "react-bootstrap/ResponsiveEmbed";
 
 const Calendar = (prop) => {
     const [calendar, setCalendar] = useState("");
@@ -15,9 +16,9 @@ const Calendar = (prop) => {
     }, [resizeCallback]);
     return(
         <section>
-            <div className="container-fluid text-center" style={{"height": "750px", "padding":"20px 0"}}>
-                <iframe style={{"width":"100%", "height":"100%"}} title={"liturgicalCalendar"} src={calendar}/>
-            </div>
+            <ResponsiveEmbed className="container-fluid text-center" style={{"height": "750px", "padding":"20px 0"}}>
+                <object style={{"width":"100%", "height":"100%"}} title={"liturgicalCalendar"} data={calendar}/>
+            </ResponsiveEmbed>
         </section>
     );
 };

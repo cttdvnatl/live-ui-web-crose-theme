@@ -17,13 +17,15 @@ import Glgh from "./pages/Glgh";
 import photos from "./pages/photos";
 import Catholic_teaching from "./pages/catholic_teaching";
 import Forms from "./pages/forms";
-import WeeklyNews from "./pages/weeklyNews";
+import WeeklyNews from "./pages/WeeklyNews";
 import Contact from "./pages/ContactPage";
 import History from './pages/HistoryPage';
 import PrintedCalenderPage from './pages/PrintedCalenderPage';
 import FallFestPage from './pages/FallFestPage';
 import ThieuNhiPage from './pages/ThieuNhiPage';
 import VietNguThayCoPage from './pages/VietNguThayCoPage';
+import MassSchedule from "./pages/MassSchedule";
+import LearnBible from "./pages/LearnBible";
 
 const App = () => {
   return (
@@ -49,6 +51,8 @@ const App = () => {
           <Route path="/fall-fest" component={FallFestPage}/>
           <Route path="/thieu-nhi" component={ThieuNhiPage}/>
           <Route path="/saturday-school-teachers" component={VietNguThayCoPage}/>
+          <Route path="/massSchedule" component={MassSchedule}/>
+          <Route path="/learnBible" component={LearnBible}/>
     </Router>
   ) 
 };

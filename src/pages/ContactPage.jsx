@@ -82,7 +82,7 @@ const ContactPage = () => (
                                             </div>
                                         </div>
                                         <div className="col-12 text-center">
-                                            <button type="submit" value="Send" className="btn crose-btn mt-15">Submit Now</button>
+                                            <button type="submit" value="Send" className="crose-btn mt-15">Submit Now</button>
                                         </div>
                                     </div>
                                 </form>

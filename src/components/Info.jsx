@@ -16,9 +16,9 @@ const Info = (prop) => {
                     {/* <!-- Single About Us Content --> */}
                     <div className="col-12 col-md-6 col-lg-4">
                         <div className="about-us-content mb-100">
-                            <a href="catholic_teaching.html"><img src="http://cttdvnatl.net/gallery/img/bg-img/catholic2.jpg" alt=""/></a>
+                            <a href="/learnBible"><img src="http://cttdvnatl.net/gallery/img/bg-img/catholic2.jpg" alt=""/></a>
                             <div className="about-text">
-                                <a href="catholic_teaching.html"><h4>Giáo Lý</h4></a>
+                                <a href="/learnBible"><h4>Giáo Lý</h4></a>
                                 <p> Giáo Lý của Giáo Hội Công Giáo.
                                     Catechism of the Catholic Church. </p>
                             </div>
@@ -28,9 +28,9 @@ const Info = (prop) => {
                     {/* <!-- Single About Us Content --> */}
                     <div className="col-12 col-md-6 col-lg-4">
                         <div className="about-us-content mb-100">
-                            <a href="weeklyNews.html"><img src="http://cttdvnatl.net/gallery/img/index/about-thongtinmucvu.jpg" alt=""/></a>
+                            <a href="/weeklyNews"><img src="http://cttdvnatl.net/gallery/img/index/about-thongtinmucvu.jpg" alt=""/></a>
                             <div className="about-text">
-                                <a href="weeklyNews.html"><h4>Tờ Thông Tin Mục Vụ</h4></a>
+                                <a href="/weeklyNews"><h4>Tờ Thông Tin Mục Vụ</h4></a>
                                 <p>Thông tin mục vụ hàng tuần của Giáo Xứ Các Thánh Tử Đạo Việt Nam</p>
                             </div>
                         </div>
