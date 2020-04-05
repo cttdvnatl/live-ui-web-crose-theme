@@ -21,7 +21,7 @@
     font-weight: 700;
     font-size: 60px;
 }
-.carousel .carousel-caption p {
+.carousel .carousel-caption p, .carousel .carousel-caption p a {
     font-size: 32px;
     color: #ffffff;
     line-height: 2em;

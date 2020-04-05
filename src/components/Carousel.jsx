@@ -19,7 +19,7 @@ const CustomCarousel = (prop) => {
                 'Authorization': `Bearer ${auth.data.token}`
             },
             params:{
-                date:'03-22-2020'
+                date:'04-05-2020'
             }
         }).then(res => setData(Array.isArray(res.data) ? res.data: []));
     })}, [prop]);
@@ -35,15 +35,7 @@ const CustomCarousel = (prop) => {
                             <div>
                                 {item.title.map((title, idx) => <h1 className="animated fadeInUpShort" key={idx}>{title}</h1>)}
                                 <div className="animated fadeInUpShort">
-                                    {
-                                        item.content !== undefined ? 
-                                        item.content.map((content, i) => {
-                                            content = content.split(/\s*\|\s*/);
-                                            return(
-                                                <p key={i}><b>{content[0]}</b> {content[1] != null ? content[1] : ''}</p>
-                                            )
-                                        }) : null
-                                    }
+                                    {item.content !== undefined ? item.content.map((content, i) => <p key={i} dangerouslySetInnerHTML={{__html: content}}/>) : null}
                                 </div>
                                 {item.button !== undefined ? 
                                     <a href={item.button.action} className="crose-btn animated fadeInUpShort">{item.button.title}</a> : null}
