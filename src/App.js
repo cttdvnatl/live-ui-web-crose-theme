@@ -23,7 +23,7 @@ import History from './pages/HistoryPage';
 import PrintedCalenderPage from './pages/PrintedCalenderPage';
 import FallFestPage from './pages/FallFestPage';
 import ThieuNhiPage from './pages/ThieuNhiPage';
-import VietNguThayCoPage from './pages/VietNguThayCoPage';
+import VietHongTeacherPage from './pages/VietHongTeacherPage';
 import MassSchedule from "./pages/MassSchedule";
 import LearnBible from "./pages/LearnBible";
 
@@ -36,7 +36,6 @@ const App = () => {
           <Route path="/" component={Index} exact/>
           <Route path="/about" component={About}/>
           <Route path="/org" component={Org}/>
-          <Route path="/vietHong" component={VietHong}/>
           <Route path="/activities" component={Activities}/>
           <Route path="/covid19" component={Covid19}/>
           <Route path="/giaoly" component={Giaoly}/>
@@ -50,9 +49,10 @@ const App = () => {
           <Route path="/printed-calender" component={PrintedCalenderPage}/>
           <Route path="/fall-fest" component={FallFestPage}/>
           <Route path="/thieu-nhi" component={ThieuNhiPage}/>
-          <Route path="/saturday-school-teachers" component={VietNguThayCoPage}/>
           <Route path="/massSchedule" component={MassSchedule}/>
           <Route path="/learnBible" component={LearnBible}/>
+          <Route path="/saturday-school-teachers" component={VietHongTeacherPage}/>
+          <Route path="/vietHong" component={VietHong}/>
     </Router>
   ) 
 };
