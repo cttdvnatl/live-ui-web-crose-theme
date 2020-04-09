@@ -52,7 +52,6 @@ const WeeklyNews = () => {
             }).then(res => setData(Array.isArray(res.data) ? res.data: []));
         })}, []);
 
-
     return (
         <div>
             <Preloader/>
