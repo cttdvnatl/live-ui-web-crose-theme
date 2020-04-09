@@ -2063,3 +2063,13 @@ p#viet-ngu {
   font-size: 22px;
   color: black;
 }
+
+p#vn-schedule {
+  border: solid black 2px;
+  width: 370px;
+  font-size: 17px;
+}
+
+h3.vn-thay-co {
+  text-align: center;
+}
