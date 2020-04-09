@@ -42,8 +42,8 @@ const Info = (prop) => {
                             <div className="about-text">
                                 <h4>2 Cách Xem Lễ Trực Tuyến:</h4>
                                 <div className="find-out-more-btn">
-                                    <p style={{display : 'flex'}}><a href="https://www.facebook.com/pg/cttdvn/videos/?ref=page_internal" style={{backgroundColor: '#809fff'}} className="crose-btn">FaceBook</a>
-                                    <a style={{backgroundColor: '#ff6666', color : '#b30000'}} href="https://www.youtube.com/results?search_query=%23HolyVietnameseMartyrs"  className="crose-btn">YouTube</a></p>
+                                    <p style={{display : 'flex'}}><a href="https://www.facebook.com/pg/cttdvn/videos/?ref=page_internal" style={{fontSize:"36px", color:"#ffffff"}} className="crose-btn"><i className="fab fa-facebook-f"/></a>
+                                    <a style={{fontSize:"36px", color:"#ffffff"}} href="https://www.youtube.com/results?search_query=%23HolyVietnameseMartyrs"  className="crose-btn"><i className="fab fa-youtube"/></a></p>
                                 </div>
                             </div>
                         </div>
