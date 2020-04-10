@@ -12,7 +12,7 @@ const VietHongTeachers = ({list}) => (
                 <img height="auto" src={VietHongTeachers.image} alt=""/>
                 <div class="about-text">
                     <h4>{VietHongTeachers.name}</h4>
-                    <h4><a style={{fontSize : '16px'}}>{VietHongTeachers.email}</a></h4>
+                    <h4 style={{fontSize: '16px'}}>{VietHongTeachers.email}</h4>
                 </div>
             </div>
         </div>

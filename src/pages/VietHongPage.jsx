@@ -1,19 +1,13 @@
-//WIP
 import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import VietHongHeader from '../components/VietHongHeader';
 
 const VietHong = () => {
     return (
         <div>
             <Header/>
-                <ul id="viet-ngu">
-                    <li><a href="/saturday-school-teachers">Trường Việt Hồng</a></li>
-                    <li><a href="/saturday-school-teachers">Thầy Cô</a></li>
-                    <li><a href="/saturday-school-teachers">Hình Ảnh</a></li>
-                    <li><a href="/saturday-school-teachers">Văn Thư</a></li>
-                    <li><a href="/saturday-school-teachers">Liên Lạc</a></li>
-                </ul>
+            <VietHongHeader/>
                 <div className="container-fluid text-center">
                 <p id="viet-ngu">Vì sự lây lan của coronavirus, tất cả các sinh hoạt của Trường Việt Hồng sẽ được đình chỉ.</p>
                 <p id="vn-schedule" className="center-50">Giờ Học: Thứ Bảy 10:00 am - 12:15 pm</p>
