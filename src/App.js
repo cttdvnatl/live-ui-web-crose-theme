@@ -5,10 +5,10 @@ import {
 } from 'react-router-dom';
 import ClergyListPage from './pages/ClergyListPage';
 import Index from './pages/Index';
-import Directors from './pages/Directors';
+import StaffPage from './pages/StaffPage';
 import DeptInfo from './pages/DeptOwnerPage';
 import About from './pages/About';
-import Org from './pages/Org';
+import OrganizationChart from './pages/OrganizationChart';
 import VietHong from './pages/VietHongPage';
 import Activities from './pages/ActivitiesPage';
 import Covid19 from "./pages/covid19";
@@ -35,10 +35,10 @@ const App = () => {
     <Router>
           <Route path="/clergy-list" component={ClergyListPage} exact />
           <Route path="/departments/:id" component={DeptInfo} exact />
-          <Route path="/directors" component={Directors} exact/>
+          <Route path="/staff" component={StaffPage} exact/>
           <Route path="/" component={Index} exact/>
           <Route path="/about" component={About}/>
-          <Route path="/org" component={Org}/>
+          <Route path="/org" component={OrganizationChart}/>
           <Route path="/activities" component={Activities}/>
           <Route path="/covid19" component={Covid19}/>
           <Route path="/giaoly" component={Giaoly}/>

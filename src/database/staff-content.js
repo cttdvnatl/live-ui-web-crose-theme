@@ -1,4 +1,4 @@
-const departments = [
+const staffContent = [
 {
     name: 'Phêrô Nguyễn Thành Danh',
     title: 'Trưởng ',
@@ -181,4 +181,4 @@ const departments = [
 },
 ];
 
-export default departments;
+export default staffContent;

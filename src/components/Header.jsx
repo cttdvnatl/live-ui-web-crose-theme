@@ -218,7 +218,7 @@ const Header = (prop) => {
                                                     <li><a href="/about">Sứ Mệnh Giáo Xứ</a></li>
                                                     <li><a href="/history">Lịch Sử Giáo Xứ</a></li>
                                                     <li><a href="/clergy-list">Linh Mục/Tu Sĩ</a></li>
-                                                    <li><a href="/directors">Qúy Chức</a></li>
+                                                    <li><a href="/staff">Qúy Chức</a></li>
                                                 </ul>
                                                 <span className="dd-trigger"/>
                                             </li>
