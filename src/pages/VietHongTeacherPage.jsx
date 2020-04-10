@@ -3,7 +3,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import VietHongHeader from '../components/VietHongHeader';
 import teacherContent from '../database/vietHongTeachers';
-import VietHongTeachers from '../components/VietHongTeachers';
+import DisplayVolunteer from '../components/DisplayVolunteer';
 
 const mainTeachers = teacherContent.filter(mainTeachers => mainTeachers.classification === 'main-teacher');
 const assistantTeachers = teacherContent.filter(assistantTeachers => assistantTeachers.classification === 'assistant-teacher');
@@ -15,15 +15,16 @@ const VietHongTeacherPage = () => (
     <p></p>
     <div class="col-12">
         <div class="section-heading">
-            <h2><b>Thầy Cô Ban Giám Thị</b></h2>
+            <h2><b>Các Thầy Cô Và Ban Giám Thị</b></h2>
+            <h2>*** PAGE UNDER CONSTRUCTION ***</h2>
         </div>
-        <VietHongTeachers list={mainTeachers} />
+        <DisplayVolunteer list={mainTeachers} />
     </div>
     <div className="col-12">
         <div class="section-heading">
-            <h2><b>Phụ Giáo</b></h2>
+            <h2><b>Các Em Phụ Giáo</b></h2>
         </div>
-        <VietHongTeachers list={assistantTeachers} />
+        <DisplayVolunteer list={assistantTeachers} />
     </div>
     <Footer/>
     </>

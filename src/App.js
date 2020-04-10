@@ -54,7 +54,7 @@ const App = () => {
           <Route path="/thieu-nhi" component={ThieuNhiPage}/>
           <Route path="/massSchedule" component={MassSchedule}/>
           <Route path="/learnBible" component={LearnBible}/>
-          <Route path="/viet-hong" component={VietHong}/>
+          <Route path="/viethong" component={VietHong}/>
           <Route path="/viet-hong-teachers" component={VietHongTeacherPage}/>
           <Route path="/viet-hong-photos" component={VietHongPhotoPage}/>
           <Route path="/viet-hong-documents" component={VietHongDocumentsPage}/>

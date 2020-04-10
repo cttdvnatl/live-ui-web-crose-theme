@@ -2,6 +2,8 @@ import React from 'react';
 import Preloader from '../components/Preloader';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import directorscontent from '../database/directors-content';
+import DisplayVolunteer from '../components/DisplayVolunteer';
 
 
 const Directors = (prop) => {
@@ -9,11 +11,11 @@ const Directors = (prop) => {
         <div>
             <Preloader/>
             <Header/>
-
-            {/* <!-- ##### About Us Area Start ##### --> */}
-            <div class="Sơ Đồ Tổ Chức-area section-padding-25">
-                <center><h2>Hội Đồng Mục Vụ 2019-2023</h2></center>
-                <img src="img/core-img/HDMV2019.jpg" alt="HDMV2019" class="center-50"/>
+            <div className="col-12">
+                <div class="section-heading">
+                    <h2><b>Hội Đồng Mục Vụ / Hội Đồng Tài Chánh 2019-2023</b></h2>
+                </div>
+                <DisplayVolunteer list={directorscontent} />
             </div>
             <Footer/>
         </div>
