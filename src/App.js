@@ -24,7 +24,7 @@ import PrintedCalenderPage from './pages/PrintedCalenderPage';
 import FallFestPage from './pages/FallFestPage';
 import ThieuNhiPage from './pages/ThieuNhiPage';
 import VietHongTeacherPage from './pages/VietHongTeacherPage';
-import VietHongPhotoPage from './pages/VietHongPhotoPage';
+import VietHongActivitiesPage from './pages/VietHongActivitiesPage';
 import VietHongDocumentsPage from './pages/VietHongDocumentsPage';
 import VietHongContactPage from './pages/VietHongContactPage';
 import MassSchedule from "./pages/MassSchedule";
@@ -56,7 +56,7 @@ const App = () => {
           <Route path="/learnBible" component={LearnBible}/>
           <Route path="/viethong" component={VietHong}/>
           <Route path="/viet-hong-teachers" component={VietHongTeacherPage}/>
-          <Route path="/viet-hong-photos" component={VietHongPhotoPage}/>
+          <Route path="/viet-hong-activities" component={VietHongActivitiesPage}/>
           <Route path="/viet-hong-documents" component={VietHongDocumentsPage}/>
           <Route path="/viet-hong-contact" component={VietHongContactPage}/>
     </Router>
