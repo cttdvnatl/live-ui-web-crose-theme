@@ -23,8 +23,8 @@ const Event = (prop) => {
 
     useEffect(() => {
         const now = new Date();
-        const from = new Date(now.setUTCHours(0,0,0,0) - (now.getDay()+1) * 86400000);
-        const to = new Date(now.setUTCHours(0,0,0,0) + (6 - now.getDay()) * 86400000);
+        const from = new Date(now.setUTCHours(0,0,0,0) - now.getUTCDay() * 86400000);
+        const to = new Date(now.setUTCHours(0,0,0,0) + (6 - now.getUTCDay()) * 86400000);
         axios.post('https://hvmatl-backend.herokuapp.com/authentication', {
             username: 'anonymous',
             password: 'anonymous'
