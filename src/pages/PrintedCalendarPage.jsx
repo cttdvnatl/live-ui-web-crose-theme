@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 const Lich = () => (
     <>
     <Header/>
-    <iframe title="calender" style={{minHeight: "500px"}} className="center-50" height="100%" width="100%" src="https://drive.google.com/file/d/15MIqXgWDNfav8VOyCwepnhgZnvay7Eai/preview"></iframe>
+    <iframe title="calendar" style={{minHeight: "500px"}} className="center-50" height="100%" width="100%" src="https://drive.google.com/file/d/15MIqXgWDNfav8VOyCwepnhgZnvay7Eai/preview"></iframe>
     <Footer/>
     </>
 )

@@ -20,7 +20,7 @@ import Forms from "./pages/forms";
 import WeeklyNews from "./pages/WeeklyNews";
 import Contact from "./pages/ContactPage";
 import History from './pages/HistoryPage';
-import PrintedCalenderPage from './pages/PrintedCalenderPage';
+import PrintedCalendarPage from './pages/PrintedCalendarPage';
 import FallFestPage from './pages/FallFestPage';
 import ThieuNhiPage from './pages/ThieuNhiPage';
 import VietHongTeacherPage from './pages/VietHongTeacherPage';
@@ -51,7 +51,7 @@ const App = () => {
           <Route path="/weeklyNews" component={WeeklyNews}/>
           <Route path="/contact" component={Contact}/>
           <Route path="/history" component={History}/>
-          <Route path="/printed-calender" component={PrintedCalenderPage}/>
+          <Route path="/printed-calendar" component={PrintedCalendarPage}/>
           <Route path="/fall-fest" component={FallFestPage}/>
           <Route path="/thieu-nhi" component={ThieuNhiPage}/>
           <Route path="/massSchedule" component={MassSchedule}/>
