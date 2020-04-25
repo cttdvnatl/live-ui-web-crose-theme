@@ -42,6 +42,7 @@ const articleContent =
   {
     "Section": "Các Bài Viết",
     "date":"2020-03-28",
+    "image":"https://cttdvnatl.net/gallery/img/articles/article-2020-03-08.png",
     "title":"ĐỊNH HƯỚNG TÂM LINH",
     "body":
     `Đứng trước nạn đại dịch COVID-19, chúng ta đang sống trong tình trạng lo lắng, hoảng loạn, và khẩn cấp. Lo lắng vì trận chiến chống lại Coronavirus này không có biên giới nên lan tràn khắp thế giới; không kiêng nể sắc tộc, tôn giáo nào; và không phân biệt trẻ-già, giàu-nghèo, sang-hèn.
