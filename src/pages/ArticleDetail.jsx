@@ -27,7 +27,7 @@ const ArticleDetail = ({ match }) => {
                                     <div class="post-content col-12 col-lg-auto">
                                         <h2 class="post-title">{article.title}</h2>
                                         <p>{article.body.split('\n').map((item, key) => {
-                                            return <span  key={key}>{item}<br /><br /></span >
+                                            return <span  key={key}>{item}<br /></span >
                                         })}</p>
                                     </div>
                                 </div>
@@ -39,26 +39,6 @@ const ArticleDetail = ({ match }) => {
                 </div>
             </section>
             {/* <!-- ##### Blog Content Area End ##### --> */}
-
-
-
-            <div class="events-area section-padding-100">
-                <div class="container">
-                    <div class="row articles-container">
-                        <div class="col-12">
-                            <div class="events-title">
-                                <center>
-                                    <h2>{article.title}</h2>
-                                    {<p>{article.body}</p>}
-                                    {/* {article.body.map((paragraph, key) => (
-                                        <p key={key}>{paragraph}</p>
-                                    ))}  */}
-                                </center>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <Footer />
         </div>
     );
