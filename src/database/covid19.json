@@ -1,12 +1,20 @@
 [
   {
     "Section":"covid19",
+    "date":"04-23-2020",
+    "image":"http://cttdvnatl.net/gallery/img/hvm_covid19/ArchAtl_logoBox.png",
+    "title":"Thông báo của Tổng Giáo phận Atlanta ( 2020-04-23)",
+    "body":"Thông báo của Tổng Giáo phận Atlanta",
+    "pdf":"http://cttdvnatl.net/gallery/pdf/hvm_covid19/ATL-ArchDiocese-2020.04.23.pdf"
+  },
+  {
+    "Section":"covid19",
     "date":"03-17-2020",
     "image":"http://cttdvnatl.net/gallery/img/hvm_covid19/ArchAtl_logoBox.png",
     "title":"Thông báo của Tổng Giáo phận Atlanta ( 2020-03-17)",
     "body":"Thông báo của Tổng Giáo phận Atlanta",
     "pdf":"http://cttdvnatl.net/gallery/pdf/hvm_covid19/Covid19_RCAoA_GA.pdf"
-  },
+  },  
   {
     "Section":"covid19",
     "date":"03-14-2020",
