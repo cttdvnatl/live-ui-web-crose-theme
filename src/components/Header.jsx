@@ -218,14 +218,14 @@ const Header = (prop) => {
                                                     <li><a href="/about">Sứ Mệnh Giáo Xứ</a></li>
                                                     <li><a href="/history">Lịch Sử Giáo Xứ</a></li>
                                                     <li><a href="/clergy-list">Linh Mục/Tu Sĩ</a></li>
-                                                    <li><a href="/directors">Qúy Chức</a></li>
+                                                    <li><a href="/staff">Qúy Chức</a></li>
                                                 </ul>
                                                 <span className="dd-trigger"/>
                                             </li>
                                             <li className="cn-dropdown-item has-down" onClick={(e) => toggleSubMenu(1, e)}><a href="/#">TIN TỨC/SỰ KIỆN</a>
                                                 <ul className="dropdown">
                                                     <li><a href="/activities">Sinh Hoạt Giáo Xứ</a></li>
-                                                    <li><a href="/printed-calender">Lịch 2020</a></li>
+                                                    <li><a href="/printed-calendar">Lịch 2020</a></li>
                                                     <li><a href="/fall-fest">Hội Chợ Mùa Thu</a></li>
                                                     <li><a href="/thieu-nhi">TNTT Tôma Thiện</a></li>
                                                 </ul>
@@ -256,7 +256,7 @@ const Header = (prop) => {
                                                 <a href="/#">Thư Viện</a>
                                                 <ul className="dropdown">
                                                     <li><a href="/weeklyNews">Thông Tin Mục Vụ</a></li>
-                                                    <li><a href="/articles.html">Các Bài Viết</a></li>
+                                                    <li><a href="/Articles">Các Bài Viết</a></li>
                                                     <li><a href="/catholic_teaching">Giáo Lý</a></li>
                                                     <li><a href="/photos">Thư Viện Hình Ảnh</a></li>
                                                     <li><a href="/forms">Đơn Từ</a></li>
