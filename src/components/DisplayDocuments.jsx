@@ -2,6 +2,8 @@ import React from 'react';
 
 const DisplayDocuments = ({list}) => (
     <>
+    <div class="container">
+    <div class="row about-content justify-content-center">
     {list.map((Documents) => (
         <div class="col-10 col-md-6 col-lg-3">
         <div class="about-us-content mb-100">
@@ -10,6 +12,8 @@ const DisplayDocuments = ({list}) => (
         </div>
         </div>
     ))}
+    </div>
+    </div>
     </>
 );
 
