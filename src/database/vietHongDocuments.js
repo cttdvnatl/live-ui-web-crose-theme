@@ -1,18 +1,18 @@
 const vietHongDocuments = [
     {   
-        image: 'http://www.cttdvnatl.net/gallery/img/core-img/BlankPicure.jpg',
-        downloadLink: 'test.html',
-        description: 'Document',
+        fileName: 'AdvancedRequestForm.pdf',
+        downloadFile: 'pdf/forms/AdvancedRequestForm.pdf',
+        description: 'This is a test Document',
     },
     {   
-        image: 'http://www.cttdvnatl.net/gallery/img/core-img/BlankPicure.jpg',
-        downloadLink: 'test.html',
-        description: 'Document',
+        fileName: 'text.pdf',
+        downloadFile: 'test.pdf',
+        description: 'This is a test Document',
     },
     {   
-        image: 'http://www.cttdvnatl.net/gallery/img/core-img/BlankPicure.jpg',
-        downloadLink: 'test.html',
-        description: 'Document',
+        fileName: 'test.pdf',
+        downloadFile: 'test.pdf',
+        description: 'This is a test Document',
     }
 ]
 

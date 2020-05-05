@@ -2070,6 +2070,17 @@ p#vn-schedule {
   font-size: 17px;
 }
 
-h3.vn-thay-co {
-  text-align: center;
+#documents {}
+
+#documents h3 {
+  font-size: 22px;
+}
+
+#documents h3 a {
+  color: #990000;
+  font-size: 15px;
+}
+
+#documents h3 a:hover {
+  color: #ff0000;
 }
