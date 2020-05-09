@@ -23,6 +23,24 @@ const articleContent =
 [
   {
     "Section": "Các Bài Viết",
+    "date":"2020-05-10",
+    "image":"https://cttdvnatl.net/gallery/img/articles/article-2020-04-12.png",
+    "title":"Ngày của Mẹ - Mother’s Day",
+    "body":
+    `Ngày của Mẹ (Mother’s Day) hay Ngày Hiền Mẫu được cử hành vào Chủ Nhật ngày 10 tháng 5 này. Mục đích của ngày này ngày này để tỏ lòng yêu thương và tôn kính những người Mẹ.  Đặc biệt trong hoàn cảnh hiện nay, có lẽ chúng ta nhớ nhiều đến những phương tiện mà xã hội tạo cho chúng ta dễ dàng mua sắm quà, thiết đãi tại nhà hàng, hoặc tụ họp đông đảo để chúc mừng và tưởng nhớ đến mẹ của mình. Trong dịp Ngày Hiền Mẫu này, tôi xin chia sẻ mấy tâm tình sau:  
+    Trước tiên, về khía cạnh lịch sử, tuy chúng ta có thể tìm thấy từ những nguồn trên các trang mạng. Nhìn chung, tại Hoa Kỳ đại đa số đồng ý rằng, Mother’s Day do Anna Jarvis chủ xướng vào năm 1908, và được chính thức công nhận là ngày lễ của quốc gia vào năm 1914 và được cử hành vào Chúa Nhật thứ hai của tháng Năm. Truyền thống của ngày này, các con thường tặng các bà, các mẹ hoa, thiệp chúc mừng, quà, hay những  bữa tiệc gia đình để vinh danh và cám ơn các bà mẹ.
+    Kế đến, về khía cạnh tôn giáo, Ngày Hiền Mẫu có nguồn gốc từ ngày lễ hội Kitô giáo mang tên “Chủ Nhật Mẹ” (Mothering Sunday), đã từng được cử hành ở Anh và một số nước Âu Châu. Lễ hội này được cử hành vào Chúa Nhật thứ tư Mùa Chay là thời gian các tín hữu trở về ‘nhà thờ mẹ’ (mother church) - nhà thờ gần nơi sinh sống- để cử hành những phụng vụ đặc biệt. Truyền thống ‘Chúa Nhật Mẹ’ (Mothering Sunday) này dần dần chuyển sang hình thức mang tính cách thế tục hơn, trong những ngày này con cái dâng lên mẹ mình những bông hoa, hay những biểu hiệu khác của lòng biết ơn. Tập tục này dần dần trở nên phổ biến hơn trong dân chúng. Hơn nữa, bên cạnh người mẹ sinh ra ta, chúng ta còn có một người mẹ hiền thiêng liêng là Đức Mẹ Maria. Chúng ta cũng cần nhớ đến, chuẩn bị quà và chạy đến tôn vinh Mẹ. Mẹ Maria là mẹ chúng ta như lời Chúa Giêsu đã trối Mẹ Ngài cho chúng ta và giao phó chúng ta cho Mẹ. Chúng ta sống tâm tình con thảo với Mẹ thế nào?
+    Sau nữa là khía cạnh văn hóa, với dân tộc Việt Nam, hiếu thảo và tôn kính mẹ là một trong những điều hết sức quan trọng. Do đó đạo Hiếu hay là ‘thờ cha, kính mẹ’ là nghĩa vụ lớn lao nhất của mọi người và mọi gia đình.  . Riêng với người Công Giáo chúng ta, tôn trọng và yêu mến cha mẹ không chỉ là tập tục hay việc làm theo cảm tính, nhưng  là một lệnh truyền, một điều răn, một đòi buộc con người phải tuân thủ để có thể sống đúng và phẩm giá mà Thiên Chúa muốn khi tạo dựng con người. Nói cách khác, con người không hiếu thảo thì không còn là con người theo đúng nghĩa của nó.  ‘Mẹ’ luôn là hình ảnh đáng quý trọng và được thương yêu nhất vì người mẹ nào cũng thương yêu và sẵn sàng hi sinh tất cả, dù rằng mạng sống của mình cho con.
+    Dựa trên một vài hiểu biết tối thiểu trên đây sẽ giúp chúng ta cử hành Ngày Hiền Mẫu thế nào cho phù hợp khi ta bày tỏ tấm lòng với mẹ qua những bông hoa, quà cáp, những lời cầu chúc, hay những tiệc vui có con cái quy tụ chung quanh. Qua hình thức bên ngoài, liệu ta có thực sự mang tâm tình của người con thảo hay ta chỉ biểu lộ lòng hiếu thảo như bị ép buộc thi hành cho đủ bổn phận mà thôi. Chúng ta có thực sự thấu hiểu được nỗi lòng thực sự của mẹ là chỉ mong muốn con khôn lớn, nên người, và hạnh phúc không? Thấu hiểu được như vậy, ta sẽ biết phải làm gì bên cạnh những món quà vật chất bên ngoài. Nói cách khác, trong chiều kích ‘Ngày Mừng Mẹ’ ta cũng cần phải nhìn đến chiều kích ngược lại là ngày để tự hỏi chúng ta có yêu mến, tôn trọng và thật lòng biết ơn chưa? Có lẽ đã có nhiều lần ta chưa sẵn lòng chấp nhận sự “lẩm cẩm” của tuổi già, những quan điểm khác mình, và sẵn lòng tha thứ lỡ như cha mẹ có sai sót chưa?
+    Sau hết, ta cần chạy đến và cầu xin với Mẹ Maria, Mẹ Thiên Chúa cũng là Mẹ chúng ta, trong ngày của Mẹ dạy cho chúng con thương yêu và tôn kính Mẹ và những người mẹ của chúng con như Chúa Giêsu con Mẹ đã làm cho Mẹ.
+    Nguyện xin Thiên Chúa chúc lành cho các Bà Mẹ trên khắp thế giới trong ngày tôn vinh mẹ này. Và cho chính chúng ta biết làm gì và sống thế nào để từng suy tưởng, từng lời nói, và mỗi hành động của chúng ta tỏ bày tình yêu mến đối với mẹ trong cuộc sống, nhất là trong Ngày Hiền Mẫu này.
+    
+    Thân mến
+    Lm. Phanxico Trần Quốc Tuấn
+    `
+  },
+  {
+    "Section": "Các Bài Viết",
     "date":"2020-04-12",
     "image":"https://cttdvnatl.net/gallery/img/articles/article-2020-04-12.png",
     "title":"Mừng Lễ Chúa Phục Sinh 2020",
