@@ -24,7 +24,7 @@ const articleContent =
   {
     "Section": "Các Bài Viết",
     "date":"2020-05-10",
-    "image":"https://cttdvnatl.net/gallery/img/articles/article-2020-04-12.png",
+    "image":"https://cttdvnatl.net/gallery/img/articles/article-2020-05-10.png",
     "title":"Ngày của Mẹ - Mother’s Day",
     "body":
     `Ngày của Mẹ (Mother’s Day) hay Ngày Hiền Mẫu được cử hành vào Chủ Nhật ngày 10 tháng 5 này. Mục đích của ngày này ngày này để tỏ lòng yêu thương và tôn kính những người Mẹ.  Đặc biệt trong hoàn cảnh hiện nay, có lẽ chúng ta nhớ nhiều đến những phương tiện mà xã hội tạo cho chúng ta dễ dàng mua sắm quà, thiết đãi tại nhà hàng, hoặc tụ họp đông đảo để chúc mừng và tưởng nhớ đến mẹ của mình. Trong dịp Ngày Hiền Mẫu này, tôi xin chia sẻ mấy tâm tình sau:  
