@@ -23,6 +23,26 @@ const articleContent =
 [
   {
     "Section": "Các Bài Viết",
+    "date":"2020-05-17",
+    "image":"https://cttdvnatl.net/gallery/img/articles/article-2020-05-17.png",
+    "title":"Tham dự Thánh Lễ trong những ngày tới",
+    "body":
+    `Theo hướng dẫn của các Đức Cha TGP Atlanta qua thư trả lời Thống đốc Brian Kemp ngày 20 tháng 4, chúng ta sẽ có thể mở lại thánh lễ cộng đồng vào đầu tháng 6. Dựa trên những đề nghị và kinh nghiệm của một số nơi đã mở lại thánh lễ công cộng, tôi xin chia sẻ mấy điểm sau.
+    Trước tiên, chúng ta đều đồng ý rằng: Quyết định ngưng mọi Thánh Lễ công cộng là một quyết định đau lòng của tất cả những vị hữu trách, nhưng nó rất cần thiết vì thiện ích chung. Đồng thời, ai cũng ước ao được trở lại giáo xứ của mình, tham dự phụng vụ, và lãnh nhận Thánh Thể. Khát khao này rất mãnh liệt. Nhưng chúng ta cũng phải thừa nhận rằng đóng cửa thì đơn giản, mở cửa lại cần có suy nghĩ và hiểu biết. Do đó, chúng ta cần phải tiếp cận với giai đoạn này bằng một tâm thức thức kiên nhẫn, yêu thương và bác ái.
+    Kế đến, ta phải thừa nhận rằng tuy được mở lại các thành lễ công cộng nhưng mọi người phải hiểu rằng khi các hạn chế y tế được nới lỏng và người ta bắt đầu được tụ họp lại với nhau, sự việc sẽ không lập tức trở lại bình thường như trước. Nếu chúng ta bất cẩn thì tất cả những gì chúng ta hi sinh, tự cách ly trước đây sẽ không còn gì mà còn tệ hơn trước gấp trăm lần.
+    Sau nữa, trong khi chờ đợi TGP Atlanta nghiên cứu những chi tiết để đưa ra hướng dẫn cụ thể, chúng ta có thể dự đoán và chuẩn bị ứng phó với những điểm sau:
+    Số người tham dự sẽ hạn chế vì các hạn chế vẫn được duy trì đối với các cuộc tụ họp đông người. TGP Miami cho phép với tỉ lệ 25% tổng số chỗ ngồi tại một nơi tụ họp. Nếu như vậy, nhà thờ của chúng ta sẽ có thể dung nạp khoảng 300 người, nhà thờ cũ khoảng 180 người, và Hội trường CTTĐVN khoảng 100 người. Vì vậy, chúng ta cần phải chọn lựa để ghi danh cho mỗi thánh lễ hoặc ai tới sớm thì sẽ vô trước cho đến khi đủ số.
+    Giãn cách xã hội sẽ vẫn phải được thực hành và mỗi người đều phải mang khẩu trang. Như vậy, mỗi người và mỗi gia đình cần làm quen với việc giữ khoảng cách tối thiểu 6 feets và ngồi đúng theo những vị trí đã được dánh dấu theo qui định.
+    Một số qui định sẽ được thay đổi trong phụng vụ. Cụ thể là việc chúc bình an sẽ không bắt tay hay ôm chúc bình an; ngưng việc lãnh nhận Máu Thánh và chỉ lãnh nhận Mình Thánh trên tay trong thinh lặng; không dùng các giấy hát hoặc chuyển giỏ dâng hiến.
+    Vẫn có các thánh lễ trực tuyến cho những nhóm có nguy cơ lây nhiễm cao và những người có triệu chứng bệnh, và bất cứ ai cảm thấy ở nhà thì an toàn hơn, họ sẽ không còn buộc phải tham dự Thánh Lễ nữa.
+    Sau cùng, với tâm tình sẵn sàng, chúng ta tiếp tục cầu nguyện để chúng ta sớm được trở lại cử hành thánh lễ chung với nhau, nhất là chính mỗi người được thực sự lãnh nhận Mình Thánh Chúa để chúng ta được nuôi sống và vững bước trên con đường đức tin trong giai đoạn dịch bệnh này. Đồng thời, giáo xứ cũng đang nỗ lực chuẩn bị và sắp xếp cho ngày vui mừng này. Kính xin mọi người vì bác ái, chúng ta cố gắng tuân thủ những qui định để bào vệ cho mình và bảo vệ cho nhau, cũng như tri ân những anh chị em đang hi sinh phục vụ cho chúng ta. Xin Chúa chúc lành cho từng người, mỗi gia đình và giáo xứ thân yêu của chúng ta.
+     
+    Thân mến trong Chúa Kitô Phục Sinh.
+    Rev. Tuan Quoc Tran, Pastor
+    `
+  },
+  {
+    "Section": "Các Bài Viết",
     "date":"2020-05-10",
     "image":"https://cttdvnatl.net/gallery/img/articles/article-2020-05-10.png",
     "title":"Ngày của Mẹ - Mother’s Day",
