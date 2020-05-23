@@ -33,6 +33,20 @@ import Articles from './pages/Articles';
 import ArticleDetail from './pages/ArticleDetail';
 
 const App = () => {
+  const googleAnalytics = document.createElement('script');
+  googleAnalytics.async = true;
+  googleAnalytics.defer = true;
+  googleAnalytics.src = "https://www.googletagmanager.com/gtag/js?id=UA-166941054-1";
+  
+  document.body.appendChild(googleAnalytics);
+
+  const script = document.createElement('script');
+  script.async = true;
+  script.defer = true;
+  script.type = 'text/javascript';
+  script.src = './googleAnalytics.js';
+  
+  document.head.appendChild(script);
   return (
     <Router>
           <Route path="/clergy-list" component={ClergyListPage} exact />

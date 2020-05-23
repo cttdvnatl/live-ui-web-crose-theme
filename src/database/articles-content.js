@@ -23,8 +23,25 @@ const articleContent =
 [
   {
     "Section": "Các Bài Viết",
-    "date":"2020-05-17",
+    "date":"2020-05-24",
     "image":"https://cttdvnatl.net/gallery/img/articles/article-2020-05-17.png",
+    "title":"Ngày Thế Giới Truyền Thông Xã Hội 2020",
+    "body":
+    `Ngày Thế Giới Truyền Thông Xã Hội được Thánh Giáo Hoàng Phaolô VI thiết lập năm 1967, qua Sắc lệnh Inter Mirifica. Ngày này được ấn định cử hành vào Chúa Nhật trước Lễ Hiện Xuống trong hầu hết các quốc gia. Như vậy, năm nay là lần thứ 54 chúng ta cử hành ngày lễ này. Trong dịp này, chúng ta cùng tìm hiểu và suy niệm mấy điểm chính trong Sứ điệp của ĐTC Phanxicô cho Ngày Thế Giới Truyền Thông Xã Hội đã được công bố vào lễ Thánh Phanxicô Salêsiô, 24/1/2020 vừa qua. 
+Trước hết, ta cùng tìm hiểu Sứ điệp Ngày Thế Giới Truyền Thông Xã Hội, được công bố hôm 24-01-2020 trong ngày lễ kính thánh Phanxicô đệ Salê, bổn mạng giới ký giả. Chủ đề sứ điệp năm nay là: "Để ngươi có thể thuật lại và ghi vào ký ức (Xh 10,2) - Cuộc sống làm nên lịch sử." Qua đó ĐTC Phanxicô kêu gọi giới truyền thông ‘phải chấm dứt các bài tường thuật giả dối và phá hoại; hãy thuật lại những điều tốt đẹp nhất.’ ĐTC đã khai triển chủ đề trên bằng việc nhắc nhớ chúng ta phải tập trung vào Sách Thánh vì Sách Thánh là một "Câu chuyện của những câu chuyện" và “Sách Thánh chỉ cho chúng ta thấy một Vị Thiên Chúa là Đấng Sáng Tạo và đồng thời là người Kể Chuyện. Kinh Thánh là câu chuyện tình yêu vĩ đại giữa Thiên Chúa và nhân loại.” Xác định như vậy sẽ giúp chúng ta tránh khỏi ‘Cám dỗ của những bài tường thuật giả dối và phá hoại, nhất là những bài tường thuật thuyết phục con người tin rằng để đạt được hạnh phúc thì cần phải sở hữu nhiều hơn, tiêu thụ nhiều hơn.’ ĐTC tiếp tục với lời khẳng định rằng ‘Đối với Thiên Chúa không có lịch sử nào của con người vô nghĩa.’ Vì vậy mỗi người hãy tập trung vào Chúa Kitô để chia sẻ những câu chuyện có hương thơm của Tin Mừng và kể lại câu chuyện cuộc đời mình dù nó vẫn còn những bất toàn nhưng nó luôn có thể mở ra cho một sự thay đổi và trở nên tốt hơn.  
+Kế đến, trong dịp cho Ngày Cầu Nguyện cho Thế Giới Truyền Thông này. Ta cùng nhau tìm hiểu những thay đổi của cách sống đạo với những trợ giúp của Kỹ Thuật Số (Digital) trong mùa đại dịch Covid-19 này. Hiển nhiên chúng ta nhận ra Thánh Lễ Trực Tuyến/Trên Mạng Online giúp chúng ta được nối kết cách thiêng liêng với bàn tiệc Lời Chúa và nối kết mọi người trong Giáo Xứ với nhau trong khi phải thi hành “Lệnh Ẩn Trú Tại Chỗ.” Đáng ngạc nhiên là những vị cao niên giờ đây cũng biết trực tuyến/livestream, Facebook, Facetime, YouTube là thế nào để có thể tham dự thánh lễ khắp nơi: Vatican, Canada, Úc Châu, và ngay tại Việt Nam. 
+Sau nữa, không ai có thể phủ nhận được những tiện nghi của công nghệ Kỹ Thuật Số trong các lãnh vực học hành, làm việc, giải trí, và ngay cả đời sống tâm linh mà cả người lớn lẫn trẻ em đang hưởng dùng.  Nhưng mặt khác, nó cũng tạo ra những vấn đề trong cuộc sống con người, nhất là trong tình liên đới giữa con người với nhau và nhất là đời sống đức tin bởi sự tiện nghi của công nghệ số này. Chắc chắn các nghi thức Phụng Vụ, các Thánh Lễ Trực Tuyến không thể thay thế cho sự hiện diện để cử hành các bí tích và lãnh nhận Mình Máu Thánh Chúa thực được, tất cả chỉ là tạm thời giúp ta nối kết với nhau. Điểm chính yếu ta cần hiểu rõ, chúng ta được các Đức Giám Mục miễn chuẩn cho luật không buộc tham dự Thánh Lễ Chúa Nhật do đó Thánh Lễ Trực Tuyến hay Online không thay thế luật buộc được.
+Sau nữa, chúng ta hướng lòng về Ngày Lễ Chúa Thánh Thần Hiện Xuống cũng được gọi là Ngày Khai Sinh Giáo Hội. Cũng trong dịp này, sau những tuần lễ không thể tụ họp, chúng ta được tiếp tục trở lại dâng thánh lễ tại thánh đường. Chúng ta hãy hiệp ý với nhau để tạ ơn và chuẩn bị sẵn sàng mừng Ngày Khai Sinh Giáo Hội trong tâm tình được nhắn nhủ của Đức Tổng: “Tôi xin anh chị em hãy nhẫn nại và hiền hòa khi chúng ta bắt đầu thi hành tiến trình này. Đây là một cơ hội cho chúng ta đổi mới và hiệp nhất trong đức tin. Tôi cầu chúc anh chị em có một Lễ Hiện Xuống thánh thiện và đầy ơn Chúa Thánh Thần.”
+Nguyện xin Thiên Chúa chúc lành cho những người trong giới truyền thông biết tôn trọng sự thật để thuật lại những điều tốt đẹp nhất và phải chấm dứt các bài tường thuật giả dối và phá hoại. Xin cho mỗi người chúng ta biết dựa và sách thánh và Chúa Kitô để biết tự chủ và sử dụng tốt phương tiện truyền thông hiện đại để loan báo sự thật về tình yêu của Thiên Chúa và phục vụ lẫn nhau, nhất là trong đời sống gia đình và tâm linh.
+
+     
+    Thân mến
+    Rev. Tuan Quoc Tran, Pastor
+    `
+  },
+  {
+    "Section": "Các Bài Viết",
+    "date":"2020-05-17",
     "title":"Tham dự Thánh Lễ trong những ngày tới",
     "body":
     `Theo hướng dẫn của các Đức Cha TGP Atlanta qua thư trả lời Thống đốc Brian Kemp ngày 20 tháng 4, chúng ta sẽ có thể mở lại thánh lễ cộng đồng vào đầu tháng 6. Dựa trên những đề nghị và kinh nghiệm của một số nơi đã mở lại thánh lễ công cộng, tôi xin chia sẻ mấy điểm sau.

@@ -2036,6 +2036,37 @@ a.nav-brand > img {
 
 /*# sourceMappingURL=style.css.map */
 
+@media (max-width: 950px) {
+  ul#viet-ngu {
+    display: none !important;
+  }
+}
+
+@media (min-width: 950px) {
+  #viet-hong-side-nav {
+    display: none !important;
+  }
+}
+
+#viet-hong-side-nav {
+  margin-top: 3%;
+  width: 100%;
+  transition: display 2s;
+}
+
+#viet-hong-side-nav a {
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  color:#b32400;
+  font-size: 18px;
+}
+
+#viet-hong-side-nav a:hover {
+  color: #ff0000;
+}
+
 ul#viet-ngu {
   display: flex;
   justify-content: center;
@@ -2043,7 +2074,7 @@ ul#viet-ngu {
 
 ul#viet-ngu li{
   margin-top : 20px;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
   padding-right: 20px;
   padding-left: 20px;
 }
@@ -2070,7 +2101,9 @@ p#vn-schedule {
   font-size: 17px;
 }
 
-#documents {}
+#documents {
+  display: none; 
+}
 
 #documents h3 {
   font-size: 22px;
