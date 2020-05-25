@@ -1,6 +1,14 @@
 [
   {
     "Section":"covid19",
+    "date":"05-22-2020",
+    "image":"http://cttdvnatl.net/gallery/img/hvm_covid19/ArchAtl_logoBox.png",
+    "title":"Thông báo của Tổng Giáo phận Atlanta ( 2020-05-22)",
+    "body":"Thông báo của Tổng Giáo phận Atlanta",
+    "pdf":"http://cttdvnatl.net/gallery/pdf/hvm_covid19/update_2020.05.22.pdf"
+  },
+  {
+    "Section":"covid19",
     "date":"04-23-2020",
     "image":"http://cttdvnatl.net/gallery/img/hvm_covid19/ArchAtl_logoBox.png",
     "title":"Thông báo của Tổng Giáo phận Atlanta ( 2020-04-23)",
