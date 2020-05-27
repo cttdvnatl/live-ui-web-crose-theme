@@ -31,6 +31,11 @@ import MassSchedule from "./pages/MassSchedule";
 import LearnBible from "./pages/LearnBible";
 import Articles from './pages/Articles';
 import ArticleDetail from './pages/ArticleDetail';
+import ReactGA from 'react-ga';
+
+//Google Analytics
+ReactGA.initialize('UA-166941054-1');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 const App = () => {
   const googleAnalytics = document.createElement('script');
@@ -40,13 +45,13 @@ const App = () => {
   
   document.body.appendChild(googleAnalytics);
 
-  const script = document.createElement('script');
-  script.async = true;
-  script.defer = true;
-  script.type = 'text/javascript';
-  script.src = './googleAnalytics.js';
+  const extraAnalyticsScript = document.createElement('script');
+  extraAnalyticsScript.async = true;
+  extraAnalyticsScript.defer = true;
+  extraAnalyticsScript.type = 'text/javascript';
+  extraAnalyticsScript.src = './googleAnalytics.js';
   
-  document.head.appendChild(script);
+  document.head.appendChild(extraAnalyticsScript);
   return (
     <Router>
           <Route path="/clergy-list" component={ClergyListPage} exact />
