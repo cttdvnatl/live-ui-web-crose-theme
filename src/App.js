@@ -34,7 +34,13 @@ import ArticleDetail from './pages/ArticleDetail';
 import ReactGA from 'react-ga';
 
 //Google Analytics
-ReactGA.initialize('UA-166941054-1');
+ReactGA.initialize('UA-166941054-1', {
+  debug: true,
+  titleCase: false,
+  gaOptions: {
+    
+  }
+});
 ReactGA.pageview(window.location.pathname + window.location.search);
 
 const App = () => {
