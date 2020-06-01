@@ -237,7 +237,7 @@ const Header = (prop) => {
                                                 <li><a href="/Org">Sơ Đồ Tổ Chức</a></li>
                                                     <li><a href="/departments/KCS">Khối Cơ Sở</a></li>
                                                     <li><a href="/departments/KDS">Khối Đời Sống</a></li>
-                                                    <li className="KGD"><a href="/http://giaoly.hvmatl.org/">Khối Giáo Dục</a>
+                                                    <li className="KGD"><a href="http://giaoly.hvmatl.org/">Khối Giáo Dục</a>
                                                         <ul>
                                                             <li>
                                                                 <a href='http://giaoly.hvmatl.org'>Giáo Lý</a>
