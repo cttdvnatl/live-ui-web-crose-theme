@@ -44,20 +44,6 @@ ReactGA.initialize('UA-166941054-1', {
 ReactGA.pageview(window.location.pathname + window.location.search);
 
 const App = () => {
-  const googleAnalytics = document.createElement('script');
-  googleAnalytics.async = true;
-  googleAnalytics.defer = true;
-  googleAnalytics.src = "https://www.googletagmanager.com/gtag/js?id=UA-166941054-1";
-  
-  document.body.appendChild(googleAnalytics);
-
-  const extraAnalyticsScript = document.createElement('script');
-  extraAnalyticsScript.async = true;
-  extraAnalyticsScript.defer = true;
-  extraAnalyticsScript.type = 'text/javascript';
-  extraAnalyticsScript.src = './googleAnalytics.js';
-  
-  document.head.appendChild(extraAnalyticsScript);
   return (
     <Router>
           <Route path="/clergy-list" component={ClergyListPage} exact />
