@@ -7,7 +7,13 @@ const VietHongContactPage = () => (
     <>
     <Header/>
     <VietHongHeader/>
-    <p className="center-50" style={{fontSize : '100px', color : 'black'}}>Under Construction</p>
+    <p></p>
+    <div class="col-12">
+        <div class="section-heading">
+            <h2><b>Liên Lạc</b></h2>
+            <h2>*** PAGE UNDER CONSTRUCTION ***</h2>
+        </div>
+    </div>
     <Footer/>
     </>
 );

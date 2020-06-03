@@ -15,7 +15,7 @@ const VietHongDocumentsPage = () => (
         <h2>*** PAGE UNDER CONSTRUCTION ***</h2>
     </div>
     <div id="documents">
-    <DisplayDocuments list={vietHongDocuments}/>
+        <DisplayDocuments list={vietHongDocuments}/>
     </div>
     <Footer/>
     </>
