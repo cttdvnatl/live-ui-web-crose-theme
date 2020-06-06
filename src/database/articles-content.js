@@ -23,6 +23,27 @@ const articleContent =
 [
   {
     "Section": "Các Bài Viết",
+    "date":"2020-06-07",
+    "image":"https://cttdvnatl.net/gallery/img/articles/article-2020-06-07.png",
+    "title":"Đòi Hỏi Công Lý Thực Sự cho Nạn Phân Biệt Chủng Tộc",
+    "body":
+    `Trong những ngày qua, chúng ta vui mừng Đức Tân TGM Gregory J. Hartmayer có những hướng dẫn cho việc được trở lại thánh đường để cử hành thánh lễ và rước Mình Thánh Chúa. Nhưng chúng ta lại không hoàn toàn yên ổn vì những cuộc biểu tình bạo động, bắt đầu từ ngày 26 tháng Năm năm 2020 tại thành phố Minneapolis và Saint Paul tiểu bang Minnesota. Nguyên do từ vụ cảnh sát viên Derek Chauvin đã giết chết George Floyd trong tư thế quỳ trên cổ nạn nhân gần 9 phút sau khi đã đè chặt người đàn ông bị còng tay xuống đất khi bắt giữ nạn nhân. Các cuộc biểu tình nhanh chóng lan rộng khắp Hoa Kỳ để ủng hộ công lý cho nạn nhân George Floyd, và phản đối sự tàn bạo của cảnh sát. Ta cùng lắng nghe những hướng dẫn của Giáo Hội Công Giáo đối với vần đề này.
+    Trước hết, chính ĐTC Phanxicô đã quan tâm và đế cập đến trong dịp Triều Yết Chung ngày 3/6/2020 đã dạy rằng: Chúng ta không thể dung thứ hoặc nhắm mắt làm ngơ nạn phân biệt chủng tộc và loại trừ nhau dưới mọi hình thức, ngay cả khi tuyên bố là bảo vệ sự linh thiêng của cuộc sống của con người. Sau đó ngài đã bày tỏ ý hiệp thông với Giáo hội tại Saint Paul và Minneapolis, và trên toàn nước Hoa Kỳ có sự hòa giải và hòa bình, để cầu nguyện cho linh hồn ông George Floyd được an nghỉ và cho những ai khác đã bị giết vì sự phân biệt chủng tộc.
+    Đức TGM Los Angeles và cũng là Chủ tịch HĐGMHK, Jóse Gomez đưa ra bản tuyên bố: Việc giết hại anh George Floyd là một hành động vô nghĩa và tàn bạo, một tội lỗi kêu thấu đến trời cao để đòi công lý… Chúng ta chẳng đạt được gì qua bạo lực và rất nhiều mất mát. Chúng ta hãy tập chú vào phần thưởng là sự thay đổi thực sự và lâu dài.  Chúng ta tin tưởng rằng chính quyền dân sự sẽ điều tra vụ giết hại anh ta một cách cẩn thận và bảo đảm những người chịu trách nhiệm phải bị trừng trị thích đáng.
+    Đức TGM Atlanta, Gregory J Hartmayer cũng có cũng có Bản Tuyên Bố ngày 29 tháng 5 rằng: “Tội ác phân biệt chủng tộc tiếp tục lui tới tại Mỹ Châu. Trong tháng qua, chúng ta chứng kiến 2 người da màu bị giết – một trong hai người đã nài van cho sự sống của anh ta… Tôi hiệp ý cùng các giám mục Hoa Kỳ lên án kỳ thị chủng tộc trong tất cả mọi hình thức. Tôi liên kết cùng HĐGMHK kêu gọi tất cà quý vị thuộc các ấp chính quyền, cảnh sát, dân cử, và cả các cha sở cố gắng hết sức với vấn đề này để tìm được sự hối cải cần thiết dù khó khăn ngõ hầu tìm được công lý thực sự trong thế giới chúng ta.”
+    Vậy chúng ta cần phải làm gì trước vấn đề nóng bỏng này? Tôi xin gợi ra mấy điểm sau:
+    1.      Cần phải giữ vững nguyên tắc mà các vị đại diện Giáo Hội dạy ta: ‘Không thể dung thứ cho tội phân biệt chủng tộc, nhưng cũng không chấp nhận bạo lực!’
+    2.      Sự tàn nhẫn và bạo lực của cảnh sát xảy ra hầu như ở mọi nơi trên thế giới. Tuy nhiên, sự tàn nhẫn và bạo lực của cảnh sát tại Hoa Kỳ chỉ là vấn đề cá nhân không phải là chủ trương của chính quyền.
+    3.      Dùng những phương tiện bất bạo động để bày tỏ và tìm đến công lý thực sự như Tiến sĩ Benice King đã kêu gọi phương thức bất bạo động đối với sự tàn ác này: ‘Chúng ta sẽ không bao giờ đạt được cùng đích của công lý, bình đẳng và hòa bình thực không chỉ qua giằng kéo căng thẳng, nhưng có thể đạt được qua những phương cách bất bạo động.’
+    4.      Cả Đức Thánh Cha, HĐ Giám Mục Hoa Kỳ và Đức Tổng của chúng ta đều khuyến khích chúng chúng ta cầu nguyện và nỗ lực thực hiện việc tìm kiếm công lý như lời Thánh GH Phaolo VI: Nếu bạn muốn tìm kiếm hòa bình hãy thực thi công lý.
+    Nguyện xin Thiên Chúa Ba Ngôi chúc lành và nối kết chúng ta trong chân lý và sự thật để chúng ta bình đẳng chia sẻ với nhau cuộc sống yêu thương trong thế giới và quốc gia này.
+    
+    Thân mến
+    Lm. Phanxico Tuan Tran
+    `
+  },
+  {
+    "Section": "Các Bài Viết",
     "date":"2020-05-31",
     "image":"https://cttdvnatl.net/gallery/img/articles/article-2020-05-31.png",
     "title":"Canh Tân Bộ Mặt Thế Giới",
