@@ -8,8 +8,11 @@ const VietHongActivitiesPage = () => (
     <>
     <Header/>
     <VietHongHeader/>
-    <div class="section-heading">
-        <h1 style={{color: 'black'}}>Sinh Hoạt Trường Việt Hồng</h1>
+    <p></p>
+    <div class="col-12">
+        <div class="section-heading">
+            <h2>Sinh Hoạt Trường Việt Hồng</h2>
+        </div>
     </div>
     <h3 class="center-50" style={{color : 'black'}}>Người mù vệ đường - Dương Hiền</h3>
     <iframe title="yt-video" style={{marginBottom : '50px'}} class="center-50" height="500px" src="https://www.youtube.com/embed/9KC50dzZisM"></iframe>

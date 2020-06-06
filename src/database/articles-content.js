@@ -23,6 +23,26 @@ const articleContent =
 [
   {
     "Section": "Các Bài Viết",
+    "date":"2020-05-31",
+    "image":"https://cttdvnatl.net/gallery/img/articles/article-2020-05-31.png",
+    "title":"Canh Tân Bộ Mặt Thế Giới",
+    "body":
+    `Nhân kỷ niệm 5 năm ngày ban hành Tông huấn Laudato Si’ của Đức Giáo Hoàng Phanxicô, (24/5/2015-24/5/2020), tôi muốn mời quý ông bà anh chị em cùng suy niệm một vài điểm sau:
+    Trước hết là thực trạng của Trái Đất mà chúng ta đang sống. Có lẽ ai trong chúng ta đều nhận biết trong những thập kỷ gần đây xuất hiện những hiện tượng thất thường về thời tiết, khí hậu, mưa gió, bão táp, lụt lội, ô nhiễm không khí.
+    Cụ thể như: nhiệt độ nóng dần lên, hạn hán, lụt lội, nhiều sinh vật và động vật bị giảm thiểu qua nhanh đến độ như bị tuyệt chủng, dịch bệnh gia tăng… Ta có thể đi đến nhận định chung, Ngôi Nhà Chung là Trái Đất đang bị tàn phá khủng  khiếp. Đương nhiên, khi mà nền móng ngôi nhà chúng ta bị tàn phá sẽ có những ảnh hưởng lớn đế những người đang sống trên đó như bị ô nhiễm và tâm trí phập phồng lo sợ…
+    Kế đến, ý thức được vấn đề này, ĐTC Phanxicô cách đây 5 năm qua thông điệp Laudato Si’ đã nhắc nhở và kêu gọi mọi người quan tâm và gìn giữ vũ trụ, ngôi nhà chung của chúng ta. Chúng ta đồng ý với nhau rằng: rằng khoa học kỹ thuật qua các thời đại đã góp phần rất lớn trong công việc phục vụ con người với những tiện nghi tuyệt vời nhưng ta cũng phải nhìn nhận một sự thật là trái đất bị tàn phá nhiều hơn là được xây dựng. ĐTC Phanxicô nhận định rằng: Vì muốn phát triển kinh tế và nắm quyền sở hữu thái quá, con người chúng ta đã sử dụng và lạm dụng trái đất một cách vô trách nhiệm. Căn nguyên việc này do bạo lực nằm sâu trong trái tim con người, vốn bị tội lỗi làm tổn thương, cũng gây ra bệnh tật nơi đất đai, nguồn nước, không khí và các sinh vật (Laudato Si’, số 2). 
+    Sau nữa cuối tuần này, chúng ta mừng kính Lễ Chúa Thánh Thần Hiện Xuống và chúng ta cùng hợp tiếng cầu xin: “Xin Ngài đến canh tân bộ mặt trái đất.” Qua Kinh Thánh trong sách Sáng Thế dạy ta rằng: Thiên Chúa dựng nên vũ trụ, muôn loài muôn vật và tất cả đều tốt đẹp, thiên nhiên và con người sống hài hòa với nhau. Thiên Chúa đã trao trách nhiệm cho con người làm cho vũ trụ này, trái đất này tốt hơn, đẹp hơn và đáng sống hơn nữa (St 1,1-2,4a).  ĐTC Phanxicô cũng dạy ta trong tâm tình trên: “Mỗi người phải chăm sóc ngôi nhà chung của chúng ta, bằng cách tôn trọng và biết ơn trái đất” (số 2). Như vậy, là Kitô Hữu, chúng ta lại càng phải quan tâm, bảo vệ, chăm sóc và làm cho thế giới mỗi ngày mỗi đẹp hơn, đáng sống hơn vì đó là trách nhiệm mà Thiên Chúa đã trao cho chúng ta.
+    Trong tâm tình trên, ta cần xác định lại việc làm cụ thể để tiếp tục xây dựng mặt trái đất trong tinh thần trách nhiệm. Chính mỗi người hãy tự chất vấn mình: “Chúng ta muốn trao lại một thế giới như thế nào cho những người đến sau, cho con em chúng ta hiện đang lớn lên?”(số 160). Chắc chắn không ai trong chúng a muốn trao lại cho con cháu mình một ngôi nhà đã tàn tạ, mục nát, nhưng là một ngôi nhà tươi đẹp.  
+    Như vậy, ta phải luôn lưu tâm bảo vệ thế giới chứ không hủy diệt, gieo trồng vẻ đẹp chứ không gây ô nhiễm và phá hủy. Điều này dẫn chúng ta đến việc tích cực bảo vệ hệ thống sinh thái. Có lẽ ta dễ dàng tự nhủ, đó là việc của người khác, của các nhà lãnh đạo, tôi làm được gì. Ta có thể lên tiếng qua những lá phiếu và trợ giúp các cơ quan và tổ chức bảo vệ môi sinh..
+    Từ đó sẽ hướng ta đến một cách sống mới là chăm sóc ngôi nhà chung, từ bỏ lối sống mua sắm và tiêu xài không cần thiết. Cụ thể là ta lưu tâm lối sống tiêu thụ và vứt bỏ bừa bãi các đồ dùng. Cụ thể khi mình xử dụng nước để tắm rửa, có khi nào nhớ đến nguồn nước không? Xử dụng thoải mái bao bì bằng nylon, vật dụng chén dĩa giấy nhựa…
+    Nguyện xin Thiên Chúa, đặc biệt Chúa Thánh Thần chúc lành và ban thêm sức mạnh để chúng ta có thể tiếp tay với Ngài canh tân bộ mặt trái đất.
+    
+    Thân mến
+    Lm. Phanxico Trần Quốc Tuấn
+    `
+  },
+  {
+    "Section": "Các Bài Viết",
     "date":"2020-05-24",
     "image":"https://cttdvnatl.net/gallery/img/articles/article-2020-05-17.png",
     "title":"Ngày Thế Giới Truyền Thông Xã Hội 2020",

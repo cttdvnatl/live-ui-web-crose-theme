@@ -9,12 +9,13 @@ const VietHongDocumentsPage = () => (
     <>
     <Header/>
     <VietHongHeader/>
+    <p></p>
     <div class="section-heading">
         <h2><b>VĂN THƯ</b></h2>
         <h2>*** PAGE UNDER CONSTRUCTION ***</h2>
     </div>
     <div id="documents">
-    <DisplayDocuments list={vietHongDocuments}/>
+        <DisplayDocuments list={vietHongDocuments}/>
     </div>
     <Footer/>
     </>
