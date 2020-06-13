@@ -2,9 +2,9 @@
 
 Please update a new article in this form:
   (optinal)The image attribute is the link to the image in the article
-    If there is no image, the default image will be added by articles.js
-    Image ratio should be around horizontal:verticle 5:4. No need to be exact.
-    The image should be put in this folder: https://cttdvnatl.net/gallery/articles/
+    -If there is no image, the default image will be added by articles.js
+    -Image ratio should be around horizontal:verticle 5:4. No need to be exact.
+    -The image should be put in this folder: https://cttdvnatl.net/gallery/img/articles/
 
   {
     "Section": "Các Bài Viết",
@@ -21,6 +21,29 @@ Please update a new article in this form:
 
 const articleContent =
 [
+  {
+    "Section": "Các Bài Viết",
+    "date":"2020-06-14",
+    "image":"https://cttdvnatl.net/gallery/img/articles/article-2020-06-14.png",
+    "title":"Kính Thánh Tâm Chúa",
+    "body":
+    `Trong tháng Thánh Tâm, nhất là dịp lễ trọng kính Thánh Tâm Chúa, Đức Thánh Cha Phanxicô mời gọi: “Hãy trao phó mọi lo lắng cho Thánh Tâm Chúa.” Trong hoàn cảnh sống của đại dịch Covid-19 và lễ Thánh Tâm Chúa, xin được chia sẻ cùng quý thành viên mấy tâm tình sau:
+    Trước hết ta cùng lược qua lịch sử nhớ sự kiện vào ngày 27 tháng 12 năm 1673, Chúa hiện ra cùng thánh nữ Magarita Alacoque là một nữ tu dòng Thăm Viếng bên Pháp. Qua thị kiến này, chính Chúa truyền cho chị phải quảng bá việc tôn sùng Thánh Tâm Chúa để đền bù những xúc phạm và hững hờ của loài người đối với lòng thương yêu vô vàn của Chúa. Chúa đã dạy thánh nữ làm 4 việc:
+    (1) Tôn sùng thánh tượng Thánh Tâm.
+    (2) Siêng năng rước lễ, nhất là mỗi Thứ Sáu đầu tháng.
+    (3) Canh thức một giờ trong đêm Thứ Năm để tưởng niệm sự đau buồn của Chúa đã bị loài người bỏ rơi trong vườn Cây Dầu.
+    (4) Và mừng lễ Thánh Tâm hằng năm.
+    Kế đến, về Phụng vụ, Lễ Thánh Tâm Chúa được Giáo Hội qui định từ năm 1873, sẽ được cử hành vào Thứ Sáu, sau Lễ trọng Mình và Máu Chúa, kèm theo nhiều ân xá cho những ai sùng kính Thánh Tâm Chúa trong suốt chín ngày thứ sáu đầu tháng liên tiếp... Tất cả những gì chúng ta làm để nhắm tới là được tắm gội trong lòng thương xót và cuộc sống ta thuộc về Trái Tim đầy yêu thương của Chúa.
+    Sau nữa, đây cũng là dịp để ta suy niệm về sự điệp mà Chúa tỏ bày khi chiêm ngắm và cầu nguyện trước thánh tượng Thánh Tâm Chúa qua thị kiến của thánh nữ Magarita. Thực vậy, trước thánh tượng, ta dễ dàng để nhận ra hai biểu tượng chính sau:
+    Hình ảnh thứ nhất: Ngọn Lửa bùng cháy, cây Thánh Giá chói sáng, và vòng gai quấn quanh trái tim. Trên đó cũng tỏ lộ rõ “Vết Thương” vẫn chưa khép lại. Vết thương không băng kín lại mà vẫn để mở tức là máu vẫn tiếp tục chảy và vẫn nguy hiểm vì dễ nhiễm trùng. Nhưng Chúa Giêsu tỏ lộ vết thương sâu thẳm trên thánh giá cho ta để mời gọi chúng ta trực tiếp ngắm nhìn sâu vào bên trong của vết thương đó.
+    Hình ảnh thứ hai cũng vẫn là những yếu tố như trên nhưng tay Ngài giữ trái tim như là đang trao tặng cho chúng ta. Lời mời gọi này sâu xa hơn trước như Chúa hứa với Ezekiel và với chúng ta trong Ezekiel:  “Ta sẽ ban cho con một trái tim mới và một thần khí mới. Ta sẽ lấy ra khỏi lòng con trái tim bằng đá và cho con một quả tim bằng thịt biết yêu thương.” (Ez 36:26)
+    Sau cùng, trong tháng Thánh Tâm này, mỗi người chúng ta hãy dành ra ít thời giờ để suy niệm về Lòng Thương Xót của Chúa, cũng như cố gắng thực hiện những gì Chúa đã kêu gọi chị Magarita quảng bá. Cụ thể, ta hãy tự hỏi chính mình: Làm sao để chúng ta đón nhận trái tim mới? Và làm thế nào để trái tim chúng ta được biến đổi nên giống Trái Tim Chúa?
+    Nguyện xin Thánh Tâm Chúa chúc lành và biển đổi trái tim chúng ta để biết yêu thương và ngày càng nên giống trái tim Chúa hơn.
+     
+    Thân mến trong Thánh Tâm Chúa,
+    Lm Phanxicô Trần Quốc Tuấn.
+    `
+  },
   {
     "Section": "Các Bài Viết",
     "date":"2020-06-07",
