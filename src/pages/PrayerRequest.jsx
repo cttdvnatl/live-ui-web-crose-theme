@@ -2,7 +2,7 @@ import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
-const ContactPage = () => (
+const PrayerRequest = () => (
     <div>
         <Header />
 
@@ -60,4 +60,4 @@ const ContactPage = () => (
     </div>
 );
 
-export default ContactPage;
+export default PrayerRequest;
