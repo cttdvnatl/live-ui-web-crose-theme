@@ -19,6 +19,7 @@ import Catholic_teaching from "./pages/catholic_teaching";
 import Forms from "./pages/forms";
 import WeeklyNews from "./pages/WeeklyNews";
 import Contact from "./pages/ContactPage";
+import PrayerRequest from "./pages/PrayerRequest";
 import History from './pages/HistoryPage';
 import PrintedCalendarPage from './pages/PrintedCalendarPage';
 import FallFestPage from './pages/FallFestPage';
@@ -61,6 +62,7 @@ const App = () => {
           <Route path="/catholic_teaching" component={Catholic_teaching}/>
           <Route path="/weeklyNews" component={WeeklyNews}/>
           <Route path="/contact" component={Contact}/>
+          <Route path="/PrayerRequest" component={PrayerRequest}/>
           <Route path="/history" component={History}/>
           <Route path="/printed-calendar" component={PrintedCalendarPage}/>
           <Route path="/fall-fest" component={FallFestPage}/>

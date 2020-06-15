@@ -263,7 +263,7 @@ const Header = (prop) => {
                                                     <li><a href="/catholic_teaching">Giáo Lý</a></li>
                                                     <li><a href="/photos">Thư Viện Hình Ảnh</a></li>
                                                     <li><a href="/forms">Đơn Từ</a></li>
-                                                    <li><a href="/prayerRequest.html">Prayer Request</a></li>
+                                                    <li><a href="/PrayerRequest">Prayer Request</a></li>
                                                 </ul>
                                                 <span className="dd-trigger"/>
                                             </li>
