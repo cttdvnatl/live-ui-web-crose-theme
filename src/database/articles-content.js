@@ -8,9 +8,9 @@ Please update a new article in this form:
 
   {
     "Section": "Các Bài Viết",
-    "date":"yyyy-mm-dd",
-    "image":"https://cttdvnatl.net/gallery/img/articles/link-to-the-image",
-    "title":"The title",
+    "date": "yyyy-mm-dd",
+    "image": "https://cttdvnatl.net/gallery/img/articles/link-to-the-image",
+    "title": "The title",
     "body":
     `sometext
 
@@ -21,6 +21,28 @@ Please update a new article in this form:
 
 const articleContent =
 [
+  {
+    "Section": "Các Bài Viết",
+    "date": "2020-06-21",
+    "image": "https://cttdvnatl.net/gallery/img/articles/article-2020-06-21.png",
+    "title": "Ngày Hiền Phụ - Father’s Day",
+    "body":
+    `Hằng năm tại Hoa Kỳ, Ngày Hiền Phụ (Father’s Day), được cử hành vào Chúa Nhật thứ ba của tháng Sáu để tôn vinh các người cha.
+    Về khía cạnh lịch sử, Ngày Hiền Phụ được tổ chức lần đầu tiên vào ngày 19-6-1910. Để có được dịp lễ này, bà Sonora Louis Smart Dodd tại Spokane, Washington, đã khởi xướng tranh đấu để có Ngày Hiền Phụ như ngày nay. Bà cho rằng chúng ta tôn vinh những người Mẹ thì không được quên công khó của những người Cha trên cương vị “chống mũi chịu sào”. Kết quả là Ngày Hiền Phụ được qui định vào Chúa Nhật thứ ba của tháng Sáu tại Hoa Kỳ, sau đó truyền thống này lan truyền sang các nước trên thế giới. 
+    Tuy Ngày Hiền Phụ mang ý nghĩa tôn vinh các người cha và không là ngày lễ Công giáo, nhưng đây cũng là cơ hội để mỗi người duyệt lại để làm đúng những mối tương quan với ‘cha’ qua những chiều kích khác nhau. 
+    - Trong tương quan ‘Thiên Chúa và người cha’: những người cha hãy cảm tạ Thiên Chúa vì đã được trở nên những mắt xích nối kết truyền 
+    gieo sự sống đời này qua đời khác. Các người con cũng hãy tạ ơn Thiên Chúa và cám ơn người cha của mình đã truyền cho con sự sống và mong cha ý thức vinh dự được cộng tác với Thiên Chúa trong việc này. 
+    - Trong tương quan ‘Cha-Con: người làm cha hãy luôn nhớ và trở thành người ‘cha gương mẫu’. Người cha cần phải quân bình trong việc chăm sóc cho con không chỉ đầu đủ vật chất, nhưng còn giáo dục cho con nên người tốt lành, đạo đức. Đặc biệt người cha hãy dạy con và trở nên khuôn mẫu bằng chính đời sống của mình. 
+    - Trong tương quan ‘Con-Cha’: ngày Hiền Phụ là ngày giúp người con nhận thức về công lao của cha mình. Do đó việc cử hành Ngày Hiền Phụ không chỉ giúp những người con có cơ hội bày tỏ yêu thương và kính trọng đối với cha mình, mà còn giúp củng cố quan hệ phụ tử và phát triển tình cảm của người con dành cho cha mình. 
+    - Trong tương quan ‘Cha-Mẹ’: đời sống hôn nhân gia đình ngày nay bị rơi vào sự khủng hoảng do quan niệm xã hội về vai trò của cha-mẹ. Đây cũng là dịp để các mẹ tự vấn về vai trò của mình trong gia đình để đừng lấn át vai trò cột trụ của gia đình. Đồng thời các người cha cũng hãy xem xét lại mình đã chu toàn trách nhiệm trụ cột gia đình này thế nào. 
+    Vậy trong Ngày Hiền Phụ, cùng nhau bày tỏ lòng biết ơn và tôn vinh tất cả những ai mang danh hiệu là cha, cha tinh thần, cha đỡ đầu, cha 
+    linh hướng và cha nuôi trong tâm tình tạ ơn Thiên Chúa. Đồng thời, ta hãy cầu xin cho các người cha được chu toàn bổn phận, trách nhiệm và nêu gương sáng cho các con các cháu. Xin Thiên Chúa gìn giữ và chúc phúc lành cho tất cả các người cha đang hiện diện với chúng con đây. 
+    Xin các gia đình trong bữa cơm mừng Ngày Hiền Phụ và trong Giờ Kinh Gia Đình của suốt tuần lễ cùng hiệp ý cầu nguyện cho những người cha qua lời cầu nguyện cho Hiền Phụ sau: 
+    “Lạy Thiên Chúa là Cha nhân hậu, xin chúc lành cho những người cha trên thế giới, xin hướng dẫn những người cha biết yêu thương và làm gương lành cho con cái, xin biến đổi họ trở nên những người cha như chính Chúa là Cha, xin ban cho họ tràn đầy hồng ân và kiên nhẫn trong mọi hoàn cảnh với lòng yêu thương đích thực. Amen.”     
+    
+    Thân mến
+    Lm. Phanxico Trần Q. Tuấn`
+  },
   {
     "Section": "Các Bài Viết",
     "date":"2020-06-14",
