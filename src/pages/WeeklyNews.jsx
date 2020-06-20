@@ -24,17 +24,15 @@ const WeeklyNews = () => {
     };
 
     useEffect(() => {
-        const now = new Date();
         let mtplr;
-        const from = new Date(`${now.getMonth()}-01-${now.getFullYear()}`);
-
-        if([2, 3].includes(now.getMonth() + 1)) {
-            mtplr = now.getFullYear() % 4 === 0 ? 31+29 : 31+28;
+        const from =  new Date(new Date().setUTCHours(0,0,0,0));
+        from.setMonth(from.getUTCMonth()-1, 0);
+        if([2, 3].includes(new Date().getUTCMonth() + 1)) {
+            mtplr = from.getUTCFullYear() % 4 === 0 ? 31+29 : 31+28;
         } else {
-            mtplr = now.getMonth() + 1 === 8 ? 62 : 61;
+            mtplr = from.getUTCMonth() + 1 === 8 ? 62 : 61;
         }
         const to = new Date(from.getTime() + mtplr * 86400000);
-
         axios.post('https://hvmatl-backend.herokuapp.com/authentication', {
             username: 'anonymous',
             password: 'anonymous'
@@ -51,7 +49,6 @@ const WeeklyNews = () => {
                 }
             }).then(res => setData(Array.isArray(res.data) ? res.data: []));
         })}, []);
-
     return (
         <div>
             <Preloader/>
