@@ -23,6 +23,29 @@ const articleContent =
 [
   {
     "Section": "Các Bài Viết",
+    "date": "2020-06-28",
+    "image": "https://cttdvnatl.net/gallery/img/articles/article-2020-06-28.png",
+    "title": `Tuần lễ hội về “Tự do Tôn giáo” tại Hoa Kỳ`,
+    "body":
+    `Tuần lễ “Tự do Tôn giáo” tại Hoa kỳ được bắt nguồn là “Hai tuần cho Tự do” - được hình thành vào năm 2012 như là một sự bảo vệ tự do tôn giáo chống lại các mối đe dọa trong và ngoài nước. Đến nay, tuần lễ Tự do Tôn giáo được bắt đầu từ ngày 22 tháng 6 là ngày lễ kính các thánh Thomas More và Gioan Fisher, đến 29 tháng 6 là ngày lễ trọng kính hai thánh Tông đồ Phêrô và Phaolô. Năm nay, Giáo hội Hoa Kỳ đã chọn chủ đề “Vì lợi ích của tất cả” để cử hành Tuần lễ hội tự do tôn giáo này.
+    Theo Vatican News, các Giám mục Hoa Kỳ mời gọi mỗi ngày các tín hữu học hỏi một đề tài liên quan đến tự do tôn giáo và cầu nguyện theo các ý này. Cụ thể ý chỉ cầu nguyện mỗi ngày của năm nay như sau:
+    Ngày 22/6: hướng đến và cầu nguyện cho tất cả những ai đang chăm sóc người bệnh và những người dễ bị tổn thương, nhất là các bệnh viện Công giáo luôn kiên trì bảo vệ trước các vụ kiện liên quan đến việc kiên quyết từ chối triệt sản hoặc phá thai.
+    Ngày 23/6: hướng đến và cầu nguyện cho mọi người và mọi tín đồ được tự do thực hành thờ phượng, không lo sợ bị tấn công và làm phiền.
+    Ngày 24/6: hướng đến và cầu nguyện cho các tín đồ thuộc các tôn giáo ở Trung Quốc có thể tự do thực hành tôn giáo không bị nhà nước kiểm soát.
+    Ngày 25/6: hướng đến và cầu nguyện cho các trẻ mồ côi và nhắc lại rằng chăm sóc trẻ em là một lệnh truyền của Tin Mừng.
+    Ngày 26/6: hướng đến và cầu nguyện cho những người di cư, nhất là các Giáo hội nằm ở phía nam biên giới Mỹ, nơi các bức tường chống nhập cư đang được xây dựng. Các Giám mục khẳng định: “Tự do của Giáo hội có nghĩa là Giáo hội không thể bị quyền lực dân sự cản trở sứ vụ và sứ vụ này bao gồm cả việc dành cho những người phải chạy trốn khỏi bạo lực và nghèo đói.”
+    Ngày 27/6: hướng đến và cầu nguyện cho cho các trường Công giáo, để các trường được tự do dạy sự thật về Thiên Chúa và công trình sáng tạo.
+    Ngày 28/6: hướng đến và cầu nguyện cho Cộng hòa Trung Phi.
+    Ngày 29/6: hướng đến và cầu nguyện cho mọi người biết nhìn nhận, lắng nghe và tôn trọng phẩm giá của tất cả mọi người.
+    Trong tuần lễ này, chúng ta hãy đáp lại lời kêu gọi, cùng học hỏi và cầu nguyện cho “Tự do Tôn giáo”, cách riêng với tình hình bạo động và hỗn loạn hiện nay, khi mà chính chúng ta đang bị đàn áp trong môi trường chính trị và xã hội. Một xã hội mà người ta nại danh nghĩa đấu tranh cho nhân quyền, tranh đấu cho phong trào Black Lives Matter, để tiêu hủy những giá trị truyền thống của gia đình, của xã hội và của con người. Shaun King nhà đấu tranh cho Black Lives Matter kêu gọi tiêu diệt tất cả các bức tượng trắng của Chúa, Đức Mẹ và các thánh vì hắn cho là các bức tượng đó là nói lên quyền lực tối thượng của người da trắng.
+    Xin Thiên Chúa chúc lành cho chúng ta có thể đứng vững trước những cơn sóng gió và bão táp của xã hội Hoa Kỳ hôm nay để được tự do tôn giáo. Vì quyền tự do tôn giáo là quyền nền tảng của nhân phẩm con người. Tự do tôn giáo là quyền bảo đảm cho các quyền khác như là: được thừa hưởng hòa bình và quyền sáng tạo.
+    
+    Thân mến
+    Lm. Phanxico Trần Quốc Tuấn
+    `
+  },
+  {
+    "Section": "Các Bài Viết",
     "date": "2020-06-21",
     "image": "https://cttdvnatl.net/gallery/img/articles/article-2020-06-21.png",
     "title": "Ngày Hiền Phụ - Father’s Day",
