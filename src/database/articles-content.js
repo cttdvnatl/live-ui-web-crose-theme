@@ -23,6 +23,25 @@ const articleContent =
 [
   {
     "Section": "Các Bài Viết",
+    "date": "2020-07-05",
+    "image": "https://cttdvnatl.net/gallery/img/articles/article-2020-07-05.png",
+    "title": "Đôi Điều Chia Sẻ",
+    "body":
+    `Kính thăm quý thành viên,
+    Tôi xin gửi đến quý thành viên lời chào chúc bình an và ơn lành của Chúa Kitô, đặc biệt trong Mùa Dịch Covid này. Tôi xin được gửi đến quý thành viên và quý vị mấy tâm tình sau:
+    Trước  tiên là chúng ta vẫn đang cảm nghiệm và sống trong một thế giới hoảng loạn bởi dịch Covid-19. Cho tới giờ này, tình trạng lây nhiễm trên thế giới và tại Hoa Kỳ vẫn gia tăng sau một thời gian có sự khống chế với những biện pháp cách ly.  Thêm vào đó, là sự hoảng loạn của bạo động trong vài tuần qua tại Hoa Kỳ và một số quốc gia Châu Âu.  Tại những nơi này, các cuộc biểu tình ôn hòa chống lại sự tàn bạo của cảnh sát gây nên cái chết của anh George Floyd đã diễn ra nhưng có những kẻ biểu tình quá khích đã phá hủy nhiều tượng đài để trả thù vụ George Floyd bị chết! Như chúng ta đã thấy, các cuộc biểu tình ôn hòa đã trở thành bạo loạn cướp bóc, hôi của và phá hoại nhiều di tích lịch sử như kéo xập các bức tượng Tổng thống George Washington, Christopher Columbus, nhân vật đã khám phá ra Châu Mỹ .…Vượt xa hơn thế nữa, nhà tranh đấu cho phong trào Black Lives Matter, Shaun King kêu gọi tiêu diệt tất cả các bức tượng trắng của Chúa, Đức Mẹ và các thánh vì anh cho là các bức tượng đó là nói lên quyền lực tối thượng của người da trắng. Các cuộc bạo loạn và phá đổ tượng đài đang làm mất chính nghĩa chống phân biệt chủng tộc của người da đen vì dường như chính nghĩa chống phân biệt chủng tộc của người da đen đang bị lạm dụng và lôi kéo vào các thủ đoạn chính trị và các hành vi bạo lực gây rối trên toàn quốc.
+    Kế đến, về mặt tâm linh
+    Trước tình trạng hỗn loạn này, Đức ông Stephen Rossi, một nhà trừ quỷ của Công Giáo và một tâm lý gia đã bình luận rằng: Có những dấu hiệu chứng tỏ đất nước chúng ta đang bị ma quỷ lộng hành... Một trong những dấu hiệu đó là sự bất hòa. Những cuộc bạo loạn bùng phát! vì giận dữ và bạo lực thường đi đôi với hoạt động của ma quỷ!
+    Sau nữa, câu hỏi được đặt ra cho chúng ta là: Tôi phải làm gì trong hoàn cảnh đại dịch Covid và bạo loạn hiện nay?  Tôi xin gửi đến quý thành viên và quý vị tâm tình của Đức ông Stephen Rossi kêu gọi chúng ta phải bắt đầu bằng việc xua trừ ma quỷ, bằng chừa cải tội lỗi; chấm dứt những tin nhảm nhí huyền hoặc và thực hành cuộc sống đức tin; hãy yêu kính Thiên Chúa và tha nhân. Đừng xét đoán ai trái ai phải, cộng hòa hay dân chủ, đen hay trắng; và hãy cầu nguyện liên nỉ, hãy cầu nguyện cùng Đức Trinh Nữ Maria kèm theo thực hành những hành vi hy sinh hãm mình, rộng mở tâm lòng cho Chúa Thánh Thần soi động, hòa vào công cuộc cứu chuộc của Chúa Giêsu. Chúng ta hãy bình tâm để là những người phục vụ các gia đình, chúng ta hãy cầu nguyện cho nền hòa bình thực sự trên thế giới và xã hội chúng ta đang sống.
+    Đồng thời, đây cũng là cơ hội để các gia đình điều chỉnh lại vai trò truyền giáo và dạy giáo lý trong gia đình mình theo như Huấn Thị mới của Giáo Hội theo 3 nguyên tắc chính để hành động: Làm chứng, thương xót và đối thoại. Nhất là biết tận dụng những phương tiện của thời đại Kỹ Thuật Số hiện nay để có thê tiếp cận với giới trẻ.
+    Nguyện xin Thiên Chúa ban cho các gia đình dù phải cẩn thận bảo về chính mình và bảo vê mọi người tránh lây nhiễm dịch bệnh vẫn có Mùa Nghỉ Hè này được bình an, khoẻ mạnh và hạnh phúc với gia đình. Xin Thánh Gia chuyển cầu và chúc lành cho Chương Trình, cho từng gia đình và từng thành viên của chúng ta.
+    
+    Thân mến,
+    Lm Phanxicô Trần Quốc Tuấn.
+    `
+  },
+  {
+    "Section": "Các Bài Viết",
     "date": "2020-06-28",
     "image": "https://cttdvnatl.net/gallery/img/articles/article-2020-06-28.png",
     "title": `Tuần lễ hội về “Tự do Tôn giáo” tại Hoa Kỳ`,

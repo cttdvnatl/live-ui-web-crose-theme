@@ -37,7 +37,7 @@ const Articles = (prop) => {
                                                 <div className="events-meta">
                                                     <a href={`/ArticleDetail/${article.date}`}><i className="fa fa-calendar" aria-hidden="true"></i>{article.date.split("-").reverse().join("-")}</a>
                                                 </div>
-                                                <p>{article.body.replace(/(?:\r\n|\r|\n)/g, '<br>').substring(0, 101) + "..."}</p>
+                                                <p>{article.body.substring(0, 101) + "..."}</p>
                                                 {/* <!-- <a href="#">Read More <i className="fa fa-angle-double-right"></i></a> --> */}
                                             </div>
                                             <div className="find-out-more-btn">
