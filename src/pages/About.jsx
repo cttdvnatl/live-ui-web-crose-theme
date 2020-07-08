@@ -1,29 +1,37 @@
 import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
+import { getLanguage, setLanguage, useTranslation, setTranslations, setDefaultLanguage } from 'react-multi-lang';
+import vn from '../database/hvmatlDataVN.json';
+import en from '../database/hvmatlDataEN.json';
+
+setTranslations({vn, en})
+setDefaultLanguage('vn')
+
+
 const About = () => {
+    const t = useTranslation()
     return (
         <div>
             <Header/>
+            <button onClick={() => setLanguage('vn')}>VN</button>
+            <button onClick={() => setLanguage('en')}>EN</button>
             <div className="about-us-area about-page section-padding-100">
                 <div className="container">
-                    <h2 className="section-heading">Sứ Mệnh Giáo Xứ</h2>
+                    <h2 className="section-heading">{t('about.pageTitle')}</h2>
                     <div className="row align-items-center justify-content-between">
                         <div className="col-12 col-lg-6">
                                 <div className="about-content">
                                     <a href="img/bg-img/meaning_symbol.jpg"><img src="img/core-img/Logo1.png" alt=""/></a>
                                     <p style={{textAlign:"center"}}><i>
-                                        <a href="img/bg-img/vietsym.jpg" style={{color:"#850000"}}>Ý nghĩa dấu hiệu</a> / <a href="img/bg-img/engsym.jpg" style={{color:"#850000"}}>Symbol significant</a></i>
+                                        <a href="img/bg-img/vietsym.jpg" style={{color:"#850000"}}>Ý nghĩa dấu hiệu</a> / <a href="img/bg-img/engsym.jpg" style={{color:"#850000"}}>Significant Symbol</a></i>
                                     </p>
                                 </div>
                         </div>
                         <div className="col-12 col-lg-5">
                             <div className="about-content">
-                                <h2>Giáo Xứ Các Thánh Tử Đạo Việt Nam</h2>
-                                <p>Giáo Xứ Các Thánh Tử Đạo Việt Nam thuộc Tổng Giáo Phận Atlanta 
-                                    là cộng đoàn người Công Giáo gốc Việt cùng sống cử hành, 
-                                    loan truyền đức tin Công Giáo, đồng thời duy trì 
-                                    và phát triển truyền thống văn hoá Việt Nam.</p>
+                                <h2>{t('about.heading')}</h2>
+                                <p>{t('about.paragraph')}</p>
                                 <div className="opening-hours-location mt-30 d-flex align-items-center">
                                 </div>
                             </div>
