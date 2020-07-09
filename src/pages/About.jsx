@@ -14,8 +14,11 @@ const About = () => {
     return (
         <div>
             <Header/>
-            <button onClick={() => setLanguage('vn')}>VN</button>
-            <button onClick={() => setLanguage('en')}>EN</button>
+            <div id="translation-button">
+                <button onClick={() => setLanguage('vn')}>VN</button>
+                <button onClick={() => setLanguage('en')}>EN</button>                
+            </div>
+
             <div className="about-us-area about-page section-padding-100">
                 <div className="container">
                     <h2 className="section-heading">{t('about.pageTitle')}</h2>
