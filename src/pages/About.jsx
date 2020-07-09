@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import { getLanguage, setLanguage, useTranslation, setTranslations, setDefaultLanguage } from 'react-multi-lang';
+import { setLanguage, useTranslation, setTranslations, setDefaultLanguage } from 'react-multi-lang';
 import vn from '../database/hvmatlDataVN.json';
 import en from '../database/hvmatlDataEN.json';
 
@@ -14,13 +14,12 @@ const About = () => {
     return (
         <div>
             <Header/>
-            <div id="translation-button">
-                <button onClick={() => setLanguage('vn')}>VN</button>
-                <button onClick={() => setLanguage('en')}>EN</button>                
-            </div>
-
             <div className="about-us-area about-page section-padding-100">
                 <div className="container">
+                <div id="translation-button">
+                    <button onClick={() => setLanguage('vn')}>VN</button>
+                    <button onClick={() => setLanguage('en')}>EN</button>                
+                </div>
                     <h2 className="section-heading">{t('about.pageTitle')}</h2>
                     <div className="row align-items-center justify-content-between">
                         <div className="col-12 col-lg-6">
