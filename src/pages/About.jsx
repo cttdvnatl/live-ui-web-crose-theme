@@ -12,14 +12,14 @@ setDefaultLanguage('vn')
 const About = () => {
     const t = useTranslation()
     return (
-        <div>
+        <>
             <Header/>
-            <div className="about-us-area about-page section-padding-100">
-                <div className="container">
-                <div id="translation-button">
+            <div id="translation-button">
                     <button onClick={() => setLanguage('vn')}>VN</button>
                     <button onClick={() => setLanguage('en')}>EN</button>                
-                </div>
+            </div>
+            <div className="about-us-area about-page section-padding-100">
+                <div className="container">
                     <h2 className="section-heading">{t('about.pageTitle')}</h2>
                     <div className="row align-items-center justify-content-between">
                         <div className="col-12 col-lg-6">
@@ -42,7 +42,7 @@ const About = () => {
                 </div>
             </div>
             <Footer/>
-        </div>
+        </>
     );
 }
 
