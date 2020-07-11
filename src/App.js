@@ -33,16 +33,41 @@ import LearnBible from "./pages/LearnBible";
 import Articles from './pages/Articles';
 import ArticleDetail from './pages/ArticleDetail';
 import ReactGA from 'react-ga';
+import { setLanguage, setCookie } from 'react-multi-lang';
 
 //Google Analytics
 ReactGA.initialize('UA-166941054-1', {
   debug: true,
   titleCase: false,
-  gaOptions: {
-    
-  }
+  gaOptions: {}
 });
 ReactGA.pageview(window.location.pathname + window.location.search);
+
+//Website Cookie for Language
+function checkCookie() {
+  const language = getCookie("language");
+  if (language === 'en') {
+      setLanguage('en');
+  } else if (language === 'vn') {
+      setLanguage('vn');
+  } else {
+      setCookie();
+  }
+}
+function getCookie(cookieParam) {
+  const cookieName = cookieParam + "=";
+  const decodedCookie = decodeURIComponent(document.cookie);
+  const cookieArray = decodedCookie.split(';');
+  for(let i = 0; i < cookieArray.length; i++) {
+      let c = cookieArray[i];
+      while (c.charAt(0) == ' ') {
+          c = c.substring(1);
+      }
+      if (c.indexOf(cookieName) == 0) {
+          return c.substring(cookieName.length, c.length);
+      }
+  }
+} checkCookie();
 
 const App = () => {
   return (

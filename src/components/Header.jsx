@@ -1,4 +1,5 @@
 import React, {useEffect, useState, useRef, useCallback} from 'react';
+import { setLanguage, getLanguage } from 'react-multi-lang';
 import axios from 'axios';
 import EmergencyEvent from "./EmergencyNotice";
 import PopupModal from "./PopupModal";
@@ -169,6 +170,18 @@ const Header = (prop) => {
         setShow(false);
         setContent({});
     };
+//Set Language and Cookie
+    function setCookie() {
+        document.cookie = "language = " + getLanguage();
+    }
+    function setLanguageVN() {
+        setLanguage('vn');
+        setCookie('vn');
+    }
+    function setLanguageEN() {
+        setLanguage('en');
+        setCookie('en');
+    }
 
     //JSX represent the header element
     return (
@@ -184,6 +197,10 @@ const Header = (prop) => {
                                         <a href="https://www.facebook.com/cttdvn" aria-label="facebook"><i className="fab fa-facebook" ref={facebook}></i></a>
                                         <a href="https://www.youtube.com/thanhtudaovietnam" aria-label="youtube"><i className="fab fa-youtube" ref={youtube}></i></a>
                                         <a href="https://twitter.com/thanhtudaovn" aria-label="twitter"><i className="fab fa-twitter" ref={twitter}></i></a>
+                                    </div>
+                                    <div id="translation-button">
+                                        <button class="vn" onClick={() => setLanguageVN()}>VN</button>
+                                        <button class="en" onClick={() => setLanguageEN()}>EN</button>                
                                     </div>
                                 </div>
                                 <div className="top-header-meta">
