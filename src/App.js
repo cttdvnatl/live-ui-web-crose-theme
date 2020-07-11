@@ -33,7 +33,7 @@ import LearnBible from "./pages/LearnBible";
 import Articles from './pages/Articles';
 import ArticleDetail from './pages/ArticleDetail';
 import ReactGA from 'react-ga';
-import { setLanguage, setCookie } from 'react-multi-lang';
+import { setLanguage, getLanguage } from 'react-multi-lang';
 
 //Google Analytics
 ReactGA.initialize('UA-166941054-1', {
@@ -53,6 +53,9 @@ function checkCookie() {
   } else {
       setCookie();
   }
+}
+function setCookie() {
+  document.cookie = "language = " + getLanguage();
 }
 function getCookie(cookieParam) {
   const cookieName = cookieParam + "=";
