@@ -7,7 +7,7 @@ const CookiePage = () => (
         <Header/>
         <div className="container-fluid text-center">
             <h3 className="cookies">Usage of Cookies</h3>
-            <p className="cookies">We use cookies for web analytic applications to help us understand user interactions within the website and potentially other services.</p>
+            <p className="cookies">We use cookies for web analytic applications to help us understand user interactions within the website, your preferred language, and potentially other services.</p>
         </div>
         <Footer/>
     </>
