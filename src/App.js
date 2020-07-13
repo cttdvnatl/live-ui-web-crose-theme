@@ -34,6 +34,7 @@ import Articles from './pages/Articles';
 import ArticleDetail from './pages/ArticleDetail';
 import ReactGA from 'react-ga';
 import { setLanguage, getLanguage } from 'react-multi-lang';
+import CookiePage from './pages/CookiePage';
 
 //Google Analytics
 ReactGA.initialize('UA-166941054-1', {
@@ -45,7 +46,7 @@ ReactGA.pageview(window.location.pathname + window.location.search);
 
 //Website Cookie for Language
 function checkLangCookie() {
-  const language = getLangCookie("language");
+  const language = getCookie("language");
   if (language === 'en') {
       setLanguage('en');
   } else if (language === 'vn') {
@@ -57,7 +58,7 @@ function checkLangCookie() {
 function setLangCookie() {
   document.cookie = "language = " + getLanguage();
 }
-function getLangCookie(cookieParam) {
+function getCookie(cookieParam) {
   const cookieName = cookieParam + "=";
   const decodedCookie = decodeURIComponent(document.cookie);
   const cookieArray = decodedCookie.split(';');
@@ -70,8 +71,7 @@ function getLangCookie(cookieParam) {
           return c.substring(cookieName.length, c.length);
       }
   }
-} checkLangCookie();
-
+} checkLangCookie()
 
 const App = () => {
   return (
@@ -105,6 +105,7 @@ const App = () => {
           <Route path="/viet-hong-contact" component={VietHongContactPage}/>
           <Route path="/Articles" component={Articles}/>
           <Route path="/ArticleDetail/:date" component={ArticleDetail}/>
+          <Route path="/cookies" component={CookiePage}/>
     </Router>
   ) 
 };

@@ -48,7 +48,7 @@ const Footer = (prop) => {
                         <div className="col-12 col-md-6 col-sm-6">
                             <div className="copywrite-text">
                                 <p>
-                                    Copyright &copy; {new Date().getFullYear()} All rights reserved | GX CTTĐVN - ATL
+                                    Copyright &copy; {new Date().getFullYear()} All rights reserved | GX CTTĐVN - ATL <a href="/cookies" id="cookies">Cookies</a>
                                 </p>
                             </div>
                         </div>

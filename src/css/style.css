@@ -2125,7 +2125,26 @@ div#translation-button .en {
   margin-left: 7px;
   padding: 2px;
 }
+
 div#translation-button .vn {
   color: red;
   padding: 2px;
+}
+
+a#cookies {
+  color: #c92f2f;
+}
+
+a#cookies:hover {
+  color: #590b05;
+}
+
+h3.cookies {
+  color: black;
+  font-size: 36px;
+}
+
+p.cookies {
+  padding-bottom: 40%;
+  font-size: 14px;
 }
