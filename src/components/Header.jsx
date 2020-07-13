@@ -171,16 +171,16 @@ const Header = (prop) => {
         setContent({});
     };
 //Set Language and Cookie
-    function setCookie() {
+    function setLangCookie() {
         document.cookie = "language = " + getLanguage();
     }
     function setLanguageVN() {
         setLanguage('vn');
-        setCookie('vn');
+        setLangCookie('vn');
     }
     function setLanguageEN() {
         setLanguage('en');
-        setCookie('en');
+        setLangCookie('en');
     }
 
     //JSX represent the header element

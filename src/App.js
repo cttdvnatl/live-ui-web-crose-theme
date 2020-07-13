@@ -44,20 +44,20 @@ ReactGA.initialize('UA-166941054-1', {
 ReactGA.pageview(window.location.pathname + window.location.search);
 
 //Website Cookie for Language
-function checkCookie() {
-  const language = getCookie("language");
+function checkLangCookie() {
+  const language = getLangCookie("language");
   if (language === 'en') {
       setLanguage('en');
   } else if (language === 'vn') {
       setLanguage('vn');
   } else {
-      setCookie();
+      setLangCookie();
   }
 }
-function setCookie() {
+function setLangCookie() {
   document.cookie = "language = " + getLanguage();
 }
-function getCookie(cookieParam) {
+function getLangCookie(cookieParam) {
   const cookieName = cookieParam + "=";
   const decodedCookie = decodeURIComponent(document.cookie);
   const cookieArray = decodedCookie.split(';');
@@ -70,7 +70,8 @@ function getCookie(cookieParam) {
           return c.substring(cookieName.length, c.length);
       }
   }
-} checkCookie();
+} checkLangCookie();
+
 
 const App = () => {
   return (
