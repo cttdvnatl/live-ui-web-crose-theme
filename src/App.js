@@ -63,10 +63,10 @@ function getCookie(cookieParam) {
   const cookieArray = decodedCookie.split(';');
   for(let i = 0; i < cookieArray.length; i++) {
       let c = cookieArray[i];
-      while (c.charAt(0) == ' ') {
+      while (c.charAt(0) === ' ') {
           c = c.substring(1);
       }
-      if (c.indexOf(cookieName) == 0) {
+      if (c.indexOf(cookieName) === 0) {
           return c.substring(cookieName.length, c.length);
       }
   }
