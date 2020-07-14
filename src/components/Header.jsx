@@ -182,7 +182,6 @@ const Header = (prop) => {
         setLanguage('en');
         setLangCookie('en');
     }
-
     //JSX represent the header element
     return (
         <header className="header-area">
@@ -199,8 +198,8 @@ const Header = (prop) => {
                                         <a href="https://twitter.com/thanhtudaovn" aria-label="twitter"><i className="fab fa-twitter" ref={twitter}></i></a>
                                     </div>
                                     <div id="translation-button">
-                                        <button class="vn" onClick={() => setLanguageVN()}>VN</button>
-                                        <button class="en" onClick={() => setLanguageEN()}>EN</button>                
+                                        <button id="vn" onClick={() => setLanguageVN()}>VN</button>
+                                        <button id="en" onClick={() => setLanguageEN()}>EN</button>                
                                     </div>
                                 </div>
                                 <div className="top-header-meta">

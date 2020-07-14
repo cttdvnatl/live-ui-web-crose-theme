@@ -33,7 +33,9 @@ import LearnBible from "./pages/LearnBible";
 import Articles from './pages/Articles';
 import ArticleDetail from './pages/ArticleDetail';
 import ReactGA from 'react-ga';
-import { setLanguage, getLanguage } from 'react-multi-lang';
+import { setLanguage, getLanguage, setTranslations, setDefaultLanguage } from 'react-multi-lang';
+import en from './database/hvmatlDataEN.json';
+import vn from './database/hvmatlDataVN.json';
 import CookiePage from './pages/CookiePage';
 
 //Google Analytics
@@ -45,6 +47,9 @@ ReactGA.initialize('UA-166941054-1', {
 ReactGA.pageview(window.location.pathname + window.location.search);
 
 //Website Cookie for Language
+setTranslations({vn, en})
+setDefaultLanguage('vn')
+
 function checkLangCookie() {
   const language = getCookie("language");
   if (language === 'en') {

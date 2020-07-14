@@ -7,7 +7,7 @@ import Data from '../database/Clergy.json';
 const ClergyListPage = () => {
     return (
         <div>
-            <Header/>
+            <Header/> 
             <ClergyList data={Data}/>
             <Footer/>
         </div>

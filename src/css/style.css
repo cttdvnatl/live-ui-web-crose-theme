@@ -2120,13 +2120,13 @@ div#translation-button {
   margin-left: 7px;
 }
 
-div#translation-button .en {
+div#translation-button #en {
   color: blue;
   margin-left: 7px;
   padding: 2px;
 }
 
-div#translation-button .vn {
+div#translation-button #vn {
   color: red;
   padding: 2px;
 }

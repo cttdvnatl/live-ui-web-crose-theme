@@ -1,12 +1,7 @@
 import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import { useTranslation, setTranslations, setDefaultLanguage } from 'react-multi-lang';
-import vn from '../database/hvmatlDataVN.json';
-import en from '../database/hvmatlDataEN.json';
-
-setTranslations({vn, en})
-setDefaultLanguage('vn')
+import { useTranslation } from 'react-multi-lang';
 
 const About = () => {
     const t = useTranslation()
