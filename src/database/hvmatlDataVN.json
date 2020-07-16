@@ -7,5 +7,22 @@
     "history": {
         "pageTitle": "Quá Trình Thành Lập",
         "pageTitleContinued": "Giáo Xứ Các Thánh Tử Đạo Việt Nam"
+    },
+    "header": {
+        "dropdownMenuOne": {
+            "dropdownHeading": "GIÁO XỨ",
+            "itemOne": "Trang Chủ",
+            "itemTwo": "Sứ Mệnh Giáo Xứ",
+            "itemThree": "Lịch Sử Giáo Xứ",
+            "itemFour": "Linh Mục/Tu Sĩ",
+            "itemFive": "Qúy Chức"
+        },
+        "dropdownMenuTwo": {
+            "dropdownHeading": "TIN TỨC/SỰ KIỆN",
+            "itemOne": "Sinh Hoạt Giáo Xứ",
+            "itemTwo": "Lịch 2020",
+            "itemThree": "Hội Chợ Mùa Thu",
+            "itemFour": "TNTT Tôma Thiện"
+        }
     }
 }

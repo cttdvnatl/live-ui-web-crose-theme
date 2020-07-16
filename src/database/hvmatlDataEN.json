@@ -7,5 +7,22 @@
     "history": {
         "pageTitle": "Our History",
         "pageTitleContinued": "Holy Vietnamese Martyr's Catholic Church"
+    },
+    "header": {
+        "dropdownMenuOne": {
+            "dropdownHeading": "Parish",
+            "itemOne": "Homepage",
+            "itemTwo": "About",
+            "itemThree": "History",
+            "itemFour": "Clergy",
+            "itemFive": "Staff"
+        },
+        "dropdownMenuTwo": {
+            "dropdownHeading": "News and Events",
+            "itemOne": "Parish Activities",
+            "itemTwo": "Calender 2020",
+            "itemThree": "Fall Festival",
+            "itemFour": "TNTT Tôma Thiện"
+        }
     }
 }

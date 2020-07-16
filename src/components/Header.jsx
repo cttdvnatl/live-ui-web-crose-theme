@@ -1,5 +1,5 @@
 import React, {useEffect, useState, useRef, useCallback} from 'react';
-import { setLanguage, getLanguage } from 'react-multi-lang';
+import { setLanguage, getLanguage, useTranslation } from 'react-multi-lang';
 import axios from 'axios';
 import EmergencyEvent from "./EmergencyNotice";
 import PopupModal from "./PopupModal";
@@ -182,6 +182,7 @@ const Header = (prop) => {
         setLanguage('en');
         setLangCookie('en');
     }
+    const t = useTranslation();
     //JSX represent the header element
     return (
         <header className="header-area">
@@ -228,22 +229,22 @@ const Header = (prop) => {
                                     </div>
                                     <div className="classynav">
                                         <ul ref={navbarItem}>
-                                            <li className="cn-dropdown-item has-down" onClick={(e) => toggleSubMenu(0, e)}><a href="/#">GIÁO XỨ</a>
+                                            <li className="cn-dropdown-item has-down" onClick={(e) => toggleSubMenu(0, e)}><a href="/#">{t("header.dropdownMenuOne.dropdownHeading")}</a>
                                                 <ul className="dropdown">
-                                                    <li><a href="/">Trang Chủ</a></li>
-                                                    <li><a href="/about">Sứ Mệnh Giáo Xứ</a></li>
-                                                    <li><a href="/history">Lịch Sử Giáo Xứ</a></li>
-                                                    <li><a href="/clergy-list">Linh Mục/Tu Sĩ</a></li>
-                                                    <li><a href="/staff">Qúy Chức</a></li>
+                                                    <li><a href="/">{t("header.dropdownMenuOne.itemOne")}</a></li>
+                                                    <li><a href="/about">{t("header.dropdownMenuOne.itemTwo")}</a></li>
+                                                    <li><a href="/history">{t("header.dropdownMenuOne.itemThree")}</a></li>
+                                                    <li><a href="/clergy-list">{t("header.dropdownMenuOne.itemFour")}</a></li>
+                                                    <li><a href="/staff">{t("header.dropdownMenuOne.itemFive")}</a></li>
                                                 </ul>
                                                 <span className="dd-trigger"/>
                                             </li>
-                                            <li className="cn-dropdown-item has-down" onClick={(e) => toggleSubMenu(1, e)}><a href="/#">TIN TỨC/SỰ KIỆN</a>
+                                            <li className="cn-dropdown-item has-down" onClick={(e) => toggleSubMenu(1, e)}><a href="/#">{t("header.dropdownMenuTwo.dropdownHeading")}</a>
                                                 <ul className="dropdown">
-                                                    <li><a href="/activities">Sinh Hoạt Giáo Xứ</a></li>
-                                                    <li><a href="/printed-calendar">Lịch 2020</a></li>
-                                                    <li><a href="/fall-fest">Hội Chợ Mùa Thu</a></li>
-                                                    <li><a href="/thieu-nhi">TNTT Tôma Thiện</a></li>
+                                                    <li><a href="/activities">{t("header.dropdownMenuTwo.itemOne")}</a></li>
+                                                    <li><a href="/printed-calendar">{t("header.dropdownMenuTwo.itemTwo")}</a></li>
+                                                    <li><a href="/fall-fest">{t("header.dropdownMenuTwo.itemThree")}</a></li>
+                                                    <li><a href="/thieu-nhi">{t("header.dropdownMenuTwo.itemFour")}</a></li>
                                                 </ul>
                                                 <span className="dd-trigger"/>
                                             </li>
