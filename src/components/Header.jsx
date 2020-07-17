@@ -182,6 +182,7 @@ const Header = (prop) => {
         setLanguage('en');
         setLangCookie('en');
     }
+
     const t = useTranslation();
     //JSX represent the header element
     return (
@@ -249,26 +250,26 @@ const Header = (prop) => {
                                                 <span className="dd-trigger"/>
                                             </li>
                                             <li className="cn-dropdown-item has-down" onClick={(e) => toggleSubMenu(2, e)}>
-                                                <a href="/#">BAN NGÀNH</a>
+                                                <a href="/#">{t("header.dropdownMenuThree.dropdownHeading")}</a>
                                                 <ul className="dropdown">
-                                                <li><a href="/Org">Sơ Đồ Tổ Chức</a></li>
-                                                    <li><a href="/departments/KCS">Khối Cơ Sở</a></li>
-                                                    <li><a href="/departments/KDS">Khối Đời Sống</a></li>
-                                                    <li className="KGD"><a href="http://giaoly.hvmatl.org/">Khối Giáo Dục</a>
+                                                <li><a href="/Org">{t("header.dropdownMenuThree.itemOne")}</a></li>
+                                                    <li><a href="/departments/KCS">{t("header.dropdownMenuThree.itemTwo")}</a></li>
+                                                    <li><a href="/departments/KDS">{t("header.dropdownMenuThree.itemThree")}</a></li>
+                                                    <li className="KGD"><a href="http://giaoly.hvmatl.org/">{t("header.dropdownMenuThree.itemFour")}</a>
                                                         <ul>
                                                             <li>
-                                                                <a href='http://giaoly.hvmatl.org'>Giáo Lý</a>
+                                                                <a href='http://giaoly.hvmatl.org'>{t("header.dropdownMenuThree.subItemOne")}</a>
                                                             </li>
                                                             <li>
-                                                                <a href="/VietHong"><i>Việt Ngữ</i></a>
+                                                                <a href="/VietHong"><i>{t("header.dropdownMenuThree.subItemTwo")}</i></a>
                                                             </li>
                                                         </ul>
                                                     </li>
-                                                    <li><a href="/departments/KHC">Khối Hành Chánh</a></li>
-                                                    <li><a href="/departments/KPT">Khối Phụng Tự</a></li>
-                                                    <li><a href="/departments/KTG">Khối Truyền Giáo</a></li>
-                                                    <li><a href="/departments/KQT">Khối Quản Trị</a></li>
-                                                    <li><a href="/departments/KGQ">Khối Gây Quỹ</a></li>
+                                                    <li><a href="/departments/KHC">{t("header.dropdownMenuThree.itemFive")}</a></li>
+                                                    <li><a href="/departments/KPT">{t("header.dropdownMenuThree.itemSix")}</a></li>
+                                                    <li><a href="/departments/KTG">{t("header.dropdownMenuThree.itemSeven")}</a></li>
+                                                    <li><a href="/departments/KQT">{t("header.dropdownMenuThree.itemEight")}</a></li>
+                                                    <li><a href="/departments/KGQ">{t("header.dropdownMenuThree.itemNine")}</a></li>
                                                 </ul>
                                                 <span className="dd-trigger"></span>
                                             </li>
@@ -284,7 +285,7 @@ const Header = (prop) => {
                                                 </ul>
                                                 <span className="dd-trigger"/>
                                             </li>
-                                            <li><a href="/contact">LIÊN HỆ</a></li>
+                                            <li><a href="/contact">{t("header.dropdownMenuFive.dropdownHeading")}</a></li>
                                         </ul>
                                         <a href="https://giving.parishsoft.com/App/Giving/holy4545250" className="crose-btn header-btn" onClick={(e) => displayModal(e, "Huong dan Donation", "img/core-img/donation_instruction.jpg")}><i className="fas fa-donate"/>  DONATION</a>
                                     </div>

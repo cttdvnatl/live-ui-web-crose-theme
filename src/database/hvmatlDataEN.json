@@ -22,7 +22,24 @@
             "itemOne": "Parish Activities",
             "itemTwo": "Calender 2020",
             "itemThree": "Fall Festival",
-            "itemFour": "TNTT Tôma Thiện"
+            "itemFour": "Parish Youth Org."
+        },
+        "dropdownMenuThree": {
+            "dropdownHeading": "Departments",
+            "itemOne": "Organization Chart",
+            "itemTwo": "Building Maintenance",
+            "itemThree": "Religious Life",
+            "itemFour": "Education",
+            "subItemOne": "Bible School",
+            "subItemTwo": "Vietnamese School",
+            "itemFive": "Administration",
+            "itemSix": "Eucharistic",
+            "itemSeven": "Khối Truyền Giáo",
+            "itemEight": "Khối Quản Trị",
+            "itemNine": "Fundraising"
+        },
+        "dropdownMenuFive": {
+            "dropdownHeading": "Contact"
         }
     }
 }

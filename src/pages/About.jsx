@@ -9,7 +9,7 @@ const About = () => {
         <>
             <Header/>
             <div className="about-us-area about-page section-padding-100">
-                <div className="container">{t('history.pageTitle')}
+                <div className="container">
                     <h2 className="section-heading">{t('about.pageTitle')}</h2>
                     <div className="row align-items-center justify-content-between">
                         <div className="col-12 col-lg-6">

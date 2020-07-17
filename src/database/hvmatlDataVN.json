@@ -23,6 +23,23 @@
             "itemTwo": "Lịch 2020",
             "itemThree": "Hội Chợ Mùa Thu",
             "itemFour": "TNTT Tôma Thiện"
+        },
+        "dropdownMenuThree": {
+            "dropdownHeading": "BAN NGÀNH",
+            "itemOne": "Sơ Đồ Tổ Chức",
+            "itemTwo": "Khối Cơ Sở",
+            "itemThree": "Khối Đời Sống",
+            "itemFour": "Khối Giáo Dục",
+            "subItemOne": "Giáo Lý",
+            "subItemTwo": "Việt Ngữ",
+            "itemFive": "Khối Hành Chánh",
+            "itemSix": "Khối Phụng Tự",
+            "itemSeven": "Khối Truyền Giáo",
+            "itemEight": "Khối Quản Trị",
+            "itemNine": "Khối Gây Quỹ"
+        },
+        "dropdownMenuFive": {
+            "dropdownHeading": "LIÊN HỆ"
         }
     }
 }
