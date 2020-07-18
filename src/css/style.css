@@ -2123,12 +2123,18 @@ div#translation-button {
 div#translation-button #en {
   color: blue;
   margin-left: 7px;
-  padding: 2px;
+  padding-left: 3px;
+  padding-right: 3px;
+  border: 1px black solid;
+  border-radius: 5px 5px 5px 5px;
 }
 
 div#translation-button #vn {
   color: red;
-  padding: 2px;
+  padding-left: 3px;
+  padding-right: 3px;
+  border: 1px black solid;
+  border-radius: 5px 5px 5px 5px;
 }
 
 a#cookies {
