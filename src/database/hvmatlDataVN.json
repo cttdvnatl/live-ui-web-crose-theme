@@ -38,6 +38,15 @@
             "itemEight": "Khối Quản Trị",
             "itemNine": "Khối Gây Quỹ"
         },
+        "dropdownMenuFour": {
+            "dropdownHeading": "Thư Viện",
+            "itemOne": "Thông Tin Mục Vụ",
+            "itemTwo": "Các Bài Viết",
+            "itemThree": "Giáo Lý",
+            "itemFour": "Thư Viện Hình Ảnh",
+            "itemFive": "Đơn Từ",
+            "itemSix": "Xin Lễ"
+        },
         "dropdownMenuFive": {
             "dropdownHeading": "LIÊN HỆ"
         }

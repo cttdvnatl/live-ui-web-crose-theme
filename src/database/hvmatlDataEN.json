@@ -38,6 +38,15 @@
             "itemEight": "Khối Quản Trị",
             "itemNine": "Fundraising"
         },
+        "dropdownMenuFour": {
+            "dropdownHeading": "Resources",
+            "itemOne": "Pastoral News",
+            "itemTwo": "Letters",
+            "itemThree": "Doctrine",
+            "itemFour": "Gallery",
+            "itemFive": "Forms",
+            "itemSix": "Prayer Request"
+        },
         "dropdownMenuFive": {
             "dropdownHeading": "Contact"
         }

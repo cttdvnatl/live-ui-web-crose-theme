@@ -274,14 +274,14 @@ const Header = (prop) => {
                                                 <span className="dd-trigger"></span>
                                             </li>
                                             <li className="cn-dropdown-item has-down" onClick={(e) => toggleSubMenu(3, e)}>
-                                                <a href="/#">Thư Viện</a>
+                                                <a href="/#">{t("header.dropdownMenuFour.dropdownHeading")}</a>
                                                 <ul className="dropdown">
-                                                    <li><a href="/weeklyNews">Thông Tin Mục Vụ</a></li>
-                                                    <li><a href="/Articles">Các Bài Viết</a></li>
-                                                    <li><a href="/catholic_teaching">Giáo Lý</a></li>
-                                                    <li><a href="/photos">Thư Viện Hình Ảnh</a></li>
-                                                    <li><a href="/forms">Đơn Từ</a></li>
-                                                    <li><a href="/PrayerRequest">Prayer Request</a></li>
+                                                    <li><a href="/weeklyNews">{t("header.dropdownMenuFour.itemOne")}</a></li>
+                                                    <li><a href="/Articles">{t("header.dropdownMenuFour.itemTwo")}</a></li>
+                                                    <li><a href="/catholic_teaching">{t("header.dropdownMenuFour.itemThree")}</a></li>
+                                                    <li><a href="/photos">{t("header.dropdownMenuFour.itemFour")}</a></li>
+                                                    <li><a href="/forms">{t("header.dropdownMenuFour.itemFive")}</a></li>
+                                                    <li><a href="/PrayerRequest">{t("header.dropdownMenuFour.itemSix")}</a></li>
                                                 </ul>
                                                 <span className="dd-trigger"/>
                                             </li>

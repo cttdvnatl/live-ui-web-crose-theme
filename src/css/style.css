@@ -2147,6 +2147,14 @@ div#translation-button #en:active {
   background-color: #cccccc;
 }
 
+div#translation-button #vn:hover {
+  background-color: #e6e6e6;
+}
+
+div#translation-button #vn:active {
+  background-color: #cccccc;
+}
+
 a#cookies {
   color: #c92f2f;
 }
