@@ -2127,6 +2127,7 @@ div#translation-button #en {
   padding-right: 3px;
   border: 1px black solid;
   border-radius: 5px 5px 5px 5px;
+  background-color: white;
 }
 
 div#translation-button #vn {
@@ -2135,6 +2136,15 @@ div#translation-button #vn {
   padding-right: 3px;
   border: 1px black solid;
   border-radius: 5px 5px 5px 5px;
+  background-color: white;
+}
+
+div#translation-button #en:hover {
+  background-color: #e6e6e6;
+}
+
+div#translation-button #en:active {
+  background-color: #cccccc;
 }
 
 a#cookies {
