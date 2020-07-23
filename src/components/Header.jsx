@@ -287,7 +287,7 @@ const Header = (prop) => {
                                             </li>
                                             <li><a href="/contact">{t("header.dropdownMenuFive.dropdownHeading")}</a></li>
                                         </ul>
-                                        <a href="https://giving.parishsoft.com/App/Giving/holy4545250" className="crose-btn header-btn" onClick={(e) => displayModal(e, "Huong dan Donation", "img/core-img/donation_instruction.jpg")}><i className="fas fa-donate"/>  DONATION</a>
+                                        <a href="https://giving.parishsoft.com/App/Giving/holy4545250" className="crose-btn header-btn" onClick={(e) => displayModal(e, "Huong dan Donation", "img/core-img/donation_instruction.jpg")}><i className="fas fa-donate"/>  {t("header.donation")}</a>
                                     </div>
                                 </div>
                             </nav>
