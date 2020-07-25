@@ -23,6 +23,27 @@ const articleContent =
 [
   {
     "Section": "Các Bài Viết",
+    "date": "2020-07-19",
+    "image": "https://cttdvnatl.net/gallery/img/articles/article-logo.png",
+    "title": "Chào Mừng Cha Phó Đaminh Trần Công Thơ",
+    "body":
+    `Mùa Hè trong giáo hội Hoa Kỳ là mùa thuyên chuyển các linh mục theo nhu cầu của các giáo phận hoặc tác nhân yêu cầu. Năm 2020 này, các linh mục Việt Nam tại TGP Atlanta sẽ được thuyên chuyển gồm có: Cha Giuse Nguyễn Thanh Liêm là cha sở giáo xứ St. James, Cha Giuse Phạm Tân  là cha phó giáo xứ Đức Mẹ Việt Nam, và Cha Đa Minh Trần Công Thơ là cha phó giáo xứ CTTĐVN chúng ta.
+    Giáo xứ hân hoan chào đón cha Đaminh Trần Công Thơ về giúp chúng ta. Nhân dịp này, tôi cũng xin chia sẻ sơ lược mấy điểm về Cha Phó. 
+    Trước tiên, Giáo Hội nói gì về cha phó. Theo bộ giáo luật 1983, quyển 2 nói về dân Thiên Chúa, đã dành chương 6 để nói về các giáo xứ, các cha sở và các cha phó. Trong đó có 34 điều luật nói về các cha sở và các cha phó. Từ điều 519- 544 nói về các cha sở và từ điều 545-552 nói về các cha phó. Tôi chỉ xin tóm lược mấy điểm về cha phó như sau:
+    a. Trách vụ của cha phó là: phó cho cha quản xứ, phó cho giáo xứ. Nói cách khác, các cha phó được bổ nhiệm để giúp cho cha sở vì ngài không thể chu toàn hết các công việc của giáo xứ được. Như vậy, Cha phó là cộng sự viên của cha sở, để san sẻ mọi nỗi lo âu với cha sở, đồng tâm nhất trí để thi hành nhiệm vụ mục vụ trong giáo xứ. Chính vì thế, cha sở và cha phó cùng hợp lực với nhau để thi hành mục vụ cho giáo xứ mà họ cùng lãnh trách nhiệm.
+    b. Về thời hạn, cha phó cũng phải được Đức Giám Mục giáo phận bổ nhiệm tuỳ theo thời hạn và nhu cầu của giáo xứ cũng như giáo phận. Thông thường, khi bổ nhiệm cha phó, Đức Giám Mục nên bàn hỏi ý kiến với cha sở mà cha phó được đề cử tới và cả với cha quản hạt nữa.
+    Kế đến, xin được giới thiệu đôi chút về cha phó mới của chúng ta. Cha Đaminh Trần Công Thơ sinh ngày 28 tháng 6 năm 1973;  Đến Hoa Kỳ năm 1997; Tu học tại Chủng viện Ngôi Lời từ 2000-2005 và Đại chủng viện St. Vincent từ 2005-2009;  Chịu chức linh mục ngày 27 tháng 6 năm 2009 tại TGP Atlanta. Sau khi chịu chức được bổ nhiệm làm cha phó của giáo xứ Transfigurationtại Marietta (2 năm),  Giáo Xứ St. Michael tại Gainesville (2 năm),  Giáo xứ Sacred Heart tại Hartwell (2 năm),  rồi Giáo xứ Đức Mẹ Việt Nam tại Riverdale (4 năm), và hiện nay tại giáo xứ chúng ta. Cha Đaminh là một trong những linh mục từ giáo xứ Các Thánh Tử Đạo Việt Nam. Ngài cũng có gia đình người chị và gia dình người em gái là thành viên tại giáo xứ chúng ta.
+     
+    Chúng ta cùng tạ ơn Thiên Chúa và Đức TGM Gregory Hartmayer, qua tình phụ tử đầy yêu thương, đã ban cho chúng ta các mục tử để yêu thương, chăm sóc và thăng tiến đời sống cộng đoàn đức tin của đoàn chiên Chúa tại giáo xứ này!
+    Giáo xứ hân hoan chào mừng cha Đaminh Trần Công Thơ về phục vụ tại ‘xứ nhà’. Mong rằng cha luôn hiền hòa, bình an, và nhiệt thành phục vụ để đem tình thương và ân sủng của Thiên Chúa đển cho mọi người.
+     
+    Thân mến,
+    Lm Chánh Xứ
+    Phanxicô Trần Quốc Tuấn.
+    `
+  },
+  {
+    "Section": "Các Bài Viết",
     "date": "2020-07-05",
     "image": "https://cttdvnatl.net/gallery/img/articles/article-2020-07-05.png",
     "title": "Đôi Điều Chia Sẻ",
