@@ -3,12 +3,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import historyContent from '../database/history-content';
 import History from '../components/History';
-import { setLanguage, useTranslation, setTranslations, setDefaultLanguage } from 'react-multi-lang';
-import vn from '../database/hvmatlDataVN.json';
-import en from '../database/hvmatlDataEN.json';
-
-setTranslations({vn, en})
-setDefaultLanguage('vn')
+import { useTranslation } from 'react-multi-lang';
 
 const history = historyContent;
 
@@ -17,10 +12,6 @@ const HistoryPage = () => {
     return (
     <>
         <Header />
-        <div id="translation-button">
-                    <button onClick={() => setLanguage('vn')}>VN</button>
-                    <button onClick={() => setLanguage('en')}>EN</button>                
-        </div>
             <h3 style={{textAlign : 'center'}} className="history">{t("history.pageTitle")}<br></br> {t("history.pageTitleContinued")} &#8211; Atlanta Georgia</h3>
             <section className="" id="timeline">
             <History list={history} />

@@ -7,5 +7,49 @@
     "history": {
         "pageTitle": "Our History",
         "pageTitleContinued": "Holy Vietnamese Martyr's Catholic Church"
+    },
+    "header": {
+        "dropdownMenuOne": {
+            "dropdownHeading": "Parish",
+            "itemOne": "Homepage",
+            "itemTwo": "About",
+            "itemThree": "History",
+            "itemFour": "Clergy",
+            "itemFive": "Staff"
+        },
+        "dropdownMenuTwo": {
+            "dropdownHeading": "News and Events",
+            "itemOne": "Parish Activities",
+            "itemTwo": "Calender 2020",
+            "itemThree": "Fall Festival",
+            "itemFour": "Parish Youth Org."
+        },
+        "dropdownMenuThree": {
+            "dropdownHeading": "Departments",
+            "itemOne": "Org. Chart",
+            "itemTwo": "Maintenance",
+            "itemThree": "Religious Life",
+            "itemFour": "Education",
+            "subItemOne": "Bible",
+            "subItemTwo": "Vietnamese",
+            "itemFive": "Administration",
+            "itemSix": "Eucharistic",
+            "itemSeven": "Khối Truyền Giáo",
+            "itemEight": "Khối Quản Trị",
+            "itemNine": "Fundraising"
+        },
+        "dropdownMenuFour": {
+            "dropdownHeading": "Resources",
+            "itemOne": "Pastoral News",
+            "itemTwo": "Letters",
+            "itemThree": "Doctrine",
+            "itemFour": "Gallery",
+            "itemFive": "Forms",
+            "itemSix": "Prayer Request"
+        },
+        "dropdownMenuFive": {
+            "dropdownHeading": "Contact"
+        },
+        "donation": "Donations"
     }
 }

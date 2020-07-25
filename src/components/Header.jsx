@@ -1,4 +1,5 @@
 import React, {useEffect, useState, useRef, useCallback} from 'react';
+import { setLanguage, getLanguage, useTranslation } from 'react-multi-lang';
 import axios from 'axios';
 import EmergencyEvent from "./EmergencyNotice";
 import PopupModal from "./PopupModal";
@@ -169,7 +170,20 @@ const Header = (prop) => {
         setShow(false);
         setContent({});
     };
+//Set Language and Cookie
+    function setLangCookie() {
+        document.cookie = "language = " + getLanguage();
+    }
+    function setLanguageVN() {
+        setLanguage('vn');
+        setLangCookie('vn');
+    }
+    function setLanguageEN() {
+        setLanguage('en');
+        setLangCookie('en');
+    }
 
+    const t = useTranslation();
     //JSX represent the header element
     return (
         <header className="header-area">
@@ -184,6 +198,10 @@ const Header = (prop) => {
                                         <a href="https://www.facebook.com/cttdvn" aria-label="facebook"><i className="fab fa-facebook" ref={facebook}></i></a>
                                         <a href="https://www.youtube.com/thanhtudaovietnam" aria-label="youtube"><i className="fab fa-youtube" ref={youtube}></i></a>
                                         <a href="https://twitter.com/thanhtudaovn" aria-label="twitter"><i className="fab fa-twitter" ref={twitter}></i></a>
+                                    </div>
+                                    <div id="translation-button">
+                                        <button id="vn" onClick={() => setLanguageVN()}>VN</button>
+                                        <button id="en" onClick={() => setLanguageEN()}>EN</button>                
                                     </div>
                                 </div>
                                 <div className="top-header-meta">
@@ -212,64 +230,64 @@ const Header = (prop) => {
                                     </div>
                                     <div className="classynav">
                                         <ul ref={navbarItem}>
-                                            <li className="cn-dropdown-item has-down" onClick={(e) => toggleSubMenu(0, e)}><a href="/#">GIÁO XỨ</a>
+                                            <li className="cn-dropdown-item has-down" onClick={(e) => toggleSubMenu(0, e)}><a href="/#">{t("header.dropdownMenuOne.dropdownHeading")}</a>
                                                 <ul className="dropdown">
-                                                    <li><a href="/">Trang Chủ</a></li>
-                                                    <li><a href="/about">Sứ Mệnh Giáo Xứ</a></li>
-                                                    <li><a href="/history">Lịch Sử Giáo Xứ</a></li>
-                                                    <li><a href="/clergy-list">Linh Mục/Tu Sĩ</a></li>
-                                                    <li><a href="/staff">Qúy Chức</a></li>
+                                                    <li><a href="/">{t("header.dropdownMenuOne.itemOne")}</a></li>
+                                                    <li><a href="/about">{t("header.dropdownMenuOne.itemTwo")}</a></li>
+                                                    <li><a href="/history">{t("header.dropdownMenuOne.itemThree")}</a></li>
+                                                    <li><a href="/clergy-list">{t("header.dropdownMenuOne.itemFour")}</a></li>
+                                                    <li><a href="/staff">{t("header.dropdownMenuOne.itemFive")}</a></li>
                                                 </ul>
                                                 <span className="dd-trigger"/>
                                             </li>
-                                            <li className="cn-dropdown-item has-down" onClick={(e) => toggleSubMenu(1, e)}><a href="/#">TIN TỨC/SỰ KIỆN</a>
+                                            <li className="cn-dropdown-item has-down" onClick={(e) => toggleSubMenu(1, e)}><a href="/#">{t("header.dropdownMenuTwo.dropdownHeading")}</a>
                                                 <ul className="dropdown">
-                                                    <li><a href="/activities">Sinh Hoạt Giáo Xứ</a></li>
-                                                    <li><a href="/printed-calendar">Lịch 2020</a></li>
-                                                    <li><a href="/fall-fest">Hội Chợ Mùa Thu</a></li>
-                                                    <li><a href="/thieu-nhi">TNTT Tôma Thiện</a></li>
+                                                    <li><a href="/activities">{t("header.dropdownMenuTwo.itemOne")}</a></li>
+                                                    <li><a href="/printed-calendar">{t("header.dropdownMenuTwo.itemTwo")}</a></li>
+                                                    <li><a href="/fall-fest">{t("header.dropdownMenuTwo.itemThree")}</a></li>
+                                                    <li><a href="/thieu-nhi">{t("header.dropdownMenuTwo.itemFour")}</a></li>
                                                 </ul>
                                                 <span className="dd-trigger"/>
                                             </li>
                                             <li className="cn-dropdown-item has-down" onClick={(e) => toggleSubMenu(2, e)}>
-                                                <a href="/#">BAN NGÀNH</a>
+                                                <a href="/#">{t("header.dropdownMenuThree.dropdownHeading")}</a>
                                                 <ul className="dropdown">
-                                                <li><a href="/Org">Sơ Đồ Tổ Chức</a></li>
-                                                    <li><a href="/departments/KCS">Khối Cơ Sở</a></li>
-                                                    <li><a href="/departments/KDS">Khối Đời Sống</a></li>
-                                                    <li className="KGD"><a href="http://giaoly.hvmatl.org/">Khối Giáo Dục</a>
+                                                <li><a href="/Org">{t("header.dropdownMenuThree.itemOne")}</a></li>
+                                                    <li><a href="/departments/KCS">{t("header.dropdownMenuThree.itemTwo")}</a></li>
+                                                    <li><a href="/departments/KDS">{t("header.dropdownMenuThree.itemThree")}</a></li>
+                                                    <li className="KGD"><a href="http://giaoly.hvmatl.org/">{t("header.dropdownMenuThree.itemFour")}</a>
                                                         <ul>
                                                             <li>
-                                                                <a href='http://giaoly.hvmatl.org'>Giáo Lý</a>
+                                                                <a href='http://giaoly.hvmatl.org'>{t("header.dropdownMenuThree.subItemOne")}</a>
                                                             </li>
                                                             <li>
-                                                                <a href="/VietHong"><i>Việt Ngữ</i></a>
+                                                                <a href="/VietHong"><i>{t("header.dropdownMenuThree.subItemTwo")}</i></a>
                                                             </li>
                                                         </ul>
                                                     </li>
-                                                    <li><a href="/departments/KHC">Khối Hành Chánh</a></li>
-                                                    <li><a href="/departments/KPT">Khối Phụng Tự</a></li>
-                                                    <li><a href="/departments/KTG">Khối Truyền Giáo</a></li>
-                                                    <li><a href="/departments/KQT">Khối Quản Trị</a></li>
-                                                    <li><a href="/departments/KGQ">Khối Gây Quỹ</a></li>
+                                                    <li><a href="/departments/KHC">{t("header.dropdownMenuThree.itemFive")}</a></li>
+                                                    <li><a href="/departments/KPT">{t("header.dropdownMenuThree.itemSix")}</a></li>
+                                                    <li><a href="/departments/KTG">{t("header.dropdownMenuThree.itemSeven")}</a></li>
+                                                    <li><a href="/departments/KQT">{t("header.dropdownMenuThree.itemEight")}</a></li>
+                                                    <li><a href="/departments/KGQ">{t("header.dropdownMenuThree.itemNine")}</a></li>
                                                 </ul>
                                                 <span className="dd-trigger"></span>
                                             </li>
                                             <li className="cn-dropdown-item has-down" onClick={(e) => toggleSubMenu(3, e)}>
-                                                <a href="/#">Thư Viện</a>
+                                                <a href="/#">{t("header.dropdownMenuFour.dropdownHeading")}</a>
                                                 <ul className="dropdown">
-                                                    <li><a href="/weeklyNews">Thông Tin Mục Vụ</a></li>
-                                                    <li><a href="/Articles">Các Bài Viết</a></li>
-                                                    <li><a href="/catholic_teaching">Giáo Lý</a></li>
-                                                    <li><a href="/photos">Thư Viện Hình Ảnh</a></li>
-                                                    <li><a href="/forms">Đơn Từ</a></li>
-                                                    <li><a href="/PrayerRequest">Prayer Request</a></li>
+                                                    <li><a href="/weeklyNews">{t("header.dropdownMenuFour.itemOne")}</a></li>
+                                                    <li><a href="/Articles">{t("header.dropdownMenuFour.itemTwo")}</a></li>
+                                                    <li><a href="/catholic_teaching">{t("header.dropdownMenuFour.itemThree")}</a></li>
+                                                    <li><a href="/photos">{t("header.dropdownMenuFour.itemFour")}</a></li>
+                                                    <li><a href="/forms">{t("header.dropdownMenuFour.itemFive")}</a></li>
+                                                    <li><a href="/PrayerRequest">{t("header.dropdownMenuFour.itemSix")}</a></li>
                                                 </ul>
                                                 <span className="dd-trigger"/>
                                             </li>
-                                            <li><a href="/contact">LIÊN HỆ</a></li>
+                                            <li><a href="/contact">{t("header.dropdownMenuFive.dropdownHeading")}</a></li>
                                         </ul>
-                                        <a href="https://giving.parishsoft.com/App/Giving/holy4545250" className="crose-btn header-btn" onClick={(e) => displayModal(e, "Huong dan Donation", "img/core-img/donation_instruction.jpg")}><i className="fas fa-donate"/>  DONATION</a>
+                                        <a href="https://giving.parishsoft.com/App/Giving/holy4545250" className="crose-btn header-btn" onClick={(e) => displayModal(e, "Huong dan Donation", "img/core-img/donation_instruction.jpg")}><i className="fas fa-donate"/>  {t("header.donation")}</a>
                                     </div>
                                 </div>
                             </nav>

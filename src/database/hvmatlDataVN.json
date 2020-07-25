@@ -7,5 +7,49 @@
     "history": {
         "pageTitle": "Quá Trình Thành Lập",
         "pageTitleContinued": "Giáo Xứ Các Thánh Tử Đạo Việt Nam"
+    },
+    "header": {
+        "dropdownMenuOne": {
+            "dropdownHeading": "GIÁO XỨ",
+            "itemOne": "Trang Chủ",
+            "itemTwo": "Sứ Mệnh Giáo Xứ",
+            "itemThree": "Lịch Sử Giáo Xứ",
+            "itemFour": "Linh Mục/Tu Sĩ",
+            "itemFive": "Qúy Chức"
+        },
+        "dropdownMenuTwo": {
+            "dropdownHeading": "TIN TỨC/SỰ KIỆN",
+            "itemOne": "Sinh Hoạt Giáo Xứ",
+            "itemTwo": "Lịch 2020",
+            "itemThree": "Hội Chợ Mùa Thu",
+            "itemFour": "TNTT Tôma Thiện"
+        },
+        "dropdownMenuThree": {
+            "dropdownHeading": "BAN NGÀNH",
+            "itemOne": "Sơ Đồ Tổ Chức",
+            "itemTwo": "Khối Cơ Sở",
+            "itemThree": "Khối Đời Sống",
+            "itemFour": "Khối Giáo Dục",
+            "subItemOne": "Giáo Lý",
+            "subItemTwo": "Việt Ngữ",
+            "itemFive": "Khối Hành Chánh",
+            "itemSix": "Khối Phụng Tự",
+            "itemSeven": "Khối Truyền Giáo",
+            "itemEight": "Khối Quản Trị",
+            "itemNine": "Khối Gây Quỹ"
+        },
+        "dropdownMenuFour": {
+            "dropdownHeading": "Thư Viện",
+            "itemOne": "Thông Tin Mục Vụ",
+            "itemTwo": "Các Bài Viết",
+            "itemThree": "Giáo Lý",
+            "itemFour": "Thư Viện Hình Ảnh",
+            "itemFive": "Đơn Từ",
+            "itemSix": "Xin Lễ"
+        },
+        "dropdownMenuFive": {
+            "dropdownHeading": "LIÊN HỆ"
+        },
+        "donation": "Dâng Hiến"
     }
 }
