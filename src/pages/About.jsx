@@ -4,7 +4,6 @@ import Footer from '../components/Footer';
 import { useTranslation } from 'react-multi-lang';
 
 const About = () => {
-    //a comment
     const t = useTranslation()
     return (
         <>
