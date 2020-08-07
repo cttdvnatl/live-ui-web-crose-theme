@@ -20,7 +20,7 @@ const VietHongDocumentsPage = () => (
     </div>
         </div>
     </div>
-   
+   <br/>
     <Footer/>
     </>
 );
