@@ -4,8 +4,7 @@ const DisplayDocuments = ({list}) => (
     <>  
     {list.map((Documents) => (
         <>
-            <h3>{Documents.description} <a href={Documents.downloadFile} download>{Documents.fileName}</a></h3>
-            <br/>
+            <h5>{Documents.description} <a href={Documents.downloadFile} download>{Documents.fileName}</a></h5>
         </>
     ))}
     </>

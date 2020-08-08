@@ -1,12 +1,9 @@
 import React, {useEffect, useState, useRef, useCallback} from 'react';
 import { setLanguage, getLanguage, useTranslation } from 'react-multi-lang';
-import axios from 'axios';
 import EmergencyEvent from "./EmergencyNotice";
 import PopupModal from "./PopupModal";
 
 const Header = (prop) => {
-    const [getTemp, setTemp] = useState(0);
-    const [getTime, setTime] = useState("00:00 AM");
     const [logo, setLogo] = useState("");
     //Element references
     const navbarToggler = useRef(null);
@@ -15,10 +12,6 @@ const Header = (prop) => {
     // const stickyWrapper = useRef(null);
     const navbarClose = useRef(null);
     const navbarItem = useRef(null);
-    const navbarTime = useRef(null);
-    const navbarTemp = useRef(null);
-    const temperature = useRef(null);
-    const time = useRef(null);
     const massSchedule = useRef(null);
     const email = useRef(null);
     const phone = useRef(null);
@@ -30,47 +23,8 @@ const Header = (prop) => {
     const [show, setShow] = useState(false);
     const [content, setContent] = useState({});
 
-    //Init the current temperature
-    useEffect(() => {
-        if(sessionStorage.getItem('temp'))
-            setTemp(sessionStorage.getItem('temp'));
-        else {    
-            navigator.geolocation.watchPosition((pos) => {
-                axios({
-                    url:"https://api.openweathermap.org/data/2.5/weather",
-                    method: 'get',
-                    params: {
-                        lat: pos.coords.latitude,
-                        lon: pos.coords.longitude,
-                        appid: 'a1f8ea13ceb084b2fc8527fa54ffa3c3',
-                        units:'imperial'
-                    },
-                }).then(result => {
-                    const temp = Math.round(result.data.main.temp);
-                    sessionStorage.setItem('temp', temp);
-                    setTemp(temp);
-                });
-            })
-        }
-    }, []);
-
-    //Get current time
-    const setTimeCallback = useCallback(() => {
-        if(window.innerWidth < 1450) {
-            setTime(new Date().toLocaleTimeString('en-US', {hc:'h12', hour:'numeric', minute:'numeric'}));
-            time.current.classList.remove('fa-lg');
-            temperature.current.classList.remove('fa-lg');
-        }
-        else {
-            setTime(new Date().toLocaleDateString('en-US', {hc:'h12', hour:'numeric', minute:'numeric', weekday: 'short', year: 'numeric', month: 'long', day: 'numeric'}));
-            time.current.classList.add('fa-lg');
-            temperature.current.classList.add('fa-lg');
-        }
-    }, []);
-
     //Modify styling when the window size is changing
     const resizeCallback = useCallback(() => {
-        setTimeCallback();
         if(window.innerWidth < 1450) {
             massSchedule.current.classList.remove('fa-lg');
             email.current.classList.remove('fa-lg');
@@ -91,7 +45,7 @@ const Header = (prop) => {
             youtube.current.classList.add('fa-lg');
         }
         setLogo(window.innerWidth < 400 ? "../img/core-img/Logo1.png" : "../img/core-img/gxlogo.png");
-    }, [setTimeCallback, setLogo]);
+    }, [setLogo]);
     //Modify styling when the window is scrolled
     const scrollCallback = useCallback(() => {
         const sticky = mainMenu.current.offsetTop;
@@ -101,9 +55,8 @@ const Header = (prop) => {
         } else {
         //   stickyWrapper.current.classList.remove("is-sticky");
           mainMenu.current.classList.remove("is-sticky");
-          setTimeCallback();
       }
-    }, [setTimeCallback]);
+    }, []);
 
     const activateSidebar = () => {
         if(window.innerWidth < 1450) {
@@ -141,7 +94,6 @@ const Header = (prop) => {
     //Add event handler after the element is rendered
     useEffect(() => {
         //Call all the callbacks to setup initial value after the element is mounted
-        setTimeCallback();
         resizeCallback();
         window.addEventListener("resize", resizeCallback);
         window.addEventListener("scroll", scrollCallback);
@@ -150,7 +102,7 @@ const Header = (prop) => {
             window.removeEventListener("scroll", scrollCallback);
             window.removeEventListener("resize", resizeCallback);
         };
-      }, [setTimeCallback, resizeCallback, scrollCallback]);
+      }, [resizeCallback, scrollCallback]);
 
     const displayModal = (e, title, content) => {
         if(!sessionStorage.hasOwnProperty('showDonationInst') || sessionStorage.getItem('showDonationInst') ==='true') {
@@ -193,15 +145,16 @@ const Header = (prop) => {
                         <div className="col-12 col-md-12 col-sm-12">
                             <div className="top-header-content d-flex flex-wrap align-items-center justify-content-between">
                                 <div className="top-header-meta d-flex flex-wrap">
-                                    <div><i className="fas fa-clock time" aria-hidden="true" ref={time}/><span ref={navbarTime}>{getTime}</span><i className="fas fa-thermometer-half temperature" ref={temperature} aria-hidden="true"></i><span ref={navbarTemp}>{getTemp} &#176;F</span></div>
+                                    <div>
+                                        <div id="translation-button">
+                                            <button id="vn" onClick={() => setLanguageVN()}>VN</button>
+                                            <button id="en" onClick={() => setLanguageEN()}>EN</button>                
+                                        </div>
+                                    </div>
                                     <div className="top-social-info">
                                         <a href="https://www.facebook.com/cttdvn" aria-label="facebook"><i className="fab fa-facebook" ref={facebook}></i></a>
                                         <a href="https://www.youtube.com/thanhtudaovietnam" aria-label="youtube"><i className="fab fa-youtube" ref={youtube}></i></a>
                                         <a href="https://twitter.com/thanhtudaovn" aria-label="twitter"><i className="fab fa-twitter" ref={twitter}></i></a>
-                                    </div>
-                                    <div id="translation-button">
-                                        <button id="vn" onClick={() => setLanguageVN()}>VN</button>
-                                        <button id="en" onClick={() => setLanguageEN()}>EN</button>                
                                     </div>
                                 </div>
                                 <div className="top-header-meta">
@@ -232,56 +185,56 @@ const Header = (prop) => {
                                         <ul ref={navbarItem}>
                                             <li className="cn-dropdown-item has-down" onClick={(e) => toggleSubMenu(0, e)}><a href="/#">{t("header.dropdownMenuOne.dropdownHeading")}</a>
                                                 <ul className="dropdown">
-                                                    <li><a href="/">{t("header.dropdownMenuOne.itemOne")}</a></li>
-                                                    <li><a href="/about">{t("header.dropdownMenuOne.itemTwo")}</a></li>
-                                                    <li><a href="/history">{t("header.dropdownMenuOne.itemThree")}</a></li>
-                                                    <li><a href="/clergy-list">{t("header.dropdownMenuOne.itemFour")}</a></li>
-                                                    <li><a href="/staff">{t("header.dropdownMenuOne.itemFive")}</a></li>
+                                                    <li><a href="/">{t("header.dropdownMenuOne.item1")}</a></li>
+                                                    <li><a href="/about">{t("header.dropdownMenuOne.item2")}</a></li>
+                                                    <li><a href="/history">{t("header.dropdownMenuOne.item3")}</a></li>
+                                                    <li><a href="/clergy-list">{t("header.dropdownMenuOne.item4")}</a></li>
+                                                    <li><a href="/staff">{t("header.dropdownMenuOne.item5")}</a></li>
                                                 </ul>
                                                 <span className="dd-trigger"/>
                                             </li>
                                             <li className="cn-dropdown-item has-down" onClick={(e) => toggleSubMenu(1, e)}><a href="/#">{t("header.dropdownMenuTwo.dropdownHeading")}</a>
                                                 <ul className="dropdown">
-                                                    <li><a href="/activities">{t("header.dropdownMenuTwo.itemOne")}</a></li>
-                                                    <li><a href="/printed-calendar">{t("header.dropdownMenuTwo.itemTwo")}</a></li>
-                                                    <li><a href="/fall-fest">{t("header.dropdownMenuTwo.itemThree")}</a></li>
-                                                    <li><a href="/thieu-nhi">{t("header.dropdownMenuTwo.itemFour")}</a></li>
+                                                    <li><a href="/activities">{t("header.dropdownMenuTwo.item1")}</a></li>
+                                                    <li><a href="/printed-calendar">{t("header.dropdownMenuTwo.item2")}</a></li>
+                                                    <li><a href="/fall-fest">{t("header.dropdownMenuTwo.item3")}</a></li>
+                                                    <li><a href="/thieu-nhi">{t("header.dropdownMenuTwo.item4")}</a></li>
                                                 </ul>
                                                 <span className="dd-trigger"/>
                                             </li>
                                             <li className="cn-dropdown-item has-down" onClick={(e) => toggleSubMenu(2, e)}>
                                                 <a href="/#">{t("header.dropdownMenuThree.dropdownHeading")}</a>
                                                 <ul className="dropdown">
-                                                <li><a href="/Org">{t("header.dropdownMenuThree.itemOne")}</a></li>
-                                                    <li><a href="/departments/KCS">{t("header.dropdownMenuThree.itemTwo")}</a></li>
-                                                    <li><a href="/departments/KDS">{t("header.dropdownMenuThree.itemThree")}</a></li>
-                                                    <li className="KGD"><a href="http://giaoly.hvmatl.org/">{t("header.dropdownMenuThree.itemFour")}</a>
+                                                <li><a href="/Org">{t("header.dropdownMenuThree.item1")}</a></li>
+                                                    <li><a href="/departments/KCS">{t("header.dropdownMenuThree.item2")}</a></li>
+                                                    <li><a href="/departments/KDS">{t("header.dropdownMenuThree.item3")}</a></li>
+                                                    <li className="KGD"><a href="http://giaoly.hvmatl.org/">{t("header.dropdownMenuThree.item4")}</a>
                                                         <ul>
                                                             <li>
-                                                                <a href='http://giaoly.hvmatl.org'>{t("header.dropdownMenuThree.subItemOne")}</a>
+                                                                <a href='http://giaoly.hvmatl.org'>{t("header.dropdownMenuThree.subItem1")}</a>
                                                             </li>
                                                             <li>
-                                                                <a href="/VietHong"><i>{t("header.dropdownMenuThree.subItemTwo")}</i></a>
+                                                                <a href="/VietHong"><i>{t("header.dropdownMenuThree.subItem2")}</i></a>
                                                             </li>
                                                         </ul>
                                                     </li>
-                                                    <li><a href="/departments/KHC">{t("header.dropdownMenuThree.itemFive")}</a></li>
-                                                    <li><a href="/departments/KPT">{t("header.dropdownMenuThree.itemSix")}</a></li>
-                                                    <li><a href="/departments/KTG">{t("header.dropdownMenuThree.itemSeven")}</a></li>
-                                                    <li><a href="/departments/KQT">{t("header.dropdownMenuThree.itemEight")}</a></li>
-                                                    <li><a href="/departments/KGQ">{t("header.dropdownMenuThree.itemNine")}</a></li>
+                                                    <li><a href="/departments/KHC">{t("header.dropdownMenuThree.item5")}</a></li>
+                                                    <li><a href="/departments/KPT">{t("header.dropdownMenuThree.item6")}</a></li>
+                                                    <li><a href="/departments/KTG">{t("header.dropdownMenuThree.item7")}</a></li>
+                                                    <li><a href="/departments/KQT">{t("header.dropdownMenuThree.item8")}</a></li>
+                                                    <li><a href="/departments/KGQ">{t("header.dropdownMenuThree.item9")}</a></li>
                                                 </ul>
                                                 <span className="dd-trigger"></span>
                                             </li>
                                             <li className="cn-dropdown-item has-down" onClick={(e) => toggleSubMenu(3, e)}>
                                                 <a href="/#">{t("header.dropdownMenuFour.dropdownHeading")}</a>
                                                 <ul className="dropdown">
-                                                    <li><a href="/weeklyNews">{t("header.dropdownMenuFour.itemOne")}</a></li>
-                                                    <li><a href="/Articles">{t("header.dropdownMenuFour.itemTwo")}</a></li>
-                                                    <li><a href="/catholic_teaching">{t("header.dropdownMenuFour.itemThree")}</a></li>
-                                                    <li><a href="/photos">{t("header.dropdownMenuFour.itemFour")}</a></li>
-                                                    <li><a href="/forms">{t("header.dropdownMenuFour.itemFive")}</a></li>
-                                                    <li><a href="/PrayerRequest">{t("header.dropdownMenuFour.itemSix")}</a></li>
+                                                    <li><a href="/weeklyNews">{t("header.dropdownMenuFour.item1")}</a></li>
+                                                    <li><a href="/Articles">{t("header.dropdownMenuFour.item2")}</a></li>
+                                                    <li><a href="/catholic_teaching">{t("header.dropdownMenuFour.item3")}</a></li>
+                                                    <li><a href="/photos">{t("header.dropdownMenuFour.item4")}</a></li>
+                                                    <li><a href="/forms">{t("header.dropdownMenuFour.item5")}</a></li>
+                                                    <li><a href="/PrayerRequest">{t("header.dropdownMenuFour.item6")}</a></li>
                                                 </ul>
                                                 <span className="dd-trigger"/>
                                             </li>

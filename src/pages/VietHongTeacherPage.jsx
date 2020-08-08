@@ -6,6 +6,7 @@ import teacherContent from '../database/vietHongTeachers';
 import DisplayVolunteer from '../components/DisplayVolunteer';
 
 const mainTeachers = teacherContent.filter(mainTeachers => mainTeachers.classification === 'main-teacher');
+const mainProctors = teacherContent.filter(mainProctors => mainProctors.classification === 'main-proctor');
 const assistantTeachers = teacherContent.filter(assistantTeachers => assistantTeachers.classification === 'assistant-teacher');
 
 const VietHongTeacherPage = () => (
@@ -15,14 +16,25 @@ const VietHongTeacherPage = () => (
     <p></p>
     <div class="col-12">
         <div class="section-heading">
-            <h2><b>Các Thầy Cô Và Ban Giám Thị</b></h2>
-            <h2>*** PAGE UNDER CONSTRUCTION ***</h2>
+            <br/>
+            <h2>Thầy Cô Việt Hồng</h2>
+            <h3>Niên Học 2020-2021</h3>
         </div>
         <DisplayVolunteer list={mainTeachers} />
     </div>
-    <div className="col-12">
+    <div class="col-12">
         <div class="section-heading">
-            <h2><b>Các Em Phụ Giáo</b></h2>
+            <br/>
+            <h2>Thầy Cô Giám Thị Việt Hồng</h2>
+            <h3>Niên Học 2020-2021</h3>
+        </div>
+        <DisplayVolunteer list={mainProctors} />
+    </div>
+    <div class="col-12">
+        <div class="section-heading">
+            <br/>
+            <h2>Phụ Giáo Việt Hồng</h2>
+            <h3>Niên Học 2020-2021</h3>
         </div>
         <DisplayVolunteer list={assistantTeachers} />
     </div>

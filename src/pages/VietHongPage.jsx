@@ -10,10 +10,13 @@ const VietHong = () => {
             <Header/>
             <VietHongHeader/>
                 <div className="container-fluid text-center">
-                <p id="viet-ngu">Vì sự lây lan của coronavirus, tất cả các sinh hoạt của Trường Việt Hồng sẽ được đình chỉ.</p>
-                <p id="vn-schedule" className="center-50">Giờ Học: Thứ Bảy 10:00 am - 12:15 pm</p>
+                <br/><br/>
+                <p id="viet-ngu">Trường Việt Ngữ Việt Hồng sẽ bắt đầu niên học mới bằng "digital learning" vào ngày 12 tháng 9.
+                <br/> Trường đã và sẽ gửi thêm chi tiết về học online đến quý phụ huynh vào những tuần sắp đến.</p>
+                <br/>
+                <p id="vn-schedule" className="center-50"> <b>Giờ Học Mỗi Thứ Bảy</b>
+                <br/> 10:00 sáng đến 12:15 trưa</p>
                 <VietHongCalendar />
-                <img src="http://cttdvnatl.net/gallery/img/bg-img/VietNguStaff.jpg" alt="" className="center-50"/>
                 </div>
             <Footer/>
         </div>

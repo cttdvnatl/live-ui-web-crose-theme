@@ -8,12 +8,15 @@ const VietHongContactPage = () => (
     <Header/>
     <VietHongHeader/>
     <p></p>
+    <br/>
     <div class="col-12">
         <div class="section-heading">
-            <h2><b>Liên Lạc</b></h2>
-            <h2>*** PAGE UNDER CONSTRUCTION ***</h2>
+            <h2>Liên Lạc</h2>
+            <br/><br/>
+            <h5>Trường Việt Ngữ Việt Hồng - <a href="Viet.Hong.School@cttdvnatl.org">Viet.Hong.School@cttdvnatl.org</a> </h5> 
         </div>
     </div>
+    <br/>
     <Footer/>
     </>
 );
