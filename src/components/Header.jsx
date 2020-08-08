@@ -185,56 +185,56 @@ const Header = (prop) => {
                                         <ul ref={navbarItem}>
                                             <li className="cn-dropdown-item has-down" onClick={(e) => toggleSubMenu(0, e)}><a href="/#">{t("header.dropdownMenuOne.dropdownHeading")}</a>
                                                 <ul className="dropdown">
-                                                    <li><a href="/">{t("header.dropdownMenuOne.itemOne")}</a></li>
-                                                    <li><a href="/about">{t("header.dropdownMenuOne.itemTwo")}</a></li>
-                                                    <li><a href="/history">{t("header.dropdownMenuOne.itemThree")}</a></li>
-                                                    <li><a href="/clergy-list">{t("header.dropdownMenuOne.itemFour")}</a></li>
-                                                    <li><a href="/staff">{t("header.dropdownMenuOne.itemFive")}</a></li>
+                                                    <li><a href="/">{t("header.dropdownMenuOne.item1")}</a></li>
+                                                    <li><a href="/about">{t("header.dropdownMenuOne.item2")}</a></li>
+                                                    <li><a href="/history">{t("header.dropdownMenuOne.item3")}</a></li>
+                                                    <li><a href="/clergy-list">{t("header.dropdownMenuOne.item4")}</a></li>
+                                                    <li><a href="/staff">{t("header.dropdownMenuOne.item5")}</a></li>
                                                 </ul>
                                                 <span className="dd-trigger"/>
                                             </li>
                                             <li className="cn-dropdown-item has-down" onClick={(e) => toggleSubMenu(1, e)}><a href="/#">{t("header.dropdownMenuTwo.dropdownHeading")}</a>
                                                 <ul className="dropdown">
-                                                    <li><a href="/activities">{t("header.dropdownMenuTwo.itemOne")}</a></li>
-                                                    <li><a href="/printed-calendar">{t("header.dropdownMenuTwo.itemTwo")}</a></li>
-                                                    <li><a href="/fall-fest">{t("header.dropdownMenuTwo.itemThree")}</a></li>
-                                                    <li><a href="/thieu-nhi">{t("header.dropdownMenuTwo.itemFour")}</a></li>
+                                                    <li><a href="/activities">{t("header.dropdownMenuTwo.item1")}</a></li>
+                                                    <li><a href="/printed-calendar">{t("header.dropdownMenuTwo.item2")}</a></li>
+                                                    <li><a href="/fall-fest">{t("header.dropdownMenuTwo.item3")}</a></li>
+                                                    <li><a href="/thieu-nhi">{t("header.dropdownMenuTwo.item4")}</a></li>
                                                 </ul>
                                                 <span className="dd-trigger"/>
                                             </li>
                                             <li className="cn-dropdown-item has-down" onClick={(e) => toggleSubMenu(2, e)}>
                                                 <a href="/#">{t("header.dropdownMenuThree.dropdownHeading")}</a>
                                                 <ul className="dropdown">
-                                                <li><a href="/Org">{t("header.dropdownMenuThree.itemOne")}</a></li>
-                                                    <li><a href="/departments/KCS">{t("header.dropdownMenuThree.itemTwo")}</a></li>
-                                                    <li><a href="/departments/KDS">{t("header.dropdownMenuThree.itemThree")}</a></li>
-                                                    <li className="KGD"><a href="http://giaoly.hvmatl.org/">{t("header.dropdownMenuThree.itemFour")}</a>
+                                                <li><a href="/Org">{t("header.dropdownMenuThree.item1")}</a></li>
+                                                    <li><a href="/departments/KCS">{t("header.dropdownMenuThree.item2")}</a></li>
+                                                    <li><a href="/departments/KDS">{t("header.dropdownMenuThree.item3")}</a></li>
+                                                    <li className="KGD"><a href="http://giaoly.hvmatl.org/">{t("header.dropdownMenuThree.item4")}</a>
                                                         <ul>
                                                             <li>
-                                                                <a href='http://giaoly.hvmatl.org'>{t("header.dropdownMenuThree.subItemOne")}</a>
+                                                                <a href='http://giaoly.hvmatl.org'>{t("header.dropdownMenuThree.subItem1")}</a>
                                                             </li>
                                                             <li>
-                                                                <a href="/VietHong"><i>{t("header.dropdownMenuThree.subItemTwo")}</i></a>
+                                                                <a href="/VietHong"><i>{t("header.dropdownMenuThree.subItem2")}</i></a>
                                                             </li>
                                                         </ul>
                                                     </li>
-                                                    <li><a href="/departments/KHC">{t("header.dropdownMenuThree.itemFive")}</a></li>
-                                                    <li><a href="/departments/KPT">{t("header.dropdownMenuThree.itemSix")}</a></li>
-                                                    <li><a href="/departments/KTG">{t("header.dropdownMenuThree.itemSeven")}</a></li>
-                                                    <li><a href="/departments/KQT">{t("header.dropdownMenuThree.itemEight")}</a></li>
-                                                    <li><a href="/departments/KGQ">{t("header.dropdownMenuThree.itemNine")}</a></li>
+                                                    <li><a href="/departments/KHC">{t("header.dropdownMenuThree.item5")}</a></li>
+                                                    <li><a href="/departments/KPT">{t("header.dropdownMenuThree.item6")}</a></li>
+                                                    <li><a href="/departments/KTG">{t("header.dropdownMenuThree.item7")}</a></li>
+                                                    <li><a href="/departments/KQT">{t("header.dropdownMenuThree.item8")}</a></li>
+                                                    <li><a href="/departments/KGQ">{t("header.dropdownMenuThree.item9")}</a></li>
                                                 </ul>
                                                 <span className="dd-trigger"></span>
                                             </li>
                                             <li className="cn-dropdown-item has-down" onClick={(e) => toggleSubMenu(3, e)}>
                                                 <a href="/#">{t("header.dropdownMenuFour.dropdownHeading")}</a>
                                                 <ul className="dropdown">
-                                                    <li><a href="/weeklyNews">{t("header.dropdownMenuFour.itemOne")}</a></li>
-                                                    <li><a href="/Articles">{t("header.dropdownMenuFour.itemTwo")}</a></li>
-                                                    <li><a href="/catholic_teaching">{t("header.dropdownMenuFour.itemThree")}</a></li>
-                                                    <li><a href="/photos">{t("header.dropdownMenuFour.itemFour")}</a></li>
-                                                    <li><a href="/forms">{t("header.dropdownMenuFour.itemFive")}</a></li>
-                                                    <li><a href="/PrayerRequest">{t("header.dropdownMenuFour.itemSix")}</a></li>
+                                                    <li><a href="/weeklyNews">{t("header.dropdownMenuFour.item1")}</a></li>
+                                                    <li><a href="/Articles">{t("header.dropdownMenuFour.item2")}</a></li>
+                                                    <li><a href="/catholic_teaching">{t("header.dropdownMenuFour.item3")}</a></li>
+                                                    <li><a href="/photos">{t("header.dropdownMenuFour.item4")}</a></li>
+                                                    <li><a href="/forms">{t("header.dropdownMenuFour.item5")}</a></li>
+                                                    <li><a href="/PrayerRequest">{t("header.dropdownMenuFour.item6")}</a></li>
                                                 </ul>
                                                 <span className="dd-trigger"/>
                                             </li>
