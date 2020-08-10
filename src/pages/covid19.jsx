@@ -3,14 +3,16 @@ import Header from "../components/Header";
 import Preloader from "../components/Preloader";
 import Footer from "../components/Footer";
 import content from "../database/covid19.json";
+import { useTranslation } from 'react-multi-lang';
 
 const Covid19 = (prop) => {
+    const t = useTranslation()
     return (
         <div>
             <Preloader/>
             <Header/>
             <section className="section-padding-100">
-                <h2 className="section-heading">Thông báo về bệnh dịch Coronavirus 2019</h2>
+                <h2 className="section-heading">{t("covid19.pageTitle")}</h2>
                 <div className="container">
                     { content.map((item, idx) => {
                         return (
@@ -27,7 +29,7 @@ const Covid19 = (prop) => {
                                         <p>{item.body}</p>
                                     </div>
                                     <div className="find-out-more-btn">
-                                        <a href={item.pdf} className="crose-btn btn-2">Xem thêm</a>
+                                        <a href={item.pdf} className="crose-btn btn-2">{t("covid19.button")}</a>
                                     </div>
                                 </div>
                             </div>

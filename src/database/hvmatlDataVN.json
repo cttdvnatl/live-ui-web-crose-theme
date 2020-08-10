@@ -1,4 +1,28 @@
 {
+    "index": {
+        "headerMsg": "Thông báo về bệnh dịch Coronavirus 2019"
+    },
+    "info": {
+        "item1": {
+            "heading": "Giáo Lý",
+            "description": "Giáo Lý của Giáo Hội Công Giáo"
+        },
+        "item2": {
+            "heading": "Tờ Thông Tin Mục Vụ",
+            "description": "Thông tin mục vụ hàng tuần của Giáo Xứ Các Thánh Tử Đạo Việt Nam"
+        },
+        "item3": {
+            "heading": "2 Cách Xem Lễ Trực Tuyến:",
+            "description": ""
+        }
+    },
+    "calendar": {
+        "heading": "Lịch Giáo Xứ"
+    },
+    "covid19": {
+        "pageTitle": "Thông báo về bệnh dịch Coronavirus 2019",
+        "button": "Xem thêm"
+    },
     "about": {
         "pageTitle": "Sứ Mệnh Giáo Xứ",
         "heading": "Giáo Xứ Các Thánh Tử Đạo Việt Nam",
