@@ -1,4 +1,28 @@
 {
+    "index": {
+        "headerMsg": "2019 Coronavirus News"
+    },
+    "info": {
+        "item1": {
+            "heading": "Catechism",
+            "description": "Catechism of the Catholic Church"
+        },
+        "item2": {
+            "heading": "News",
+            "description": "Weekly News of the Holy Vietnamese Martyrs Catholic Church"
+        },
+        "item3": {
+            "heading": "2 Ways to Watch the Live Mass",
+            "description": ""
+        }
+    },
+    "calendar": {
+        "heading": "Parish Calendar"
+    },
+    "covid19": {
+        "pageTitle": "2019 Coronavirus News",
+        "button": "Read More"
+    },
     "about": {
         "pageTitle": "About This Church", 
         "heading": "Holy Vietnamese Martyr's Catholic Church",
