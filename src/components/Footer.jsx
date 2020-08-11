@@ -1,6 +1,8 @@
 import React from 'react';
+import { useTranslation } from 'react-multi-lang';
 
 const Footer = (prop) => {
+    const t = useTranslation()
     return (
         <footer className="footer-area text-center">
         {/* <!-- Main Footer Area --> */}
@@ -14,23 +16,23 @@ const Footer = (prop) => {
                 </div>
                 <div className="col-sm-3 col-md-3">
                     <div className="single-footer-widget">
-                        <h5 className="widget-title">Quick Link</h5>
+                        <h5 className="widget-title">{t("footer.widget1.heading")}</h5>
                         <div className="quick-link">
-                            <a href="/"><i style={{color: "#c92f2f"}} className="fas fa-church" aria-hidden="true"/> Trang Chủ</a>
-                            <a href="/about"><i style={{color: "#c92f2f"}} className="fas fa-dove" aria-hidden="true"/> Giới Thiệu</a>
-                            <a href="/massSchedule"><i style={{color: "#c92f2f"}} className="fas fa-clock" aria-hidden="true"/>  GIỜ LỄ / MASSTIMES</a>
-                            <a href="/activities"><i style={{color: "#c92f2f"}} className="fa fa-bullhorn" aria-hidden="true"/> Thông Báo</a>
-                            <a href="/weeklyNews"><i style={{color: "#c92f2f"}} className="fas fa-newspaper" aria-hidden="true"/> Tờ Thông Tin</a>
-                            <a href="https://www.tomathienatl.org"><i style={{color: "#c92f2f"}} className="fas fa-users" aria-hidden="true"/> Thiếu Nhi Thánh Thể</a>
-                            <a href="departments.html?x=KGD"><i style={{color: "#c92f2f"}} className="fas fa-graduation-cap" aria-hidden="true"/> Khối Giáo Dục</a>
-                            <a href="https://fallfestivalatl.org/"><i style={{color: "#c92f2f"}} className="fas fa-holly-berry" aria-hidden="true"/> Hội Chợ Mùa Thu</a>
+                            <a href="/"><i style={{color: "#c92f2f"}} className="fas fa-church" aria-hidden="true"/>{t("footer.widget1.item1")}</a>
+                            <a href="/about"><i style={{color: "#c92f2f"}} className="fas fa-dove" aria-hidden="true"/>{t("footer.widget1.item2")}</a>
+                            <a href="/massSchedule"><i style={{color: "#c92f2f"}} className="fas fa-clock" aria-hidden="true"/>{t("footer.widget1.item3")}</a>
+                            <a href="/activities"><i style={{color: "#c92f2f"}} className="fa fa-bullhorn" aria-hidden="true"/>{t("footer.widget1.item4")}</a>
+                            <a href="/weeklyNews"><i style={{color: "#c92f2f"}} className="fas fa-newspaper" aria-hidden="true"/>{t("footer.widget1.item5")}</a>
+                            <a href="https://www.tomathienatl.org"><i style={{color: "#c92f2f"}} className="fas fa-users" aria-hidden="true"/>{t("footer.widget1.item6")}</a>
+                            <a href="departments.html?x=KGD"><i style={{color: "#c92f2f"}} className="fas fa-graduation-cap" aria-hidden="true"/>{t("footer.widget1.item7")}</a>
+                            <a href="https://fallfestivalatl.org/"><i style={{color: "#c92f2f"}} className="fas fa-holly-berry" aria-hidden="true"/>{t("footer.widget1.item8")}</a>
                         </div>
                     </div>
                 </div>
                 <div className="col-sm-1 col-md-1"/>
                 <div className="col-sm-3 col-md-3">
                     <div className="single-footer-widget">
-                        <h5 className="widget-title">Contact Us</h5>
+                        <h5 className="widget-title">{t("footer.widget2.heading")}</h5>
                         <div className="contact-information">
                             <a href="https://goo.gl/maps/3HKC8U28RLt9BcR7A"><i className="fas fa-map" aria-hidden="true"/> 4545-A Timmers Way, Norcross, GA </a>
                             <a href="tel:770-921-0077"><i className="fas fa-phone" aria-hidden="true"/> 770-921-0077</a>
