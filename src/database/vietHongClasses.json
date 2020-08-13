@@ -1,6 +1,8 @@
 {
     "grade1": {
-        "class1A": "Test"
+        "class1A": {
+            "Teacher": "Teacher1"
+        }
     },
     "grade2": {
         "class2A": "Test"
