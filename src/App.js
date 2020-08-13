@@ -27,7 +27,7 @@ import ThieuNhiPage from './pages/ThieuNhiPage';
 import VietHongTeacherPage from './pages/VietHongTeacherPage';
 import VietHongActivitiesPage from './pages/VietHongActivitiesPage';
 import VietHongDocumentsPage from './pages/VietHongDocumentsPage';
-import VietHongContactPage from './pages/VietHongContactPage';
+import VietHongClassesPage from './pages/VietHongClassesPage';
 import MassSchedule from "./pages/MassSchedule";
 import LearnBible from "./pages/LearnBible";
 import Articles from './pages/Articles';
@@ -107,7 +107,7 @@ const App = () => {
           <Route path="/viet-hong-teachers" component={VietHongTeacherPage}/>
           <Route path="/viet-hong-activities" component={VietHongActivitiesPage}/>
           <Route path="/viet-hong-documents" component={VietHongDocumentsPage}/>
-          <Route path="/viet-hong-contact" component={VietHongContactPage}/>
+          <Route path="/viet-hong-classes" component={VietHongClassesPage}/>
           <Route path="/Articles" component={Articles}/>
           <Route path="/ArticleDetail/:date" component={ArticleDetail}/>
           <Route path="/cookies" component={CookiePage}/>
