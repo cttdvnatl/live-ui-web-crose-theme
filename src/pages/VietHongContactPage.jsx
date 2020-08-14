@@ -12,8 +12,8 @@ const VietHongContactPage = () => (
     <div class="col-12">
         <div class="section-heading">
             <h2>Liên Lạc</h2>
-            <br/><br/>
-            <h5>Trường Việt Ngữ Việt Hồng - <a href="Viet.Hong.School@cttdvnatl.org">Viet.Hong.School@cttdvnatl.org</a> </h5> 
+            <br/><br/>            
+            <h5>Trường Việt Ngữ Việt Hồng - <a href="mailto:Viet.Hong.School@hvmatl.org">Trường Việt Ngữ Việt Hồng</a></h5>
         </div>
     </div>
     <br/>
