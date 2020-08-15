@@ -1,4 +1,28 @@
 {
+    "index": {
+        "headerMsg": "Thông báo về bệnh dịch Coronavirus 2019"
+    },
+    "info": {
+        "item1": {
+            "heading": "Giáo Lý",
+            "description": "Giáo Lý của Giáo Hội Công Giáo"
+        },
+        "item2": {
+            "heading": "Tờ Thông Tin Mục Vụ",
+            "description": "Thông tin mục vụ hàng tuần của Giáo Xứ Các Thánh Tử Đạo Việt Nam"
+        },
+        "item3": {
+            "heading": "2 Cách Xem Lễ Trực Tuyến:",
+            "description": ""
+        }
+    },
+    "calendar": {
+        "heading": "Lịch Giáo Xứ"
+    },
+    "covid19": {
+        "pageTitle": "Thông báo về bệnh dịch Coronavirus 2019",
+        "button": "Xem thêm"
+    },
     "about": {
         "pageTitle": "Sứ Mệnh Giáo Xứ",
         "heading": "Giáo Xứ Các Thánh Tử Đạo Việt Nam",
@@ -9,6 +33,9 @@
         "pageTitleContinued": "Giáo Xứ Các Thánh Tử Đạo Việt Nam"
     },
     "header": {
+        "top": {
+            "massSchedule": "Giờ Lễ"
+        },
         "dropdownMenuOne": {
             "dropdownHeading": "GIÁO XỨ",
             "item1": "Trang Chủ",
@@ -51,5 +78,21 @@
             "dropdownHeading": "LIÊN HỆ"
         },
         "donation": "Dâng Hiến"
+    },
+    "footer": {
+        "widget1": {
+            "heading": "Quick Links",
+            "item1": "Trang Chủ",
+            "item2": "Giới Thiệu",
+            "item3": "Giờ Lễ",
+            "item4": "Thông Báo",
+            "item5": "Tờ Thông Tin",
+            "item6": "Thiếu Nhi Thánh Thể",
+            "item7": "Khối Giáo Dục",
+            "item8": "Hội Chợ Mùa Thu"
+        },
+        "widget2": {
+            "heading": "Liên Hệ"
+        }
     }
 }

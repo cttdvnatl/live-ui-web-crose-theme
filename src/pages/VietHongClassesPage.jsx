@@ -2,8 +2,12 @@ import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import VietHongHeader from '../components/VietHongHeader';
+//import DisplayClasses from '../components/DisplayClasses';
+import vietHongClasses from '../database/vietHongClasses.json';
 
-const VietHongContactPage = () => (
+const class1A = vietHongClasses.grade1.class1A
+
+const VietHongClassesPage = () => (
     <>
     <Header/>
     <VietHongHeader/>
@@ -11,9 +15,9 @@ const VietHongContactPage = () => (
     <br/>
     <div class="col-12">
         <div class="section-heading">
-            <h2>Liên Lạc</h2>
-            <br/><br/>
-            <h5>Trường Việt Ngữ Việt Hồng - <a href="Viet.Hong.School@cttdvnatl.org">Viet.Hong.School@cttdvnatl.org</a> </h5> 
+            <h2>CÁC LỚP</h2>
+            <h4>Grade 1</h4>
+            {class1A.Teacher}
         </div>
     </div>
     <br/>
@@ -21,4 +25,4 @@ const VietHongContactPage = () => (
     </>
 );
 
-export default VietHongContactPage;
+export default VietHongClassesPage;

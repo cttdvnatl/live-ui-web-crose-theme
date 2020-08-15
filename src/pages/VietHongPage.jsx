@@ -9,13 +9,14 @@ const VietHong = () => {
         <div>
             <Header/>
             <VietHongHeader/>
+            <br/>
+                <h6 style={{textAlign: "center"}}>Viet.Hong.School@cttdvnatl.org</h6>
                 <div className="container-fluid text-center">
-                <br/><br/>
                 <p id="viet-ngu">Trường Việt Ngữ Việt Hồng sẽ bắt đầu niên học mới bằng "digital learning" vào ngày 12 tháng 9.
                 <br/> Trường đã và sẽ gửi thêm chi tiết về học online đến quý phụ huynh vào những tuần sắp đến.</p>
                 <br/>
                 <p id="vn-schedule" className="center-50"> <b>Giờ Học Mỗi Thứ Bảy</b>
-                <br/> 10:00 sáng đến 12:15 trưa</p>
+                <br/>10:00 sáng đến 12:15 trưa</p>
                 <VietHongCalendar />
                 </div>
             <Footer/>

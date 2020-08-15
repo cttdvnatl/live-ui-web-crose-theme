@@ -1,4 +1,28 @@
 {
+    "index": {
+        "headerMsg": "2019 Coronavirus News"
+    },
+    "info": {
+        "item1": {
+            "heading": "Catechism",
+            "description": "Catechism of the Catholic Church"
+        },
+        "item2": {
+            "heading": "News",
+            "description": "Weekly News of the Holy Vietnamese Martyrs Catholic Church"
+        },
+        "item3": {
+            "heading": "2 Ways to Watch the Live Mass",
+            "description": ""
+        }
+    },
+    "calendar": {
+        "heading": "Parish Calendar"
+    },
+    "covid19": {
+        "pageTitle": "2019 Coronavirus News",
+        "button": "Read More"
+    },
     "about": {
         "pageTitle": "About This Church", 
         "heading": "Holy Vietnamese Martyr's Catholic Church",
@@ -9,6 +33,9 @@
         "pageTitleContinued": "Holy Vietnamese Martyr's Catholic Church"
     },
     "header": {
+        "top": {
+            "massSchedule": "Mass Times"
+        },
         "dropdownMenuOne": {
             "dropdownHeading": "Parish",
             "item1": "Homepage",
@@ -51,5 +78,21 @@
             "dropdownHeading": "Contact"
         },
         "donation": "Donations"
+    },
+    "footer": {
+        "widget1": {
+            "heading": "Quick Links",
+            "item1": "Home",
+            "item2": "About",
+            "item3": "Mass Times",
+            "item4": "Announcements",
+            "item5": "Newspaper",
+            "item6": "Parish Youth Org.",
+            "item7": "Education Department",
+            "item8": "Fall Festival"
+        },
+        "widget2": {
+            "heading": "Contact Us"
+        }
     }
 }

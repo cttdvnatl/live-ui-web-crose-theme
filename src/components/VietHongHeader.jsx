@@ -7,7 +7,7 @@ const VietHongHeader = () => (
         <a href="/viet-hong-teachers">Thầy Cô</a>
         <a href="/viet-hong-activities">Sinh Hoạt</a>
         <a href="/viet-hong-documents">Văn Thư</a>
-        <a href="/viet-hong-contact">Liên Lạc</a>
+        <a href="/viet-hong-classes">Các Lớp</a>
     </div>
     </>
 );
