@@ -2,7 +2,8 @@ const Classes = [
     {
         grade: "grade1",
         class: "1A",
-        teachers: "Teacher1, Teacher2"
+        teachers: "Teacher1, Teacher2",
+        emails: "email@gmail.com, email@gmail.com, email@gmail.com, email@gmail.com"
     },
     {
         grade: "grade1",

@@ -2115,6 +2115,24 @@ p#vn-schedule {
   }
 }
 
+.school-classes {
+  max-width: 100%;
+  text-align: center;
+  cursor: default;
+}
+
+.school-classes div h6 p.vh-hover-text {
+  display: none;
+  position: relative;
+  float: left;
+  position: absolute;
+  color: black;
+}
+
+.school-classes div h6:hover p.vh-hover-text {
+  display: block;
+}
+
 div#translation-button {
   float: left;
   margin-left: 7px;
