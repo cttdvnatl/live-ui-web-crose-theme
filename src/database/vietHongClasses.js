@@ -22,7 +22,7 @@ const Classes = [
     },
 
     {
-        name: "1",
+        name: "1a",
         class: "1A",
         teachers: "Teacher1, Teacher2",
         emails: "email@gmail.com, email@gmail.com, email@gmail.com, email@gmail.com",

@@ -11,7 +11,7 @@ const VietHongClassworkPage = ({match}) => {
         <>
         <Header/>
         <div class="classwork">
-            <iframe width="80%" height="700px" style={{marginTop: "10px"}} title="vh" src={iframe.classwork}/>
+            <iframe width="80%" height="700px" style={{marginTop: "10px", border: "0"}} title="vh" src={iframe.classwork}/>
         </div>
         <Footer/>
         </>
