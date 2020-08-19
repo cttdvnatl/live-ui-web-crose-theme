@@ -6,12 +6,14 @@ import Footer from '../components/Footer';
 import Info from '../components/Info';
 import Event from '../components/Event';
 import Calendar from "../components/Calendar";
+import { useTranslation } from 'react-multi-lang';
 
 const Index = (prop) => {
+    const t = useTranslation();
     return(
         <div>
             <Preloader/>
-            <Header emergency={true} emergencyMsg="Thông Báo Coronavirus 2019" url="/covid19"/>
+            <Header emergency={true} emergencyMsg={t("index.headerMsg")} url="/covid19"/>
             <CustomCarousel/>
             <Info/>
             <Event/>

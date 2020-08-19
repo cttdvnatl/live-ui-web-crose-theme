@@ -1,4 +1,28 @@
 {
+    "index": {
+        "headerMsg": "Thông báo về bệnh dịch Coronavirus 2019"
+    },
+    "info": {
+        "item1": {
+            "heading": "Giáo Lý",
+            "description": "Giáo Lý của Giáo Hội Công Giáo"
+        },
+        "item2": {
+            "heading": "Tờ Thông Tin Mục Vụ",
+            "description": "Thông tin mục vụ hàng tuần của Giáo Xứ Các Thánh Tử Đạo Việt Nam"
+        },
+        "item3": {
+            "heading": "2 Cách Xem Lễ Trực Tuyến:",
+            "description": ""
+        }
+    },
+    "calendar": {
+        "heading": "Lịch Giáo Xứ"
+    },
+    "covid19": {
+        "pageTitle": "Thông báo về bệnh dịch Coronavirus 2019",
+        "button": "Xem thêm"
+    },
     "about": {
         "pageTitle": "Sứ Mệnh Giáo Xứ",
         "heading": "Giáo Xứ Các Thánh Tử Đạo Việt Nam",
@@ -9,47 +33,66 @@
         "pageTitleContinued": "Giáo Xứ Các Thánh Tử Đạo Việt Nam"
     },
     "header": {
+        "top": {
+            "massSchedule": "Giờ Lễ"
+        },
         "dropdownMenuOne": {
             "dropdownHeading": "GIÁO XỨ",
-            "itemOne": "Trang Chủ",
-            "itemTwo": "Sứ Mệnh Giáo Xứ",
-            "itemThree": "Lịch Sử Giáo Xứ",
-            "itemFour": "Linh Mục/Tu Sĩ",
-            "itemFive": "Qúy Chức"
+            "item1": "Trang Chủ",
+            "item2": "Sứ Mệnh Giáo Xứ",
+            "item3": "Lịch Sử Giáo Xứ",
+            "item4": "Linh Mục/Tu Sĩ",
+            "item5": "Qúy Chức"
         },
         "dropdownMenuTwo": {
             "dropdownHeading": "TIN TỨC/SỰ KIỆN",
-            "itemOne": "Sinh Hoạt Giáo Xứ",
-            "itemTwo": "Lịch 2020",
-            "itemThree": "Hội Chợ Mùa Thu",
-            "itemFour": "TNTT Tôma Thiện"
+            "item1": "Sinh Hoạt Giáo Xứ",
+            "item2": "Lịch 2020",
+            "item3": "Hội Chợ Mùa Thu",
+            "item4": "TNTT Tôma Thiện"
         },
         "dropdownMenuThree": {
             "dropdownHeading": "BAN NGÀNH",
-            "itemOne": "Sơ Đồ Tổ Chức",
-            "itemTwo": "Khối Cơ Sở",
-            "itemThree": "Khối Đời Sống",
-            "itemFour": "Khối Giáo Dục",
-            "subItemOne": "Giáo Lý",
-            "subItemTwo": "Việt Ngữ",
-            "itemFive": "Khối Hành Chánh",
-            "itemSix": "Khối Phụng Tự",
-            "itemSeven": "Khối Truyền Giáo",
-            "itemEight": "Khối Quản Trị",
-            "itemNine": "Khối Gây Quỹ"
+            "item1": "Sơ Đồ Tổ Chức",
+            "item2": "Khối Cơ Sở",
+            "item3": "Khối Đời Sống",
+            "item4": "Khối Giáo Dục",
+            "subItem1": "Giáo Lý",
+            "subItem2": "Việt Ngữ",
+            "item5": "Khối Hành Chánh",
+            "item6": "Khối Phụng Tự",
+            "item7": "Khối Truyền Giáo",
+            "item8": "Khối Quản Trị",
+            "item9": "Khối Gây Quỹ"
         },
         "dropdownMenuFour": {
             "dropdownHeading": "Thư Viện",
-            "itemOne": "Thông Tin Mục Vụ",
-            "itemTwo": "Các Bài Viết",
-            "itemThree": "Giáo Lý",
-            "itemFour": "Thư Viện Hình Ảnh",
-            "itemFive": "Đơn Từ",
-            "itemSix": "Xin Lễ"
+            "item1": "Thông Tin Mục Vụ",
+            "item2": "Các Bài Viết",
+            "item3": "Giáo Lý",
+            "item4": "Thư Viện Hình Ảnh",
+            "item5": "Đơn Từ",
+            "item6": "Xin Lễ"
         },
         "dropdownMenuFive": {
             "dropdownHeading": "LIÊN HỆ"
         },
         "donation": "Dâng Hiến"
+    },
+    "footer": {
+        "widget1": {
+            "heading": "Quick Links",
+            "item1": "Trang Chủ",
+            "item2": "Giới Thiệu",
+            "item3": "Giờ Lễ",
+            "item4": "Thông Báo",
+            "item5": "Tờ Thông Tin",
+            "item6": "Thiếu Nhi Thánh Thể",
+            "item7": "Khối Giáo Dục",
+            "item8": "Hội Chợ Mùa Thu"
+        },
+        "widget2": {
+            "heading": "Liên Hệ"
+        }
     }
 }

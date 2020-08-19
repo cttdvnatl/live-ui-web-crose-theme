@@ -1,4 +1,28 @@
 {
+    "index": {
+        "headerMsg": "2019 Coronavirus News"
+    },
+    "info": {
+        "item1": {
+            "heading": "Catechism",
+            "description": "Catechism of the Catholic Church"
+        },
+        "item2": {
+            "heading": "News",
+            "description": "Weekly News of the Holy Vietnamese Martyrs Catholic Church"
+        },
+        "item3": {
+            "heading": "2 Ways to Watch the Live Mass",
+            "description": ""
+        }
+    },
+    "calendar": {
+        "heading": "Parish Calendar"
+    },
+    "covid19": {
+        "pageTitle": "2019 Coronavirus News",
+        "button": "Read More"
+    },
     "about": {
         "pageTitle": "About This Church", 
         "heading": "Holy Vietnamese Martyr's Catholic Church",
@@ -9,47 +33,66 @@
         "pageTitleContinued": "Holy Vietnamese Martyr's Catholic Church"
     },
     "header": {
+        "top": {
+            "massSchedule": "Mass Times"
+        },
         "dropdownMenuOne": {
             "dropdownHeading": "Parish",
-            "itemOne": "Homepage",
-            "itemTwo": "About",
-            "itemThree": "History",
-            "itemFour": "Clergy",
-            "itemFive": "Staff"
+            "item1": "Homepage",
+            "item2": "About",
+            "item3": "History",
+            "item4": "Clergy",
+            "item5": "Staff"
         },
         "dropdownMenuTwo": {
             "dropdownHeading": "News and Events",
-            "itemOne": "Parish Activities",
-            "itemTwo": "Calender 2020",
-            "itemThree": "Fall Festival",
-            "itemFour": "Parish Youth Org."
+            "item1": "Parish Activities",
+            "item2": "Calender 2020",
+            "item3": "Fall Festival",
+            "item4": "Parish Youth Org."
         },
         "dropdownMenuThree": {
             "dropdownHeading": "Departments",
-            "itemOne": "Org. Chart",
-            "itemTwo": "Maintenance",
-            "itemThree": "Religious Life",
-            "itemFour": "Education",
-            "subItemOne": "Bible",
-            "subItemTwo": "Vietnamese",
-            "itemFive": "Administration",
-            "itemSix": "Liturgy",
-            "itemSeven": "Khối Truyền Giáo",
-            "itemEight": "Khối Quản Trị",
-            "itemNine": "Fundraising"
+            "item1": "Org. Chart",
+            "item2": "Maintenance",
+            "item3": "Religious Life",
+            "item4": "Education",
+            "subItem1": "Bible",
+            "subItem2": "Vietnamese",
+            "item5": "Administration",
+            "item6": "Liturgy",
+            "item7": "Khối Truyền Giáo",
+            "item8": "Khối Quản Trị",
+            "item9": "Fundraising"
         },
         "dropdownMenuFour": {
             "dropdownHeading": "Resources",
-            "itemOne": "Pastoral News",
-            "itemTwo": "Letters",
-            "itemThree": "Doctrine",
-            "itemFour": "Gallery",
-            "itemFive": "Forms",
-            "itemSix": "Prayer Request"
+            "item1": "Pastoral News",
+            "item2": "Letters",
+            "item3": "Doctrine",
+            "item4": "Gallery",
+            "item5": "Forms",
+            "item6": "Prayer Request"
         },
         "dropdownMenuFive": {
             "dropdownHeading": "Contact"
         },
         "donation": "Donations"
+    },
+    "footer": {
+        "widget1": {
+            "heading": "Quick Links",
+            "item1": "Home",
+            "item2": "About",
+            "item3": "Mass Times",
+            "item4": "Announcements",
+            "item5": "Newspaper",
+            "item6": "Parish Youth Org.",
+            "item7": "Education Department",
+            "item8": "Fall Festival"
+        },
+        "widget2": {
+            "heading": "Contact Us"
+        }
     }
 }
