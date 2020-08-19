@@ -1,64 +1,94 @@
 const Classes = [
     {
-        grade: "grade1",
-        class: "1A",
+        name: "vla",
+        class: "Vỡ Lòng A",
         teachers: "Teacher1, Teacher2",
-        emails: "email@gmail.com, email@gmail.com, email@gmail.com, email@gmail.com"
+        emails: "email@gmail.com, email@gmail.com, email@gmail.com, email@gmail.com",
+        classwork: "https://docs.google.com/document/d/e/2PACX-1vTCh9AzyOwuLOxyrC7hwcNMOeUwCUchRPC8UJBNbqPRdoDMQRCJkOJgR2aCqmbLojFRt3TGF4pJfVIi/pub?embedded=true"
     },
     {
-        grade: "grade1",
-        class: "1B",
-        teachers: "Teacher1, Teacher2"
+        name: "vlb",
+        class: "Vỡ Lòng B",
+        teachers: "Teacher1, Teacher2",
+        emails: "email@gmail.com, email@gmail.com, email@gmail.com, email@gmail.com",
+        classwork: "https://docs.google.com/document/d/e/2PACX-1vQl72uZeWl9LwK3AOYVIB74fjvqGC8-XFFAFtczwRLgGt0GLWLxJDqA2fqJ0kFJiJV2H7-maLwA5R5x/pub?embedded=true"
     },
     {
-        grade: "grade1",
-        class: "1C",
-        teachers: "Teacher1, Teacher2"
+        name: "vlc",
+        class: "Vỡ Lòng C",
+        teachers: "Teacher1, Teacher2",
+        emails: "email@gmail.com, email@gmail.com, email@gmail.com, email@gmail.com",
+        classwork: "https://docs.google.com/document/d/e/2PACX-1vSeAl5P8JRiEikdDS9UQcIt35xFbAEwtuO5HhXDnosHBKjOv41a8nqWHVO7wudSB8MxDUpMXWN5SdEW/pub?embedded=true"
     },
 
     {
-        grade: "grade1",
-        class: "1D",
-        teachers: "Teacher1, Teacher2"
+        name: "1",
+        class: "1A",
+        teachers: "Teacher1, Teacher2",
+        emails: "email@gmail.com, email@gmail.com, email@gmail.com, email@gmail.com",
+        classwork: "https://docs.google.com/document/d/e/2PACX-1vTQzd5RLIW6LpqmUPWFWMZrM8zaGv7vLqOXme14RRONkj_UVputlF6K5_3JVL2EbNaA7Z36YoYooYFz/pub?embedded=true"
     },    {
-        grade: "grade2",
-        class: "2A",
-        teachers: "Teacher1, Teacher2"
+        name: "1b",
+        class: "1B",
+        teachers: "Teacher1, Teacher2",
+        emails: "email@gmail.com, email@gmail.com, email@gmail.com, email@gmail.com",
+        classwork: "https://docs.google.com/document/d/e/2PACX-1vTgTbQsFKMv_GePTGS8qUmN3mdu0N29Day8MkWYHwE4ygLHpNLksZ8J300EetTj_hloGQ1ajMtNhass/pub?embedded=true"
     },
     {
-        grade: "grade2",
-        class: "2B",
-        teachers: "Teacher1, Teacher2"
+        name: "2",
+        class: "2",
+        teachers: "Teacher1, Teacher2",
+        emails: "email@gmail.com, email@gmail.com, email@gmail.com, email@gmail.com",
+        classwork: "https://docs.google.com/document/d/e/2PACX-1vRnYjKFOD0edheFkTboHZ8q9aLVnBivJF0ps0Dydy_jQ3nNyOy7wJthOc1B-yTGWlJiC-JIzoExjM01/pub?embedded=true"
     },
     {
-        grade: "grade2",
-        class: "2C",
-        teachers: "Teacher1, Teacher2"
-    },
-    {
-        grade: "grade2",
-        class: "2D",
-        teachers: "Teacher1, Teacher2"
-    },
-    {
-        grade: "grade3",
+        name: "3a",
         class: "3A",
-        teachers: "Teacher1, Teacher2"
+        teachers: "Teacher1, Teacher2",
+        emails: "email@gmail.com, email@gmail.com, email@gmail.com, email@gmail.com",
+        classwork: "https://docs.google.com/document/d/e/2PACX-1vRg04Ecj8uBMmvu1teEltYuCLsRjc9Ywq8zTTQJNXJTeOoP7Oom3ae8M_1R40uc2YFBmkpGUCkeIV4s/pub?embedded=true"
     },
     {
-        grade: "grade3",
+        name: "3b",
         class: "3B",
-        teachers: "Teacher1, Teacher2"
+        teachers: "Teacher1, Teacher2",
+        emails: "email@gmail.com, email@gmail.com, email@gmail.com, email@gmail.com",
+        classwork: "https://docs.google.com/document/d/e/2PACX-1vTeKXHW-GKPwa-Nhar19hKVqE56NH-MdCQ8650WdFan4foFxyz64JNWyhnvzAqvEDjX73sSVedRijLY/pub?embedded=true"
     },
     {
-        grade: "grade3",
-        class: "3C",
-        teachers: "Teacher1, Teacher2"
+        name: "4a",
+        class: "4A",
+        teachers: "Teacher1, Teacher2",
+        emails: "email@gmail.com, email@gmail.com, email@gmail.com, email@gmail.com",
+        classwork: "https://docs.google.com/document/d/e/2PACX-1vQKRKbEbGjS0luaNVwJYcP8gc3rEF2F_xfn3Lds839AjiHjVdNxTQiysjNZsF4Vh6piqhiU8nNFt5aU/pub?embedded=true"
     },
     {
-        grade: "grade3",
-        class: "3D",
-        teachers: "Teacher1, Teacher2"
+        name: "4b",
+        class: "4B",
+        teachers: "Teacher1, Teacher2",
+        emails: "email@gmail.com, email@gmail.com, email@gmail.com, email@gmail.com",
+        classwork: "https://docs.google.com/document/d/e/2PACX-1vSujKL5M_zVaRjAzQSSFiiLtSmDYxqqdt22FbcAV1hG9PJ4gaNrxQEtoniQbMFvMqeE7rQxHcWec-mk/pub?embedded=true"
+    },
+    {
+        name: "5",
+        class: "5",
+        teachers: "Teacher1, Teacher2",
+        emails: "email@gmail.com, email@gmail.com, email@gmail.com, email@gmail.com",
+        classwork: "https://docs.google.com/document/d/e/2PACX-1vSV_TNvZBsS9WZ--e6V0FiIRPJt91DWn66tP3gtph5tTXe-W8khLJ5ygJnlIF20_OqzUt1X-SisonyS/pub?embedded=true"
+    },
+    {
+        name: "6",
+        class: "6",
+        teachers: "Teacher1, Teacher2",
+        emails: "email@gmail.com, email@gmail.com, email@gmail.com, email@gmail.com",
+        classwork: "https://docs.google.com/document/d/e/2PACX-1vQHxaAKe1y4aBfDM--O3LGtEe_P8ywyKS-1If3KRD6DWDYIU4X5QlWPCXhp2BrnhSiARfpZGDwD352P/pub?embedded=true"
+    },
+    {
+        name: "7",
+        class: "7",
+        teachers: "Teacher1, Teacher2",
+        emails: "email@gmail.com, email@gmail.com, email@gmail.com, email@gmail.com",
+        classwork: "https://docs.google.com/document/d/e/2PACX-1vRkHaz6EDDUr-yOD7raQXi4txjo-MoJOTGKTOeSJ75usThAdqiA4MrXG6WUarcY6nkeu7nphDhHg57W/pub?embedded=true"
     },
 
 ]

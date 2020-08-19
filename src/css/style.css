@@ -2133,6 +2133,10 @@ p#vn-schedule {
   display: block;
 }
 
+div.classwork {
+  text-align: center;
+}
+
 div#translation-button {
   float: left;
   margin-left: 7px;
