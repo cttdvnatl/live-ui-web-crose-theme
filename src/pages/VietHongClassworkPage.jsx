@@ -8,6 +8,17 @@ const VietHongClassworkPage = ({match}) => {
     const vietHongClassURL = match.params.vietHongClassURL;
     const iframe = vietHongClasses.find(iframe => iframe.name === vietHongClassURL);
 
+    if (!iframe) {
+        return (
+            <>
+            <Header/>
+            <VietHongHeader/>
+            <h3 class="center-50" style={{textAlign: "center", height: "600px", marginTop: "30px"}}>No such class</h3>
+            <Footer/>
+            </>
+        )
+    }
+
     return (
         <>
         <Header/>
