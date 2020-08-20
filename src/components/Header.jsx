@@ -159,7 +159,11 @@ const Header = (prop) => {
                                 </div>
                                 <div className="top-header-meta">
                                     <a href="/massSchedule" className="email-address"><i className="fas fa-calendar-alt" aria-hidden="true" ref={massSchedule}></i><span>{t("header.top.massSchedule")}</span></a>
+<<<<<<< HEAD
                                     <a href="mailto:info@cttdvnatl.org" className="email-address"><i className="fas fa-envelope" aria-hidden="true" ref={email}></i> <span>info@cttdvnatl.org</span></a>
+=======
+                                    <a href="mailto:info@hvmatl.org" className="email-address"><i className="fas fa-envelope" aria-hidden="true" ref={email}></i> <span>info@hvmatl.org</span></a>
+>>>>>>> 1be70e5379b7d69322a4b1cb26b1fa791cbf1176
                                     <a href="tel:770-921-0077" className="phone"><i className="fas fa-phone" aria-hidden="true" ref= {phone}></i> <span>770-921-0077</span></a>
                                 </div>
                             </div>

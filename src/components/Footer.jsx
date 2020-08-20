@@ -36,7 +36,7 @@ const Footer = (prop) => {
                         <div className="contact-information">
                             <a href="https://goo.gl/maps/3HKC8U28RLt9BcR7A"><i className="fas fa-map" aria-hidden="true"/> 4545-A Timmers Way, Norcross, GA </a>
                             <a href="tel:770-921-0077"><i className="fas fa-phone" aria-hidden="true"/> 770-921-0077</a>
-                            <a href="mailto:info@cttdvnatl.org"><i className="fas fa-envelope" aria-hidden="true"/> info@cttdvnatl.org</a>
+                            <a href="mailto:info@hvmatl.org"><i className="fas fa-envelope" aria-hidden="true"/> info@hvmatl.org</a>
                             <p><a href="/massSchedule"><i className="fas fa-calendar-alt" aria-hidden="true"/>Mon - Sat : 9:30&nbsp;AM - 12:30&nbsp;PM, 1:30&nbsp;PM - 5:00&nbsp;PM</a></p>
                         </div>
                     </div>

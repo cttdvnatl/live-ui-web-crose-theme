@@ -17,7 +17,7 @@ const ContactPage = () => (
                                     <div className="col-12 col-md-4">
                                         <div className="contact-content contact-information">
                                             <h4>Contact</h4>
-                                            <p>info@cttdvnatl.org</p>
+                                            <p>info@hvmatl.org</p>
                                             <p>(770) 921-0077</p>
                                         </div>
                                     </div>

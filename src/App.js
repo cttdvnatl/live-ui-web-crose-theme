@@ -37,6 +37,7 @@ import { setLanguage, getLanguage, setTranslations, setDefaultLanguage } from 'r
 import en from './database/hvmatlDataEN.json';
 import vn from './database/hvmatlDataVN.json';
 import CookiePage from './pages/CookiePage';
+import VietHongClassworkPage from './pages/VietHongClassworkPage';
 
 //Google Analytics
 ReactGA.initialize('UA-166941054-1', {
@@ -108,6 +109,10 @@ const App = () => {
           <Route path="/viet-hong-activities" component={VietHongActivitiesPage}/>
           <Route path="/viet-hong-documents" component={VietHongDocumentsPage}/>
           <Route path="/viet-hong-classes" component={VietHongClassesPage}/>
+<<<<<<< HEAD
+=======
+          <Route path="/viet-hong-classwork/:vietHongClassURL" component={VietHongClassworkPage}/>
+>>>>>>> 1be70e5379b7d69322a4b1cb26b1fa791cbf1176
           <Route path="/Articles" component={Articles}/>
           <Route path="/ArticleDetail/:date" component={ArticleDetail}/>
           <Route path="/cookies" component={CookiePage}/>
