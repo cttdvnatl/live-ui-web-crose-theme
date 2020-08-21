@@ -9,7 +9,7 @@ const Classes = ({list}) => (
             <div style={{width: "350px"}} class="about-us-content mb-50">
                 <a id="classwork" href={"/viet-hong-classwork/" + Classes.name} style={{fontSize: "25px", fontWeight: "700"}}>Lớp {Classes.class}</a>
                 <h6>{Classes.teachers}
-                    <p class="vh-hover-text">{Classes.emails}</p>                
+                    <p class="classes-hover-text">{Classes.emails}</p>                
                 </h6>
             </div>
         </div>
