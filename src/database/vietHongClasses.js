@@ -2,8 +2,8 @@ const Classes = [
     {
         name: "vla",
         class: "Vỡ Lòng A",
-        teachers: "Teacher1, Teacher2",
-        emails: "email@gmail.com, email@gmail.com, email@gmail.com, email@gmail.com",
+        teachers: "Cô Nghiêm Trang",
+        emails: "tnghiem@hvmatl.org",
         classwork: "https://docs.google.com/document/d/e/2PACX-1vTCh9AzyOwuLOxyrC7hwcNMOeUwCUchRPC8UJBNbqPRdoDMQRCJkOJgR2aCqmbLojFRt3TGF4pJfVIi/pub?embedded=true"
     },
     {

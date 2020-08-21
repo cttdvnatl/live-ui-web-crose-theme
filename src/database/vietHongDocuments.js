@@ -1,7 +1,7 @@
 const vietHongDocuments = [
     {   
         fileName: 'Parent Handbook (bilingual)',
-        downloadFile: 'https://cttdvnatl.net/gallery/kgd/viethong/viethong-2020-2021-parent-handbook.pdf',
+        downloadFile: 'https://cttdvnatl.net/gallery/kgd/viethong/viethong-2020-2021-docs-parent-handbook.pdf',
         description: 'Sổ Tay Phụ Huynh',
     },
     {   
@@ -21,7 +21,7 @@ const vietHongDocuments = [
     },
     {   
         fileName: '2020-2021 School Year Calendar',
-        downloadFile: 'https://cttdvnatl.net/gallery/kgd/viethong/viethong-2020-2021-school-year-calendar.pdf',
+        downloadFile: 'https://cttdvnatl.net/gallery/kgd/viethong/viethong-2020-2021-docs-school-year-calendar.pdf',
         description: 'Lịch Trình Niên Học 2020-2021',
     },
     {   
