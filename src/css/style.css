@@ -2121,15 +2121,15 @@ p#vn-schedule {
   cursor: default;
 }
 
-.school-classes div h6 p.vh-hover-text {
+.school-classes div h6 a.classes-hover-text {
   display: none;
-  position: relative;
-  float: left;
+  padding-right: 20px;
+  padding-left: 20px;
   position: absolute;
   color: black;
 }
 
-.school-classes div h6:hover p.vh-hover-text {
+.school-classes div h6:hover a.classes-hover-text {
   display: block;
 }
 
