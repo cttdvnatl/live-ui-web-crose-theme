@@ -23,6 +23,32 @@ const articleContent =
 [
   {
     "Section": "Các Bài Viết",
+    "date": "2020-08-23",
+    "image": "https://cttdvnatl.net/gallery/img/articles/article-2020-08-23.png",
+    "title": "Hướng Dẫn Bầu Cử 2020",
+    "body":
+    `Trong những ngày này, chúng ta nghe rất sôi nổi trên truyền thông của hai Đảng phái Dân Chủ và Cộng Hòa trong cuộc bầu cử Tổng Thống nhiệm kỳ 2020-2024. Cuộc bầu cử này sẽ bầu lên Tổng Thống Hoa Kỳ và một số Dân Biểu, Nghị Sỹ liên bang và tiểu bang sẽ được thực hiện vào đầu tháng 11 năm 2020. Càng gần đến ngày bầu cử, những người Công Giáo nghiêm chỉnh về đức tin càng băn khoăn về việc chọn lựa. Trong thời điểm vô cùng khó khăn, liên quan đến sự bối rối lương tâm của giáo dân như thế, Giáo hội Công giáo Hoa Kỳ dạy ta những gì?
+    Để giúp chúng ta chuẩn bị sẵn sàng “Đi đông, bầu đúng, và cử xứng”, tôi xin mời quý ông bà anh chị em cùng tìm hiểu kỹ lại tài liệu những hướng dẫn cụ thể của các Đức Giám Mục Hoa Kỳ qua tài liệu "Rèn luyện Lương tâm cho người Công dân có Đức tin" (Forming Consciences for Faithful Citizenship") đã được công bố ngày  04 tháng 10  năm 2012.  Dựa trên tinh thần của văn kiện này, ta có thể tóm lược qua mấy hướng dẫn cụ thể sau:
+    Trước tiên, là người Công Giáo, ta phải rèn luyện cho mình một lương tâm đúng đắn.  Lương tâm là tiếng nói của Thiên Chúa vang vọng trong trái tim nhân loại, mạc khải chân lý cho ta, kêu gọi chúng ta làm điều tốt và tránh điều xấu. Lương tâm đúng đắn là nghiêm chỉnh làm những phán đoán luân lý lành mạnh dựa trên những chân lý đức tin của chúng ta. (Đào Tạo lương tâm của công dân trung tín, Hội Đồng Giám Mục Hoa Kỳ, đoạn 17)
+    Thứ nhì, chúng ta phải chọn lựa với một lương tâm đúng đắn. Điều này có nghĩa là sự lựa chọn của mỗi người Công Giáo không dựa trên cảm xúc hay sở thích cá nhân hoặc đảng phái mình chọn lựa, nhưng dựa trên nguyên tắc luân lý Công giáo và Giáo hội tin.
+    Thứ ba, ta cần xác định đâu là sự quan trọng nhất giữa nhiều vấn đề quan trọng, đó chính là: Mọi người đều có “quyền sống, quyền tự do, và quyền tìm kiếm hạnh phúc” đã được hiến Pháp Hoa Kỳ qui định. Sự sống là quyền căn bản khiến cho các quyền lợi khác như giáo dục, y tế, cư trú …có thể tồn tại. Vậy nếu sự sống con người khi còn trong bào thai là lúc trong tình trạng yếu đuối nhất, khi không thể tự vệ được vẫn không được luật pháp bảo vệ thì làm sao có cơ hội để bảo vệ các quyền lợi khác được?
+    Thứ tư, ta cần tìm hiểu và so sánh quan điểm của hai ứng cử viên thuộc hai chính đảng với một số vấn đề quan trọng cho người Công Giáo, nhất là những điểm về sự dữ nội tại (tự nó đã là sự dữ) hoặc liên quan tới căn bản luân lý như:
+    a. Hủy hoại sự sống các thai nhi, và nhân phẩm của những người yếu đuối, bệnh hoạn hay bị ruồng bỏ.
+    b. Những qui luật hay hành động vi phạm tự do tôn giáo dẫn đến bắt buộc người Công Giáo phải vi phạm lương tâm để cung cấp phương tiện ngừa thai hoặc phá thai.
+    c. Làm tổn hại đến đời sống hôn nhân là bền vững, trung thành, và phát sinh giữa một người nam và một người nữ, là nền tảng luân lý xã hội và đưa tới lợi ích chung qua việc hợp pháp hôn nhân đồng tính.
+    d. Phương thức giải quyết sự khủng hoảng kinh tế dẫn đến nạn thất nghiệp, nghèo đói, nợ quốc gia, và ảnh hưởng đến những người khốn cùng cho các thế hệ mai sau.
+    e. Sự thất bại trong việc giải quyết vấn đề di dân trên bình diện giúp gia tăng kính trọng luật pháp bảo vệ quyền lợi nhân bản của con người và của những di dân và tị nạn. 
+    f. Phương thức giải quyết chiến tranh, khủng bố, bạo động thiếu công lý, sự an toàn trong thế giới, nhất là tại Trung Đông và Thánh Địa.
+    Tóm kết, chúng ta nên tìm hiểu từng ứng cử viên và chính lương tâm Công giáo của mình để biết phải bỏ phiếu cho ai? Hình ảnh Đức TGM Charles Chaput của Philadelphia đã trả lời dứt khoát rằng: “Lẽ dĩ nhiên, tôi không thể bầu cho một ứng viên phò sự lựa chọn (Pro-choice) hoặc phò phá thai (Pro-abortion)” cũng là khuôn mẫu cho ta.
+    Vậy, chúng ta lắng nghe và tuân theo những hướng dẫn của các chủ chăn, cùng học hiểu, thảo luận dưới ánh sáng đức tin và tham gia bầu cử để xây dựng xã hội, thế giới đã được tín thác cho chúng ta chăm nom ngày càng tốt đẹp hơn.
+    Xin Chúa soi sáng, hướng dẫn và chúc lành cho sự lựa chọn của chúng ta.
+    
+    Thân mến,
+    Lm. Phanxico Trần Quốc Tuấn
+    `
+  },
+  {
+    "Section": "Các Bài Viết",
     "date": "2020-07-19",
     "image": "https://cttdvnatl.net/gallery/img/articles/article-logo.png",
     "title": "Chào Mừng Cha Phó Đaminh Trần Công Thơ",
