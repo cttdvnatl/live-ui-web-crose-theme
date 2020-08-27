@@ -20,7 +20,7 @@ const VietHongTeacherContent = [
     {   
         classification: 'main-teacher',
         image: 'https://cttdvnatl.net/gallery/kgd/viethong/viethong-2020-2021-teacher-04-dang-lan.jpg',
-        name: 'Cô Đặng Lan',
+        name: 'Cô Đặng Xuân Lan',
         email: 'lan.dang@hvmatl.org',
     },
     {   

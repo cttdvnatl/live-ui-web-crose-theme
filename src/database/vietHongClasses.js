@@ -2,7 +2,8 @@ const Classes = [
     {
         name: "vla",
         class: "Vỡ Lòng A",
-        teachers: "Cô Nghiêm Trang",
+        teachers: "Cô Nghiêm X. Đ. Trang",
+        assistants: "Phụ Giáo Phương Hoàng",
         emails: "tnghiem@hvmatl.org",
         classwork: "https://docs.google.com/document/d/e/2PACX-1vTCh9AzyOwuLOxyrC7hwcNMOeUwCUchRPC8UJBNbqPRdoDMQRCJkOJgR2aCqmbLojFRt3TGF4pJfVIi/pub?embedded=true"
     },
@@ -37,7 +38,7 @@ const Classes = [
     {
         name: "2",
         class: "2",
-        teachers: "Cô Dương Hiền, Thầy Nguyễn Tùng",
+        teachers: "Cô Dương Hiền, Thầy Nguyễn Tùng", 
         emails: "hien.duong@hvmatl.org, tung.nguyen@hvmatl.org",
         classwork: "https://docs.google.com/document/d/e/2PACX-1vRnYjKFOD0edheFkTboHZ8q9aLVnBivJF0ps0Dydy_jQ3nNyOy7wJthOc1B-yTGWlJiC-JIzoExjM01/pub?embedded=true"
     },
