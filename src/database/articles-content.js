@@ -23,6 +23,22 @@ const articleContent =
 [
   {
     "Section": "Các Bài Viết",
+    "date": "2020-08-30",
+    "image": "https://cttdvnatl.net/gallery/img/articles/article-2020-08-30.png",
+    "title": "Hiệp Thông Giữa Hai Giáo Hội Việt Nam - Hoa Kỳ",
+    "body":
+    `Chúa Nhật 22 Mùa Thường Niên hằng năm là ngày hiệp thông và cầu nguyện giữa hai giáo hội Việt Nam và Hoa Kỳ. Năm nay là năm thứ 21 về sự kiện lịch sử Kết Giao Huynh Đệ này. Với tâm tình vui mừng, tôi xin được  chia sẻ một vài suy tư trên sự kiện tôn giáo này.
+    Trước tiên, chúng ta cùng nhắc lại khía cạnh lịch sử của sự kiện. Ngày 26 tháng 8 tới ngày 2 tháng 9 năm 1999, Đức Tổng Giám Mục Joseph A. Fiorenza, Chủ Tịch Hội Đồng Giám Mục Hoa Kỳ đã hướng dẫn một phái đoàn gồm các Giám Mục và nhân viên các ủy ban viếng thăm Việt Nam lần đầu tiên sau biến cố 30-4-1975. Trong lần viếng thăm này, Đức cố Hồng Y Phaolô Giuse Phạm Đình Tụng, Chủ Tịch Hội Đồng Giám Mục Việt Nam và là Tổng Giám Mục Hà Nội đã cùng với phái đoàn Hội Đồng Giám Mục Hoa Kỳ chọn Chúa Nhật 22 Thường Niên hằng năm là Ngày hai Giáo Hội đặc biệt cầu nguyện cho nhau trong tình huynh đệ.
+    Kế đến, về mục đích, chúng ta có thể thấy rõ qua tâm tình Đức cố Giám Mục Phaolô Nguyễn Văn Hòa, Chủ Tịch Hội Đồng Giám Mục Việt Nam (Nhiệm Kỳ 2001-2007) trong lá thư gởi cho Đức Giám Mục William S. Skylstad, Chủ Tịch Hội Đồng Giám Mục Hoa Kỳ đã để cập như sau: “Đây thật là ngày đặc biệt để chúng ta củng cố và đổi mới tình hiệp thông huynh đệ giữa hai Giáo Hội nhằm mưu cầu lợi ích cho giáo hội và đất nước của hai quốc gia. Đây cũng là dịp để hai Giáo Hội cầu nguyện nhiều hơn nữa và hành động cho những hoạt động mục vụ của chúng ta để hai Giáo Hội có thể chu toàn sứ mạng là chứng nhân của tình yêu Thiên Chúa dành cho hết mọi người, nhất là những người bị đặt bên lề thế giới và xã hội hôm nay. Nhân dịp ngày hai Giáo Hội cầu nguyện cho nhau. Hội Đồng Giám Mục Việt Nam chúng tôi cũng bày tỏ lời cám ơn chân thành về tình liên đới và quan tâm của Hội Đồng Giám Mục Hoa Kỳ dành cho dân tộc Việt Nam, và đặc biệt dành cho anh chị em Công Giáo Việt Nam tại đất nước chúng tôi cũng như tại Hoa Kỳ.” (Thư ngày 30-8-2007)
+    Sau nữa là chúng ta cần tham dự tích cực Ngày Hiệp Thông Huynh Đệ vào Chúa Nhật 22 Thường Niên, ngày 30-8-2020  này. Ta hãy cùng hiệp ý tạ ơn Thiên Chúa vì sự hiệp thông này để từng người, mỗi gia đình, và giáo xứ chúng ta dâng lời cầu nguyện đặc biệt cho hai Giáo Hội Hoa Kỳ và Việt Nam.
+    Nguyện xin Thiên Chúa bảo vệ và chúc lành cho tình huynh đệ giữa hai Giáo Hội Việt Nam và Hoa Kỳ siết chặt, để qua lời cầu nguyện chúng ta thoát khỏi mọi sự dữ, luôn hiệp thông trong Chúa Kitô và và luôn thăng tiến mãi trong nhịp cầu nối kết này.
+     
+    Thân mến,
+    Phanxicô Trần Quốc Tuấn
+    `
+  },
+  {
+    "Section": "Các Bài Viết",
     "date": "2020-08-23",
     "image": "https://cttdvnatl.net/gallery/img/articles/article-2020-08-23.png",
     "title": "Hướng Dẫn Bầu Cử 2020",
