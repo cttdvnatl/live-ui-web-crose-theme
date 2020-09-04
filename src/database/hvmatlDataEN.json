@@ -94,5 +94,17 @@
         "widget2": {
             "heading": "Contact Us"
         }
+    },
+    "viethong":  {
+        "header": {
+            "item1": "Việt Hồng School",
+            "item2": "Teachers",
+            "item3": "Activities",
+            "item4": "Forms",
+            "item5": "Classes"
+        },
+        "home": {
+            "announcement": "Viet Hong Vietnamese Language School will begin the school year with digital learning on September 12th. News and changes during the school year will be regularly posted in the agenda section of the calendar below."
+        }
     }
 }
