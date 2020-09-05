@@ -23,8 +23,8 @@ const VietHongClassworkPage = ({match}) => {
         <>
         <Header/>
         <VietHongHeader/>
-        <div style={{textAlign: 'center'}}>
-            <iframe width="90%" height="700px" style={{margin: "0", padding: "0", border: "0"}} title="vh" src={iframe.classwork}/>
+        <div class="center-50">
+            <iframe width="80%" height="700px" style={{margin: "0", padding: "0", border: "0"}} title="vh" src={iframe.classwork}/>
         </div>
         <Footer/>
         </>

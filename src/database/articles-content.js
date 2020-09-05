@@ -23,6 +23,22 @@ const articleContent =
 [
   {
     "Section": "Các Bài Viết",
+    "date": "2020-09-06",
+    "image": "https://cttdvnatl.net/gallery/img/articles/article-2020-09-06.png",
+    "title": "Lễ Lao Động và Lễ Hội Mùa Thu 2020",
+    "body":
+    `Hằng năm cứ vào ngày Thứ Hai đầu tiên của tháng 9 là người dân Mỹ được nghỉ Lễ Lao Động. Đây là một trong những dịp lễ lớn của Hoa Kỳ. Lễ Lao Động có hơn 100 năm trước, nhằm mục đích vinh danh những đóng góp của giới lao động cho xứ sở này. Nhiều thói quen được tổ chức trong lễ hội Lao Động bắt nguồn từ lễ hội Hoa Rôma xưa như thu gom các lá, hoa, và cành cây làm vòng hoa đẹp; đội vương miện cho nữ hoàng tháng Năm; tranh tài với các môn thể thao đểu biểu hiện sự tái sinh của mùa Xuân. Ngày nay Lễ Lao Động được tổ chức với diễn hành, ngày họp mặt các gia đình và đánh dấu sự kết thúc không chính thức của mùa Hè.
+    Hòa với tâm tình của ngày Lễ Lao Động, Giáo Xứ chúng ta đã có truyền thống “Đến Hẹn Lại Lên” để chia sẻ tình Gia Đình cũng như lưu truyền tinh thần của ngày Tết Nhi Đồng (Tết Trung Thu) với những trò chơi dân gian cho các thiếu nhi.  Riêng năm nay, do ảnh hưởng của đại dịch Covid-19, chúng ta không thể tổ chức tụ họp như những năm trước, nhưng vẫn cố gắng giữ tinh thần của ngày lễ hội này bằng phương thức của thời đại Kỹ Thuật Số (Livestream/Online).
+    Lễ Hội Mùa Thu 2020 được tổ chức với chủ đề: TUỔI TRẺ để nhắc nhớ chúng ta niềm hi vọng tươi sáng, vì tuổi trẻ luôn hướng về tương lai với những niềm hi vọng thật sáng lạn và thật dài lâu. Đồng thời, tuổi trẻ còn có bầu nhiệt huyết, năng lực học hỏi và phát triển mạnh mẽ trong tương lai. Đó cũng chính là tâm tư, ước vọng, và khả năng phát triển của Giáo Xứ chúng ta.
+    Thêm vào đó, Lễ Hội Mùa Thu năm nay cũng là cơ hội để chúng ta nhìn lại những lần đã tổ chức Lễ Hội Mùa Thu. Chắc chắn, chúng ta không thể chối bỏ được sự chúc lành của Thiên Chúa đối với Giáo Xứ chúng ta trong những lần tổ chức trước. Từ thời tiết cho đến sinh hoạt đều thuận hòa, bình an, và dzui dzẻ. Càng ngày càng có nhiều anh chị em thành viên và kể cả anh chị em không Công giáo tham gia giúp góp trong việc tổ chức.  Kế đến, dù Lễ Hội Mùa Thu Năm nay được tổ chức rất đơn giản trong phương thức mới vì đại dịch, chúng ta vẫn tiếp tục sống tâm tình tạ ơn Thiên Chúa và tri ân mọi người đã đóng góp cho việc tổ chức, nhất là quý  n Nhân, Bảo Trợ, Ban Tổ Chức, và từng tham dự viên.
+    Chúng ta cùng cử hành ngày Lễ Hội Mùa Thu 2020 trong cuối tuần lễ nghỉ Labor Day, cùng chia sẻ niềm vui trong tính cách gia đình, và cùng tạ ơn Thiên  Chúa và cám ơn nhau.  Xin Thiên Chúa tiếp tục chúc lành, ban nhiều ơn lành, và sự bình an cho giáo xứ, từng gia đình và mỗi người chúng ta.
+     
+    Thân mến
+    Lm. Phanxicô Trần Quốc Tuấn 
+    `
+  },
+  {
+    "Section": "Các Bài Viết",
     "date": "2020-08-30",
     "image": "https://cttdvnatl.net/gallery/img/articles/article-2020-08-30.png",
     "title": "Hiệp Thông Giữa Hai Giáo Hội Việt Nam - Hoa Kỳ",

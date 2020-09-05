@@ -28,6 +28,7 @@ import VietHongTeacherPage from './pages/VietHongTeacherPage';
 import VietHongActivitiesPage from './pages/VietHongActivitiesPage';
 import VietHongDocumentsPage from './pages/VietHongDocumentsPage';
 import VietHongClassesPage from './pages/VietHongClassesPage';
+import VietHongClassworkPage from './pages/VietHongClassworkPage';
 import MassSchedule from "./pages/MassSchedule";
 import LearnBible from "./pages/LearnBible";
 import Articles from './pages/Articles';
@@ -37,7 +38,12 @@ import { setLanguage, getLanguage, setTranslations, setDefaultLanguage } from 'r
 import en from './database/hvmatlDataEN.json';
 import vn from './database/hvmatlDataVN.json';
 import CookiePage from './pages/CookiePage';
-import VietHongClassworkPage from './pages/VietHongClassworkPage';
+import GiaoLy from './pages/GiaoLyPage';
+import GiaoLyTeacherPage from './pages/GiaoLyTeacherPage';
+import GiaoLyActivitiesPage from './pages/GiaoLyActivitiesPage';
+import GiaoLyDocumentsPage from './pages/GiaoLyDocumentsPage';
+import GiaoLyClassesPage from './pages/GiaoLyClassesPage';
+import GiaoLyClassworkPage from './pages/GiaoLyClassworkPage';
 
 //Google Analytics
 ReactGA.initialize('UA-166941054-1', {
@@ -110,6 +116,12 @@ const App = () => {
           <Route path="/viet-hong-documents" component={VietHongDocumentsPage}/>
           <Route path="/viet-hong-classes" component={VietHongClassesPage}/>
           <Route path="/viet-hong-classwork/:vietHongClassURL" component={VietHongClassworkPage}/>
+          <Route path="/st-joseph" component={GiaoLy}/>
+          <Route path="/st-joseph-teachers" component={GiaoLyTeacherPage}/>
+          <Route path="/st-joseph-activities" component={GiaoLyActivitiesPage}/>
+          <Route path="/st-joseph-documents" component={GiaoLyDocumentsPage}/>
+          <Route path="/st-joseph-classes" component={GiaoLyClassesPage}/>
+          <Route path="/st-joseph-classwork/:giaoLyClassURL" component={GiaoLyClassworkPage}/>
           <Route path="/Articles" component={Articles}/>
           <Route path="/ArticleDetail/:date" component={ArticleDetail}/>
           <Route path="/cookies" component={CookiePage}/>

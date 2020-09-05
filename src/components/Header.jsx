@@ -211,7 +211,7 @@ const Header = (prop) => {
                                                     <li className="KGD"><a href="http://giaoly.hvmatl.org/">{t("header.dropdownMenuThree.item4")}</a>
                                                         <ul>
                                                             <li>
-                                                                <a href='http://giaoly.hvmatl.org'>{t("header.dropdownMenuThree.subItem1")}</a>
+                                                                <a href='/st-joseph'>{t("header.dropdownMenuThree.subItem1")}</a>
                                                             </li>
                                                             <li>
                                                                 <a href="/VietHong"><i>{t("header.dropdownMenuThree.subItem2")}</i></a>
