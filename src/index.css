@@ -12,3 +12,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+#weeklyNews {
+  height: 250px;
+  width: 380px;
+  background-position: bottom;
+}
