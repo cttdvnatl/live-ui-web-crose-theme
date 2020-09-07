@@ -5,7 +5,7 @@ import Preloader from "../components/Preloader";
 import axios from "axios";
 import PopupModal from "../components/PopupModal";
 const WeeklyNews = () => {
-    const [getData, setData] = useState([]);
+    const [data, setData] = useState([]);
     const [show, setShow] = useState(false);
     const [content, setContent] = useState({});
 
@@ -23,7 +23,7 @@ const WeeklyNews = () => {
         setContent({});
     };
 
-    useEffect(() => {
+    const fetchData = React.useCallback(() => {
         let mtplr;
         const from =  new Date(new Date().setUTCHours(0,0,0,0));
         from.setMonth(from.getUTCMonth()-1, 0);
@@ -49,6 +49,11 @@ const WeeklyNews = () => {
                 }
             }).then(res => setData(Array.isArray(res.data) ? res.data: []));
         })}, []);
+
+    useEffect(() => {
+        fetchData()
+        }, [fetchData]);
+
     return (
         <div>
             <Preloader/>
@@ -65,7 +70,7 @@ const WeeklyNews = () => {
                                 </div>
                             </div>
                             <div className="row about-content justify-content-center">
-                                {getData.map(
+                                {data.map(
                                     (weeklyNews,idx) => new Date(weeklyNews.date).getMonth() + 1 === month ?
                                         <div className="col-12 col-sm-6 col-md-4 col-lg-3" key={idx}>
                                             <div className="about-us-content mb-100">
