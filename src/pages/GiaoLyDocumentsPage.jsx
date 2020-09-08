@@ -15,7 +15,7 @@ const GiaoLyDocumentsPage = () => (
         <div class="section-heading">
             <h2>Văn Thư</h2>
     <br/><br/>
-    <div id="documents" style={{display: 'none'}}>
+    <div id="documents">
         <DisplayDocuments list={giaoLyDocuments}/>
     </div>
         </div>
