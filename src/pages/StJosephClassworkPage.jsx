@@ -5,8 +5,8 @@ import stJosephClasses from '../database/stJosephClasses.js';
 import StJosephHeader from '../components/StJosephHeader';
 
 const StJosephClassworkPage = ({match}) => {
-    const vietHongClassURL = match.params.vietHongClassURL;
-    const iframe = stJosephClasses.find(iframe => iframe.name === vietHongClassURL);
+    const stJosephClassURL = match.params.stJosephClassURL;
+    const iframe = stJosephClasses.find(iframe => iframe.name === stJosephClassURL);
 
     if (!iframe) {
         return (
