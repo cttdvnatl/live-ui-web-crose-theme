@@ -38,12 +38,12 @@ import { setLanguage, getLanguage, setTranslations, setDefaultLanguage } from 'r
 import en from './database/hvmatlDataEN.json';
 import vn from './database/hvmatlDataVN.json';
 import CookiePage from './pages/CookiePage';
-import GiaoLy from './pages/GiaoLyPage';
-import GiaoLyTeacherPage from './pages/GiaoLyTeacherPage';
-import GiaoLyActivitiesPage from './pages/GiaoLyActivitiesPage';
-import GiaoLyDocumentsPage from './pages/GiaoLyDocumentsPage';
-import GiaoLyClassesPage from './pages/GiaoLyClassesPage';
-import GiaoLyClassworkPage from './pages/GiaoLyClassworkPage';
+import StJoseph from './pages/StJosephPage';
+import StJosephTeacherPage from './pages/StJosephTeacherPage';
+import StJosephActivitiesPage from './pages/StJosephActivitiesPage';
+import StJosephDocumentsPage from './pages/StJosephDocumentsPage';
+import StJosephClassesPage from './pages/StJosephClassesPage';
+import StJosephClassworkPage from './pages/StJosephClassworkPage';
 
 //Google Analytics
 ReactGA.initialize('UA-166941054-1', {
@@ -116,12 +116,12 @@ const App = () => {
           <Route path="/viet-hong-documents" component={VietHongDocumentsPage}/>
           <Route path="/viet-hong-classes" component={VietHongClassesPage}/>
           <Route path="/viet-hong-classwork/:vietHongClassURL" component={VietHongClassworkPage}/>
-          <Route path="/st-joseph" component={GiaoLy}/>
-          <Route path="/st-joseph-teachers" component={GiaoLyTeacherPage}/>
-          <Route path="/st-joseph-activities" component={GiaoLyActivitiesPage}/>
-          <Route path="/st-joseph-documents" component={GiaoLyDocumentsPage}/>
-          <Route path="/st-joseph-classes" component={GiaoLyClassesPage}/>
-          <Route path="/st-joseph-classwork/:giaoLyClassURL" component={GiaoLyClassworkPage}/>
+          <Route path="/st-joseph" component={StJoseph}/>
+          <Route path="/st-joseph-teachers" component={StJosephTeacherPage}/>
+          <Route path="/st-joseph-activities" component={StJosephActivitiesPage}/>
+          <Route path="/st-joseph-documents" component={StJosephDocumentsPage}/>
+          <Route path="/st-joseph-classes" component={StJosephClassesPage}/>
+          <Route path="/st-joseph-classwork/:stJosephClassURL" component={StJosephClassworkPage}/>
           <Route path="/Articles" component={Articles}/>
           <Route path="/ArticleDetail/:date" component={ArticleDetail}/>
           <Route path="/cookies" component={CookiePage}/>

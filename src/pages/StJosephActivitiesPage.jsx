@@ -1,17 +1,17 @@
 import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import GiaoLyHeader from '../components/GiaoLyHeader';
+import StJosephHeader from '../components/StJosephHeader';
 
-const GiaoLyActivitiesPage = () => (
+const StJosephActivitiesPage = () => (
     <>
     <Header/>
-    <GiaoLyHeader/>
+    <StJosephHeader/>
     <p></p>
     <br/>
     <div class="col-12">
         <div class="section-heading">
-            <h2>Sinh Hoạt Của Trường Giáo Lý</h2>
+            <h2>Sinh Hoạt Của Trường Thánh Giuse</h2>
         </div>
     </div>
     <div class="section-heading">
@@ -22,4 +22,4 @@ const GiaoLyActivitiesPage = () => (
     </>
 );
 
-export default GiaoLyActivitiesPage;
+export default StJosephActivitiesPage;

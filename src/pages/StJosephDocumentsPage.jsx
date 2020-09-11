@@ -1,14 +1,14 @@
 import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import GiaoLyHeader from '../components/GiaoLyHeader';
-import giaoLyDocuments from '../database/giaoLyDocuments';
+import StJosephHeader from '../components/StJosephHeader';
+import stJosephDocuments from '../database/stJosephDocuments';
 import DisplayDocuments from '../components/DisplayDocuments';
 
-const GiaoLyDocumentsPage = () => (
+const StJosephDocumentsPage = () => (
     <>
     <Header/>
-    <GiaoLyHeader/>
+    <StJosephHeader/>
     <p></p>
     <br/>
         <div class="col-12">
@@ -16,7 +16,7 @@ const GiaoLyDocumentsPage = () => (
             <h2>Văn Thư</h2>
     <br/><br/>
     <div id="documents">
-        <DisplayDocuments list={giaoLyDocuments}/>
+        <DisplayDocuments list={stJosephDocuments}/>
     </div>
         </div>
     </div>
@@ -25,4 +25,4 @@ const GiaoLyDocumentsPage = () => (
     </>
 );
 
-export default GiaoLyDocumentsPage;
+export default StJosephDocumentsPage;

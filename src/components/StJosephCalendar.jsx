@@ -1,7 +1,7 @@
 import React, {useState, useCallback, useEffect} from 'react';
 import ResponsiveEmbed from 'react-bootstrap/ResponsiveEmbed';
 
-const GiaoLyCalendar = (prop) => {
+const StJosephCalendar = (prop) => {
     const [calendar, setCalendar] = useState("");
     const resizeCallback = useCallback(() => {
         setCalendar(window.innerWidth < 800 ?
@@ -22,5 +22,5 @@ const GiaoLyCalendar = (prop) => {
     );
 };
 
-export default GiaoLyCalendar;
+export default StJosephCalendar;
 //https://calendar.google.com/calendar/embed?src=c_dgivr3d12tg5os4klf11vk1770%40group.calendar.google.com&ctz=America%2FNew_York
