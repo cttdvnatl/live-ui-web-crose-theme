@@ -1,23 +1,23 @@
 import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import GiaoLyHeader from '../components/GiaoLyHeader';
-import GiaoLyCalendar from '../components/GiaoLyCalendar';
+import StJosephHeader from '../components/StJosephHeader';
+import StJosephCalendar from '../components/StJosephCalendar';
 
-const GiaoLy = () => {
+const StJoseph = () => {
     return (
         <div>
             <Header/>
-            <GiaoLyHeader/>
+            <StJosephHeader/>
             <br/><br/>
                 <div className="container-fluid text-center">
-                    <h2>Trường Giáo Lý</h2>
+                    <h2>Trường Thánh Giuse</h2>
                     <h3>Vì sự lây lan của coronavirus, tất cả các sinh hoạt của Trường Giáo Lý sẽ được đình chỉ.</h3>
-                    <GiaoLyCalendar/>
+                    <StJosephCalendar/>
                 </div>
             <Footer/>
         </div>
     );
 };
 
-export default GiaoLy;
+export default StJoseph;

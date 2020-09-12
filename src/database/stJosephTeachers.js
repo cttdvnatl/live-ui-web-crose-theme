@@ -1,4 +1,4 @@
-const GiaoLyTeacherContent = [
+const stJosephTeacherContent = [
     {   
         classification: 'main-teacher',
         image: 'http://www.cttdvnatl.net/gallery/img/core-img/BlankPicure.jpg',
@@ -25,4 +25,4 @@ const GiaoLyTeacherContent = [
     },
 ]
 
-export default GiaoLyTeacherContent;
+export default stJosephTeacherContent;

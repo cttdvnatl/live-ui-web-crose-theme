@@ -23,6 +23,24 @@ const articleContent =
 [
   {
     "Section": "Các Bài Viết",
+    "date": "2020-09-13",
+    "image": "https://cttdvnatl.net/gallery/img/articles/article-2020-09-13.png",
+    "title": "Phép Chuẩn Cho Luật Buộc Tham Dự Thánh Lễ Tại Nhà Thờ",
+    "body":
+    `Trước đây, khi lệnh “Đồn Trú Tại Chỗ” (Shelter In Place) của Thống Đốc Tiểu Bang Georgia cũng như Lệnh “Ở Tại Nhà” (Stay Home) của Tổng Thống để tránh lây lan dịch bệnh Covid 19. Đồng thời, tại những nơi công cộng cũng phải tuân thủ không được phép tập trung hơn 10 người, do đó chúng ta không được phép đến nhà thờ để cử hành Thánh lễ, nên Đức cha Giám Quản Joel Konzen và Đức TGM Gregory Hartmayer của Atlanta đã chuẩn luật không buộc phải tới nhà thờ cho mọi tín hữu trong Tổng Giáo Phận Atlanta để dự Lễ ngày Chúa Nhật cũng như những ngày lễ buộc. Thay vào đó, các tín hữu được phép hiệp thông Thánh lễ phát hình trực tiếp (livestream) trên TV hay trực tuyến online, kết hiệp với Chúa Kitô qua việc rước lễ thiêng liêng, và thực hiện những giờ cầu nguyện tại gia đình.
+    Đến nay, chính quyền và cơ quan y tế địa phương đã cho phép chúng ta được đến nhà thờ để cử hành Thánh Lễ và phép chuẩn này đã được giới hạn lại. Nếu những ai không có một trong những lý do dưới đây, buộc phải đến nhà thờ để dự lễ Chúa Nhật và lễ buộc. Cụ thể là:
+    -         Nếu quý vị cao niên (trên 65) hoặc đau yếu, đặc biệt là có dấu hiệu hoặc bị nhiệm dịch bệnh Covid 19, xin ở lại nhà và vui lòng cách ly chính mình ra khỏi mọi người.
+    -         Nếu quý vị có bệnh nền hoặc là bệnh tiềm ẩn kinh niên như cao máu, cao mỡ, tiểu đường, hen xuyễn, v.v. , sẽ dẫn đến khả năng nguy hiểm tính mạng cao khi bị lây nhiễm Virus Corona.
+    -         Nếu quý vị thực sự sợ hãi bị lây bệnh, thì ở nhà. Điều kiện thực sự sợ hãi này được hiểu như thế nào cho phù hợp và thỏa đáng? Theo tôi, nếu anh chị em vẫn có thể đi làm, có thể đi mua sắm, có thể đi tiệc tùng hoặc ra ngoài ăn tại nhà hàng, điều đó có nghĩa là anh chị em không thực sự sợ hãi. Thực vậy, nếu anh chị em có thể ăn lương thực trần thế tại nhà hàng, thì ta cũng có thể tới nhà thờ để lãnh nhận Mình, Máu Thánh Chúa, và thần tính của Chúa Giêsu trong phép Bí tích Thánh Thể được.
+    Giáo xứ của chúng ta sẵn sàng chào đón anh chị em trở lại cử hành các bí tích, đặc biệt là Thánh lễ.  Giáo Xứ cũng chuẩn bị chu đáo với những biện pháp phòng ngừa an toàn theo hướng dẫn của các chính phủ và các cơ quan y tế để anh chị em có thể an toàn khi đến thờ phượng Chúa và được trực tiếp nuôi dưỡng nơi bàn tiệc Lời Chúa và Bàn Tiệc Thánh Thể.
+     
+    Chúng tôi rất nhớ và trông mong được gặp lại anh chị em tại Nhà Thờ các cuối tuần để chúng ta cùng cử hành phụng vụ và cùng chia sẻ niềm vui, tình gia đình, và tạ ơn Chúa.  Xin Chúa chúc lành cho anh chị em.
+    Thân mến,
+    Lm. Phanxico Trần Quốc Tuấn
+    `
+  },
+  {
+    "Section": "Các Bài Viết",
     "date": "2020-09-06",
     "image": "https://cttdvnatl.net/gallery/img/articles/article-2020-09-06.png",
     "title": "Lễ Lao Động và Lễ Hội Mùa Thu 2020",

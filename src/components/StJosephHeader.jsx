@@ -1,9 +1,9 @@
 import React from 'react';
 
-const GiaoLyHeader = () => (
+const StJosephHeader = () => (
     <>
     <div id="viet-hong-header">
-        <a href="/st-joseph">Trường Giáo Lý</a>
+        <a href="/st-joseph">Trường Thánh Giuse</a>
         <a href="/st-joseph-teachers">Thầy Cô</a>
         <a href="/st-joseph-activities">Sinh Hoạt</a>
         <a href="/st-joseph-documents">Văn Thư</a>
@@ -12,4 +12,4 @@ const GiaoLyHeader = () => (
     </>
 );
 
-export default GiaoLyHeader;
+export default StJosephHeader;
