@@ -106,5 +106,18 @@
         "home": {
             "announcement": "Viet Hong Vietnamese Language School will begin the school year with digital learning on September 12th. News and changes during the school year will be regularly posted in the agenda section of the calendar below."
         }
+    },
+    "stjoseph":  {
+        "header": {
+            "item1": "St. Joseph School",
+            "item2": "Teachers",
+            "item3": "Activities",
+            "item4": "Forms",
+            "item5": "Classes"
+        },
+        "home": {
+            "title": "St. Joseph School",
+            "announcement": "St. Joseph Catholic School will begin the school year with digital learning on September 12th. News and changes during the school year will be regularly posted in the agenda section of the calendar below."
+        }
     }
 }

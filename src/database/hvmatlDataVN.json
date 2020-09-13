@@ -106,5 +106,18 @@
         "home": {
             "announcement": "Trường Việt Ngữ Việt Hồng sẽ bắt đầu niên học bằng digital learning vào ngày 12 tháng 9. Tin tức và thay đổi trong niên học sẽ được cập nhật thường xuyên ở phần agenda trong lịch ở dưới."
         }
+    },
+    "stjoseph":  {
+        "header": {
+            "item1": "Trường Thánh Giuse",
+            "item2": "Thầy Cô",
+            "item3": "Sinh Hoạt",
+            "item4": "Văn Thư",
+            "item5": "Các Lớp"
+        },
+        "home": {
+            "title": "Trường Thánh Giuse",
+            "announcement": "Trường Thánh Giuse sẽ bắt đầu niên học bằng digital learning vào ngày 12 tháng 9. Tin tức và thay đổi trong niên học sẽ được cập nhật thường xuyên ở phần agenda trong lịch ở dưới."
+        }
     }
 }
