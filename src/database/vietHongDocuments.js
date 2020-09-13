@@ -2,7 +2,7 @@ const vietHongDocuments = [
     {   
         fileName: 'Parent Handbook',
         downloadFile: 'https://cttdvnatl.net/gallery/kgd/viethong/viethong-2020-2021-docs-parent-handbook.pdf',
-        description: 'Sổ Tay Phụ Huynh',
+        description: 'Sổ Tay Phụ Huynh 2020-2021',
     },
     {   
         fileName: 'School Policies for Parents',
