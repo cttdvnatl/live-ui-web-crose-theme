@@ -2,7 +2,7 @@ const vietHongDocuments = [
     {   
         fileName: 'Parent Handbook',
         downloadFile: 'https://cttdvnatl.net/gallery/kgd/viethong/viethong-2020-2021-docs-parent-handbook.pdf',
-        description: 'Sổ Tay Phụ Huynh',
+        description: 'Sổ Tay Phụ Huynh 2020-2021',
     },
     {   
         fileName: 'School Policies for Parents',
@@ -18,6 +18,11 @@ const vietHongDocuments = [
         fileName: 'Vietnamese Language Program Objectives',
         downloadFile: 'https://cttdvnatl.net/gallery/kgd/viethong/viethong-2020-2021-docs-program-objectives.pdf',
         description: 'Chương Trình Giảng Dạy Việt Ngữ',
+    },
+    {   
+        fileName: 'Typing in Vietnamese Using Telex Tutorial',
+        downloadFile: 'https://cttdvnatl.net/gallery/kgd/viethong/viethong-2020-2021-docs-typing-vietnamese-using-telex.pdf',
+        description: 'Hướng Dẫn Đánh Chữ Tiếng Việt Bằng Telex',
     },
     {   
         fileName: '2020-2021 School Year Calendar',
