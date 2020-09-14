@@ -20,6 +20,11 @@ const vietHongDocuments = [
         description: 'Chương Trình Giảng Dạy Việt Ngữ',
     },
     {   
+        fileName: 'Typing in Vietnamese Using Telex Tutorial',
+        downloadFile: 'https://cttdvnatl.net/gallery/kgd/viethong/viethong-2020-2021-docs-typing-vietnamese-using-telex.pdf',
+        description: 'Hướng Dẫn Đánh Chữ Tiếng Việt Bằng Telex',
+    },
+    {   
         fileName: '2020-2021 School Year Calendar',
         downloadFile: 'https://cttdvnatl.net/gallery/kgd/viethong/viethong-2020-2021-docs-school-year-calendar.pdf',
         description: 'Lịch Trình Niên Học 2020-2021',

@@ -31,6 +31,12 @@ const VietHongTeacherContent = [
     },
     {   
         classification: 'main-teacher',
+        image: 'https://cttdvnatl.net/gallery/kgd/viethong/viethong-2020-2021-teacher-32-do-hoang-minh.jpg',
+        name: 'Thầy Đỗ Hoàng Minh',
+        email: 'minh.hoang.do@hvmatl.org',
+    },
+    {   
+        classification: 'main-teacher',
         image: 'https://cttdvnatl.net/gallery/kgd/viethong/viethong-2020-2021-teacher-06-ha-thuy.jpg',
         name: 'Cô Hà Thúy',
         email: 'thuy.ha@hvmatl.org',
@@ -76,12 +82,14 @@ const VietHongTeacherContent = [
         image: 'https://cttdvnatl.net/gallery/kgd/viethong/viethong-2020-2021-teacher-14-nguyen-huynh-anne.jpg',
         name: 'Cô Nguyễn Huỳnh Anne',
         email: 'anne.nguyen@hvmatl.org',
-    },    {   
+    },    
+    {   
         classification: 'main-teacher',
         image: 'https://cttdvnatl.net/gallery/kgd/viethong/viethong-2020-2021-teacher-15-nguyen-huu-duc-sh.jpg',
         name: 'Thầy Nguyễn Hữu Đức',
         email: 'duc.huu.nguyen@hvmatl.org',
-    },    {   
+    },    
+    {   
         classification: 'main-teacher',
         image: 'https://cttdvnatl.net/gallery/kgd/viethong/viethong-2020-2021-teacher-16-nguyen-huu-toan.jpg',
         name: 'Thầy Nguyễn Hữu Toàn',
