@@ -6,11 +6,11 @@ const StJosephHeader = () => {
     return (
         <>
         <div id="viet-hong-header">
-                <a href="/viethong">{t('stjoseph.header.item1')}</a>
-                <a href="/viet-hong-teachers">{t('stjoseph.header.item2')}</a>
-                <a href="/viet-hong-activities">{t('stjoseph.header.item3')}</a>
-                <a href="/viet-hong-documents">{t('stjoseph.header.item4')}</a>
-                <a href="/viet-hong-classes">{t('stjoseph.header.item5')}</a>
+                <a href="/st-joseph">{t('stjoseph.header.item1')}</a>
+                <a href="/st-joseph-teachers">{t('stjoseph.header.item2')}</a>
+                <a href="/st-joseph-activities">{t('stjoseph.header.item3')}</a>
+                <a href="/st-joseph-documents">{t('stjoseph.header.item4')}</a>
+                <a href="/st-joseph-classes">{t('stjoseph.header.item5')}</a>
             </div>
         </>
     );
