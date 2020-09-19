@@ -30,9 +30,10 @@ const ContactPage = () => (
                                     </div>
                                     <div className="col-12 col-md-4">
                                         <div className="contact-content contact-information">
-                                            <h4>Office Opening Hours</h4>
-                                            <p>Mon-Sat: 9 am - 5 pm</p>
-                                            <p>Sunday: 9:30 am - 3:30 pm </p>
+                                            <h5>Parish Office Opening Hours</h5>
+                                            <p>Mon-Sat: 9:30am - 12:30pm || 1:30pm - 5pm</p>
+                                            <h5>Finance Office Opening Hours</h5>
+                                            <p>Mon-Sat: 9:30am - 2:30pm, Sun 9:00am - 5pm</p>
                                         </div>
                                     </div>
                                 </div>

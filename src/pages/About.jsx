@@ -16,7 +16,7 @@ const About = () => {
                                 <div className="about-content">
                                     <a href="img/bg-img/meaning_symbol.jpg"><img src="img/core-img/Logo1.png" alt=""/></a>
                                     <p style={{textAlign:"center"}}><i>
-                                        <a href="img/bg-img/vietsym.jpg" style={{color:"#850000"}}>Ý nghĩa dấu hiệu</a> / <a href="img/bg-img/engsym.jpg" style={{color:"#850000"}}>Significant Symbol</a></i>
+                                        <a href="img/bg-img/vietsym.jpg" style={{color:"#850000"}}>Ý nghĩa dấu biểu tượng</a> / <a href="img/bg-img/engsym.jpg" style={{color:"#850000"}}>Significant Symbol</a></i>
                                     </p>
                                 </div>
                         </div>
