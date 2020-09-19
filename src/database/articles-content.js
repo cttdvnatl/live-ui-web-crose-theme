@@ -23,6 +23,24 @@ const articleContent =
 [
   {
     "Section": "Các Bài Viết",
+    "date": "2020-09-20",
+    "image": "https://cttdvnatl.net/gallery/img/articles/article-2020-09-20.png",
+    "title": "Bổn Mạng Đoàn Thiếu Nhi Thánh Thể Tôma Trần Văn Thiện",
+    "body":
+    `Đoàn TNTT Giáo Xứ chúng ta nhận thánh Tôma Trần Văn Thiện được mừng kính ngày 21 tháng 9 làm bổn mạng. Năm nay, đại dịch Covid-19 không cho phép các con em tổ chức mừng lễ long trọng như mọi năm, nhưng các em vẫn mừng lễ kính thánh bổn mạng trong tinh thần đơn sơ và cầu nguyện. Cụ thể Đoàn TNTT sẽ cùng dâng lễ và có chương trình mừng Lễ Bổn Mạng trực tuyến.
+    Hòa trong niềm vui toàn thể Giáo Hội, cách riêng Giáo Hội Việt Nam, nhất là cùng với con em chúng ta cùng mừng kính Thánh Tôma Trần Văn Thiện. Đồng thời, đây cũng là cơ hội để nhắc nhớ chúng ta đôi chút về Đoàn TNTT của Giáo Xứ và vị thánh bổn mạng này.
+    Trước hết, ta cùng tìm hiểu sơ lược về Thánh Tôma Trần Văn Thiện (1820 – 1838). Thánh nhân được sanh ra năm 1820 tại Trung Quán, Quảng Bình, ngài là một chủng sinh và thầy giảng. Ngài thụ huấn với Hội Thừa Sai Balê, và bị bắt đang lúc chuẩn bị được vào chủng viện học để thụ phong linh mục. Sau khi bị đánh đòn, ngài bị xử giảo (thắt cổ) chết lúc mới có 18 tuổi. Ngài chết 21 tháng 9 năm 1838, tại Nhan Biều. Ngài được Phong Á Thánh năm 1900 và phong hiển thánh ngày 19 tháng 6 năm 1988. Giáo Hội mừng lễ kính Thánh Tôma Thiện ngày 21/09.
+    Kế đến, ta cùng tìm hiểu về Phong Trào Thiếu Nhi Thánh Thể. Như chúng ta biết, phong trào được khai sinh năm 1915 để cầu nguyện cho hòa bình vào thời kỳ đen tối và bạo lực của đầu thế chiến thứ  I. Cho tới nay, Phong Trào Giới Trẻ Thánh Thể vẫn là phân bộ của Phong Trào Tông Đồ Cầu Nguyện do các cha Dòng Tên khởi xướng và đang hiện diện tại 56 quốc gia trên thế giới, với hơn 1 triệu 100 ngàn đoàn viên, tuổi từ 5 đến 25 trong đó có PTTNTT Việt Nam tại Hoa Kỳ và Phong Trào Thiếu Nhi Thánh Thể tại Việt Nam. Nói đến đây, ta không thể quên được rất nhiều quý ông bà anh chị em đã từng là thành viên trẻ của Hội Tông Đồ Cầu Nguyện dưới tên: Nghĩa Binh Thánh Thể - là đạo binh cầu nguyện của Đức Hoàng.
+    Sau nữa là Đoàn TNTT Tôma Trần Văn Thiện thân yêu tại Giáo Xứ. Đoàn được thành lập tại Giáo Xứ Holy Cross với khoảng 100 em, cho đến nay số đoàn sinh là 1125 em, 80 huynh trưởng, 45 trợ tá. Thánh Tôma Trần Văn Thiện được chọn làm thánh bổn mạng để chuyển cầu cho Đoàn cũng như các thành viên sẽ noi theo gương ngài trong đời sống kiên cường giữ vững đức tin qua việc: “Sống Ngày Thánh Thể” nghĩa là gắn kết cuộc đời và từng ngày sống với Chúa Giêsu Thánh Thể qua 4 khẩu hiệu: Cầu Nguyện, Rước lễ, Hy Sinh, và Làm Việc Tông Đồ. Cụ thể bắt đầu ngày sống bằng việc Dâng Ngày, nối kết với Chúa Giêsu Thánh Thể qua việc Dâng Lễ và Rước Lễ. Trong ngày sống sẽ rước lễ thiêng liêng, làm những hi sinh, hiệp ý cầu nguyện cùng Đức Thánh Cha trong việc truyền giáo; tối đến kiểm điểm ngày sống qua giờ Kinh Tối và dâng đêm với tất cả thành quả đạo đức trong ngày sống.
+    Chúng ta cùng hợp ý với Đoàn Thiếu Nhi Thánh Thể để tạ ơn Thiên Chúa trong dịp mừng bổn mạng. Chúng ta cũng nhớ đến Phong Trào Nghĩa Binh Thánh Thể là tiền thân của Phong Trào Thiếu Nhi Thánh Thể mà rất nhiều quý ông bà anh chị em khi còn trẻ đã từng tham gia và sinh hoạt. Chúng ta cùng cầu nguyện và nâng đỡ Phong Trào Thiếu Nhi Thánh Thể là “cái nôi” để đào tạo ơn gọi linh mục tu sĩ này.
+    Nguyện xin Chúa Giêsu Thánh Thể chúc lành cho Phong Trào Thiếu Nhi Thánh Thể nói chung và nhất là Đoàn TNTT Tôma Thiện là con em của chúng ta nhân dịp mừng lễ Bổn Mạng năm nay.
+     
+    Thân mến
+    Lm. Phanxicô Trần Quốc Tuấn
+    `
+  },
+  {
+    "Section": "Các Bài Viết",
     "date": "2020-09-13",
     "image": "https://cttdvnatl.net/gallery/img/articles/article-2020-09-13.png",
     "title": "Phép Chuẩn Cho Luật Buộc Tham Dự Thánh Lễ Tại Nhà Thờ",
