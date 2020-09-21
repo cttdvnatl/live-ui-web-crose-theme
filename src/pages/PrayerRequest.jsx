@@ -14,6 +14,7 @@ const PrayerRequest = () => {
         const prayerReq = getPrayerReq;
         prayerReq[prop] = event.target.value;
         setPrayerReq(prayerReq);
+        console.log(JSON.stringify(getPrayerReq));
     }
     const submit = () => {
         axios.post('https://hvmatl-backend.herokuapp.com/authentication', {
