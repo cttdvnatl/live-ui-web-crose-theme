@@ -4,7 +4,12 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 
 const PrayerRequest = () => {
-    const [getPrayerReq, setPrayerReq] = useState({});
+    const [getPrayerReq, setPrayerReq] = useState({
+        fullName: "",
+        email:"",
+        phone:"",
+        message:""
+    });
     const formChangeHandler = (event, prop) => {
         const prayerReq = getPrayerReq;
         prayerReq[prop] = event.target.value;
