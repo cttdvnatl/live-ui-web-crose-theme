@@ -26,8 +26,8 @@ const PrayerRequest = () => {
             password: 'anonymous'
         }).then(auth => {
             axios({
-                method: 'GET',
-                url:'https://hvmatl-backend.herokuapp.com/prayerReq',
+                method: 'POST',
+                url:'https://hvmatl-backend.herokuapp.com/prayerRequest',
                 headers: {
                     'Authorization': `Bearer ${auth.data.token}`
                 },
