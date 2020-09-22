@@ -20,6 +20,7 @@ import Forms from "./pages/forms";
 import WeeklyNews from "./pages/WeeklyNews";
 import Contact from "./pages/ContactPage";
 import PrayerRequest from "./pages/PrayerRequest";
+import PrayerRequestList from "./pages/PrayerRequestList";
 import History from './pages/HistoryPage';
 import PrintedCalendarPage from './pages/PrintedCalendarPage';
 import FallFestPage from './pages/FallFestPage';
@@ -104,6 +105,7 @@ const App = () => {
           <Route path="/weeklyNews" component={WeeklyNews}/>
           <Route path="/contact" component={Contact}/>
           <Route path="/PrayerRequest" component={PrayerRequest}/>
+          <Route path="/PrayerRequestList" component={PrayerRequestList}/>
           <Route path="/history" component={History}/>
           <Route path="/printed-calendar" component={PrintedCalendarPage}/>
           <Route path="/fall-fest" component={FallFestPage}/>
