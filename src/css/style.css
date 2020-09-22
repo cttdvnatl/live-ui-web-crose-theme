@@ -1999,12 +1999,12 @@ a.nav-brand > img {
   height: 50px;
   width: 100%;
   background-color: #ffffff;
-  font-size: 12px;
+  font-size: 14px;
   margin-bottom: 30px;
   border: 1px solid #ebebeb;
   border-radius: 2px;
   padding: 15px 30px;
-  color: #bbbbbb;
+  /*color: #bbbbbb;*/
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms; }
   .contact-form-area .form-control:focus {
