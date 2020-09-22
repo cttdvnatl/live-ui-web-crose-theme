@@ -2,8 +2,18 @@ import React, {useState} from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import axios from "axios";
+import Modal from "react-bootstrap/Modal";
+import Button from "react-bootstrap/Button";
 
-const PrayerRequest = (props) => {
+const PrayerRequest = () => {
+    const [show, setShow] = useState(false);
+    const [modalContent, setModalContent] = useState({
+        title:"",
+        content:""
+    })
+    const onHide = () => {
+        setShow(false);
+    }
     const [getPrayerReq, setPrayerReq] = useState({
         memberId:"",
         fullName: "",
@@ -30,7 +40,19 @@ const PrayerRequest = (props) => {
                 headers: {
                     'Authorization': `Bearer ${auth.data.token}`,
                 }
-            }).then(() => props.history.push("/"));
+            }).then(() => {
+                setShow(true);
+                setModalContent({
+                    title: "Success",
+                    content: "Prayer Request Submitted !"
+                });
+            }).catch(() => {
+                setShow(true);
+                setModalContent({
+                    title: "Failed",
+                    content: "Prayer Request Failed To Submit. Please try again later"
+                });
+            });
         });
     }
 
@@ -109,6 +131,19 @@ const PrayerRequest = (props) => {
                 </div>
             </div>
             <Footer />
+            <Modal show={show} size="sm" centered onHide={onHide}>
+                <Modal.Header closeButton>
+                    <Modal.Title>
+                        <h3>{modalContent.title}</h3>
+                    </Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                    <h5 className="text-center">{modalContent.content}</h5>
+                </Modal.Body>
+                    <Modal.Footer>
+                        <Button href="/PrayerRequest" bsPrefix="crose-btn">OK</Button>
+                    </Modal.Footer>
+            </Modal>
         </div>
     );
 }
