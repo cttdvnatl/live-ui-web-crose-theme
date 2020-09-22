@@ -44,7 +44,7 @@ const PrayerReqForm = (props) => {
                     <div className="col-12">
                         <div className="form-group">
                             <label htmlFor="message">Prayer Request*:</label>
-                            <textarea className="form-control" name="message" onChange={(e) => formChangeHandler(e, "message")} value={getPrayerReq.message} id="message" cols="30" rows="10" placeholder="Message"/>
+                            <textarea className="form-control" name="message" onChange={(e) => props.onchange(e, "message")} value={props.value.message} id="message" cols="30" rows="10" placeholder="Message"/>
                         </div>
                     </div>
                     <div className="col-12 text-center">
