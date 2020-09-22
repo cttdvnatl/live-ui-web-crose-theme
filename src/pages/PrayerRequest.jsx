@@ -3,7 +3,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import axios from "axios";
 
-const PrayerRequest = () => {
+const PrayerRequest = (props) => {
     const [getPrayerReq, setPrayerReq] = useState({
         memberId:"",
         fullName: "",
@@ -17,25 +17,22 @@ const PrayerRequest = () => {
         const prayerReq = getPrayerReq;
         prayerReq[prop] = event.target.value;
         setPrayerReq(prayerReq);
-        console.log(JSON.stringify(getPrayerReq));
     }
 
-    const submit = () => {
+    const submit = (event) => {
+        event.preventDefault();
+        console.log("Calling submit...");
         axios.post('https://hvmatl-backend.herokuapp.com/authentication', {
             username: 'anonymous',
             password: 'anonymous'
         }).then(auth => {
-            axios({
-                method: 'POST',
-                url:'https://hvmatl-backend.herokuapp.com/prayerRequest',
+            axios.post('https://hvmatl-backend.herokuapp.com/prayerRequest', getPrayerReq, {
                 headers: {
-                    'Authorization': `Bearer ${auth.data.token}`
-                },
-                data: getPrayerReq
-            }).then(res => {
-                this.props.route.history.push("/");
-            });
-        })}
+                    'Authorization': `Bearer ${auth.data.token}`,
+                }
+            }).then(() => props.history.push("/"));
+        });
+    }
 
     return (
         <div>
@@ -53,7 +50,7 @@ const PrayerRequest = () => {
                     <div className="row">
                         <div className="col-12">
                             <div className="contact-form-area">
-                                <form action="" method="POST">
+                                <form onSubmit={submit}>
                                     <div className="row">
                                         <div className="col-12 col-lg-4 col-md-6 col-sm-12">
                                             <div className="form-group">
@@ -102,7 +99,7 @@ const PrayerRequest = () => {
                                             </div>
                                         </div>
                                         <div className="col-12 text-center">
-                                            <button type="submit" value="Send" onClick={submit} className="crose-btn mt-15">Submit Now</button>
+                                            <button value="submit" className="crose-btn mt-15">Submit Now</button>
                                         </div>
                                     </div>
                                 </form>
