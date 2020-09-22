@@ -16,7 +16,7 @@ const PrayerRequest = () => {
     }
     const [getPrayerReq, setPrayerReq] = useState({
         memberId:"",
-        fullName: "",
+        name: "",
         email:"",
         phone:"",
         message:"",
@@ -31,7 +31,6 @@ const PrayerRequest = () => {
 
     const submit = (event) => {
         event.preventDefault();
-        console.log("Calling submit...");
         axios.post('https://hvmatl-backend.herokuapp.com/authentication', {
             username: 'anonymous',
             password: 'anonymous'
@@ -89,13 +88,13 @@ const PrayerRequest = () => {
                                         <div className="col-12 col-lg-4 col-md-6 col-sm-12">
                                             <div className="form-group">
                                                 <label htmlFor="phone">Phone:</label>
-                                                <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" onChange={(e) => formChangeHandler(e, "phone")} className="form-control" id="contact-number" placeholder="(404) 000 0000"/>
+                                                <input type="tel" name="phone" pattern="[0-9]{10}" onChange={(e) => formChangeHandler(e, "phone")} className="form-control" id="contact-number" placeholder="(404) 000 0000"/>
                                             </div>
                                         </div>
                                         <div className="col-12 col-lg-4 col-md-6 col-sm-12">
                                             <div className="form-group">
                                                 <label htmlFor="name">Pray For*:</label>
-                                                <input type="text" name="name" onChange={(e) => formChangeHandler(e, "fullName")} className="form-control" id="contact-name" placeholder="Full Name" required/>
+                                                <input type="text" name="name" onChange={(e) => formChangeHandler(e, "name")} className="form-control" id="contact-name" placeholder="Full Name" required/>
                                             </div>
                                         </div>
                                         <div className="col-12 col-lg-4 col-md-6 col-sm-12">
