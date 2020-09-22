@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import axios from 'axios';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import PrayerReqForm from '../components/PrayerRequestForm';
@@ -17,22 +16,6 @@ const PrayerRequest = () => {
         setPrayerReq(prayerReq);
         console.log(JSON.stringify(getPrayerReq));
     }
-    const submit = () => {
-        axios.post('https://hvmatl-backend.herokuapp.com/authentication', {
-            username: 'anonymous',
-            password: 'anonymous'
-        }).then(auth => {
-            axios({
-                method: 'GET',
-                url:'https://hvmatl-backend.herokuapp.com/prayerReq',
-                headers: {
-                    'Authorization': `Bearer ${auth.data.token}`
-                },
-                data: getPrayerReq
-            }).then(res => {
-                this.props.route.history.push("/");
-            });
-        })}
 
     return (
         <div>

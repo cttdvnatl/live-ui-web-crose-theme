@@ -1,6 +1,24 @@
 import React from 'react';
+import axios from "axios";
 
 const PrayerReqForm = (props) => {
+    const submit = () => {
+        axios.post('https://hvmatl-backend.herokuapp.com/authentication', {
+            username: 'anonymous',
+            password: 'anonymous'
+        }).then(auth => {
+            axios({
+                method: 'GET',
+                url:'https://hvmatl-backend.herokuapp.com/prayerReq',
+                headers: {
+                    'Authorization': `Bearer ${auth.data.token}`
+                },
+                data: props.value
+            }).then(res => {
+                this.props.route.history.push("/");
+            });
+        })}
+
     return (
         <div className="contact-form-area">
             <form action="" method="POST">
