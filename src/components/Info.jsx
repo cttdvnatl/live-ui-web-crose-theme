@@ -6,36 +6,36 @@ const Info = (prop) => {
     const t = useTranslation()
     const [latestWeeklyNew, setLatestWeeklyNew] = useState({});
 
-    const fetchData = React.useCallback(() => {
-        let mtplr;
-        const from =  new Date(new Date().setUTCHours(0,0,0,0));
-        from.setMonth(from.getUTCMonth()-1, 0);
-        if([2, 3].includes(new Date().getUTCMonth() + 1)) {
-            mtplr = from.getUTCFullYear() % 4 === 0 ? 31+29 : 31+28;
-        } else {
-            mtplr = from.getUTCMonth() + 1 === 8 ? 62 : 61;
-        }
-        const to = new Date(from.getTime() + mtplr * 86400000);
-        axios.post('https://hvmatl-backend.herokuapp.com/authentication', {
-            username: 'anonymous',
-            password: 'anonymous'
-        }).then(auth => {
-            axios({
-                method: 'GET',
-                url:'https://hvmatl-backend.herokuapp.com/weeklyNews',
-                headers: {
-                    'Authorization': `Bearer ${auth.data.token}`
-                },
-                params:{
-                    from: from,
-                    to: to
-                }
-            }).then(res => setLatestWeeklyNew(res.data[0] || {}));
-        })}, []);
-
-    useEffect(() => {
-        fetchData()
-        }, [fetchData]);
+    // const fetchData = React.useCallback(() => {
+    //     let mtplr;
+    //     const from =  new Date(new Date().setUTCHours(0,0,0,0));
+    //     from.setMonth(from.getUTCMonth()-1, 0);
+    //     if([2, 3].includes(new Date().getUTCMonth() + 1)) {
+    //         mtplr = from.getUTCFullYear() % 4 === 0 ? 31+29 : 31+28;
+    //     } else {
+    //         mtplr = from.getUTCMonth() + 1 === 8 ? 62 : 61;
+    //     }
+    //     const to = new Date(from.getTime() + mtplr * 86400000);
+    //     axios.post('https://hvmatl-backend.herokuapp.com/authentication', {
+    //         username: 'anonymous',
+    //         password: 'anonymous'
+    //     }).then(auth => {
+    //         axios({
+    //             method: 'GET',
+    //             url:'https://hvmatl-backend.herokuapp.com/weeklyNews',
+    //             headers: {
+    //                 'Authorization': `Bearer ${auth.data.token}`
+    //             },
+    //             params:{
+    //                 from: from,
+    //                 to: to
+    //             }
+    //         }).then(res => setLatestWeeklyNew(res.data[0] || {}));
+    //     })}, []);
+    //
+    // useEffect(() => {
+    //     fetchData()
+    //     }, [fetchData]);
 
     return(
         <section className="about-area section-padding-100-0">
