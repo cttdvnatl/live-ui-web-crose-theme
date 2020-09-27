@@ -1,7 +1,10 @@
 import React, {useEffect, useState} from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import Preloader from "../components/Preloader";
+import Preloader from '../components/Preloader';
+import {connect} from 'react-redux';
+import * as actionType from '../store/actionType';
+
 import axios from "axios";
 import PopupModal from "../components/PopupModal";
 const WeeklyNews = () => {
@@ -23,36 +26,21 @@ const WeeklyNews = () => {
         setContent({});
     };
 
-    const fetchData = React.useCallback(() => {
-        let mtplr;
-        const from =  new Date(new Date().setUTCHours(0,0,0,0));
-        from.setMonth(from.getUTCMonth()-1, 0);
-        if([2, 3].includes(new Date().getUTCMonth() + 1)) {
-            mtplr = from.getUTCFullYear() % 4 === 0 ? 31+29 : 31+28;
-        } else {
-            mtplr = from.getUTCMonth() + 1 === 8 ? 62 : 61;
-        }
-        const to = new Date(from.getTime() + mtplr * 86400000);
-        axios.post('https://hvmatl-backend.herokuapp.com/authentication', {
-            username: 'anonymous',
-            password: 'anonymous'
-        }).then(auth => {
-            axios({
-                method: 'GET',
-                url:'https://hvmatl-backend.herokuapp.com/weeklyNews',
-                headers: {
-                    'Authorization': `Bearer ${auth.data.token}`
-                },
-                params:{
-                    from: from,
-                    to: to
-                }
-            }).then(res => setData(Array.isArray(res.data) ? res.data: []));
-        })}, []);
-
     useEffect(() => {
-        fetchData()
-        }, [fetchData]);
+        if((props.token!== undefined && props.token !== '') &&
+        (props.data === undefined || props.data.length === 0)) {
+            let mtplr;
+            const from =  new Date(new Date().setUTCHours(0,0,0,0));
+            from.setMonth(from.getUTCMonth()-1, 0);
+            if([2, 3].includes(new Date().getUTCMonth() + 1)) {
+                mtplr = from.getUTCFullYear() % 4 === 0 ? 31+29 : 31+28;
+            } else {
+                mtplr = from.getUTCMonth() + 1 === 8 ? 62 : 61;
+            }
+            const to = new Date(from.getTime() + mtplr * 86400000);
+            (async () => (await props.getWeeklyNews(props.token, from, to)))();
+        }
+    }, [props]);
 
     return (
         <div>
@@ -92,4 +80,23 @@ const WeeklyNews = () => {
     );
 };
 
-export default WeeklyNews;
+const mapStateToProps = (state) => ({
+    token: state.auth.token,
+    data: state.weeklyNews.data,
+    showPopup: state.weeklyNews.showPopup
+});
+
+const mapDispatchToProps = (dispatch) => ({
+    getWeeklyNews: (token, fromDate, toDate) =>
+        axios.get('https://hvmatl-backend.herokuapp.com/weeklyNews', {
+            headers: {
+                'Authorization': `Bearer ${token}`
+            },
+            params:{
+                from: fromDate,
+                to: toDate
+            }
+        }).then(res => dispatch({type: actionType.GET_WEEKLY_NEWS, data: res.data})),
+    toggleModal: () => dispatch({type: actionType.TOGGLE_WEEKLY_NEWS_POPUP})
+})
+export default connect(mapStateToProps, mapDispatchToProps)(WeeklyNews);

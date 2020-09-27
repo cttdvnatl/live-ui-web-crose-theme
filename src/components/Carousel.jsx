@@ -1,32 +1,24 @@
-import React, {useEffect, useState} from "react";
+import React, {useEffect} from "react";
+import {connect} from 'react-redux';
+import * as actionType from '../store/actionType';
 import axios from 'axios';
 
 import Carousel from 'react-bootstrap/Carousel';
 import '../css/carousel.css';
 
-const CustomCarousel = (prop) => {
-    const [getData, setData] = useState([]);
-
-    useEffect(() => {  
-        axios.post('https://hvmatl-backend.herokuapp.com/authentication', {
-            username: 'anonymous',
-            password: 'anonymous'
-        }).then(auth => { 
-            axios({
-            method: 'GET',    
-            url:'https://hvmatl-backend.herokuapp.com/carousel',
-            headers: {
-                'Authorization': `Bearer ${auth.data.token}`
-            },
-            params:{
-                date:'04-05-2020'
-            }
-        }).then(res => setData(Array.isArray(res.data) ? res.data: []));
-    })}, [prop]);
+const CustomCarousel = (props) => {
+    useEffect(() => {
+        if((props.token !== undefined && props.token !== '') &&
+            (props.data === undefined || props.data.length === 0)) {
+            (async () => {
+                await props.getSlides(props.token);
+            })();
+        }
+    }, [props]);
 
     return (
         <Carousel interval="10000">
-            {getData.map((item, index) => {
+            {props.data.map((item, index) => {
                 return(
                     <Carousel.Item key={index}>
                         {item.image !== undefined ? 
@@ -47,4 +39,20 @@ const CustomCarousel = (prop) => {
         </Carousel>
     )
 };
-export default CustomCarousel;
+
+const mapStateToProps = (state) => ({
+    token: state.auth.token,
+    data: state.carousel.data
+});
+
+const mapDispatchToProps = (dispatch) => ({
+    getSlides: (token) => axios.get('https://hvmatl-backend.herokuapp.com/carousel', {
+            headers: {
+                'Authorization': `Bearer ${token}`
+            },
+            params:{
+                date:'04-05-2020'
+            }
+        }).then(res => dispatch({type:actionType.GET_SLIDES, data: res.data}))
+})
+export default connect(mapStateToProps, mapDispatchToProps)(CustomCarousel);

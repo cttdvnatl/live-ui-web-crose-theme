@@ -1,13 +1,25 @@
 import React from 'react';
+import {createStore, combineReducers} from 'redux';
+import {Provider} from 'react-redux';
 import ReactDOM from 'react-dom';
 import './index.css';
-// import 'font-awesome/css/font-awesome.css';
+import authReducer from './store/reducer/authReducer';
+import carouselReducer from "./store/reducer/carouselReducer";
+import weeklyNews from "./store/reducer/weeklyNewsReducer";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/style.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+const rootReducer = combineReducers({
+    auth: authReducer,
+    carousel: carouselReducer,
+    weeklyNews: weeklyNews
+})
+//Redux store
+const store = createStore(rootReducer);
+
+ReactDOM.render(<Provider store={store}><App /></Provider>, document.getElementById('root'));
     
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
