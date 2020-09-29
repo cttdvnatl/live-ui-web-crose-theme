@@ -31,12 +31,6 @@ const VietHongTeacherContent = [
     },
     {   
         classification: 'main-teacher',
-        image: 'https://cttdvnatl.net/gallery/kgd/viethong/viethong-2020-2021-teacher-32-do-hoang-minh.jpg',
-        name: 'Thầy Đỗ Hoàng Minh',
-        email: 'minh.hoang.do@hvmatl.org',
-    },
-    {   
-        classification: 'main-teacher',
         image: 'https://cttdvnatl.net/gallery/kgd/viethong/viethong-2020-2021-teacher-06-ha-thuy.jpg',
         name: 'Cô Hà Thúy',
         email: 'thuy.ha@hvmatl.org',
@@ -99,7 +93,7 @@ const VietHongTeacherContent = [
         classification: 'main-teacher',
         image: 'https://cttdvnatl.net/gallery/kgd/viethong/viethong-2020-2021-teacher-19-nguyen-trung-minh-vien.jpg',
         name: 'Cô Nguyễn Minh Viên',
-        email: 'vien.minh.nguyen@hvmatl.org',
+        email: 'minh-vien.nguyen@hvmatl.org',
     },       
     {   
         classification: 'main-teacher',
@@ -183,7 +177,7 @@ const VietHongTeacherContent = [
         classification: 'main-proctor',
         image: 'https://cttdvnatl.net/gallery/kgd/viethong/viethong-2020-2021-proctor-02-le-phuong-dung.jpg',
         name: 'Cô Lê Phương Dung',
-        email: 'blmy2007@yahoo.com',
+        email: 'dung.phuong.le@hvmatl.org',
     },
     {   
         classification: 'main-proctor',
@@ -201,7 +195,7 @@ const VietHongTeacherContent = [
         classification: 'main-proctor',
         image: 'https://cttdvnatl.net/gallery/kgd/viethong/viethong-2020-2021-proctor-05-vu-khoa.jpg',
         name: 'Thầy Vũ Khoa',
-        email: 'kvguy81@yahoo.com',
+        email: 'khoa.vu@hvmatl.org',
     },
     {   
         classification: 'assistant-teacher',
@@ -258,6 +252,11 @@ const VietHongTeacherContent = [
         image: 'https://cttdvnatl.net/gallery/kgd/viethong/viethong-2020-2021-ta-12-tran-phat.jpg',
         name: 'Trần Phát',
     },
+    {   
+        classification: 'assistant-teacher',
+        image: 'https://cttdvnatl.net/gallery/kgd/viethong/viethong-2020-2021-ta-14-tran-xuan-sang.jpg',
+        name: 'Trần Xuân Sang',
+    }, 
     {   
         classification: 'assistant-teacher',
         image: 'https://cttdvnatl.net/gallery/kgd/viethong/viethong-2020-2021-ta-13-vu-ngoc.jpg',

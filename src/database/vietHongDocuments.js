@@ -1,17 +1,17 @@
 const vietHongDocuments = [
     {   
-        fileName: 'Parent Handbook',
-        downloadFile: 'https://cttdvnatl.net/gallery/kgd/viethong/viethong-2020-2021-docs-parent-handbook.pdf',
+        fileName: 'Digital Learning Parent Handbook',
+        downloadFile: 'https://cttdvnatl.net/gallery/kgd/viethong/viethong-2020-2021-docs-digital-learning-parent-handbook.pdf',
         description: 'Sổ Tay Phụ Huynh 2020-2021',
     },
     {   
-        fileName: 'School Policies for Parents',
-        downloadFile: 'https://cttdvnatl.net/gallery/kgd/viethong/viethong-2020-2021-docs-policies-for-parents.pdf',
+        fileName: 'Digital Learning Policies for Parents',
+        downloadFile: 'https://cttdvnatl.net/gallery/kgd/viethong/viethong-2020-2021-docs-digital-learning-policies-for-parents.pdf',
         description: 'Nội Quy Cho Phụ Huynh',
     },
     {   
-        fileName: 'School Policies for Students',
-        downloadFile: 'https://cttdvnatl.net/gallery/kgd/viethong/viethong-2020-2021-docs-policies-for-students.pdf',
+        fileName: 'Digital Learning Policies for Students',
+        downloadFile: 'https://cttdvnatl.net/gallery/kgd/viethong/viethong-2020-2021-docs-digital-learning-policies-for-students.pdf',
         description: 'Nội Quy Cho Học Sinh',
     },
     {   
