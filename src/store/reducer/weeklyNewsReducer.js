@@ -21,8 +21,8 @@ const weeklyNews = (state = initialState, action) => {
             return ({
                 ...state,
                 showPopup: {
-                    ...state.showPopup,
-                    show: !state.showPopup.show
+                    show: !state.showPopup.show,
+                    content: action.content ? action.content : state.showPopup.content
                 }
             })
         default:

@@ -1,10 +1,9 @@
-import React, {useEffect, useState} from 'react';
+import React, {useState} from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import PopupModal from "./PopupModal";
-import axios from "axios";
 
 const Event = (prop) => {
-    const [getData, setData] = useState([]);
+    const [getData] = useState([]);
     const [show, setShow] = useState(false);
     const [content, setContent] = useState({});
     const displayModal = (e, title, content) => {

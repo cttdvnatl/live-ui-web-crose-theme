@@ -1,41 +1,18 @@
-import React, {useEffect, useState} from 'react';
+import React, {useEffect} from 'react';
 import { useTranslation } from 'react-multi-lang';
+import {connect} from 'react-redux';
 import axios from "axios";
+import * as actionType from "../store/actionType";
 
-const Info = (prop) => {
+const Info = (props) => {
     const t = useTranslation()
-    const [latestWeeklyNew, setLatestWeeklyNew] = useState({});
 
-    // const fetchData = React.useCallback(() => {
-    //     let mtplr;
-    //     const from =  new Date(new Date().setUTCHours(0,0,0,0));
-    //     from.setMonth(from.getUTCMonth()-1, 0);
-    //     if([2, 3].includes(new Date().getUTCMonth() + 1)) {
-    //         mtplr = from.getUTCFullYear() % 4 === 0 ? 31+29 : 31+28;
-    //     } else {
-    //         mtplr = from.getUTCMonth() + 1 === 8 ? 62 : 61;
-    //     }
-    //     const to = new Date(from.getTime() + mtplr * 86400000);
-    //     axios.post('https://hvmatl-backend.herokuapp.com/authentication', {
-    //         username: 'anonymous',
-    //         password: 'anonymous'
-    //     }).then(auth => {
-    //         axios({
-    //             method: 'GET',
-    //             url:'https://hvmatl-backend.herokuapp.com/weeklyNews',
-    //             headers: {
-    //                 'Authorization': `Bearer ${auth.data.token}`
-    //             },
-    //             params:{
-    //                 from: from,
-    //                 to: to
-    //             }
-    //         }).then(res => setLatestWeeklyNew(res.data[0] || {}));
-    //     })}, []);
-    //
-    // useEffect(() => {
-    //     fetchData()
-    //     }, [fetchData]);
+    useEffect(() => {
+        console.log(props.image);
+        if(props.image === undefined || props.image === null) {
+            (async () => await props.getImage())();
+        }
+    }, [props]);
 
     return(
         <section className="about-area section-padding-100-0">
@@ -55,7 +32,7 @@ const Info = (prop) => {
                     {/* <!-- Single About Us Content --> */}
                     <div className="col-12 col-md-6 col-lg-4">
                         <div className="about-us-content mb-100">
-                            <a href="/weeklyNews"><img id="weeklyNews" src={latestWeeklyNew.image} alt=""/></a>
+                            <a href="/weeklyNews"><img id="weeklyNews" src={props.image} alt=""/></a>
                             <div className="about-text">
                                 <a href="/weeklyNews"><h4>{t("info.item2.heading")}</h4></a>
                                 <p>{t("info.item2.description")}</p>
@@ -80,4 +57,22 @@ const Info = (prop) => {
         </section>
     );
 };
-export default Info;
+
+const mapStateToProps = (state) => {
+    return ({
+        image: state.weeklyNews.data.length === 0 ? null : state.weeklyNews.data[0].image
+    });
+};
+
+const mapDispatchToProps = (dispatch) => ({
+    getImage: () => axios.get('https://hvmatl-backend.herokuapp.com/weeklyNews', {
+            headers: {
+                'Authorization': `Bearer ${sessionStorage.getItem('token')}`
+            },
+            params:{
+                from: new Date(Date.now() - 7 * 24 * 60 * 60 * 60 * 1000).toISOString(),
+                to: new Date().toISOString()
+            }
+        }).then(res => dispatch({type: actionType.GET_WEEKLY_NEWS, data: res.data}))
+})
+export default connect(mapStateToProps, mapDispatchToProps)(Info);

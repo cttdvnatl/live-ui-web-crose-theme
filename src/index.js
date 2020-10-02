@@ -3,7 +3,6 @@ import {createStore, combineReducers} from 'redux';
 import {Provider} from 'react-redux';
 import ReactDOM from 'react-dom';
 import './index.css';
-import authReducer from './store/reducer/authReducer';
 import carouselReducer from "./store/reducer/carouselReducer";
 import weeklyNews from "./store/reducer/weeklyNewsReducer";
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -12,12 +11,11 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 const rootReducer = combineReducers({
-    auth: authReducer,
     carousel: carouselReducer,
     weeklyNews: weeklyNews
 })
 //Redux store
-const store = createStore(rootReducer);
+const store = createStore(rootReducer, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
 
 ReactDOM.render(<Provider store={store}><App /></Provider>, document.getElementById('root'));
     

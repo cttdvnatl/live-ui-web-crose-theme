@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, {useEffect} from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Preloader from '../components/Preloader';
@@ -7,28 +7,17 @@ import * as actionType from '../store/actionType';
 
 import axios from "axios";
 import PopupModal from "../components/PopupModal";
-const WeeklyNews = () => {
-    const [data, setData] = useState([]);
-    const [show, setShow] = useState(false);
-    const [content, setContent] = useState({});
-
-    const displayModal = (e, title, content) => {
+const WeeklyNews = (props) => {
+    const toggleModal = (e, title, content) => {
         e.preventDefault();
-        setContent({
+        props.toggleModal({
             title: title,
             url: content
         });
-        setShow(true);
-    };
-
-    const hideModal = () => {
-        setShow(false);
-        setContent({});
     };
 
     useEffect(() => {
-        if((props.token!== undefined && props.token !== '') &&
-        (props.data === undefined || props.data.length === 0)) {
+        if(props.data === undefined || props.data.length === 0) {
             let mtplr;
             const from =  new Date(new Date().setUTCHours(0,0,0,0));
             from.setMonth(from.getUTCMonth()-1, 0);
@@ -38,7 +27,7 @@ const WeeklyNews = () => {
                 mtplr = from.getUTCMonth() + 1 === 8 ? 62 : 61;
             }
             const to = new Date(from.getTime() + mtplr * 86400000);
-            (async () => (await props.getWeeklyNews(props.token, from, to)))();
+            (async () => (await props.getWeeklyNews(from, to)))();
         }
     }, [props]);
 
@@ -58,22 +47,22 @@ const WeeklyNews = () => {
                                 </div>
                             </div>
                             <div className="row about-content justify-content-center">
-                                {data.map(
+                                {props.data.map(
                                     (weeklyNews,idx) => new Date(weeklyNews.date).getMonth() + 1 === month ?
                                         <div className="col-12 col-sm-6 col-md-4 col-lg-3" key={idx}>
                                             <div className="about-us-content mb-100">
-                                                <a href="/" onClick={(e) => displayModal(e, weeklyNews.title, weeklyNews.src)}><img src={weeklyNews.image} alt=""/></a>
+                                                <a href="/" onClick={(e) => toggleModal(e, weeklyNews.title, weeklyNews.src)}><img src={weeklyNews.image} alt=""/></a>
                                                 <div className="about-text text-center">
-                                                    <a href="/" onClick={(e) => displayModal(e, weeklyNews.title, weeklyNews.src)}><h4>{weeklyNews.title}</h4></a>
+                                                    <a href="/" onClick={(e) => toggleModal(e, weeklyNews.title, weeklyNews.src)}><h4>{weeklyNews.title}</h4></a>
                                                 </div>
                                             </div>
                                         </div> : null)
                                 }
-                                {show ? <PopupModal show={show} content={content} onHide={hideModal}/> : null}
                             </div>
                         </div>
                     );
                 })}
+                {props.showPopup.show ? <PopupModal show={props.showPopup.show} content={props.showPopup.content} onHide={() => props.toggleModal({})}/> : null}
             </section>
             <Footer/>
         </div>
@@ -81,22 +70,21 @@ const WeeklyNews = () => {
 };
 
 const mapStateToProps = (state) => ({
-    token: state.auth.token,
     data: state.weeklyNews.data,
     showPopup: state.weeklyNews.showPopup
 });
 
 const mapDispatchToProps = (dispatch) => ({
-    getWeeklyNews: (token, fromDate, toDate) =>
+    getWeeklyNews: (fromDate, toDate) =>
         axios.get('https://hvmatl-backend.herokuapp.com/weeklyNews', {
             headers: {
-                'Authorization': `Bearer ${token}`
+                'Authorization': `Bearer ${sessionStorage.getItem('token')}`
             },
             params:{
                 from: fromDate,
                 to: toDate
             }
         }).then(res => dispatch({type: actionType.GET_WEEKLY_NEWS, data: res.data})),
-    toggleModal: () => dispatch({type: actionType.TOGGLE_WEEKLY_NEWS_POPUP})
+    toggleModal: (content) => dispatch({type: actionType.TOGGLE_WEEKLY_NEWS_POPUP, content:content})
 })
 export default connect(mapStateToProps, mapDispatchToProps)(WeeklyNews);
