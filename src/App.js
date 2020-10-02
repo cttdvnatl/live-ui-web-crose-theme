@@ -95,11 +95,10 @@ const App = () => {
     useEffect(() => {
         if(sessionStorage.getItem('token')=== undefined || sessionStorage.getItem('token') === null) {
             (async () => {
-                console.log(process.env);
                 await axios.post('https://hvmatl-backend.herokuapp.com/authentication',
                     {
-                        username: process.env.GUEST_CREDENTIALS, //hardcode this when run locally
-                        password: process.env.GUEST_CREDENTIALS
+                        username: process.env.REACT_APP_GUEST_CREDENTIALS, //hardcode this when run locally
+                        password: process.env.REACT_APP_GUEST_CREDENTIALS
                     }).then(res => sessionStorage.setItem('token', res.data.token));
             })();
         }

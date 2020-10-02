@@ -8,7 +8,6 @@ const Info = (props) => {
     const t = useTranslation()
 
     useEffect(() => {
-        console.log(props.image);
         if(props.image === undefined || props.image === null) {
             (async () => await props.getImage())();
         }
