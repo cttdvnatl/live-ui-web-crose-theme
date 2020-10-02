@@ -8,7 +8,8 @@ import '../css/carousel.css';
 
 const CustomCarousel = (props) => {
     useEffect(() => {
-        if(props.data === undefined || props.data.length === 0) {
+        if(sessionStorage.getItem('token') !== null &&
+            (props.data === undefined || props.data.length === 0)) {
             (async () => {
                 await props.getSlides();
             })();

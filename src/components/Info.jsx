@@ -8,7 +8,8 @@ const Info = (props) => {
     const t = useTranslation()
 
     useEffect(() => {
-        if(props.image === undefined || props.image === null) {
+        if(sessionStorage.getItem('token') !== null &&
+            (props.image === undefined || props.image === null)) {
             (async () => await props.getImage())();
         }
     }, [props]);
