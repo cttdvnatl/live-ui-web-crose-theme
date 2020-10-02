@@ -93,9 +93,9 @@ checkLangCookie()
 
 const App = () => {
     useEffect(() => {
-        console.log(`token: ${sessionStorage.getItem('token')}`);
         if(sessionStorage.getItem('token')=== undefined || sessionStorage.getItem('token') === null) {
             (async () => {
+                console.log(process.env);
                 await axios.post('https://hvmatl-backend.herokuapp.com/authentication',
                     {
                         username: process.env.GUEST_CREDENTIALS, //hardcode this when run locally
