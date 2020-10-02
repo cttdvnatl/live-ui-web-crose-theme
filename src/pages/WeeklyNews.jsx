@@ -17,7 +17,8 @@ const WeeklyNews = (props) => {
     };
 
     useEffect(() => {
-        if(props.data === undefined || props.data.length === 0) {
+        if(sessionStorage.get('token') !== null &&
+            (props.data === undefined || props.data.length === 0)) {
             let mtplr;
             const from =  new Date(new Date().setUTCHours(0,0,0,0));
             from.setMonth(from.getUTCMonth()-1, 0);
