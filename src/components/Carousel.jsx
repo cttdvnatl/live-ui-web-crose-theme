@@ -8,10 +8,9 @@ import '../css/carousel.css';
 
 const CustomCarousel = (props) => {
     useEffect(() => {
-        if((props.token !== undefined && props.token !== '') &&
-            (props.data === undefined || props.data.length === 0)) {
+        if(props.data === undefined || props.data.length === 0) {
             (async () => {
-                await props.getSlides(props.token);
+                await props.getSlides();
             })();
         }
     }, [props]);
@@ -41,14 +40,13 @@ const CustomCarousel = (props) => {
 };
 
 const mapStateToProps = (state) => ({
-    token: state.auth.token,
     data: state.carousel.data
 });
 
 const mapDispatchToProps = (dispatch) => ({
-    getSlides: (token) => axios.get('https://hvmatl-backend.herokuapp.com/carousel', {
+    getSlides: () => axios.get('https://hvmatl-backend.herokuapp.com/carousel', {
             headers: {
-                'Authorization': `Bearer ${token}`
+                'Authorization': `Bearer ${sessionStorage.getItem('token')}`
             },
             params:{
                 date:'04-05-2020'
