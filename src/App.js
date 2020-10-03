@@ -1,5 +1,5 @@
 import React, {useEffect} from 'react';
-import {authenticate} from './store/dispatch/dispatch';
+import {authenticate, restoreToken} from './store/dispatch/dispatch';
 import {connect} from "react-redux";
 import {
     BrowserRouter as Router,
@@ -94,10 +94,17 @@ checkLangCookie()
 
 const App = (props) => {
     useEffect(() => {
-        if(!props.token || !sessionStorage.getItem('token')) {
-            (async () => await props.auth({
+        if(!props.token && !sessionStorage.getItem('token')) {
+            (async () => {
+                const token = await props.auth({
                     username: process.env.REACT_APP_GUEST_CREDENTIALS,
-                    password: process.env.REACT_APP_GUEST_CREDENTIALS}))();
+                    password: process.env.REACT_APP_GUEST_CREDENTIALS});
+                sessionStorage.setItem('token', token);
+            })();
+        } else if(sessionStorage.getItem('token')){
+            props.restoreToken(sessionStorage.getItem('token'));
+        } else {
+            sessionStorage.setItem('token', props.token);
         }
     }, [props]);
     return (
@@ -149,6 +156,7 @@ const mapStateToProps = (state) => ({
 });
 
 const mapDispatchToProps = (dispatch) => ({
-    auth: (credentials) => authenticate(dispatch, credentials)
+    auth: (credentials) => authenticate(dispatch, credentials),
+    restoreToken: (token) => restoreToken(dispatch, token)
 })
 export default connect(mapStateToProps, mapDispatchToProps)(App);
