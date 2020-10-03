@@ -7,10 +7,10 @@ const Info = (props) => {
     const t = useTranslation()
 
     useEffect(() => {
-        if(props.image === undefined || props.image === null) {
+        if(props.token && !props.image) {
             (async () =>
                 await props.getImage(
-                    new Date(Date.now() - 7 * 24 * 60 * 60 * 60 * 1000).toISOString(),
+                    new Date(Date.now() - 7 * 24 * 60 * 60 * 1000).toISOString(),
                     new Date().toISOString(),
                     props.token || sessionStorage.getItem('token')))();
         }
