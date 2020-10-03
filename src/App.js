@@ -1,5 +1,6 @@
 import React, {useEffect} from 'react';
-import axios from 'axios';
+import {authenticate} from './store/dispatch/dispatch';
+import {connect} from "react-redux";
 import {
     BrowserRouter as Router,
     Route
@@ -91,18 +92,14 @@ function getCookie(cookieParam) {
 
 checkLangCookie()
 
-const App = () => {
+const App = (props) => {
     useEffect(() => {
-        if(sessionStorage.getItem('token')=== undefined || sessionStorage.getItem('token') === null) {
-            (async () => {
-                await axios.post('https://hvmatl-backend.herokuapp.com/authentication',
-                    {
-                        username: process.env.REACT_APP_GUEST_CREDENTIALS, //hardcode this when run locally
-                        password: process.env.REACT_APP_GUEST_CREDENTIALS
-                    }).then(res => sessionStorage.setItem('token', res.data.token));
-            })();
+        if(!props.token || !sessionStorage.getItem('token')) {
+            (async () => await props.auth({
+                    username: process.env.REACT_APP_GUEST_CREDENTIALS,
+                    password: process.env.REACT_APP_GUEST_CREDENTIALS}))();
         }
-    });
+    }, [props]);
     return (
         <Router>
             <Route path="/clergy-list" component={ClergyListPage} exact/>
@@ -147,4 +144,11 @@ const App = () => {
     )
 };
 
-export default App;
+const mapStateToProps = (state) => ({
+    token: state.auth.token
+});
+
+const mapDispatchToProps = (dispatch) => ({
+    auth: (credentials) => authenticate(dispatch, credentials)
+})
+export default connect(mapStateToProps, mapDispatchToProps)(App);

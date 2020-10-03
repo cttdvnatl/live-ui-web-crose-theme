@@ -1,16 +1,18 @@
 import React, {useEffect} from 'react';
 import { useTranslation } from 'react-multi-lang';
 import {connect} from 'react-redux';
-import axios from "axios";
-import * as actionType from "../store/actionType";
+import {getWeeklyNews} from '../store/dispatch/dispatch';
 
 const Info = (props) => {
     const t = useTranslation()
 
     useEffect(() => {
-        if(sessionStorage.getItem('token') !== null &&
-            (props.image === undefined || props.image === null)) {
-            (async () => await props.getImage())();
+        if(props.image === undefined || props.image === null) {
+            (async () =>
+                await props.getImage(
+                    new Date(Date.now() - 7 * 24 * 60 * 60 * 60 * 1000).toISOString(),
+                    new Date().toISOString(),
+                    props.token || sessionStorage.getItem('token')))();
         }
     }, [props]);
 
@@ -60,19 +62,12 @@ const Info = (props) => {
 
 const mapStateToProps = (state) => {
     return ({
+        token: state.auth.token,
         image: state.weeklyNews.data.length === 0 ? null : state.weeklyNews.data[0].image
     });
 };
 
 const mapDispatchToProps = (dispatch) => ({
-    getImage: () => axios.get('https://hvmatl-backend.herokuapp.com/weeklyNews', {
-            headers: {
-                'Authorization': `Bearer ${sessionStorage.getItem('token')}`
-            },
-            params:{
-                from: new Date(Date.now() - 7 * 24 * 60 * 60 * 60 * 1000).toISOString(),
-                to: new Date().toISOString()
-            }
-        }).then(res => dispatch({type: actionType.GET_WEEKLY_NEWS, data: res.data}))
+    getImage: (from, to, token) => getWeeklyNews(dispatch, from, to, token)
 })
 export default connect(mapStateToProps, mapDispatchToProps)(Info);

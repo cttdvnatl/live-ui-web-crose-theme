@@ -4,8 +4,8 @@ import Footer from '../components/Footer';
 import Preloader from '../components/Preloader';
 import {connect} from 'react-redux';
 import * as actionType from '../store/actionType';
+import {getWeeklyNews} from '../store/dispatch/dispatch';
 
-import axios from "axios";
 import PopupModal from "../components/PopupModal";
 const WeeklyNews = (props) => {
     const toggleModal = (e, title, content) => {
@@ -17,8 +17,7 @@ const WeeklyNews = (props) => {
     };
 
     useEffect(() => {
-        if(sessionStorage.get('token') !== null &&
-            (props.data === undefined || props.data.length === 0)) {
+        if(props.data === undefined || props.data.length === 0) {
             let mtplr;
             const from =  new Date(new Date().setUTCHours(0,0,0,0));
             from.setMonth(from.getUTCMonth()-1, 0);
@@ -28,7 +27,7 @@ const WeeklyNews = (props) => {
                 mtplr = from.getUTCMonth() + 1 === 8 ? 62 : 61;
             }
             const to = new Date(from.getTime() + mtplr * 86400000);
-            (async () => (await props.getWeeklyNews(from, to)))();
+            (async () => (await props.getWeeklyNews(from, to, props.token || sessionStorage.get('token'))))();
         }
     }, [props]);
 
@@ -71,21 +70,13 @@ const WeeklyNews = (props) => {
 };
 
 const mapStateToProps = (state) => ({
+    token: state.auth.token,
     data: state.weeklyNews.data,
     showPopup: state.weeklyNews.showPopup
 });
 
 const mapDispatchToProps = (dispatch) => ({
-    getWeeklyNews: (fromDate, toDate) =>
-        axios.get('https://hvmatl-backend.herokuapp.com/weeklyNews', {
-            headers: {
-                'Authorization': `Bearer ${sessionStorage.getItem('token')}`
-            },
-            params:{
-                from: fromDate,
-                to: toDate
-            }
-        }).then(res => dispatch({type: actionType.GET_WEEKLY_NEWS, data: res.data})),
+    getWeeklyNews: (fromDate, toDate, token = null) => getWeeklyNews(dispatch, toDate, fromDate, token),
     toggleModal: (content) => dispatch({type: actionType.TOGGLE_WEEKLY_NEWS_POPUP, content:content})
 })
 export default connect(mapStateToProps, mapDispatchToProps)(WeeklyNews);

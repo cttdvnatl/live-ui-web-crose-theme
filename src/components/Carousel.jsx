@@ -1,8 +1,6 @@
 import React, {useEffect} from "react";
 import {connect} from 'react-redux';
-import * as actionType from '../store/actionType';
-import axios from 'axios';
-
+import {getSlides} from '../store/dispatch/dispatch';
 import Carousel from 'react-bootstrap/Carousel';
 import '../css/carousel.css';
 
@@ -11,7 +9,7 @@ const CustomCarousel = (props) => {
         if(sessionStorage.getItem('token') !== null &&
             (props.data === undefined || props.data.length === 0)) {
             (async () => {
-                await props.getSlides();
+                await props.getSlides('04-05-2020', props.token || sessionStorage.getItem('token'));
             })();
         }
     }, [props]);
@@ -41,17 +39,11 @@ const CustomCarousel = (props) => {
 };
 
 const mapStateToProps = (state) => ({
+    token: state.auth.token,
     data: state.carousel.data
 });
 
 const mapDispatchToProps = (dispatch) => ({
-    getSlides: () => axios.get('https://hvmatl-backend.herokuapp.com/carousel', {
-            headers: {
-                'Authorization': `Bearer ${sessionStorage.getItem('token')}`
-            },
-            params:{
-                date:'04-05-2020'
-            }
-        }).then(res => dispatch({type:actionType.GET_SLIDES, data: res.data}))
+    getSlides: (date, token) => getSlides(dispatch, date, token)
 })
 export default connect(mapStateToProps, mapDispatchToProps)(CustomCarousel);
