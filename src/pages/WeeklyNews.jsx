@@ -5,7 +5,6 @@ import Preloader from '../components/Preloader';
 import {connect} from 'react-redux';
 import * as actionType from '../store/actionType';
 import {getWeeklyNews} from '../store/dispatch/dispatch';
-
 import PopupModal from "../components/PopupModal";
 const WeeklyNews = (props) => {
     const toggleModal = (e, title, content) => {
@@ -17,7 +16,7 @@ const WeeklyNews = (props) => {
     };
 
     useEffect(() => {
-        if(props.data === undefined || props.data.length === 0) {
+        if(props.token || sessionStorage.get('token') && !props.data.length) {
             let mtplr;
             const from =  new Date(new Date().setUTCHours(0,0,0,0));
             from.setMonth(from.getUTCMonth()-1, 0);
@@ -27,7 +26,7 @@ const WeeklyNews = (props) => {
                 mtplr = from.getUTCMonth() + 1 === 8 ? 62 : 61;
             }
             const to = new Date(from.getTime() + mtplr * 86400000);
-            (async () => (await props.getWeeklyNews(from, to, props.token || sessionStorage.get('token'))))();
+                (async () => (await props.getWeeklyNews(from, to, props.token || sessionStorage.get('token'))))();
         }
     }, [props]);
 

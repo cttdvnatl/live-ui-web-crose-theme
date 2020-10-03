@@ -6,7 +6,6 @@ const initialState = {
 const authReducer = (state = initialState, action) => {
     switch (action.type) {
         case actionType.AUTH:
-            sessionStorage.setItem('token', action.token);
             return({
                 token: action.token
             });
