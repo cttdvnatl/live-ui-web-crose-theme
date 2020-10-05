@@ -23,6 +23,7 @@ const articleContent =
 [
   {
     "Section": "Các Bài Viết",
+<<<<<<< HEAD
     "date": "2020-10-04",
     "image": "https://cttdvnatl.net/gallery/img/articles/article-2020-10-04.png",
     "title": "Tháng Mân Côi",
@@ -43,6 +44,8 @@ const articleContent =
   },
   {
     "Section": "Các Bài Viết",
+=======
+>>>>>>> origin/react
     "date": "2020-09-27",
     "image": "https://cttdvnatl.net/gallery/img/articles/article-2020-09-27.png",
     "title": "Dư âm Sau Thánh Lễ Thêm Sức 2020",
