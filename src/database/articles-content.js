@@ -23,6 +23,50 @@ const articleContent =
 [
   {
     "Section": "Các Bài Viết",
+    "date": "2020-10-04",
+    "image": "https://cttdvnatl.net/gallery/img/articles/article-2020-10-04.png",
+    "title": "Tháng Mân Côi",
+    "body":
+    `Chúng ta đã bước vào Tháng Mân Côi. Tháng Mân Côi được ghi dấu bởi ngày lễ Đức Mẹ Mân Côi được Giáo Hội cử hành ngày 07 tháng 10 mỗi năm. Tôi xin chia sẻ cùng quý ông bà anh chị em mấy điểm sau.
+    Trước tiên là ý nghĩa của tên gọi Kinh Mân Côi trong tiếng La tinh là “Rosario”. Từ Rosario có nghĩa là vườn hồng, khóm hồng, hoặc chuỗi hoa hồng. Sở dĩ gọi là “chuỗi hoa hồng” hay “tràng hoa hồng” là vì nó bao gồm nhiều hạt. Mỗi một hạt là một kinh Kính Mừng. Khi đọc nó giống như một đóa hồng tín hữu dâng kính Mẹ Thiên Chúa. Ngoài ý nghĩa trên, Kinh Mân Côi còn có nghĩa là “Kinh Ngọc”, vì Mân là tên của một loại ngọc, Côi là một thứ ngọc tốt, ngọc quý lạ….
+    Từ thế kỷ XIII trở đi Chuỗi hạt Mân Côi mang ý nghĩa là một vòng hoa hồng thiêng liêng dâng lên để ca tụng Mẹ Thiên Chúa và xin Mẹ bầu cử cho trước ngai tòa Thiên Chúa cho chúng ta.
+    Kế đến, là lịch sử phụng vụ của Kinh Mân Côi. Sau cuộc chiến thắng quân Hồi giáo Thổ Nhĩ Kỳ tại vịnh Lépante ngày 7-10-1571, nhờ ơn lạ đặc biệt của Đức Mẹ Rất Thánh Mân Côi, Đức Thánh Piô V dạy rước kiệu Mẹ trọng thể và thành lập lễ Mẹ Thắng Trận vào ngày mồng 7 tháng 10 để ghi ơn Đức Mẹ. Đến đời Đức Grêgôriô XIII, theo lời dòng Đaminh tâu xin, đổi lại ngày lễ. Ngài ra sắc lệnh ngày 1-4-1573 đổi là lễ Mẹ Mân Côi được mừng vào Chúa Nhật 1 tháng 10 tại các nhà thờ tôn kính Mẹ Mân Côi. 
+    Năm 1671, lễ này cũng được Đức Clemente X ban phép mừng khắp Giáo hội Tây Ban Nha. Năm 1716, sau những chiến thắng quân Thổ Nhĩ Kỳ tại Temeswar và Corfu ở ven biển Hy Lạp, các giáo hữu gọi Mẹ là Mẹ Chiến Thắng và Đức Clêmentê XI truyền cho khắp Giáo hội đặc biệt mừng lễ Mẹ Mân Côi hàng năm. Ngày 11-9-1887, Đức Lêô XIII nâng lễ Mẹ Mân Côi lên bậc nhì với Kinh Lễ và kinh Phụng Vụ theo phụng vụ dòng Đaminh. Đức Thánh Piô X ấn định mừng lễ Mẹ Mân Côi vào ngày mồng 7 tháng 10.
+    Sau nữa, để nhắc nhở và giúp các thành viên  thực hành Kinh Mân Côi, Giáo Xứ có tổ chức hai việc sau:
+    -          Một là Chuỗi Mân Côi Nối Kết của Giáo Xứ, xin mỗi thành viên hãy trung thành thực hiện “chục kinh” của mình, để sự nối kết cầu nguyện của cả Giáo Xứ như một gia đình không bị đứt quãng.
+    -          Hai là các gia đình có thể ghi danh và cùng với quý cha hướng dẫn giờ Kinh Mân Côi của Giáo Xứ tại nhà thờ. Đây cũng là cơ hội để gia đình và Giáo Xứ chúng ta cùng hiệp nhất với nhau trong cầu nguyện, làm nhân chứng, và hướng dẫn cử hành phụng vụ.
+    Tôi tha thiết xin các thành viên cũng như các gia đình trong Giáo Xứ hãy cố gắng cùng nhau ôn lại lịch sử và sốt sắng suy niệm và sống lời kinh Mân Côi trong gia đình và trong cuộc sống. Hãy dùng cơ hội Tháng Mân Côi này để ca tụng Mẹ Maria và xin Mẹ chuyển cầu cho chúng ta trước tòa Thiên Chúa để chúng ta nhận được ơn lành của Thiên Chúa tuôn đổ xuống mỗi người, từng gia đình, cho Giáo Xứ và Giáo Hội, đặc biệt trong mùa đại dịch này.
+     
+    Thân mến
+    Lm. Fx. Trần Quốc Tuấn
+    `
+  },
+  {
+    "Section": "Các Bài Viết",
+    "date": "2020-09-27",
+    "image": "https://cttdvnatl.net/gallery/img/articles/article-2020-09-27.png",
+    "title": "Dư âm Sau Thánh Lễ Thêm Sức 2020",
+    "body":
+    `Thứ Bảy tuần qua, Giáo Xứ hân hoan đón mừng Đức TGM Gregory John Hartmayer đến cử hành Thánh Lễ Thêm Sức cho 112 con em chúng ta.  Trong hoàn cảnh đại dịch Covid-19, chúng ta phải cử hành 2 thánh lễ vào lúc 10g00 sáng và 1 giờ chiều. Tuy vậy, chỉ có các em Thêm Sức và Người Đỡ Đầu được hiện diện trong thánh đường, còn cha mẹ và thân hữu đều phải tham dự trực tuyến (livestream) tại nhà thờ cũ và hội trường Thánh Giuse. Tôi xin chia sẻ dư âm của biến cố Thêm Sức này.
+    Trước tiên, toàn thể Giáo Xứ cùng hân hoan chúc mừng 112 em đã lãnh nhận bí tích Thêm Sức và phụ huynh của các em. Tất cả là hồng ân của Thiên Chúa và sự hi sinh của quý phụ huynh, quý thầy cô, giảng viên, huynh trưởng, Khối Giáo Dục đã dạy dỗ, giúp các em thăng tiến trong đời sống đức tin, và sẵn sàng để lãnh nhận bí tích Thêm Sức này.
+    Kế đến là tâm tình mà Đức TGM Atlanta đã chia sẻ và Thư Cám Ơn rằng các con em chúng ta đã được huấn luyện kỹ lưỡng và các em rất nghiêm chỉnh trong nghi lễ. Ngài cũng rất hài lòng và thán phục về sự lớn mạnh trong việc học hỏi, cử hành và sống niềm tin của Giáo Xứ chúng ta.
+    Sau nữa là hai điểm nhấn trong bài giảng của Ngài cho các em là những nhắc nhớ để chúng ta lưu tâm và thực hiện:
+    - Điểm trước hết là những thách thức mà con em chúng ta đang phải đương đầu với áp lực của bạn bè và những quyến rũ của xã hội hôm nay. Chúng ta cần giúp con em chọn lựa và hiểu rõ hậu quả của sự lựa chọn đó. Chọn một lần nhưng hậu quả suốt đời nên các em phải sáng suốt chọn lựa và can đảm quyết định đúng.
+    - Điểm thứ hai là hãy nhìn đến tương lai của Giáo Hội để tìm hiểu, lựa chọn, và đáp trả trong ơn gọi làm linh mục, tu sĩ nam nữ.  Cha mẹ, giáo sĩ, và  Giáo Xứ cần chú ý để giúp các em trong lãnh vực này.  Có lẽ chúng ta đều nhận thấy rõ thực trạng của hàng chục năm qua, nhiều giáo phận ở Hoa Kỳ đã lâm vào tình trạng thiếu linh mục trầm trọng, nhiều nơi các cha xứ phải trở thành ‘Anh Hùng Xa Lộ’ khi mà mỗi Chúa Nhật, nghĩa là đi dâng lễ nơi này vừa xong thì vội vàng ‘phóng xe’ qua nơi khác… Nhu cầu thật là khẩn thiết! Chúng ta cần phải làm gì?
+    
+    Tôi xin gợi ra mấy chương trình mà một số giáo phận đã thành công trong việc đào tạo linh mục trong những năm qua để chúng ta cùng thực hiện.
+    1. Giáo xứ cố gắng để thực hiện “Chầu Thánh Thể Ngày Đêm - Perpetual Adoration”, nghĩa là mở cửa nhà chầu và có chương trình luân phiên chầu Thánh Thể 24/24 mỗi ngày. Hiện nay, giáo xứ chúng ta chỉ có 1 ngày Thứ Năm thực hiện Chầu Thánh Thể cả ngày. Chúng ta hãy cùng nhau đến “xin chủ ruộng sai người đến làm trong cánh đồng của Ngài” và cũng là nơi thích hợp để bạn trẻ khám phá ra ơn gọi của mình như một tân linh mục, Cha J.D Betzen đã chia sẻ rằng: “Nhờ ở đó trong một khung cảnh tĩnh lặng, chỉ có Chúa và mình, mà tôi đã khám phá ra rằng cái dự tính mà tôi mong muốn cho đời mình thì không phù hợp với chương trình mà Chúa đã định cho tôi.”
+    2. Hãy yểm trợ các các chủng sinh thực hiện chương trình “Tutus Tuus”, là một chương trình lập nhóm 2 hay 3 người giữa một chủng sinh với các sinh viên đại học để cùng nhau đi giúp các lớp giáo lý. Cụ thể các gia đình hãy tạo điều kiện để con em chúng ta tiếp xúc và làm việc tông đồ với các chủng sinh, cách riêng là với thầy Lê Minh Nicholas đang sinh hoạt tại Giáo Xứ trong suốt Năm Mục Vụ (Pastoral Year) này.  
+    3. Giáo phận, Giáo Xứ hãy tập trung hơn, nếu không nói là đưa vấn đề giáo dục thanh thiếu niên lên hàng đầu, đặc biệt cổ võ cho chương trình “vừa cầu nguyện vừa làm việc lành”, việc lành đây có nghĩa là các việc giúp đỡ vật chất, hay còn gọi là 7 mối thương xác. Cụ thể hãy tạo điều kiện và cùng với con em tham gia những việc bác ái xã hội, thăm viếng giúp đỡ những người quen, hàng xóm già yếu, phục vụ những người vô gia cư như một số anh chị em và các nhóm thiện nguyện tại nhà bếp Giáo Xứ đang nấu khoảng 500 phần ăn phục vụ mỗi ngày cho anh chị em vô gia cư (homeless).
+    
+    Chúng ta cùng tạ ơn Thiên Chúa và hân hoan nhìn thấy Giáo Xứ vẫn còn linh hoạt, sống động. Với tâm tình phấn khởi trên, ta cùng tiếp tục cầu nguyện và tạo điều kiện cho con em đã lãnh nhận bí tích Thêm Sức sử dụng và phát triển Bảy ơn Chúa Thánh Thần biết lựa chọn một cuộc sống vì lợi ích của tha nhân. 
+    Nguyện xin Thiên Chúa tiếp tục chúc lành cho từng gia đình và Giáo Xứ chúng ta.
+    Thân mến
+    Lm. Phanxicô Trần Q Tuấn
+    `
+  },
+  {
+    "Section": "Các Bài Viết",
     "date": "2020-09-20",
     "image": "https://cttdvnatl.net/gallery/img/articles/article-2020-09-20.png",
     "title": "Bổn Mạng Đoàn Thiếu Nhi Thánh Thể Tôma Trần Văn Thiện",

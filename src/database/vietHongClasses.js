@@ -37,8 +37,8 @@ const Classes = [
     {
         name: "2",
         class: "2",
-        teachers: "Thầy Nguyễn Tùng, Thầy Đỗ Hoàng Minh", 
-        emails: "tung.nguyen@hvmatl.org, minh.hoang.do@hvmatl.org",
+        teachers: "Thầy Nguyễn Tùng", 
+        emails: "tung.nguyen@hvmatl.org",
         classwork: "https://docs.google.com/document/d/e/2PACX-1vRnYjKFOD0edheFkTboHZ8q9aLVnBivJF0ps0Dydy_jQ3nNyOy7wJthOc1B-yTGWlJiC-JIzoExjM01/pub?embedded=true"
     },
     {
