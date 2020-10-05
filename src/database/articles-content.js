@@ -23,6 +23,26 @@ const articleContent =
 [
   {
     "Section": "Các Bài Viết",
+    "date": "2020-10-04",
+    "image": "https://cttdvnatl.net/gallery/img/articles/article-2020-10-04.png",
+    "title": "Tháng Mân Côi",
+    "body":
+    `Chúng ta đã bước vào Tháng Mân Côi. Tháng Mân Côi được ghi dấu bởi ngày lễ Đức Mẹ Mân Côi được Giáo Hội cử hành ngày 07 tháng 10 mỗi năm. Tôi xin chia sẻ cùng quý ông bà anh chị em mấy điểm sau.
+    Trước tiên là ý nghĩa của tên gọi Kinh Mân Côi trong tiếng La tinh là “Rosario”. Từ Rosario có nghĩa là vườn hồng, khóm hồng, hoặc chuỗi hoa hồng. Sở dĩ gọi là “chuỗi hoa hồng” hay “tràng hoa hồng” là vì nó bao gồm nhiều hạt. Mỗi một hạt là một kinh Kính Mừng. Khi đọc nó giống như một đóa hồng tín hữu dâng kính Mẹ Thiên Chúa. Ngoài ý nghĩa trên, Kinh Mân Côi còn có nghĩa là “Kinh Ngọc”, vì Mân là tên của một loại ngọc, Côi là một thứ ngọc tốt, ngọc quý lạ….
+    Từ thế kỷ XIII trở đi Chuỗi hạt Mân Côi mang ý nghĩa là một vòng hoa hồng thiêng liêng dâng lên để ca tụng Mẹ Thiên Chúa và xin Mẹ bầu cử cho trước ngai tòa Thiên Chúa cho chúng ta.
+    Kế đến, là lịch sử phụng vụ của Kinh Mân Côi. Sau cuộc chiến thắng quân Hồi giáo Thổ Nhĩ Kỳ tại vịnh Lépante ngày 7-10-1571, nhờ ơn lạ đặc biệt của Đức Mẹ Rất Thánh Mân Côi, Đức Thánh Piô V dạy rước kiệu Mẹ trọng thể và thành lập lễ Mẹ Thắng Trận vào ngày mồng 7 tháng 10 để ghi ơn Đức Mẹ. Đến đời Đức Grêgôriô XIII, theo lời dòng Đaminh tâu xin, đổi lại ngày lễ. Ngài ra sắc lệnh ngày 1-4-1573 đổi là lễ Mẹ Mân Côi được mừng vào Chúa Nhật 1 tháng 10 tại các nhà thờ tôn kính Mẹ Mân Côi. 
+    Năm 1671, lễ này cũng được Đức Clemente X ban phép mừng khắp Giáo hội Tây Ban Nha. Năm 1716, sau những chiến thắng quân Thổ Nhĩ Kỳ tại Temeswar và Corfu ở ven biển Hy Lạp, các giáo hữu gọi Mẹ là Mẹ Chiến Thắng và Đức Clêmentê XI truyền cho khắp Giáo hội đặc biệt mừng lễ Mẹ Mân Côi hàng năm. Ngày 11-9-1887, Đức Lêô XIII nâng lễ Mẹ Mân Côi lên bậc nhì với Kinh Lễ và kinh Phụng Vụ theo phụng vụ dòng Đaminh. Đức Thánh Piô X ấn định mừng lễ Mẹ Mân Côi vào ngày mồng 7 tháng 10.
+    Sau nữa, để nhắc nhở và giúp các thành viên  thực hành Kinh Mân Côi, Giáo Xứ có tổ chức hai việc sau:
+    -          Một là Chuỗi Mân Côi Nối Kết của Giáo Xứ, xin mỗi thành viên hãy trung thành thực hiện “chục kinh” của mình, để sự nối kết cầu nguyện của cả Giáo Xứ như một gia đình không bị đứt quãng.
+    -          Hai là các gia đình có thể ghi danh và cùng với quý cha hướng dẫn giờ Kinh Mân Côi của Giáo Xứ tại nhà thờ. Đây cũng là cơ hội để gia đình và Giáo Xứ chúng ta cùng hiệp nhất với nhau trong cầu nguyện, làm nhân chứng, và hướng dẫn cử hành phụng vụ.
+    Tôi tha thiết xin các thành viên cũng như các gia đình trong Giáo Xứ hãy cố gắng cùng nhau ôn lại lịch sử và sốt sắng suy niệm và sống lời kinh Mân Côi trong gia đình và trong cuộc sống. Hãy dùng cơ hội Tháng Mân Côi này để ca tụng Mẹ Maria và xin Mẹ chuyển cầu cho chúng ta trước tòa Thiên Chúa để chúng ta nhận được ơn lành của Thiên Chúa tuôn đổ xuống mỗi người, từng gia đình, cho Giáo Xứ và Giáo Hội, đặc biệt trong mùa đại dịch này.
+     
+    Thân mến
+    Lm. Fx. Trần Quốc Tuấn
+    `
+  },
+  {
+    "Section": "Các Bài Viết",
     "date": "2020-09-27",
     "image": "https://cttdvnatl.net/gallery/img/articles/article-2020-09-27.png",
     "title": "Dư âm Sau Thánh Lễ Thêm Sức 2020",
