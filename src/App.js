@@ -96,10 +96,10 @@ const App = (props) => {
     useEffect(() => {
         if(!props.token && !sessionStorage.getItem('token')) {
             (async () => {
-                const token = await props.auth({
-                    username: process.env.REACT_APP_GUEST_CREDENTIALS,
-                    password: process.env.REACT_APP_GUEST_CREDENTIALS});
-                sessionStorage.setItem('token', token);
+                const auth = await props.auth({
+                    username: 'anonymous',
+                    password: 'anonymous'});
+                sessionStorage.setItem('token', auth.token);
             })();
         } else if(sessionStorage.getItem('token')){
             props.restoreToken(sessionStorage.getItem('token'));

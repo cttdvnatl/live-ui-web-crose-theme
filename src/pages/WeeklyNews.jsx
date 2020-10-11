@@ -16,7 +16,7 @@ const WeeklyNews = (props) => {
     };
 
     useEffect(() => {
-        if((props.token || sessionStorage.getItem('token')) && !props.data.length) {
+        if(sessionStorage.getItem('token') && !props.data.length) {
             let mtplr;
             const from =  new Date(new Date().setUTCHours(0,0,0,0));
             from.setMonth(from.getUTCMonth()-1, 0);
@@ -26,7 +26,7 @@ const WeeklyNews = (props) => {
                 mtplr = from.getUTCMonth() + 1 === 8 ? 62 : 61;
             }
             const to = new Date(from.getTime() + mtplr * 86400000);
-                (async () => (await props.getWeeklyNews(from, to, props.token || sessionStorage.get('token'))))();
+            (async () => (await props.getWeeklyNews(from, to, sessionStorage.getItem('token'))))();
         }
     }, [props]);
 
@@ -69,13 +69,12 @@ const WeeklyNews = (props) => {
 };
 
 const mapStateToProps = (state) => ({
-    token: state.auth.token,
     data: state.weeklyNews.data,
     showPopup: state.weeklyNews.showPopup
 });
 
 const mapDispatchToProps = (dispatch) => ({
-    getWeeklyNews: (fromDate, toDate, token = null) => getWeeklyNews(dispatch, toDate, fromDate, token),
+    getWeeklyNews: (fromDate, toDate, token = null) => getWeeklyNews(dispatch, fromDate, toDate, token),
     toggleModal: (content) => dispatch({type: actionType.TOGGLE_WEEKLY_NEWS_POPUP, content:content})
 })
 export default connect(mapStateToProps, mapDispatchToProps)(WeeklyNews);
