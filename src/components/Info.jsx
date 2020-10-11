@@ -7,7 +7,7 @@ const Info = (props) => {
     const t = useTranslation()
 
     useEffect(() => {
-        if((props.token || sessionStorage.getItem('token')) && !props.image) {
+        if((sessionStorage.getItem('token') || props.token) && !props.image) {
             (async () =>
                 await props.getImage(
                     new Date(Date.now() - 7 * 24 * 60 * 60 * 1000).toISOString(),
@@ -60,12 +60,10 @@ const Info = (props) => {
     );
 };
 
-const mapStateToProps = (state) => {
-    return ({
-        token: state.auth.token,
-        image: state.weeklyNews.data.length === 0 ? null : state.weeklyNews.data[0].image
-    });
-};
+const mapStateToProps = (state) => ({
+    token: state.auth.token,
+    image: state.weeklyNews.data.length === 0 ? null : state.weeklyNews.data[0].image
+});
 
 const mapDispatchToProps = (dispatch) => ({
     getImage: (from, to, token) => getWeeklyNews(dispatch, from, to, token)
