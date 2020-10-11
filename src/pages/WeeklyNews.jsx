@@ -1,58 +1,34 @@
-import React, {useEffect, useState} from 'react';
+import React, {useEffect} from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import Preloader from "../components/Preloader";
-import axios from "axios";
+import Preloader from '../components/Preloader';
+import {connect} from 'react-redux';
+import * as actionType from '../store/actionType';
+import {getWeeklyNews} from '../store/dispatch/dispatch';
 import PopupModal from "../components/PopupModal";
-const WeeklyNews = () => {
-    const [data, setData] = useState([]);
-    const [show, setShow] = useState(false);
-    const [content, setContent] = useState({});
-
-    const displayModal = (e, title, content) => {
+const WeeklyNews = (props) => {
+    const toggleModal = (e, title, content) => {
         e.preventDefault();
-        setContent({
+        props.toggleModal({
             title: title,
             url: content
         });
-        setShow(true);
     };
-
-    const hideModal = () => {
-        setShow(false);
-        setContent({});
-    };
-
-    const fetchData = React.useCallback(() => {
-        let mtplr;
-        const from =  new Date(new Date().setUTCHours(0,0,0,0));
-        from.setMonth(from.getUTCMonth()-1, 0);
-        if([2, 3].includes(new Date().getUTCMonth() + 1)) {
-            mtplr = from.getUTCFullYear() % 4 === 0 ? 31+29 : 31+28;
-        } else {
-            mtplr = from.getUTCMonth() + 1 === 8 ? 62 : 61;
-        }
-        const to = new Date(from.getTime() + mtplr * 86400000);
-        axios.post('https://hvmatl-backend.herokuapp.com/authentication', {
-            username: 'anonymous',
-            password: 'anonymous'
-        }).then(auth => {
-            axios({
-                method: 'GET',
-                url:'https://hvmatl-backend.herokuapp.com/weeklyNews',
-                headers: {
-                    'Authorization': `Bearer ${auth.data.token}`
-                },
-                params:{
-                    from: from,
-                    to: to
-                }
-            }).then(res => setData(Array.isArray(res.data) ? res.data: []));
-        })}, []);
 
     useEffect(() => {
-        fetchData()
-        }, [fetchData]);
+        if(sessionStorage.getItem('token') && !props.data.length) {
+            let mtplr;
+            const from =  new Date(new Date().setUTCHours(0,0,0,0));
+            from.setMonth(from.getUTCMonth()-1, 0);
+            if([2, 3].includes(new Date().getUTCMonth() + 1)) {
+                mtplr = from.getUTCFullYear() % 4 === 0 ? 31+29 : 31+28;
+            } else {
+                mtplr = from.getUTCMonth() + 1 === 8 ? 62 : 61;
+            }
+            const to = new Date(from.getTime() + mtplr * 86400000);
+            (async () => (await props.getWeeklyNews(from, to, sessionStorage.getItem('token'))))();
+        }
+    }, [props]);
 
     return (
         <div>
@@ -70,26 +46,35 @@ const WeeklyNews = () => {
                                 </div>
                             </div>
                             <div className="row about-content justify-content-center">
-                                {data.map(
+                                {props.data.map(
                                     (weeklyNews,idx) => new Date(weeklyNews.date).getMonth() + 1 === month ?
                                         <div className="col-12 col-sm-6 col-md-4 col-lg-3" key={idx}>
                                             <div className="about-us-content mb-100">
-                                                <a href="/" onClick={(e) => displayModal(e, weeklyNews.title, weeklyNews.src)}><img src={weeklyNews.image} alt=""/></a>
+                                                <a href="/" onClick={(e) => toggleModal(e, weeklyNews.title, weeklyNews.src)}><img src={weeklyNews.image} alt=""/></a>
                                                 <div className="about-text text-center">
-                                                    <a href="/" onClick={(e) => displayModal(e, weeklyNews.title, weeklyNews.src)}><h4>{weeklyNews.title}</h4></a>
+                                                    <a href="/" onClick={(e) => toggleModal(e, weeklyNews.title, weeklyNews.src)}><h4>{weeklyNews.title}</h4></a>
                                                 </div>
                                             </div>
                                         </div> : null)
                                 }
-                                {show ? <PopupModal show={show} content={content} onHide={hideModal}/> : null}
                             </div>
                         </div>
                     );
                 })}
+                {props.showPopup.show ? <PopupModal show={props.showPopup.show} content={props.showPopup.content} onHide={() => props.toggleModal({})}/> : null}
             </section>
             <Footer/>
         </div>
     );
 };
 
-export default WeeklyNews;
+const mapStateToProps = (state) => ({
+    data: state.weeklyNews.data,
+    showPopup: state.weeklyNews.showPopup
+});
+
+const mapDispatchToProps = (dispatch) => ({
+    getWeeklyNews: (fromDate, toDate, token = null) => getWeeklyNews(dispatch, fromDate, toDate, token),
+    toggleModal: (content) => dispatch({type: actionType.TOGGLE_WEEKLY_NEWS_POPUP, content:content})
+})
+export default connect(mapStateToProps, mapDispatchToProps)(WeeklyNews);
