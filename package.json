@@ -2,11 +2,22 @@
   "name": "ui-web",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "12.16.x"
+  },
   "dependencies": {
-    "react": "^16.11.0",
-    "react-dom": "^16.11.0",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.4.1",
+    "node": "^14.2.0",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.0.0",
+    "react-dom": "^16.13.1",
+    "react-ga": "^2.7.0",
+    "react-multi-lang": "^2.1.1",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "^3.4.0"
+    "react-scripts": "^3.4.1",
+    "redux": "^4.0.5",
+    "react-redux": "^7.2.1"
   },
   "scripts": {
     "start": "react-scripts start",

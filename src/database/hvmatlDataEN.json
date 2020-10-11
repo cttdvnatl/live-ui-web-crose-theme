@@ -1,0 +1,123 @@
+{
+    "index": {
+        "headerMsg": "2019 Coronavirus News"
+    },
+    "info": {
+        "item1": {
+            "heading": "Catechism",
+            "description": "Catechism of the Catholic Church"
+        },
+        "item2": {
+            "heading": "Weekly Bulletin",
+            "description": "Weekly News of the Holy Vietnamese Martyrs Catholic Church"
+        },
+        "item3": {
+            "heading": "Attending Online Mass",
+            "description": ""
+        }
+    },
+    "calendar": {
+        "heading": "Parish Calendar"
+    },
+    "covid19": {
+        "pageTitle": "2019 Coronavirus News",
+        "button": "Read More"
+    },
+    "about": {
+        "pageTitle": "About This Church", 
+        "heading": "Holy Vietnamese Martyr's Catholic Church",
+        "paragraph": "The Vietnamese Martyrs Parish of the Archdiocese of Atlanta is a community of Vietnamese-born Catholics celebrating and spreading the Catholic faith, while maintaining and developing the Vietnamese cultural tradition."
+    },
+    "history": {
+        "pageTitle": "Our History",
+        "pageTitleContinued": "Holy Vietnamese Martyr's Catholic Church"
+    },
+    "header": {
+        "top": {
+            "massSchedule": "Mass Times"
+        },
+        "dropdownMenuOne": {
+            "dropdownHeading": "Parish",
+            "item1": "Homepage",
+            "item2": "About",
+            "item3": "History",
+            "item4": "Clergy",
+            "item5": "Staff"
+        },
+        "dropdownMenuTwo": {
+            "dropdownHeading": "News and Events",
+            "item1": "Parish Activities",
+            "item2": "Calender 2020",
+            "item3": "Fall Festival",
+            "item4": "Parish Youth Org."
+        },
+        "dropdownMenuThree": {
+            "dropdownHeading": "Departments",
+            "item1": "Org. Chart",
+            "item2": "Maintenance",
+            "item3": "Religious Life",
+            "item4": "Education",
+            "subItem1": "Bible",
+            "subItem2": "Vietnamese",
+            "item5": "Administration",
+            "item6": "Liturgy",
+            "item7": "Khối Truyền Giáo",
+            "item8": "Khối Quản Trị",
+            "item9": "Fundraising"
+        },
+        "dropdownMenuFour": {
+            "dropdownHeading": "Resources",
+            "item1": "Pastoral News",
+            "item2": "Letters",
+            "item3": "Doctrine",
+            "item4": "Gallery",
+            "item5": "Forms",
+            "item6": "Prayer Request"
+        },
+        "dropdownMenuFive": {
+            "dropdownHeading": "Contact"
+        },
+        "donation": "Donations"
+    },
+    "footer": {
+        "widget1": {
+            "heading": "Quick Links",
+            "item1": "Home",
+            "item2": "About",
+            "item3": "Mass Times",
+            "item4": "Announcements",
+            "item5": "Newspaper",
+            "item6": "Parish Youth Org.",
+            "item7": "Education Department",
+            "item8": "Fall Festival"
+        },
+        "widget2": {
+            "heading": "Contact Us"
+        }
+    },
+    "viethong":  {
+        "header": {
+            "item1": "Việt Hồng School",
+            "item2": "Staff",
+            "item3": "Activities",
+            "item4": "Documents",
+            "item5": "Classes"
+        },
+        "home": {
+            "announcement": "Students of Việt Hồng Vietnamese Language School will continue with digital learning until further notice. News and announcements during the school year will be regularly updated in the calendar below."
+        }
+    },
+    "stjoseph":  {
+        "header": {
+            "item1": "St. Joseph School",
+            "item2": "Teachers",
+            "item3": "Activities",
+            "item4": "Forms",
+            "item5": "Classes"
+        },
+        "home": {
+            "title": "St. Joseph School",
+            "announcement": "St. Joseph Catholic School will begin the school year with digital learning on September 12th. News and changes during the school year will be regularly posted in the agenda section of the calendar below."
+        }
+    }
+}
