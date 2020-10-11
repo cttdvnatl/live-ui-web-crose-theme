@@ -1,7 +1,7 @@
 {
   "name": "ui-web",
   "version": "0.1.0",
-  "homepage": "https://hvmat.org",
+  "homepage": "https://hvmatl.org",
   "private": true,
   "engines": {
     "node": "12.16.x"
@@ -25,7 +25,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "GENERATE_SOURCEMAP=false react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
