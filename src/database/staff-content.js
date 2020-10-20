@@ -6,7 +6,7 @@ const staffContent = [
     deptName: 'HĐMV',
     image: 'http://www.cttdvnatl.net/gallery/img/core-img/Danh.jpg',
     phone: '678-910-8100',
-    email: 'danh.t.nguyen@cttdvnatl.org',
+    email: 'danh.t.nguyen@hvmatl.org',
 },
 {
     name: 'Giuse Nguyễn Đức Sơn',
@@ -15,7 +15,7 @@ const staffContent = [
     title: 'Trưởng ',
     image: 'http://www.cttdvnatl.net/gallery/img/core-img/SonNguyen.jpg',
     phone: '678-906-8914',
-    email: 'nguyensd@gmail.com', 
+    email: 'son.nguyen@hvmatl.org', 
 },
 {
     name: 'Phêrô Nguyễn Đức Phúc',
@@ -24,7 +24,7 @@ const staffContent = [
     title: 'Phó ',
     image: 'http://www.cttdvnatl.net/gallery/img/core-img/PhucNguyen.jpg',
     phone: '678-978-4518',
-    email: 'peter.d.nguyen@cttdvnatl.org',
+    email: 'peter.d.nguyen@hvmatl.org',
 },
     {
     name: 'Gioan Phạm Thanh Tú',
@@ -33,7 +33,7 @@ const staffContent = [
     deptName: 'Khối Cơ Sở',
     image: 'http://www.cttdvnatl.net/gallery/img/core-img/TuPham.jpg',
     phone: '404-376-1336',
-    email: 'ljohntupham@yahoo.com',
+    email: 'tupham@hvmatl.org',
 },
 {
     name: 'Antôn Vũ Thanh',
@@ -42,7 +42,7 @@ const staffContent = [
     title: 'Phó ',
     image: 'http://www.cttdvnatl.net/gallery/img/core-img/ThanhVu.jpg',
     phone: '770-401-1916',
-    email: 'tvu99@hotmail.com', 
+    email: 'thanhvu@hvmatl.org', 
 },
 {
     name: 'Phaolô Nguyễn Chinh Paul',
@@ -51,7 +51,7 @@ const staffContent = [
     title: 'Trưởng ',
     image: 'http://www.cttdvnatl.net/gallery/img/core-img/PaulNguyen.jpg',
     phone: '678-644-0853',
-    email: 'paul.chinh.nguyen@cttdvnatl.org',
+    email: 'paul.chinh.nguyen@hvmatl.org',
 },
 {
     name: 'Theresa Nguyễn Lệ Thảo',
@@ -60,7 +60,7 @@ const staffContent = [
     title: 'Phó ',
     image: 'http://www.cttdvnatl.net/gallery/img/core-img/ThaoLe.jpg',
     phone: '770-900-0769',
-    email: 'lethao.theresa@cttdvnatl.org',
+    email: 'lethao.theresa@hvmatl.org',
 },
 {
     name: 'Anna Lê Tuyết Mai',
@@ -69,7 +69,7 @@ const staffContent = [
     title: 'Trưởng ',
     image: 'http://www.cttdvnatl.net/gallery/img/core-img/MaiLe.jpg',
     phone: '770-241-0264',
-    email: 'tuyetmai680@yahoo.com',
+    email: 'tuyetle@hvmatl.org',
 },
 {
     name: 'Phêrô Hà Thanh Hùng',
@@ -78,7 +78,7 @@ const staffContent = [
     title: 'Phó ',
     image: 'http://www.cttdvnatl.net/gallery/img/core-img/HungHa.jpg',
     phone: '770-542-9680',
-    email: 'hathanhhung@yahoo.com',       
+    email: 'hungha@hvmatl.org',       
 },
 {
     name: 'Antôn Vũ Minh Tuấn',
@@ -87,7 +87,7 @@ const staffContent = [
     title: 'Trưởng ',
     image: 'http://www.cttdvnatl.net/gallery/img/core-img/TuanVu.jpg',
     phone: '678-600-6038',
-    email: 'TuanVuCttdvn@gmail.com',
+    email: 'tuanvu@hvmatl.org',
 },
 {
     name: 'Micae Cao Hùng Anh',
@@ -96,7 +96,7 @@ const staffContent = [
     title: 'Phó ',
     image: 'http://www.cttdvnatl.net/gallery/img/core-img/AnhCao.jpg',
     phone: '678-665-6189',
-    email: 'CaoFinancial@gmail.com',    
+    email: 'anhcao@hvmatl.org',    
 },  
 {
     name: 'Gioan Phạm Khoa Văn',
@@ -114,7 +114,7 @@ const staffContent = [
     title: 'Phó ',
     image: 'http://www.cttdvnatl.net/gallery/img/core-img/TrangVu.jpg',
     phone: '678-906-1001',
-    email: 'annavusss@gmail.com',
+    email: 'trang.t.vu@hvmatl.org',
 },
 {
     name: 'Cecilia Lê Tú Anh',
@@ -123,7 +123,7 @@ const staffContent = [
     title: 'Trưởng ',
     image: 'http://www.cttdvnatl.net/gallery/img/core-img/TuAnh.jpg',
     phone: '404-403-2763',
-    email: 'TuAnh2003@cttdvnatl.org',
+    email: 'tuanhle@hvmatl.org',
 },
 {
     name: 'Gioakim Lê Kevin Tâm',
@@ -132,7 +132,7 @@ const staffContent = [
     title: 'Phó ',
     image: 'http://www.cttdvnatl.net/gallery/img/core-img/TamLe.jpg',
     phone: '678-268-8891',
-    email: 'Nam_viet911@yahoo.com',
+    email: 'tamle@hvmatl.org',
 },
 {
     name: 'Giuse Vũ Văn Hưởng',
@@ -141,7 +141,7 @@ const staffContent = [
     title: 'Trưởng ',
     image: 'http://www.cttdvnatl.net/gallery/img/core-img/HuongVu.jpg',
     phone: '704-726-6872',
-    email: 'vuonthemove@charter.net',
+    email: 'huongvu@hvmatl.org',
 },
 {
     name: 'Lucia Lê Jennie',
@@ -150,7 +150,7 @@ const staffContent = [
     title: 'Quản Lý Văn Phòng - ',
     image: 'http://www.cttdvnatl.net/gallery/img/core-img/JennieLe.jpg',
     phone: '678-256-1314',
-    email: 'JennieLe@cttdvnatl.org',
+    email: 'jenniele@hvmatl.org',
 },
 {
     name: 'Madalena Toyama Madalena ',
@@ -159,7 +159,7 @@ const staffContent = [
     title: 'Thư Ký - ',
     image: 'http://www.cttdvnatl.net/gallery/img/core-img/NaMadalena.jpg',
     phone: '770-899-3548',
-    email: 'MadalenaMails@yahoo.com',   
+    email: 'toyamam@hvmatl.org',   
 },
 {
     name: 'Giuse Nguyễn Quang Tấn',
@@ -168,7 +168,7 @@ const staffContent = [
     title: 'Trưởng ',
     image: 'http://www.cttdvnatl.net/gallery/img/core-img/TanNguyen.jpg',
     phone: '678-670-0817',
-    email: 'tan.q.nguyen@cttdvnatl.org',
+    email: 'tan.q.nguyen@hvmatl.org',
 },
 {
     name: 'Giuse Trần Khiêm Chánh',
@@ -177,7 +177,7 @@ const staffContent = [
     title: 'Phó ',
     image: 'http://www.cttdvnatl.net/gallery/img/core-img/ChanhTran.jpg',
     phone: '678-234-6530',
-    email: 'chanhvictor@yahoo.com',
+    email: 'chanhtran@hvmatl.org',
 },
 ];
 
