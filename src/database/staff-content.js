@@ -105,7 +105,7 @@ const staffContent = [
     title: 'Trưởng ',
     image: 'http://www.cttdvnatl.net/gallery/img/core-img/VanPham.jpg',
     phone: '404-992-1122',
-    email: 'van.k.pham@cttdvnatl.org',
+    email: 'van.k.pham@hvmatl.org',
 },
 {
     name: 'Anna Vũ Thùy Trang',
