@@ -6,6 +6,7 @@ import './index.css';
 import carouselReducer from './store/reducer/carouselReducer';
 import weeklyNewsReducer from './store/reducer/weeklyNewsReducer';
 import authReducer from './store/reducer/authReducer';
+import formReducer from "./store/reducer/formReducer";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/style.css';
 import App from './App';
@@ -14,7 +15,8 @@ import * as serviceWorker from './serviceWorker';
 const rootReducer = combineReducers({
     auth: authReducer,
     carousel: carouselReducer,
-    weeklyNews: weeklyNewsReducer
+    weeklyNews: weeklyNewsReducer,
+    form: formReducer
 })
 //Redux store
 const store = createStore(rootReducer, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
