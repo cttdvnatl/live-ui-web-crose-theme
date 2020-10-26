@@ -205,8 +205,8 @@ const stJosephTeacherContent = [
     {   
         classification: 'main-teacher',
         image: 'https://cttdvnatl.net/gallery/kgd/giaoly/gl-4c-02.jpg',
-        name: 'Cô ThuThu Nguyễn',
-        email: 'thuthu.nguyen@hvmatl.org',
+        name: 'HT Joseph Nguyễn',
+        email: 'joseph.nguyen@hvmatl.org',
         phone: 'Lớp 4C',
     },
     {   
@@ -226,7 +226,7 @@ const stJosephTeacherContent = [
     {   
         classification: 'main-teacher',
         image: 'https://cttdvnatl.net/gallery/kgd/giaoly/gl-5a-01.jpg',
-        name: 'Cô Hương Tran',
+        name: 'Cô Hương Trần',
         email: 'maria.huong.tran@hvmatl.org',
         phone: 'Lớp 5A',
     },
@@ -373,7 +373,7 @@ const stJosephTeacherContent = [
     {   
         classification: 'main-teacher',
         image: 'https://cttdvnatl.net/gallery/kgd/giaoly/gl-7e-01.jpg',
-        name: 'HSTT Đức Đỗ',
+        name: 'HSTT Jack Đỗ',
         email: 'jack.duc.do@hvmatl.org',
         phone: 'Lớp 7E',
     },
@@ -387,7 +387,7 @@ const stJosephTeacherContent = [
     {   
         classification: 'main-teacher',
         image: 'https://cttdvnatl.net/gallery/kgd/giaoly/gl-7f-01.jpg',
-        name: 'HT Đức Đỗ',
+        name: 'HT Andrew Đỗ',
         email: 'andrew.do@hvmatl.org',
         phone: 'Lớp 7F',
     },
@@ -486,7 +486,7 @@ const stJosephTeacherContent = [
         classification: 'main-teacher',
         image: 'https://cttdvnatl.net/gallery/kgd/giaoly/gl-9c-01.jpg',
         name: 'Thầy Dũng Anh Nguyễn',
-        email: 'quiton.tran@hvmatl.org',
+        email: 'dung.anh.nguyen@hvmatl.org',
         phone: 'Lớp 9C',
     },
     {   
@@ -570,7 +570,7 @@ const stJosephTeacherContent = [
         classification: 'main-teacher',
         image: 'https://cttdvnatl.net/gallery/kgd/giaoly/hs-1a-01.jpg',
         name: 'HT Michael Phạm',
-        email: 'micheal.pham@hvmatl.org',
+        email: 'michael.pham@hvmatl.org',
         phone: 'Lớp Hiệp Sĩ 1A',
     },
     {   
