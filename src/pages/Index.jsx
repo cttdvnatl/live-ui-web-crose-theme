@@ -8,8 +8,8 @@ import Event from '../components/Event';
 import Calendar from "../components/Calendar";
 import { useTranslation } from 'react-multi-lang';
 
-const Index = (prop) => {
-    const t = useTranslation();
+const Index = () => {
+    const t = useTranslation()
     return(
         <div>
             <Preloader/>

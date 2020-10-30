@@ -1,0 +1,1 @@
+export const ALL_SOUL_REQ = 'ALL_SOUL_REQ';
