@@ -491,20 +491,12 @@ img {
     .header-area .search-form-area.search-on {
       left: 0; }
 
-      li.KGD ul {
-        display : none;
-      }
-      
       li.KGD ul li {
         margin-left: 20px;
       }
       
-      li.KGD:hover ul {
+      li.KGD ul {
         display: block;
-        position: absolute;
-        margin-top: -38px;
-        margin-left: 150px;
-        min-width : 130px;
         background: white;
       } 
 
@@ -1313,7 +1305,7 @@ img {
 .footer-area .main-footer-area {
   position: center;
   z-index: 1;
-  padding-top: 10px;
+  padding-top: 20px;
   background-image: linear-gradient(to bottom, #f2d16b, #d7be69, #996515);
 }
 

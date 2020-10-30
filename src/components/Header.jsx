@@ -1,155 +1,256 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
-/* eslint-disable jsx-a11y/anchor-has-content */
-import React from 'react';
-// import axios from 'axios';
+import React, {useEffect, useState, useRef, useCallback} from 'react';
+import { setLanguage, getLanguage, useTranslation } from 'react-multi-lang';
+import EmergencyEvent from "./EmergencyNotice";
+import PopupModal from "./PopupModal";
+
 const Header = (prop) => {
-    // const [getTemp, setTemp] = useState(() => navigator.geolocation.getCurrentPosition(async(pos) => {
-	// 	const res = await axios({
-	// 		url:"https://api.openweathermap.org/data/2.5/weather",
-	// 		method: 'get',
-	// 		params: {
-	// 			lat: pos.coords.latitude,
-	// 			lon: pos.coords.longitude,
-    //             appid: 'a1f8ea13ceb084b2fc8527fa54ffa3c3',
-    //             units:'imperial'
-	// 		},
-    //     });
-    //     return res.data.main.temp;
-    // }));
+    const [logo, setLogo] = useState("");
+    //Element references
+    const navbarToggler = useRef(null);
+    const navbarMenu = useRef(null);
+    const navbar = useRef(null);
+    // const stickyWrapper = useRef(null);
+    const navbarClose = useRef(null);
+    const navbarItem = useRef(null);
+    const massSchedule = useRef(null);
+    const email = useRef(null);
+    const phone = useRef(null);
+    const facebook = useRef(null);
+    const twitter = useRef(null);
+    const youtube = useRef(null);
+    const mainMenu = useRef(null);
+
+    const [show, setShow] = useState(false);
+    const [content, setContent] = useState({});
+
+    //Modify styling when the window size is changing
+    const resizeCallback = useCallback(() => {
+        if(window.innerWidth < 1450) {
+            massSchedule.current.classList.remove('fa-lg');
+            email.current.classList.remove('fa-lg');
+            phone.current.classList.remove('fa-lg');
+            navbar.current.classList.remove("breakpoint-off");
+            navbar.current.classList.add("breakpoint-on");
+            facebook.current.classList.remove('fa-lg');
+            twitter.current.classList.remove('fa-lg');
+            youtube.current.classList.remove('fa-lg');
+        } else {
+            massSchedule.current.classList.add('fa-lg');
+            email.current.classList.add('fa-lg');
+            phone.current.classList.add('fa-lg');
+            navbar.current.classList.remove("breakpoint-on");
+            navbar.current.classList.add("breakpoint-off");
+            facebook.current.classList.add('fa-lg');
+            twitter.current.classList.add('fa-lg');
+            youtube.current.classList.add('fa-lg');
+        }
+        setLogo(window.innerWidth < 400 ? "../img/core-img/Logo1.png" : "../img/core-img/gxlogo.png");
+    }, [setLogo]);
+    //Modify styling when the window is scrolled
+    const scrollCallback = useCallback(() => {
+        const sticky = mainMenu.current.offsetTop;
+        if (window.pageYOffset > sticky) {
+        //   stickyWrapper.current.classList.add("is-sticky");
+          mainMenu.current.classList.add("is-sticky");
+        } else {
+        //   stickyWrapper.current.classList.remove("is-sticky");
+          mainMenu.current.classList.remove("is-sticky");
+      }
+    }, []);
+
+    const activateSidebar = () => {
+        if(window.innerWidth < 1450) {
+            navbarToggler.current.classList.add("active");
+            navbarMenu.current.classList.add("menu-on");
+        } else {
+            navbarToggler.current.classList.remove("active");
+            navbarMenu.current.classList.remove("menu-on");
+        }
+    };
+
+    const closeSidebar = () => {
+        if(window.innerWidth < 1450)
+            navbarToggler.current.classList.remove("active");
+            navbarMenu.current.classList.remove("menu-on");
+    };
+
+    const toggleSubMenu = (index, e) => {
+        e.stopPropagation();
+        if(window.innerWidth < 1450) {
+            for(let i = 0; i < navbarItem.current.children.length; i++) {
+                if(i === index && !navbarItem.current.children[i].classList.contains("active")) {
+                    navbarItem.current.children[i].classList.add("active");
+                    navbarItem.current.children[i].children[1].setAttribute("style", "display:block; font-size:10px");
+                }
+                else {
+                    navbarItem.current.children[i].classList.remove("active");    
+                    if(navbarItem.current.children[i].children[1] !== undefined)
+                        navbarItem.current.children[i].children[1].removeAttribute("style");
+                }
+            }
+        }
+    };
+
+    //Add event handler after the element is rendered
+    useEffect(() => {
+        //Call all the callbacks to setup initial value after the element is mounted
+        resizeCallback();
+        window.addEventListener("resize", resizeCallback);
+        window.addEventListener("scroll", scrollCallback);
+        //Unhook the event handlers when the element is unmounted
+        return () => {
+            window.removeEventListener("scroll", scrollCallback);
+            window.removeEventListener("resize", resizeCallback);
+        };
+      }, [resizeCallback, scrollCallback]);
+
+    const displayModal = (e, title, content) => {
+        if(!sessionStorage.hasOwnProperty('showDonationInst') || sessionStorage.getItem('showDonationInst') ==='true') {
+            e.preventDefault();
+            setShow(true);
+            setContent({
+                title: title,
+                url: content,
+                fileExt: content.slice(-3),
+                confirm: e.target.getAttribute("href")
+            });
+        }
+        sessionStorage.setItem('showDonationInst', 'false');
+    };
+
+    const hideModal = () => {
+        setShow(false);
+        setContent({});
+    };
+//Set Language and Cookie
+    function setLangCookie() {
+        document.cookie = "language = " + getLanguage();
+    }
+    function setLanguageVN() {
+        setLanguage('vn');
+        setLangCookie('vn');
+    }
+    function setLanguageEN() {
+        setLanguage('en');
+        setLangCookie('en');
+    }
+
+    const t = useTranslation();
+    //JSX represent the header element
     return (
-        // <!-- ##### Header Area Start ##### -->
-        <header className= "header-area">
-        
-            {/* <!-- ***** Top Header Area ***** --> */}
+        <header className="header-area">
             <div className="top-header">
-                <div className="container">
+                <div className="container-fluid">
                     <div className="row">
-                        <div className="col-12">
+                        <div className="col-12 col-md-12 col-sm-12">
                             <div className="top-header-content d-flex flex-wrap align-items-center justify-content-between">
-                                {/* <!-- Top Header Meta --> */}
                                 <div className="top-header-meta d-flex flex-wrap">
-                                    <p><a href="/" className="open" data-toggle="tooltip" data-placement="bottom" title= {prop.time}><i className="fa fa-clock-o" aria-hidden="true"></i> <span>Time: {prop.time}</span> </a>Temperature: 30 F</p>
+                                    <div>
+                                        <div id="translation-button">
+                                            <button id="vn" onClick={() => setLanguageVN()}>VN</button>
+                                            <button id="en" onClick={() => setLanguageEN()}>EN</button>                
+                                        </div>
+                                    </div>
                                     <div className="top-social-info">
-                                        <a href="#"><i className="fa fa-facebook" aria-hidden="true"></i></a>
-                                        <a href="#"><i className="fa fa-twitter" aria-hidden="true"></i></a>
-                                        <a href="#"><i className="fa fa-google-plus" aria-hidden="true"></i></a>
+                                        <a href="https://www.facebook.com/cttdvn" aria-label="facebook"><i className="fab fa-facebook" ref={facebook}></i></a>
+                                        <a href="https://www.youtube.com/thanhtudaovietnam" aria-label="youtube"><i className="fab fa-youtube" ref={youtube}></i></a>
+                                        <a href="https://twitter.com/thanhtudaovn" aria-label="twitter"><i className="fab fa-twitter" ref={twitter}></i></a>
                                     </div>
                                 </div>
-                                {/* <!-- Top Header Meta --> */}
                                 <div className="top-header-meta">
-                                    <a href="mailto:info@cttdvn.org" className="email-address"><i className="fa fa-envelope" aria-hidden="true"></i> <span>info@cttdvn.org</span></a>
-                                    <a href="#" className="phone"><i className="fa fa-phone" aria-hidden="true"></i> <span>770-921-0077</span></a>
+                                    <a href="/massSchedule" className="email-address"><i className="fas fa-calendar-alt" aria-hidden="true" ref={massSchedule}></i><span>{t("header.top.massSchedule")}</span></a>
+                                    <a href="mailto:info@hvmatl.org" className="email-address"><i className="fas fa-envelope" aria-hidden="true" ref={email}></i> <span>info@hvmatl.org</span></a>
+                                    <a href="tel:770-921-0077" className="phone"><i className="fas fa-phone" aria-hidden="true" ref= {phone}></i> <span>770-921-0077</span></a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            {/* <!-- ***** Top Header Area ***** -->  */}
-        
-            {/* <!-- ***** Navbar Area ***** --> */}
-            <div className="crose-main-menu">
-                <div className="classy-nav-container breakpoint-off">
-                    <div className="container">
-                        {/* <!-- Menu --> */}
-                        <nav className="classy-navbar justify-content-between" id="croseNav">
-        
-                            {/* <!-- Nav brand --> */}
-                            <a href="/" className="nav-brand"><img src="img/core-img/gxlogo.png" alt=""/></a>
-        
-                            {/* <!-- Navbar Toggler --> */}
-                            <div className="classy-navbar-toggler">
-                                <span className="navbarToggler"><span></span><span></span><span></span></span>
-                            </div>
-        
-                            {/* <!-- Menu --> */}
-                            <div className="classy-menu">
-        
-                                {/* <!-- close btn --> */}
-                                <div className="classycloseIcon">
-                                    <div className="cross-wrap"><span className="top"></span><span className="bottom"></span></div>
+            <div style={{"minHeight":"90px"}}>
+                <div className="crose-main-menu" ref={mainMenu}>
+                    <div className="classy-nav-container breakpoint-off" ref={navbar}>
+                        <div className="container">
+                            <nav className="classy-navbar justify-content-between" id="croseNav">
+                                <a href="/" className="nav-brand"><img src={logo} alt=""/></a>
+                                <div className="classy-navbar-toggler" onClick={activateSidebar}>
+                                    <a href="https://giving.parishsoft.com/App/Giving/holy4545250" className="crose-btn" onClick={(e) => displayModal(e, "Huong dan Donation", "img/core-img/donation_instruction.jpg")}><i className="fas fa-donate"/>  DONATION</a>
+                                    <span className="navbarToggler" ref={navbarToggler}><span/><span/><span/></span>
                                 </div>
-        
-                                {/* <!-- Nav Start --> */}
-                                <div className="classynav">
-                                        <ul>
-                                            {/* <!--li><a href="index.html">TRANG CHÙ</a></li--> */}
-                                            <li><a href="/">GIÁO XỨ</a>
+                                <div className="classy-menu" ref={navbarMenu} onClick={closeSidebar}>
+                                    <div className="classycloseIcon">
+                                        <div className="cross-wrap" ref={navbarClose}><span className="top"/><span className="bottom"/></div>
+                                    </div>
+                                    <div className="classynav">
+                                        <ul ref={navbarItem}>
+                                            <li className="cn-dropdown-item has-down" onClick={(e) => toggleSubMenu(0, e)}><a href="/#">{t("header.dropdownMenuOne.dropdownHeading")}</a>
                                                 <ul className="dropdown">
-                                                    <li><a href="/">Trang Chủ</a></li>
-                                                    <li><a href="SuMenhGX.html">Sứ Mệnh Giáo Xứ</a></li>
-                                                    <li><a href="LichSuGX.html">Lịch Sử Giáo Xứ</a></li>
-                                                    <li><a href="LichPhungVu.html">Lịch Phụng Vụ</a></li>
-                                                    <li><a href="LinhMuTuSi.html">Linh Mục/Tu Sĩ</a></li>
-                                                    <li><a href="QuyChuc.html">Qúy Chứ</a></li>
+                                                    <li><a href="/">{t("header.dropdownMenuOne.item1")}</a></li>
+                                                    <li><a href="/about">{t("header.dropdownMenuOne.item2")}</a></li>
+                                                    <li><a href="/history">{t("header.dropdownMenuOne.item3")}</a></li>
+                                                    <li><a href="/clergy-list">{t("header.dropdownMenuOne.item4")}</a></li>
+                                                    <li><a href="/staff">{t("header.dropdownMenuOne.item5")}</a></li>
                                                 </ul>
+                                                <span className="dd-trigger"/>
                                             </li>
-                                            <li><a href="#">TIN TỨC/SỰ KIỆN</a>
+                                            <li className="cn-dropdown-item has-down" onClick={(e) => toggleSubMenu(1, e)}><a href="/#">{t("header.dropdownMenuTwo.dropdownHeading")}</a>
                                                 <ul className="dropdown">
-                                                    <li><a href="TinTucCG.html">Tin Tức Công Giáo</a></li>
-                                                    <li><a href="SinhHoatGX.html">Sinh Hoạt Giáo Xứ</a></li>
-                                                    <li><a href="Lich.html">Lịch 2019</a></li>
-                                                    <li><a href="HCMT.html">Hội Chợ Mùa Thu</a></li>
-                                                    <li><a href="TNTT.html">TNTT Tôma Thiện</a></li>
+                                                    <li><a href="/activities">{t("header.dropdownMenuTwo.item1")}</a></li>
+                                                    <li><a href="/printed-calendar">{t("header.dropdownMenuTwo.item2")}</a></li>
+                                                    <li><a href="/fall-fest">{t("header.dropdownMenuTwo.item3")}</a></li>
+                                                    <li><a href="/thieu-nhi">{t("header.dropdownMenuTwo.item4")}</a></li>
                                                 </ul>
+                                                <span className="dd-trigger"/>
                                             </li>
-                                            <li><a href="BanNganh">BAN NGÀNH</a>
+                                            <li className="cn-dropdown-item has-down" onClick={(e) => toggleSubMenu(2, e)}>
+                                                <a href="/#">{t("header.dropdownMenuThree.dropdownHeading")}</a>
                                                 <ul className="dropdown">
-                                                    <li><a href="SoDoToChu.html">Sơ Đồ Tổ Chức</a></li>
-                                                    <li><a href="KCS.html">Khối Cơ Sở</a></li>
-                                                    <li><a href="KDS.html">Khối Đời Sống</a></li>
-                                                    <li><a href="KGD.html">Khối Giáo Dục</a></li>
-                                                    <li><a href="KHC.html">Khối Hành Chánh</a></li>
-                                                    <li><a href="KPT.html">Khối Phụng Tự</a></li>                                            
-                                                    <li><a href="KTG.html">Khối Truyền Giáo</a></li>
+                                                <li><a href="/Org">{t("header.dropdownMenuThree.item1")}</a></li>
+                                                    <li><a href="/departments/KCS">{t("header.dropdownMenuThree.item2")}</a></li>
+                                                    <li><a href="/departments/KDS">{t("header.dropdownMenuThree.item3")}</a></li>
+                                                    <li className="KGD"><a href="http://giaoly.hvmatl.org/">{t("header.dropdownMenuThree.item4")}</a>
+                                                        <ul>
+                                                            <li>
+                                                                <a href='/st-joseph'>{t("header.dropdownMenuThree.subItem1")}</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="/VietHong"><i>{t("header.dropdownMenuThree.subItem2")}</i></a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="/departments/KHC">{t("header.dropdownMenuThree.item5")}</a></li>
+                                                    <li><a href="/departments/KPT">{t("header.dropdownMenuThree.item6")}</a></li>
+                                                    <li><a href="/departments/KTG">{t("header.dropdownMenuThree.item7")}</a></li>
+                                                    <li><a href="/departments/KQT">{t("header.dropdownMenuThree.item8")}</a></li>
+                                                    <li><a href="/departments/KGQ">{t("header.dropdownMenuThree.item9")}</a></li>
                                                 </ul>
+                                                <span className="dd-trigger"></span>
                                             </li>
-                                            <li><a href="ThuVien">Thư Viện</a>
+                                            <li className="cn-dropdown-item has-down" onClick={(e) => toggleSubMenu(3, e)}>
+                                                <a href="/#">{t("header.dropdownMenuFour.dropdownHeading")}</a>
                                                 <ul className="dropdown">
-                                                    <li><a href="ThongTinMV.html">Thông Tin Mục Vụ</a></li>
-                                                    <li><a href="CacBaiViet.html">Các Bài Viết</a></li>
-                                                    <li><a href="CacBaiGiang.html">Các Bài Giảng</a></li>
-                                                    <li><a href="ThuVienHinhAnh.html">Thư Viện Hình Ảnh</a></li>
-                                                    <li><a href="DonTu.html">Đơn Từ</a></li>
-                                                    <li><a href="PrayerRequest.html">Prayer Request</a></li>
+                                                    <li><a href="/weeklyNews">{t("header.dropdownMenuFour.item1")}</a></li>
+                                                    <li><a href="/Articles">{t("header.dropdownMenuFour.item2")}</a></li>
+                                                    <li><a href="/catholic_teaching">{t("header.dropdownMenuFour.item3")}</a></li>
+                                                    <li><a href="/photos">{t("header.dropdownMenuFour.item4")}</a></li>
+                                                    <li><a href="/forms">{t("header.dropdownMenuFour.item5")}</a></li>
+                                                    <li><a href="/PrayerRequest">{t("header.dropdownMenuFour.item6")}</a></li>
                                                 </ul>
-                                            </li>                                                                     
-                                            <li><a href="Contact">Contact</a></li>
+                                                <span className="dd-trigger"/>
+                                            </li>
+                                            <li><a href="/contact">{t("header.dropdownMenuFive.dropdownHeading")}</a></li>
                                         </ul>
-        
-                                    {/* <!-- Search Button --> */}
-                                    <div id="header-search"><i className="fa fa-search" aria-hidden="true"></i></div>
-        
-                                    {/* <!-- Donate Button --> */}
-                                    <a href="#" className="btn crose-btn header-btn">DÂNG HIẾN</a>
-        
+                                        <a href="https://giving.parishsoft.com/App/Giving/holy4545250" className="crose-btn header-btn" onClick={(e) => displayModal(e, "Huong dan Donation", "img/core-img/donation_instruction.jpg")}><i className="fas fa-donate"/>  {t("header.donation")}</a>
+                                    </div>
                                 </div>
-                                {/* <!-- Nav End --> */}
-                            </div>
-                        </nav>
-                    </div>
-                </div>
-        
-                {/* <!-- ***** Search Form Area ***** --> */}
-                <div className="search-form-area">
-                    <div className="container">
-                        <div className="row align-items-center">
-                            <div className="col-12">
-                                <div className="searchForm">
-                                    <form action="#" method="post">
-                                        <input type="search" name="search" id="search" placeholder="Enter keywords &amp; hit enter..."/>
-                                        <button type="submit" className="d-none"></button>
-                                    </form>
-                                    <div className="close-icon" id="searchCloseIcon"><i className="fa fa-close" aria-hidden="true"></i></div>
-                                </div>
-                            </div>
+                            </nav>
                         </div>
+                        <EmergencyEvent emergency={'emergency' in prop ? prop.emergency : false} message={prop.emergencyMsg} url={prop.url}/>
                     </div>
                 </div>
             </div>
-            {/* <!-- ***** Navbar Area ***** --> */}
+            {show ? <PopupModal show={show} content={content} onHide={hideModal}/> : null}
         </header>
-        // <!-- ##### Header Area End ##### -->
     );
 };
 

@@ -4,12 +4,12 @@ Please update a new article in this form:
   The image attribute is the link to the image in the article
     If there is no image, the default image will be added by articles.js
     Image ratio should be around horizontal:verticle 5:4. No need to be exact.
-    The image should be put in this folder: http://cttdvnatl.net/gallery/articles/
+    The image should be put in this folder: https://cttdvnatl.net/gallery/articles/
 
   {
     "Section": "Các Bài Viết",
     "date":"yyyy-mm-dd",
-    "image":"http://cttdvnatl.net/gallery/articles/link-to-the-image"
+    "image":"https://cttdvnatl.net/gallery/articles/link-to-the-image"
     "title":"The title",
     "body":`sometext
 
@@ -22,8 +22,43 @@ const articles =
 [
   {
     "Section": "Các Bài Viết",
+    "date":"2020-03-28",
+    "title":"ĐỊNH HƯỚNG TÂM LINH",
+    "body":`Đứng trước nạn đại dịch COVID-19, chúng ta đang sống trong tình trạng lo lắng, hoảng loạn, và khẩn cấp. Lo lắng vì trận chiến chống lại Coronavirus này không có biên giới nên lan tràn khắp thế giới; không kiêng nể sắc tộc, tôn giáo nào; và không phân biệt trẻ-già, giàu-nghèo, sang-hèn.
+    Trong tâm tình trên, xin được chia sẻ cùng quý thành viên mấy điểm sau:
+    Trước hết trong hoàn cảnh khẩn cấp hiện nay, chúng ta không được tu họp trên 10 người kể cả để cử hành Thánh Lễ Chúa Nhật và các nghi thức phụng vụ để ngăn ngừa lây lan dịch bệnh.  Riêng các linh mục đang sống trong nghịch lý: vẫn muốn gần gũi với giáo dân mà không gia tăng sự lây nhiễm, điều này chỉ có cách qua phương tiện truyền thông kỹ thuật số. Thật cám ơn những anh chị em trong Ban Truyền Thông, kể cả quý sơ đã học hỏi, thiết kế và thực hiện để chúng tôi là giáo sĩ vẫn có thể liên lạc với quý vị và quý vị vẫn nghe được tâm tình chia sẻ của chúng tôi. Có lẽ quý vị cũng đồng ý với các linh mục rằng: sự gặp gỡ, gần gũi thể lý với giáo dân lúc này là vô trách nhiệm; và yêu thương cộng đồng thì phải tránh xa ra. Chắc chắn việc tham dự Thánh Lễ trực tuyến và Rước Lễ Thiêng Liêng không thể nào thay thế cho việc cử hành bí tích với sự hiện thể lý nhưng đây cũng là cơ hội để chúng ta gặp gỡ Thiên Chúa và nối kết với anh chị em bằng những phương thế khác đang khi ta không thể hiện diện thực thụ.
+    Kế đến, đây là cơ hội để cho các giáo hội tại gia (domestic church) sinh hoạt, chia sẻ và gắn bó. Chúng tôi cố gắng giữ những giờ cử hành các Thánh Lễ Cuồi Tuần, kể cả ngày thường để quý vị vẫn có thể giữ được thói quen tốt lành, tức là nhân đức trung thành trong việc cầu nguyện cho thờ phượng Thiên Chúa. Thêm vào đó, mỗi gia đình cũng hãy cùng nhau giữ những giờ cầu nguyện này trong gia đình. Tôi tha thiết xin các vị gia trưởng hãy chiếm giữ lại truyền thống gia đình Công giáo để chu toàn bổn phận và tích cực hướng dẫn gia đình cử hành phụng vụ tại nhà, như truyền thống các gia đình Công giáo thuở sơ khai vẫn thực hành.
+    Sau cùng, hãy hiệp nhất với toàn Giáo hội và thế giới để cầu nguyện cho chính mình và cho nhau. Hãy bày tỏ lòng ngưỡng mộ đến những người đang ở tuyến đầu. Tất cả các bác sĩ, y tá, các tuyên úy, cả những người mà dù cho tình trạng khẩn cấp vẫn tiếp tục công việc của họ. Nhất là hãy biết quan tâm đến nhau và có tinh thần chung để chia sẻ và sống tinh thần bác ái Kitô giáo. Chúng ta cũng đã nhận biết, trong những ngày khan hiếm dụng cụ y tế này, có một số anh chị em trong ngành Nails đã sẵn sàng ủng hộ bao tay (Gloves) và dụng cụ che miệng (face mask) cho những bệnh viện địa phương, nơi không còn đủ dụng cụ để bảo vệ an toàn cho những người đang phục vụ các bệnh nhân.
+    Xin hãy tiếp tục trên hành trình Mùa Chay và sẵn sàng bước vào Tuần Thánh bằng những hi sinh và bác ái của mỗi người. Đồng thời, xin tiếp tục giữ giáo xứ và xã hội của chúng ta tiếp tục hoạt động bằng những nối kết của quý vị, dù rằng trong những điều kiện khó khăn và hoảng loạn hiện tại, chúng ta vẫn còn có nhau bằng những sự nối kết và lòng bác ái để quan tâm và chia sẻ trong cầu nguyện và trong tình thương yêu của Thiên Chúa chúng ta.
+     
+    Nguyện xin Thiên Chúa tiếp tục chúc lành và gìn giữ chúng ta qua khỏi nạn đại dịch COVID-19 này để tiếp tục thờ phượng Thiên Chúa và yêu thương nhau.
+    
+    Thân mến
+    Lm. Phanxico Trần Quốc Tuấn.
+    `
+  },
+  {
+    "Section": "Các Bài Viết",
+    "date":"2020-03-22",
+    "title":"HƯỚNG DẪN MỤC VỤ TÂM LINH",
+    "body":`Đứng trước nạn dịch COVID-19 đang lây lan rất nhanh chóng, xã hội có những phản ứng khác nhau: Tích cực là tìm cách phòng chống nó cho mình, cho người thân, cho cộng đồng.  Tiêu cực của COVID-19 là quá lo sợ và chỉ lo thủ cho mình mà không nghĩ đến ai.  Trong những ngày này, chúng ta nhận được rất nhiều thông tin, nơi này hoặc nơi kia không cử hành Thánh lễ công cộng trong ngày Chúa Nhật. Đây quả là một hiện tượng rất lạ vì nó xảy ra trên nhiều nước trên thế giới, tuy rằng trước đây đã từng xảy ra tại Milan nước Ý năm 1576 để tránh lây lan của bệnh dịch ngay vào Mùa Giáng Sinh.</br>
+    Giáo Hội Công Giáo có lẽ đã đi hàng đầu trong khía cạnh mục vụ khi ứng xử với nạn đại dịch này, nhưng đối với một số giáo hữu thì những đáp ứng có vẻ như đi quá xa.  Vậy ta phải nhìn vấn đề như thế nào cho quân bình.</br>
+    Trước hết, ta cần xác định rằng: Giáo Hội là một phần của định chế của xã hội, do đó chúng ta phải thì phải tuân thủ những hướng dẫn của chính quyền. Tuy vậy, cũng cần có những sáng tạo để tiếp tục đáp ứng nhu cầu mục vụ và thiêng liêng của các tín hữu.</br>
+    Kế đến, quyết định của Đấng Bản Quyền về việc ngưng các Thánh lễ công cộng không phải là thái độ hèn nhát, coi thường bí tích và Thánh Thể không phải là thuốc chống đỡ bệnh tật.  Thánh Thomas Quinas cũng đã dạy rằng: “nếu thấy rượu nho bị chuốc độc, linh mục không nên lãnh nhận cũng như phân phối cho người khác bất cứ vì lý do gì, kẻo chén ban sự sống trở thành chén chết chóc” (Summa, III, 83, iii, Article 6).</br>
+    Sau nữa, ta cần nhớ rằng, ta cần phải giữ nguyên tắc: Chúng ta cố gắng hết sức và Chúa sẽ hoàn tất những gì còn lại - We try our best, God takes care the rest.</br>
+    Về khía cạnh xã hội, chúng ta phải tuân thủ những hướng dẫn của chính phủ, Sở Y Tế, và Trung Tâm Kiểm Soát Dịch Bệnh (CDC) hướng dẫn như giữ khoảng cách xã hội 6 feets (Social Distance), tránh trực tiếp tiếp xúc, siêng rửa tay sau khi tiếp xúc với vật dụng dùng chung nơi công cộng, thường xuyên sát trùng tránh sờ vào mắt, mũi, miệng mình, v.v. Chính vì thế, Đấng Bản Quyền cũng đã thực hành việc chú ý phòng ngừa lây lan này qua việc không rước lễ bằng miệng, không bắt tay lúc chào bình an, không cử hành thánh lễ công cộng, miễn chước tham dự Thánh lễ Chúa Nhật v.v.</br>
+    Về khía cạnh tâm linh, cần nhớ và thực hành như trước đây mỗi lần có đại dịch, người Công Giáo luôn nghĩ tới là “ăn năn thống hối” làm việc “đền tạ” để nài xin lòng thương xót Chúa cứu vớt.  Tuy không được tập trung đông người như Tổng Thống kêu gọi ‘Không Quá 10 Người”, gia đình ta ta vẫn có thể đến Nhà Thờ để cầu nguyện, chầu Thánh Thể, suy gẫm Lời Chúa và Sự Thương Khó của Chúa Giêsu trong Mùa Chay và Tuần Thánh này.</br>
+     Sau cùng, ta hãy tận dụng cơ hội này như ĐTC Phanxicô chia sẻ vào sáng thứ hai tuần này là ‘làm thế nào để các gia đình được liên kết với nhau thật thắm thiết! Thiên Chúa sẽ giúp chúng ta khám phá những cách thế mới, những phương thức thể hiện tình yêu mới vậy chúng ta hãy cùng nhau sống trong những tình huống mới này. Đây là một cơ hội tuyệt vời để tái khám phá ra những tâm tình của Đấng Sáng Tạo. Chúng ta hãy cầu nguyện cho mọi gia đình hầu các mối quan hệ của họ trong thời điểm này được thăng tiến tốt đẹp’. Bên cạnh việc thắt chặt mối giây liên kết trong gia đình, chúng ta cũng còn cơ hội để thắt chặt hơn tình cha con giữa Thiên Chúa và ta, cũng như khám phá ra sự cao quý của Thánh lễ và Thánh Thể khi ta phải hiệp thông qua Thánh lễ trực tuyến. Đương nhiên, Thánh lễ trực tuyến không thể thay thế được việc đích thân tham dự Thánh lễ, ngoại trừ những trường hợp: bất khả kháng, được miễn chước hay đủ lý do để bào chữa, như trong trường hợp Coronavirus hiện nay.</br>
+    Nguyện xin Thiên Chúa, qua lời chuyển cầu của Mẹ Maria và thánh cả Giuse, tiếp tục chúc lành và gìn giữ chúng ta an lành trong tình yêu thương và chăm sóc của Ngài.
+    
+    Thân mến
+    Lm. Phanxico Trần Quốc Tuấn.
+    `
+  },
+  {
+    "Section": "Các Bài Viết",
     "date":"2020-03-08",
-    "image":"http://cttdvnatl.net/gallery/img/articles/article-2020-03-08.png",
+    "image":"https://cttdvnatl.net/gallery/img/articles/article-2020-03-08.png",
     "title":"Tin Vui Trong Mùa Chay",
     "body":`Tâm tình phụng vụ của Mùa Chay là ăn năm sám hối và chay tịnh. Tuy vậy, chúng ta cũng có những tin vui, hôm nay tôi hân hoan chia sẻ cùng quý thành viên mấy tin vui rất đặc biệt sau:
     
