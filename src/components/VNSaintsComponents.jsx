@@ -6,35 +6,35 @@ const VNSaintsComponents = ({list}) => (
         {list.map((SaintsTOC) => (
             <>
                 <h1>{SaintsTOC.day}</h1>
-                <a href={'#' + SaintsTOC.link}>{SaintsTOC.prayerName}</a>
+                <a href={'#' + SaintsTOC.id}>{SaintsTOC.prayerName}</a>
             </>
         ))}
         </div>
         <div class="vn-saints-sections">
         {list.map((Saint) => (
-        <>
-            <h1 id="1">{Saint.day}</h1>
+        <>  
+            <h1 id={Saint.id}>{Saint.day}</h1>
             <h1>{Saint.name} ({Saint.birthDeath})</h1>
-            <h5><b>HÁT: Cầu Xin Chúa Thánh Thần (Đứng)</b></h5>
+        <h5><b>HÁT: {Saint.songName}</b></h5>
             <p>{Saint.song}</p>
             <p><b>Lời dẫn:</b> {Saint.introduction}
             <br/>
-            &#123;Mời cộng đoàn ngồi&#125;
+            <b>&#123;Mời cộng đoàn ngồi&#125;</b>
             </p>
             <h5><b>TIỂU SỬ</b></h5>
             <p><b style={{fontSize: '17px'}}>{Saint.title1}</b>
                 <br/>
                 {Saint.story1}
             </p>
-            <p><b>{Saint.title2}</b>
+            <p><b style={{fontSize: '17px'}}>{Saint.title2}</b>
                 <br/>
                 {Saint.story2}
             </p>
-            <p><b>{Saint.title3}</b>
+            <p><b style={{fontSize: '17px'}}>{Saint.title3}</b>
                 <br/>
                 {Saint.story3}
             </p>
-            <p><b>{Saint.title4}</b>
+            <p><b style={{fontSize: '17px'}}>{Saint.title4}</b>
                 <br/>
                 {Saint.story4}
             </p>
@@ -59,10 +59,12 @@ const VNSaintsComponents = ({list}) => (
             <p><b>{Saint.prayerResponse}</b></p>
             <p>{Saint.prayer4}</p>
             <p><b>{Saint.prayerResponse}</b></p>
+            <p>{Saint.prayer5}</p>
+            <p><b>{Saint.prayerResponse}</b></p>
             <h5>KINH LẠY CHA</h5>
-            <h5><b>Lời Nguyện</b></h5>
+            <h5><b style={{fontSize: '17px'}}>Lời Nguyện</b></h5>
             <p>{Saint.para1}</p>
-            <h5><b>Kinh Các Thánh Tử Đạo Việt Nam</b></h5>
+            <h5><b style={{fontSize: '17px'}}>{Saint.heading2}</b></h5>
             <p>{Saint.para2}</p>
         </>
         ))}

@@ -2202,7 +2202,7 @@ p.cookies {
   padding-right: 0;
   margin-right: 0;
   margin-bottom: 300px;
-  width: 20%;
+  width: 10%;
   display: block;
 }
 
@@ -2218,7 +2218,7 @@ p.cookies {
 }
 
 .vn-saints .vn-saints-sections {
-  width: 70%;
+  width: 80%;
   margin: auto;
   margin-top: 10px;
   height: 500px;
@@ -2227,5 +2227,6 @@ p.cookies {
 }
 .vn-saints .vn-saints-sections h1{
   color: black;
+  font-size: 20px;
   padding-top: 10px;
 }
