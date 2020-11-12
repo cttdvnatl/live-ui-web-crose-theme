@@ -63,8 +63,8 @@ const Info = (props) => {
                             </div>
                         </div>
                     </div>
-
-                    <div className="col-12 col-md-6 col-lg-3">
+                
+                    <div className="col-12 col-md-6 col-lg-3" style={{'display': 'none'}}>
                         <div className="about-us-content mb-100">
                             <img src="http://cttdvnatl.net/gallery/img/index/about3.png" alt=""/>
                             <div className="about-text">
