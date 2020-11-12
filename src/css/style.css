@@ -2225,8 +2225,12 @@ p.cookies {
   overflow: auto;
   white-space: pre-wrap;
 }
-.vn-saints .vn-saints-sections h1{
+.vn-saints .vn-saints-sections h1 {
   color: black;
   font-size: 20px;
   padding-top: 10px;
+}
+
+.vn-saints .vn-saints-sections p{
+  font-size: 17px;
 }
