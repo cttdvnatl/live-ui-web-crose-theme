@@ -11,7 +11,7 @@ const Glgh = () => {
                     <div class="row align-items-center justify-content-between">
                         <div class="col-12 col-lg-6">
                             <div class="about-content">
-                                <img src="http://cttdvnatl.net/gallery/img/bg-img/catholic2.jpg" alt=""></img>
+                                <img src="http://hvmatl.net/gallery/img/bg-img/catholic2.jpg" alt=""></img>
                             </div>
                         </div>
                         <div class="col-12 col-lg-5">
