@@ -4,14 +4,17 @@ import TOC from '../database/vnSaintsTOC';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
-const VNSaints = () => (
+const VNSaints = () => {
+    return (
     <>
-        <Header/>
-        <div class="vn-saints">
-                <VNSaintsComponents list={TOC}/>
-        </div>
-        <Footer/>
+    <Header/>
+    <div class="vn-saints">
+            <VNSaintsComponents list={TOC}/>
+    </div>
+    <Footer/>
     </>
-);
+    )
+
+};
 
 export default VNSaints;
