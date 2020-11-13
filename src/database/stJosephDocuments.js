@@ -1,7 +1,7 @@
 const stJosephDocuments = [
     {   
         fileName: 'Sunday School Application',
-        downloadFile: 'https://cttdvnatl.net/gallery/kgd/giaoly/docs-Don_Ghi_Danh_Blank_2020-2021.doc',
+        downloadFile: 'https://hvmatl.net/gallery/kgd/giaoly/docs-Don_Ghi_Danh_Blank_2020-2021.doc',
         description: 'Đơn Ghi Danh Học Giáo Lý Niên Học 2020-2021',
     },
     {   

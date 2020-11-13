@@ -4,12 +4,12 @@ Please update a new article in this form:
   (optinal)The image attribute is the link to the image in the article
     -If there is no image, the default image will be added by articles.js
     -Image ratio should be around horizontal:verticle 5:4. No need to be exact.
-    -The image should be put in this folder: https://cttdvnatl.net/gallery/img/articles/
+    -The image should be put in this folder: https://hvmatl.net/gallery/img/articles/
 
   {
     "Section": "Các Bài Viết",
     "date": "yyyy-mm-dd",
-    "image": "https://cttdvnatl.net/gallery/img/articles/link-to-the-image",
+    "image": "https://hvmatl.net/gallery/img/articles/link-to-the-image",
     "title": "The title",
     "body":
     `sometext
@@ -24,7 +24,7 @@ const articleContent =
   {
     "Section": "Các Bài Viết",
     "date": "2020-10-04",
-    "image": "https://cttdvnatl.net/gallery/img/articles/article-2020-10-04.png",
+    "image": "https://hvmatl.net/gallery/img/articles/article-2020-10-04.png",
     "title": "Tháng Mân Côi",
     "body":
     `Chúng ta đã bước vào Tháng Mân Côi. Tháng Mân Côi được ghi dấu bởi ngày lễ Đức Mẹ Mân Côi được Giáo Hội cử hành ngày 07 tháng 10 mỗi năm. Tôi xin chia sẻ cùng quý ông bà anh chị em mấy điểm sau.
@@ -44,7 +44,7 @@ const articleContent =
   {
     "Section": "Các Bài Viết",
     "date": "2020-09-27",
-    "image": "https://cttdvnatl.net/gallery/img/articles/article-2020-09-27.png",
+    "image": "https://hvmatl.net/gallery/img/articles/article-2020-09-27.png",
     "title": "Dư âm Sau Thánh Lễ Thêm Sức 2020",
     "body":
     `Thứ Bảy tuần qua, Giáo Xứ hân hoan đón mừng Đức TGM Gregory John Hartmayer đến cử hành Thánh Lễ Thêm Sức cho 112 con em chúng ta.  Trong hoàn cảnh đại dịch Covid-19, chúng ta phải cử hành 2 thánh lễ vào lúc 10g00 sáng và 1 giờ chiều. Tuy vậy, chỉ có các em Thêm Sức và Người Đỡ Đầu được hiện diện trong thánh đường, còn cha mẹ và thân hữu đều phải tham dự trực tuyến (livestream) tại nhà thờ cũ và hội trường Thánh Giuse. Tôi xin chia sẻ dư âm của biến cố Thêm Sức này.
@@ -68,7 +68,7 @@ const articleContent =
   {
     "Section": "Các Bài Viết",
     "date": "2020-09-20",
-    "image": "https://cttdvnatl.net/gallery/img/articles/article-2020-09-20.png",
+    "image": "https://hvmatl.net/gallery/img/articles/article-2020-09-20.png",
     "title": "Bổn Mạng Đoàn Thiếu Nhi Thánh Thể Tôma Trần Văn Thiện",
     "body":
     `Đoàn TNTT Giáo Xứ chúng ta nhận thánh Tôma Trần Văn Thiện được mừng kính ngày 21 tháng 9 làm bổn mạng. Năm nay, đại dịch Covid-19 không cho phép các con em tổ chức mừng lễ long trọng như mọi năm, nhưng các em vẫn mừng lễ kính thánh bổn mạng trong tinh thần đơn sơ và cầu nguyện. Cụ thể Đoàn TNTT sẽ cùng dâng lễ và có chương trình mừng Lễ Bổn Mạng trực tuyến.
@@ -86,7 +86,7 @@ const articleContent =
   {
     "Section": "Các Bài Viết",
     "date": "2020-09-13",
-    "image": "https://cttdvnatl.net/gallery/img/articles/article-2020-09-13.png",
+    "image": "https://hvmatl.net/gallery/img/articles/article-2020-09-13.png",
     "title": "Phép Chuẩn Cho Luật Buộc Tham Dự Thánh Lễ Tại Nhà Thờ",
     "body":
     `Trước đây, khi lệnh “Đồn Trú Tại Chỗ” (Shelter In Place) của Thống Đốc Tiểu Bang Georgia cũng như Lệnh “Ở Tại Nhà” (Stay Home) của Tổng Thống để tránh lây lan dịch bệnh Covid 19. Đồng thời, tại những nơi công cộng cũng phải tuân thủ không được phép tập trung hơn 10 người, do đó chúng ta không được phép đến nhà thờ để cử hành Thánh lễ, nên Đức cha Giám Quản Joel Konzen và Đức TGM Gregory Hartmayer của Atlanta đã chuẩn luật không buộc phải tới nhà thờ cho mọi tín hữu trong Tổng Giáo Phận Atlanta để dự Lễ ngày Chúa Nhật cũng như những ngày lễ buộc. Thay vào đó, các tín hữu được phép hiệp thông Thánh lễ phát hình trực tiếp (livestream) trên TV hay trực tuyến online, kết hiệp với Chúa Kitô qua việc rước lễ thiêng liêng, và thực hiện những giờ cầu nguyện tại gia đình.
@@ -104,7 +104,7 @@ const articleContent =
   {
     "Section": "Các Bài Viết",
     "date": "2020-09-06",
-    "image": "https://cttdvnatl.net/gallery/img/articles/article-2020-09-06.png",
+    "image": "https://hvmatl.net/gallery/img/articles/article-2020-09-06.png",
     "title": "Lễ Lao Động và Lễ Hội Mùa Thu 2020",
     "body":
     `Hằng năm cứ vào ngày Thứ Hai đầu tiên của tháng 9 là người dân Mỹ được nghỉ Lễ Lao Động. Đây là một trong những dịp lễ lớn của Hoa Kỳ. Lễ Lao Động có hơn 100 năm trước, nhằm mục đích vinh danh những đóng góp của giới lao động cho xứ sở này. Nhiều thói quen được tổ chức trong lễ hội Lao Động bắt nguồn từ lễ hội Hoa Rôma xưa như thu gom các lá, hoa, và cành cây làm vòng hoa đẹp; đội vương miện cho nữ hoàng tháng Năm; tranh tài với các môn thể thao đểu biểu hiện sự tái sinh của mùa Xuân. Ngày nay Lễ Lao Động được tổ chức với diễn hành, ngày họp mặt các gia đình và đánh dấu sự kết thúc không chính thức của mùa Hè.
@@ -120,7 +120,7 @@ const articleContent =
   {
     "Section": "Các Bài Viết",
     "date": "2020-08-30",
-    "image": "https://cttdvnatl.net/gallery/img/articles/article-2020-08-30.png",
+    "image": "https://hvmatl.net/gallery/img/articles/article-2020-08-30.png",
     "title": "Hiệp Thông Giữa Hai Giáo Hội Việt Nam - Hoa Kỳ",
     "body":
     `Chúa Nhật 22 Mùa Thường Niên hằng năm là ngày hiệp thông và cầu nguyện giữa hai giáo hội Việt Nam và Hoa Kỳ. Năm nay là năm thứ 21 về sự kiện lịch sử Kết Giao Huynh Đệ này. Với tâm tình vui mừng, tôi xin được  chia sẻ một vài suy tư trên sự kiện tôn giáo này.
@@ -136,7 +136,7 @@ const articleContent =
   {
     "Section": "Các Bài Viết",
     "date": "2020-08-23",
-    "image": "https://cttdvnatl.net/gallery/img/articles/article-2020-08-23.png",
+    "image": "https://hvmatl.net/gallery/img/articles/article-2020-08-23.png",
     "title": "Hướng Dẫn Bầu Cử 2020",
     "body":
     `Trong những ngày này, chúng ta nghe rất sôi nổi trên truyền thông của hai Đảng phái Dân Chủ và Cộng Hòa trong cuộc bầu cử Tổng Thống nhiệm kỳ 2020-2024. Cuộc bầu cử này sẽ bầu lên Tổng Thống Hoa Kỳ và một số Dân Biểu, Nghị Sỹ liên bang và tiểu bang sẽ được thực hiện vào đầu tháng 11 năm 2020. Càng gần đến ngày bầu cử, những người Công Giáo nghiêm chỉnh về đức tin càng băn khoăn về việc chọn lựa. Trong thời điểm vô cùng khó khăn, liên quan đến sự bối rối lương tâm của giáo dân như thế, Giáo hội Công giáo Hoa Kỳ dạy ta những gì?
@@ -162,7 +162,7 @@ const articleContent =
   {
     "Section": "Các Bài Viết",
     "date": "2020-07-19",
-    "image": "https://cttdvnatl.net/gallery/img/articles/article-logo.png",
+    "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
     "title": "Chào Mừng Cha Phó Đaminh Trần Công Thơ",
     "body":
     `Mùa Hè trong giáo hội Hoa Kỳ là mùa thuyên chuyển các linh mục theo nhu cầu của các giáo phận hoặc tác nhân yêu cầu. Năm 2020 này, các linh mục Việt Nam tại TGP Atlanta sẽ được thuyên chuyển gồm có: Cha Giuse Nguyễn Thanh Liêm là cha sở giáo xứ St. James, Cha Giuse Phạm Tân  là cha phó giáo xứ Đức Mẹ Việt Nam, và Cha Đa Minh Trần Công Thơ là cha phó giáo xứ CTTĐVN chúng ta.
@@ -183,7 +183,7 @@ const articleContent =
   {
     "Section": "Các Bài Viết",
     "date": "2020-07-05",
-    "image": "https://cttdvnatl.net/gallery/img/articles/article-2020-07-05.png",
+    "image": "https://hvmatl.net/gallery/img/articles/article-2020-07-05.png",
     "title": "Đôi Điều Chia Sẻ",
     "body":
     `Kính thăm quý thành viên,
@@ -202,7 +202,7 @@ const articleContent =
   {
     "Section": "Các Bài Viết",
     "date": "2020-06-28",
-    "image": "https://cttdvnatl.net/gallery/img/articles/article-2020-06-28.png",
+    "image": "https://hvmatl.net/gallery/img/articles/article-2020-06-28.png",
     "title": `Tuần lễ hội về “Tự do Tôn giáo” tại Hoa Kỳ`,
     "body":
     `Tuần lễ “Tự do Tôn giáo” tại Hoa kỳ được bắt nguồn là “Hai tuần cho Tự do” - được hình thành vào năm 2012 như là một sự bảo vệ tự do tôn giáo chống lại các mối đe dọa trong và ngoài nước. Đến nay, tuần lễ Tự do Tôn giáo được bắt đầu từ ngày 22 tháng 6 là ngày lễ kính các thánh Thomas More và Gioan Fisher, đến 29 tháng 6 là ngày lễ trọng kính hai thánh Tông đồ Phêrô và Phaolô. Năm nay, Giáo hội Hoa Kỳ đã chọn chủ đề “Vì lợi ích của tất cả” để cử hành Tuần lễ hội tự do tôn giáo này.
@@ -225,7 +225,7 @@ const articleContent =
   {
     "Section": "Các Bài Viết",
     "date": "2020-06-21",
-    "image": "https://cttdvnatl.net/gallery/img/articles/article-2020-06-21.png",
+    "image": "https://hvmatl.net/gallery/img/articles/article-2020-06-21.png",
     "title": "Ngày Hiền Phụ - Father’s Day",
     "body":
     `Hằng năm tại Hoa Kỳ, Ngày Hiền Phụ (Father’s Day), được cử hành vào Chúa Nhật thứ ba của tháng Sáu để tôn vinh các người cha.
@@ -247,7 +247,7 @@ const articleContent =
   {
     "Section": "Các Bài Viết",
     "date":"2020-06-14",
-    "image":"https://cttdvnatl.net/gallery/img/articles/article-2020-06-14.png",
+    "image":"https://hvmatl.net/gallery/img/articles/article-2020-06-14.png",
     "title":"Kính Thánh Tâm Chúa",
     "body":
     `Trong tháng Thánh Tâm, nhất là dịp lễ trọng kính Thánh Tâm Chúa, Đức Thánh Cha Phanxicô mời gọi: “Hãy trao phó mọi lo lắng cho Thánh Tâm Chúa.” Trong hoàn cảnh sống của đại dịch Covid-19 và lễ Thánh Tâm Chúa, xin được chia sẻ cùng quý thành viên mấy tâm tình sau:
@@ -270,7 +270,7 @@ const articleContent =
   {
     "Section": "Các Bài Viết",
     "date":"2020-06-07",
-    "image":"https://cttdvnatl.net/gallery/img/articles/article-2020-06-07.png",
+    "image":"https://hvmatl.net/gallery/img/articles/article-2020-06-07.png",
     "title":"Đòi Hỏi Công Lý Thực Sự cho Nạn Phân Biệt Chủng Tộc",
     "body":
     `Trong những ngày qua, chúng ta vui mừng Đức Tân TGM Gregory J. Hartmayer có những hướng dẫn cho việc được trở lại thánh đường để cử hành thánh lễ và rước Mình Thánh Chúa. Nhưng chúng ta lại không hoàn toàn yên ổn vì những cuộc biểu tình bạo động, bắt đầu từ ngày 26 tháng Năm năm 2020 tại thành phố Minneapolis và Saint Paul tiểu bang Minnesota. Nguyên do từ vụ cảnh sát viên Derek Chauvin đã giết chết George Floyd trong tư thế quỳ trên cổ nạn nhân gần 9 phút sau khi đã đè chặt người đàn ông bị còng tay xuống đất khi bắt giữ nạn nhân. Các cuộc biểu tình nhanh chóng lan rộng khắp Hoa Kỳ để ủng hộ công lý cho nạn nhân George Floyd, và phản đối sự tàn bạo của cảnh sát. Ta cùng lắng nghe những hướng dẫn của Giáo Hội Công Giáo đối với vần đề này.
@@ -291,7 +291,7 @@ const articleContent =
   {
     "Section": "Các Bài Viết",
     "date":"2020-05-31",
-    "image":"https://cttdvnatl.net/gallery/img/articles/article-2020-05-31.png",
+    "image":"https://hvmatl.net/gallery/img/articles/article-2020-05-31.png",
     "title":"Canh Tân Bộ Mặt Thế Giới",
     "body":
     `Nhân kỷ niệm 5 năm ngày ban hành Tông huấn Laudato Si’ của Đức Giáo Hoàng Phanxicô, (24/5/2015-24/5/2020), tôi muốn mời quý ông bà anh chị em cùng suy niệm một vài điểm sau:
@@ -311,7 +311,7 @@ const articleContent =
   {
     "Section": "Các Bài Viết",
     "date":"2020-05-24",
-    "image":"https://cttdvnatl.net/gallery/img/articles/article-2020-05-17.png",
+    "image":"https://hvmatl.net/gallery/img/articles/article-2020-05-17.png",
     "title":"Ngày Thế Giới Truyền Thông Xã Hội 2020",
     "body":
     `Ngày Thế Giới Truyền Thông Xã Hội được Thánh Giáo Hoàng Phaolô VI thiết lập năm 1967, qua Sắc lệnh Inter Mirifica. Ngày này được ấn định cử hành vào Chúa Nhật trước Lễ Hiện Xuống trong hầu hết các quốc gia. Như vậy, năm nay là lần thứ 54 chúng ta cử hành ngày lễ này. Trong dịp này, chúng ta cùng tìm hiểu và suy niệm mấy điểm chính trong Sứ điệp của ĐTC Phanxicô cho Ngày Thế Giới Truyền Thông Xã Hội đã được công bố vào lễ Thánh Phanxicô Salêsiô, 24/1/2020 vừa qua. 
@@ -348,7 +348,7 @@ Nguyện xin Thiên Chúa chúc lành cho những người trong giới truyền
   {
     "Section": "Các Bài Viết",
     "date":"2020-05-10",
-    "image":"https://cttdvnatl.net/gallery/img/articles/article-2020-05-10.png",
+    "image":"https://hvmatl.net/gallery/img/articles/article-2020-05-10.png",
     "title":"Ngày của Mẹ - Mother’s Day",
     "body":
     `Ngày của Mẹ (Mother’s Day) hay Ngày Hiền Mẫu được cử hành vào Chủ Nhật ngày 10 tháng 5 này. Mục đích của ngày này ngày này để tỏ lòng yêu thương và tôn kính những người Mẹ.  Đặc biệt trong hoàn cảnh hiện nay, có lẽ chúng ta nhớ nhiều đến những phương tiện mà xã hội tạo cho chúng ta dễ dàng mua sắm quà, thiết đãi tại nhà hàng, hoặc tụ họp đông đảo để chúc mừng và tưởng nhớ đến mẹ của mình. Trong dịp Ngày Hiền Mẫu này, tôi xin chia sẻ mấy tâm tình sau:  
@@ -366,7 +366,7 @@ Nguyện xin Thiên Chúa chúc lành cho những người trong giới truyền
   {
     "Section": "Các Bài Viết",
     "date":"2020-04-12",
-    "image":"https://cttdvnatl.net/gallery/img/articles/article-2020-04-12.png",
+    "image":"https://hvmatl.net/gallery/img/articles/article-2020-04-12.png",
     "title":"Mừng Lễ Chúa Phục Sinh 2020",
     "body":
     `Alleluiah! Chúa đã sống lại thật rồi!  Trong niềm hân hoan mừng Chúa Phục Sinh, tôi xin chia sẻ với những anh chị em mấy tâm tình sau.
@@ -385,7 +385,7 @@ Nguyện xin Thiên Chúa chúc lành cho những người trong giới truyền
   {
     "Section": "Các Bài Viết",
     "date":"2020-03-28",
-    "image":"https://cttdvnatl.net/gallery/img/articles/article-2020-03-08.png",
+    "image":"https://hvmatl.net/gallery/img/articles/article-2020-03-08.png",
     "title":"ĐỊNH HƯỚNG TÂM LINH",
     "body":
     `Đứng trước nạn đại dịch COVID-19, chúng ta đang sống trong tình trạng lo lắng, hoảng loạn, và khẩn cấp. Lo lắng vì trận chiến chống lại Coronavirus này không có biên giới nên lan tràn khắp thế giới; không kiêng nể sắc tộc, tôn giáo nào; và không phân biệt trẻ-già, giàu-nghèo, sang-hèn.
@@ -436,7 +436,7 @@ Nguyện xin Thiên Chúa chúc lành cho những người trong giới truyền
   {
     "Section": "Các Bài Viết",
     "date":"2020-03-08",
-    "image":"https://cttdvnatl.net/gallery/img/articles/article-2020-03-08.png",
+    "image":"https://hvmatl.net/gallery/img/articles/article-2020-03-08.png",
     "title":"Tin Vui Trong Mùa Chay",
     "body":`Tâm tình phụng vụ của Mùa Chay là ăn năm sám hối và chay tịnh. Tuy vậy, chúng ta cũng có những tin vui, hôm nay tôi hân hoan chia sẻ cùng quý thành viên mấy tin vui rất đặc biệt sau:
     

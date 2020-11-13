@@ -28,7 +28,7 @@ const Articles = (prop) => {
                                     <div className="single-upcoming-events-area d-flex flex-wrap align-items-center" key={key}>
                                         {/* <!-- Thumbnail --> */}
                                         <div className="upcoming-events-thumbnail">
-                                            <img src={article.image ? article.image : "http://cttdvnatl.net/gallery/img/articles/article-logo.png"} alt="" />
+                                            <img src={article.image ? article.image : "http://hvmatl.net/gallery/img/articles/article-logo.png"} alt="" />
                                         </div>
                                         {/* <!-- Content --> */}
                                         <div className="upcoming-events-content d-flex flex-wrap align-items-center">

@@ -1,18 +1,21 @@
 import React from 'react';
 
-const VNSaintsComponents = ({list}) => (
+const VNSaintsComponents = ({list}) => {
+        return (
         <>
-        <div class="vn-saints-toc">
+        <form action="../components/setSection.jsx" style={{display: 'none'}}>
+        <label for="saint">Chọn Ngày</label>
+        <select name="saint" id="saint">
         {list.map((SaintsTOC) => (
             <>
-                <h1>{SaintsTOC.day}</h1>
-                <a href={'#' + SaintsTOC.id}>{SaintsTOC.prayerName}</a>
+                <option type="submit" value={SaintsTOC.id}><input type="submit" value="Submit"/>{SaintsTOC.day}</option>
             </>
         ))}
-        </div>
+        </select>
+        </form>
         <div class="vn-saints-sections">
         {list.map((Saint) => (
-        <>  
+        <div class="saint">  
             <h1 id={Saint.id}>{Saint.day}</h1>
             <h1>{Saint.name} ({Saint.birthDeath})</h1>
         <h5><b>HÁT: {Saint.songName}</b></h5>
@@ -66,10 +69,11 @@ const VNSaintsComponents = ({list}) => (
             <p>{Saint.para1}</p>
             <h5><b style={{fontSize: '17px'}}>{Saint.heading2}</b></h5>
             <p>{Saint.para2}</p>
-        </>
+        </div>
         ))}
         </div>
         </>
-        )        
+        )
+        }        
 
 export default VNSaintsComponents;
