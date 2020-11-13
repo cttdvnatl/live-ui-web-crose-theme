@@ -14,7 +14,7 @@ const LearnBible = () => {
                     <div className="row align-items-center justify-content-between text-center">
                         <div className="col-12 col-lg-6 col-sm-6 section-padding-25">
                             <div className="about-content">
-                                <img src="http://cttdvnatl.net/gallery/img/bg-img/catholic2.jpg" alt=""/>
+                                <img src="http://hvmatl.net/gallery/img/bg-img/catholic2.jpg" alt=""/>
                             </div>
                         </div>
                         <div className="col-12 col-lg-5 col-sm-5 section-padding-25">

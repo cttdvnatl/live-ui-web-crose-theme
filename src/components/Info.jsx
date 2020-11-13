@@ -56,7 +56,7 @@ const Info = (props) => {
                     {/* <!-- Single About Us Content --> */}
                     <div className="col-12 col-md-6 col-lg-3">
                         <div className="about-us-content mb-100">
-                            <a href="/learnBible"><img src="http://cttdvnatl.net/gallery/img/bg-img/catholic2.jpg" alt=""/></a>
+                            <a href="/learnBible"><img src="http://hvmatl.net/gallery/img/bg-img/catholic2.jpg" alt=""/></a>
                             <div className="about-text">
                                 <a href="/learnBible"><h4>{t("info.item1.heading")}</h4></a>
                                 <p>{t("info.item1.description")}</p>
@@ -66,7 +66,7 @@ const Info = (props) => {
                 
                     <div className="col-12 col-md-6 col-lg-3" style={{'display': 'none'}}>
                         <div className="about-us-content mb-100">
-                            <img src="http://cttdvnatl.net/gallery/img/index/about3.png" alt=""/>
+                            <img src="http://hvmatl.net/gallery/img/index/about3.png" alt=""/>
                             <div className="about-text">
                                 <h4 className="text-center">Cầu Cho Linh Hồn</h4>
                                 <div className="find-out-more-btn">
@@ -88,7 +88,7 @@ const Info = (props) => {
                     {/* <!-- Single About Us Content --> */}
                     <div className="col-12 col-md-6 col-lg-3">
                         <div className="about-us-content mb-100">
-                            <img src="http://cttdvnatl.net/gallery/img/index/about3.png" alt=""/>
+                            <img src="http://hvmatl.net/gallery/img/index/about3.png" alt=""/>
                             <div className="about-text">
                                 <h4>{t("info.item3.heading")}</h4>
                                 <div className="find-out-more-btn">
