@@ -4,12 +4,12 @@ Please update a new article in this form:
   The image attribute is the link to the image in the article
     If there is no image, the default image will be added by articles.js
     Image ratio should be around horizontal:verticle 5:4. No need to be exact.
-    The image should be put in this folder: https://cttdvnatl.net/gallery/articles/
+    The image should be put in this folder: https://hvmatl.net/gallery/articles/
 
   {
     "Section": "Các Bài Viết",
     "date":"yyyy-mm-dd",
-    "image":"https://cttdvnatl.net/gallery/articles/link-to-the-image"
+    "image":"https://hvmatl.net/gallery/articles/link-to-the-image"
     "title":"The title",
     "body":`sometext
 
@@ -58,7 +58,7 @@ const articles =
   {
     "Section": "Các Bài Viết",
     "date":"2020-03-08",
-    "image":"https://cttdvnatl.net/gallery/img/articles/article-2020-03-08.png",
+    "image":"https://hvmatl.net/gallery/img/articles/article-2020-03-08.png",
     "title":"Tin Vui Trong Mùa Chay",
     "body":`Tâm tình phụng vụ của Mùa Chay là ăn năm sám hối và chay tịnh. Tuy vậy, chúng ta cũng có những tin vui, hôm nay tôi hân hoan chia sẻ cùng quý thành viên mấy tin vui rất đặc biệt sau:
     

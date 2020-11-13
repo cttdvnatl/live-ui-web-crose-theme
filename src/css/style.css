@@ -2192,3 +2192,45 @@ p.cookies {
   padding-bottom: 40%;
   font-size: 14px;
 }
+
+.vn-saints {
+  display: flex;
+}
+
+.vn-saints .vn-saints-toc {
+  padding: 10px;
+  padding-right: 0;
+  margin-right: 0;
+  margin-bottom: 300px;
+  width: 10%;
+  display: block;
+}
+
+.vn-saints .vn-saints-toc h1 {
+  margin: 0;
+  padding-top: 5px;
+  color: black;
+  font-size: 17px;
+}
+
+.vn-saints .vn-saints-toc a {
+  color: #990000;
+}
+
+.vn-saints .vn-saints-sections {
+  width: 95%;
+  margin: auto;
+  margin-top: 10px;
+  height: 700px;
+  overflow: auto;
+  white-space: pre-wrap;
+}
+.vn-saints .vn-saints-sections h1 {
+  color: black;
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.vn-saints .vn-saints-sections p{
+  font-size: 17px;
+}
