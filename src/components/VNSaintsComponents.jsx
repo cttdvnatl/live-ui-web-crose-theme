@@ -1,23 +1,33 @@
-import React from 'react';
-
+import React, {useState} from 'react';
 
 const VNSaintsComponents = ({list}) => {
+        const [section, setSection] = useState('3');
 
         return (
         <>
-        <form action="../components/setSection.jsx" style={{display: 'none'}}>
-        <label for="saint">Chọn Ngày</label>
-        <select name="saint" id="saint">
+        <ul id='saintsTOC' style={{display: 'none'}}>
+        <li>CHỌN NGÀY
         {list.map((SaintsTOC) => (
             <>
-                <option type="submit" value={SaintsTOC.id}><input type="submit" value="Submit"/>{SaintsTOC.day}</option>
+                <button style={{cursor: 'pointer'}} onclick={() => setSection(section === SaintsTOC.id)}> {SaintsTOC.day}</button>
             </>
         ))}
-        </select>
-        </form>
+        </li>
+        </ul>
+
         <div class="vn-saints-sections">
         {list.map((Saint) => (
-        <div class="saint">  
+        <div style={{
+            display: (() => {
+                if (section === Saint.id) {
+                    return "block";
+                } else {
+                    return "none";
+                }
+                })()
+        }}
+
+        class="saint">  
             <h1 id={Saint.id}>{Saint.day}</h1>
             <h1>{Saint.name} ({Saint.birthDeath})</h1>
         <h5><b>HÁT: {Saint.songName}</b></h5>
