@@ -1,21 +1,34 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 
 const VNSaintsComponents = ({list}) => {
+        const [section, setSection] = useState('3');
+        useEffect(() => {
+            
+        })
         return (
         <>
-        <form action="../components/setSection.jsx" style={{display: 'none'}}>
-        <label for="saint">Chọn Ngày</label>
-        <select name="saint" id="saint">
+        <ul id='saintsTOC' style={{display: 'none'}}>
+        <li>CHỌN NGÀY
         {list.map((SaintsTOC) => (
             <>
-                <option type="submit" value={SaintsTOC.id}><input type="submit" value="Submit"/>{SaintsTOC.day}</option>
+                <button style={{cursor: 'pointer'}} onclick={() => setSection(section === SaintsTOC.id), console.log(section)}> {SaintsTOC.day}</button>
             </>
         ))}
-        </select>
-        </form>
+        </li>
+        </ul>
         <div class="vn-saints-sections">
         {list.map((Saint) => (
-        <div class="saint">  
+        <div style={{
+            display: (() => {
+                if (section === Saint.id) {
+                    return "block";
+                } else {
+                    return "none";
+                }
+            })()
+        }}
+
+        class="saint">  
             <h1 id={Saint.id}>{Saint.day}</h1>
             <h1>{Saint.name} ({Saint.birthDeath})</h1>
         <h5><b>HÁT: {Saint.songName}</b></h5>
@@ -54,16 +67,16 @@ const VNSaintsComponents = ({list}) => {
             <h5>LỜI CHÚA ({Saint.chVerse})</h5>
             <p>{Saint.reading}</p>
             <h5><b>Lời Cầu: &#123;Mời cộng đoàn đứng&#125;</b></h5>
-            <p>{Saint.prayer1}</p>
-            <p><b>{Saint.prayerResponse}</b></p>
-            <p>{Saint.prayer2}</p>
-            <p><b>{Saint.prayerResponse}</b></p>
-            <p>{Saint.prayer3}</p>
-            <p><b>{Saint.prayerResponse}</b></p>
-            <p>{Saint.prayer4}</p>
-            <p><b>{Saint.prayerResponse}</b></p>
-            <p>{Saint.prayer5}</p>
-            <p><b>{Saint.prayerResponse}</b></p>
+            <p id='prayer1'>{Saint.prayer1}</p>
+            <p id="prayer-response1" style={{display: Saint.display1}}><b>{Saint.prayerResponse}</b></p>
+            <p id="prayer2">{Saint.prayer2}</p>
+            <p id="prayer-response2" style={{display: Saint.display2}}><b>{Saint.prayerResponse}</b></p>
+            <p id="prayer3">{Saint.prayer3}</p>
+            <p id="prayer-response3" style={{display: Saint.display3}}><b>{Saint.prayerResponse}</b></p>
+            <p id="prayer4">{Saint.prayer4}</p>
+            <p id="prayer-response4" style={{display: Saint.display4}}><b>{Saint.prayerResponse}</b></p>
+            <p id="prayer5">{Saint.prayer5}</p>
+            <p id="prayer-response5" style={{display: Saint.display5}}><b>{Saint.prayerResponse}</b></p>
             <h5>KINH LẠY CHA</h5>
             <h5><b style={{fontSize: '17px'}}>Lời Nguyện</b></h5>
             <p>{Saint.para1}</p>
@@ -74,6 +87,6 @@ const VNSaintsComponents = ({list}) => {
         </div>
         </>
         )
-        }        
+    }        
 
 export default VNSaintsComponents;

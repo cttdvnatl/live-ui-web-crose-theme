@@ -2193,28 +2193,8 @@ p.cookies {
   font-size: 14px;
 }
 
-.vn-saints {
-  display: flex;
-}
-
-.vn-saints .vn-saints-toc {
-  padding: 10px;
-  padding-right: 0;
-  margin-right: 0;
-  margin-bottom: 300px;
-  width: 10%;
-  display: block;
-}
-
-.vn-saints .vn-saints-toc h1 {
-  margin: 0;
-  padding-top: 5px;
-  color: black;
-  font-size: 17px;
-}
-
-.vn-saints .vn-saints-toc a {
-  color: #990000;
+ul#saintsTOC {
+  float: left;
 }
 
 .vn-saints .vn-saints-sections {
