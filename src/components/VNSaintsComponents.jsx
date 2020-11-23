@@ -1,20 +1,21 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 
 const VNSaintsComponents = ({list}) => {
         const [section, setSection] = useState('3');
-
+        useEffect(() => {
+            
+        })
         return (
         <>
         <ul id='saintsTOC' style={{display: 'none'}}>
         <li>CHỌN NGÀY
         {list.map((SaintsTOC) => (
             <>
-                <button style={{cursor: 'pointer'}} onclick={() => setSection(section === SaintsTOC.id)}> {SaintsTOC.day}</button>
+                <button style={{cursor: 'pointer'}} onclick={() => setSection(section === SaintsTOC.id), console.log(section)}> {SaintsTOC.day}</button>
             </>
         ))}
         </li>
         </ul>
-
         <div class="vn-saints-sections">
         {list.map((Saint) => (
         <div style={{
@@ -24,7 +25,7 @@ const VNSaintsComponents = ({list}) => {
                 } else {
                     return "none";
                 }
-                })()
+            })()
         }}
 
         class="saint">  
