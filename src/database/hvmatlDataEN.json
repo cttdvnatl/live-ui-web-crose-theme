@@ -41,8 +41,9 @@
             "item1": "Homepage",
             "item2": "About",
             "item3": "History",
-            "item4": "Clergy",
-            "item5": "Staff"
+            "item4": "Vietnamese Saints",
+            "item5": "Clergy",
+            "item6": "Staff"
         },
         "dropdownMenuTwo": {
             "dropdownHeading": "News and Events",

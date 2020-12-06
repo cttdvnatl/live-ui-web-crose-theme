@@ -1,22 +1,14 @@
-import React, {useState} from 'react';
+import React from 'react';
 import TOC from '../database/vnSaintsTOC';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
-const VNSaintsComponents = ({list}) => {
-    const [section, setSection] = useState('9');
 
+
+const VNSaintsComponents = ({list}) => {;
+    const section = "9"
     return (
     <>
-    <ul id='saintsTOC'>
-    <li style={{display: 'none'}}>CHỌN NGÀY
-    {list.map((SaintsTOC) => (
-        <>
-            <button style={{cursor: 'pointer', display: 'none'}} onclick={() => setSection(section === SaintsTOC.id)}> {SaintsTOC.day}</button>
-        </>
-    ))} 
-    </li>
-    </ul>
     <div class="vn-saints-sections">
     {list.map((Saint) => (
     <div style={{
@@ -24,12 +16,13 @@ const VNSaintsComponents = ({list}) => {
             if (section === Saint.id) {
                 return "block";
             } else {
-                return "none";
+                return "block";
             }
-        })()
+        })() 
     }}
+    
     class="saint">  
-        <h1 id={Saint.id}>{Saint.day}</h1>
+        {/*<h1 id={Saint.id}>{Saint.day}</h1>*/}
         <h1>{Saint.name} ({Saint.birthDeath})</h1>
     <h5><b>HÁT: {Saint.songName}</b></h5>
         <p>{Saint.song}</p>
@@ -54,7 +47,7 @@ const VNSaintsComponents = ({list}) => {
             <br/>
             {Saint.story4}
         </p>
-        <h5>THÁNH VỊNH {Saint.psalmNumber}</h5>
+        {/* <h5>THÁNH VỊNH {Saint.psalmNumber}</h5>
         <p>
             <b>ĐC:{Saint.psalmResponse}</b>
             <br/>
@@ -81,7 +74,7 @@ const VNSaintsComponents = ({list}) => {
         <h5><b style={{fontSize: '17px'}}>Lời Nguyện</b></h5>
         <p>{Saint.para1}</p>
         <h5><b style={{fontSize: '17px'}}>{Saint.heading2}</b></h5>
-        <p>{Saint.para2}</p>
+        <p>{Saint.para2}</p> */}
     </div>
     ))}
     </div>
@@ -94,12 +87,11 @@ const VNSaints = () => {
     <>
     <Header/>
     <div class="vn-saints">
-        <VNSaintsComponents list={TOC}/> 
+        <VNSaintsComponents list={TOC}/>
     </div>
     <Footer/>
     </>
     )
-
 };
 
 export default VNSaints;
