@@ -20,7 +20,27 @@ Please update a new article in this form:
 */
 
 const articleContent =
-[
+[  
+  {
+    "Section": "Các Bài Viết",
+    "date": "2020-10-11",
+    "image": "https://hvmatl.net/gallery/img/articles/article-2020-10-11.png",
+    "title": "Hướng Dẫn Bầu Cử",
+    "body":
+    `Ngày Tổng Tuyển Cử của Hoa Kỳ sẽ được tổ chức vào ngày 03/11/2020.
+    Ngày Tổng tuyển cử đã thật gần. Nói chung, Giáo Hội kêu gọi các cử tri hãy bỏ phiếu cho ứng cử viên nào có lập trường tôn trọng sự sống, thăng tiến nhân phẩm, bình đẳng xã hội, chủ trương hòa hợp tôn giáo, và duy trì uy tín quốc gia.
+    Đức Thánh Cha Phanxicô cũng có lời hướng dẫn  như sau: Chúng ta cần tham dự bầu cử cho lợi ích chung. Đôi khi chúng ta nghe rằng: Người Công Giáo tốt không nên dính líu vào chính trị. Điều này không đúng: Người Công Giáo tốt hòa mình trong chính trị qua việc dâng hiến chính mình để các nhà lãnh đạo điều hành: "We need to participate for the common good. Sometimes we hear: a good Catholic is not interested in politics. This is not true: good Catholics immerse themselves in politics by offering the best of themselves so that the leader can govern." - Pope Francis, 9/16/13
+    Hội Đồng Giám Mục Hoa Kỳ rất hoan hỉ trình bày tài liệu "Rèn luyện lương tâm cho người công dân có đức tin là bản hướng dẫn người Công Giáo thi hành trách nhiệm và quyền lợi dân chủ của chúng ta. Hội Đồng Giám Mục Hoa Kỳ khuyến khích chúng ta hãy sử dụng tài liệu này để giúp rèn luyện lương tâm, để dạy những người được tín thác cho mình chăm nom, để đóng góp cho xã hội; và để uốn nắn lựa chọn chính trị trong cuộc tuyển cử sắp tới dưới ánh sáng của niềm tin công dân Hoa Kỳ với quyền lợi và trách nhiệm khi tham gia vào trật tự xã hội.
+    The Catholic bishops of the United States are pleased to offer once again to the Catholic faithful Forming Consciences for Faithful Citizenship, our teaching document on the political responsibility of Catholics. This statement represents our guidance for Catholics in the exercise of their rights and duties as participants in our democracy. We urge our pastors, lay and religious faithful, and all people of good will to use this statement to help form their consciences; to teach those entrusted to their care; to contribute to civil and respectful public dialogue; and to shape political choices in the coming election in light of Catholic teaching. The statement lifts up our dual heritage as both faithful Catholics and American citizens with rights and duties as participants in the civil order.
+    Cụ thể, khi hướng tới cuộc bầu cử sẽ diễn ra vào ngày 03 tháng 11 năm 2020 sắp tới và để khuyến khích các tín hữu Công giáo Hoa Kỳ tham gia vào đời sống chính trị của quốc gia bằng hành động và lời cầu nguyện và cũng để giúp họ thực hành các giáo huấn của Giáo hội trong xã hội. Hội đồng Giám mục Hoa Kỳ đã đăng 5 video-clip hướng dẫn bằng 4 ngôn ngữ, trong đó có tiếng Việt. Những video này đã được các giám mục chấp nhận trong Đại Hội mùa Thu của các giám mục diễn ra tại Baltimore vào tháng 11 năm ngoái nhằm đưa đức tin vào các lĩnh vực của đời sống xã hội như Đức Tổng Giám Mục José H. Gomez, Chủ tịch Hội đồng Giám mục Hoa Kỳ, giải thích: “Trong năm bầu cử này, các video muốn giúp các tín hữu suy tư về lời mời gọi của các giám mục đưa đức tin của mình vào các lĩnh vực của đời sống xã hội. Sự dấn thân chính trị và sự tham gia là cách thế quan trọng để cộng tác vào việc bảo vệ các trẻ em không được sinh ra, đón nhận người di dân, tìm công lý cho các nạn phân biệt chủng tộc và bất khoan dung tôn giáo, hỗ trợ các gia đình, đồng hành cùng những người sống trong nghèo khổ và bảo vệ công lý của những người dễ bị tổn thương."
+    Vậy tôi khuyến khích mọi người tích cực học hỏi những hướng dẫn của Hội Đồng Giám Mục Hoa Kỳ trong lãnh vực tham gia chính trị của Người Công Giáo trung tín này.  Hiện đã có 5 video được đăng trên Youtube bằng 4 ngôn ngữ: Anh, Tây Ban Nha, Tagalog và Việt Nam, có tựa đề: “Các tín hữu Công giáo tham gia vào đời sống chính trị”, “Các tín hữu Công giáo bảo vệ sự sống và nhân phẩm”, “Các tín hữu Công giáo yêu thương tha nhân”, “Các tín hữu Công giáo thăng tiến công ích”, và “các tín hữu công dân cùng Chúa Kitô hoạt động để xây dựng Nước Chúa”. Video cuối cùng là tổng hợp của 4 video trước. Riêng video tiếng Việt có sự tham dự của Đức cha Tôma Nguyễn Thái Thành, giám mục phụ tá giáo phận Orange.
+    Chúng ta cùng ăn chay cầu nguyện để có được một cuộc bầu cử tự do và công bình và Giáo Hội cũng thúc giục mọi người thi hành nghĩa vụ công dân của mình trong tinh thần nghiêm chỉnh tối đa.
+    Nguyện xin Chúa Thánh Thần hướng dẫn để chúng ta thi hành đúng bổn phận và quyền lợi của lá phiếu và Thiên Chúa tín thác trong tay chúng ta để giúp định hình xã hội mỗi ngày một tốt đẹp hơn.
+    
+    Thân mến,
+    Lm. Phanxico Trần Q Tuấn. 
+    `
+  },
   {
     "Section": "Các Bài Viết",
     "date": "2020-10-04",
