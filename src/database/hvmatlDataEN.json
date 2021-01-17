@@ -41,8 +41,9 @@
             "item1": "Homepage",
             "item2": "About",
             "item3": "History",
-            "item4": "Clergy",
-            "item5": "Staff"
+            "item4": "Vietnamese Saints",
+            "item5": "Clergy",
+            "item6": "Staff"
         },
         "dropdownMenuTwo": {
             "dropdownHeading": "News and Events",
@@ -104,7 +105,7 @@
             "item5": "Classes"
         },
         "home": {
-            "announcement": "Students of Việt Hồng Vietnamese Language School will continue with digital learning until further notice. News and announcements during the school year will be regularly updated in the calendar below."
+            "announcement": "Students of Việt Hồng Vietnamese Language School will continue with digital learning until the end of the 2020-2021 school year. News and announcements during the school year will be regularly updated in the calendar below."
         }
     },
     "stjoseph":  {
