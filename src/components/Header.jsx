@@ -188,9 +188,9 @@ const Header = (prop) => {
                                                     <li><a href="/">{t("header.dropdownMenuOne.item1")}</a></li>
                                                     <li><a href="/about">{t("header.dropdownMenuOne.item2")}</a></li>
                                                     <li><a href="/history">{t("header.dropdownMenuOne.item3")}</a></li>
-                                                    <li><a href="/saint">Các Thánh Tử Đạo</a></li>
-                                                    <li><a href="/clergy-list">{t("header.dropdownMenuOne.item4")}</a></li>
-                                                    <li><a href="/staff">{t("header.dropdownMenuOne.item5")}</a></li>
+                                                    <li><a href="/saint">{t("header.dropdownMenuOne.item4")}</a></li>
+                                                    <li><a href="/clergy-list">{t("header.dropdownMenuOne.item5")}</a></li>
+                                                    <li><a href="/staff">{t("header.dropdownMenuOne.item6")}</a></li>
                                                 </ul>
                                                 <span className="dd-trigger"/>
                                             </li>
