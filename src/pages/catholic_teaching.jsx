@@ -12,7 +12,7 @@ const Catholic_teaching = () => {
                     <div className="row align-items-center justify-content-between">
                         <div className="col-12 col-lg-6">
                             <div className="about-content">
-                                <p className="footer-logo"><img src="http://cttdvnatl.net/gallery/img/bg-img/catholic2.jpg" alt=""/></p>
+                                <p className="footer-logo"><img src="http://hvmatl.net/gallery/img/bg-img/catholic2.jpg" alt=""/></p>
                             </div>
                         </div>
                         <div className="col-12 col-lg-5">

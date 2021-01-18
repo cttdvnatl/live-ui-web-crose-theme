@@ -47,6 +47,7 @@ import StJosephActivitiesPage from './pages/StJosephActivitiesPage';
 import StJosephDocumentsPage from './pages/StJosephDocumentsPage';
 import StJosephClassesPage from './pages/StJosephClassesPage';
 import StJosephClassworkPage from './pages/StJosephClassworkPage';
+import VNSaints from './pages/VNSaints';
 
 //Google Analytics
 ReactGA.initialize('UA-166941054-1', {
@@ -147,6 +148,7 @@ const App = (props) => {
             <Route path="/Articles" component={Articles}/>
             <Route path="/ArticleDetail/:date" component={ArticleDetail}/>
             <Route path="/cookies" component={CookiePage}/>
+            <Route path="/saint" component={VNSaints}/>
         </Router>
     )
 };

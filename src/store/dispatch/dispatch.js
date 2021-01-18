@@ -26,3 +26,33 @@ export const getSlides = (dispatch, date, token) => axios.get('https://hvmatl-ba
             date: date
         }
     }).then(res => dispatch({type:actionType.GET_SLIDES, data: res.data}));
+
+export const submitForm = (dispatch, formType, formData, token, callback) => axios.post('http://hvmatl-backend.herokuapp.com/allSoulsFeast', formData,{
+    headers: {
+        'Authorization': `Bearer ${token}`
+    }
+}).then(res => {
+    updateForm(dispatch, formType, {
+        memberId: "",
+        requestor:"",
+        email:"",
+        soulName: ""
+    });
+    callback({
+        header: "Success",
+        message: "Form submitted!!"
+    })
+}).catch(res => {
+    updateForm(dispatch, formType, {
+        memberId: "",
+        requestor:"",
+        email:"",
+        soulName: ""
+    });
+    callback({
+        header: "Failed",
+        message: "Failed to submit!!"
+    })
+});
+
+export const updateForm = (dispatch, formType, updateData) => dispatch({type: actionType.UPDATE_FORM_DATA, formType: formType, updateData: updateData});

@@ -613,6 +613,7 @@ a.nav-brand > img {
   position: relative;
   z-index: 1; }
   .about-us-content img {
+    max-height: 185px;
     border-radius: 5px;
     box-shadow: 0 3px 15px 0 rgba(0, 0, 0, 0.15);
     margin-bottom: 30px; }
@@ -2190,4 +2191,26 @@ h3.cookies {
 p.cookies {
   padding-bottom: 40%;
   font-size: 14px;
+}
+
+ul#saintsTOC {
+  float: left;
+}
+
+.vn-saints .vn-saints-sections {
+  width: 95%;
+  margin: auto;
+  margin-top: 10px;
+  height: 700px;
+  overflow: auto;
+  white-space: pre-wrap;
+}
+.vn-saints .vn-saints-sections h1 {
+  color: black;
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.vn-saints .vn-saints-sections p{
+  font-size: 17px;
 }
