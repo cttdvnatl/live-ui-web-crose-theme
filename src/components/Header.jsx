@@ -209,7 +209,7 @@ const Header = (prop) => {
                                                 <li><a href="/Org">{t("header.dropdownMenuThree.item1")}</a></li>
                                                     <li><a href="/departments/KCS">{t("header.dropdownMenuThree.item2")}</a></li>
                                                     <li><a href="/departments/KDS">{t("header.dropdownMenuThree.item3")}</a></li>
-                                                    <li className="KGD"><a href="http://giaoly.hvmatl.org/">{t("header.dropdownMenuThree.item4")}</a>
+                                                    <li className="KGD"><a href="/departments/KGD">{t("header.dropdownMenuThree.item4")}</a>
                                                         <ul>
                                                             <li>
                                                                 <a href='/st-joseph'>{t("header.dropdownMenuThree.subItem1")}</a>
