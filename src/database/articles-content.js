@@ -23,6 +23,282 @@ const articleContent =
 [  
   {
     "Section": "Các Bài Viết",
+    "date": "2021-01-24",
+    "image": "https://hvmatl.net/gallery/img/articles/article-2021-01-24.png",
+    "title": "Lễ Nhậm Chức của Tổng Thống Hoa Kỳ",
+    "body":
+    `Sau những ngày xôn xao và biến động về kết quả cuộc bầu cử Tổng Thống thứ 45 của Hoa Kỳ, Lễ Nhậm chức của Tân Tổng Thống cũng đã diễn ra long trọng theo truyền thống dù trong bầu khí có vẻ rất căng thẳng. Trong xu hướng xã hội và bối cảnh chính quyền hiện nay, nhiều giáo hữu khá hoang mang và có những phản ứng khác nhau.  Vậy ta cùng tìm hiểu để biết lập trường của Giáo Hội.
+    Trước tiên ta có thể thấy Thánh Phaolô trong thư 1 Timothy 2:1-8 nhấn mạnh tới bổn phận cầu nguyện cho những người cầm quyền trị nước, vì sự khôn ngoan và tốt lành của họ ảnh hưởng trực tiếp tới sự an cư lạc nghiệp của chúng ta. Hơn nữa, mọi quyền hành trong trời đất đều đến từ Đức Kitô, Đấng Trung Gian giữa Thiên Chúa và con người. Do đó, lời cầu nguyện của các tín hữu có hiệu lực để Đức Kitô thay đổi những người cầm quyền trị nước thành những nhà lãnh đạo biết thương yêu và mang cơm no áo ấm cho dân chúng.
+    Kế đến, Đức Giáo Hoàng Phanxicô, đại diện cho Giáo Hội hoàn vũ, nhân ngày tuyên thệ nhậm chức cũng đã chúc mừng Tổng thống Hoa Kỳ, Joseph R. Biden. ĐTC cũng cầu nguyện cho sự thành công của ông Biden trong chức vụ mới với hy vọng rằng sự lãnh đạo của ông sẽ phát huy “hiểu biết, hòa giải, và hòa bình” tại Hoa Kỳ và khắp thế giới.
+    Sau nữa, , Đức TGM Gomez, chủ tịch Hội Đồng Giám Mục Hoa Kỳ, ngay sau buổi lễ Nhậm Chức của Tổng Thống Joseph Biden đã phát hành Bản Tuyên Bố bày tỏ lập trường của Giáo Hội Hoa Kỳ. Xin được tóm lược Bản Tuyên Bố này qua mấy điểm chính sau:
+     1.      Vai trò của các giám mục Công Giáo là đưa ra các nguyên tắc hướng dẫn cho lương tâm cho tín hữu chứ không phải là những người tham gia các đảng phái hoặc tán thành các đảng phái hay các ứng cử viên. Như vậy, ưu tiên của những người Công Giáo không bao giờ là đảng phái nhưng chỉ tìm cách trung thành theo Chúa Giêsu Kitô và để rao giảng giáo lý của Ngài về tình huynh đệ của nhân loại và cộng đồng.
+     2.      Bản tuyên bố ca ngợi lời kêu gọi hàn gắn và đoàn kết của ông Joseph Biden.  Việc hàn gắn này thực là cần thiết vì chúng ta đang phải đối mặt với những thương tích và hệ quả  tại do đại dịch Covid-19 ngay tại đất nước Hoa Kỳ và chính sự cô lập xã hội đã gây thêm sự chia rẽ rất nguy hiểm và lâu dài giữa các công dân.
+     3.      Các giám mục Hoa Kỳ hy vọng Tân Tổng Thống bắt đầu một cuộc đối thoại để giải quyết các yếu tố văn hóa và kinh tế phức tạp. Chính những yếu tố này đang thúc đẩy mạnh sự phá thai, hôn nhân đồng giới tính. Những tệ hại nghiêm trọng này làm suy yếu nền tảng gia đình, sự công bằng xã hội trong quyền tự do được sống của con người nơi các bào thai, quyền tự do thực hành tôn giáo, và quyền tự do để sống theo lương tâm của các tín hữu.
+    Trong dịp này, chúng ta nhớ đến bổn phận của mọi Kitô Hữu, gạt bỏ ý kiến riêng và hiệp ý cùng ĐTC Phanxicô và với Hội Đồng Giám Mục Hoa Kỳ cầu nguyện cho Tổng thống Joseph Biden được sự khôn ngoan và can đảm trong việc theo đuổi sự thống nhất, hàn gắn, tự do và bình đẳng.
+    Nguyện xin Thiên Chúa, qua sự hướng dẫn và chuyển cầu của Mẹ Maria, chúc lành, chữa lành, và hiệp nhất đất nước Hoa Kỳ trong những ngày tháng tới dưới sự lãnh đạo chính quyền trong nhiệm kỳ Tổng Thống thứ 45 này.  
+    
+    Thân mến,
+    Lm. Phanxico Trần Q Tuấn. 
+    `
+  },
+  {
+    "Section": "Các Bài Viết",
+    "date": "2021-01-16",
+    "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
+    "title": "THÔNG TIN THẬT GIẢ TRONG CUỘC SỐNG",
+    "body":
+    `Chúng ta đang sống trong thời đại của kỹ thuật điện tử và kỹ thuật số. Mỗi ngày chúng ta phải tiếp nhận rất nhiều những thông tin trên báo chí, qua mạng xã hội… Tuy rất nhiều nhưng không phải tất cả thông tin trên đó đều đúng sự thật. Những người đưa tin tức trên các mạng thông tin hầu như đều có những mục đích phía sau những nguồn tin đó và nếu ta không có đủ kiến thức về lĩnh vực đó, bạn rất dễ bị đánh lừa bởi những nguồn tin sai lệch. Trong những ngày gần đây, chúng ta đã nghe những tin rất “nóng”, “giật gân”, và một chiều từ những hãng truyền thông, facebook, youtube, nhất là những tin tức liên quan đến Giáo Hội Công Giáo chúng ta. Trong tình trạng hoang mang của xã hội hiện nay, ta cùng tìm hiểu vấn đề trên.  
+    Chúng ta phải chấp nhận rằng hôm nay chúng ta phải tiếp cận với thông tin vì nó rất cần thiết cho đời sống. Thực vậy, mỗi người chúng ta không phải là một ốc đảo, nhưng là một con người sống trong một xã hội, là một con người có liên đới, và là một con người tự do để suy xét và chọn lựa. Trong những nguồn tin mà chúng ta tiếp cận, có những nguồn tin đáng tin và có những nguồn Tin Giả (Fake News) hoặc phát tán tin giả. Những tin giả này dễ gây ra những tâm lý hoang mang, lo sợ trong cộng đồng, và khủng hoảng niềm tin của ta.  Nếu không cẩn thận, ta rất dễ bị đánh lừa bởi những nguồn tin sai sự thật trên những phương tiện truyền thông trang mạng xã hội (Internet). Thật là nguy hiểm khi ta chưa kịp tìm hiểu cẩn thận để phân biệt và nhận ra đâu là tin thật và đâu là tin giả trước khi phổ biến hoặc tiếp tay phổ biến rộng rãi cho người thân, bạn bè, và trong cộng đồng. 
+    Để giúp ta nhận định và kiểm chứng xem là thật hay giả khi tiếp cận với một bản tin, các nhà chuyên môn đã có nhiều bài hướng dẫn, tôi xin tóm lược một vài điểm chính ta cần lưu ý sau:
+    1. Ta cần tìm nguồn gốc của thông tin đó xem đã phát xuất từ những trang web uy tín và đáng tin cậy hay là một “website lạ” hoặc nó bắt chước những trang web uy tín, nhưng phần cuối có một chút khác biệt về tên miền như .uk hoặc .co…
+    2. Nội dung của bài viết có phù hợp tiêu đề hay nó chỉ gây chú ý qua tiêu đề để lôi kéo người xem mà nội dung thì chẳng liên quan gì đến vấn đề được nêu. Đây cũng là cách để người viết có nhiều điểm của người vào xem mà thôi.
+    3. Nguồn tin của bài viết cần phải được kiểm chứng bởi những đường nối kết (link) rõ ràng, có thời gian cụ thể, và uy tín của những người và những cơ quan có thẩm quyền.  Trong thực tế,đã có trường hợp những thông tin thật nhưng đã cũ, được “đào lên”, chỉnh sửa để sử dụng lại với mục đích khác, lèo lái theo ý định của người viết.
+    4. Ta cần xác định mục đích của những trang web mà ta đọc là gì để vào xem. Do đó, ta cần phải rõ câu trả lời: Để ta tìm hiểu sự thật và học hỏi hay để giúp người đưa ra thông tin đó có lợi nhuận, đánh phá hay gây hỏa mù cho cộng đồng. 
+    Sau cùng, tôi xin nhận định một trong những Tin Giả (Fake News) đã tấn công bôi lọ ĐGH Phanxicô vào ngày 10 tháng Giêng vừa qua. Trên Internet xôn xao với các báo cáo sai sự thật về một vụ mất điện suốt đêm tại Vatican, kèm theo một loạt các tuyên bố liên quan đến Đức Thánh Cha Phanxicô, cảnh sát Ý và FBI. Nguồn tin này đã được chia sẻ rộng rãi bởi những người theo thuyết âm mưu, và những kẻ thù hận đức tin, gây ra sự hoang mang và lo lắng cho những người Công Giáo trên khắp thế giới.  Trang web Conservative Beaver đã đưa tin về Giáo hoàng bị bắt giữ vì cáo trạng về tội buôn bán trẻ em, gian lận. Trang web này có chủ nhân dùng địa chỉ giả tại số 417 Associated Rd, Brea, California 92821, United States trong khu shopping Brea Plaza. Toàn bộ tin tức, bài báo đã được chia sẻ rộng rãi trên Twitter và tạo ra một lượng tìm kiếm gia tăng đột ngột trên Google.  Tóm lại, tin giật gân này không có thật mà hoàn toàn do trang web này dựng đứng lên trong khi không một hãng thông tấn lâu đời và có uy tín nào đưa tin về sự xáo trộn tại Vatican vào hôm Thứ Bảy này. Xin mọi cẩn thận suy xét, xóa bỏ hoặc khóa những trang web như thế chứ đừng vội vàng, hoảng hốt, nếu không ta sẽ tiếp tay loan truyền mà rơi vào bẫy phát tán tin giả của họ. 
+    Chúng ta cùng cầu nguyện và giúp nhau bằng cách tích cực là phổ biến, yểm trợ, và chọn lựa những trang web đáng tin cậy, nhất là những trang web chính thức của Giáo Hội (Vietcatholic, Vatican News, Website của Hội Đồng Giám Mục Việt Nam hoặc HĐGM Hoa Kỳ, Liên Đoàn Công Giáo Việt Nam tại Hoa Kỳ…) để theo dõi và thăng tiến thay vì để những tin tức giật gân, theo xu hướng mình thích, và có lợi cho những người đưa tin. Xin Chúa Thánh Thần soi sáng và hướng dẫn chúng ta.
+    
+    Thân mến,
+    Lm. Phanxico Trần Q Tuấn. 
+    `
+  },
+  {
+    "Section": "Các Bài Viết",
+    "date": "2021-01-09",
+    "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
+    "title": "TUẦN CẦU NGUYỆN CHO SỰ HIỆP NHẤT",
+    "body":
+    `Tuần cầu nguyện cho sự hiệp nhất các tín hữu Kitô hằng năm bắt đầu từ ngày 18 tháng Giêng và được kết thúc với buổi hát kinh chiều trọng thể do Đức Thánh Cha chủ sự tại Đền Thờ Thánh Phaolô Ngoại Thành chiều Thứ Tư 25-1 nhằm ngày lễ Thánh Phaolô Tông Đồ Trở Lại. Tuần cầu nguyện cho sự hiệp nhất Kitô giáo của năm 2021 được cử hành với chủ đề: ‘Hãy ở lại trong tình thương của Thầy và anh em sẽ sinh nhiều hoa trái’ (Ga 15: 1-17) hướng tới mục đích giúp các Kitô hữu nhận thấy rằng họ càng đến gần Chúa Giêsu Kitô, thì họ sẽ càng trở nên gần nhau hơn.
+    Trước tiên ta cùng xác định những  Kitô hữu là ai?
+    Kitô hữu là những ai tuyên xưng niềm tin vào Đức Kitô Giêsu: là Đấng Cứu Thế, là Ngôi Hai Thiên Chúa đã xuống thế làm người, để đem ơn cứu độ cho chúng ta qua sự chết trên thập giá và sự sống lại của Ngài.
+    So sánh các tôn giáo khác, theo Bách Khoa Toàn Thư (Wikipedia) ta có thể thấy rằng Kitô Giáo là tôn giáo lớn nhất thế giới với hơn 2,4 tỉ tín hữu (chiếm khoảng 34% dân số thế giới); theo sau là Hồi giáo (Muslim) với 1,8 tỉ giáo hữu; kế đến là Phật giáo (Buddhism) là 1,2 tỉ giáo hữu; rồi đến Ấn Độ giáo (Hinduism) là 900 triệu giáo hữu; tôn giáo cổ truyền Trung Hoa là 394 triệu giáo hữu.
+    Kitô giáo ngày nay bao gồm ba nhánh chính: 
+    a. Công giáo Rôma có khoảng 1,3 tỉ tín hữu (khoảng 17% dân số thế giới);
+    b. Chính Thống giáo Đông Phương (Orthodox) có khoảng 216 triệu tín hữu;
+    c. Tin Lành  bao gồm các nhánh:
+    - Kháng Cách (Protestantism) có khoảng 510 triệu tín hữu
+    - Anh Giáo (Anglican)có khoảng 84 triệu tín hữu.
+    - Còn lại khoảng 180 triệu những người tuyên xưng là tin vào Đức Kitô nhưng không nhập vào giáo phái nào.
+    - Các nhóm khác như: Chứng nhân Jehova, Cơ Đốc Phục Lâm, Mormon... có khoảng 31,7 triệu tín hữu,  nhưng không được công nhận bởi cộng đồng Kitô giáo vì các học thuyết không chính thống của họ.  
+    Kế đến, ta được kêu gọi làm gì trong Tuần Cổ Động và cầu nguyện cho sự hợp nhất Kitô hữu.
+    Tiêu đề của Tuần lễ này đã trình bày cho chúng ta hai việc chính là:
+    1.      Cầu nguyện vì chính Đức Giêsu đã làm gương và cầu nguyện với Thiên Chúa Cha cho chúng ta được hiệp nhất: “Để tất cả nên một” (Ga 17,21).  Đồng thời, đây là phương thức mà tất cả những ai tin vào Đức Kitô đều có thể cùng làm được trong một Thần Khí. Hơn nữa, chính ĐTC Benedicto XVI trong buổi chầu bế mạc năm 2012 cũng đã dạy: Khi chúng ta cầu nguyện, chúng ta chắc chắn rằng chúng ta sẽ được biến đổi và trở nên đồng đồng dạng với Chúa Kitô. Điều này đặc biệt đúng trong lời cầu nguyện cho sự Hiệp nhất Kitô giáo. “Lời cầu nguyện của Đức Giêsu Kitô cho sự hiệp nhất là lời mời gọi quay trở lại với Ngài, và do đó, mời gọi chúng ta hãy đến gần nhau hơn, vui mừng trước sự phong phú trong sự đa dạng của chúng ta.”
+    2.      Ta cùng cố gắng thực hiện sự hiệp nhất với những anh chị em Kitô hữu khác với một thái độ cởi mở trong chân lý và tình yêu. Điều này có nghĩa là không bằng cách loại trừ nhau, nhưng có đối thoại để hiểu nhau hơn, giúp nhau hơn và yêu thương nhau hơn trong tình bác ái huynh đệ. Thực vậy, sự chia rẽ giữa các Kitô hữu – việc rời xa nhau – là một hành động đáng hổ thẹn bởi vì đó cũng chính là việc đang ngày càng rời xa Thiên Chúa. Vì vậy, mỗi người Kitô hữu được kêu gọi biến đổi để trở thành những chứng nhân cho niềm tin trong tinh thần là anh chị em với nhau và được hiệp nhất với chính Đức Kitô là đầu mà chúng ta là những chi thể của thân thể Ngài.  Đó chính là phương thức thực hành tốt và cụ thể mà chúng ta có thể đóng góp cho Sự Hiệp Nhất Kitô Hữu. 
+    Nguyện xin Thiên Chúa qua lời chuyển cầu của Mẹ Maria chúc lành và hướng dẫn chúng ta đến con đường của Hiệp Nhất qua đối thoại, gặp gỡ với tình bằng hữu và sự tôn trọng những truyền thống văn hoá và tôn giáo khác biệt.
+    
+    Thân mến,
+    Lm. Phanxico Trần Q Tuấn. 
+    `
+  },
+  {
+    "Section": "Các Bài Viết",
+    "date": "2020-12-27",
+    "image": "https://hvmatl.net/gallery/img/articles/article-2020-12-27.png",
+    "title": "CHIÊM NGẮM HANG ĐÁ GIÁNG SINH",
+    "body":
+    `Chúng ta cùng với toàn thế giới hân hoan mừng Lễ Chúa Giáng Sinh.  Nhắc đến Lễ Giáng Sinh ta không thể không nhắc đến Hang đá Bêlem vì trong dịp lễ này, các thánh đường, các cơ sở công cộng và nhiều gia đình cũng thực hiện và trưng bày những hang đá.  Vậy ta cùng tìm hiểu thêm về ý nghĩa của Hang đá Giáng sinh.
+    Trước tiên là về nguồn gốc Hang Đá. Theo lịch sử, vào năm 1223, thánh Phanxicô thành Assisi là người đã có ý tưởng và yêu cầu thầy dòng Jean Velita thực hiện quang cảnh mầu nhiệm Chúa Giáng Sinh bằng một hang đá giống như thật với cỏ khô, rồi còn dẫn một con lừa và một con bò vào để cho giống với con bò con lừa đã chầu quanh Chúa Hài đồng năm xưa.  Kể từ máng cỏ đầu tiên tại Greccio cho đến nay, hằng năm người ta làm hang đá để mừng Lễ Chúa Giáng Sinh. Dù bằng bất cứ hình thức nào của các quan niệm, thời đại, và các truyền thống văn hóa của các chủng tộc, tất cả mọi trưng bày về Hang đá đều mang một nội dung, đó là trình bày quang cảnh mầu nhiệm Chúa Giáng Sinh.
+    Kế đến, ta cùng tìm hiểu ý nghĩa của các hình tượng thường được trưng bày trong Hang Đá. 
+    1)     Chúa Hài Đồng là trung tâm của Hang Đá. Đây là tượng một em bé sơ sinh được đặt trong một cái máng ăn của loài vật lót đầy cỏ khô. Chúa Hài Đồng được quấn bằng một chiếc khăn màu trắng. Hình ảnh này tượng trưng cho sự nghèo hèn tột độ của Thiên Chúa khi trở thành con người. Chiếc khăn trắng quấn Chúa Hài Nhi Giêsu là dấu hiệu báo trước chiếc khăn sẽ liệm xác Ngài sau khi Ngài chết trên núi sọ vì tội lỗi của nhân loại.
+    2)     Mẹ Maria là hình ảnh được trưng bày trong Hang Đá như một người đang chìm sâu trong sự thờ lạy, yêu mến và suy ngắm mầu nhiệm Giáng Sinh của Chúa Cứu Thế. Tuy khuôn mặt có những ưu tư nhưng vẫn toát ra được tâm tình hoàn toàn tín thác tất cả cho Thiên Chúa, Đấng đã tin tưởng Mẹ.
+    3)     Thánh Giuse. Thánh Giuse được đặt đứng ở phía bên tay phải của Chúa Hài Đồng, bên ngài là các con bò đang chiêm ngắm Chúa Hài Đồng với vẻ mặt vui sướng và tin tưởng. Thánh Giuse trong hang đà thường được trang phục bằng một chiếc áo choàng rộng và tay cầm đèn thắp sáng, tượng trưng cho sứ mệnh bảo vệ, chăm sóc Chúa Giêsu và Mẹ  Maria.
+    4)     Các Thiên Thần từ trời cao xuất hiện thờ lạy và hát mừng Chúa Hài Đồng với những điệu nhạc du dương huyền diệu: «Gloria in excelsis Deo», “Vinh danh Thiên Chúa trên trời, bình an dưới thế cho loài người Chúa thương.”
+    5)     Các Mục đồng là những người đã đến chiêm ngắm Hài Nhi Giêsu mới sinh đặt nằm trong máng cỏ. Họ là những người đại diện cho tầng lớp những người nghèo, đơn sơ, và nhiệt tâm nên đã được Thiên Thần báo tin vui “Hôm nay, Đấng cứu độ đã sinh ra cho loài người” để đến chiêm bái Đấng Cứu Thế.
+    6)     Các con bò và lừa  là loài vật hiền lành nhưng cũng được phục vụ Chúa Giêsu Hài Đồng ngay từ những giây phút đầu tiên. Sự hiện diện của những con bò và lừa trong Hang Đá Bêlem muốn diễn tả ý nghĩa: Đức Kitô đã gánh mọi tội lỗi nhân loại, và sau cùng Ngài hiến tế chính bản thân Ngài làm của lễ đền tội cho nhân loại. Thêm vào đó, hình ảnh của những con bò tượng trưng cho người Do-thái đang phải gồng mình dưới sức nặng của luật pháp. Cũng như những con lừa tượng trưng cho dân ngoại mang thân phận loài vật chuyên chở trên mình bao gánh nặng tội lỗi, nhất là tội không nhìn nhận Thiên Chúa là Đấng Tối Cao duy nhất và là Tạo Hoá của muôn loài.
+    7)     Ba Vua: là những nhà đạo sĩ từ Phương Đông đến để triều bái và dâng tiến Hài Nhi những lễ vật.  Họ là: Melchior  trong hình ảnh quỳ gối dâng lên Chúa vàng, tượng trưng cho quyền lực, sự giàu sang, và người Âu Châu; Balthasar đứng ôm trên tay bình đựng nhũ hương, tượng trưng của lễ hiến tế, sự cầu nguyện và là người Á Châu; Caspar : là vị đạo sĩ trẻ nhất, đứng sau hai vị kia và ôm trên tay bình đựng mộc dược, tượng trưng cho sự đau khổ, sự chết, và là người gốc Phi Châu với nước da đen sậm.
+    Hi vọng với một ít kiến thức căn bản trên có thể giúp ta hiểu thêm về truyền thống Hang Đá Giáng Sinh cũng như gợi lại tâm tình ĐTC Phanxicô đã gửi cho chúng ta qua Tông thư “Admirabile Signum – Dấu Chỉ Tuyệt Vời” với niềm mong ước rằng: mỗi người hãy dừng lại nơi hang đá máng cỏ, dành thời gian thinh lặng để ngắm nhìn và suy niệm để khám phá thật nhiều sự kỳ diệu của tình yêu Thiên Chúa nhập thể làm người và ở cùng chúng ta.
+    Nguyện xin Chúa Hài Đồng Giêsu, qua lời bầu cử của Mẹ Maria và Thánh Cả Giuse, ban cho mỗi người chúng ta một Lễ Giáng Sinh tràn đầy Phúc lành, Niềm Vui, và Bình An.
+    
+    Thân mến,
+    Lm. Phanxico Trần Q Tuấn. 
+    `
+  },  
+  {
+    "Section": "Các Bài Viết",
+    "date": "2020-12-20",
+    "image": "https://hvmatl.net/gallery/img/articles/article-2020-12-20a.png",
+    "title": "Mừng Lễ Giáng Sinh 2021",
+    "body":
+    `Chúng ta đang ở trong giai đoạn 2 của Mùa Vọng là Tuần Cửu Nhật, và là thời gian chuẩn bị thật gần để mừng Lễ Chúa Giáng Sinh.  Nhìn cảnh trí tại các thương xá, các cơ sở công cộng, nhất là chính ngay tại nhà chúng ta, hầu hết chúng ta đã chuẩn bị sẵn sàng cho việc mừng Lễ Chúa Giáng Sinh, cụ thể là làm Hang Đá, trang hoàng nhà cửa, và hoàn tất việc mua sắm quà Giáng Sinh. Riêng tại khuôn viên Giáo xứ, Ban Lễ Hội Giáng Sinh năm nay đã giúp thực hiện trang trí các Hang Đá trong Nhà Thờ và ngoài sân, các vòng thông xanh và đèn Giáng Sinh đã được treo ở các cửa, ánh đèn màu đã bắt đầu chớp nháy và nhảy múa. 
+    Bên cạnh những những trang hoàng chuẩn bị cần thiết bên ngoài để mừng lễ, là người Công Giáo, chúng ta được mời gọi để chuẩn bị hang đá tâm hồn để Chúa Giêsu sinh ra cũng như chuẩn bị “Quà Sinh Nhật” trong dịp mừng kỷ niệm Giáng Sinh thứ 2021 của Ngài.
+    Trong tâm tình chúng ta vui mừng vì ngày mừng Lễ Giáng Sinh đang đến thật gần, tôi xin chia sẻ một vài tâm tình sau.
+    Trước hết, ta cần xác định rõ là chúng ta mừng sinh nhật của ai? Tôi thiết nghĩ rằng ngay một em bé cũng có thể trả lời đúng rằng: Sinh Nhật của Chúa Giêsu.  Điều này dẫn chúng ta đến câu hỏi Vậy ai cần phải nhận được “Quà” trong ngày Sinh Nhật và tôi có quà gì cho Chúa Giêsu?   Coi chừng chúng ta chỉ để ý mua quà tặng cho gia đình hoặc cho người thân, mà quên đi nhân vật chính là Chúa Giêsu Hài Đồng.
+    Kế đến tôi xin đưa ra một vài gợi ý trong việc sắm quà cho Chúa Hài Đồng dù chỉ còn ít thời gian chuẩn bị.
+    1.      Hãy gấp rút chuẩn bị nơi để  Chúa sinh ra (Hang Đá Belem) vật chất bằng những hang đá mà gia đình cùng thực hiện chung với nhau để nói lên tâm tình: gia đình cầu nguyện chung với nhau, gia đình để gắn bó với nhau.
+    2.      Hãy chuẩn bị những hang đá tâm hồn thật sạch sẽ và sẵn sàng bằng việc cử hành bí tích Hòa Giải. Thêm vào đó, hãy trang trí thật đẹp hang đá tâm hồn bằng các ân sủng của Thiên Chúa, qua việc cử hành bí tích Thánh Thể, những giờ suy niệm, và những việc bác ái để Chúa có thể đến và yêu thích ở lại mãi trong tâm hồn chúng ta.  
+    3.      Hãy trở thành dấu chỉ của thời đại Đấng Cứu Thế bằng cách loan báo và chia sẻ tin vui cho mọi người qua tư tưởng, lời nói và hành động của chúng ta.  Hãy trao ban cho những người chung quanh món quà cao quý nhất là Chúa Giêsu, vị Hoàng Tử Bình An, Đấng “Emmanuel” nghĩa là Thiên Chúa ở cùng chúng ta. Cụ thể, mỗi người và mỗi gia đình hãy chuẩn bị một phần quà vật chất cụ thể cho những hoàn cảnh khó khăn ngay bên cạnh mình. Những món quà trong dịp Giáng Sinh này sẽ mang lại niềm vui và nhất là niềm hy vọng cho những người nghèo, để họ có điều kiện mừng lễ và cảm nhận được sự gần gũi sống động của tình yêu Thiên Chúa.
+    Nguyện xin Thiên Chúa, qua lời chuyển cầu của Mẹ Maria và các Thánh chúc lành và Các Thánh Tử Đạo Việt Nam giúp chúng ta nhanh chóng chuẩn bị sẵn sàng để đón mừng Đấng Cứu Thế sinh hạ trong lòng, trong gia đình và trong xã hội chúng ta đang sống. Xin Đấng Emmanuel hiện diện nơi từng người, mỗi gia đình, và tại giáo xứ chúng ta, qua những lời nói yêu thương, thông cảm và bằng những hành động bác ái, chia sẻ mà ta đang thực hiện.
+    
+    Thân mến,
+    Lm. Phanxico Trần Q Tuấn. 
+    `
+  },
+  {
+    "Section": "Các Bài Viết",
+    "date": "2020-12-13",
+    "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
+    "title": "NĂM KÍNH THÁNH GIUSE",
+    "body":
+    `Trong dịp Lễ Trọng kính Đức Mẹ Vô Nhiễm Nguyên Tội vừa qua, Tòa Thánh công bố Năm Thánh Giuse được bắt đầu từ ngày 8 tháng 12 năm 2020 tới ngày 8 tháng 12 năm 2021. Bên cạnh đó, Đức Thánh Cha Phanxicô cũng đã ban hành Tông Thư Patris Corde (Bằng Trái Tim Người Cha).  Tôi xin chia sẻ cùng quý ông bà anh chị em mấy điểm chính sau.  
+    Trước hết, năm kính thánh Giuse được qui định nhân dịp kỷ niệm 150 năm, Thánh Giáo Hoàng Piô IX công bố Thánh Giuse là người Quan Thầy của Giáo Hội Hoàn Vũ  với mục đích cổ vũ  mọi tín hữu hãy noi gương Thánh Giuse củng cố đời sống đức tin trong việc thực hiện thánh ý Thiên Chúa hàng ngày. Thực vậy, sắc lệnh nêu rõ: “Các tín hữu hãy dấn thân, cầu nguyện và thể hiện những việc làm tốt, để nhận được sự chở che, nâng đỡ của Thánh Giuse, người đứng đầu gia đình thánh gia Nazareth, hầu được an ủi, được xoa dịu khỏi những khổ đau trầm trọng của con người và xã hội trong thế giới đương đại ngày nay gây nên.”
+    Kế đến, hình ảnh của Thánh Giuse được ĐTC trình bày trong tông thư Patris Corde dưới nhiều đặc tính như:
+    Người cha được các tín hữu yêu mến, Người cha dịu dàng, Người cha vâng lời Thiên Chúa,
+    Người cha của sự đón tiếp, Người cha can đảm sáng tạo, Người cha cần cù lao động
+    Người cha luôn là bóng mát che chở. Qua đó, ta nhận thấy nơi Thánh Giuse, “một người không được chú ý, người hiện diện hàng ngày, kín đáo và âm thầm, người chuyển cầu, là sự nâng đỡ và hướng dẫn trong những lúc khó khăn.”  Thánh nhân nhắc chúng ta rằng những người dường như “giữ vai trò phụ”, âm thầm, lại là “những vai chính không thể so sánh trong lịch sử cứu độ.”
+    Hơn nữa, Tòa Ân Giải Tối Cao đã công bố sắc lệnh ban các ơn toàn xá đặc biệt nhân dịp năm đặc biệt này.
+    Sau nữa, đây là những điều kiện để nhận ơn Toàn Xá trong Năm Thánh Giuse.
+    Cách chung, Ơn Toàn xá được ban với các điều kiện thông thường (xưng tội, rước lễ và cầu nguyện theo ý Đức Thánh Cha), cho các tín hữu có lòng xa tránh mọi tội lỗi, sẽ tham dự năm đặc biệt về Thánh Giuse trong những dịp và theo cách thức được Tòa Ân Giải Tối Cao chỉ định.
+    Sau đây là một vài hành động cụ thể ta có thể thực hiện để lãnh Ơn Toàn Xá như sau:
+    Thứ nhất, suy niệm ít nhất là 30 phút kinh Lạy Cha, hoặc tham dự một cuộc tĩnh tâm ít nhất là một ngày với một bài suy niệm về Thánh Giuse.
+    Thứ hai, hy sinh hãm mình hay làm việc bác ái yêu thương theo gương Thánh Giuse.
+    Thứ ba, đọc kinh Mân Côi trong gia đình và giữa những người đính hôn.
+    Thứ tư, hàng ngày phó dâng công việc của mình cho sự bảo vệ của Thánh Giuse.  
+    Thứ năm, đọc kinh cầu Thánh Giuse hoặc một kinh Thánh Giuse khác, phù hợp với các truyền thống phụng vụ khác, để cầu nguyện cho Giáo hội và các tín hữu đang bị bách hại.
+    Thêm vào những dịp đã nói ở trên, Tòa Ân Giải Tối Cao cũng còn ban Ơn Toàn xá cho các tín hữu khi đọc bất kỳ lời cầu nguyện đã được phê chuẩn hợp pháp hoặc làm một việc đạo đức để tôn vinh Thánh Giuse.  Đặc biệt là vào các ngày 19 tháng 3 và 1 tháng 5, vào Lễ Thánh Gia Thất, vào ngày 19 hàng tháng và mỗi Thứ Tư, ngày theo truyền thống Latinh được dành riêng kính nhớ thánh Giuse.
+     
+    Nguyện xin Thánh Giuse là người cha nhân lành, chuyển cầu cùng Thiên Chúa ban cho chúng ta nhiều ơn lành, bình an để biến đổi và nhân chứng theo khuôn mẫu của Thánh Giuse, vị quan thầy của Giáo Hội chúng ta.
+    
+    Thân mến,
+    Lm. Phanxico Trần Q Tuấn. 
+    `
+  },
+  {
+    "Section": "Các Bài Viết",
+    "date": "2020-12-06",
+    "image": "https://hvmatl.net/gallery/img/articles/article-2020-12-06.png",
+    "title": "Máng Cỏ và Hang Đá Giáng Sinh",
+    "body":
+    `Chúng ta đã bước vào tuần thứ 2 của Mùa Vọng, ta có thể thấy khắp nơi các gia đình và các cơ sở công cộng đã bắt đầu trưng bày và trang trí cho lễ Giáng Sinh với những cây thông lộng lẫy, những bóng đèn chớp nháy, những hang đá đã được trưng bày. Hòa trong tâm tình vui mừng chuẩn bị bên trong cũng như ngoài để kỷ niệm Mừng Chúa Giáng Sinh, tôi xin chia sẻ cùng quý ông bà anh chị em mấy điểm sau.
+    Trước hết, về lịch sử, ta được biết bức bích họa mô tả máng cỏ Giáng Sinh đầu tiên được thực hiện tại Greccio bởi Thánh Phanxicô thành Assisi. Máng cỏ Giáng Sinh của Thánh Phanxicô đã khơi dậy sự sáng tạo của các nghệ nhân của nước Ý và trên khắp thế giới và đã đóng góp rất nhiều để tạo ra nhiều kiệt tác về mặt nghệ thuật. Máng Cỏ không chỉ diễn tả biến cố Giáng Sinh ở Bê Lem, mà còn cho thấy cuộc sống thường nhật của người dân, với trang phục, nhà cửa, công việc và niềm vui sống.  Sau này, Thánh Giáo Hoàng Gioan Phaolô II đã có sáng kiến thiết lập cây thông Giáng Sinh và hang đá ở Quảng trường Thánh Phêrô vào năm 1982. Đức Giáo Hoàng Bênêđíctô thứ 16 ủng hộ nồng nhiệt sáng kiến này và giải thích thêm rằng: “hang đá không chỉ là một yếu tố linh đạo, nhưng còn là một yếu tố văn hóa và nghệ thuật.” Kế đến là năm 2019 Đức Giáo Hoàng Phanxico đã đến tận Grecio chiêm niệm bức bích họa Máng Cỏ và đã ký phổ biến Tông Thư ADMIRABILE SIGNUM – DẤU CHỈ TUYỆT VỜI.
+    Kế đến, ta cùng tìm hiểu sơ lược về Tông Thư DẤU CHỈ TUYỆT VỜI mà ĐTC Phanxicô đã đề cập trực tiếp đến ý nghĩa và tầm quan trọng của Cảnh Giáng Sinh.  Tôi xin tóm lược một vài điểm liên quan đến đề tài được nêu trên.
+    Đức Thánh Cha mở đầu Tông Thư “Admirabile Signum” như sau: Dấu chỉ tuyệt vời của hang đá, rất thân thương đối với dân Kitô giáo, luôn gợi lên sự kinh ngạc và suy tư. ĐTC Phanxicô đã bắt đầu bằng việc khẳng định rằng: Hang đá là lời rao giảng Tin Mừng cần được tái khám phá và hồi sinh vì khi chiêm ngắm khung cảnh Giáng Sinh, chúng ta được mời gọi tham gia vào một cuộc hành trình thiêng liêng, được lôi cuốn bởi sự khiêm nhường của Người, Đấng đã làm người để gặp gỡ mọi người. Và chúng ta khám phá ra rằng, Người yêu thương chúng ta đến mức liên kết với chúng ta, để chúng ta cũng có thể liên kết với Người.”  Từ đó, ĐTC nêu lên mục đích của Tông Thư là khuyến khích chúng ta tiếp tục truyền thống làm hang đá. Cụ thể là chuẩn bị máng cỏ trong những ngày trước Giáng Sinh tại các gia đình cũng như phong tục trang trí cảnh Giáng Sinh ở nơi làm việc, trường học, bệnh viện, nhà tù, quảng trường ...
+    Vậy chúng ta đáp trả lời kêu gọi và sự khuyến khích của ĐTC Phanxicô thế nào? Chúng ta - Giáo Xứ, mỗi Ban, Ngành, Đoàn, Hội, và từng gia đình hãy cùng nhau giữ truyền thống tốt đẹp làm hang đá này. Chắc chắn, một loại hang đá rất nhỏ bé và đơn sơ nhưng lại làm Chúa Hài Đồng rất hài lòng đó là hang đá tâm hồn. Hang đá này được làm bằng việc thực thi Đức Bác Ái, biết nhận ra Chúa, đón tiếp Chúa nơi tha nhân, chia sẻ cơm bánh với những người đói khát, biết cảm thương an ủi những người sầu khổ, nâng đỡ những người yếu đuối, khích lệ những người thất vọng ngã lòng. Hơn nữa, Chúa còn muốn chúng ta hướng tâm hồn lên cao hơn, biết yêu thương cả những kẻ thù nghịch, làm ơn lành cho những kẻ ghen ghét mình, lại cầu nguyện cho những kẻ vu oan cáo vạ, bắt bớ, bách hại chúng ta nữa. Thêm vào đó, mỗi gia đình hãy biết dùng thời giờ và tài năng trong gia đình thực hiện một hang đá vật chất trong nhà để nhắc nhớ nhau từng bước cụ thể chuẩn bị tâm hồn đón mừng kỷ niệm Chúa Giáng Sinh. Chính những giây phút cùng làm, cùng trang trí, cùng cầu nguyện với nhau, ta sẽ làm sống lại tinh thần của mầu nhiệm Giáng Sinh trong gia đình.
+     
+    Riêng tại Giáo Xứ Các Thánh Tử Đạo Việt Nam TGP Atlanta chúng ta năm nay chính thức thành lập Ban Lễ Hội Giáng Sinh.  Mục đích của Lễ Hội này là sử dụng Ánh Sáng Giáng Sinh làm Lời Rao Giảng Tin Mừng về ơn Cứu Chuộc và Thiên Chúa đang ở cùng chúng ta. Mong rằng, qua  trí tưởng tượng sáng tạo khi sử dụng các vật liệu khác biệt nhất để tạo ra những kiệt tác hang đá với những sắc thái của các thời đại, các dân tộc, và các ngành nghề chúng ta có thể giới thiệu Mầu Nhiệm Ơn Cứu Độ cho muôn dân.  Vậy tôi tha thiết kêu gọi từng gia đình và mỗi người hãy cộng tác và giúp một tay cho Ban Lễ Hội Giáng Sinh để thực hiện tốt việc loan báo Tin Mừng này.
+    Nguyện xin Chúa Giêsu Hài Đồng chúc lành để giáo xứ và từng thành viên để hang đá tâm hồn chúng ta được đổi mới tốt đẹp hơn, xứng đáng là nơi cho Chúa Hài Đồng ngự trị.
+    
+    Thân mến,
+    Lm. Phanxico Trần Q Tuấn. 
+    `
+  },
+  {
+    "Section": "Các Bài Viết",
+    "date": "2020-11-29",
+    "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
+    "title": "CHỦ ĐỀ MỤC VỤ 2021",
+    "body":
+    `Chúng ta vui mừng cùng toàn thể Giáo Hội bước vào Năm Phụng Vụ 2021. Riêng với Giáo Xứ Các Thánh Tử Đạo Việt Nam, TGP Atlanta đã chọn chủ đề Mục Vụ cho năm 2021 là Đồng Hành Với Các Gia Đình dưới ánh sáng của Tin Mừng. Trong tâm tình đó, tôi xin chia sẻ mấy tâm tình cùng quý thành viên Giáo Xứ.
+    Trước tiên, Kế Hoạch Mục Vụ của Giáo Xứ trong 3 năm tới 2021-2023: là Củng Cố Niềm Tin, Cử Hành Bí Tích, và Loan Truyền Tin Mừng.
+           Năm thứ nhất (2021), chúng ta nhắm tới mục tiêu là gia tăng việc học hỏi Giáo Lý, Kinh Thánh, Bí Tích bằng các bài Giáo Lý sau các Thánh Lễ, Lớp Kinh Thánh, Lớp Phụng Vụ Bí Tích….
+     
+           Năm thứ hai (2022) sẽ nhắm tới mục tiêu cùng cử hành các bí tích, đặc biệt hai bí tích Thánh Thể và Hòa Giải cho sốt sắng hơn, ngay từ việc chuẩn bị học hỏi trong gia đình cho đến các ban ngành, đoàn, hội rồi đến cà giáo xứ.
+     
+           Năm thứ ba 2023, cả giáo xứ chúng ta nhắm đến mục tiêu rao giảng tin mừng bằng chính đời sống của từng thành viên, mỗi gia đình, và cả giáo xứ.  
+    Kế đến, ta cũng cần xác định hoàn cảnh đặc biệt của chúng ta trong năm mục vụ 2021 này. Với những thông tin cập nhật mỗi ngày, chính phủ và giáo quyền cũng đã thi hành lệnh: Hạn chế tụ họp đông người để hạn chế dịch bệnh COVID-19 lây lan và bùng lớn lên. Do đó, chúng ta đang phải đối diện với một số hiện tượng tiêu cực như việc một số thành viên, nhất là các bạn trẻ đã quen tham dự thánh lễ trực tuyến nên không muốn hiện diện đế tham dự Thánh lễ tại nhà thờ nữa. Thêm vào đó, việc học hỏi giáo lý cho con em chúng ta cũng phải thay đổi phương thức qua việc sử dụng hệ thống trực tuyến hoạc online. Chắc chắn là khó mà đạt được hiệu quả nếu không có sự cộng tác cách tích cực của quý phụ huynh.
+    Tuy phải đương đầu với những khó khăn nêu trên, chúng ta cũng có thể tìm ra được những cái tốt trong đó. Cụ thể là các thành viên trong gia đình có thời giờ với nhau và cho nhau hơn nếu ta biết tổ chức và sắp xếp sẽ đem các thành viên trong gia đình lại gần nhau hơn và sinh hoạt với nhau tốt hơn.  Thêm vào đó, tất cả chúng ta đều phải tiếp xúc, và làm quen với kỹ thuật số là "ngôi nhà" thân thương của người trẻ để có thể dự lễ, để nghe giảng, để liên lạc. Đây chính là cơ hội để chúng ta cố gắng, đồng hành với người trẻ trong thể giới hôm nay.
+    Sau nữa, ta cần phải định hướng rõ vai trò của gia đình trong hoàn cảnh hiện nay. Càng ngày chúng ta càng nhận thấy rõ vai trò Giáo Hội tại Gia (Domestic Church) của gia đình và “cha mẹ là “Thầy Cô dạy Đức Tin Đầu Tiên cho con cái”. Thực vậy, Gia đình là nơi người trẻ tập sống tương quan căn bản với Thiên Chúa trong cầu nguyện, tương quan hiếu thảo với cha mẹ, và tương quan huynh đệ với anh chị em trong nhà. Gia đình cũng là nơi người trẻ học tập những đức tính nhân bản như trung thực, quảng đại, phục vụ, tinh thần trách nhiệm. Ước mong các bạn trẻ cùng với cha mẹ mình vun đắp gia đình thành ngôi nhà cầu nguyện, mái ấm yêu thương và nơi đào tạo con người trưởng thành toàn diện. Do đó, là phụ huynh chúng ta cần nhanh chóng thể hiện vai trò dạy giáo lý, huấn luyện và thực hành đức tin ngay trong gia đình.
+    Trong tâm tình trên, tôi tha thiết kêu gọi từng gia đình hãy cùng nhau ngồi lại để cầu nguyện, để tìm hiểu và hoạch định kế hoạch cho gia đình mình bước vào Năm Phụng Vụ 2021 này.
+    Chúng ta phó dâng chương trình mục vụ 2021 này của từng gia đình và cả giáo xứ cho các Thánh Tử Đạo Việt Nam. Tin rằng, khi noi theo gương sống và đón nhận ơn phù trợ của các ngài, chúng ta sẽ kiên vững trong thử thách gian nan, và chương trình mục vụ sẽ đạt được những thành quả tốt đẹp. Xin Thiên Chúa ban muôn hồn
+    ân cho từng thành viên, mỗi gia đình, và giáo xứ chúng ta trong năm Phụng Vụ 2021 này.
+    
+    Thân mến,
+    Lm. Phanxico Trần Q Tuấn. 
+    `
+  },
+  {
+    "Section": "Các Bài Viết",
+    "date": "2020-11-22",
+    "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
+    "title": "TÂM TÌNH CUỐI NĂM PHỤNG VỤ",
+    "body":
+    `Hòa chung tâm tình vui mừng cùng toàn thể Giáo Hội, chúng ta long trọng mừng lễ Chúa Kitô là Vua của vũ trụ, của muôn loài muôn vật, và loài người. Đây cũng là Chúa Nhật cuối cùng của Năm Phụng Vụ 2020. Trong tâm tình trên tôi xin được chia sẻ cùng quý vị mấy tâm tình sau.
+    Trước hết, ta cùng tìm hiểu Năm Phụng Vụ trong trong giáo huấn của Giáo Hội.
+    1.      Giáo Lý Công Giáo số 1171 dạy chúng ta: “Năm Phụng Vụ khai triển Mầu Nhiệm Vượt Qua dưới nhiều khía cạnh, đặc biệt là chu kỳ các lễ xoay quanh mầu nhiệm Nhập Thể (Truyền Tin, Giáng Sinh, Hiển Linh) gợi lại những biến cố khởi đầu ơn cứu độ và cho chúng ta hưởng nhờ hoa trái đầu mùa của mầu nhiệm Phục Sinh.”
+    2.      Hiến Chế Phụng Vụ số 102 dạy rằng: Hội Thánh trình bày mầu nhiệm Chúa Kitô qua thời gian một năm từ Nhập Thể, Giáng Sinh đến Phục Sinh, Thăng Thiên, Hiện Xuống, sự mong đợi hồng phúc và ngày Chúa lại đến. Nói cách khác, Hội Thánh cử hành công trình cứu độ của Chúa Kitô qua chu kỳ một năm gọi là Năm Phụng Vụ.
+     Kế đến, về cấu trúc, Năm Phụng Vụ được sắp xếp thành 5 mùa như sau:
+    1. Mùa Vọng: gồm 4 Chúa nhật trước lễ Giáng Sinh nhằm chuẩn bị tâm hồn người tín hữu mừng mầu nhiệm Chúa xuống thế làm người.  Lễ phục mang màu tím nói lên sự hoán cải trông đợi ơn cứu độ của Thiên Chúa.
+    2. Mùa Giáng Sinh: từ lễ Chúa Giáng Sinh đến lễ Chúa Giêsu Chịu Phép Rửa để mừng kính chính Mầu Nhiệm Nhập Thể.  Lễ phục mầu Trắng nói lên tâm tình vui mừng
+    3. Mùa Chay: từ Thứ Tư Lễ Tro đến lễ Vọng Phục Sinh để chuẩn bị tâm hồn tín hữu đón mừng mầu nhiệm Tử Nạn Phục Sinh của Chúa Giêsu. Lễ phục mang màu tím nói lên tinh thần sám hối và sự hoán cải để trở về với Thiên Chúa và thành con người mới trong ơn cứu độ của Chúa Kitô.
+    Tuần lễ cuối cùng của mùa Chay là Tuần Thánh, cử hành những biến cố cuối cùng cuộc đời trần gian của Chúa Giêsu.
+    4. Mùa Phục Sinh: từ lễ Vọng Phục Sinh đến lễ Hiện Xuống để mừng việc Chúa Kitô toàn thắng tội lỗi và tử thần. Lễ phục màu trắng nói lên tâm tình vui mừng và trở thành người mới trong sự phục sinh của Đức Kitô.
+    5. Mùa Thường Niên: khoảng 34 tuần lễ với phẩm phục màu xanh nói lên sự lớn lên trong đời sống thiêng liêng, nhằm giúp tín hữu sống mầu nhiệm cứu độ cách đầy đủ hơn. Mùa Thường Niên gồm 2 thời kỳ:
+    + Mùa Thường Niên I: Từ sau mùa Giáng Sinh đến đầu Mùa Chay
+    + Mùa Thường Niên II: từ sau lễ Hiện Xuống đến hết tuần lễ Chúa Kitô Vua.
+    - Thêm vào đó, Giáo Hội còn dành nhiều ngày lễ trong suốt năm Phụng Vụ để:
+    + Tôn kính cách đặc biệt Đức Maria.
+    + Tôn kính thánh Giuse, các Thánh Tử đạo, các thánh khác.  
+    Sau cùng, chúng ta có tâm tình thế nào khi Năm Phụng Vụ 2020 chấm dứt và chuẩn bị bước vào Năm Phụng Vụ mới?  Chắc chắn chúng ta cần ý thức rằng: Phụng Vụ có hai mục tiêu rõ ràng: Phụng Vụ không chỉ để cử hành nghi lễ tôn thờ Thiên Chúa, mà còn là việc rao giảng Tin Mừng và thực thi bác ái. Do đó, đây chính là cơ hội để mỗi người chúng ta kiểm điểm lại xem mình đã cử hành phụng vụ trong suốt năm qua thế nào và mình đã thăng tiến trong đời sống thiêng liêng và sống bác ái thế nào.
+    Xin cho mỗi người chúng ta không chỉ cử hành, nhưng là sống theo các mầu nhiệm của Chúa Kitô trong suốt năm phụng vụ mới này.
+    
+    Thân mến,
+    Lm. Phanxico Trần Q Tuấn. 
+    `
+  },
+  {
+    "Section": "Các Bài Viết",
+    "date": "2020-11-15",
+    "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
+    "title": "MỪNG LỄ BỔN MẠNG  GIÁO XỨ VÀ KỶ NIỆM CUNG HIẾN THÁNH ĐƯỜNG",
+    "body":
+    `Lễ kính các Thánh Tử Đạo Việt Nam được Phụng vụ Giáo Hội cử hành vào ngày 24 tháng 11 mỗi năm và cũng là Bổn Mạng của Giáo Xứ chúng ta. Trong tâm tình vui mừng lễ Bổn Mạng Giáo Xứ, tôi xin chia sẻ vài tâm tình cùng quý ông bà, anh chị em.
+ 
+    Trước hết, theo Tự Điển Bách Khoa Công Giáo, Vị Bảo Trợ hay Quan Thầy là vị thánh được chỉ định hoặc tuyển chọn như một người chuyển cầu đặc biệt hoặc một vị bầu chữa đặc biệt trước mặt Thiên Chúa cho một điạ phương, một nhà thờ hay một cá nhân. Giáo Xứ chúng ta nhận các Thánh Tử Đạo Việt Nam làm Bổn Mạng vì các Ngài cũng là những người mang dòng máu Việt Nam, đón nhận đức tin và anh dũng sống đức tin của mình. Qua đó, Các Thánh Tử Đạo Việt Nam là những mẫu gương cụ thể sống đức tin cho từng giới là những người cha, những bà mẹ, những người con, những vị quan, những binh lính, những thương nhân, những tu sĩ trong gia đình, trong xã hội ta đang sống.
+     
+    Dịp lễ mừng Bổn Mạng năm nay cũng là dịp kỷ niệm Đệ Nhất Chu Niên cung hiến ngôi Thánh Đường của chúng ta. Đây cũng là dịp để chúng ta sống tâm tình tạ ơn. Trước hết chúng ta cùng tạ ơn Thiên Chúa, Đấng cho chúng ta được sinh ra là người Công Giáo và có cơ hội là thành viên sinh hoạt tại giáo xứ thân thương này. Nhất là cho chúng ta có cơ hội, có lẽ là cơ hội duy nhất trong đời để chung tay góp phần xây dựng ngôi thánh đường của giáo xứ của mình. Chắc chắn chúng ta không thể quên những tấm lòng quảng đại vì “Nhà Chúa” của tất cả quý thành viên, quý ân nhân đã đóng góp thời giờ, tiền của, và tài năng cho công trình xây dựng này. Chúng ta không thể nào không nhớ đến và tri ân tất cả các công ty xây dựng, các nghệ nhân đã bỏ bao nhiêu công sức giúp chúng ta hoàn tất công trình cho Ngôi Thánh Đường rất khang trang này.
+     
+    Kế đến, trong dịp này, chúng ta cũng hân hoan cùng toàn thể đất nước Hoa Kỳ mừng lễ Tạ Ơn – Thanksgiving.  Đây là dịp mỗi năm nhắc nhớ chúng ta biết luôn sống tâm tình Tạ Ơn. Ta tạ ơn Thiên Chúa, như những người di dân thời gian đầu của Hoa Kỳ. Họ cũng đã phải chạy trốn khỏi quê hương với bao nhiêu thử thách, gian truân của thiên nhiên vùng đất xa lạ này để sống còn, sống hòa hợp với những thổ dân và lập quốc. Ta cũng tạ ơn và nhớ đến để cầu nguyện cho những người lập quốc, những người đã và đang hi sinh bảo vệ đất nước thân yêu mà chúng ta đang sống. Nhất là mỗi người chúng ta hãy biết sống tâm tình tạ ơn cho chính mình và gia đình mình đang được thừa hưởng bao nhiêu sự tốt lành tại quê hương thứ hai này để chuẩn bị cho mình bước vào quê hương vĩnh cửu mà Thiên chúa là cha nhân từ đã chuẩn bị cho chúng ta.
+     
+    Vậy, trong dịp mừng lễ các Thánh Tử Đạo Việt Nam, là Bổn Mạng của Giáo Xứ, là Lễ trọng mừng kỷ niệm Cung Hiến Thánh Đường, và Lễ Tạ Ơn của Hoa Kỳ, chúng ta hãy cũng nhau tích cực tham gia Tuần Tĩnh Tâm Giáo Xứ học hỏi các nhân đức của Các Thánh Tiền Nhân và cầu nguyện qua Tuần Cửu Nhật, và chuẩn bị tâm hồn và gia đình hân hoan mừng lễ Bổn Mạng , Kỷ Niệm Cung hiến Thánh Đường, và lễ Tạ Ơn.
+     
+    Nguyện xin Thiên Chúa chúc lành cho mỗi thành viên trong việc chọn lựa và quyết tâm nên thánh theo gương của các Thánh Từ Đạo tại Việt Nam, luôn sống tâm tình tạ ơn chan hòa niềm vui Mến Chúa – Yêu Người trong Mùa Tạ Ơn này.
+    
+    Thân mến,
+    Lm. Phanxico Trần Q Tuấn. 
+    `
+  },
+  {
+    "Section": "Các Bài Viết",
+    "date": "2020-11-07",
+    "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
+    "title": "GIÁO XỨ TĨNH TÂM MỪNG BỔN MẠNG",
+    "body":
+    `Hằng năm Giáo Xứ chúng ta tổ chức 2 dịp tĩnh tâm chung cho cả giáo xứ: 1) vào dịp kính Các Thánh Tử Đạo Việt Nam, mừng Bổn Mạng Giáo Xứ và 2) vào Mùa Chay. Tĩnh tâm Giáo Xứ (Parish Retreat) cũng được gọi là Tuần Đại Phúc nhằm mục đích giúp các thành viên làm mới (canh tân) đời sống tâm linh, gắn bó hơn với Thiên Chúa với giáo xứ và gia đình. Trong mục đích trên và cũng để giúp ta ý thức và chuẩn bị tham dự tuần tình tâm, tôi xin chia sẻ vài tâm tình như sau:
+
+    Năm nay, chúng ta rất hân hạnh có Cha Gioan Nguyễn Vũ Việt, linh mục thuộc giáo phận St. Peterburg, Florida sẽ đến hướng dẫn và giảng thuyết cho chúng ta chiều thứ Hai, thứ Ba, và thứ Tư (16-18 tháng 11). Chương trình căn bản như sau: Cha giảng phòng sẽ giảng các thánh lễ cuối tuần (14-15 tháng 11); mỗi ngày sẽ dâng thánh lễ 8:00 sáng, hướng dẫn chương trình giảng thuyết lúc 7:00 chiều, và kết thúc bằng thánh lễ lúc 9:00 tối. Trong ba ngày tĩnh tâm, cá nhân hoặc gia đình nào cần hướng dẫn tâm linh, có thể làm hẹn với văn phòng Giáo Xứ để gặp Cha giảng phòng từ 9:30 đến 11:30 sáng; 2:00 đến 4:00 chiều. Chủ đề tĩnh tâm năm nay là ĐỨC TIN: Hôm Qua – Hôm Nay – Ngày Mai. Bên cạnh việc mừng lễ Bổn Mạng Giáo Xứ, chúng ta cùng hiệp ý tạ ơn Thiên Chúa trong dịp Đệ Nhất Chu Niên Cung Hiến Thánh Đường.
+    Tĩnh Tâm Giáo Xứ là một khoảng thời gian của ân sủng, của sám hối, thay đổi và trở thành một con người được đổi mới. Vợ chồng, cha mẹ, con cái, anh chị em, bạn hữu hãy khuyến khích nhau và tạo điều kiện tốt hơn cho nhau tham dự tĩnh tâm.  Thường ra, tuần tĩnh tâm được kết thúc bằng Buổi Hòa Giải Cộng Đồng vào chiều thứ Năm. Nhưng với những luật lệ phòng chống lây nhiễm, chúng ta không thể tổ chức Buổi Hòa Giải Cộng Đồng như trước đây. Do đó, các cha sẽ giúp giải tội sau các thánh lễ ngày thường, trong 3 ngày tĩnh tâm và cuối tuần.
+    
+    Vậy tôi tha thiết mời gọi các Trưởng Gia Đình giúp hãy bàn luận trong gia đình để sắp xếp chương trình cho gia đình mình có thể tham dự những buổi tĩnh tâm này. Hãy cùng cầu nguyện và nối kết đời sống thiêng liêng trong đại gia đình CTTĐVN trong dịp tĩnh tâm giáo xứ này.
+    Nguyện xin Thiên Chúa, qua lời chuyển cầu của Mẹ Maria và Các Thánh Tử Đạo Việt Nam, hướng dẫn Cha giảng phòng và ban ơn lành để từng người, từng gia đình khi tích cực tham dự Tuần Tĩnh Tâm.  Mong chúng ta có thể học hỏi và noi gương sống và loan truyền đức tin như Các Thánh Tử Đạo Việt Nam là các Đấng bào trợ của giáo xứ chúng ta.
+    
+    Thân mến,
+    Lm. Phanxico Trần Q Tuấn. 
+    `
+  },
+  {
+    "Section": "Các Bài Viết",
+    "date": "2020-10-18",
+    "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
+    "title": "CHÚA NHẬT THẾ GIỚI TRUYỀN GIÁO",
+    "body":
+    `Quý Ông Bà Anh chị em thân mến!
+    Chúa Nhật Truyền Giáo sẽ được mừng vào ngày 18 tháng 10 năm 2020. Trong dịp này, ĐTC Phanxicô đã gửi cho toàn thể Giáo Hội một thông điệp với chủ đề được rút từ sách Tiên tri Isaia: “Lạy Chúa, con đây, xin hãy sai con!” (Is 6: 8).
+    Trước tiên, nội dung của sứ điệp là lời mời gọi dấn thân truyền giáo trong cuộc khủng hoảng hiện nay, khi mà dường như cả thế giới đang hoảng loạn và mất phương hướng. Câu hỏi được Thiên Chúa đặt ra là: “Ta sẽ sai ai?” để mời gọi chúng ta ra khỏi chính mình trước tình yêu Thiên Chúa và tha nhân, qua hành động và cầu nguyện dù rằng chúng ta trải cảm nghiệm trước sự yếu kém của mình trước nỗi đau và cái chết của dịch bệnh.
+    ĐTC Phanxicô tiếp tục khai triển sứ điệp bằng cách cho chúng ta nhận thức rõ rằng: Nhiệm vụ rao giảng của chúng ta được khởi nguồn từ Chúa Giêsu là con Thiên Chúa và đầu Giáo Hội mà chúng ta là thành phần trong Giáo Hội này. Như Chúa Giêsu đã hoàn tất sứ mệnh của mình bằng cách chết trên thập giá, chúng ta cũng được mời gọi trao hiến cho người khác. Ngài cũng  nhắc nhở chúng ta: Sứ mệnh truyền giáo là một lời mời gọi tự do và ý thức trước tiếng gọi mời của Thiên Chúa. Một lời mời gọi truyền giáo chỉ có thể được nhận ra khi chúng ta có một mối tương giao thân tình với Chúa Giêsu hiện diện trong Giáo Hội. Điều đó dẫn đến câu hỏi là chúng ta có sẵn sàng để đón nhận Chúa Thánh Thần hiện diện và hành động trong cuộc sống của chúng ta. Lời mời gọi đó được mở rộng cho các cặp vợ chồng, cho các tu sĩ nam nữ cũng như cho các thừa tác viên được truyền chức cho các phận vụ này trong cuộc sống. ĐTC Phanxicô kết thúc sứ điệp bằng câu hỏi mà Tiên tri Isai đã viết “Ta sẽ sai ai? ” một lần nữa lại được vang vọng nơi chúng ta và đợi chờ chúng ta đáp trả một cách quảng đại: “Lạy Chúa con đây, xin hãy sai con!” (Is 6: 8).
+    Kế đến là Sứ điệp Ngày Chúa nhật Truyền Giáo có ý nghĩa gì với chúng ta?  Ngày Khánh Nhật Truyền Giáo sẽ là một ngày mà chúng ta sẽ tái xác quyết lại thông qua tâm tình cầu nguyện, suy tư và cống hiến vật chất một các tích cực vào sứ mệnh của Chúa Giêsu trong Giáo hội của Ngài.
+    Sau nữa, trong Ngày Khánh Nhật Truyền Giáo này, tôi cũng tha thiết kêu mời từng người, từng gia đình và toàn thể Giáo Xứ chúng ta cùng hòa nhập với toàn thể Giáo Hội bằng các việc:
+    a.       Cầu nguyện: hãy trở thành thành viên của Hội Tông Đồ Cầu Nguyện của Đức Thánh Cha.  (Ý cầu nguyện truyền giáo của Đức Giáo Hoàng được đăng trong tờ Thông Tin Mục Vụ). Hãy bắt đầu ngày mới bằng việc  “Dâng Ngày” để sống truyền giáo qua từng hi sinh, từng hành động với ý chỉ cầu nguyện cứu rỗi cho một linh hồn như thánh Têrêsa Hài Đồng Giêsu đã làm gương.
+    b.      Hãy hỗ trợ các công cuộc truyền giáo bằng việc rộng rãi dâng hiến tiền của được thực hiện dưới danh hiệu Hội Truyền giáo Tòa thánh, đáp ứng những nhu cầu tinh thần và vật chất cho nhiều dân tộc và nhiều Giáo Hội trên khắp thế giới, hầu cứu rỗi các linh hồn.
+    c.       Hãy gia tăng mối quan hệ xã hội, nhất là trong đại dịch này và tự hỏi mình “Chúa muốn gì nơi chúng ta trong thời điểm xảy đại dịch này?” để sẵn sàng và cố gắng thi hành.   
+    d.      Dành thời giờ để nhìn lại căn tính truyền giáo của mình để tiếp tục thực hiện và hoàn thành sứ vụ loan truyền và chia sẻ niềm tin mà mình đã nhận lãnh từ Thiên Chúa.
+    Hiệp ý cùng ĐTC Bênêđictô và Giáo Hội Hoàn Vũ, chúng ta cùng cầu nguyện:
+    “Lạy Chúa, xin đồng hành với các nhà truyền giáo tại các xứ truyền giáo, xin đặt trên môi miệng họ những lời lẽ chính đáng, xin làm cho công lao khó nhọc của họ sinh nhiều hoa trái.” Lạy Trinh Nữ Maria, Mẹ là Mẹ Hội Thánh và là Ngôi Sao dẫn đường loan báo Tin Mừng, xin đồng hành với tất cả các Thừa Sai Tin Mừng.”
+    Nguyện xin Thiên Chúa chúc lành, bảo vệ chúng ta, và thêm sức mạnh trong công việc truyền giáo của chúng ta.
+    
+    Thân mến,
+    Lm. Phanxico Trần Q Tuấn. 
+    `
+  },
+  {
+    "Section": "Các Bài Viết",
     "date": "2020-10-11",
     "image": "https://hvmatl.net/gallery/img/articles/article-2020-10-11.png",
     "title": "Hướng Dẫn Bầu Cử",
