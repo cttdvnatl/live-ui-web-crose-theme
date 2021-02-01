@@ -23,6 +23,28 @@ const articleContent =
 [  
   {
     "Section": "Các Bài Viết",
+    "date": "2021-01-31",
+    "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
+    "title": "Ngày Quốc Tế Bệnh Nhân",
+    "body":
+    `Ngày Lễ Quốc Tế Bệnh Nhân được Thánh Giáo Hoàng Gioan Phaolô II thiết lập từ năm 1992 và ấn định được cử hành hằng năm vào ngày lễ Đức Mẹ Lộ Đức (11 tháng 2).  Ngài đã giải thích về tương quan của hai ngày lễ này như sau: Ngày Quốc Tế Bệnh Nhân là một cố gắng để tái khám phá “quan hệ sâu sắc” giữa Đức Mẹ và những người đau yếu.
+    Năm nay, chủ đề của Sứ điệp Ngày Quốc tế bệnh Nhân lần 29 là một câu trích từ Phúc Âm theo Thánh Matthêu (Mt 23:8) “Anh em chỉ có một thầy và tất cả anh em là anh em với nhau.” Một tương quan dựa trên sự tin cậy nhằm hướng dẫn việc chăm sóc cho bệnh nhân. Qua chủ đề này, ĐTC Phanxicô muốn nhấn mạnh một lần  nữa rằng: đây là một cơ hội để dành sự quan tâm đặc biệt cho bệnh nhân và cho những người trợ giúp và chăm sóc họ ở những cơ sở chăm sóc sức khỏe và trong các gia đình và cộng đoàn. Do đó, chúng ta cần nghĩ đến, đặc biệt là người nghèo và người bị gạt ra bên lề xã hội để bày tỏ sự gần gũi tinh thần và bảo đảm với họ về sự ưu ái của Giáo hội. Cách riêng ta phải đặc biệt lưu tâm đến những người đau khổ và tiếp tục đau khổ vì những tác động của đại dịch toàn cầu coronavirus hiện nay.
+    ĐTC Phanxicô đã đề cập đến mấy vần để cụ thể sau:
+    - Tình liên đới huynh đệ rất quan trọng nên phải được thể hiện cách cụ thể trong việc phục vụ và có thể được thực hiện dưới nhiều hình thức khác nhau, và tất cả đều hướng đến việc hỗ trợ những người lân cận của chúng ta.  Do đó, tinh thần phục vụ thực sự là cần gạt bỏ những ước muốn, ham muốn và  theo đuổi quyền lực của riêng mình. Cụ thể là luôn nhìn vào khuôn mặt của người anh em, đụng chạm vào da thịt họ, cảm nhận sự gần gũi của họ và thậm chí trong một số trường hợp, hãy cùng chịu đựng đau khổ với họ và tìm cách thăng tiến họ.
+    - Hướng tới một giao ước qua phương thế trị liệu có hiệu quả và cách tiếp cận toàn diện với bệnh nhân. Giao ước này phải dựa trên sự tin tưởng và tôn trọng lẫn nhau, sự cởi mở và sẵn sàng cũng như giúp khắc phục thái độ phòng thủ, giúp tôn trọng nhân phẩm của bệnh nhân, bảo vệ tính chuyên nghiệp của nhân viên y tế và thúc đẩy mối quan hệ tốt đẹp với gia đình bệnh nhân.
+    -  Giúp bệnh nhân có thể tìm thấy một nguồn mạch bất tận những động lực và sức mạnh trong lòng bác ái của Chúa Kitô. Thực vậy, qua Tin Mừng ta có thể nhận thấy rõ Chúa Giêsu chữa bệnh không phải bằng pháp thuật nhưng luôn là kết quả của một cuộc gặp gỡ, một tương quan liên cá nhân, trong đó ân sủng của Thiên Chúa tương xứng với đức tin của những người đón nhận ân sủng ấy; như Chúa Giêsu thường lặp lại: “Đức tin của con đã cứu con.”
+    Tại cộng đoàn Giáo Xứ chúng ta, hiện đang có rất nhiều anh chị em đang sống tinh thần này qua sinh hoạt của Hội Legio Mariae, Ban Thừa Tác Viên Ngoại Thường Trao Mình Thánh Chúa, Chương Trình Lòng Chúa Thương Xót, Ban Xã Hội, Ban Y Tế là những người thường xuyên thăm viếng, giúp đỡ, chăm sóc các anh chị em đau bệnh tại tư gia, bệnh viện hay Viện Dưỡng Lão.
+    Năm nay, dù trong đại dịch covid-19, lúc 11g00 sáng, chúng ta vẫn thực hiện Thánh lễ cầu bình an chữa lành cho các bệnh nhân vào ngày Thứ Năm ngày 11 tháng 2.  Chúng ta cùng cầu nguyện, thăm viếng và chăm sóc các anh chị em đang đau khổ vì bệnh tật.
+     
+    Ta cùng hiệp ý với ĐTC Phanxicô để: “phó dâng các bệnh nhân, các nhân viên y tế và tất cả những người quảng đại giúp đỡ những anh chị em đau khổ của chúng ta cho Đức Maria, Mẹ Của Lòng Thương Xót và Sức Khỏe Của Bệnh Nhân. Từ hang đá Lộ Đức và từ vô số các đền thánh dâng kính Đức Mẹ trên thế giới, xin Mẹ nâng đỡ đức tin và đức cậy của chúng ta và giúp chúng ta chăm sóc cho nhau với tình yêu huynh đệ.”
+    Nguyện xin Thiên Chúa chúc lành và chữa lành chúng ta.
+        
+    Thân mến,
+    Lm. Phanxico Trần Q Tuấn. 
+    `
+  },
+  {
+    "Section": "Các Bài Viết",
     "date": "2021-01-24",
     "image": "https://hvmatl.net/gallery/img/articles/article-2021-01-24.png",
     "title": "Lễ Nhậm Chức của Tổng Thống Hoa Kỳ",
