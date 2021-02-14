@@ -24,7 +24,7 @@ const articleContent =
   {
   "Section": "Các Bài Viết",
   "date": "2021-02-6",
-  "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
+  "image": "https://hvmatl.net/gallery/img/articles/article-2021-02-06.png",
   "title": "BẢO VỆ SỰ SỐNG THAI NHI",
   "body":
   `1. Từ ngày 21-29 tháng Giêng 2021, Hội Đồng Giám Mục Hoa Kỳ kêu mời các tín hữu Công Giáo Hoa Kỳ tham gia ăn chay, cầu nguyện trong tuần ‘Chín ngày vì Sự Sống’ để bảo vệ sự sống con người.
