@@ -20,7 +20,39 @@ Please update a new article in this form:
 */
 
 const articleContent =
-[  
+[    
+  {
+  "Section": "Các Bài Viết",
+  "date": "2021-02-6",
+  "image": "https://hvmatl.net/gallery/img/articles/article-2021-02-06.png",
+  "title": "BẢO VỆ SỰ SỐNG THAI NHI",
+  "body":
+  `1. Từ ngày 21-29 tháng Giêng 2021, Hội Đồng Giám Mục Hoa Kỳ kêu mời các tín hữu Công Giáo Hoa Kỳ tham gia ăn chay, cầu nguyện trong tuần ‘Chín ngày vì Sự Sống’ để bảo vệ sự sống con người.
+
+  Trong chương trình cầu nguyện của tuần 9 ngày cầu nguyện cho sự sống, ngoài lời cầu mỗi ngày sẽ có lời nguyện, một bài suy niệm ngắn và một hoặc nhiều hành động được đề xuất để những người tham gia tuần cửu nhật thực hiện - giúp xây dựng văn hóa sự sống. Ví dụ như cam kết tham gia vào một chương trình ở giáo xứ có tên là “Đồng hành với những bà mẹ khốn khó” hay một chương trình nào ủng hộ các bà mẹ đang trong hoàn cảnh khó khăn.
+  
+  2. Vào ngày 22 tháng Giêng, 2021, sau lời tuyên bố của Tổng thống Joe Biden ủng hộ việc phá thai hợp pháp vào ngày kỷ niệm sự kiện Roe kiện Wade đã thu hút phản ứng nhanh chóng từ Hội đồng Giám mục Công Giáo Hoa Kỳ. Hội Đồng mà vị chủ tịch ủng hộ sự sống cho biết không có tổng thống nào của Hoa Kỳ lại bảo vệ việc bác bỏ quyền sống của những đứa trẻ chưa sinh. 
+  
+  Vị đứng đầu Ủy ban Giám mục Hoa Kỳ về các hoạt động ủng hộ sự sống, Đức Tổng Giám Mục Joseph Naumann của Kansas City, Kansas cho biết, “Chúng tôi đặc biệt thúc giục tổng thống bác bỏ việc phá thai và cổ vũ việc trợ giúp ủng hộ sự sống cho các phụ nữ và các cộng đồng đang cần được giúp đỡ.” Ngài nói: “Thật đáng lo ngại và bi thảm khi bất cứ tổng thống nào cũng ca ngợi và cam kết luật lệ hóa một phán quyết của Tòa án Tối cao vốn phủ nhận quyền dân sự và nhân bản nền tảng nhất của các trẻ em chưa sinh, tức quyền sống, dưới sự ngụy trang hoa mỹ của một dịch vụ y tế.”
+  
+  Tổng thống và phó tổng thống nhấn mạnh cam kết của họ về phá thai hợp pháp rằng: “Chính phủ Biden-Harris cam kết luật lệ hóa án lệnh Roe kiện Wade và bổ nhiệm các thẩm phán nhằm tôn trọng các tiền lệ căn bản giống như Roe.”
+  
+  Mặc dù Roe kiện Wade là một phán quyết quan yếu về quyền phá thai, nhưng tuyên bố này không đích danh nói đến việc phá thai, mà thích dùng các từ ngữ hoa mỹ như “sức khỏe sinh sản” và “chăm sóc sức khỏe” để che giấu sự ác bên trong.
+  
+  Hội đồng giám mục Hoa Kỳ cho biết lời tuyên bố đó đã định chất sai quyết định của Roe kiện Wade như là "một sự tiến bộ về quyền và sức khỏe của phụ nữ". Trong khi tuyên bố của Biden-Harris không đề cập đến tôn giáo, các giám mục cho biết người Công Giáo theo luật lương tâm không thể ủng hộ việc phá thai, vì đó phạm đến điều răn thứ năm trong Thập Giới.
+  
+  3. Cũng trong Tháng Giêng hàng năm, tại thủ đô Washington, D.C tổ chức Tuần hành vì Sự Sống – March for Life. Đây là cuộc tuần hành hằng năm lớn nhất Hoa Kỳ, quy tụ các Kitô hữu từ khắp mọi nơi, thuộc các giáo phái khác nhau tham dự. Trong Tổng Giáo Phận Atlanta, Giáo Xứ chúng ta những năm trước cũng tham gia tổ chức tuần hành ở cung đường gần nhà thờ Chính Tòa, hay đi tới Washington, D.C. để tham gia tuần hành.
+  
+  Năm nay kỷ niệm 48 năm Tuần hành vì Sự Sống, nhưng vì dịch bệnh Covid-19 và bối cảnh chính trị nên cuộc tuần hành vào ngày 29 tháng Giêng vừa qua đã được tổ chức trực tuyến và được hàng chục ngàn người khắp Hoa Kỳ và trên thế giới tham gia. Dẫu vậy, có những nhóm nhỏ bao gồm những người ủng hộ sự sống, một số vị lãnh đạo đi bộ từ National Mall đến Tòa án Tối cao để thực hiện một phần cuộc tuần hành toàn quốc vì sự sống.
+  
+  4. Biden đã nhiều lần nhấn mạnh đến đạo Công Giáo của mình, tham dự Thánh lễ vào buổi sáng ngày nhậm chức và trích dẫn Thánh Augustinô thành Hippo trong bài diễn văn nhậm chức. Ông đã đặt một bức ảnh của Đức Giáo Hoàng Phanxicô trong Phòng Bầu dục. Ông là vị tổng thống Công giáo thứ hai, sau tổng thống John F. Kennedy trong lịch sử Hoa Kỳ.
+  
+  Chúng ta cùng cầu xin Chúa cho những nhà lãnh đạo trên thế giới, cách riêng tại đất nước Hoa Kỳ biết luôn tôn trọng quyền tự do, quyền sống của con người, nhất là của những trẻ em còn trong bụng mẹ chưa được cất tiếng chào đời.
+  
+  Hiệp nhất trong an bình của Đức Kitô,
+  Lm. G.B Phạm Nguyễn Tuấn Anh 
+  `
+},
   {
     "Section": "Các Bài Viết",
     "date": "2021-01-31",
