@@ -5,14 +5,9 @@ const vietHongDocuments = [
         description: 'Sổ Tay Phụ Huynh 2020-2021',
     },
     {   
-        fileName: 'Policies for Parents (Digital Learning)',
-        downloadFile: 'https://hvmatl.net/gallery/kgd/viethong/Viet-Hong-School-2020-2021-Digital-Learning-Policies-Parents.pdf',
-        description: 'Nội Quy Cho Phụ Huynh',
-    },
-    {   
-        fileName: 'Policies for Students (Digital Learning)',
-        downloadFile: 'https://hvmatl.net/gallery/kgd/viethong/Viet-Hong-School-2020-2021-Digital-Learning-Policies-Students.pdf',
-        description: 'Nội Quy Cho Học Sinh',
+        fileName: 'Policies for Parents and Students (Digital Learning)',
+        downloadFile: 'https://hvmatl.net/gallery/kgd/viethong/Viet-Hong-School-2020-2021-Digital-Learning-Policies-Parents-Students.pdf',
+        description: 'Nội Quy cho Phụ Huynh và Học Sinh',
     },
     {   
         fileName: 'Typing in Vietnamese Using the Telex Keyboard Tutorial',
