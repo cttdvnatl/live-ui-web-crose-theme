@@ -214,11 +214,6 @@ const VietHongTeacherContent = [
     },    
     {   
         classification: 'assistant-teacher',
-        image: 'https://hvmatl.net/gallery/kgd/viethong/viethong-2020-2021-ta-05-le-peter.jpg',
-        name: 'Lê Peter',
-    },
-    {   
-        classification: 'assistant-teacher',
         image: 'https://hvmatl.net/gallery/kgd/viethong/viethong-2020-2021-ta-06-le-tri-dung-benjamin.jpg',
         name: 'Lê Trí Dũng Benjamin',
     },
@@ -246,11 +241,6 @@ const VietHongTeacherContent = [
         classification: 'assistant-teacher',
         image: 'https://hvmatl.net/gallery/kgd/viethong/viethong-2020-2021-ta-11-tran-lu-christina.jpg',
         name: 'Trần Lu Christina',
-    },
-    {   
-        classification: 'assistant-teacher',
-        image: 'https://hvmatl.net/gallery/kgd/viethong/viethong-2020-2021-ta-12-tran-phat.jpg',
-        name: 'Trần Phát',
     },
     {   
         classification: 'assistant-teacher',
