@@ -17,7 +17,7 @@ const ClergyList = (prop) => {
                                 return(
                                     <div className="col-12 col-md-6 col-lg-4" key={idx}>
                                         <div className="about-us-content mb-100">
-                                            <img src={clergy.image} alt=""/>
+                                            <center><img src={clergy.image} alt=""/></center>
                                             <div className="about-text text-center">
                                                 <h4>{clergy.name}</h4>
                                                 {clergy.date ? <h4>{clergy.date}</h4> : null}
