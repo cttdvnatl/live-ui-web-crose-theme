@@ -63,12 +63,6 @@
                 "image": "http://hvmatl.net/gallery/img/core-img/SoOanh1.jpg"
             },
             {
-                "name": "Lm. Phêrô Vũ Ngọc Đức",
-                "title": "Priest",
-                "date": "6/1996 - 1/2008",
-                "image": "http://hvmatl.net/gallery/img/core-img/ChaNgocDuc.jpg"
-            },
-            {
                 "name": "Lm. Phanxicô Trần Duy Hưng",
                 "title": "Priest",
                 "date": "9/2007 - 12/2009",
@@ -105,10 +99,22 @@
                 "image": "http://hvmatl.net/gallery/img/core-img/ChaKimPhong.jpg"
             },
             {
-                "name": "Sr. Nguyễn Mỹ Linh",
+                "name": "Sr. Maria Nguyễn Mỹ-Linh",
                 "title": "Sister",
                 "date": "6/2013 - 6/2018",
                 "image": "http://hvmatl.net/gallery/img/core-img/SoMyLinh.jpg"
+            },
+            {
+                "name": "Lm. Đaminh Nguyễn Tấn Công",
+                "title": "Priest",
+                "date": "6/2017 - 2019",
+                "image": "http://hvmatl.net/gallery/img/core-img/ChaCong.jpg"
+            },
+            {
+                "name": "Sr. Anna Trần Đỗ Thụy-An",
+                "title": "Sister",
+                "date": "2018 - 2019",
+                "image": "http://hvmatl.net/gallery/img/core-img/SoThuyAn.jpg"
             }
         ]
     }
