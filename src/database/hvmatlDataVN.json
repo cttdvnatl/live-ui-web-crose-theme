@@ -41,13 +41,14 @@
             "item1": "Trang Chủ",
             "item2": "Sứ Mệnh Giáo Xứ",
             "item3": "Lịch Sử Giáo Xứ",
-            "item4": "Linh Mục/Tu Sĩ",
-            "item5": "Qúy Chức"
+            "item4": "Các Thánh Tử Đạo",
+            "item5": "Linh Mục/Tu Sĩ",
+            "item6": "Qúy Chức"
         },
         "dropdownMenuTwo": {
             "dropdownHeading": "TIN TỨC/SỰ KIỆN",
             "item1": "Sinh Hoạt Giáo Xứ",
-            "item2": "Lịch 2020",
+            "item2": "Lịch 2021",
             "item3": "Hội Chợ Mùa Thu",
             "item4": "TNTT Tôma Thiện"
         },
@@ -104,7 +105,7 @@
             "item5": "Các Lớp"
         },
         "home": {
-            "announcement": "Học sinh của Trường Việt Ngữ Việt Hồng sẽ tiếp tục digital learning cho đến khi có thông báo mới. Tin tức và thay đổi trong niên học sẽ được cập nhật thường xuyên trong lịch ở dưới."
+            "announcement": "Học sinh của Trường Việt Ngữ Việt Hồng sẽ tiếp tục digital learning cho đến hết niên học 2020-2021. Tin tức và thay đổi trong niên học sẽ được cập nhật thường xuyên trong lịch ở dưới."
         }
     },
     "stjoseph":  {
