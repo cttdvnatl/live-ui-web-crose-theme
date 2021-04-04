@@ -23,73 +23,98 @@ const articleContent =
 [
   {
     "Section": "Các Bài Viết",
+    "date": "2021-04-03",
+    "image": "https://hvmatl.net/gallery/img/articles/article-2021-04-03.png",
+    "title": "CHÚC MỪNG LỄ PHỤC SINH 2021",
+    "body":
+    `
+    Chúa đã Phục sinh, Alleluia! Alleluia!
+ 
+    Tôi và qúy cha thay mặt giáo xứ gửi đến quý ông bà và anh chị em ơn lành và niềm vui của Chúa Phục Sinh: Nguyện xin Đức Kitô Giêsu, Đấng đã chiến thắng tội lỗi và sự chết, chúc lành và ban cho chúng ta bình an của Ngài.  
+     
+    Tâm tình mừng Lễ Chúa Phục Sinh năm nay chúng ta cùng hiệp nhất trong tâm tình tạ ơn vì Lễ Phục Sinh năm 2021 này chắc chắn khác với năm ngoái khi mà đại dịch bùng phát quá nhanh, quá mạnh và quá nhiều tử vong. Thật quá đột ngột và khủng hoảng vì trận đại dịch này. Dù rằng những ngày cao điểm của Năm Phụng Vụ, nhất là đại lễ Phục Sinh, chúng ta không thể tụ họp hơn quá 10 người trong nhà thờ để cử hành bất cứ nghi thức phụng vụ theo như Lệnh hành pháp của Thống đốc Tiểu bang Georgia. Như chúng ta đã thấy, Giáo xứ vẫn luôn cố gắng hết sức để có thể vừa giữ luật hành pháp vừa gia tăng nơi thờ phượng trong khi vẫn bảo đảm an toàn phòng tránh lây lan dịch bệnh cách tốt nhất cho mọi người đến cử hành phụng vụ. Để được như vậy, từng người, từng gia đình, từng Ban, Ngành, Đoàn Hội đã hy sinh rất nhiều về cả tinh thần lẫn vật chất để chúng ta có thể vui mừng và long trọng cử hành Thánh lễ Phục Sinh năm nay.
+     
+    Tôi và quý cha phó cũng như toàn giáo xứ cám ơn quý ông bà và anh chị em đã rất hy sinh và quảng đại đóng góp tài năng, thời giờ và công sức vì lợi ích lớn hơn của tập thể cộng đồng lên trên những lợi ích thiêng liêng cá nhân. Chúng tôi đã chứng kiến và rất cảm kích trước những anh chị em âm thầm đến nhà thờ cầu nguyện, chầu Mình Thánh Chúa, đi Đàng Thánh Giá, thăm viếng nhà An Bình…. để sống với Chúa trong điều kiện có thể. Đồng thời, một số chị em đã hi sinh mỗi tuần đến để tẩy trùng, lau chùi, quét dọn để giữ an toàn và khang trang nơi thờ phượng của chúng ta. Chúng tôi cũng rất vui mừng và được an ủi khi nghe biết rất nhiều gia đình dùng thời gian cách ly mà sum họp cầu nguyện, tham dự thánh lễ trực tuyến, sinh hoạt chung và phục vụ nhau. Chúng tôi cũng rất xúc động khi nhiều người trong anh chị em đã dè sẻn chi tiêu để giúp đỡ những anh chị em đang rơi vào cảnh túng thiếu, mất việc và vô gia cư. Đây là nghĩa cử cao đẹp của những con cái Thiên Chúa.
+     
+    Chúng ta cùng tạ ơn Thiên Chúa vì đã nhìn thấy cánh cửa mở ra của chiến thắng sự chết thể lý của đại dịch Covid-19. Chúng ta tạ ơn đã biết biến thời gian đau buồn thành cơ hội mà giáo xứ Các Thánh Tử Đạo Việt Nam thuộc TGP Atlanta cũng như vợ chồng, con cái tìm lại được giá trị và ý nghĩa thiêng liêng của ơn gọi gia đình Kitô giáo. Đó chính là việc chúng ta cần phải làm để được hưởng thực sự niềm vui “Sống Lại” của Chúa Phục Sinh và với Chúa Phục Sinh. Ước gì cuộc khổ nạn và Phục Sinh của Đức Kitô đem lại cho chúng ta và mọi người niềm vui để canh tân niềm tin và tình yêu.  Cùng tạ ơn vì trong hoàn cảnh mới, Chúa cho chúng ta có cơ hội để sống kinh nghiệm thiêng liêng hoàn toàn mới: Chính lúc này, chúng ta mới thấy tình yêu Thiên Chúa và ơn sủng của Ngài cần cho chúng ta ra sao, và cũng chính lúc này chúng ta lại cảm nghiệm được cách Chúa thực hiện ơn cứu độ cho chúng ta cách lạ thường như thế nào, khi chúng ta không có những điều kiện bình thường để sống niềm tin của mình. Thực vậy, Ơn Chúa thực hiện nơi chúng ta trong mọi hoàn cảnh, khi thuận lợi cũng như khi không thuận lợi. Xin Chúc tụng Chúa, vì muôn ngàn đời Chúa vẫn trọn tình thương.
+     
+    Kính chúc quý ông bà và anh chị em được tràn đầy niềm vui và phúc lành của Chúa Phục Sinh. Alleluia! Alleluia!
+     
+    Lm. Phanxicô Trần Quốc Tuấn, Chánh Xứ
+    Lm. Gioan Phạm Nguyễn Tuấn Anh, Phó Xứ
+    Lm. Đa minh Trần Công Thơ, Phó Xứ
+    Lm. Isidore Nguyễn Bá Kỳ, Hưu Trí
+    `
+    },
+  {
+    "Section": "Các Bài Viết",
     "date": "2021-03-06",
     "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
     "title": "Tĩnh Tâm Mùa Chay Năm 2021",
     "body":
     `
-    Tĩnh tâm là một trong những thực hành đạo đức thường xuyên, và cần thiết trong đời
-sống đức tin của người Công Giáo. Đây là cơ hội giúp các tín hữu lắng đọng tâm hồn để
-nghe tiếng Chúa, hầu được đánh động mà chỉnh đốn và canh tân đời sống trở nên tốt lành
-thánh thiện hơn. Tĩnh tâm còn nhằm nâng cao đời sống đạo của giáo xứ và cộng đoàn.
-Có nhiều hình thức tĩnh tâm khác nhau. Nhưng thông thường, nơi các giáo xứ có hai dịp
-tĩnh tâm chung vào Mùa Vọng và Mùa Chay do một linh mục giảng thuyết cho cộng
-đoàn. Chẳng hạn, trong các hoàn cảnh khác nhau của thời Cựu Ước, Thiên Chúa luôn gởi
-đến những vị ngôn sứ thay mặt Ngài thức tỉnh lòng dân, chỉ ra những điều xấu xa và dạy
-bảo đường lối chân chính, để dân được đổi mới và sống trung thành với Ngài. Ngày nay,
-Thiên Chúa cũng vẫn gởi đến những người đại diện để nhắc nhở chúng ta qua từng hoàn
-cảnh của cuộc sống.
-Chương trình tĩnh tâm Mùa Chay năm nay của giáo xứ chúng ta sẽ do cha Phêrô Nguyễn
-Bá Quốc Linh hướng dẫn vào lúc 7 giờ tối các ngày 15, 16 và 17 tháng 3. Cha Linh đã
-chịu chức linh mục vào năm 2014 tại Hoa Kỳ và hiện là tu sĩ dòng Chúa Cứu Thế, đang
-phục vụ tại đền Thánh Gioan Neumann ở thành phố Philadelphia, PA. Đây là một đền
-thánh linh thiêng và nổi tiếng, nơi đang lưu giữ thi hài còn nguyên vẹn của Thánh Nhân
-sau 161 năm ngài qua đời. Có rất nhiều khách hành hương đến kính viếng và cầu
-nguyện. Nhiều người đã nhận được ơn chữa lành phần hồn và phần xác do Thánh Nhân
-chuyển cầu. Trong dịp này, cha Linh cũng sẽ mang theo các Thánh Tích của Thánh John
-Neumann cho chúng ta kính viếng.
-Ngoài việc linh hướng cho khách hành hương tại đền Thánh, cha còn đi giúp tĩnh tâm ở
-nhiều giáo xứ và cộng đoàn tại Hoa Kỳ. Cha Linh trước đây chưa có dịp đến giảng tĩnh
-tâm tại Giáo Xứ Các Thánh Tử Đạo Việt Nam của chúng ta. Nhưng có lẽ nhiều quý ông
-bà anh chị em, đã có cơ hội nghe qua những bài giảng rất sâu sắc và ý nghĩa của cha ở
-trên mạng Internet.
-Chương trình tĩnh tâm Mùa Chay năm nay trùng vào dịp Giáo Hội lần đầu tiên mừng
-năm Thánh Giuse, đã được khai mạc vào dịp Lễ Đức Mẹ Vô Nguyện Tội ngày 8 tháng 12
-năm 2020 và sẽ kết thúc cùng ngày trong năm 2021. Đây là cơ hội quý báu cho chúng ta
-học hỏi và suy niệm về mẫu gương của Thánh Nhân, để áp dụng vào đời sống thực tế của
-bản thân. Cha Linh đã chọn đề tài cho những ngày tĩnh tâm: Thánh Giuse và Mối Phúc
-của Lòng Kính Sợ Thiên Chúa.
-Theo cha Linh chia sẻ, “vì ngày nay, con người dường như đang đánh mất đi Lòng Kính
-Sợ Thiên Chúa, ngay cả đến việc họ không còn sợ bị luận phạt. Tất cả những gì đang xảy
-đến cho nhân loại này là do họ tự đánh mất lòng kính sợ Thiên Chúa và chuốc lấy tai hoạ
-cho mình.” Cha Linh muốn tập trung vào đề tài rất thời sự và quan trọng này, dựa trên
-gương sáng của Thánh Giuse, để giúp mọi người ý thức về Lòng Kính Sợ Thiên Chúa
-một cách cụ thể trong đời sống gia đình, đời sống hàng ngày, cũng như trong những
-quyết định và lựa chọn. Các đề tài cho những ngày tĩnh tâm được sắp xếp như sau:
-Ngày thứ Nhất: Trong thầm lặng – Giuse lắng nghe thi hành ý Chúa.
-Ngày thứ Hai: Trong thầm lặng – Giuse yêu thương và hành động.
-Ngày thứ Ba: Trong thầm lặng – Giuse cậy trông và hy vọng.
-Song song với việc nghe giảng tĩnh tâm, việc lãnh nhận Bí Tích Hòa Giải cũng là một
-điều rất quan trọng và cần thiết. Vì hoàn cảnh hạn chế của dịch bệnh, chúng ta chưa thể
-tổ chức một buổi Đại Hòa Giải có nhiều cha từ các giáo xứ lân cận đến giúp. Bù lại,
-trong những ngày tĩnh tâm, cha Linh sẽ sẵn sàng dành thời gian gặp riêng, để linh hướng
-và giúp chúng ta hòa giải với Chúa. Quý ông bà anh chị em có thể ghi danh hẹp gặp ngài
-vào thời gian thuận tiện. Quý cha trong giáo xứ cũng sẵn sàng dành thêm thời gian, để
-giúp cộng đoàn hòa giải trong những ngày giờ khác nhau trong những ngày tĩnh tâm và
-suốt Mùa Chay này. Cụ thể là các cha ngồi tòa trước Thánh Lễ chiều Thứ Bảy và sau các
-Thánh Lễ ngày thường. Đặc biệt, sau Thánh Lễ 9 giờ 30 sáng Chúa Nhật trong Mùa
-Chay ngày 7, 14, 21 và 28 tháng 3, sẽ có các cha nhà và cha khách ngồi tòa giúp chúng ta
-hòa giải tại khu building A.
-Ước mong quý ông bà anh chị em và gia đình tận dụng cơ hội quý báu này, đến tham dự
-các buổi tĩnh tâm và hòa giải kể trên. Những hy sinh và nỗ lực của chúng ta chắc chắn sẽ
-được Thiên Chúa đổ đầy bằng sự bình an, niềm vui thánh thiện và tinh thần mới trong ân
-sủng của Ngài.
-Chúng ta hãy dâng một chút hy sinh hãm mình hàng ngày, tham dự Thánh Lễ và thêm lời
-cầu nguyện cho những ngày tĩnh tâm của Giáo Xứ sinh hoa kết trái thiêng liêng như lòng
-Chúa mong ước.
+        Tĩnh tâm là một trong những thực hành đạo đức thường xuyên, và cần thiết trong đời
+    sống đức tin của người Công Giáo. Đây là cơ hội giúp các tín hữu lắng đọng tâm hồn để
+    nghe tiếng Chúa, hầu được đánh động mà chỉnh đốn và canh tân đời sống trở nên tốt lành
+    thánh thiện hơn. Tĩnh tâm còn nhằm nâng cao đời sống đạo của giáo xứ và cộng đoàn.
+    Có nhiều hình thức tĩnh tâm khác nhau. Nhưng thông thường, nơi các giáo xứ có hai dịp
+    tĩnh tâm chung vào Mùa Vọng và Mùa Chay do một linh mục giảng thuyết cho cộng
+    đoàn. Chẳng hạn, trong các hoàn cảnh khác nhau của thời Cựu Ước, Thiên Chúa luôn gởi
+    đến những vị ngôn sứ thay mặt Ngài thức tỉnh lòng dân, chỉ ra những điều xấu xa và dạy
+    bảo đường lối chân chính, để dân được đổi mới và sống trung thành với Ngài. Ngày nay,
+    Thiên Chúa cũng vẫn gởi đến những người đại diện để nhắc nhở chúng ta qua từng hoàn
+    cảnh của cuộc sống.
+    Chương trình tĩnh tâm Mùa Chay năm nay của giáo xứ chúng ta sẽ do cha Phêrô Nguyễn
+    Bá Quốc Linh hướng dẫn vào lúc 7 giờ tối các ngày 15, 16 và 17 tháng 3. Cha Linh đã
+    chịu chức linh mục vào năm 2014 tại Hoa Kỳ và hiện là tu sĩ dòng Chúa Cứu Thế, đang
+    phục vụ tại đền Thánh Gioan Neumann ở thành phố Philadelphia, PA. Đây là một đền
+    thánh linh thiêng và nổi tiếng, nơi đang lưu giữ thi hài còn nguyên vẹn của Thánh Nhân
+    sau 161 năm ngài qua đời. Có rất nhiều khách hành hương đến kính viếng và cầu
+    nguyện. Nhiều người đã nhận được ơn chữa lành phần hồn và phần xác do Thánh Nhân
+    chuyển cầu. Trong dịp này, cha Linh cũng sẽ mang theo các Thánh Tích của Thánh John
+    Neumann cho chúng ta kính viếng.
+    Ngoài việc linh hướng cho khách hành hương tại đền Thánh, cha còn đi giúp tĩnh tâm ở
+    nhiều giáo xứ và cộng đoàn tại Hoa Kỳ. Cha Linh trước đây chưa có dịp đến giảng tĩnh
+    tâm tại Giáo Xứ Các Thánh Tử Đạo Việt Nam của chúng ta. Nhưng có lẽ nhiều quý ông
+    bà anh chị em, đã có cơ hội nghe qua những bài giảng rất sâu sắc và ý nghĩa của cha ở
+    trên mạng Internet.
+    Chương trình tĩnh tâm Mùa Chay năm nay trùng vào dịp Giáo Hội lần đầu tiên mừng
+    năm Thánh Giuse, đã được khai mạc vào dịp Lễ Đức Mẹ Vô Nguyện Tội ngày 8 tháng 12
+    năm 2020 và sẽ kết thúc cùng ngày trong năm 2021. Đây là cơ hội quý báu cho chúng ta
+    học hỏi và suy niệm về mẫu gương của Thánh Nhân, để áp dụng vào đời sống thực tế của
+    bản thân. Cha Linh đã chọn đề tài cho những ngày tĩnh tâm: Thánh Giuse và Mối Phúc
+    của Lòng Kính Sợ Thiên Chúa.
+    Theo cha Linh chia sẻ, “vì ngày nay, con người dường như đang đánh mất đi Lòng Kính
+    Sợ Thiên Chúa, ngay cả đến việc họ không còn sợ bị luận phạt. Tất cả những gì đang xảy
+    đến cho nhân loại này là do họ tự đánh mất lòng kính sợ Thiên Chúa và chuốc lấy tai hoạ
+    cho mình.” Cha Linh muốn tập trung vào đề tài rất thời sự và quan trọng này, dựa trên
+    gương sáng của Thánh Giuse, để giúp mọi người ý thức về Lòng Kính Sợ Thiên Chúa
+    một cách cụ thể trong đời sống gia đình, đời sống hàng ngày, cũng như trong những
+    quyết định và lựa chọn. Các đề tài cho những ngày tĩnh tâm được sắp xếp như sau:
+    Ngày thứ Nhất: Trong thầm lặng – Giuse lắng nghe thi hành ý Chúa.
+    Ngày thứ Hai: Trong thầm lặng – Giuse yêu thương và hành động.
+    Ngày thứ Ba: Trong thầm lặng – Giuse cậy trông và hy vọng.
+    Song song với việc nghe giảng tĩnh tâm, việc lãnh nhận Bí Tích Hòa Giải cũng là một
+    điều rất quan trọng và cần thiết. Vì hoàn cảnh hạn chế của dịch bệnh, chúng ta chưa thể
+    tổ chức một buổi Đại Hòa Giải có nhiều cha từ các giáo xứ lân cận đến giúp. Bù lại,
+    trong những ngày tĩnh tâm, cha Linh sẽ sẵn sàng dành thời gian gặp riêng, để linh hướng
+    và giúp chúng ta hòa giải với Chúa. Quý ông bà anh chị em có thể ghi danh hẹp gặp ngài
+    vào thời gian thuận tiện. Quý cha trong giáo xứ cũng sẵn sàng dành thêm thời gian, để
+    giúp cộng đoàn hòa giải trong những ngày giờ khác nhau trong những ngày tĩnh tâm và
+    suốt Mùa Chay này. Cụ thể là các cha ngồi tòa trước Thánh Lễ chiều Thứ Bảy và sau các
+    Thánh Lễ ngày thường. Đặc biệt, sau Thánh Lễ 9 giờ 30 sáng Chúa Nhật trong Mùa
+    Chay ngày 7, 14, 21 và 28 tháng 3, sẽ có các cha nhà và cha khách ngồi tòa giúp chúng ta
+    hòa giải tại khu building A.
+    Ước mong quý ông bà anh chị em và gia đình tận dụng cơ hội quý báu này, đến tham dự
+    các buổi tĩnh tâm và hòa giải kể trên. Những hy sinh và nỗ lực của chúng ta chắc chắn sẽ
+    được Thiên Chúa đổ đầy bằng sự bình an, niềm vui thánh thiện và tinh thần mới trong ân
+    sủng của Ngài.
+    Chúng ta hãy dâng một chút hy sinh hãm mình hàng ngày, tham dự Thánh Lễ và thêm lời
+    cầu nguyện cho những ngày tĩnh tâm của Giáo Xứ sinh hoa kết trái thiêng liêng như lòng
+    Chúa mong ước.
 
-Ngợi khen Chúa Giêsu Kitô!
-Lm. Đaminh Trần Công Thơ
+    Ngợi khen Chúa Giêsu Kitô!
+    Lm. Đaminh Trần Công Thơ
     `
     },
   {
