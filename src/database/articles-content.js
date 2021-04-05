@@ -46,6 +46,145 @@ const articleContent =
     Lm. Isidore Nguyễn Bá Kỳ, Hưu Trí
     `
     },
+    {
+      "Section": "Các Bài Viết",
+      "date": "2021-03-28",
+      "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
+      "title": "Thăm Viếng Bệnh Nhân và Người Già Yếu",
+      "body":
+      `
+      Trong ba năm công khai rao giảng Tin Mừng, Chúa Giêsu dành nhiều thời gian
+quan tâm đến những người đau yếu và bệnh tật như Thánh Matthêu đã ghi lại:
+“Chúa Giêsu thương xót và chữa nhiều bệnh hoạn tật nguyền trong dân. Danh
+Người đồn khắp nơi. Người ta đem đến cho Người mọi kẻ ốm đau, mắc đủ thứ
+bệnh hoạn tật nguyền... và đã chữa họ” (Mt. 4: 23-24). Tình thương của Chúa
+Giêsu dành cho những người yếu đau và bệnh tật còn thấy rõ nét hơn trong bài
+giảng về ngày phán xét: “Ta đau yếu, các ngươi đã thăm viếng…Ta bảo thật các
+ngươi: mỗi lần các ngươi làm như thế cho một trong những người bé nhỏ nhất đây,
+là các ngươi đã làm cho chính Ta vậy."; (Mt. 25:36,40). Chúa Giêsu đã đồng hóa
+bản thân Ngài với những người yếu đau và bệnh tật.
+
+Hiện tại, trong giáo xứ chúng ta có trên bảy chục bệnh nhân và người già yếu, là
+những người gặp khó khăn trong việc đi lại hoặc không thể đến nhà thờ tham dự
+Thánh Lễ. Quý ông bà anh chị em này quả thực là hiện thân của Chúa Giêsu, khi
+họ chịu đựng bệnh tật và mang gánh nặng tuổi già. Có người nằm liệt nhiều năm,
+ngồi xe lăn, đang chữa trị bệnh ung thư, và nhiều dạng yếu đau và bệnh tật khác
+nhau.
+
+Quý cha trong giáo xứ đã sắp xếp đến thăm viếng và ban Bí Tích, cũng như hằng
+tuần các Thừa Tác Viên Thánh Thể Ngoại Lệ mang Mình Thánh đến nhà cho các
+bệnh nhân và người già yếu được rước Chúa. Việc được thăm viếng, lãnh nhận Bí
+Tích và rước Mình Thánh Chúa là sự nâng đỡ rất lớn về mặt tinh thần cho các bệnh
+nhân và người già yếu.
+
+Mỗi người chúng ta được mời gọi quan tâm đến các bệnh nhân và người già yếu, vì
+phần lớn họ không còn sức lực để tự lo cho mình, nhưng cần đến sự thăm hỏi và
+trợ giúp của những người mạnh khỏe. Chúng ta thường hay nhắc nhở nhau, “nay
+người mai ta.” Với thân phận yếu đuối mỏng giòn của kiếp người, chắc chắn đến
+một lúc nào đó, chúng ta cũng sẽ mang bệnh tật hay già yếu, và cần đến sự thăm
+viếng của người mạnh khỏe hơn mình.
+
+Có nhà truyền giáo kể về một cụ già mới trở lại đạo, và ngày nào cũng đến nhà
+thương đọc Thánh Kinh cho bệnh nhân. Sau một thời gian, ông bị bệnh đau mắt.
+Bác sĩ cho hay, chẳng còn bao lâu, ông sẽ mù. Hay tin, ông không đến nhà thương
+nữa mà lên núi. Bẵng một thời gian, ông trở lại nhà thương. Người ta hỏi: bấy lâu
+ông đi đâu vắng. Ông trả lời: vì sắp mù, nên ông lên núi học thuộc lòng Thánh
+Kinh, để khi mù sẽ đọc cho bệnh nhân nghe Lời Chúa.
+
+Ước gì mỗi người chúng ta biết noi gương Chúa Giêsu, cũng như gương của cụ già
+bổn đạo mới trong câu truyện trên, để tập thói quen quan tâm đến các bệnh nhân và
+người già yếu đang sống gần mình. Việc chúng ta có thể làm là nhớ đến họ trong
+lời cầu nguyện, viết thư thăm hỏi, và có thể sắp xếp thời gian đi thăm viếng. Khi
+chúng ta thăm viếng các người già yếu và bệnh tật là chúng ta đi gặp chính Chúa
+Giêsu. Đến ngày phán xét Chúa sẽ không hỏi chúng ta có bao nhiêu của cải, bằng
+cấp hay làm được việc gì lớn lao. Nhưng Ngài chỉ hỏi chúng có quan tâm đến
+Ngài qua tha nhân, cụ thể là viếng thăm các bệnh tật và người già yếu đang cần sự
+hiện diện của chúng ta. Đây cũng là điều Giáo Hội dạy trong các mối thương
+người: “Viếng kẻ liệt cùng kể tù rạc.”
+
+Giáo xứ có danh sách các bệnh nhân và người già yếu. Nếu quý ông bà anh chị em
+muốn làm một nghĩa cử cao quý cho họ, xin liên lạc văn phòng giáo xứ.
+
+Ngợi khen Chúa Giêsu Kitô!
+Linh mục Đaminh Trần Công Thơ
+      `
+      },
+    {
+      "Section": "Các Bài Viết",
+      "date": "2021-03-21",
+      "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
+      "title": "Viếng Chúa Giêsu Thánh Thể",
+      "body":
+      `
+      Đức tin Công Giáo dạy chúng ta về sự hiện diện thực sự của Chúa Giêsu trong Bí Tích Thánh
+Thể, và đã có biết bao phép lạ Thánh Thể xảy ra đó đây để củng cố đức tin của các tín hữu. Nơi
+các nhà thờ Công Giáo trên toàn thế giới đều lưu giữ Thánh Thể Chúa. Tại giáo xứ chúng ta,
+Chúa Giêsu Thánh Thể cũng luôn luôn hiện diện hằng ngày giữa dân Người nơi mỗi Thánh Lễ
+và trong nhà tạm.
+
+Chúng ta tạ ơn Chúa vì đã có một số quý ông bà anh chị em có lòng sùng kính và thường xuyên
+đến viếng Chúa Giêsu Thánh Thể. Đặc biệt, mỗi ngày Thứ Năm hàng tuần ở nhà nguyện, Mình
+Thánh Chúa được đặt từ sau Thánh Lễ sáng cho đến trước Thánh Lễ chiều. Có một số quý ông
+bà anh chị em thay nhau đến chầu Chúa rất tốt lành. Nhưng đa số chúng ta có lẽ chưa biết hoặc
+chưa có thói quen viếng Chúa Giêsu Thánh Thể. Thời gian Mùa Chay Thánh này cũng là cơ hội
+tốt, để chúng ta ý thức hơn về sự hiện diện của Chúa Giêsu Thánh Thể đang ở giữa chúng ta, và
+bắt đầu tập thói quen đến viếng Ngài.
+
+Để nhắc nhở và mời gọi các tín hữu ý thức về sự hiện diện của Chúa Giêsu trong Bí Tích Thánh
+Thể, tại nhiều nhà thờ có trưng bày lời Chúa Giêsu hỏi các môn đệ ở vườn Giệtsimani trong đêm
+trước khi Ngài chịu nạn và chịu chết vì tội lỗi chúng ta, ";Anh em không thể tỉnh thức nổi với
+Thầy một giờ sao?"; (Mt 26:40) Chắc chắn lời của Chúa Giêsu trên đây, cũng là một chất vấn cho
+mỗi người chúng ta, khi chưa lưu tâm đến sự hiện diện của Ngài nơi Bí Tích Thánh Thể.
+
+Khi dành thời gian cầu nguyện và viếng Thánh Thể, chúng ta có cơ hội gặp gỡ chính Chúa
+Giêsu. Cũng giống như hai người khi yêu nhau, thì luôn ao ước gặp nhau, nhiều khi không cần
+nói một lời nào. Nếu chúng ta nói rằng mình yêu mến Chúa Giêsu, thì chúng ta cũng phải có
+lòng ao ước được gần gũi Ngài nhiều hơn nơi Bí Tích Thánh Thể. Chúng ta có thể dễ dàng dành
+hằng tiếng đồng hồ xem TV hay chuyện vãn với bạn bè. Tại sao lại chúng ta không thể dành ít
+phút để gần gũi Chúa Giêsu là Chúa và là bạn thân yêu nhất của mình. Ngài là Đấng đã sẵn sàng
+hiện diện một cách khiêm nhường trong Bí Tích Thánh Thể chỉ vì yêu thương chúng ta.
+
+Ngoài ra, chúng ta thường hay nói với nhau, “gần đèn thì sáng.” Chúa Giêsu Thánh Thể là ánh
+sáng. Khi ta đặt mình trước sự hiện diện thực sự của Ngài nơi Bí Tích Thánh Thể, là ta đang để
+ánh sáng, niềm vui, và tình thương của Chúa chiếu soi nơi tâm hồn và cuộc đời chúng ta.
+
+Thánh Gioan Vianney là một vị Thánh có lòng yêu mến Chúa Giêsu Thánh Thể vô cùng sâu sa.
+Mỗi ngày ngài dành nhiều giờ quỳ gối cầu nguyện và chiêm ngưỡng Chúa Giêsu Thánh Thể.
+Với lòng sùng mộ của ngài nơi Bí Tích Thánh Thể, Chúa đã làm cho biết bao nhiêu tâm hồn
+được biến đổi. Tại giáo xứ họ Arc nơi ngài coi sóc gần năm mươi năm, vào buổi trưa mỗi ngày,
+có một người nông dân chỉ ghé qua nhà thờ một phút rồi đi ngay. Một hôm, cha Gioan Vianney
+tò mò chặn ông lại và hỏi:
+
+- Cha thấy con quỳ chỉ chừng chốc lát rồi đứng dậy đi ngay, con làm sao mà cầu nguyện với thời
+giờ ít ỏi như thế được.";
+
+- Dạ thưa cha, cha biết là con không cầu nguyện lâu được, vì con chả biết nói gì. Mỗi lần ghé qua
+con chỉ nói với Chúa: ";Chào Chúa, con là Jim đây,"; rồi con đi.
+
+Ít lâu sau, ông Jim bị tai nạn và phải nằm nhà thương, ông tươi tỉnh và làm cho mọi người vui vẻ
+thoải mái đến nỗi các cô y tá phải ngạc nhiên. Một cô đã hỏi ông:
+
+- Ông à, tôi thấy ông bị thương đau lắm, thế mà tại sao ông vẫn luôn vui vẻ như vậy?
+
+- Ồ! Tôi không thể không vui, nhờ người khách tới thăm tôi mỗi ngày.
+
+- Nhưng tôi thấy có ai đến thăm ông đâu?
+
+- Có chứ cô, cứ vào mỗi buổi trưa, tôi thấy Ngài đến bên giường của tôi và nói với tôi rằng:
+";Jim à, Giêsu đây!";
+
+Ước mong mỗi người trong giáo xứ chúng ta luôn có lòng yêu mến Chúa Giêsu Thánh Thể và
+năng đến viếng Ngài, dù chỉ một vài phút ngắn ngủi như ông Jim trong câu truyện trên. Chúng
+ta hãy bắt đầu tập thói quen tốt lành này. Chúa Giêsu Thánh Thể đang chờ đợi chúng ta từng
+phút giây nơi nhà tạm. Khi đến gặp gỡ Chúa, chắc chắn Ngài sẽ rất vui và được an ủi. Tâm hồn
+chúng ta sẽ được biến đổi và trở nên giống Chúa Giêsu nhiều hơn. Đồng thời chúng ta cũng được
+Chúa nâng đỡ như lời Ngài mời gọi: ";Tất cả những ai đang vất vả mang gánh nặng nề, hãy đến
+cùng tôi, tôi sẽ cho nghỉ ngơi bồi dưỡng."; (Mt 11:28)
+
+Ngợi khen Chúa Giêsu Kitô!
+Lm. Đaminh Trần Công Thơ
+      `
+      },
   {
     "Section": "Các Bài Viết",
     "date": "2021-03-06",
