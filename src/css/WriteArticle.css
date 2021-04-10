@@ -1,15 +1,13 @@
 .edition__container{
     height: 100%;
     flex: 1;
-    margin-top: 40px;
 }
 .edition__container h1{
     color: black;
     font-size: 30px;
+    margin: 40px 0;
 }
-.rdw-editor-main{
 
-}
 .demo-editor.rdw-editor-main{
     height: 400px;
     border: 1px solid lightgray;
