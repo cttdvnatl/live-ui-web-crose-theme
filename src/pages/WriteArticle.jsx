@@ -12,7 +12,10 @@ function WriteArticle() {
   const onEditorStateChange = (editorState) => {
     setEditorState(editorState);
   };
-  //   console.log(convertToRaw(editorState.getCurrentContent()));
+
+  const saveArticle = () => {
+    console.log(draftToHtml(convertToRaw(editorState.getCurrentContent())));
+  };
   return (
     <div>
       <Header />
@@ -30,7 +33,11 @@ function WriteArticle() {
               placeholder="Enter your story..."
             />
             <div className="group__button">
-              <button className="button-save" type="button">
+              <button
+                className="button-save"
+                type="button"
+                onClick={saveArticle}
+              >
                 SAVE
               </button>
               <button className="button-preview" type="button">

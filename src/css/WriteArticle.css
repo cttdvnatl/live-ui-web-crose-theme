@@ -16,6 +16,7 @@
     border-radius: 5px;
     font-weight: bold;
     color: white;
+    outline: none;
 }
 .group__button .button-preview{
     background-color: rgb(74, 207, 74);
@@ -30,7 +31,6 @@
     font-size: 30px;
     margin: 40px 0;
 }
-
 .demo-editor.rdw-editor-main{
     height: 400px;
     border: 1px solid lightgray;
