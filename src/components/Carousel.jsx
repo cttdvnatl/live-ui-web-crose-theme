@@ -5,7 +5,6 @@ import Carousel from "react-bootstrap/Carousel";
 import "../css/carousel.css";
 
 const CustomCarousel = (props) => {
-  console.log(props);
   useEffect(() => {
     if (
       (sessionStorage.getItem("token") || props.token) &&

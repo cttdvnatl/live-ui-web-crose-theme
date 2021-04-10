@@ -4,7 +4,6 @@ import { Editor } from "react-draft-wysiwyg";
 import { EditorState, convertToRaw } from "draft-js";
 import "../../node_modules/react-draft-wysiwyg/dist/react-draft-wysiwyg.css";
 import "../css/WriteArticle.css";
-import htmlToDraft from "html-to-draftjs";
 import draftToHtml from "draftjs-to-html";
 
 function WriteArticle() {
@@ -19,10 +18,22 @@ function WriteArticle() {
   return (
     <div>
       <Header />
-      <div className="edition__container">
+      <div className="article__edition">
         <div className="events-area">
           <div className="container">
-            <h1>CREATE A NEW ARTICLE</h1>
+            <div className="article__title-img">
+              <div className="article__title">
+                <label htmlFor="title">Title</label>
+                <input type="text" required placeholder="Title" />
+              </div>
+              <div className="article__img">
+                <img
+                  src="http://hvmatl.net/gallery/img/articles/article-logo.png"
+                  alt=""
+                />
+                <input type="file" />
+              </div>
+            </div>
 
             <Editor
               editorState={editorState}

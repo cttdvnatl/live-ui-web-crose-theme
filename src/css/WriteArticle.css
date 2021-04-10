@@ -1,8 +1,40 @@
-.edition__container{
+.article__edition{
+    margin: 20px 0;
+}
+.article__edition{
     height: 100%;
     flex: 1;
 }
-
+.article__title-img{
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.article__title{
+    flex-grow: 1;
+    margin-right: 10px;
+}
+.article__title label{
+    font-size: 20px;
+    font-weight: bold;
+}
+.article__title input{
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    font-size: 20px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+.article__img{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+.article__img img{
+    margin-bottom: 5px;
+}
 
 .group__button{
     padding: 10px;
@@ -26,11 +58,6 @@
 }
 
 /* overwrite draft-js */
-.edition__container h1{
-    color: black;
-    font-size: 30px;
-    margin: 40px 0;
-}
 .demo-editor.rdw-editor-main{
     height: 400px;
     border: 1px solid lightgray;
