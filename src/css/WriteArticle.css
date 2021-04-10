@@ -1,0 +1,40 @@
+.edition__container{
+    height: 100%;
+    flex: 1;
+    margin-top: 40px;
+}
+.edition__container h1{
+    color: black;
+    font-size: 30px;
+}
+.rdw-editor-main{
+
+}
+.demo-editor.rdw-editor-main{
+    height: 400px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 15px;
+}
+.public-DraftStyleDefault-block.public-DraftStyleDefault-ltr{
+    margin: 0;
+}
+.group__button{
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.group__button button{
+    width: 90px;
+    border: none;
+    height: 40px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+}
+.group__button .button-preview{
+    background-color: rgb(74, 207, 74);
+}
+.group__button .button-save{
+    background-color: rgb(53, 53, 218);
+}
