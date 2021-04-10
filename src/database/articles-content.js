@@ -23,6 +23,27 @@ const articleContent =
 [
   {
     "Section": "Các Bài Viết",
+    "date": "2021-04-11",
+    "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
+    "title": "Chúa Nhật Kính Lòng Thương Xót của Thiên Chúa",
+    "body":
+    `
+    Ngày 30 tháng 4 năm 2000, trong dịp lễ phong thánh cho Thánh nữ Kowalska Faustina, Thánh Giáo Hoàng Gioan Phaolô II thiết lập lễ Chúa Nhật Lòng Chúa Thương Xót và được cử hành hằng năm vào Chúa Nhật ngay sau Lễ Phục Sinh.  Lễ này được dựa trên sự sùng kính của người Công giáo đối với lòng Chúa thương xót và được thánh nữ Faustina Kowalska là một nữ tu người Ba Lan cổ võ rất mạnh và hữu hiệu trong thời đại của chúng ta.  Qua thị kiến của thánh nữ, Chúa Giêsu đã dạy chị nữ tu và chúng ta rằng: bất cứ ai tham dự thánh lễ, lãnh nhận Mình Thánh Chúa và bí tích Hòa Giải vào ngày này thì sẽ được ơn toàn xá để xóa mọi hình phạt tạm do tội lỗi đã được tha.
+
+    Thánh Giáo Hoàng Gioan Phaolô II đã dạy về ngày lễ này như sau: “Theo một cách đặc biệt, đây là ngày Chúa Nhật dành để tạ ơn về lòng thương xót mà Thiên Chúa đã tỏ ra cho chúng ta trong suốt mầu nhiệm Phục Sinh của Người.” Chúng ta có thể nhận ra qua việc Giáo Hội chọn các bài Tin Mừng của Chúa Nhật 2 Phục Sinh của cả 3 chu kỳ (A, B, C) đều dành để nói về lòng thương xót của Thiên Chúa. Cụ thể lược đồ trình bày như sau: Chiều ngày thứ nhất trong tuần sau khi chịu chết và được mai táng, Đức Kitô Phục Sinh đã hiện đến giữa các môn đệ vốn đang còn bàng hoàng, lo âu vì những biến cố dồn dập xảy ra. Người cho các ông xem tay và cạnh sườn và nói nói với các ông: "Bình an cho anh em! Như Chúa Cha đã sai Thầy, thì Thầy cũng sai anh em." Nói xong, Người thổi hơi vào các ông và bảo: "Anh em hãy nhận lấy Thánh Thần. Anh em tha tội cho ai, thì người ấy được tha; anh em cầm giữ ai, thì người ấy bị cầm giữ" (Ga 20,19-31). Với Lòng Thương Xót, Chúa Giêsu đã lập Bí Tích Hòa Giải khi hiện ra với các môn đệ sau khi sống lại để mời gọi chúng ta trở về giao hòa với Thiên Chúa, làm mới lại cuộc đời. Theo Thánh GH Gioan Phaolô II, ta phải trở về với Thiên Chúa để nhận ra con người thật của mình, để tôn vinh Thiên Chúa để được yêu thương hướng dẫn, để rồi không còn buông theo những đam mê trần tục tầm thường.  Đồng thời, chỉ khi nào con người cảm nhận được lòng thương xót vô biên của Thiên Chúa dành cho mình thì con người mới có thể "nhìn vào anh chị em của mình với đôi mắt mới, với thái độ vị tha và liên đới, đại lượng và tha thứ."
+
+    ĐTC Phanxicô cũng nhấn mạnh: “Ai cũng có thể nhận được ơn tha thứ của Thiên Chúa. Thiên Chúa là Cha yêu thương luôn chờ đợi tất cả con cái Người, nhất là những ai lầm lạc hay những người xa cách. Bí Tích Hòa Giải là nơi đặc biệt để cảm nghiệm lòng thương xót của Thiên Chúa.” Như vậy, ngày lễ kính Lòng Thương Xót của Thiên Chúa là cơ hội mời gọi chúng ta hãy luôn luôn quay về với Thiên Chúa qua Bí Tích Hòa Giải để ngụp lặn trong lòng thương xót của Người.
+
+    Ta cùng tiếp tục tạ ơn và hân hoan đón nhận Lòng Thương Xót của Thiên Chúa đồng thời cũng cố gắng khám phá ra ‘Chìa Khóa’ của Lòng Thương Xót của Thiên Chúa qua biểu hiện của Cây Thánh Giá, gồm có 1 thanh dọc và 1 thanh ngang.  Cụ thể, khi thực hành tôn kính Lòng Chúa thương xót, ta cần phải thực hành cả 2 chiều kích: chiều dọc của cây Thánh Giá là cầu nguyện hoặc đọc kinh để kết hiệp với Chúa và còn phải nhắm đến chiều ngang của Cây Thánh Giá với “Kinh 14 Mối” - ‘Thương Người có 14 mối: Thương Xác 7 mối – Thương Linh Hồn 7 mối’ vì Chúa Giêsu Phục Sinh đang hiện diện nơi hình ảnh của những người anh chị em xung quanh mình ta. Có như thế thì thì lời cầu nguyện của ta sẽ được Chúa nhậm lời.
+
+    Nguyện xin Thiên Chúa chúc lành và tha thứ để chúng ta được đắm chìm trong Lòng Thương Xót của Chúa.
+
+    Thân mến,
+    Lm. Phanxicô Trần Quốc Tuấn.
+    `
+    },
+  {
+    "Section": "Các Bài Viết",
     "date": "2021-04-03",
     "image": "https://hvmatl.net/gallery/img/articles/article-2021-04-03.png",
     "title": "CHÚC MỪNG LỄ PHỤC SINH 2021",
