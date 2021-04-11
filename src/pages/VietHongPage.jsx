@@ -13,11 +13,15 @@ const VietHong = () => {
             <VietHongHeader/>
             <br/><br/>
                 <h6 style={{textAlign: "center"}}>Ghi Danh Niên Học 2021-2022 <br/><br/>
-                Thứ Bảy, ngày 17 tháng 4, 2021 - 12:00 trưa đến 2:00 trưa <br/>
-                Thứ Bảy, ngày 24 tháng 4, 2021 - 12:00 trưa đến 2:00 trưa <br/>
-                Thứ Bảy, ngày 01 tháng 5, 2021 - 12:00 trưa đến 2:00 trưa <br/><br/>
-                Xin xem chi tiết cho những ngày ghi danh trong lịch ở dưới, <br/>
-                hoặc liên lạc qua Viet.Hong.School@hvmatl.org <br/><br/>
+
+                        Thứ Bảy ngày 17 tháng 4, 2021 <br/>
+                        Thứ Bảy ngày 24 tháng 4, 2021 <br/>
+                        Thứ Bảy ngày 01 tháng 5, 2021 <br/><br/>
+
+                <u>Thời gian</u>: 12 giờ trưa đến 2 giờ chiều <br/><br/>
+                <u>Địa điểm</u>: Building B (trong khuôn viên giáo xứ) <br/><br/>
+
+                Nếu có điều gì thắc mắc xin liên lạc qua Viet.Hong.School@hvmatl.org. <br/><br/>
                 </h6>
                 <div className="container-fluid text-center">
                 <p id="viet-ngu" style={{width: '65%', margin: 'auto'}}>{t('viethong.home.announcement')}</p>
