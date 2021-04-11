@@ -24,7 +24,7 @@ const articleContent =
   {
     "Section": "Các Bài Viết",
     "date": "2021-04-11",
-    "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
+    "image": "https://hvmatl.net/gallery/img/articles/article-2021-04-10.png",
     "title": "Chúa Nhật Kính Lòng Thương Xót của Thiên Chúa",
     "body":
     `
