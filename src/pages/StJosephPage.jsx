@@ -12,6 +12,15 @@ const StJoseph = () => {
             <Header/>
             <StJosephHeader/>
             <br/><br/>
+            <h6 style={{textAlign: "center"}}>Chương Trình Ghi Danh Học Giáo Lý Vào Các Ngày Chúa Nhật: <br/><br/>
+                Chúa Nhật, ngày 18 tháng 4 năm 2021, từ 8:30 AM - 1:00 PM, tại Building B <br/>
+                Chúa Nhật, ngày 25 tháng 4 năm 2021, từ 8:30 AM - 1:00 PM, tại Building B <br/>
+                Chúa Nhật, ngày 2 tháng 5 năm 2021, từ 8:30 AM - 1:00 PM, tại Building B <br/> <br/>
+                
+                Xin download Chương Trình Ghi Danh Học Giáo Lý 2021-2022 <br/> 
+                dưới phần <u>Văn Thư</u> để biết đầy đủ điều kiện trước khi đến ghi danh.
+                <br/><br/>
+                </h6>
                 <div className="container-fluid text-center">
                     <h2>{t("stjoseph.home.title")}</h2>
                     <p id="viet-ngu" style={{width: '65%', margin: 'auto'}}>{t('stjoseph.home.announcement')}</p>
