@@ -24,6 +24,7 @@ const About = () => {
                             <div className="about-content">
                                 <h2>{t('about.heading')}</h2>
                                 <p>{t('about.paragraph')}</p>
+                                <p>Some changes</p>
                                 <div className="opening-hours-location mt-30 d-flex align-items-center">
                                 </div>
                             </div>
