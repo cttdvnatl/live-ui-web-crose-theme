@@ -23,6 +23,34 @@ const articleContent =
 [
   {
     "Section": "Các Bài Viết",
+    "date": "2021-04-18",
+    "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
+    "title": "CHÚA NHẬT CHÚA CHIÊN NHÂN LÀNH",
+    "body":
+    `
+    Lịch Phụng Vụ quy định Chúa Nhật IV Mùa Phục Sinh là Ngày Thế Giới Cầu Nguyện cho Ơn Gọi (World Day of Prayer for Vocations), trong tâm tình đó tôi muốn chia sẻ một vài suy tư với quý thành viên về chủ đề này.
+
+    Trước tiên, tại sao Giáo Hội chọn Chúa Nhật IV Mùa Phục Sinh để gọi là Chúa Nhật Chúa Chiên Lành? Thưa vì Lời Chúa của Chúa Nhật này trình bày rất rõ về vai trò của Chủ Chiên. Các câu xướng trước Phúc Âm của cả ba năm A, B, C đều trích trong Phúc Âm của Thánh Gioan (10,14): “Ta là Mục tử nhân lành, Ta biết chiên của Ta, và chiên của Ta biết Ta!” Hơn nữa, các bài Phúc Âm theo Thánh Gioan, chương 10 trình bày việc Chúa Giêsu xác định Người là cửa của chuồng chiên, và chính là Người chăn chiên nhân lành. Chỉ những chủ chiên nào ra vào theo cửa của Người (theo đường lối của Người) mới là chủ chiên thật.
+
+    Kế đến, ta cùng tìm hiểu về Sứ điệp mà ĐTC Phanxicô đã gửi cho tín hữu trong dịp Lễ Kính Thánh Giuse 19 tháng 3 năm 2021. ĐTC đã mở đầu sứ điệp trong bối cảnh của Năm Thánh Giuse qua việc trình bày về mục đích Tông thư Patris Corde nhằm giúp “gia tăng tình yêu của chúng ta đối với vị Đại Thánh này.” Thánh Giuse là một nhân vật phi thường, nhưng đồng thời là đấng “rất gần gũi với kinh nghiệm của con người chúng ta.” Ngài đã không làm những điều kỳ diệu, ngài không có những đặc sủng độc đáo, cũng không có vẻ gì đặc biệt trong mắt những người gặp gỡ ngài. Ngài không nổi tiếng cũng không đáng chú ý: các sách Tin Mừng không tường thuật lời nói nào của ngài. Tuy thế, qua cuộc sống bình thường, ngài đã thực hiện những điều phi thường đối với Thiên Chúa.
+
+    Qua Thánh Giuse, ĐTC Phanxicô gợi cho chúng ta ba từ khóa cho ơn gọi của mỗi cá nhân.
+    1. Đầu tiên là ước mơ. Mọi người đều mơ ước có cuộc sống trọn vẹn, có ý nghĩa đó chính là “được Yêu”. Chính tình yêu mang lại ý nghĩa cho cuộc sống, bởi vì nó bày tỏ mầu nhiệm của sự sống. Thánh Giuse đã biến cuộc đời mình thành một món quà qua những giấc mơ mà Thiên Chúa đã linh hứng cho ngài dạy.  Trong ơn gọi cũng thế, lời kêu gọi của Thiên Chúa luôn thúc giục chúng ta bước bước đầu tiên, hiến thân, tiến về phía trước. Không thể có niềm tin nào không có rủi ro. Chỉ bằng cách tín thác, phó thác chính mình vào ân sủng, bỏ qua một bên những chương trình và sự tiện nghi của riêng mình, chúng ta mới có thể thực sự thưa “vâng” với Thiên Chúa. Xin Thánh Giuse giúp mọi người, đặc biệt là những người trẻ đang phân định, biến ước mơ của Thiên Chúa dành cho họ thành hiện thực. Xin ngài khơi dậy trong họ lòng can đảm để thưa “vâng” với Thiên Chúa, Đấng luôn làm ngạc nhiên và không bao giờ gây thất vọng.
+    2. Từ thứ hai của ơn gọi là phục vụ. Thánh Giuse như một biểu hiện cụ thể của việc trao tặng chính mình – không chỉ đơn giản là một lý tưởng cao đẹp, mà đã trở thành một quy tắc cho cuộc sống hàng ngày. Thánh Giuse, người bảo vệ Chúa Giêsu và Giáo hội, như người bảo vệ các ơn gọi. Trên thực tế, từ sự sẵn lòng phục vụ của ngài đã nảy sinh sự quan tâm bảo vệ. Chức linh mục và đời sống thánh hiến cũng đòi hỏi phải có sự chín chắn như vậy. Dù ơn gọi của chúng ta là gì, kết hôn, độc thân hay sống trinh khiết, việc cho đi chính mình sẽ không thành toàn nếu nó chỉ dừng lại ở sự hy sinh; nếu thế, thay vì trở thành một dấu chỉ của vẻ đẹp và niềm vui của tình yêu, việc cho đi chính mình sẽ có nguy cơ trở thành biểu hiện của bất hạnh, buồn bã và thất vọng”(sđd, 7)
+    3. Đặc điểm thứ ba là lòng trung thành. Thánh Giuse kiên trì âm thầm phục vụ Thiên Chúa và các kế hoạch của Người. Vì ơn gọi – cũng như cuộc sống – chỉ trưởng thành chín chắn nhờ sự trung thành hàng ngày. Xin thánh Cả Giuse, Đấng bảo vệ các ơn gọi, đồng hành với anh chị em bằng trái tim phụ tử của ngài!
+
+    Sau hết, trong tuần lễ này, mỗi khi tham dự Thánh lễ, cũng như trong các giờ kinh nguyện gia đình bên cạnh việc cầu nguyện cho các bạn trẻ đang phân định để quyết định cho ơn gọi, ta cũng nhớ cầu nguyện cho Ðức Giáo Hoàng, các Đức Giám Mục, Linh Mục và Tu Sĩ Nam Nữ trong toàn thể Giáo Hội, cách riêng cho các linh mục và Tu Sĩ mà Chúa sai đến làm việc giữa chúng ta.
+
+    Xin được kết bằng tâm tình và lời cầu nguyện cho các chủ chăn như sau:
+    Lạy Thiên Chúa chí ái, Giáo Hội Chúa đã được Chúa thương ban cho những linh mục, phó tế, tu sĩ nam nữ, các thành viên tu hội đời, các tông đồ giáo dân / luôn tận hiến để hằng ngày đem Chúa đến cho mọi người trên khắp thế giới. Xin Chúa giúp các vị đó luôn kiên cường trong sứ vụ. Xin Chúa cũng kêu gọi thêm nhiều người cùng tham gia trong công cuộc phục vụ dân Chúa. Amen.
+
+    Thân mến
+    Lm Phanxicô Trần Quốc Tuấn
+
+    `
+    },
+  {
+    "Section": "Các Bài Viết",
     "date": "2021-04-11",
     "image": "https://hvmatl.net/gallery/img/articles/article-2021-04-10.png",
     "title": "Chúa Nhật Kính Lòng Thương Xót của Thiên Chúa",
