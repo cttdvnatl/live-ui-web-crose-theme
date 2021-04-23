@@ -1,20 +1,33 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Header from "../components/Header";
 import { Editor } from "react-draft-wysiwyg";
 import { EditorState, convertToRaw } from "draft-js";
 import "../../node_modules/react-draft-wysiwyg/dist/react-draft-wysiwyg.css";
 import "../css/WriteArticle.css";
 import draftToHtml from "draftjs-to-html";
+import { useDispatch } from "react-redux";
+import { dispatchArticle } from "../store/dispatch/dispatch";
+import { connect } from "react-redux";
 
 function WriteArticle() {
+  const [title, setTitle] = useState("");
   const [editorState, setEditorState] = useState(EditorState.createEmpty());
   const onEditorStateChange = (editorState) => {
     setEditorState(editorState);
   };
+  const [content, setContent] = useState();
+  // const dispatch = useDispatch();
+
+  useEffect(() => {
+    setContent(draftToHtml(convertToRaw(editorState.getCurrentContent())));
+  }, [editorState]);
 
   const saveArticle = () => {
-    console.log(draftToHtml(convertToRaw(editorState.getCurrentContent())));
+    if (title) {
+      dispatchArticle(title, content);
+    }
   };
+
   return (
     <div>
       <Header />
@@ -24,7 +37,13 @@ function WriteArticle() {
             <div className="article__title-img">
               <div className="article__title">
                 <label htmlFor="title">Title</label>
-                <input type="text" required placeholder="Title" />
+                <input
+                  type="text"
+                  required
+                  placeholder="Title"
+                  value={title}
+                  onChange={(e) => setTitle(e.target.value)}
+                />
               </div>
               <div className="article__img">
                 <img
@@ -62,4 +81,9 @@ function WriteArticle() {
   );
 }
 
-export default WriteArticle;
+const mapDispatchToProps = (dispatch) => ({
+  dispatchArticle: (title, content) =>
+    dispatchArticle(dispatch, title, content),
+});
+
+export default connect(mapDispatchToProps)(WriteArticle);

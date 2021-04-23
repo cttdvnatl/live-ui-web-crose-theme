@@ -64,8 +64,12 @@
     border-radius: 5px;
     padding: 15px;
 }
+
 .public-DraftStyleDefault-block.public-DraftStyleDefault-ltr{
     margin: 0;
+}
+.public-DraftStyleDefault-ltr > span{
+    color: black!important;
 }
 .DraftEditor-editorContainer, 
 .DraftEditor-root, 
