@@ -24,7 +24,7 @@ const articleContent =
   {
     "Section": "Các Bài Viết",
     "date": "2021-04-25",
-    "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
+    "image": "https://hvmatl.net/gallery/img/articles/article-2021-04-25.png",
     "title": "Chúa Nhật Chúa Chiên Lành
           Cầu Cho Ơn Gọi Linh Mục – Tu sĩ",
     "body":
