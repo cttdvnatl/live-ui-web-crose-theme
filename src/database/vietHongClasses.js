@@ -51,7 +51,7 @@ const Classes = [
     {
         name: "3b",
         class: "3B",
-        teachers: "Thầy Đào Hoàng Phi, Thầy Trần Jimmy Việt",
+        teachers: "Thầy Trần Jimmy Việt, Thầy Đào Hoàng Phi",
         emails: "phi.hoang.dao@hvmatl.org, viet.tran@hvmatl.org",
         classwork: "https://docs.google.com/document/d/e/2PACX-1vTeKXHW-GKPwa-Nhar19hKVqE56NH-MdCQ8650WdFan4foFxyz64JNWyhnvzAqvEDjX73sSVedRijLY/pub?embedded=true"
     },
@@ -65,7 +65,7 @@ const Classes = [
     {
         name: "4b",
         class: "4B",
-        teachers: "Thầy Nguyễn Hữu Toàn, Thầy Võ Minh Hoàng",
+        teachers: "Thầy Võ Minh Hoàng, Thầy Nguyễn Hữu Toàn",
         emails: "toan.nguyen@hvmatl.org, hoang.minh.vo@hvmatl.org",
         classwork: "https://docs.google.com/document/d/e/2PACX-1vSujKL5M_zVaRjAzQSSFiiLtSmDYxqqdt22FbcAV1hG9PJ4gaNrxQEtoniQbMFvMqeE7rQxHcWec-mk/pub?embedded=true"
     },
