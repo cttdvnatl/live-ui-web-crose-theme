@@ -23,6 +23,34 @@ const articleContent =
 [
   {
     "Section": "Các Bài Viết",
+    "date": "2021-04-25",
+    "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
+    "title": "Chúa Nhật Chúa Chiên Lành
+          Cầu Cho Ơn Gọi Linh Mục – Tu sĩ",
+    "body":
+    `
+    Chúa Nhật thứ IV Phục Sinh, còn được gọi là Chúa Nhật Chúa Chiên Lành. Giáo Hội mời gọi mọi thành phần dân Chúa hãy chiêm ngắm Thiên Chúa qua hình ảnh Vị Mục Tử Nhân Lành và cùng hiệp ý trong cầu nguyện cho ơn gọi trong đời sống linh mục hoặc tu sĩ nam nữ. Ta cùng tìm hiểu về đời sống và sứ mạng của các ơn gọi trong Giáo Hội.
+
+    Trước hết là Ơn Gọi Linh Mục. Linh mục bao gồm các linh mục triều và các linh mục dòng.
+
+    Danh từ “Linh Mục Triều” hay linh mục giáo phận (diocesan priests) là các linh mục trực tiếp dưới quyền Đức Giám Mục Giáo Phận, vâng lời và thi hành chức vụ linh mục, đảm nhận những công việc mục vụ trong địa hạt giáo phận của mình và do Đức Giám Mục sở tại chỉ định. Sứ vụ chính của linh mục triều là thi hành việc mục vụ và phục vụ tại các giáo xứ. Các linh mục triều long trọng hứa sẽ vâng lời Đức Giám Mục và các Đấng kế vị; sống trinh khiết độc thân; trung thành chu toàn bổn phận cử hành phụng vụ thánh; và giữ lối sống cho xứng với ơn gọi linh mục của mình.
+
+    Danh từ “Linh Mục Dòng” là các linh mục trực thuộc các dòng tu, trực tiếp vâng lời Bề Trên Dòng trong mọi sự việc và đảm nhận những công tác do Bề Trên chỉ định để hoạt động theo đoàn sủng mỗi Dòng tại bất cứ nơi nào nhà Dòng được phép hoạt động. Linh mục dòng tuyên giữ 3 lời khấn dòng: Khiết tịnh, Khó nghèo, và Vâng Lời bề trên.
+
+    Kế đến ta cùng tìm hiểu về Ơn Gọi Tu Sĩ. Tu Sĩ là những Kitô hữu nam hoặc nữ, hoàn toàn tự do chấp nhận và sống một lối sống đặc biệt mà Giáo Hội công nhận để &quot;dâng hiến&quot; trọn vẹn cho Thiên Chúa.  Mỗi dòng tu đều có đoàn sủng riêng để chiêm niệm và cầu nguyện như những Đan Viện (Xito, Benedictine, Trappist) hoặc sinh hoạt mục vụ cho từng giới như Dòng Salesien lo việc giáo dục giới trẻ, dòng Ngôi Lời lo việc truyền giáo… Các tu sĩ được khấn và giữ 3 Lời Khấn: Vâng Lời, Khó Nghèo và Khiết Tịnh của Tin Mừng.
+
+    Trong ngày lễ Chúa Chiên Lành, tôi tha thiết xin từng gia đình cùng hiệp ý cầu nguyện và cổ võ cho ơn thiên triệu, cầu nguyện cho hàng linh mục và tu sĩ nam nữ. Cụ thể có những giờ kinh gia đình, những buổi viếng chầu Thánh Thể, Thánh lễ để cầu nguyện cho các bạn trẻ mở lòng ra lắng nghe tiếng Chúa mời gọi và sẵn lòng đáp trả. Đồng thời ta cũng đừng quên tạ ơn Chúa và cầu nguyện cách đặc biệt cho các linh mục, nhất là cho các cha sở biết sống trọn vẹn vai trò Mục Tử Tốt Lành như Chúa Giêsu để chu toàn sứ vụ đồng hành, hướng dẫn đúng cho các con em trong giáo xứ đang tìm hiểu để quyết định ơn gọi của mình.
+    Tạ ơn Thiên Chúa, cám ơn mọi người đã cầu nguyện, năm nay trong TGP Atlanta có thêm được 3 ơn gọi là người Việt Nam bên cạnh các bạn trẻ Hoa Kỳ. Tôi cũng rất vui mừng thông báo em Nguyễn Johnathan, trước đây từng là giúp lễ, huynh trưởng đã được Đức TGM chính thức nhận vào chương trình đào tạo linh mục cho năm học sắp tới.
+
+    Nguyện xin Chúa Giêsu, vị Mục Từ Nhân Lành ban muôn ơn phúc lành cho Giáo Hội và giáo xứ, cách riêng là các bạn trẻ đang phân định ơn gọi của mình để hân hoan mạnh dạn đáp lại lời kêu gọi của Chúa để sống trong đời sống linh mục và tu sĩ.
+
+    Thân mến
+    Cha Phanxicô Trần Quốc Tuấn
+
+    `
+    },
+  {
+    "Section": "Các Bài Viết",
     "date": "2021-04-18",
     "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
     "title": "CHÚA NHẬT CHÚA CHIÊN NHÂN LÀNH",
