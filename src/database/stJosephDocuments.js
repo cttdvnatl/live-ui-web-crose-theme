@@ -1,5 +1,10 @@
 const stJosephDocuments = [
     {   
+        fileName: 'Register Program for Sunday School',
+        downloadFile: 'http://hvmatl.com/gallery/kgd/giaoly/docs-GhiDanh-2021-2022.pdf',
+        description: 'Chương Trình Ghi Danh Học Giáo Lý 2021-2022',
+    },
+    {   
         fileName: 'Sunday School Schedule',
         downloadFile: 'https://hvmatl.net/gallery/kgd/giaoly/docs-St.Joseph-School-2020-2021-Schedule.pdf',
         description: 'Chương Trình Sinh Hoạt Giáo Lý 2020-2021',
