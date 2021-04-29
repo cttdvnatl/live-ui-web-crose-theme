@@ -25,8 +25,7 @@ const articleContent =
     "Section": "Các Bài Viết",
     "date": "2021-04-25",
     "image": "https://hvmatl.net/gallery/img/articles/article-2021-04-25.png",
-    "title": "Chúa Nhật Chúa Chiên Lành
-          Cầu Cho Ơn Gọi Linh Mục – Tu sĩ",
+    "title": "Chúa Nhật Chúa Chiên Lành | Cầu Cho Ơn Gọi Linh Mục – Tu sĩ",
     "body":
     `
     Chúa Nhật thứ IV Phục Sinh, còn được gọi là Chúa Nhật Chúa Chiên Lành. Giáo Hội mời gọi mọi thành phần dân Chúa hãy chiêm ngắm Thiên Chúa qua hình ảnh Vị Mục Tử Nhân Lành và cùng hiệp ý trong cầu nguyện cho ơn gọi trong đời sống linh mục hoặc tu sĩ nam nữ. Ta cùng tìm hiểu về đời sống và sứ mạng của các ơn gọi trong Giáo Hội.
