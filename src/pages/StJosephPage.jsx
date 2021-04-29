@@ -17,8 +17,8 @@ const StJoseph = () => {
                 Chúa Nhật, ngày 25 tháng 4 năm 2021, từ 8:30 AM - 1:00 PM, tại Building B <br/>
                 Chúa Nhật, ngày 2 tháng 5 năm 2021, từ 8:30 AM - 1:00 PM, tại Building B <br/> <br/>
                 
-                Xin quý phụ huynh vào phần <b><u>Văn Thư</u></b> để lấy những giấy tờ sau đây cho con em: <br/><br/>
-                * Đơn Ghi Danh Học Giáo Lý 2021-2022 <br/>
+                Xin quý phụ huynh vào phần <b><u>Văn Thư</u></b> để lấy giấy tờ cần thiết cho con em.<br/><br/>
+                * Đơn Ghi Danh Học Giáo Lý 2021-2022. <br/>
                 * Chương Trình Ghi Danh Học Giáo Lý 2021-2022 <br/> 
                 để biết đầy đủ điều kiện trước khi đến ghi danh. 
                 <br/><br/>
