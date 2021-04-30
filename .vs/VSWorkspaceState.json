@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\public",
-    "\\src\\store"
+    "\\public\\religion",
+    "\\src",
+    "\\src\\database"
   ],
-  "SelectedNode": "\\public\\about_test_eng.html",
+  "SelectedNode": "\\public\\mission.html",
   "PreviewInSolutionExplorer": false
 }
