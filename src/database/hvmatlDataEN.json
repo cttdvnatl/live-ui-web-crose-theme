@@ -23,11 +23,30 @@
         "pageTitle": "2019 Coronavirus News",
         "button": "Read More"
     },
-    "about": {
-        "pageTitle": "About This Church", 
-        "heading": "Holy Vietnamese Martyr's Catholic Church",
-        "paragraph": "The Vietnamese Martyrs Parish of the Archdiocese of Atlanta is a community of Vietnamese-born Catholics celebrating and spreading the Catholic faith, while maintaining and developing the Vietnamese cultural tradition."
-    },
+  "about": {
+    "pageTitle": "About This Church",
+    "heading": "Holy Vietnamese Martyr's Catholic Church",
+    "paragraph": "The Vietnamese Martyrs Parish of the Archdiocese of Atlanta is a community of Vietnamese-born Catholics celebrating and spreading the Catholic faith, while maintaining and developing the Vietnamese cultural tradition.",
+    "headingLogo": "Signification of the Parish's Logo",
+    "paraHeading1": "Colors:",
+    "paragraph11": "Red: the blood of the 117 Vietnamese Martyrs",
+    "paragraph12": "Brown: the skin's color of Vietnamese",
+    "paraHeading2": "Shapes:",
+    "paragraph21": "The Big Round: symbol of the earth as the source of life",
+    "paragraph22": "The Vietnamese Map: the country of Vietnam",
+    "paragraph23": "The Horizontal & Vertical Parallel Lines: 3 parts of Vietnam - North, Central, South",
+    "paragraph24": "The Cross: the three parts' Vietnamese people join and become the people of God, namely the Catholics",
+    "paragraph25": "The Small Round:",
+    "subparagraph21": "The centralization is Christ as the Shining Sunrise",
+    "subparagraph22": "The sacramental sign is the Eucharist",
+    "paragraph26": "The Lights: the Evangelization of the Catholics",
+    "paraHeading3": "The meanings - From The Outside Into The Center",
+    "paragraph31": "The Vietnamese Catholics are the descendants of Holy Vietnamese Martyrs",
+    "paragraph32": "They themselves become the people of God",
+    "paragraph33": "They themselves focus their lives in Christ as the Shining Sunrise",
+    "paragraph34": "They practice and deepen their faith in and through the Eucharist",
+    "paragraph35": "They continue to evangelize the World"
+  },
     "history": {
         "pageTitle": "Our History",
         "pageTitleContinued": "Holy Vietnamese Martyr's Catholic Church"

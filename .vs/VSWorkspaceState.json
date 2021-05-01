@@ -1,9 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\public",
-    "\\src\\store"
+    "\\src",
+    "\\src\\database",
+    "\\src\\pages"
   ],
-  "SelectedNode": "\\public\\about_test_eng.html",
+  "SelectedNode": "\\src\\database\\hvmatlDataVN.json",
   "PreviewInSolutionExplorer": false
 }
