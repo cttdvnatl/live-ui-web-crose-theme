@@ -1,5 +1,6 @@
 import React, {useEffect, useState, useRef, useCallback} from 'react';
 import { setLanguage, getLanguage, useTranslation } from 'react-multi-lang';
+import { Link } from 'react-router-dom';
 import EmergencyEvent from "./EmergencyNotice";
 import PopupModal from "./PopupModal";
 
@@ -152,6 +153,8 @@ const Header = (prop) => {
                                         </div>
                                     </div>
                                     <div className="top-social-info">
+                                        {/* Test Admin Button */}
+                                        <Link to="/write-article">Admin</Link>
                                         <a href="https://www.facebook.com/cttdvn" aria-label="facebook"><i className="fab fa-facebook" ref={facebook}></i></a>
                                         <a href="https://www.youtube.com/thanhtudaovietnam" aria-label="youtube"><i className="fab fa-youtube" ref={youtube}></i></a>
                                         <a href="https://twitter.com/thanhtudaovn" aria-label="twitter"><i className="fab fa-twitter" ref={twitter}></i></a>
