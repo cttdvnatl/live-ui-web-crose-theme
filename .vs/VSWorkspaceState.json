@@ -1,11 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\public",
-    "\\public\\religion",
     "\\src",
-    "\\src\\database"
+    "\\src\\database",
+    "\\src\\pages"
   ],
-  "SelectedNode": "\\public\\mission.html",
+  "SelectedNode": "\\src\\database\\hvmatlDataVN.json",
   "PreviewInSolutionExplorer": false
 }
