@@ -17,7 +17,7 @@ const history = [
         imgsrc:'',
         imgheight:'',
         imgwidth:'',
-        description:' Ghi thức khởi công xây dựng nhà thờ mới được chủ sự ngày 27 tháng 8. Việc đặt viên đá đầu tiên và khởi động xây dựng thánh đường là một ước ao từ lâu của giáo xứ.',
+        description:' Nghi thức khởi công xây dựng nhà thờ mới được chủ sự ngày 27 tháng 8. Việc đặt viên đá đầu tiên và khởi động xây dựng thánh đường là một ước ao từ lâu của giáo xứ.',
         translate:' Groundbreaking for new church. Blessed by Archbishop Wilton D. Gregory on Aug. 27, the huge stone and ceremonial groundbreaking marked another step toward the long-sought goal of the new church.'
     },
     {
@@ -28,17 +28,17 @@ const history = [
         imgsrc:'img/bg-img/hjchaTuan.jpg',
         imgheight:'8%',
         imgwidth:'24%',
-        description:'Họ đạo được nâng <a href="img/bg-img/parish_official2.jpg" className="history">lên hàng giáo xứ</a>, trở thành giáo xứ thứ hai trong tổng giáo phận Atlanta. <a className="history" href="img/bg-img/pastor.jpg">Cha Tuấn Trần trở thành Cha Chánh Xứ</a> của họ đạo.',
-        translate:'The mission becomes the <a className="history" href="img/bg-img/parish_official2.jpg">second Vietnamese parish</a> in the archdiocese. <a className="history" href="img/bg-img/pastor.jpg">Father Francis Tuan Tran becomes the parish pastor.</a>',
+        description:'Họ đạo được nâng lên hàng <a href="img/bg-img/parish_official2.jpg">giáo xứ </a>, trở thành <a href="img/bg-img/parish_official2.jpg">giáo xứ </a> thứ hai trong tổng giáo phận Atlanta. Cha Tuấn Trần trở thành Cha <a href="img/bg-img/pastor.jpg">Chánh Xứ</a> của họ đạo.',
+        translate:'The mission becomes the second Vietnamese <a href="img/bg-img/parish_official2.jpg">parish</a> in the archdiocese. Father Francis Tuan Tran becomes the parish <a href="img/bg-img/pastor.jpg">pastor.</a>',
     },
     {
         significance:'one',
         year:'2011',
-        title:'Mở rộng khuân viên Giáo Xứ (Expanded Church Land)',
+        title:'Mở rộng khuôn viên Giáo Xứ (Expanded Church Land)',
         imgsrc:'',
         imgheight:'',
         imgwidth:'',
-        description:'Vào ngày 11 tháng 1 năm 2011, giáo xứ Thánh Tử Đạo Việt Nam đã hoàn tất việc mua khuân viên mới rộng 9 mẫu. ',
+        description:'Vào ngày 11 tháng 1 năm 2011, giáo xứ Thánh Tử Đạo Việt Nam đã hoàn tất việc mua khuôn viên mới rộng 9 mẫu. ',
         translate:'On January 11, 2011 the Archdiocese of Atlanta and our church, The Holy Martyrs of Vietnam Catholic Church, completed the purchase of the 9-acre property.'
     },
     {
