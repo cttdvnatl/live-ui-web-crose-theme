@@ -28,8 +28,10 @@ const history = [
         imgsrc:'img/bg-img/hjchaTuan.jpg',
         imgheight:'8%',
         imgwidth:'24%',
-        description:'Họ đạo được nâng lên hàng <a href="img/bg-img/parish_official2.jpg">giáo xứ </a>, trở thành <a href="img/bg-img/parish_official2.jpg">giáo xứ </a> thứ hai trong tổng giáo phận Atlanta. Cha Tuấn Trần trở thành Cha <a href="img/bg-img/pastor.jpg">Chánh Xứ</a> của họ đạo.',
-        translate:'The mission becomes the second Vietnamese <a href="img/bg-img/parish_official2.jpg">parish</a> in the archdiocese. Father Francis Tuan Tran becomes the parish <a href="img/bg-img/pastor.jpg">pastor.</a>',
+        /*description:'Họ đạo được nâng lên hàng <a href="img/bg-img/parish_official2.jpg">giáo xứ </a>, trở thành <a href="img/bg-img/parish_official2.jpg">giáo xứ </a> thứ hai trong tổng giáo phận Atlanta. Cha Tuấn Trần trở thành Cha <a href="img/bg-img/pastor.jpg">Chánh Xứ</a> của họ đạo.',*/
+        description: 'Họ đạo được nâng lên hàng giáo xứ, trở thành giáo xứ thứ hai trong tổng giáo phận Atlanta. Cha Tuấn Trần trở thành Cha Chánh Xứ của họ đạo.',
+        /*translate: 'The mission becomes the second Vietnamese <a href="img/bg-img/parish_official2.jpg">parish</a> in the archdiocese. Father Francis Tuan Tran becomes the parish <a href="img/bg-img/pastor.jpg">pastor.</a>',*/
+        translate: 'The mission becomes the second Vietnamese parish in the archdiocese. Father Francis Tuan Tran becomes the parish pastor.',
     },
     {
         significance:'one',
