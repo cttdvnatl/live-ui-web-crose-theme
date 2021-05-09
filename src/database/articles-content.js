@@ -21,6 +21,70 @@ Please update a new article in this form:
 
 const articleContent =
 [
+
+    {
+    "Section": "Các Bài Viết",
+    "date": "2021-05-09",
+    "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
+        "title": "NGÀY CỦA MẸ - MOTHER’S DAY",
+    "body":
+    `
+    Ngày của Mẹ hay còn gọi là Mother’s Day là dịp để kỷ niệm, tôn vinh những người mẹ trên khắp thế gian. Ngày của Mẹ không có ngày cố định cụ thể. Tuy nhiên, nhiều nơi trên thế giới đều biết đến và quy ước lấy ngày Chúa Nhật thứ hai của tháng 5. Ngày của Mẹ năm nay sẽ rơi vào Chúa nhật 9 tháng 5. 
+
+Ngày lễ này có nguồn gốc từ thời kỳ Hy Lạp và La Mã cổ đại. Lễ hội tri ân những người làm mẹ thường được tổ chức thường niên vào mùa xuân. Bên cạnh đó, người Hy Lạp lúc bấy giờ cũng thường cúng tế cho các nữ thần, đặc biệt là vị thần Rhea - Mẹ của nhiều vị thần trong thần thoại Hy Lạp.
+
+Ngoài ra, một giả thiết khác cho rằng nguồn gốc Ngày của Mẹ xuất hiện đầu tiên ở Anh từ khoảng năm 1600. Ngày này được tổ chức hằng năm, và tổ chức trước ngày lễ Phục Sinh nhằm tri ân công lao của người mẹ. Vào Ngày của Mẹ, các bạn nhỏ sẽ thường có phong tục tặng hoa hay bánh trái cây cho người mẹ thân yêu của mình. Thế nhưng phong tục này dần rơi vào quên lãng vào thế kỷ thứ 19.
+
+Tại Mỹ, nhờ sự đấu tranh kiên nhẫn cùng tấm lòng của một cô gái có tên Anna Jarvis tại bang Philadelphia mà sự kiện Ngày của Mẹ đã trở thành một ngày lễ chính thức. Sau khi mẹ mất, Anna luôn day dứt bởi cô còn nhiều điều chưa làm được cho mẹ, cũng bởi vì thái độ thờ ơ của nhiều người dân Mỹ đối với người mẹ của mình nên cô đã quyết tâm đấu tranh và đề nghị Thượng nghị viện Mỹ tổ chức Ngày của Mẹ trên toàn quốc.
+
+Với người Kitô hữu, việc yêu mến người mẹ không chỉ giới hạn người mẹ tại thế, mà còn có một người Mẹ vinh quang trên trời, Người hằng bầu cử cho chúng ta trước tòa Chúa. Và việc yêu mến Mẹ, tôn kính Mẹ không chỉ một ngày, một tháng mà là mọi giây phút khi chúng ta nâng tràng chuỗi mân côi lên để cầu nguyện và lập lại những lời chào của Thiên Sứ xưa. Từ thời khai nguyên Kitô giáo, Đức Mẹ đã được Giáo Hội và mọi con cái yên mến và sùng kính cách đặc biệt. Lòng yêu mến và sùng kính đó được biểu lộ qua muôn vàn hình thức và dưới nhiều tước hiệu trong Giáo Hội. Các tín hữu mọi thời đã khẩn cầu và ẩn náu dưới sự che chở của Mẹ trong mọi cơn gian nan khốn khó. Tại Công đồng Êphêsô (431) Giáo Hội đã tuyên xưng Đức Maria là “Mẹ Thiên Chúa- Theotokos”, và từ đó các tín hữu càng gia tăng thêm lòng sùng kính Đức mẹ cách lạ lùng.
+
+Kính chào Đức Maria đầy ơn phúc !
+
+Mẹ là con người tuyệt diệu của trần thế và trời cao. Mẹ đẹp nhất trong muôn vàn thọ tạo, sáng giá nhất trong mọi loài chúng sinh. Ai nói hết được những kỳ công mà Thiên Chúa đã thực hiện nơi Mẹ! Để làm Mẹ Chúa Cứu thế, Mẹ đã được Thiên Chúa ban cho những hồng ân tương xứng với một phận sự lớn lao như thế. Lúc truyền tin, thiên sứ Gabriel đã chào Mẹ “đầy ân sủng!” Lời chào đó như một sự xác nhận vị thế và uy danh của Mẹ. Đừng kể tên Chúa Giêsu, thì cả trên trời dưới đất chẳng có tên nào trọng, đáng kính và linh ứng cho bằng tên của Mẹ. Vì Mẹ là Trinh Nữ Vương của Thiên đàng và trần thế, bởi Mẹ là Mẹ Thiên Chúa và cũng là Mẹ của loài người.
+
+Mẹ là gương các nhân đức
+
+Tuy Thiên Chúa đã để các cực hình dồn dập xâm chiếm và đè nén lên tâm hồn Mẹ, nhưng nhờ đức tin mạnh mẽ, đức cậy vững vàng và đức mến bỏng cháy, Mẹ đã bình tĩnh trước những đau khổ mà Mẹ biết sắp xảy đến với Mẹ. Ý Chúa là nơi trú ngụ bình an của Mẹ, vì thế, chúng ta kinh ngạc trước sự tín thác vào Chúa nơi Mẹ. Nhờ đức tin, Mẹ đã chế ngự được đau khổ; nhờ đức cậy, Mẹ đã thắng được nghi nan; nhờ đức mến, Mẹ đã đi trọn con đường thập giá với Chúa Giêsu. Khi ông già Simêon tiên báo về cái chết khổ nhục của Chúa Giêsu: “một lưỡi gươm sẽ đâm thấu tâm hồn Bà” (Lc 2:34), thì Mẹ sầu khổ biết chừng nào. Nhưng Mẹ vẫn hằng trông cậy và hoàn toàn tín thác nơi Chúa.
+
+Giáo Hội đã đặt ra nhiều kinh để ca tụng, ngợi khen và cầu xin Đức Mẹ. Biết bao thi sĩ, nhạc sĩ đã dâng lên Mẹ muôn lời thơ, vạn ý nhạc. Nhưng nói về Mẹ, viết về Mẹ sẽ không bút nào tả xiết, không lời nào diễn tả cho xứng. Đã có nhiều đền thánh được Giáo Hội đặc biệt dâng kính Đức Mẹ; Giáo Hội cũng đã đặt nhiều ngày lễ biệt kính các đặc ân và biến cố của Mẹ để tỏ lòng tạ ơn và suy tôn Mẹ. Và đặc biệt, Giáo Hội đã dành trọn tháng 5 này để biệt kính Mẹ, và tháng này như là thời khắc ưu việt để mọi con cái kết hợp với Mẹ cách riêng từng giây phút trong tình yêu tuyệt vời với Con Mẹ là Chúa Giêsu – Người Con mà Mẹ đã ban tặng cho nhân thế.
+
+Chúng ta tiếp tục hái những đóa hoa Mân Côi dâng lên Mẹ, để lời chào của Thiên Sứ xưa tiếp tục vang lên: Kính mừng Maria đầy ơn phúc, Đức Chúa Trời ở cùng Bà…!
+
+Hiệp nhất trong an bình của Đức Kitô,
+Lm. G.B Phạm Nguyễn Tuấn Anh
+
+    `
+    },
+    {
+    "Section": "Các Bài Viết",
+    "date": "2021-05-02",
+    "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
+    "title": "THÁNH GIUSE – NGƯỜI CHA LAO ĐỘNG",
+    "body":
+                `
+    Trong năm Phụng vụ, chúng ta có hai dịp mừng Thánh Giuse: ngày 19 tháng 3 để kính nhớ Thánh Giuse là bạn thanh sạch Đức Trinh Nữ Maria, và ngày 1 tháng 5 để kính nhớ ngài là Người Cha Lao Động. Trong thông điệp xã hội đầu tiên, Rerum Novarum, nói về mối quan hệ của Thánh Giuse với công việc, Đức Thánh Cha Lêô XIII nhấn mạnh Thánh Giuse là một người thợ mộc làm việc lương thiện để nuối sống gia đình. Nơi Thánh Giuse, Chúa Giêsu đã học được giá trị, phẩm giá và niềm vui của việc ăn miếng bánh là thành quả lao động của chính mình. Thánh Giuse nhắc nhở chúng ta rằng: chính Thiên Chúa, khi làm người, đã không khinh thường công việc.
+
+    Quả thật, trong thời buổi kinh tế khó khăn, người cha trong các gia đình phải làm việc cực nhọc, kiếm từng miếng cơm manh áo cho gia đình, họ chỉ muốn gia đình được ấm no, hạnh phúc; bởi họ là trụ cột, là điểm tựa của mọi người trong gia đình khi gặp khó khăn. 
+
+    Khi nói Thánh Giuse là người thuộc tầng lớp lao động, Ngài đã gánh vác sự nặng nề thiếu thốn của bản thân và Thánh Gia Thất. Đức Thánh Cha cũng chỉ cho chúng ta thấy xã hội hôm nay vẫn còn nhiều người cha không chịu lao động, không làm hết trách nhiệm, không phát huy được vai trò quan trọng của mình. Một số người nghiện ngập, gia trưởng, đánh đập vợ con khiến gia đình bất hòa, làm cho con cái tổn thương về mặt tình cảm. Một số thì không quan tâm tới gia đình, làm ảnh hưởng đến tình cảm của mọi người, nhất là trẻ em. Những người cha như thế sẽ làm gương xấu cho thế hệ mai sau, không giáo dục được con cái, khiến chúng học theo những điều xấu, trở thành người không có ích cho xã hội. 
+
+    Đức Thánh Cha cũng khuyến khích mọi người "khám phá lại giá trị, tầm quan trọng và sự cần thiết của lao động" (x. Patris Corde, số 6), khi lao động, con người tham gia vào chính công trình cứu độ của Thiên Chúa, và phẩm giá con người được đề cao. Lao động là cơ hội cho các gia đình; không có việc làm các gia đình sẽ gặp nhiều khó khăn, căng thẳng, rạn nứt và thậm chí là sự cám dỗ tuyệt vọng và phân tán. Với hình ảnh người người thợ mộc, Thánh Giuse như một khuôn mẫu vào thời điểm mà thế giới cũng như Giáo hội đang vật lộn với những thách thức do thời hiện đại đặt ra: bệnh dịch, sự bất ổn trong công việc làm ăn… Thánh Giuse hiện lên như một nhân chứng cho Giáo hội và thế giới hiện đại. 
+    Con người lao động của Thánh Giuse ảnh hưởng mạnh lên con mình. Trước sự khôn ngoan của Chúa Giêsu, người làng Nagiarét hỏi nhau: "Ông ấy không phải là con bác thợ mộc sao?" (Mt 13:55). Chúa Giêsu đã bước vào lịch sử của chúng ta, sinh ra từ Ðức Maria bởi quyền năng Chúa Thánh Thần, nhưng sự hiện diện của thánh Giuse, người cha hợp pháp, giữ gìn và dạy cho Đức Giêsu biết lao động. Trong xưởng mộc Nagiarét, Đức Giêsu đã chia sẻ với cha mình sự dấn thân, sự mệt nhọc, hài lòng và cả các khó khăn thường ngày nữa.  
+
+    Ðiều này nhắc nhở cho chúng ta biết phẩm giá và sự quan trọng của lao động. Sách Sáng Thế kể rằng Thiên Chúa đã tạo dựng nên người nam và người nữ, giao phó cho họ nhiệm vụ sinh sôi nẩy nở tràn đầy trái đất, khắc phục nó và trông nom nó với công việc của mình (x. St 1:28; 2:15). 
+
+    Quả thật, lao động là một phần của chương trình tình yêu của Thiên Chúa; chúng ta được mời gọi vun trồng và giữ gìn tất cả các thiện ích của thụ tạo, và như thế tham dự vào công trình tạo dựng! Lao động là yếu tố nến tảng đối với phẩm giá của một người. Lao động làm cho chúng ta giống Thiên Chúa, là Ðấng đã làm việc và đang làm việc, là Ðấng luôn hành động (x. Ga 5:17). Lao động trao ban cho chúng ta khả năng nuôi sống chính mình, gia đình mình, góp phần vào việc phát triển quốc gia mình. 
+
+    Trong Giáo Xứ, Khối Cơ Sở và Ban Hướng Dẫn nhận thánh Giuse – Người Cha Lao Động làm bổn mạng. Chúng ta cùng cầu xin Chúa, qua lời chuyển cầu của Thánh Giuse ban cho quý Anh Chị trong Khối Cơ Sở và Ban Hướng Dẫn luôn được mạnh khỏe, lòng nhiệt thành quảng đại phục vụ. 
+
+    Chúng ta hãy cầu xin Thánh Giuse, con người lao động trợ giúp chúng ta, và hãy đến cùng Giuse những lúc gặp khó khăn, nghi nan, mệt nhọc để được Người trợ giúp: Hãy đến cùng Giuse!
+
+    Hiệp nhất trong an bình của Đức Kitô, 
+    Lm. G.B. Pham Nguyễn Tuấn Anh
+
+    `
+        },
   {
     "Section": "Các Bài Viết",
     "date": "2021-04-25",
@@ -36,7 +100,7 @@ const articleContent =
 
     Danh từ “Linh Mục Dòng” là các linh mục trực thuộc các dòng tu, trực tiếp vâng lời Bề Trên Dòng trong mọi sự việc và đảm nhận những công tác do Bề Trên chỉ định để hoạt động theo đoàn sủng mỗi Dòng tại bất cứ nơi nào nhà Dòng được phép hoạt động. Linh mục dòng tuyên giữ 3 lời khấn dòng: Khiết tịnh, Khó nghèo, và Vâng Lời bề trên.
 
-    Kế đến ta cùng tìm hiểu về Ơn Gọi Tu Sĩ. Tu Sĩ là những Kitô hữu nam hoặc nữ, hoàn toàn tự do chấp nhận và sống một lối sống đặc biệt mà Giáo Hội công nhận để &quot;dâng hiến&quot; trọn vẹn cho Thiên Chúa.  Mỗi dòng tu đều có đoàn sủng riêng để chiêm niệm và cầu nguyện như những Đan Viện (Xito, Benedictine, Trappist) hoặc sinh hoạt mục vụ cho từng giới như Dòng Salesien lo việc giáo dục giới trẻ, dòng Ngôi Lời lo việc truyền giáo… Các tu sĩ được khấn và giữ 3 Lời Khấn: Vâng Lời, Khó Nghèo và Khiết Tịnh của Tin Mừng.
+    Kế đến ta cùng tìm hiểu về Ơn Gọi Tu Sĩ. Tu Sĩ là những Kitô hữu nam hoặc nữ, hoàn toàn tự do chấp nhận và sống một lối sống đặc biệt mà Giáo Hội công nhận để "dâng hiến" trọn vẹn cho Thiên Chúa.  Mỗi dòng tu đều có đoàn sủng riêng để chiêm niệm và cầu nguyện như những Đan Viện (Xito, Benedictine, Trappist) hoặc sinh hoạt mục vụ cho từng giới như Dòng Salesien lo việc giáo dục giới trẻ, dòng Ngôi Lời lo việc truyền giáo… Các tu sĩ được khấn và giữ 3 Lời Khấn: Vâng Lời, Khó Nghèo và Khiết Tịnh của Tin Mừng.
 
     Trong ngày lễ Chúa Chiên Lành, tôi tha thiết xin từng gia đình cùng hiệp ý cầu nguyện và cổ võ cho ơn thiên triệu, cầu nguyện cho hàng linh mục và tu sĩ nam nữ. Cụ thể có những giờ kinh gia đình, những buổi viếng chầu Thánh Thể, Thánh lễ để cầu nguyện cho các bạn trẻ mở lòng ra lắng nghe tiếng Chúa mời gọi và sẵn lòng đáp trả. Đồng thời ta cũng đừng quên tạ ơn Chúa và cầu nguyện cách đặc biệt cho các linh mục, nhất là cho các cha sở biết sống trọn vẹn vai trò Mục Tử Tốt Lành như Chúa Giêsu để chu toàn sứ vụ đồng hành, hướng dẫn đúng cho các con em trong giáo xứ đang tìm hiểu để quyết định ơn gọi của mình.
     Tạ ơn Thiên Chúa, cám ơn mọi người đã cầu nguyện, năm nay trong TGP Atlanta có thêm được 3 ơn gọi là người Việt Nam bên cạnh các bạn trẻ Hoa Kỳ. Tôi cũng rất vui mừng thông báo em Nguyễn Johnathan, trước đây từng là giúp lễ, huynh trưởng đã được Đức TGM chính thức nhận vào chương trình đào tạo linh mục cho năm học sắp tới.
@@ -137,7 +201,7 @@ bệnh hoạn tật nguyền... và đã chữa họ” (Mt. 4: 23-24). Tình t
 Giêsu dành cho những người yếu đau và bệnh tật còn thấy rõ nét hơn trong bài
 giảng về ngày phán xét: “Ta đau yếu, các ngươi đã thăm viếng…Ta bảo thật các
 ngươi: mỗi lần các ngươi làm như thế cho một trong những người bé nhỏ nhất đây,
-là các ngươi đã làm cho chính Ta vậy."; (Mt. 25:36,40). Chúa Giêsu đã đồng hóa
+là các ngươi đã làm cho chính Ta vậy." (Mt. 25:36,40). Chúa Giêsu đã đồng hóa
 bản thân Ngài với những người yếu đau và bệnh tật.
 
 Hiện tại, trong giáo xứ chúng ta có trên bảy chục bệnh nhân và người già yếu, là
@@ -208,8 +272,8 @@ bắt đầu tập thói quen đến viếng Ngài.
 
 Để nhắc nhở và mời gọi các tín hữu ý thức về sự hiện diện của Chúa Giêsu trong Bí Tích Thánh
 Thể, tại nhiều nhà thờ có trưng bày lời Chúa Giêsu hỏi các môn đệ ở vườn Giệtsimani trong đêm
-trước khi Ngài chịu nạn và chịu chết vì tội lỗi chúng ta, ";Anh em không thể tỉnh thức nổi với
-Thầy một giờ sao?"; (Mt 26:40) Chắc chắn lời của Chúa Giêsu trên đây, cũng là một chất vấn cho
+trước khi Ngài chịu nạn và chịu chết vì tội lỗi chúng ta, "Anh em không thể tỉnh thức nổi với
+Thầy một giờ sao?" (Mt 26:40) Chắc chắn lời của Chúa Giêsu trên đây, cũng là một chất vấn cho
 mỗi người chúng ta, khi chưa lưu tâm đến sự hiện diện của Ngài nơi Bí Tích Thánh Thể.
 
 Khi dành thời gian cầu nguyện và viếng Thánh Thể, chúng ta có cơ hội gặp gỡ chính Chúa
@@ -232,10 +296,10 @@ có một người nông dân chỉ ghé qua nhà thờ một phút rồi đi ng
 tò mò chặn ông lại và hỏi:
 
 - Cha thấy con quỳ chỉ chừng chốc lát rồi đứng dậy đi ngay, con làm sao mà cầu nguyện với thời
-giờ ít ỏi như thế được.";
+giờ ít ỏi như thế được."
 
 - Dạ thưa cha, cha biết là con không cầu nguyện lâu được, vì con chả biết nói gì. Mỗi lần ghé qua
-con chỉ nói với Chúa: ";Chào Chúa, con là Jim đây,"; rồi con đi.
+con chỉ nói với Chúa: "Chào Chúa, con là Jim đây," rồi con đi.
 
 Ít lâu sau, ông Jim bị tai nạn và phải nằm nhà thương, ông tươi tỉnh và làm cho mọi người vui vẻ
 thoải mái đến nỗi các cô y tá phải ngạc nhiên. Một cô đã hỏi ông:
@@ -247,15 +311,15 @@ thoải mái đến nỗi các cô y tá phải ngạc nhiên. Một cô đã h�
 - Nhưng tôi thấy có ai đến thăm ông đâu?
 
 - Có chứ cô, cứ vào mỗi buổi trưa, tôi thấy Ngài đến bên giường của tôi và nói với tôi rằng:
-";Jim à, Giêsu đây!";
+"Jim à, Giêsu đây!"
 
 Ước mong mỗi người trong giáo xứ chúng ta luôn có lòng yêu mến Chúa Giêsu Thánh Thể và
 năng đến viếng Ngài, dù chỉ một vài phút ngắn ngủi như ông Jim trong câu truyện trên. Chúng
 ta hãy bắt đầu tập thói quen tốt lành này. Chúa Giêsu Thánh Thể đang chờ đợi chúng ta từng
 phút giây nơi nhà tạm. Khi đến gặp gỡ Chúa, chắc chắn Ngài sẽ rất vui và được an ủi. Tâm hồn
 chúng ta sẽ được biến đổi và trở nên giống Chúa Giêsu nhiều hơn. Đồng thời chúng ta cũng được
-Chúa nâng đỡ như lời Ngài mời gọi: ";Tất cả những ai đang vất vả mang gánh nặng nề, hãy đến
-cùng tôi, tôi sẽ cho nghỉ ngơi bồi dưỡng."; (Mt 11:28)
+Chúa nâng đỡ như lời Ngài mời gọi: "Tất cả những ai đang vất vả mang gánh nặng nề, hãy đến
+cùng tôi, tôi sẽ cho nghỉ ngơi bồi dưỡng." (Mt 11:28)
 
 Ngợi khen Chúa Giêsu Kitô!
 Lm. Đaminh Trần Công Thơ
