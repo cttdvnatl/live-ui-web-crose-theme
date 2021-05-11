@@ -1,10 +1,5 @@
 const vietHongDocuments = [
     {   
-        fileName: 'School Year Registration Form (RETURNING student)',
-        downloadFile: 'https://hvmatl.net/gallery/kgd/viethong/Viet-Hong-School-2021-2022-RETURNING-Student-Registration-Form.pdf',
-        description: 'Đơn Ghi Danh Niên Học 2021-2022',
-    },
-    {   
         fileName: 'School Year Registration Form (NEW student)',
         downloadFile: 'https://hvmatl.net/gallery/kgd/viethong/Viet-Hong-School-2021-2022-NEW-Student-Registration-Form.pdf',
         description: 'Đơn Ghi Danh Niên Học 2021-2022',
