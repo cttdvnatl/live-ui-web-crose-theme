@@ -12,10 +12,10 @@ const VietHong = () => {
             <Header/>
             <VietHongHeader/>
             <br/><br/><br/>
-            <h5 style={{textAlign: "center"}}>Trường Việt Ngữ Việt Hồng cảm ơn quý phụ huynh <br/>
-                đã tin tưởng gởi gắm con em cho chúng tôi dạy tiếng Việt trong niên học vừa qua. <br/>
-                Nhà trường chúng tôi hy vọng đã làm tốt công việc đó. <br/>
-                Chúc quý phụ huynh và gia đình mùa hè nhiều niềm vui và hạnh phúc. <br/>
+            <h5 style={{textAlign: "center"}}>Trường Việt Ngữ Việt Hồng cảm ơn sự giúp đỡ, <br/>
+                thông cảm và cộng tác của quý phụ huynh với nhà trường chúng tôi <br/>
+                cho việc học của con em quý vị trong niên học vừa qua. <br/>
+                Chúc quý phụ huynh và gia đình mùa hè nhiều bình an và hạnh phúc. <br/>
                 Rất mong sẽ gặp lại tất cả các em vào niên học sắp đến. <br/><br/>
                 Để tiếp tục duy trì và phát triển hoạt động của Trường Việt Ngữ Việt Hồng, <br/>
                 chúng tôi tha thiết mời quý phụ huynh hãy cùng tham gia với chúng tôi. <br/><br/>
