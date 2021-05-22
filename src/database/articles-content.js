@@ -21,7 +21,46 @@ Please update a new article in this form:
 
 const articleContent =
 [
+    {
+    "Section": "Các Bài Viết",
+    "date": "2021-05-23",
+    "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
+        "title": "Vai Trò Của Chúa Thánh Thần Trong Lịch Sử Cứu Độ",
+    "body":
+    `
+    “Muôn lạy Chúa Thánh Thần, xin ngự đến trần gian, tự trời cao gửi xuống nguồn ánh sáng toả lan…”  Trước đây trong Phụng vụ có hàng ngàn bài ca tiếp liên, nhưng với canh tân phụng vụ của Vatican II, chỉ còn buộc ca tiếp liên trong hai thánh lễ: Lễ Phục Sinh và Lễ Chúa Thánh Thần hiện xuống.
 
+Lễ Chúa Thánh Thần Hiện Xuống (hoặc lễ Hiện xuống) là một ngày lễ của Kitô giáo được cử hành vào ngày thứ năm mươi bắt đầu từ ngày lễ Phục sinh. Tên gọi ngày lễ này trong tiếng Hy Lạp nghĩa là ngày thứ năm mươi cho nên đây cũng được gọi là Lễ Ngũ Tuần (tuần ở đây được hiểu là khoảng thời gian mười ngày). Lễ này là một trong những ngày lễ cổ xưa nhất của Giáo hội được đề cập trong sách Công vụ Tông đồ (20:16) và Thư thứ nhất của Thánh Phaolô gửi tín hữu Côrintô (16:8). 
+
+Người ta có thể chạy đến cầu nguyện với Chúa Cha, Chúa Con, Đức Mẹ, các thiên thần, các thánh,.. và  người ta nói vui rằng Chúa Thánh Thần ít “nổi tiếng” hơn. Nhiều người nghĩ danh xưng của Ngài do hai chữ ghép lại: Thánh và Thần, là những từ ngữ chỉ các ưu phẩm chung cho Chúa Cha và Chúa Con. Có chăng Chúa Thánh Thần được người để ý nhiều nhất trong ngày lễ Thêm Sức hay lễ Hiện xuống. Sau đó, dường như người ta ít để ý đến Chúa Thánh Thần nữa. 
+
+Chúa Thánh Thần là Ngôi thứ Ba trong Thiên Chúa. Chúng ta vẫn quen với lối nói về các Ngài: Chúa Cha tạo dựng, Chúa Con cứu chuộc và Chúa Thánh Thần thánh hóa. Trong sách Sáng Thế Ký, Chúa Thánh Thần đã có mặt ngay từ đầu trong công trình sáng tạo của Chúa Cha. Thần Khí thuở ấy bay là là trên mặt nước (St 1:1). Hơn nữa, chính Thiên Chúa đã thổi sinh khí vào cho con người được sống. Đó là Chúa Thánh Thần, là nguồn mạch sức sống cho con người.
+
+Khi Chúa Cha sai Chúa Con đến trần gian. Chúa Con đến trần gian nhờ Thánh Thần và trong Thánh Thần:  “Thánh Thần  sẽ  đến  trên Bà và  quyền năng  Đấng Tối Cao  sẽ rợp  bóng trên Bà” (Lc 1: 35). Đức Giêsu Kitô bắt đầu công việc rao giảng Nước Thiên Chúa trong sức mạnh và ánh sáng của Thánh Thần Thiên Chúa. Người đã làm mọi việc trong Thánh Thần, nói mọi lời trong Thánh Thần. Quan trọng hơn cả là “nhờ Thần Khí Hằng Có mà Người hiến mình làm lễ hy sinh vô tì tích dâng lên Thiên Chúa” (Dt 9: 14). Và Thiên Chúa đã cho Người sống lại từ cõi chết nhờ bởi Thần Khí (Rm 8: 11).
+ 	
+Thời gian thực sự dành cho Thánh Thần là lúc Đức Giêsu đã ra đi (Ga 16:17), lúc Người đã được tôn vinh (Ga 7: 39). Bấy giờ Chúa Cha mới thực sự sai Thánh Thần đến, do lời cầu xin của Đức Giêsu Kitô (Ga 14:16).  Cũng  có thể  nói rằng chính Đức Giêsu sai Thánh Thần  đến từ nơi Cha  (Ga 15:26).
+ 	
+Giai đoạn hậu Phục Sinh là giai đoạn của Hội Thánh; nên sứ vụ của Thánh Thần gắn liền, thậm chí trùng hợp với sứ vụ của Hội Thánh. Trên một bình diện, Thánh Thần có cùng sứ vụ với Hội Thánh: sứ vụ làm chứng cho Chúa Kitô (Ga 15:26-27). Nói khác đi, đó là hai mặt của cùng một sứ vụ: hữu hình và vô hình; hai mặt không thể tách rời.
+ 	
+Sứ vụ làm chứng ấy, Thánh Thần đã thi hành cách hữu hiệu và lạ lùng thời khai sinh Giáo Hội. Ngày hôm nay Người vẫn tiếp tục không ngừng thi hành sứ vụ. Chúa Thánh Thần có nhiều cách làm chứng cho Chúa Kitô mà chúng ta không thể biết hết được, vì Người “như gió muốn thổi đâu thì thổi” (Ga 3:8). Nhưng thường Người làm chứng bằng cách tác động bên trong chứng từ của Hội Thánh, để chứng từ này trở thành chứng từ thực hiện trong quyền năng của Chúa Thánh Thần.
+ 	
+Trên một bình diện khác, Chúa Thánh Thần có sứ mạng đối với Hội Thánh. Người là Đấng An Ủi mà Chúa Cha ban cho Hội Thánh trong lời cầu xin của Đức Giêsu (Ga 14:16). Người ở cùng Hội Thánh, ở trong Hội Thánh (Ga 14:17), để nâng đỡ, khích lệ và giáo huấn Hội Thánh, đưa Hội Thánh mỗi ngày một đi sâu vào mạc khải của Chúa Kitô (Ga 16:13), đi sâu vào tình yêu của Thiên Chúa. Người thực hiện sứ vụ ấy nơi từng người kitô hữu, với những người được thánh hiến và các thừa tác viên của Giáo Hội
+ 	
+Chúa Thánh Thần không ngừng xây dựng và làm cho Hội Thánh được hình thành. Mọi người nhờ Thần Khí độc nhất mà gia nhập Thân Mình độc nhất là Hội Thánh (1Cr 12:13). Thánh Thần trang bị Hội Thánh bằng khí giới Lời Chúa, bằng các đặc sủng (1Cr 12:4-11) và các bí tích.
+ 	
+Chúa Thánh Thần hướng dẫn Hội Thánh thực hiện chương trình cứu độ của Thiên Chúa, thực hiện mệnh lệnh rao giảng Tin Mừng của Chúa Kitô. Nhiều khi, sự hướng dẫn của Chúa Thánh Thần rất cụ thể; Người thúc đẩy đến với dân ngoại (Cv 8:29-30; 10:1-9; 11:12). Thánh Thần còn giúp cho Hội Thánh đề ra những quyết định sáng suốt, giải quyết những khủng hoảng hay các vấn đề nan giải trong Hội Thánh (Cv 15:28-29), giúp Hội Thánh đặt hàng giáo phẩm và niên trưởng lãnh đạo Hội Thánh (Cv 20:28).
+
+Lễ Hiện Xuống thường được gọi là “ngày khai sinh của Giáo hội”. Vào ngày này, việc Chúa Thánh Thần ngự xuống đã làm cho sứ mệnh của Đức Kitô được hoàn thành và thời kỳ Tân Ước được thực hiện. Một điều thú vị là khi Thánh Phêrô, vị Giáo hoàng tiên khởi đã chính thức lãnh đạo và trở nên người phát ngôn cho các Tông Đồ vào chính ngày Lễ Chúa Nhật Hiện Xuống (xem Cv 2:14).
+
+Lễ này được các Giáo Hội Đông Phương, Công giáo và Chính Thống cử hành. Theo luật thì những người Công giáo phải kiêng việc xác vào ngày này. Tại một số quốc gia châu Âu: Đức, Áo, Hà Lan, Bỉ, Pháp, Luxembourg, Hungary, Đan Mạch và ở nhiều vùng của Thụy Sĩ.., ngày này và thứ hai kế tiếp là ngày nghỉ lễ có trả lương. Trong Giáo Xứ,  Lễ Chúa Thánh Thần Hiện xuống là bổn mạng của ban Công Bố Lời Chúa. Xin Chúa Thánh Thần tác động quý Anh/Chị trong ban Công Bố Lời Chúa, để qua lời của quý Anh/Chị Lời Chúa được công bố cách sống động, sốt sắng và chạm tới lòng người. Và xin Chúa Thánh Thần cũng tác động lên các em Thiếu Nhi trong Giáo Xứ vừa được hồng ân Xưng Tội và Rước Chúa lần đầu để các em luôn sống ngoan hiền như lòng Chúa và cha mẹ ao ước.
+
+“Lạy Chúa Thánh Thần, xin Ngài ngự đến canh tân đổi mới, đời sống chúng con. Tăng sức linh hồn bồi thêm lửa mến, soi sáng trí khôn, hiệp nhất muôn lòng.”
+
+Hiệp nhất trong an bình của Đức Kitô,
+Lm. G.B Pham Nguyễn Tuấn Anh
+
+    `
+    },
     {
     "Section": "Các Bài Viết",
     "date": "2021-05-16",

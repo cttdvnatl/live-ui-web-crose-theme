@@ -1,13 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\public",
-    "\\public\\img",
     "\\public\\img\\bg-img",
     "\\src",
     "\\src\\database",
+    "\\src\\pages",
     "\\src\\store"
   ],
-  "SelectedNode": "\\src\\database\\history-content.js",
+  "SelectedNode": "\\src\\pages\\ClergyListPage.jsx",
   "PreviewInSolutionExplorer": false
 }
