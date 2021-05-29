@@ -21,7 +21,37 @@ Please update a new article in this form:
 
 const articleContent =
 [
-    {
+     {
+     "Section": "Các Bài Viết",
+     "date": "2021-05-30",
+     "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
+        "title": "TÌNH YÊU BA NGÔI",
+     "body":
+     `
+     Trong phụng vụ hằng năm, có nhiều ngày lễ kính Chúa, Đức Maria, mừng chư thánh, suy tôn, tưởng niệm… nhưng xoay quanh Chúa Giêsu là chủ yếu, còn lễ Chúa Thánh Thần chỉ có một lễ, và không có ngày lễ kính riêng cho Chúa Cha - là nguyên ủy của sự hiện hữu. Sau lễ Chúa Thánh Thần hiện xuống, phụng vụ mừng lễ Chúa Ba Ngôi, một Chúa trong ba ngôi vị, là: Cha-Con-Thánh Thần.
+
+Trong các tôn giáo lớn trên thế giới, Thiên Chúa hay Thượng Đế chỉ có một và không có ngôi vị khác, cũng không sinh, không tử; nhưng trong Kitô giáo, Mầu nhiệm Chúa Ba Ngôi là nền tảng căn bản đức tin. Tất cả mọi tín lý đều phát xuất từ đây, và tất cả rồi sẽ quy tụ về mầu nhiệm căn bản này.
+
+Chúa Ba Ngôi là một mầu nhiệm không thể định nghĩa và vô phương đạt đáo, nhưng được Hội Thánh cố gắng dùng ngôn ngữ con người để diễn tả thực tại siêu việt và giúp chúng ta lĩnh hội một phần nào. Phải mất bốn thế kỷ, cho đến cuối thế kỷ IV, các nhà Thần học của Giáo Hội mới định nghĩa mầu nhiệm Chúa Ba Ngôi trong tín điều: Chúa Cha, Chúa Con và Chúa Thánh Thần là đồng bản thể, một Thiên Chúa, một quyền năng, một bản chất cùng nhân phẩm và uy nghi như nhau, nhưng trong ba ngôi vị hay ba Người hoàn chỉnh. Khi định tín như thế, cũng nảy sinh biết bao những lạc thuyết về mầu nhiệm Ba Ngôi. Ví dụ, thuyết Phụ Thuộc (hay Thứ Vị Luận - Subordinationism): cho là Chúa Con và Chúa Thánh Thần phụ thuộc và Chúa Cha cả bản tính và sự hiện hữu. Nghĩa là, về phẩm trật, Chúa Cha trên Chúa Con và Chúa Thánh Thần. Về hoạt động hay hiện hữu, Chúa Con và Chúa Thánh Thần hoàn toàn lệ thuộc vào Cha. Thuyết này từ chối Ba Ngôi bằng nhau. Hay thuyết Nhất Ngôi Nhất Thể Luận (Monarchianism) cho rằng chỉ cỏ một Thiên Chúa, một Bản Thể, một Ngôi Vị không chia sẻ cho ai. Lạc thuyết này rõ ràng từ chối thiên tính trong Chúa Giêsu, vì theo họ, Thiên Chúa không chia sẻ với ai. Họ cũng lý luận: nếu ai công nhận Đức Giêsu là Thiên Chúa, thì khi Đức Giêsu chết trên thánh giá, Thiên Chúa cũng phải đau khổ và chết. Những người theo nhóm này có có tên là Patripassionism, nghĩa là “Chúa Cha Chịu Đau Khổ”. Hoặc thuyết Thừa Tự (Adoptionism) cho rằng Đức Giêsu Kitô tự bản chất không là Thiên Chúa, nhưng được Thiên Chúa tạo dựng, và cho làm con Thiên Chúa, nghĩa là được chọn làm thừa tự. Chủ thuyết này căn cứ vào tin mừng khi Chúa Giêsu chịu phép rửa và được Thiên Chúa Cha công nhận: “Con là con yêu dấu Cha, Cha hài lòng về con” (Mc 1:9). Lạc thuyết này từ chối Chúa Giêsu LÀ Thiên Chúa từ đời đời, vì Ngài chỉ TRỞ NÊN Thiên Chúa khi Chúa Cha cho phép mà thôi… Nói chung có rất nhiều những lạc thuyết cho đến khi tín điều về Ba Ngôi được định tính hoàn toàn.
+
+Mầu nhiệm Ba Ngôi là mầu nhiệm bí ẩn và thẳm sâu. Chúng ta chỉ biết được qua những mặc khải của Đức Giêsu. Khi giảng dạy, Ngài gọi Thiên Chúa là Cha của Ngài.  Ngài hằng cầu khẩn Chúa Cha, tìm sống thánh ý Chúa Cha, chu toàn sứ mệnh Chúa Cha trao phó: “Lạy Cha, con cảm tạ Cha vì đã nhậm lời con…” (Ga 11:41). Tại vườn Cây Dầu, Chúa Giêsu đã thưa cùng Chúa Cha: “Lạy Cha, nếu được, thì xin cho con khỏi uống chén này. Nhưng xin đừng theo ý con, mà xin theo ý Cha” (Mt 26:39). Vì tuyên bố Thiên Chúa là Cha và xưng mình là Con, nên Chúa Giêsu đã bị kết án tử hình vì “đã nói phạm thượng” (x. Mt 26:13-64). 
+
+Chúa Giêsu cũng dạy chúng ta về Chúa Thánh Thần, nhất là trong diễn từ chia ly: Người hứa sẽ gửi Thánh Thần của Người đến sau khi về bên Chúa Cha (x. Ga 13:17); Người gọi Thánh thần là Đấng bầu chữa (x. Ga 14:16); Thánh Thần sẽ làm chứng cho Người và sẽ loan báo trước những gì sẽ xảy đến (x. Ga 16:13-14). Và nhất là Ngài cho chúng chúng ta biết vị trí của Ngài trong Ba Ngôi Thiên Chúa. Chúa Giêsu nói: “Ta và Cha là một” (Ga 10:30), nghĩa là Ngài là Thiên Chúa như Chúa Cha. Ngài được Chúa Cha sai đến trần gian cứu độ loài người. Ngài là khởi đầu và là cuối hết, nghĩa là Ngài có từ đời đời. Tha tội chỉ có mình Thiên Chúa và Chúa Giêsu có quyền tha tội (x. Lc 5:24), một độc quyền của Thiên Chúa (x. Lc 5:21); và nhất là Chúa Giêsu đã sống lại chứng tỏ Người là Con Thiên Chúa, cũng là Thiên Chúa thật.
+ 
+Thiên Chúa được định nghĩa là Tình Yêu, nghĩa là Ngài không đơn độc một mình. Nếu như Ngài đơn độc một mình thì Ngài sẽ yêu một mình Ngài một cách ích kỷ vô cùng. Nhưng Ngài là ba ngôi: Cha, Con và Thánh Thần. Là ba, nhưng cả ba hoàn toàn yêu thương hiến tặng sự sống, hoàn toàn tương quan với nhau, hiệp nhất với nhau: Cha hoàn toàn là của Con, Con hoàn toàn là của Cha và mối tương quan tình yêu và sự sống này giữa Cha và Con là Chúa Thánh Thần. Mầu nhiệm Ba Ngôi trong tương quan nội tại với nhau luôn cùng hiện diện, cùng hoạt động và thánh hóa. Nhưng tình yêu đó không giữ cho riêng mình, mà Ba Ngôi vị đó còn có liên quan đến chúng ta.
+
+Mầu nhiệm Chúa Ba Ngôi là nguồn gốc phát sinh muôn vật, trong đó loài người đặc biệt được dự phần vào sự sống thần linh của Người. Thiên Chúa (Ngôi Cha) đã dựng nên vũ trụ cho loài người có nơi ăn chốn ở, có phương tiện sinh sống. Thiên Chúa (Ngôi Con) đã xuống thế, trả lại sự sống thần linh mà nguyên tổ đã đánh mất. Thiên Chúa (Ngôi Thánh Thần) tiếp tục tăng cường sức sống thần linh nơi các tín hữu. Như thế, Thiên Chúa ở trong chúng ta, ở cùng chúng ta và đồng hành với chúng ta trong bước đường trần thế và là cùng đích cho đời sống vĩnh hằng. Ba Ngôi là lò lửa tình yêu lúc nào cũng ngùn ngụt cháy. Ba Ngôi là nguồn mạch tình yêu không bao giờ vơi cạn. Cuộc trao đổi cho đi và nhận lãnh làm cho tình yêu của Ba Ngôi Thiên Chúa ngày càng sung mãn dồi dào. Tất cả mọi tình yêu đều bắt nguồn từ Chúa Ba Ngôi. Tất cả mọi tình yêu muốn trung thực và bền vững đều phải học theo khuôn mẫu tình yêu Chúa Ba Ngôi. Hạnh phúc là ta được tham dự vào bầu khí yêu đương của Chúa Ba Ngôi. Hạnh phúc sẽ đến khi mọi người biết yêu thương nhau trong tình yêu của Chúa Ba Ngôi.
+
+Giáo Xứ cũng hân hoan chúc mừng Thẩy Phó tế Giuse Phạm Kim Vinh, L.C. được lãnh nhận hồng ân thánh chức linh mục, xin cho tân chức luôn sống dìm mình, cảm nghiệm và trung thành với tình yêu Ba Ngôi Thiên Chúa.
+
+“Nhân danh Cha và Con và Thánh Thần”
+
+Hiệp nhất trong an bình của Đức Kitô,
+Lm. G.B Phạm Nguyễn Tuấn Anh
+
+     `
+     }, 
+     {
     "Section": "Các Bài Viết",
     "date": "2021-05-23",
     "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
