@@ -14,7 +14,9 @@ const VietHongClassesPage = () => (
     <p></p>
     <br/>
     <div class="col-12">
-        <div class="section-heading"><h2>CÁC LỚP</h2></div>
+        <div class="section-heading"><h2>CÁC LỚP</h2>
+        <h3>Niên Học 2020-2021</h3></div>
+        
         <DisplayClasses list={vietHongClasses}/>
     </div>
     <br/>
