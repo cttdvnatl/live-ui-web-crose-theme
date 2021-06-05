@@ -12,17 +12,17 @@ const VietHong = () => {
             <Header/>
             <VietHongHeader/>
             <br/><br/><br/>
-            <h6 style={{textAlign: "center"}}><u>Ghi Danh Niên Học 2021-2022</u><br/>
-                Dành cho học sinh mới (new students only)<br/><br/>
+            <h5 style={{textAlign: "center"}}><u>Ghi Danh Niên Học 2021-2022</u><br/>
+                Dành cho học sinh mới <br/><br/>
 
-                <b>Thứ Bảy ngày 26 tháng 6, 2021 </b><br/><br/>
+                <b>Thứ Bảy ngày 26 tháng 6 năm 2021 </b><br/><br/>
                 <u>Thời gian</u>: 10 giờ sáng đến 12 giờ trưa <br/><br/>
                 <u>Địa điểm</u>: Building B (trong khuôn viên giáo xứ) <br/><br/>
-                <u>Địa chỉ</u>: 4545 Timmers Way Norcross, GA 30093 <br/><br/>
+                <u>Địa chỉ</u>: 4545 Timmers Way, Norcross GA 30093 <br/><br/>
 
                 Xin quý phụ huynh vào phần <b><u>Văn Thư</u></b> để lấy đơn ghi danh cho con em. <br/><br/>
                 <b>Đơn Ghi Danh Niên Học 2021-2022 School Year Registration Form (NEW student)</b><br/><br/>
-                </h6>
+                </h5>
                 <div className="container-fluid text-center">
                 <p id="viet-ngu" style={{width: '65%', margin: 'auto'}}>{t('viethong.home.announcement')}</p>
                 <br/>
