@@ -23,6 +23,26 @@ const articleContent =
 [
      {
      "Section": "Các Bài Viết",
+     "date": "2021-06-06",
+     "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
+        "title": "Lễ Kính Mình và Máu Thánh Chúa",
+     "body":
+     `
+     Hằng năm, sau Chúa Nhật Lễ Chúa Ba Ngôi, toàn thể Giáo Hội long trọng mừng Lễ Kính Mình và Máu Thánh Chúa.  Đây là dịp rất tốt lành và thuận lợi để các tín hữu bày tỏ lòng sùng kính một các đặc biệt đối với Bí Tích Thánh mà Chúa Giêsu vì yêu thương, đã lập ra để ở lại và trao ban chính Mình và Máu Thánh của Ngài cho nhân loại. 
+
+Ngoài các Thánh Lễ, ở rất nhiều nơi trên thế giới có tổ chức các buổi chầu, đại hội Thánh Thể và những cuộc rước kể cả trên đường phố, tùy theo hoàn cảnh của từng địa phương. Trong các cuộc rước kiệu Thánh Thể này, các tín hữu ăn mặc các trang phục truyền thống, họ ca hát và thổi kèn, tạo ra một bầu khí thật hân hoan, vừa mang tính thánh thiện vừa mang tính lễ hội để tạ ơn Chúa vì sự hiện đích thật của Ngài giữa đoàn chiên.  Tại Rôma, thủ đô của Giáo Hội, mỗi năm đều có cuộc rước Thánh Thể rất long trọng từ đền Thánh Gioan Lateranô đến Đền Thánh Đức Bà Cả, đoạn đường hơn một cây số, dưới sự chủ tọa của Đức Thánh Cha.  Theo tin tức trên trang mạng Vietcatholic, năm nay tuy nạn dịch Covid vẫn còn đang hoành hành ở khắp nơi, nhưng ở các thành phố bên Âu Châu, dự định sẽ có hàng triệu người tham dự các cuộc rước Thánh Thể trên đường phố, để cầu nguyện cho cơn đại dịch mau chấm dứt. 
+
+Riêng tại Tổng Giáo Phận Atlanta, hơn hai mươi năm qua, vẫn liên tục tổ chức Đại Hội Thánh Thể với sự tham dự của hơn hai chục ngàn người mỗi năm.  Nhưng hai năm qua vì hoàn cảnh của cơn đại dịch, Đại Hội Thánh Thể phải tạm hoãn.  Thay vào đó, Đức Tổng Giám Mục kêu gọi mỗi giáo xứ tổ chức một hình thức nào đó để tỏ lòng tôn kính Thánh Thể.  Năm nay giáo xứ chúng ta sẽ có buổi chầu Thánh Thể sau Thánh Lễ sáng Thứ Bảy áp lễ Kính Mình và Máu Thánh Chúa.  Buổi tối cùng ngày, đoàn Thiếu Nhi Thánh Thể Tôma Thiện cũng có buổi chầu Thánh Thể từ 7:15-8:45 tối.  Sau mỗi Thánh Lễ Kính Mình Chúa Nhật và Máu Thánh Chúa cuối tuần này, chúng ta sẽ có ít phút tôn thờ, kiệu Thánh Thể trong nhà thờ và ban phép lành trọng thể.  Buổi chiều lúc 6 giờ tối, toàn Giáo Xứ xẽ có cuộc rước kiệu và chầu Thánh Thể một cách trọng thể xung quanh nhà thờ.
+
+Để đáp lại tình thương vô biên của Chúa Giêsu, chúng ta hãy tận dụng cơ hội quý báu của dịp lễ Kính Mình và Máu Thánh Chúa này, để ý thức hơn và làm mới lại lòng yêu mến của chúng ta đối với  Bí Tích Thánh Thể, qua việc siêng năng và sốt sáng đến tham dự Thánh Lễ, cũng như dành thêm thời gian đến nhà thờ viếng Thánh Thể thường xuyên hơn.  Và cụ thể là tham dự các buổi chầu, rước Thánh Thể được kể trên của giáo xứ.  Chắc chắn khi chúng ta gần Chúa thì sẽ được trở nên giống Chúa hơn, và đây chính là điều mà Chúa Giêsu Thánh Thể đang mong đợi nơi mỗi người chúng ta.
+
+Ngợi khen Chúa Giêsu Kitô!
+
+Linh mục Đaminh Trần Công Thơ
+     `
+     }, 
+     {
+     "Section": "Các Bài Viết",
      "date": "2021-05-30",
      "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
         "title": "TÌNH YÊU BA NGÔI",
