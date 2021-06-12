@@ -51,7 +51,7 @@ import VNSaints from './pages/VNSaints';
 import Upload from './pages/Upload';
 
 //Google Analytics
-ReactGA.initialize('UA-166941054-1', {
+ReactGA.initialize('UA-168016188-1', {
     debug: true,
     titleCase: false,
     gaOptions: {}
