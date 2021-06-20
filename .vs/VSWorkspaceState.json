@@ -1,14 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\public\\img\\bg-img",
     "\\src",
     "\\src\\components",
     "\\src\\database",
-    "\\src\\img\\core-img",
     "\\src\\pages",
     "\\src\\store"
   ],
-  "SelectedNode": "\\src\\database\\hvmatlDataEN.json",
+  "SelectedNode": "\\src\\components\\ClergyList.jsx",
   "PreviewInSolutionExplorer": false
 }
