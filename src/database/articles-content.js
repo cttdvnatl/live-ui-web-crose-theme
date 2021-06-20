@@ -23,6 +23,33 @@ const articleContent =
 [
      {
      "Section": "Các Bài Viết",
+     "date": "2021-06-20",
+     "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
+        "title": "Ngày Hiền Phụ - Father’s Day",
+     "body":
+     `
+     Hằng năm tại Hoa Kỳ, vào Chúa Nhật thứ ba của Tháng Sáu, Ngày Hiền Phụ (Father's Day), được cử hành để tôn vinh các người cha. Ngày Hiền Phụ được tổ chức lần đầu tiên vào ngày 19-6-1910 tại Hoa Kỳ, và sau đó lan truyền trên khắp thế giới. Các nước có ngày mừng khác nhau, nhưng tại Pháp, Canada, Chilê, Nhật Bản và Ấn Độ đều mừng Ngày Hiền Phụ vào Chúa Nhật thứ ba của Tháng Sáu. Trong tâm tình mừng ngày tôn vinh các người cha, tôi xin chia sẻ mấy tâm tình sau:
+
+Trước hết ta cùng tìm xem Kinh Thánh nói gì về ‘người cha’ trong Kinh Thánh. Sách Khôn ngoan đã dạy: “Ai yêu kính cha thì đền bù tội lỗi,” hoặc lời khuyên con cái, “Hỡi những người con hãy gánh lấy tuổi già của cha ngươi, chớ làm phiền lòng người.” Hình ảnh người cha trong Tân Ước minh họa cho lòng nhân từ của Thiên Chúa là Cha giàu lòng thương xót: “Có người cha nào trong anh em, con mình xin cá lại lấy rắn thay vì cá mà cho nó? hoặc nó xin trứng mà lại cho nó con bọ cạp? Vậy nếu anh em là những kẻ xấu mà còn biết cho con cái mình những của tốt lành, phương chi Cha trên trời, Người sẽ ban Thánh Thần cho những kẻ xin Người” (Lc 11,11-13). Dụ ngôn người cha nhân hậu mà Chúa Giêsu nói với dân chúng theo người, cho thấy một người cha trên trần gian luôn trông chờ đứa con tội lỗi trở về. Tình thương bao la của người cha đó là hiện thân của Thiên Chúa Cha, Đấng giàu lòng thương xót nhân loại (x. Lc 15).
+
+Kế đến, trong ngày lễ tôn vinh các người cha, ta hãy mặc lấy tâm tình tạ ơn Thiên Chúa là Cha, Đấng đã yêu thương và cho chúng ta thành con người, cứu chuộc chúng ta, cho ta làm nghĩa tử, và chuẩn bị cho chúng ta cuộc sống vĩnh cửu. Hãy tôn vinh Thiên Chúa và giữ mối dây Cha-con với Thiên Chúa. Chính Chúa Giêsu đã dạy ta gọi Thiên Chúa là Cha được diễn đạt trong các ngôn ngữ khác như: Abba – Daddy – Papa – Ba.
+
+Mặt khác ta hãy cầu nguyện cho các người cha vì người Kitô Hữu cử hành Ngày Hiền Phụ không chỉ mang ý nghĩa tôn vinh các người cha trong xã hội với những hình thức tổ chức bên ngoài, nhưng còn mang chiều kích tâm linh. Ta cần phải nhận thức rõ người vai trò của người cha trong sứ vụ cao cả và nhiệm mầu của Thiên Chúa. Thực vậy những người cha là những mắt xích nối kết truyền gieo sự sống đời này qua đời khác; cha là dụng cụ Thiên Chúa đã quan phòng sắp đặt để sự sống được nối dài; và cha đã cộng tác vào công trình sáng tạo và hoàn thành sứ mệnh. Do đó chúng ta phải thưa lời cám ơn cha đã truyền cho con sự sống và cầu nguyện cho các ngài chu toàn sứ mệnh đã được Thiên Chúa trao phó.
+
+Thêm vào đó, chúng ta cũng cần nhớ ơn và tôn vinh tất cả những ai mang danh hiệu là cha, cha tinh thần, cha đỡ đầu, cha linh hướng, và cha nuôi… Ta hãy dâng lời tạ ơn Thiên Chúa và cầu xin cho các người Cha được chu toàn bổn phận, trách nhiệm và nêu gương sáng cho con cháu. Trong tâm tình này, ta không thể không nhắc đến Thánh Cả Giuse là mẫu gương của người cha trong sự khiêm nhường, thánh thiện, phù trợ và bảo vệ. Xin qua lời chuyển cầu của Ngài, Thiên Chúa gìn giữ và chúc phúc lành cho tất cả các người cha của chúng con.
+
+Mừng ngày Hiền Phụ, chúng ta nhớ đến Thiên Chúa là Cha, nhớ đến công ơn trời biển của cha mình. Đây là dịp mỗi người con trong gia đình thể hiện lòng tôn kính, nhớ ơn công ơn dưỡng dục sinh thành và thực thi điều răn Chúa dạy: “Phải thảo kính cha mẹ”.
+
+Nguyện Xin Thiên Chúa chúc lành cho các bậc làm Cha luôn được sống an vui trong Thiên chức “mục tử tại gia”, luôn trở thành gương sáng cho con cái, noi gương Thánh Giuse, người Cha thánh thiện trong gia đình Nagiarét.
+
+Chúc mừng ngày Hiền Phụ - Happy Father’s Day!
+
+Thân mến,
+Lm. Phanxicô Trần Quốc Tuấn
+     `
+     },    
+     {
+     "Section": "Các Bài Viết",
      "date": "2021-06-06",
      "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
         "title": "Lễ Kính Mình và Máu Thánh Chúa",
