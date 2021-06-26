@@ -1,6 +1,7 @@
 import React, {useEffect, useState, useRef, useCallback} from 'react';
 import { setLanguage, getLanguage, useTranslation } from 'react-multi-lang';
 import EmergencyEvent from "./EmergencyNotice";
+import HcmtEvent from "./HcmtNotice";
 import PopupModal from "./PopupModal";
 
 const Header = (prop) => {
@@ -198,7 +199,7 @@ const Header = (prop) => {
                                                 <ul className="dropdown">
                                                     <li><a href="/activities">{t("header.dropdownMenuTwo.item1")}</a></li>
                                                     <li><a href="/printed-calendar">{t("header.dropdownMenuTwo.item2")}</a></li>
-                                                    <li><a href="/fall-fest">{t("header.dropdownMenuTwo.item3")}</a></li>
+                                                    <li><a href="/covid19">{t("header.dropdownMenuTwo.item3")}</a></li>
                                                     <li><a href="/thieu-nhi">{t("header.dropdownMenuTwo.item4")}</a></li>
                                                 </ul>
                                                 <span className="dd-trigger"/>
@@ -246,7 +247,8 @@ const Header = (prop) => {
                                 </div>
                             </nav>
                         </div>
-                        <EmergencyEvent emergency={'emergency' in prop ? prop.emergency : false} message={prop.emergencyMsg} url={prop.url}/>
+                        {/* <EmergencyEvent emergency={'emergency' in prop ? prop.emergency : false} message={prop.emergencyMsg} url={prop.url}/> */}
+                        <HcmtEvent hcmt={'hcmt' in prop ? prop.hcmt : false} message={prop.hcmtMsg} url={prop.url}/>
                     </div>
                 </div>
             </div>

@@ -13,7 +13,8 @@ const Index = () => {
     return(
         <div>
             <Preloader/>
-            <Header emergency={true} emergencyMsg={t("index.headerMsg")} url="/covid19"/>
+            {/* <Header emergency={true} emergencyMsg={t("index.headerMsg")} url="/covid19"/> */}
+            <Header hcmt={true} hcmtMsg={t("index.hcmtMsg")} url="https://fallfestivalatl.org"/>
             <CustomCarousel/>
             <Info/>
             <Event/>
