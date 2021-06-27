@@ -21,6 +21,33 @@ Please update a new article in this form:
 
 const articleContent =
 [
+      {
+      "Section": "Các Bài Viết",
+      "date": "2021-06-27",
+      "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
+        "title": "Thủ Tục Tiêu Hôn",
+     "body":
+     `
+     Như chúng ta đã biết, ngày càng có nhiều cuộc hôn nhân Công Giáo kết thúc qua việc ly dị. Sau khi ly dị thì phần đông chọn tái hôn.  Khi tái hôn mà chưa qua thủ tục tiêu hôn, và chưa được Tòa Án Hôn Phối tuyên bố hôn nhân không thành hay vô hiệu, cũng như chưa có phép đạo thì người tái hôn không được xưng tội và rước lễ. Để được tái hôn theo phép đạo, thì đương sự phải trải qua một tiến trình khá phức tạp tùy theo trường hợp, được gọi là tiêu hôn.  Vậy tiêu hôn là gì?
+
+Tiêu hôn trong Giáo Hội Công Giáo không giống như ly dị ở tòa đời, và cũng không phải là tháo gỡ hôn phối như đôi khi chúng ta hiểu.  Bởi vì khi một cuộc hôn nhân giữa một người nam và một người nữ được thiết lập dưới bất cứ nghi thức nào, đạo hay đời, thì được phỏng định là đã thành sự và có tính chất vĩnh viễn như Chúa Giêsu đã khẳng định, “Sự gì Thiên Chúa đã liên kết, con người không được phân ly” (Mc 10:9). Giáo Hội Công Giáo luôn trung thành với lời dạy này của Chúa Giêsu. Do đó, tiêu hôn là một tiến trình do Tòa Án Hôn Phối Giáo Phận điều tra và xem xét trường hợp hôn phối ấy có thành sự hay không.  Nếu sau khi điều tra và xem xét, thấy cuộc hôn nhân ấy có những thiếu sót, và không đúng theo quy định của giáo luật, thì tòa án hôn phối tuyên bố hôn nhân bất thành hay vô hiệu, có nghĩa là dây hôn phối ấy đã chưa được thiết lập, và cả hai người có thể tái hôn theo phép đạo. Tuy nhiên, có những trường hợp hôn phối đã thành sự thì Tòa Ân Hôn Phối không thể tuyên bố hôn nhân vô hiệu.  
+
+Có những trường hợp xin tiêu hôn như sau: 
+Đơn Thỉnh Cầu Cho Trường Hợp Ràng Buộc Tiền Hôn (Ligamen).  
+Đơn Thỉnh Cầu Cho Trường Hợp Thiếu Thể Thức Giáo Luật (Lack of Canonical Form). 
+Đơn Thỉnh Cầu Cho Trường Hợp Thông Thường (Ordinary Process). 
+Đơn Xin Tiêu Hủy Hôn Phối Theo Đặc Ân Đức Tin (Favor of the Faith). 
+Đơn Xin Tiêu Hủy Hôn Phối Theo Đặc Ân Thánh Phaolô (Pauline Privilege).
+
+Các giấy tờ cần thiết cho các đơn xin tiêu hôn thông thường bao gồm:  Giấy chứng nhận rửa tội hoặc tuyên xưng đức tin đối với đương sự là người Công Giáo và được cấp trong vòng 6 tháng.  Giấy chứng nhận kết hôn hay giấy hôn thú.  Giấy ly dị được cấp bởi tòa án.  Ngoài ra, các nhân chứng cũng rất quan trọng và cần thiết trong tiến trình xin tiêu hôn.
+
+Tiến trình xin tiêu hôn phải đi qua nhiều thủ tục giấy tờ và đòi hỏi sự kiên nhẫn của đương đơn cũng như sự cộng tác của nhiều người.  Hiện tại trong giáo xứ chúng ta có bốn người giáo dân đã được huấn luyện, và được phép của Tòa Án Hôn Phối của Tổng Giáo Phận Atlanta, để cộng tác với quý cha và giúp quý ông bà anh chị em làm thủ tục tiêu hôn. Vậy quý ông bà anh chị em nào đang ở trong trường hợp hôn nhân cần được xem xét để tòa án hôn phối tuyên bố hôn nhân không thành, thì xin mạnh dạn gặp quý cha để được hướng dẫn và giúp đỡ. 
+
+Ngợi khen Chúa Giêsu Kitô!
+Linh mục Đaminh Trần Công Thơ
+
+     `
+     },
      {
      "Section": "Các Bài Viết",
      "date": "2021-06-20",
