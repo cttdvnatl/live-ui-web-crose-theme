@@ -21,7 +21,29 @@ Please update a new article in this form:
 
 const articleContent =
 [
-      {
+        {
+            "Section": "Các Bài Viết",
+            "date": "2021-07-04",
+            "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
+        "title": "Khóa Thăng Tiến Hôn Nhân Gia Đình",
+            "body":
+        `
+        Chỉ còn 2 tuần nữa giáo xứ CTTĐVN TGP Atlanta chúng ta có tổ chức khóa Căn Bản cho các cặp gia đình. Tôi xin được chia sẻ mấy điểm về Chương Trình Thăng Tiến Hôn Nhân Gia Đình (Marriage Family Enrichment Program).
+
+Trước tiên, Chương Trình Thăng Tiến Hôn Nhân Gia Đình là một đoàn thể Công Giáo Tiến Hành, vì đây là một Chương Trình Tâm Lý Đạo Đức Công Giáo; được Giáo Hội chấp thuận và sinh hoạt trong Giáo Hội để hoạt động Tông đồ trong môi trường gia đình, hơn 30 năm qua, đặc biệt cho các Gia đình Công Giáo Việt Nam. Đoàn sủng của Chương Trình là “Thương Yêu Gần Gũi Bằng Việc Làm” để thánh hóa bản thân và gia đình. CT. TTHNGĐ không chỉ giúp các đôi hôn nhân hiểu biết và phát triển sự liên hệ vợ chồng trong đời sống hôn nhân, nhưng còn nhấn mạnh đến sự liên hệ giữa cha mẹ và con cái cùng phương pháp giáo dục chúng trong môi trường xã hội mới. Đồng thời cả hai vợ chồng theo tinh thần “Hồn Tông Đồ Song Đôi” mà phục vụ các gia đình trong Cộng Đồng Dân Chúa.
+
+Kế đến, chúng ta cùng tìm hiểu hơn về Khóa Căn Bản của CT. TTHNGĐ. Mỗi Khoá Căn Bản được tổ chức từ các Cộng Đoàn/ Giáo Xứ; Lấy Kinh Thánh làm nền tảng và áp dụng Phương pháp Tâm Lý Thực Nghiệm theo đường lối Linh Thao của Thánh Inhaxiô để thực hành Đoàn sủng của CT. TTHNGĐ là “Thương Yêu Gần Gũi Bằng Việc Làm”.  Khoá học cần phải có “cặp” (cả hai vợ chồng) và cần đủ 48 giờ để ‘học và hành’ đủ 6 buổi làm việc (Session).  Khóa học sẽ dựa trên ý chí để thay đổi bản thân hơn là tập trung vào lý thuyết, qua đó từng khoá viên sẽ Khiêm Nhường để Biết Lỗi, Nhận Lỗi, Xin Lỗi, Sửa Lỗi, và Tha Lỗi cho nhau.
+
+Sau cùng, khi dự Khóa về thì tiếp tục sinh hoạt theo phương cách của Chương Trình để tiếp tục tạ ơn và phát triển liên hệ giữa vợ - chồng, cha mẹ - con cái để giúp các vợ chồng thêm Thông Cảm và Làm Gương Lành cho Con qua đường lối làm việc Tông Đồ Song Đôi trong Hội Thánh. Điều chắc chắn chúng ta không thể trở nên thánh thiện và đạt được mục đích của Chương Trình ngay trong một ngày hoặc một cuối tuần, nhưng Khóa Căn Bản chỉ là Điểm Khởi Đầu để bắt đầu một hành trình mới, một tập luyện mới để thăng tiến trong đời sống hôn nhân gia đình và thắt chặt hơn mối giây liên hệ Chồng-Vợ, Cha Mẹ - Con Cái trong gia đình.
+
+Trong tâm tình hiệp thông của một gia đình thiêng liêng, chúng ta cùng khích lệ, cầu nguyện và góp sức cho công việc tổ chức Khóa được thành công để các gia đình, nhất là các “Song Nguyền” nên thánh qua đoàn sủng “Thương Yêu Gần Gũi Bằng Việc Làm” mà Chương Trình Thăng Tiến Hôn Nhân Gia Đình đã và đang thực hiện.
+
+Thân mến
+Lm. Phanxicô trần Quốc Tuấn
+
+        `
+        },
+        {
       "Section": "Các Bài Viết",
       "date": "2021-06-27",
       "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
