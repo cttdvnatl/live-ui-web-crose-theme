@@ -23,6 +23,31 @@ const articleContent =
 [
         {
             "Section": "Các Bài Viết",
+            "date": "2021-07-11",
+            "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
+            "title": "Ngày Thế Giới Ông Bà Và Người Cao Tuổi",
+            "body":
+        `
+        Trong buổi đọc Kinh Truyền Tin trưa Chúa Nhật ngày 31/01/2021, ĐTC Phanxicô đã công bố thiết lập Ngày Thế Giới Ông Bà và Người Cao Tuổi lần thứ nhất, và qui định sẽ được cử hành vào Chúa Nhật thứ tư của tháng Bảy, gần với lễ hai thánh Gioakim và Anna.
+
+Chủ đề cho năm nay: “Thầy ở cùng anh em mọi ngày cho đến tận thế” được ĐTC Phanxicô trích từ Tin Mừng Thánh Mátthêu (28,20), diễn tả sự gần gũi của Chúa và Giáo hội đối với mọi người cao niên, đặc biệt là trong những thời điểm đầy thử thách của đại dịch Covid-19. Thực vậy ĐTC Phanxicô đã chia sẻ rằng: “Ta luôn ở cùng con” là lời Chúa đã hứa với các môn đệ trước khi về trời. Đây là những lời hôm nay Chúa lặp lại với anh chị em, thưa quý ông bà nội ngoại và những người bạn cao niên.  Thêm vào đó, Giáo Hội và Ngài cũng muốn nói với các Ông Bà và Người Cao với tư cách là Giám mục của Rôma và một người lớn tuổi như anh chị em: “Tôi luôn ở bên anh chị em.” Toàn thể Giáo hội gần gũi với anh chị em - với chúng ta - và quan tâm đến anh chị em, yêu thương anh chị em và không muốn để anh chị em đơn độc! Tóm lại, ĐTC Phanxicô bảo đảm với những người cao tuổi rằng Thiên Chúa luôn ở bên họ và Ngài cũng nhắc nhở họ về ơn gọi của họ trong việc gìn giữ cội nguồn và truyền lại đức tin cho lớp trẻ.
+
+Đức Hồng Y Kevin Farrell, Tổng trưởng Bộ Giáo dân, Gia đình và Sự sống trong dịp này cũng nhấn mạnh đến sự dịu dàng, như Đức Thánh Cha từng đề cập đến trong Sứ điệp ngày 22/6. Sự dịu dàng đối với người cao niên, được thể hiện bởi những người trẻ, như thiên thần thăm viếng an ủi người già cô đơn. Đồng thời, ngày này cũng nói về sự dịu dàng của ông bà dành cho con cháu, sự hướng dẫn chắc chắn của họ giúp cho những con cháu đã bị mất định hướng.
+
+Bộ Giáo dân, Gia đình và Sự sống cũng xác định rằng chủ đề: “Thầy ở cùng anh em mọi ngày cho đến tận thế” cũng là “một lời hứa về sự gần gũi và hy vọng rằng người già và người trẻ đều có thể chia sẻ cùng nhau.” Không chỉ những người cháu và người trẻ được mời gọi hiện diện trong đời sống của những người cao niên, nhưng cả những người lớn tuổi và các ông bà cũng có sứ mạng truyền giáo, loan báo và cầu nguyện, và khích lệ người trẻ trong đức tin của họ.
+
+Việc cử hành Ngày Thế giới Ông bà và Người Cao Tuổi được đề nghị rằng: mỗi giáo phận và giáo xứ có thể dành một Thánh lễ. Mong sự tham dự của càng nhiều ông bà và người cao niên tham dự càng tốt để “sự hiện diện của họ là một dấu hiệu rõ ràng cho thấy tầm quan trọng của họ trong cộng đồng.” Trong ngày này, ĐTC Phanxicô ban Ơn Toàn xá cho các ông bà, người già và tất cả các tín hữu tham gia sự kiện với “tinh thần sám hối và bác ái thực sự.”
+
+Trong tâm tình trên, tại Giáo Xứ chúng ta, Thánh lễ Ngày Thế giới Ông bà và Người Cao Tuổi sẽ được tổ chức lúc 9g30 sáng Chúa Nhật ngày 25/7/2021. Chúng ta cùng hiệp nhau tạ ơn Thiên Chúa và biết ơn các Ông Bà và Người Cao Tuổi. Nguyện xin cho các cụ tràn đầy sức khỏe, niềm hạnh phúc, và ơn lành của Thiên Chúa trong tình yêu thương chăm sóc của con cháu và cộng đồng.
+
+Rất mong các gia đình cố gắng sắp xếp để đưa các vị cao niên và ông bà đến đông đủ để cùng cử hành Ngày Thế giới Ông Bà và Người Cao Tuổi lần thứ nhất này.
+
+Thân mến
+Lm. Phanxicô Trần Quốc Tuấn
+        `
+        },
+        {
+            "Section": "Các Bài Viết",
             "date": "2021-07-04",
             "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
         "title": "Khóa Thăng Tiến Hôn Nhân Gia Đình",
