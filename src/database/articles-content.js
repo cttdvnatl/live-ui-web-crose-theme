@@ -23,6 +23,29 @@ const articleContent =
 [
         {
             "Section": "Các Bài Viết",
+            "date": "2021-07-18",
+            "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
+            "title": "Thương Quá Sài Gòn Ơi",
+            "body":
+        `
+        Trong những ngày qua, tại Hoa Kỳ, chúng ta đang mang tâm trạng rất phấn khởi tạ ơn vì dường như ta đã vượt qua giai đoạn nguy hiểm nên sự cấm đoán và giới hạn về phòng ngừa dịch bệnh không còn nữa. Tuy vậy, chúng ta lại lo buồn và hướng lòng về quê hương thân yêu đang chịu cảnh đau thương vì cơn dịch Covid-19 tái bùng phát rất dữ dội, nhất là một trong những tâm điểm dịch bệnh bùng phát tại Sài Gòn.
+
+Trong lúc ngặt nghèo này, Đức Tổng Giám Mục Giuse Nguyễn Chí Linh, Chủ Tịch Hội Đồng Giám Mục Việt Nam, trong thư “Thương Quá Sài Gòn Ơi”, đã kêu gọi sự hỗ trợ của mọi người trong nước cũng như đồng bào hải ngoại giúp cho những người, vì sự phong tỏa, đã thiếu những nhu cầu cần thiết để sống.
+
+Trong Thư Mục Vụ, Đức cha giáo phận Xuân Lộc cũng bày tỏ và kêu gọi mối quan tâm và hoạt động của các linh mục với sự cộng tác thiện nguyện của đông đảo giáo dân: Quý chức Ban Hành Giáo, các giới, các hội đoàn, các bạn trẻ hãy hành động để chia sẻ “nắm gạo, mớ rau… những hộp cơm dùng ngay cho đỡ đói lòng… đã đáp ứng nhu cầu thiết yếu…” trong giai đoạn khẩn thiết này. Ngài cũng nhắc nhớ tinh thần ‘không phân biệt lương giáo’, quan tâm đặc biệt và ưu tiên đến những gia đình nghèo khó, những người thất nghiệp lâu ngày do dịch bệnh, những di dân lao động, kiếm ăn từng bữa, bữa đói bữa no. Hãy tích cực hoạt động bác ái để biến “những ngõ ngách đã quen heo hút, những lối mòn với những căn hộ lẻ loi, hay khoảng sân nhà thờ nhà xứ… đã trở thành những địa chỉ thân thương” thắm tình chia sẻ của đồng bào – Lá lành Đùm Lá Rách.
+
+Chúng ta cảm nhận trong những ngày này, những nhu cầu lương thực không thể thiếu nên chúng ta cần hành động ngay. Cụ thể để đáp lại lời mời gọi tiếp tay trợ giúp của Giáo hội Việt Nam, Liên Đoàn CGVNHK, Giáo Xứ CTTĐVN chúng ta cũng đã trích quỹ cứu trợ ngay. Liên Đoàn tiếp tục mời gọi các giáo xứ, cộng đoàn và mọi người hãy giúp cho đồng bào chúng ta đang trong cảnh đói khổ vì dịch bệnh này. Vì sự cấp bách, xin các cá nhân hoặc đoàn hội nhanh chóng gửi thẳng cho Văn Phòng Hội Đồng Giám Mục Việt Nam. Trong trường hợp gặp trở ngại hay khó khăn để gửi về, quý vị có thể gởi về cho Liên Đoàn và Liên Đoàn sẽ gửi giúp cho quý vị. Các ngân phiếu xin ghi và gửi về: Federation of Vietnamese Catholics in the USA, 15 W. Par St., Orlando, FL 32804.
+
+Sau nữa, là những người Công giáo, chúng ta còn có Cầu Nguyện, hãy cùng nhau hiệp thông với nhau và với đồng bào tại quê nhà khi sốt sắng dâng những Thánh Lễ và thực hiện giờ cầu nguyện cá nhân, gia đình, và giáo xứ. Chắc chắn, tình thương, sự hiệp nhất, và lòng Tin, Cậy Mến của chúng ta được Thiên Chúa lắng nghe.  Là những người tại đất nước Hoa Kỳ, chúng ta hãy sống tâm tình tạ ơn vì chúng ta được bảo vệ, được trợ cấp quá đầy đủ cho dù trong những giai đoạn khó khăn nhất.  Hãy sống tâm tình tạ ơn bằng hành động cụ thể là chia sẻ. Chắc chắn Thiên Chúa không bao giờ thua kém lòng quảng đại của chúng ta.
+
+Nguyện xin Thiên Chúa giàu Lòng Thương Xót chúc lành cho chúng ta và những công việc trợ giúp đang thể hiện lòng thương xót với anh chị em đồng bào trong giai đoạn khẩn thiết này.
+
+Thân mến
+Lm. Phanxico Trần Quốc Tuấn
+        `
+        },
+        {
+            "Section": "Các Bài Viết",
             "date": "2021-07-11",
             "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
             "title": "Ngày Thế Giới Ông Bà Và Người Cao Tuổi",
