@@ -23,6 +23,26 @@ const articleContent =
 [
         {
             "Section": "Các Bài Viết",
+            "date": "2021-08-01",
+            "image": "https://hvmatl.net/gallery/img/articles/article-2021-08-01.png",
+            "title": "Khai Giảng Năm Học Mới 2021 - 2022",
+            "body":
+        `
+        Một mùa hè chuẩn bị chấm dứt; và sau một thời gian dài học online/virtual vì bệnh dịch, năm học 2021-2022 bắt đầu cho các em trở lại trường học in-person. Nhưng theo sự thận trọng của giới chức học vụ, cách riêng của quận Gwinnett việc điều chỉnh học kỹ thuật số vẫn là chọn lựa thay thế cho các em và các phụ huynh.
+
+Ở Hoa Kỳ, chúng ta không thấy không khí nhộn nhịp của những ngày cả nước khai trường. Vì địa lý và thời tiết khí hậu, các bang của nước Hoa Kỳ không quy định ngày tựu trường đồng nhất. Việc giáo dục để tùy các bang và các quận (county) quyết định. Cũng không có lễ khai giảng nhộn nhịp trong ngày đầu đến trường. Nhưng trong mỗi người chúng ta, những ai được sinh ra và lớn lên ở Việt Nam, những ký ức tuổi thơ những ngày đầu được cắp sách đến trường, được cha mẹ đưa đón, được gặp lại bạn bè, thày cô sau những tháng hè xa cách... chợt làm chúng ta cảm thấy nao nao về một kỷ niệm êm đẹp của tuổi thơ ấu. Trải qua một năm dịch bệnh, chắc chắn có nhiều em ước mong được quay trở lại trường để học tập cùng thày cô và vui chơi với bạn bè.
+
+Theo lịch học trường công của quận Gwinnett, ngày 4 tháng 8 năm 2021 là ngày đầu tiên đi học in-person lại cùng với học qua các phương tiện kỹ thuật số cũng là một lựa chọn. Giáo Xứ Các Thánh Tử Đạo Việt Nam – Atlanta nằm trong quận Gwinnett nên các chương trình học Việt Ngữ và Giáo Lý của Giáo Xứ sẽ theo lịch học của quận cùng các ngày lễ trong Giáo Hội và lễ của dân tộc. Trong niên học 2021-2022, ngày khai giảng của Việt Ngữ và Giáo Lý vào ngày Chúa Nhật 22 tháng 8 năm 2021. Trường học Thánh Giuse vẫn giữ lại không khí của ngày khai trường dành cho các em học Việt Ngữ và Giáo Lý. Không có tiếng trống trường, nhưng Thánh Lễ và những nghi thức khai giảng năm học có thể giúp các em có được không khí của ngày đầu tiên tựu trường. Đến Chúa Nhật 29 tháng 8 năm 2021 Giáo Xứ sẽ tổ chức lễ tổng kết và trao kỷ vật lưu niệm cho việc xây dựng Thánh Đường trong thánh lễ lúc 9:30am nên sẽ không có giờ lớp Giáo Lý cho các em. Chúa Nhật sau đó là cuối tuần của kỳ nghĩ lễ Lao Động (Labor Day), Giáo Xứ tổ chức Lễ Hội Mùa Thu 2021 nên các lớp học cũng được nghỉ!
+
+Trong năm học mới này, với bối cảnh bệnh dịch vẫn còn, chúng ta cầu xin Chúa chúc lành trên Giáo Xứ, đất nước Hoa Kỳ và trên toàn thế giới, xin Chúa ban cho niên học mới được bình an, vui vẻ, đầm ấm, để lại nhiều ấn tượng tốt đẹp cho các em.  Năm nay chúng ta đã hoán đổi nhà thờ cũ thành mười lớp học cho các em, cắt giảm ca dạy từ ba ca xuống còn hai ca. Ca đầu cho các em từ lớp 1-7, từ 9:30am-11:30am, và ca hai từ 11:30am-1:30pm. Chúng ta cũng cầu xin cho trường Thánh Giuse dù nhỏ bé, đơn sơ sẽ ngày càng hoàn thiện mọi mặt để thực sự là nơi "ươm mầm tương lai" cho các em thành những Kitô hữu tốt và công dân lương thiện; chúc các Thầy Cô Giáo Lý Viên, các Giảng Viên, Thầy Cô giám thị, các ân nhân, các phụ huynh mạnh khỏe, tràn đầy năng lượng để truyền lửa, truyền đam mê và đức tin cho các em thế hệ trẻ; và chúc các em một năm học mới vui vẻ, chăm ngoan, học giỏi, thu thập được những kiến thức mới để giúp ích cho bản thân và cho đời.
+
+Hiệp nhất trong an bình của Đức Kitô,
+
+Lm. G.B Pham Nguyễn Tuấn Anh
+        `
+        },
+        {
+            "Section": "Các Bài Viết",
             "date": "2021-07-18",
             "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
             "title": "Thương Quá Sài Gòn Ơi",
