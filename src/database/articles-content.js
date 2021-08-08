@@ -23,6 +23,36 @@ const articleContent =
 [
         {
             "Section": "Các Bài Viết",
+            "date": "2021-08-08",
+            "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
+        "title": "MẦU NHIỆM ƠN GỌI",
+            "body":
+        `
+        Phụng vụ chư thánh tuần qua vừa mừng thánh Gioan Maria Vianney, bổn mạng của các cha xứ. Ngài sinh ngày 8 tháng 5 năm 1786 tại Lyon nước Pháp. Khi lên 8 tuổi ngài mới học đọc và biết viết. Vì nhà nghèo nên được cha sở nuôi dạy, và sau đó đã đưa ngài vào chủng viện. Vào trong chủng viện ngài không học được gì cả.
+
+Cuộc cách mạng Pháp 1789 bùng nổ khiến thầy Vianney phải bỏ dở việc học. Nhưng sau đó thầy tìm hết cách để tự học dưới sự dìu dắt của cha xứ. Nhưng khổ thay, học mấy cũng chẳng nhớ. May lúc ấy địa phận gặp phải cảnh khan hiếm linh mục nên Vianney được bề trên gọi về để khảo hạch. Và lẽ dĩ nhiên là lần nào Vianney cũng trượt.
+
+Ngày kia, một giáo sư thần học, thừa lệnh Đức Giám Mục đến khảo sát Vianney xem có đủ khả năng học vấn để tiến tới chức Linh mục không. Nhưng Vianney không thể trả lời câu nào.
+Nổi nóng, vị giáo sư đập bàn, nói: “Vianney, anh dốt đặc như con lừa! Với một con lừa như anh, Giáo Hội hy vọng làm nên trò trống gì!”
+
+Vianney khiêm tốn bình tĩnh trả lời: “Thưa thầy, ngày xưa Samson chỉ dùng một cái xương hàm con lừa mà đánh bại 3000 quân Philitinh. Vậy với cả một con lừa này, chẳng lẽ Thiên Chúa không làm được việc gì sao?”
+
+Vianney không nản lòng, cứ tiếp tục học. Cuối cùng, bề trên thấy thầy bền chí quá bèn gọi cha xứ đến để hỏi về thầy về: lòng đạo đức, về lòng kính mến phép Thánh Thể, về việc siêng năng lần hạt. Tất cả thày thưa có. Cha chính quyết định: “Thôi, cho thầy chịu chức vì thầy bền chí, chứ nếu cứ khảo hạch mãi thì không bao giờ đỗ được.”
+
+Nhìn vào “cuốn tự điển cuộc sống” của thánh Vianney, người ta đọc thấy toàn là những chữ: ăn chay, hãm mình, đền tội, khổ hạnh... Nhìn vào gương mặt của ngài, người ta cũng gặp thấy toàn là những nét: gian truân, khắc khổ, lao nhọc, đau thương... Thế nhưng, trong con người ấy lại chói ngời một quả tim luôn tươi vui, từ ái và yêu thương đối với hết mọi người.
+
+Theo thống kê trình bày tình trạng Giáo hội cho đến năm 2019, với số tín hữu Công giáo trên thế giới là 1 tỷ 345 triệu người, tương đương với 17,7% dân số thế giới. Trong năm 2018 có thêm 16 triệu tín hữu Công giáo.
+
+Trong hai năm 2018-2019, tổng số linh mục trong Giáo hội là 414.336 vị, tức là tăng thêm 271 linh mục: số linh mục gia tăng tại Phi châu 3,45% và Á châu 2,91%, nhưng tại Âu châu giảm 1,5% và Mỹ châu giảm 0,5%. Số chủng sinh trong Giáo hội cũng giảm 1.6% tức là từ 115.880 thầy trong năm 2018 xuống còn 114.058 thầy trong năm sau đó. Âu châu giảm nhiều nhất với 3,8%, Mỹ châu giảm 2,4% và Á châu giảm 2,6%.
+
+Nhìn vào con số thống kê, chúng ta cùng cám ơn Chúa. Dù có khó khăn, trong năm nay, Tổng Giáo Phận Atlanta hiện đang có năm thày người Việt học để tiến chức linh mục phục vụ trong Tổng Giáo Phận. Thày Nicholas Le, vừa hoàn tất năm mục vụ tại Giáo Xứ và chuẩn bị quay vể Rome để hoàn tất chương trình thần học và chịu chức. Ngoài ra còn có Thày Simon- cũng đã giúp Giáo Xứ, Thày Jonathan, Thày Giáo, Thày Martinô, Thày Matthew. Các sơ đang trong thời kỳ đào tạo, có Sơ Phương, Sơ Việt Oanh, Minh Xuân, Minh Thơ. Còn nhiều cha, nhiều sơ xuất thân hay có gia đình trong Giáo Xứ. Đó là những hoa trái của việc nhận chén thánh cầu nguyện liên lỉ cho ơn gọi hàng tuần trong Giáo Xứ. Chúng ta cùng cầu nguyện để các Thày, các Sơ được học hành tấn tới, đạo đức, dồi dào ơn Chúa, để trở thành những tu sĩ, những mục tử như lòng Chúa mong ước; tiếp nối gương lành của Thánh Gioan Maria Vianney.
+
+Hiệp nhất trong an bình của Đức Kitô,
+Lm. G.B Pham Nguyễn Tuấn Anh
+        `
+        },
+        {
+            "Section": "Các Bài Viết",
             "date": "2021-08-01",
             "image": "https://hvmatl.net/gallery/img/articles/article-2021-08-01.png",
             "title": "Khai Giảng Năm Học Mới 2021 - 2022",
