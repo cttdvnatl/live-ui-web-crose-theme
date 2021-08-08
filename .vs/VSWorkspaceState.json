@@ -2,10 +2,7 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\components",
-    "\\src\\database",
-    "\\src\\pages",
-    "\\src\\store"
+    "\\src\\database"
   ],
   "SelectedNode": "\\src\\database\\articles-content.js",
   "PreviewInSolutionExplorer": false
