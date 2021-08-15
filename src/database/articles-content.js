@@ -23,6 +23,39 @@ const articleContent =
 [
         {
             "Section": "Các Bài Viết",
+            "date": "2021-08-15",
+            "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
+            "title": "HỒNG ÂN LÃNH NHẬN BÍ TÍCH THÊM SỨC",
+            "body":
+        `
+        Trải qua hơn một năm dịch bệnh, dù các trường học, công sở, văn phòng… phải đóng cửa; mọi người phải giữ khoảng cách an toàn, nhưng không vì đó mà công việc rao giảng và thông truyền đức tin cho các thế hệ trẻ trong Giáo Xứ bị gián đoạn. Các lớp Giáo Lý online vẫn tiếp tục được quý Thày Cô Giáo Lý Viên và Huynh Trưởng lên lớp và truyền cho các em lòng nhiệt huyết và tâm tình yêu mến Chúa và Hội Thánh.
+
+Các em học sinh lớp Thêm Sức của Giáo Xứ cũng không ngoại lê. Năm qua, các em học giáo lý trực tuyến, nhưng qua hai kỳ tĩnh tâm Ephata in-person ở trung tâm tĩnh tâm Carmel, quý Thày Cô Giáo Lý Viên, các Huynh Trưởng, Phụ huynh và mọi người đã gặp gỡ các em và hết lòng chuẩn bị cho các em ngày trọng đại đánh dấu việc các em lãnh nhận hồng ân Chúa Thánh Thần qua việc đặt tay của Đức Cha Phụ Tá Bernard Shlesinger III.
+
+Đó là thành quả sau những năm tháng các em miệt mài, chuyên cần học hỏi giáo lý, tham gia các sinh hoạt của Phong Trào Thiếu Nhi Thánh Thể. Trong suốt thời gian này các em đã được quý Cha, quý Sơ, quý Thày Cô Giáo Lý Viên, quý Huynh Trưởng cùng với gia đình nhiệt tình dạy bảo, để cho các em có một nền tảng đức tin vững chắc, chuẩn bị cho các em những hành trang cần thiết nhất trên bước đường sống đạo khi hội nhập vào môi trường giảng đường và môi trường công việc cuộc sống đời thường của Kitô hữu trưởng thành. Để có ngày hôm nay, trước tiên các em phải cảm tạ hồng ân Thiên Chúa đã ban cho các em được sinh ra trong gia đình Công Giáo, trưởng thành người lớn khôn nhờ công ơn cha mẹ đã luôn yêu thương nuôi dạy dỗ, rồi ông bà nội ngoại và những người thân trong gia đình đã luôn đồng hành với.
+
+Ngày hôm nay không chỉ là niềm vui cho các em, và còn là niềm vui cho cả gia đình Giáo Xứ. Giáo Xứ cũng như cha mẹ rất tự hào về các con em của mình! Các cha mẹ đã có những giây phút cảm xúc hạnh phúc vì đọc những dòng thư mà con cái viết cho mình trong ngày tĩnh tâm Ephata! Ngày các em chào đời cha mẹ đã hạnh phúc như nào, nhất là các mẹ đã rơi lệ vì hạnh phúc, thì ngày nhận được thư của các em nhiều cha mẹ cũng có xúc cảm dâng trào như thế!
+
+Ngày các em lãnh nhận Bí tích Thêm sức là một dấu chỉ nhận lãnh ơn Chúa Thánh Thần, là một mốc son đánh dấu một sự trưởng thành trong đời sống đức tin của các em, là ngày đón nhận tròn đầy Ấn tín ơn Chúa Thánh thần với bảy ơn đặc biệt:
+
+1. Ơn Khôn Ngoan: Giúp phân biệt điều phải, điều trái.
+2. Ơn Hiểu Biết: Giúp hiểu biết sâu xa hơn những điều Chúa và Hội Thánh dạy.
+3. Ơn Biết Lo Liệu: Giúp giải quyết mọi khó khăn trong đời sống.
+4. Ơn Sức Mạnh: Giúp chu toàn việc bổn phận và vượt qua mọi khó khăn.
+5. Ơn Thông Minh: Giúp nhận ra thánh ý Chúa.
+6. Ơn Ðạo Ðức: Giúp tin yêu Chúa và giúp đỡ anh chị em.
+7. Ơn Kính Sợ Thiên Chúa: Giúp tôn kính sự công bằng và quyền phép Chúa và sợ làm phiền lòng Ngài.
+
+Các cha mẹ, quý Thày Cô Giáo Lý Viên, quý Huynh Trưởng, quý cha, quý sơ sẽ luôn đồng hành với các em, yêu thương các em và cầu mong cho các em có một tương lai tốt đẹp. Đáp lại các em cũng phải luôn nỗ lực phấn đấu và cố gắng hết sức trong mọi việc để nhờ đó các em mới có thể vượt qua những trở ngại, khó khăn trong cuộc sống sắp tới… và luôn bình thản đón nhận và giải quyết với ơn của Chúa Thánh Thần. Được như vậy các em mới có thể sống một cuộc sống tốt đẹp không sợ khó, sợ khổ và từng bước vươn tới những kỳ tích trong tương lai.
+
+Xin chúc mừng 88 em lãnh nhận hồng ân Chúa Thánh Thần!
+
+Hiệp nhất trong an bình của Đức Kitô,
+Lm. G.B Pham Nguyễn Tuấn Anh
+        `
+        },
+        {
+            "Section": "Các Bài Viết",
             "date": "2021-08-08",
             "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
         "title": "MẦU NHIỆM ƠN GỌI",
