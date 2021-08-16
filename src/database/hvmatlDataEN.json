@@ -119,9 +119,9 @@
         "header": {
             "item1": "Việt Hồng School",
             "item2": "Staff",
-            "item3": "Activities",
-            "item4": "Documents",
-            "item5": "Classes"
+            "item3": "Classes",
+            "item4": "Activities",
+            "item5": "Documents"
         },
         "home": {
             "announcement": "Please contact us for more information at Viet.Hong.School@hvmatl.org"

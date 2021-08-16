@@ -12,13 +12,14 @@ const VietHong = () => {
             <Header/>
             <VietHongHeader/>
             <br/><br/><br/>
-            <h5 style={{textAlign: "center"}}>Trường Việt Ngữ Việt Hồng cảm ơn sự giúp đỡ, <br/>
-                thông cảm và cộng tác của quý phụ huynh với nhà trường chúng tôi <br/>
-                cho việc học của con em quý vị trong niên học vừa qua. <br/>
-                Chúc quý phụ huynh và gia đình mùa hè nhiều bình an và hạnh phúc. <br/>
-                Rất mong sẽ gặp lại tất cả các em vào niên học sắp đến. <br/><br/>
-                Để tiếp tục duy trì và phát triển hoạt động của Trường Việt Ngữ Việt Hồng, <br/>
-                chúng tôi tha thiết mời quý vị hãy cùng tham gia với chúng tôi. <br/><br/>
+            <h5 style={{textAlign: "center"}}>Ngày 21 tháng 8 năm 2021 là ngày Khai Giảng niên học 2021-2022 <br/>
+                của Trường Việt Ngữ Việt Hồng. Nhà trường chúng tôi sẽ cần nhiều giúp đỡ  <br/>
+                từ quý phụ huynh để chúng ta cùng có được một năm học thành công  <br/>
+                cho con em mình. Xin cảm ơn quý vị. <br/><br/>
+
+                Theo quyết định của Tổng Giáo Phận Atlanta và Học Khu Gwinnett <br/>
+                các em học sinh cần phải mang face mask cho đến khi có thông báo mới. <br/><br/>
+
                 </h5>
                 
                 <div className="container-fluid text-center">
