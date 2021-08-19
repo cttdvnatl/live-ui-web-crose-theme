@@ -49,6 +49,12 @@ const VietHongTeacherContent = [
     },
     {   
         classification: 'main-teacher',
+        image: 'https://hvmatl.net/gallery/kgd/viethong/viethong-2021-2022-t-le-phuong-dung.jpg',
+        name: 'Cô Lê Phương Dung',
+        email: 'dung.phuong.le@hvmatl.org',
+    },
+    {   
+        classification: 'main-teacher',
         image: 'https://hvmatl.net/gallery/kgd/viethong/viethong-2021-2022-t-le-steve.jpg',
         name: 'Thầy Lê Steve',
         email: 'steve.le@hvmatl.org',
