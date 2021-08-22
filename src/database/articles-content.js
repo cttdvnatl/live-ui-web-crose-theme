@@ -23,6 +23,29 @@ const articleContent =
 [
         {
             "Section": "Các Bài Viết",
+            "date": "2021-08-22",
+            "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
+            "title": "ĐẶT MÌNH DƯỚI BÀN TAY QUAN PHÒNG CỦA THIÊN CHÚA",
+            "body":
+        `
+        Mỗi khi chúng ta bắt tay vào làm việc, học hành, cầu nguyện… chúng ta đều cầu xin ơn Chúa qua Chúa Thành Thần, bắt đầu bằng kinh: "Cúi xin Chúa sáng soi cho chúng con được biết việc phải làm, và khi làm xin Chúa giúp đỡ cho mỗi kinh mỗi việc chúng con làm từ khởi sự cho đến hoàn thành đều bởi nhờ ơn Chúa". Lời kinh rất ngắn, vắn tắt và dễ nhớ nhưng bao hàm một ý nghĩa to lớn.
+
+Ý cầu nguyện trong tháng 8-2021 của Giáo Hội hoàn vũ, Đức Thánh Cha mời gọi chúng ta: Cầu cho Giáo Hội được biến đổi dưới ánh sáng Tin Mừng. Khi nói Giáo Hội là một nhiệm thể thì chỉ là một, nhưng Giáo Hội cũng là một tập thể gồm nhiều con người hợp lại. Mỗi người là một phần của chi thể sống động trong nhiệm thể của huyền nhiệm Giáo Hội. Và mỗi gia đình là một tiểu giáo hội địa phương. Cho nên để sống với ý thức giáo hội tính phổ quát, mỗi người, mỗi gia đình khi bắt đầu làm một việc gì, dù lớn hay nhỏ, âm thầm hay công khai thì phải hướng đến một mục đích là: để Nước Chúa trị đến và vinh quang Chúa được cả sáng hơn!
+
+Nói về ơn gọi cụ thể của Giáo hội, là truyền giáo, Đức Thánh Cha mơ về một chọn lựa có tính truyền giáo hơn: “chọn lựa đi ra để gặp gỡ tha nhân mà không chiêu dụ họ vào đạo và biến đổi tất cả các cấu trúc của nó cho công cuộc loan báo Tin mừng cho thế giới hôm nay.” Đức Thánh Cha suy tư về tình trạng của Giáo hội, về ơn gọi và căn tính của Giáo hội, và mời gọi canh tân Giáo hội “bằng cách phân định ý Chúa trong cuộc sống hàng ngày của chúng ta” và “thực hiện việc biến đổi dưới sự hướng dẫn của Chúa Thánh Thần.” Đức Thánh Cha nhấn mạnh rằng ngài đang nói về một cuộc canh tân Giáo hội bằng việc canh tân chính bản thân chúng ta, “không phải với những ý tưởng được đúc sẵn, không phải bằng những thành kiến mang ý thức hệ, cũng không phải sự cứng nhắc, nhưng tiến tới bằng việc đặt nền trên kinh nghiệm thiêng liêng, một kinh nghiệm cầu nguyện, một kinh nghiệm của đức ái, một kinh nghiệm của phục vụ.”
+
+“Giáo hội luôn có khó khăn, luôn gặp khủng hoảng.” Đức Thánh Cha xác định điều này và giải thích rằng Giáo hội trải qua khủng hoảng là bởi vì Giáo hội đang sống, không giống như người chết thì không gặp khủng hoảng.
+
+Và cuộc sống mỗi người, mỗi gia đình chúng ta cũng luôn luôn phải đối phó với những gian nan, thử thách, những vấn nạn nhức nhối trong cuộc sống vợ chồng, con cái, công ăn việc làm, đối nhân xử thế... Mỗi lúc đó, ước gì lời kinh: Cúi xin Chúa sáng soi… lại tự nhiên âm vang lên trong tâm hồn và trong môi miệng chúng ta; để Chúa cùng hướng dẫn, cùng đồng hành và biến đổi nội tâm chúng ta, để: Tất cả công việc từ khởi sự cho đến hoàn thành đều nhờ bởi ơn Chúa. Amen.
+
+Hiệp nhất trong an bình của Đức Kitô,
+
+Lm. G.B Pham Nguyễn Tuấn Anh
+
+        `
+        },
+        {
+            "Section": "Các Bài Viết",
             "date": "2021-08-15",
             "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
             "title": "HỒNG ÂN LÃNH NHẬN BÍ TÍCH THÊM SỨC",
