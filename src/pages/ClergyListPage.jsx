@@ -4,8 +4,9 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Data from '../database/Clergy.json';
 
+
 const ClergyListPage = () => {
-    return (
+   return (
         <div>
             <Header/> 
             <ClergyList data={Data}/>
