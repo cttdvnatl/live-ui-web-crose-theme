@@ -135,9 +135,17 @@
             "item4": "Văn Thư",
             "item5": "Các Lớp"
         },
-        "home": {
-            "title": "Trường Thánh Giuse",
-            "announcement": "Chương trình giáo lý trẻ em của Trường Thánh Giuse sẽ tiếp tục digital learning cho đến khi có thông báo mới. Mọi thông tin và những thay đổi trong niên học sẽ được cập nhật thường xuyên trong Agenda phía dưới."
-        }
+      "home": {
+        "heading": "Chương Trình Ghi Danh Học Giáo Lý Vào Các Ngày Chúa Nhật: ",
+        "line1": "Chúa Nhật, ngày 18 tháng 4 năm 2021, từ 8:30 AM - 1:00 PM, tại Building B",
+        "line2": "Chúa Nhật, ngày 25 tháng 4 năm 2021, từ 8:30 AM - 1:00 PM, tại Building B",
+        "line3": "Chúa Nhật, ngày 2 tháng 5 năm 2021, từ 8:30 AM - 1:00 PM, tại Building B",
+        "line4": "Xin quý phụ huynh vào phần ",
+        "line41": "để lấy giấy tờ cần thiết cho con em.",
+        "line5": "* Đơn Ghi Danh Học Giáo Lý 2021-2022.",
+        "line6": "* Chương Trình Ghi Danh Học Giáo Lý 2021-2022 để biết đầy đủ điều kiện trước khi đến ghi danh.",
+        "title": "Trường Thánh Giuse",
+        "announcement": "Chương trình giáo lý trẻ em của Trường Thánh Giuse sẽ tiếp tục digital learning cho đến khi có thông báo mới. Mọi thông tin và những thay đổi trong niên học sẽ được cập nhật thường xuyên trong Agenda phía dưới."
+      }
     }
 }

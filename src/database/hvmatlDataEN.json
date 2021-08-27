@@ -77,7 +77,7 @@
             "item2": "Maintenance",
             "item3": "Religious Life",
             "item4": "Education",
-            "subItem1": "Bible",
+            "subItem1": "Catholic",
             "subItem2": "Vietnamese",
             "item5": "Administration",
             "item6": "Liturgy",
@@ -135,9 +135,17 @@
             "item4": "Forms",
             "item5": "Classes"
         },
-        "home": {
-            "title": "St. Joseph School",
-            "announcement": "St. Joseph Catholic School will continue with digital learning until further notice. News and announcements during the school year will be regularly updated in the Agenda section below."
-        }
+      "home": {
+        "heading": "Registration for Catholic classes on Sundays:",
+        "line1": "Sunday, April 18, 2021 from 8:30 AM - 1:00 PM, at Building B",
+        "line2": "Sunday, April 25, 2021 from 8:30 AM - 1:00 PM, at Building B",
+        "line3": "Sunday, May 2, 2021, from 8:30 AM - 1:00 PM, at Building B",
+        "line4": "Parents please go to section ",
+        "line41": "to get required forms for your children.",
+        "line5": "* Catholic class sign-up form 2021-2022.",
+        "line6": "* Registration for Catholic classes 2021-2022 to know all requirements before coming to register.",
+        "title": "St. Joseph School",
+        "announcement": "St. Joseph Catholic School will continue with digital learning until further notice. News and announcements during the school year will be regularly updated in the Agenda section below."
+      }
     }
 }
