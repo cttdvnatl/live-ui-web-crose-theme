@@ -16,14 +16,14 @@ const Classes = [
     {
         name: "vla",
         class: "Vỡ Lòng A",
-        teachers: "Cô Lê Bích Duyên, Cô Võ Ngọc Trâm",
+        teachers: "Cô Lê Bích Duyên, Cô Nguyễn Ái Mỹ",
         emails: "",
         classwork: "https://docs.google.com/document/d/e/2PACX-1vT4_8J1SooTMegrDMFNFHHDAs-Lp-6GI_25QjJgxArQhQz9GT8WGAUJPt1O7fuVFoc3hhaU2dYlaug4/pub?embedded=true"
     },
     {
         name: "vlb",
         class: "Vỡ Lòng B",
-        teachers: "Cô Nguyễn Ái Mỹ, Cô Trần Huyền",
+        teachers: "Cô Võ Ngọc Trâm, Cô Trần Huyền",
         emails: "",
         classwork: "https://docs.google.com/document/d/e/2PACX-1vRqCicokmDNzw1uBgBlr3pjHt-093law2fs8biDPe7bh6dNp2DNmaw0gqIxUdGAu8lLNhzHGxqxzjq_/pub?embedded=true"
     },
@@ -37,7 +37,7 @@ const Classes = [
     {
         name: "2a",
         class: "2A",
-        teachers: "Cô Nguyễn Huỳnh Anne, Cô Nguyễn Ngọc Loan",
+        teachers: "Cô Nguyễn Huỳnh Anh, Cô Nguyễn Ngọc Loan",
         emails: "",
         classwork: "https://docs.google.com/document/d/e/2PACX-1vSe8he7RZPMhSmV_YoFSB8EQAv3WyS9GQM1N5viaxc0WAkHLGz1uQ7nAUhwg-y3_iZVpFcW4DNnaanl/pub?embedded=true"
     },

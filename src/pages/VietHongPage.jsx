@@ -12,19 +12,26 @@ const VietHong = () => {
             <Header/>
             <VietHongHeader/>
             <br/><br/><br/>
-            <h5 style={{textAlign: "center"}}>Ngày 21 tháng 8 năm 2021 là ngày Khai Giảng niên học 2021-2022 <br/>
-                của Trường Việt Ngữ Việt Hồng. Nhà trường chúng tôi sẽ cần nhiều giúp đỡ  <br/>
+            <h5 style={{textAlign: "center"}}> Nhà trường chúng tôi mong nhận được nhiều giúp đỡ, thông cảm và cộng tác <br/>
                 từ quý phụ huynh để chúng ta cùng có được một năm học thành công  <br/>
                 cho con em mình. Xin cảm ơn quý vị. <br/><br/>
 
                 Theo quyết định của Tổng Giáo Phận Atlanta và Học Khu Gwinnett <br/>
                 các em học sinh cần phải mang face mask cho đến khi có thông báo mới. <br/><br/>
 
+                Tin tức và thay đổi trong niên học <br/>
+                sẽ được cập nhật thường xuyên trong trang này. <br/><br/>
+
                 </h5>
                 
                 <div className="container-fluid text-center">
                 <p id="viet-ngu" style={{width: '65%', margin: 'auto'}}>{t('viethong.home.announcement')}</p>
                 <br/>
+                <div className="container-fluid text-center">
+
+                <p id="vn-schedule" className="center-50"> <b>Giờ Học Mỗi Thứ Bảy</b> <br/>
+                10:00 a.m. – 12:15 p.m. </p>
+                </div>
                 <VietHongCalendar />
                 </div>
             <Footer/>
