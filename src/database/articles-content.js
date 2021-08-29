@@ -23,6 +23,33 @@ const articleContent =
 [
         {
             "Section": "Các Bài Viết",
+            "date": "2021-08-29",
+            "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
+            "title": "CÙNG TẠ ƠN CHÚA, TRI ÂN NHAU VỀ NGÔI THÁNH ĐƯỜNG MỚI",
+            "body":
+        `
+        Tháng 8 dần trôi qua! Mùa hè chấm dứt, một năm học mới bắt đầu. Tháng 8 dù không được dành riêng như tháng 5 để dâng hoa kính Mẹ, lễ của các Người Mẹ; cũng không phải như tháng 10 để lần chuỗi mân côi kính Đức Mẹ, nhưng tháng 8 nhắc chúng ta đến những vị thánh: Monica và Augustinô… Những vị thánh có lòng sùng kính Đức Mẹ, như thánh Maximilianô Kolbê, thánh Bênađô. Và trong tháng 8 chúng ta cũng long trọng mừng tín điều Mẹ được Chúa ân thưởng xác, hồn về trời. Đó là niềm hy vọng và cùng đích của cuộc lữ hành trần thế của chúng ta.
+
+Không chỉ vậy, trong ngày Chúa Nhật cuối tháng 8-2021, chúng ta lại cùng nhau tụ họp dưới sự chủ tế của Đức Cha Phụ Tá Joel M. Konzen để cùng tạ ơn Chúa, Mẹ Maria, các Thánh Tử Đạo Việt Nam. Cảm tạ hồng ân Thiên Chúa đã cho Giáo Xứ hoàn thiện được tâm nguyện: xây dựng ngôi thánh đường dâng kính Thiên Chúa dưới sự cầu bầu của các vị tử đạo tại Việt Nam và là nơi để chúng ta đến ca ngợi Thiên Chúa, lãnh nhận các bí tích và quy tụ mọi anh chị em trong gia đình đức tin.
+
+“Ví như Chúa chẳng xây nhà, thợ nề vất vả cũng là uổng công” (Tv 127:1). Sau 5 năm ngôi thánh đường được khởi công, và sau gần 15 năm bước vào vị trí trước kia là nơi bán xe, Cha Xứ và cộng đoàn cũng đã hoàn tất được ngôi thánh đường rộng lớn, khang trang. Ngôi thánh đường và bàn thờ được cung hiến vào tháng 11-2019 do Đức Cha Joel M. Konzen chủ tế. Trong thánh lễ tổng kết xây dựng và tạ ơn trong năm nay, chúng ta lại có vinh dự được Đức Cha Phụ tá về chủ tế hiệp dâng thánh lễ với cộng đoàn Giáo Xứ. Quả thực, nếu không có bàn tay Thiên Chúa hằng trợ giúp và hướng dẫn chúng ta không thể hoàn tất phần tổng quát công trình xây dựng nhà Chúa được!
+
+Giáo Xứ chúng ta là một giáo xứ non trẻ, được tách ra từ giáo xứ Holy Cross. Chỉ hơn 15 năm, nhưng đã trải trải qua những biến cố thăng trầm, như: mua lại khu vực bán xe hơi, đấu tranh chống việc xây dựng trạm xử lý rác thải cạnh khuôn viên thánh đường, mua khu vực làm bãi đậu xe (1 acre), xây dựng trung tâm sinh hoạt của Giáo Xứ, sự kiện Lễ Hội Mùa Thu hằng năm quy tụ đông đảo đồng bào Việt Nam không phân biệt tôn giáo, từ trong và ngoài tiểu bang, và cả những người Hoa Kỳ khác… 15 năm tuy không là một khoảng thời gian dài, nhưng cũng không hề ngắn, với biết bao những thay đổi âm thầm diễn ra. 15 năm với những thay đổi, Giáo Xứ đang thay da đổi thịt, và lớn lên từng ngày. 15 năm cộng đoàn đức tin có được ngôi thánh đường nguy nga và dễ nhận thấy vào ban đêm với hai thánh giá được chiếu sáng bởi màu sắc phụng vụ.
+
+Với cộng đoàn Giáo Xứ Các Thánh Tử Đạo Việt Nam Atlanta, ngày hôm nay là một ngày đặc biệt đáng ghi nhớ, vì là một cột mốc đánh dấu sự trưởng thành, trong việc đóng góp công sức, vật chất, tinh thần và kinh nguyện cho công trình xây dựng chung của Giáo Xứ; đồng thời cũng nói lên việc xây dựng từng tâm hồn tín hữu trở nên ngôi đền thánh thiêng liêng của Chúa Thánh Thần.
+
+Cho nên chúng ta cùng cảm tạ ân tình mà Đức Cha Phụ Tá Joel M. Konzen dành cho chúng ta, cám ơn các vị tiền bối, quý cha, quý sơ, quý ân nhân, thân nhân, thành viên tích cực của Giáo Xứ đã đồng hành, hiệp sức, hiệp lực để có ngày hôm nay. Chúng ta cũng phải tri ân Thiên Chúa vì biết bao ơn lành mà Chúa đã và đang tuôn đổ trên Giáo Xứ, và xin Chúa tiếp tục chúc lành cho từng người chúng ta trong tương lai. Ngôi thánh đường mới hoàn tất một phần, chắc chắn còn nhiều việc phải kiện toàn, như: trang trí các cửa sổ, cửa lớn với kính màu, gắn các công trình phụ trợ khác…
+
+Chúng ta có thể dùng Thánh Vịnh 118 để ca ngợi Chúa:
+“Đó chính là công trình của Chúa,
+Công trình kỳ diệu trước mắt chúng ta” (Tv 118).
+
+Hiệp nhất trong an bình của Đức Kitô,
+Lm. G.B Pham Nguyễn Tuấn Anh
+        `
+        },
+        {
+            "Section": "Các Bài Viết",
             "date": "2021-08-22",
             "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
             "title": "ĐẶT MÌNH DƯỚI BÀN TAY QUAN PHÒNG CỦA THIÊN CHÚA",
