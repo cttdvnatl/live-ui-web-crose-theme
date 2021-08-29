@@ -181,8 +181,23 @@ const VietHongTeacherContent = [
     },
     {   
         classification: 'assistant-teacher',
+        image: 'https://hvmatl.net/gallery/kgd/viethong/viethong-2021-2022-ta-do-khoa.jpg',
+        name: 'Đỗ Khoa',
+    },
+    {   
+        classification: 'assistant-teacher',
         image: 'https://hvmatl.net/gallery/kgd/viethong/viethong-2021-2022-ta-le-hoang-hong-an.jpg',
         name: 'Lê Hoàng Hồng Ân',
+    },
+    {   
+        classification: 'assistant-teacher',
+        image: 'https://hvmatl.net/gallery/kgd/viethong/viethong-2021-2022-ta-le-hoang-phuc-loc.jpg',
+        name: 'Lê Hoàng Phúc Lộc',
+    },
+    {   
+        classification: 'assistant-teacher',
+        image: 'https://hvmatl.net/gallery/kgd/viethong/viethong-2021-2022-ta-le-hung-binson.jpg',
+        name: 'Lê Hùng Binson',
     },
     {   
         classification: 'assistant-teacher',
@@ -196,13 +211,33 @@ const VietHongTeacherContent = [
     },
     {   
         classification: 'assistant-teacher',
+        image: 'https://hvmatl.net/gallery/kgd/viethong/viethong-2021-2022-ta-le-trung-kien.jpg',
+        name: 'Lê Trung Kiên',
+    },
+    {   
+        classification: 'assistant-teacher',
+        image: 'https://hvmatl.net/gallery/kgd/viethong/viethong-2021-2022-ta-nguyen-bich-phuong.jpg',
+        name: 'Nguyễn Bích Phương',
+    },
+    {   
+        classification: 'assistant-teacher',
         image: 'https://hvmatl.net/gallery/kgd/viethong/viethong-2021-2022-ta-nguyen-tuong-vy.jpg',
         name: 'Nguyễn Tường Vy',
     },
     {   
         classification: 'assistant-teacher',
+        image: 'https://hvmatl.net/gallery/kgd/viethong/viethong-2021-2022-ta-nguyen-xuan-thao.jpg',
+        name: 'Nguyễn Xuân Thảo Tina',
+    },
+    {   
+        classification: 'assistant-teacher',
         image: 'https://hvmatl.net/gallery/kgd/viethong/viethong-2021-2022-ta-pham-katherine.jpg',
         name: 'Phạm Katherine',
+    }, 
+    {   
+        classification: 'assistant-teacher',
+        image: 'https://hvmatl.net/gallery/kgd/viethong/viethong-2021-2022-ta-pham-tran-kim-thy.jpg',
+        name: 'Phạm Trần Kim Thy',
     }, 
     {   
         classification: 'assistant-teacher',
