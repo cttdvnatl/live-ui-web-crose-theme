@@ -83,13 +83,6 @@ const Classes = [
         emails: "",
         classwork: "https://docs.google.com/document/d/e/2PACX-1vQY-_apFhjHxRbg2-IxWBDavJ-Vq5zpXRh5N1vw1PCbxOcn0QgF6-o3mv83wG4ND99JB6fKYAzkRV6n/pub?embedded=true"
     },
-    {
-        name: "8",
-        class: "8",
-        teachers: "Thầy Trần Thanh Trúc, Cô Nghiêm X. Đ. Trang",
-        emails: "",
-        classwork: "https://docs.google.com/document/d/e/2PACX-1vRt-ZoiqXI7ng2x57z_DZajtZU-2vm2NGU8xyhrmBkFIBhsqXLdkfwFaOI6q8hsT0EpiKHymEy7aqKq/pub?embedded=true"
-    },
 
 ]
 
