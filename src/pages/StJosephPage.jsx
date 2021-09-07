@@ -12,14 +12,18 @@ const StJoseph = () => {
             <Header/>
             <StJosephHeader/>
             <br/><br/>
-            <h6 style={{ textAlign: "center" }}>{t('stjoseph.home.heading')}<br/><br/>
-                {t('stjoseph.home.line1')} <br/>
+            <h6 style={{ textAlign: "center" }}>{t('stjoseph.home.heading')}<br/>
+                {t('stjoseph.home.line1')} <br/><br/>
                 {t('stjoseph.home.line2')} <br/>
-                {t('stjoseph.home.line3')} <br/> <br/>
-                
-                {t('stjoseph.home.line4')}<u><a href="/st-joseph-documents">{t('stjoseph.header.item4')}</a></u> {t('stjoseph.home.line41')}<br/><br/>
+                {t('stjoseph.home.line3')} <br/>                 
+                {t('stjoseph.home.line4')} <br/>
                 {t('stjoseph.home.line5')} <br/>
-                {t('stjoseph.home.line6')}
+                {t('stjoseph.home.line6')} <br/><br/>
+                {t('stjoseph.home.line7')} <br/>
+                {t('stjoseph.home.line8')} <br/>
+                {t('stjoseph.home.line9')} <br/>
+                {t('stjoseph.home.line10')} <br/>
+                {t('stjoseph.home.line11')} 
                 <br/><br/>
                 </h6>
                 <div className="container-fluid text-center">
