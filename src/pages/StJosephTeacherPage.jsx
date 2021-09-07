@@ -16,7 +16,7 @@ function StJosephTeacherPage() {
             <p></p>
             <div class="col-12">
                 <div class="section-heading">
-                    <br />
+                    <br/>
                     <h2>Thầy Cô Ban Giáo Lý Trẻ Em</h2>
                     <h3>Niên Học 2020-2021</h3>
                 </div>
