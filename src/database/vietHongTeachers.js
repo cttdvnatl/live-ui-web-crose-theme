@@ -219,6 +219,11 @@ const VietHongTeacherContent = [
         image: 'https://hvmatl.net/gallery/kgd/viethong/viethong-2021-2022-ta-nguyen-bich-phuong.jpg',
         name: 'Nguyễn Bích Phương',
     },
+        {   
+        classification: 'assistant-teacher',
+        image: 'https://hvmatl.net/gallery/kgd/viethong/viethong-2021-2022-ta-nguyen-joseph-alex.jpg',
+        name: 'Nguyễn Joseph Alex',
+    },
     {   
         classification: 'assistant-teacher',
         image: 'https://hvmatl.net/gallery/kgd/viethong/viethong-2021-2022-ta-nguyen-tuong-vy.jpg',
