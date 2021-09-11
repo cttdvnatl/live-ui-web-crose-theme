@@ -67,6 +67,12 @@ const VietHongTeacherContent = [
     },
     {   
         classification: 'main-teacher',
+        image: 'https://hvmatl.net/gallery/kgd/viethong/viethong-2021-2022-t-nguyen-ai-my.jpg',
+        name: 'Cô Nguyễn Ái Mỹ',
+        email: 'anne.nguyen@hvmatl.org',
+    },  
+    {   
+        classification: 'main-teacher',
         image: 'https://hvmatl.net/gallery/kgd/viethong/viethong-2021-2022-t-nguyen-huynh-anne.jpg',
         name: 'Cô Nguyễn Huỳnh Anne',
         email: 'anne.nguyen@hvmatl.org',
@@ -82,6 +88,12 @@ const VietHongTeacherContent = [
         image: 'https://hvmatl.net/gallery/kgd/viethong/viethong-2021-2022-t-nguyen-minh-vien.jpg',
         name: 'Cô Nguyễn Minh Viên',
         email: 'minh-vien.nguyen@hvmatl.org',
+    },     
+    {   
+        classification: 'main-teacher',
+        image: 'https://hvmatl.net/gallery/kgd/viethong/viethong-2021-2022-t-nguyen-ngoc-loan.jpg',
+        name: 'Cô Nguyễn Ngọc Loan',
+        email: 'anne.nguyen@hvmatl.org',
     },       
     {   
         classification: 'main-teacher',
@@ -127,6 +139,12 @@ const VietHongTeacherContent = [
     },
     {   
         classification: 'main-teacher',
+        image: 'https://hvmatl.net/gallery/kgd/viethong/viethong-2021-2022-t-tran-khac-vinh.jpg',
+        name: 'Thầy Trần Khắc Vinh',
+        email: 'truc.tran@hvmatl.org',
+    },
+    {   
+        classification: 'main-teacher',
         image: 'https://hvmatl.net/gallery/kgd/viethong/viethong-2021-2022-t-tran-thanh-truc.jpg',
         name: 'Thầy Trần Thanh Trúc',
         email: 'truc.tran@hvmatl.org',
@@ -142,6 +160,12 @@ const VietHongTeacherContent = [
         image: 'https://hvmatl.net/gallery/kgd/viethong/viethong-2021-2022-t-vo-minh-hoang.jpg',
         name: 'Thầy Võ Minh Hoàng',
         email: 'hoang.minh.vo@hvmatl.org',
+    },
+    {   
+        classification: 'main-teacher',
+        image: 'https://hvmatl.net/gallery/kgd/viethong/viethong-2021-2022-t-vo-ngoc-tram.jpg',
+        name: 'Cô Võ Ngọc Trâm',
+        email: 'thuy.tram.vo@hvmatl.org',
     },
     {   
         classification: 'main-teacher',
@@ -226,6 +250,11 @@ const VietHongTeacherContent = [
     },
     {   
         classification: 'assistant-teacher',
+        image: 'https://hvmatl.net/gallery/kgd/viethong/viethong-2021-2022-ta-nguyen-tien-dat.jpg',
+        name: 'Nguyễn Tiến Đạt',
+    },
+    {   
+        classification: 'assistant-teacher',
         image: 'https://hvmatl.net/gallery/kgd/viethong/viethong-2021-2022-ta-nguyen-tuong-vy.jpg',
         name: 'Nguyễn Tường Vy',
     },
@@ -253,6 +282,11 @@ const VietHongTeacherContent = [
         classification: 'assistant-teacher',
         image: 'https://hvmatl.net/gallery/kgd/viethong/viethong-2021-2022-ta-tran-lu-christina.jpg',
         name: 'Trần Lu Christina',
+    },
+    {   
+        classification: 'assistant-teacher',
+        image: 'https://hvmatl.net/gallery/kgd/viethong/viethong-2021-2022-ta-tran-truc-quynh.jpg',
+        name: 'Trần Trúc Quỳnh',
     },
 ]
 
