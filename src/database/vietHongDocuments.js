@@ -1,6 +1,11 @@
 const vietHongDocuments = [
 
     {   
+        fileName: 'Parents Handbook',
+        downloadFile: 'https://hvmatl.net/gallery/kgd/viethong/Viet-Hong-School-2021-2022-Parents-Handbook-bilingual.pdf',
+        description: 'Sổ Tay Phụ Huynh 2021-2022',
+    },
+    {   
         fileName: 'School Year Calendar',
         downloadFile: 'https://hvmatl.net/gallery/kgd/viethong/Viet-Hong-School-2021-2022-School-Year-Calendar.pdf',
         description: 'Lịch Trình Niên Học 2021-2022',
