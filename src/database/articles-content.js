@@ -23,6 +23,30 @@ const articleContent =
 [
         {
             "Section": "Các Bài Viết",
+            "date": "2021-09-12",
+            "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
+            "title": "Dư Âm Lễ Hội Mùa Thu",
+            "body":
+        `
+        Nhờ ơn Chúa và Đức Mẹ phù giúp cùng sự quảng đại hy sinh cộng tác của biết bao nhiêu người, Lễ Hội Mùa Thu của giáo xứ tuần qua đã diễn ra trong bình an, vui tươi và để lại nhiều dư âm.
+
+Thứ nhất chúng ta phải kể đến tinh thần phục vụ thật hăng say, vui tươi và chu đáo của ban tổ chức, cũng như của rất nhiều thiện nguyện viên trong mọi lãnh vực. Từ việc chuẩn bị lều trại, bàn ghế, gas điện, nước, âm thanh, ánh sáng, truyền thông, thực phẩm, an ninh trật tự cùng rất nhiều công việc khác.  Tinh thần hiệp nhất và phục vụ tận tình đã phản ảnh lời Thánh Vịnh 131, “Anh em sum họp một nhà, bao là tốt đẹp bao là sướng vui."
+
+Kế đến chúng ta cũng phải kể đến phần tâm linh. Đó là những lời cầu nguyện qua những giây phút chầu Thánh Thể của biết bao nhiêu quý ông bà anh chị em.  Qua việc chầu ở lều Thánh Thể, chúng ta đã thực hiện lời Chúa phán trong chương 15 Phúc Âm theo Thánh Gioan, “Không có Thày các con không thể làm được gì.”  Hay như trong Thánh Vịnh 121, “Ví như Chúa chẳng xấy nhà. Thợ nề vất vả cũng là uổng công.”  Chúng ta cố gắng hết sức, nhưng không chỉ dựa vào sức riêng và tài năng của mình mà mọi sự đều nhờ bởi ơn Chúa giúp.
+
+Quý ông bà và quan khách đến với Lễ Hội không chỉ tìm niềm vui giải trí, nhưng nhiều người còn có cơ hội gặp gỡ Chúa Giêsu nơi Bí Tích Hòa Giải, để tâm hồn được bình an và nhẹ nhàng.
+
+Lễ Hội Mùa Thu đã qua đi nhưng dư âm còn đọng lại, từ những hình ảnh vui tươi quên mình phục vụ của ban tổ chức và các thiện nguyện viên.  Chắc chắn những hình ảnh đẹp này đã để lại những ấn tượng sâu sắc về tinh thần phục vụ, lòng yêu mến Chúa và yêu thương đồng loại.
+
+Mong rằng những gặp gỡ trong những ngày Lễ Hội Mùa Thu vừa qua, đã là cơ hội để mọi người trong và ngoài giáo xứ gần gũi Thiên Chúa và gần gũi nhau hơn.
+
+Cảm tạ và ngợi khen Thiên Chúa!
+Linh mục Đaminh Trần Công Thơ
+
+        `
+        },
+        {
+            "Section": "Các Bài Viết",
             "date": "2021-08-29",
             "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
             "title": "CÙNG TẠ ƠN CHÚA, TRI ÂN NHAU VỀ NGÔI THÁNH ĐƯỜNG MỚI",
