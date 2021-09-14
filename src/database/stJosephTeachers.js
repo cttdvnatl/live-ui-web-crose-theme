@@ -429,8 +429,8 @@ const stJosephTeacherContent = [
     {   
         classification: 'main-teacher',
         image: 'https://hvmatl.net/gallery/kgd/giaoly/gl-9d-01.jpg',
-        name: 'Cô Diễm L. Nguyễn',
-        email: 'diem.l.nguyen@hvmatl.org',
+        name: 'Thầy Hoàng Bùi',
+        email: 'hbui5580@gmail.com',
         phone: 'Lớp 9D',
     },
     {   
@@ -484,16 +484,16 @@ const stJosephTeacherContent = [
     },
     {   
         classification: 'main-teacher',
-        image: 'https://hvmatl.net/gallery/kgd/giaoly/gl-10d-02.jpg',
-        name: 'TT Thành Lê',
-        email: 'thanh.le@hvmatl.org',
-        phone: 'Lớp 10D',
-    },
-    {   
-        classification: 'main-teacher',
         image: 'https://hvmatl.net/gallery/kgd/giaoly/hs-01-01.jpg',
         name: 'Thầy Khoa Vũ',
         email: 'josephkvu@yahoo.com',
+        phone: 'Lớp Hiệp Sĩ 1',
+    },
+    {   
+        classification: 'main-teacher',
+        image: 'https://hvmatl.net/gallery/kgd/giaoly/hs-01-02.jpg',
+        name: 'HT Thanh Nguyễn',
+        email: 'anthany.nguyen@gmail.com',
         phone: 'Lớp Hiệp Sĩ 1',
     },
     {   
@@ -520,11 +520,17 @@ const stJosephTeacherContent = [
     {   
         classification: 'main-teacher',
         image: 'https://hvmatl.net/gallery/kgd/giaoly/hs-02-03.jpg',
+        name: 'Thầy Timothy Nguyễn',
+        email: 'timothy@tnttsp.org',
+        phone: 'Lớp Hiệp Sĩ 2',
+    },
+    {   
+        classification: 'main-teacher',
+        image: 'https://hvmatl.net/gallery/kgd/giaoly/hs-02-04.jpg',
         name: 'HT Louis Hồ',
         email: 'louis.hieu.ho@hvmatl.org',
         phone: 'Lớp Hiệp Sĩ 2',
     },
-
     {   
         classification: 'assistant-teacher',
         image: 'https://hvmatl.net/gallery/kgd/giaoly/gl-1a-01.jpg',
