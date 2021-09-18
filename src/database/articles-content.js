@@ -23,6 +23,26 @@ const articleContent =
 [
         {
             "Section": "Các Bài Viết",
+            "date": "2021-09-19",
+            "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
+            "title": "Lớp Giáo Lý Dự Tòng",
+            "body":
+        `
+        Hằng năm, Giáo Xứ chúng ta có lớp dự tòng, hay còn gọi là lớp giáo lý cho người lớn, nhằm giúp các học viên học hỏi và tìm hiểu về đức tin Công Giáo để khi sẵn sàng thì gia nhập Giáo Hội.  Lớp giáo lý dự tòng năm nay đã được khai giảng vào Chúa Nhật tuần vừa qua, với khoảng ba chục anh chị em học viên.  Các anh chị em trong lớp giáo lý này sẽ học vào mỗi sáng Chúa Nhật, và sẽ được rửa tội hoặc gia nhập đức tin Công Giáo vào đêm Vọng Phục Sinh 2022.
+
+Thánh Phaolô đã viết trong thư thứ hai gởi tín hữu Côrintô: “Ấy vậy, có đức tin là nhờ nghe giảng, mà nghe giảng là nghe công bố lời Đức Ki-tô” (2 Cr. 5:17). Các anh chị em dự tòng đến với lớp giáo lý qua nhiều hoàn cảnh, lý do và động lực khác nhau. Có người thì tìm hiểu đức tin để vào đạo vì sẽ lập gia đình với người Công giáo.  Có người thì được người khác mời gọi, hoặc được đánh động bởi một biến cố nào đó xẩy ra trong cuộc đời.  Có người thì nhìn thấy gương lành của những người Công giáo nên tự ý muốn tìm hiểu để vào đạo.  Nhưng chung quy lại đều do ơn Chúa Thánh Thần soi sáng, thúc đẩy và tác động, qua lời nhắc nhở và mời gọi của ai đó, để các anh chị em dự tòng bước vào hành trình tìm hiểu đức tin.
+
+Trong suốt thời gian học hỏi và tìm hiểu đức tin một cách nghiêm túc, các anh chị em dự tòng cần rất nhiều lời cầu nguyện, lời động viên và gương sống đạo của các Kitô hữu chúng ta, là những người mà các anh chị em ấy sẽ tiếp xúc hằng ngày, nhất là khi đến nhà thờ tham dự các sinh hoạt.  Là những Kitô hữu đi trước, chúng ta hãy nhớ đến các anh chị em dự tòng trong lời cầu nguyện hằng ngày.  Đồng thời chúng ta cũng thể hiện đức tin của mình một cách sống động, qua từng lời nói và cử chỉ bác ái khi tiếp xúc với các anh chị em ấy.  Đây chính là những lời rao giảng thiết thực mà các anh chị em dự tòng đang cần đến.
+
+Ngoài ra, các anh chị em dự tòng cũng cần có người bảo trợ, để làm những người đồng hành và đỡ đầu khi các anh chị em được lãnh nhận Bí Tích Rửa Tội và Thêm Sức, cũng như trong đời sống đức tin sau này.  Vậy chúng ta hãy cầu nguyện và suy nghĩ, chúng ta có thể cộng tác hay đóng góp được gì, trong hành trình tìm hiểu và lãnh nhận đức tin của các anh chị em dự tòng trong giáo xứ năm nay.
+
+Ngợi khen Chúa Giêsu Kitô!
+Linh mục Đaminh Trần Công Thơ
+
+        `
+        },
+        {
+            "Section": "Các Bài Viết",
             "date": "2021-09-12",
             "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
             "title": "Dư Âm Lễ Hội Mùa Thu",

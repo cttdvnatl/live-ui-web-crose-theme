@@ -2,9 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\src",
+    "\\src\\components",
     "\\src\\database",
     "\\src\\pages"
   ],
-  "SelectedNode": "\\src\\database\\hvmatlDataEN.json",
+  "SelectedNode": "\\src\\pages\\ClergyListPage.jsx",
   "PreviewInSolutionExplorer": false
 }
