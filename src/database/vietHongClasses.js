@@ -9,7 +9,7 @@ const Classes = [
     {
         name: "mgb",
         class: "Mẫu Giáo B",
-        teachers: "Cô Đặng Hiền, Cô Lâm Amy, Cô Võ Thùy Trâm",
+        teachers: "Cô Đặng Hiền, Cô Lâm Amy, Cô Trần Huyền",
         emails: "",
         classwork: "https://docs.google.com/document/d/e/2PACX-1vSmbzolKGSy-E7YzX68TPr1xzZVH2XzI1DlWvkXYsjQbZO3a2wD-p-kO16Mm_Y3e6vfuwLgDW4vwBnk/pub?embedded=true"
     },
@@ -23,14 +23,21 @@ const Classes = [
     {
         name: "vlb",
         class: "Vỡ Lòng B",
-        teachers: "Cô Võ Ngọc Trâm, Cô Trần Huyền",
+        teachers: "Thầy Trần Khắc Vinh, Cô Võ Ngọc Trâm, ",
         emails: "",
         classwork: "https://docs.google.com/document/d/e/2PACX-1vRqCicokmDNzw1uBgBlr3pjHt-093law2fs8biDPe7bh6dNp2DNmaw0gqIxUdGAu8lLNhzHGxqxzjq_/pub?embedded=true"
     },
     {
+        name: "vlc",
+        class: "Vỡ Lòng C",
+        teachers: "Cô Trần Hương, Cô Nghiêm X. Đ. Trang",
+        emails: "",
+        classwork: "https://docs.google.com/document/d/e/2PACX-1vSVMDgIfwdDu1sHGHDOvNyW8PJ427uTphU4A9Bfz0f9UDEiG6SY3h8pe-nTeTEN8AGDUiAQEfFNTlva/pub?embedded=true"
+    },
+    {
         name: "1",
         class: "1",
-        teachers: "Thầy Trần Khắc Vinh, Cô Nguyễn Minh Viên",
+        teachers: "Cô Nguyễn Minh Viên",
         emails: "",
         classwork: "https://docs.google.com/document/d/e/2PACX-1vR0_TX2LZen-z3ml7303ShaenfhKI7PmBGdFcpv4NmG_fPLBggf9RJ2NiOw6R1f6hJhkGMbSUBT3pGf/pub?embedded=true"
     },
@@ -58,7 +65,7 @@ const Classes = [
     {
         name: "4",
         class: "4",
-        teachers: "Thầy Võ Minh Hoàng, Thầy Nguyễn Hữu Toàn, Cô Trần Hương",
+        teachers: "Thầy Võ Minh Hoàng, Thầy Nguyễn Hữu Toàn",
         emails: "",
         classwork: "https://docs.google.com/document/d/e/2PACX-1vSSZ6eiKjVc5R7H63hZAP7g66mthjiab1xq8vfPI3oll-CkuvkE_jW-B41Um_h_YohiMiZ16KSgyyzZ/pub?embedded=true"
     },
