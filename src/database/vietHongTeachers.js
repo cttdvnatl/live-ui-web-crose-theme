@@ -169,12 +169,6 @@ const VietHongTeacherContent = [
     },
     {   
         classification: 'main-teacher',
-        image: 'https://hvmatl.net/gallery/kgd/viethong/viethong-2021-2022-t-vo-thuy-tram.jpg',
-        name: 'Cô Võ Thùy Trâm',
-        email: 'thuy.tram.vo@hvmatl.org',
-    },
-    {   
-        classification: 'main-teacher',
         image: 'https://hvmatl.net/gallery/kgd/viethong/viethong-2021-2022-t-vu-kim-lien.jpg',
         name: 'Cô Vũ Kim Liên',
         email: 'lien.vu@hvmatl.org',
