@@ -20,6 +20,7 @@ const ClergyListPage = () => {
         Data = hvmatlDataEN.clergyList;
     }
 
+    const t = useTranslation()
     return (
         <div>
             <Header/> 
