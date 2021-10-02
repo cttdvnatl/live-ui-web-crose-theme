@@ -1,4 +1,5 @@
 import React from 'react';
+
 const ClergyList = (prop) => {
     return (
         <section className="about-area section-padding-100-0">

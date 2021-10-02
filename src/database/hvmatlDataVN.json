@@ -23,30 +23,30 @@
         "pageTitle": "Thông báo về bệnh dịch Coronavirus 2019",
         "button": "Xem thêm"
     },
-  "about": {
-    "pageTitle": "Sứ Mệnh Giáo Xứ",
-    "heading": "Giáo Xứ Các Thánh Tử Đạo Việt Nam",
-    "paragraph": "Giáo Xứ Các Thánh Tử Đạo Việt Nam thuộc Tổng Giáo Phận Atlanta là cộng đoàn người Công Giáo gốc Việt cùng sống cử hành, loan truyền đức tin Công Giáo, đồng thời duy trì và phát triển truyền thống văn hoá Việt Nam.",
-    "headingLogo": "Ý Nghĩa của Dấu Hiệu Giáo Xứ",
-    "paraHeading1": "Màu Sắc:",
-    "paragraph11": "Màu Đỏ: màu máu của Các Thánh Tử Đạo Việt Nam",
-    "paragraph12": "Màu Vàng Nâu: da vàng Việt Nam",
-    "paraHeading2": "Hình Thể:",
-    "paragraph21": "Hình Tròn Lớn: tượng trưng cho mặt đất, nguồn của sự sống",
-    "paragraph22": "Bản Đồ Việt Nam: tổ quốc Việt Nam",
-    "paragraph23": "Các Gạch Song Song Thẳng và Ngang: ba phần đất Bắc, Trung, Nam",
-    "paragraph24": "Hình Thánh Giá: làm thành dân Thiên Chúa và mang danh hiệu Kitô hửu",
-    "paragraph25": "Hình Tròn Nhỏ:",
-    "subparagraph21": "Tập trung tâm điểm là Chúa Kitô - Mặt Trời Công Chính",
-    "subparagraph22": "Thực hành đời sống đức tin trong và qua Bí Tích Thánh Thể",
-    "paragraph26": "Ánh Sáng Tỏa Chiếu: mang Tin Mừng của Chúa cho mọi người",
-    "paraHeading3": "Diển Tả - Từ Ngoài Vào Trung Tâm",
-    "paragraph31": "Người Công Giáo Việt Nam là con cháu của Các Thánh Tử Đạo Việt Nam",
-    "paragraph32": "Chính họ làm thành dân Thiên Chúa",
-    "paragraph33": "Tập trung đời sống trong Chúa Kitô là Mặt Trời Công Chính",
-    "paragraph34": "Thực hành đời sống đức tin qua Bí Tích Thánh Thể",
-    "paragraph35": "Tiếp tục sứ mạng Phúc Âm hóa toàn thế giới"
-  },
+    "about": {
+        "pageTitle": "Sứ Mệnh Giáo Xứ",
+        "heading": "Giáo Xứ Các Thánh Tử Đạo Việt Nam",
+        "paragraph": "Giáo Xứ Các Thánh Tử Đạo Việt Nam thuộc Tổng Giáo Phận Atlanta là cộng đoàn người Công Giáo gốc Việt cùng sống cử hành, loan truyền đức tin Công Giáo, đồng thời duy trì và phát triển truyền thống văn hoá Việt Nam.",
+        "headingLogo": "Ý Nghĩa của Dấu Hiệu Giáo Xứ",
+        "paraHeading1": "Màu Sắc:",
+        "paragraph11": "Màu Đỏ: màu máu của Các Thánh Tử Đạo Việt Nam",
+        "paragraph12": "Màu Vàng Nâu: da vàng Việt Nam",
+        "paraHeading2": "Hình Thể:",
+        "paragraph21": "Hình Tròn Lớn: tượng trưng cho mặt đất, nguồn của sự sống",
+        "paragraph22": "Bản Đồ Việt Nam: tổ quốc Việt Nam",
+        "paragraph23": "Các Gạch Song Song Thẳng và Ngang: ba phần đất Bắc, Trung, Nam",
+        "paragraph24": "Hình Thánh Giá: làm thành dân Thiên Chúa và mang danh hiệu Kitô hửu",
+        "paragraph25": "Hình Tròn Nhỏ:",
+        "subparagraph21": "Tập trung tâm điểm là Chúa Kitô - Mặt Trời Công Chính",
+        "subparagraph22": "Thực hành đời sống đức tin trong và qua Bí Tích Thánh Thể",
+        "paragraph26": "Ánh Sáng Tỏa Chiếu: mang Tin Mừng của Chúa cho mọi người",
+        "paraHeading3": "Diển Tả - Từ Ngoài Vào Trung Tâm",
+        "paragraph31": "Người Công Giáo Việt Nam là con cháu của Các Thánh Tử Đạo Việt Nam",
+        "paragraph32": "Chính họ làm thành dân Thiên Chúa",
+        "paragraph33": "Tập trung đời sống trong Chúa Kitô là Mặt Trời Công Chính",
+        "paragraph34": "Thực hành đời sống đức tin qua Bí Tích Thánh Thể",
+        "paragraph35": "Tiếp tục sứ mạng Phúc Âm hóa toàn thế giới"
+    },
     "history": {
         "pageTitle": "Quá Trình Thành Lập",
         "pageTitleContinued": "Giáo Xứ Các Thánh Tử Đạo Việt Nam"
@@ -159,5 +159,126 @@
         "title": "Trường Thánh Giuse",
         "announcement": "Tin tức và thông báo trong niên học cho chương trình học Giáo Lý và Thiếu Nhi Thánh Thể sẽ được cập nhật thường xuyên trên trang này."
       }
-    }
+    },
+    "clergyList": [
+        {
+            "title": "Linh Mục / Tu Sĩ - Đương Nhiệm",
+            "content":
+            [
+                {
+                    "name": "Lm. Phanxicô Trần Quốc Tuấn",
+                    "title": "Chánh Xứ",
+                    "image": "http://hvmatl.net/gallery/img/core-img/ChaTuan.jpg"
+                },
+                {
+                    "name": "Lm. GB Phạm Nguyễn Tuấn Anh",
+                    "title": "Phó Xứ",
+                    "image": "http://hvmatl.net/gallery/img/core-img/ChaTuanAnh.jpg"
+                },
+                {
+                    "name": "Lm. Đaminh Trần Công Thơ",
+                    "title": "Phó Xứ",
+                    "image": "http://hvmatl.net/gallery/img/core-img/ChaTho.jpg"
+                },
+                {
+                    "name": "Sr. Maria Nguyễn Thị Thúy",
+                    "title": "Thư Ký Văn Phòng",
+                    "image": "http://hvmatl.net/gallery/img/core-img/SoThuy.jpg"
+                },
+                {
+                    "name": "Sr. Teresa Đỗ Thị Ngọc Oanh",
+                    "title": "Tr. Ban Giáo Lý",
+                    "image": "http://hvmatl.net/gallery/img/core-img/SoOanh.jpg"
+                },
+                {
+                    "name": "Lm. Isidore Nguyễn Bá Kỳ",
+                    "title": "Cha khách",
+                    "image": "http://hvmatl.net/gallery/img/core-img/ChaCoKy.jpg"
+                },
+                {
+                    "name": "Thầy Giuse Phạm Văn Hòa",
+                    "title": "Phó Tế",
+                    "image": "http://hvmatl.net/gallery/img/core-img/ThayHoa.jpg"
+                }
+            ]
+        },
+        {
+            "title": "Cựu Linh Mục / Tu Sĩ",
+            "content":
+            [
+                {
+                    "name": "Sr. Christine Trương Mỹ Hạnh",
+                    "title": "Sister",
+                    "date": "1992 - 6/1996",
+                    "image": "http://hvmatl.net/gallery/img/core-img/SoMyHanh.jpg"
+                },
+                {
+                    "name": "Lm. Phêrô Vũ Ngọc Đức",
+                    "title": "Priest",
+                    "date": "6/1996 - 1/2008",
+                    "image": "http://hvmatl.net/gallery/img/core-img/ChaNgocDuc.jpg"
+                },
+                {
+                    "name": "Sr. Anna Nguyễn Ngọc Oanh",
+                    "title": "Sister",
+                    "date": "4/2007 - 12/2012",
+                    "image": "http://hvmatl.net/gallery/img/core-img/SoOanh1.jpg"
+                },
+                {
+                    "name": "Lm. Phanxicô Trần Duy Hưng",
+                    "title": "Priest",
+                    "date": "9/2007 - 12/2009",
+                    "image": "http://hvmatl.net/gallery/img/core-img/ChaDuyHung.jpg"
+                },
+                {
+                    "name": "Lm. Giuse Phạm Minh Tân",
+                    "title": "Priest",
+                    "date": "8/2010 - 7/2012",
+                    "image": "http://hvmatl.net/gallery/img/core-img/ChaMinhTan.jpg"
+                },
+                {
+                    "name": "Lm. Henry Phạm Minh Thắng",
+                    "title": "Priest",
+                    "date": "7/2012 - 10/2013",
+                    "image": "http://hvmatl.net/gallery/img/core-img/ChaMinhThang.jpg"
+                },
+                {
+                    "name": "Sr. Têrêxa Lưu Bích Ngọc",
+                    "title": "Sister",
+                    "date": "2/2012 - 6/2013",
+                    "image": "http://hvmatl.net/gallery/img/core-img/SoBichNgoc.jpg"
+                },
+                {
+                    "name": "Sr. Maria Nguyễn Hồng Hạnh",
+                    "title": "Sister",
+                    "date": "4/2007 - 2016",
+                    "image": "http://hvmatl.net/gallery/img/core-img/SoHongHanh.jpg"
+                },
+                {
+                    "name": "Lm. Antôn Bùi Kim Phong",
+                    "title": "Priest",
+                    "date": "6/2012 - 7/2017",
+                    "image": "http://hvmatl.net/gallery/img/core-img/ChaKimPhong.jpg"
+                },
+                {
+                    "name": "Sr. Maria Nguyễn Mỹ-Linh",
+                    "title": "Sister",
+                    "date": "6/2013 - 6/2018",
+                    "image": "http://hvmatl.net/gallery/img/core-img/SoMyLinh.jpg"
+                },
+                {
+                    "name": "Lm. Đaminh Nguyễn Tấn Công",
+                    "title": "Priest",
+                    "date": "7/2016 - 6/2019",
+                    "image": "http://hvmatl.net/gallery/img/core-img/ChaCong.jpg"
+                },
+                {
+                    "name": "Sr. Anna Trần Đỗ Thụy-An",
+                    "title": "Sister",
+                    "date": "10/2016 - 8/2018",
+                    "image": "http://hvmatl.net/gallery/img/core-img/SoThuyAn.jpg"
+                }
+            ]
+        }
+    ]    
 }

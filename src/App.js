@@ -76,7 +76,6 @@ function checkLangCookie() {
 function setLangCookie() {
     document.cookie = "language = " + getLanguage();
 }
-
 function getCookie(cookieParam) {
     const cookieName = cookieParam + "=";
     const decodedCookie = decodeURIComponent(document.cookie);
