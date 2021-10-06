@@ -2,10 +2,7 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\components",
-    "\\src\\database",
-    "\\src\\pages"
+    "\\src\\components"
   ],
-  "SelectedNode": "\\src\\pages\\ClergyListPage.jsx",
   "PreviewInSolutionExplorer": false
 }

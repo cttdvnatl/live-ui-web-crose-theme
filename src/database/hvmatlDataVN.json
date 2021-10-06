@@ -1,284 +1,471 @@
 {
-    "index": {
-        "headerMsg": "Thông báo về bệnh dịch Coronavirus 2019"
+  "index": {
+    "headerMsg": "Thông báo về bệnh dịch Coronavirus 2019"
+  },
+  "info": {
+    "item1": {
+      "heading": "Giáo Lý",
+      "description": "Giáo Lý của Giáo Hội Công Giáo"
     },
-    "info": {
-        "item1": {
-            "heading": "Giáo Lý",
-            "description": "Giáo Lý của Giáo Hội Công Giáo"
-        },
-        "item2": {
-            "heading": "Tờ Thông Tin Mục Vụ",
-            "description": "Thông tin mục vụ hàng tuần của Giáo Xứ Các Thánh Tử Đạo Việt Nam"
-        },
-        "item3": {
-            "heading": "Tham Dự Thánh Lễ Trực Tuyến:",
-            "description": ""
-        }
+    "item2": {
+      "heading": "Tờ Thông Tin Mục Vụ",
+      "description": "Thông tin mục vụ hàng tuần của Giáo Xứ Các Thánh Tử Đạo Việt Nam"
     },
-    "calendar": {
-        "heading": "Lịch Giáo Xứ"
+    "item3": {
+      "heading": "Tham Dự Thánh Lễ Trực Tuyến:",
+      "description": ""
+    }
+  },
+  "calendar": {
+    "heading": "Lịch Giáo Xứ"
+  },
+  "covid19": {
+    "pageTitle": "Thông báo về bệnh dịch Coronavirus 2019",
+    "button": "Xem thêm"
+  },
+  "about": {
+    "pageTitle": "Sứ Mệnh Giáo Xứ",
+    "heading": "Giáo Xứ Các Thánh Tử Đạo Việt Nam",
+    "paragraph": "Giáo Xứ Các Thánh Tử Đạo Việt Nam thuộc Tổng Giáo Phận Atlanta là cộng đoàn người Công Giáo gốc Việt cùng sống cử hành, loan truyền đức tin Công Giáo, đồng thời duy trì và phát triển truyền thống văn hoá Việt Nam.",
+    "headingLogo": "Ý Nghĩa của Dấu Hiệu Giáo Xứ",
+    "paraHeading1": "Màu Sắc:",
+    "paragraph11": "Màu Đỏ: màu máu của Các Thánh Tử Đạo Việt Nam",
+    "paragraph12": "Màu Vàng Nâu: da vàng Việt Nam",
+    "paraHeading2": "Hình Thể:",
+    "paragraph21": "Hình Tròn Lớn: tượng trưng cho mặt đất, nguồn của sự sống",
+    "paragraph22": "Bản Đồ Việt Nam: tổ quốc Việt Nam",
+    "paragraph23": "Các Gạch Song Song Thẳng và Ngang: ba phần đất Bắc, Trung, Nam",
+    "paragraph24": "Hình Thánh Giá: làm thành dân Thiên Chúa và mang danh hiệu Kitô hửu",
+    "paragraph25": "Hình Tròn Nhỏ:",
+    "subparagraph21": "Tập trung tâm điểm là Chúa Kitô - Mặt Trời Công Chính",
+    "subparagraph22": "Thực hành đời sống đức tin trong và qua Bí Tích Thánh Thể",
+    "paragraph26": "Ánh Sáng Tỏa Chiếu: mang Tin Mừng của Chúa cho mọi người",
+    "paraHeading3": "Diển Tả - Từ Ngoài Vào Trung Tâm",
+    "paragraph31": "Người Công Giáo Việt Nam là con cháu của Các Thánh Tử Đạo Việt Nam",
+    "paragraph32": "Chính họ làm thành dân Thiên Chúa",
+    "paragraph33": "Tập trung đời sống trong Chúa Kitô là Mặt Trời Công Chính",
+    "paragraph34": "Thực hành đời sống đức tin qua Bí Tích Thánh Thể",
+    "paragraph35": "Tiếp tục sứ mạng Phúc Âm hóa toàn thế giới"
+  },
+  "history": {
+    "pageTitle": "Quá Trình Thành Lập",
+    "pageTitleContinued": "Giáo Xứ Các Thánh Tử Đạo Việt Nam"
+  },
+  "header": {
+    "top": {
+      "massSchedule": "Giờ Lễ"
     },
-    "covid19": {
-        "pageTitle": "Thông báo về bệnh dịch Coronavirus 2019",
-        "button": "Xem thêm"
+    "dropdownMenuOne": {
+      "dropdownHeading": "GIÁO XỨ",
+      "item1": "Trang Chủ",
+      "item2": "Sứ Mệnh Giáo Xứ",
+      "item3": "Lịch Sử Giáo Xứ",
+      "item4": "Các Thánh Tử Đạo",
+      "item5": "Linh Mục/Tu Sĩ",
+      "item6": "Qúy Chức"
     },
-    "about": {
-        "pageTitle": "Sứ Mệnh Giáo Xứ",
-        "heading": "Giáo Xứ Các Thánh Tử Đạo Việt Nam",
-        "paragraph": "Giáo Xứ Các Thánh Tử Đạo Việt Nam thuộc Tổng Giáo Phận Atlanta là cộng đoàn người Công Giáo gốc Việt cùng sống cử hành, loan truyền đức tin Công Giáo, đồng thời duy trì và phát triển truyền thống văn hoá Việt Nam.",
-        "headingLogo": "Ý Nghĩa của Dấu Hiệu Giáo Xứ",
-        "paraHeading1": "Màu Sắc:",
-        "paragraph11": "Màu Đỏ: màu máu của Các Thánh Tử Đạo Việt Nam",
-        "paragraph12": "Màu Vàng Nâu: da vàng Việt Nam",
-        "paraHeading2": "Hình Thể:",
-        "paragraph21": "Hình Tròn Lớn: tượng trưng cho mặt đất, nguồn của sự sống",
-        "paragraph22": "Bản Đồ Việt Nam: tổ quốc Việt Nam",
-        "paragraph23": "Các Gạch Song Song Thẳng và Ngang: ba phần đất Bắc, Trung, Nam",
-        "paragraph24": "Hình Thánh Giá: làm thành dân Thiên Chúa và mang danh hiệu Kitô hửu",
-        "paragraph25": "Hình Tròn Nhỏ:",
-        "subparagraph21": "Tập trung tâm điểm là Chúa Kitô - Mặt Trời Công Chính",
-        "subparagraph22": "Thực hành đời sống đức tin trong và qua Bí Tích Thánh Thể",
-        "paragraph26": "Ánh Sáng Tỏa Chiếu: mang Tin Mừng của Chúa cho mọi người",
-        "paraHeading3": "Diển Tả - Từ Ngoài Vào Trung Tâm",
-        "paragraph31": "Người Công Giáo Việt Nam là con cháu của Các Thánh Tử Đạo Việt Nam",
-        "paragraph32": "Chính họ làm thành dân Thiên Chúa",
-        "paragraph33": "Tập trung đời sống trong Chúa Kitô là Mặt Trời Công Chính",
-        "paragraph34": "Thực hành đời sống đức tin qua Bí Tích Thánh Thể",
-        "paragraph35": "Tiếp tục sứ mạng Phúc Âm hóa toàn thế giới"
+    "dropdownMenuTwo": {
+      "dropdownHeading": "TIN TỨC/SỰ KIỆN",
+      "item1": "Sinh Hoạt Giáo Xứ",
+      "item2": "Lịch 2021",
+      "item3": "Covid-19",
+      "item4": "TNTT Tôma Thiện"
     },
-    "history": {
-        "pageTitle": "Quá Trình Thành Lập",
-        "pageTitleContinued": "Giáo Xứ Các Thánh Tử Đạo Việt Nam"
+    "dropdownMenuThree": {
+      "dropdownHeading": "BAN NGÀNH",
+      "item1": "Sơ Đồ Tổ Chức",
+      "item2": "Khối Cơ Sở",
+      "item3": "Khối Đời Sống",
+      "item4": "Khối Giáo Dục",
+      "subItem1": "Giáo Lý",
+      "subItem2": "Việt Ngữ",
+      "item5": "Khối Hành Chánh",
+      "item6": "Khối Phụng Tự",
+      "item7": "Khối Truyền Giáo",
+      "item8": "Khối Quản Trị",
+      "item9": "Khối Gây Quỹ"
     },
+    "dropdownMenuFour": {
+      "dropdownHeading": "Thư Viện",
+      "item1": "Thông Tin Mục Vụ",
+      "item2": "Các Bài Viết",
+      "item3": "Giáo Lý",
+      "item4": "Thư Viện Hình Ảnh",
+      "item5": "Đơn Từ",
+      "item6": "Xin Lễ"
+    },
+    "dropdownMenuFive": {
+      "dropdownHeading": "LIÊN HỆ"
+    },
+    "donation": "Dâng Hiến"
+  },
+  "footer": {
+    "widget1": {
+      "heading": "Quick Links",
+      "item1": "Trang Chủ",
+      "item2": "Giới Thiệu",
+      "item3": "Giờ Lễ",
+      "item4": "Thông Báo",
+      "item5": "Tờ Thông Tin",
+      "item6": "Thiếu Nhi Thánh Thể",
+      "item7": "Khối Giáo Dục",
+      "item8": "Hội Chợ Mùa Thu"
+    },
+    "widget2": {
+      "heading": "Liên Hệ"
+    }
+  },
+  "viethong": {
     "header": {
-        "top": {
-            "massSchedule": "Giờ Lễ"
-        },
-        "dropdownMenuOne": {
-            "dropdownHeading": "GIÁO XỨ",
-            "item1": "Trang Chủ",
-            "item2": "Sứ Mệnh Giáo Xứ",
-            "item3": "Lịch Sử Giáo Xứ",
-            "item4": "Các Thánh Tử Đạo",
-            "item5": "Linh Mục/Tu Sĩ",
-            "item6": "Qúy Chức"
-        },
-        "dropdownMenuTwo": {
-            "dropdownHeading": "TIN TỨC/SỰ KIỆN",
-            "item1": "Sinh Hoạt Giáo Xứ",
-            "item2": "Lịch 2021",
-            "item3": "Covid-19",
-            "item4": "TNTT Tôma Thiện"
-        },
-        "dropdownMenuThree": {
-            "dropdownHeading": "BAN NGÀNH",
-            "item1": "Sơ Đồ Tổ Chức",
-            "item2": "Khối Cơ Sở",
-            "item3": "Khối Đời Sống",
-            "item4": "Khối Giáo Dục",
-            "subItem1": "Giáo Lý",
-            "subItem2": "Việt Ngữ",
-            "item5": "Khối Hành Chánh",
-            "item6": "Khối Phụng Tự",
-            "item7": "Khối Truyền Giáo",
-            "item8": "Khối Quản Trị",
-            "item9": "Khối Gây Quỹ"
-        },
-        "dropdownMenuFour": {
-            "dropdownHeading": "Thư Viện",
-            "item1": "Thông Tin Mục Vụ",
-            "item2": "Các Bài Viết",
-            "item3": "Giáo Lý",
-            "item4": "Thư Viện Hình Ảnh",
-            "item5": "Đơn Từ",
-            "item6": "Xin Lễ"
-        },
-        "dropdownMenuFive": {
-            "dropdownHeading": "LIÊN HỆ"
-        },
-        "donation": "Dâng Hiến"
+      "item1": "Trường Việt Hồng",
+      "item2": "Thầy Cô",
+      "item3": "Các Lớp",
+      "item4": "Sinh Hoạt",
+      "item5": "Văn Thư"
     },
-    "footer": {
-        "widget1": {
-            "heading": "Quick Links",
-            "item1": "Trang Chủ",
-            "item2": "Giới Thiệu",
-            "item3": "Giờ Lễ",
-            "item4": "Thông Báo",
-            "item5": "Tờ Thông Tin",
-            "item6": "Thiếu Nhi Thánh Thể",
-            "item7": "Khối Giáo Dục",
-            "item8": "Hội Chợ Mùa Thu"
-        },
-        "widget2": {
-            "heading": "Liên Hệ"
-        }
+    "home": {
+      "heading": "Nhà trường chúng tôi mong nhận được nhiều giúp đỡ, thông cảm và cộng tác",
+      "line1": "từ quý phụ huynh để chúng ta cùng có được một năm học thành công",
+      "line2": "cho con em mình. Xin cảm ơn quý vị.",
+      "line3": "Theo quyết định của Tổng Giáo Phận Atlanta và Học Khu Gwinnett",
+      "line4": "thầy cô và học sinh của Trường Việt Ngữ Việt Hồng",
+      "line5": "sẽ mang face mask cho đến khi có thông báo mới",
+      "line6": "Tin tức và thông báo trong niên học",
+      "line7": "sẽ được cập nhật thường xuyên trên trang này.",
+      "announcement": "Quý phụ huynh muốn biết thêm chi tiết xin liên lạc đến Viet.Hong.School@hvmatl.org"
+    }
+  },
+  "stjoseph": {
+    "header": {
+      "item1": "Trường Thánh Giuse",
+      "item2": "Thầy Cô",
+      "item3": "Sinh Hoạt",
+      "item4": "Văn Thư",
+      "item5": "Các Lớp"
     },
-    "viethong":  {
-        "header": {
-            "item1": "Trường Việt Hồng",
-            "item2": "Thầy Cô",
-            "item3": "Các Lớp",
-            "item4": "Sinh Hoạt",
-            "item5": "Văn Thư"
-        },
-        "home": {
-            "heading": "Nhà trường chúng tôi mong nhận được nhiều giúp đỡ, thông cảm và cộng tác",
-            "line1": "từ quý phụ huynh để chúng ta cùng có được một năm học thành công",
-            "line2": "cho con em mình. Xin cảm ơn quý vị.",
-            "line3": "Theo quyết định của Tổng Giáo Phận Atlanta và Học Khu Gwinnett",
-            "line4": "thầy cô và học sinh của Trường Việt Ngữ Việt Hồng",
-            "line5": "sẽ mang face mask cho đến khi có thông báo mới",
-            "line6": "Tin tức và thông báo trong niên học",
-            "line7": "sẽ được cập nhật thường xuyên trên trang này.",
-            "announcement": "Quý phụ huynh muốn biết thêm chi tiết xin liên lạc đến Viet.Hong.School@hvmatl.org"
-        }
-    },
-    "stjoseph":  {
-        "header": {
-            "item1": "Trường Thánh Giuse",
-            "item2": "Thầy Cô",
-            "item3": "Sinh Hoạt",
-            "item4": "Văn Thư",
-            "item5": "Các Lớp"
-        },
-      "home": {
-        "heading": "Chương Trình Học Giáo Lý và Thiếu Nhi Thánh Thể",
-        "line1": "Niên Học 2021-2022",
-        "line2": "Ca 1:",
-        "line3": "Các lớp 1, 2, 3, 4, 5, 6 và 7",
-        "line4": "Mỗi Chúa Nhật từ 9:00 AM đến 11:10 AM",
-        "line5": "Tại building Dominic Savio, Tôma Thiện và Carlos Acutis",
-        "line6": "Tham dự Thánh Lễ Thiếu Nhi lúc 11:30 AM",
-        "line7": "Ca 2:",
-        "line8": "Các lớp 8, 9, 10 và lớp Hiệp Sĩ I, II, III",
-        "line9": "Mỗi Chúa Nhật từ 11:10 AM đến 1:10 PM",
-        "line10": "Tại building Dominic Savio, Tôma Thiện và Carlos Acutis",
-        "line11": "Tham dự Thánh Lễ Teens lúc 1:30 PM",
-        "title": "Trường Thánh Giuse",
-        "announcement": "Tin tức và thông báo trong niên học cho chương trình học Giáo Lý và Thiếu Nhi Thánh Thể sẽ được cập nhật thường xuyên trên trang này."
-      }
-    },
-    "clergyList": [
+    "home": {
+      "heading": "Chương Trình Học Giáo Lý và Thiếu Nhi Thánh Thể",
+      "line1": "Niên Học 2021-2022",
+      "line2": "Ca 1:",
+      "line3": "Các lớp 1, 2, 3, 4, 5, 6 và 7",
+      "line4": "Mỗi Chúa Nhật từ 9:00 AM đến 11:10 AM",
+      "line5": "Tại building Dominic Savio, Tôma Thiện và Carlos Acutis",
+      "line6": "Tham dự Thánh Lễ Thiếu Nhi lúc 11:30 AM",
+      "line7": "Ca 2:",
+      "line8": "Các lớp 8, 9, 10 và lớp Hiệp Sĩ I, II, III",
+      "line9": "Mỗi Chúa Nhật từ 11:10 AM đến 1:10 PM",
+      "line10": "Tại building Dominic Savio, Tôma Thiện và Carlos Acutis",
+      "line11": "Tham dự Thánh Lễ Teens lúc 1:30 PM",
+      "title": "Trường Thánh Giuse",
+      "announcement": "Tin tức và thông báo trong niên học cho chương trình học Giáo Lý và Thiếu Nhi Thánh Thể sẽ được cập nhật thường xuyên trên trang này."
+    }
+  },
+  "clergyList": [
+    {
+      "title": "Linh Mục / Tu Sĩ - Đương Nhiệm",
+      "content": [
         {
-            "title": "Linh Mục / Tu Sĩ - Đương Nhiệm",
-            "content":
-            [
-                {
-                    "name": "Lm. Phanxicô Trần Quốc Tuấn",
-                    "title": "Chánh Xứ",
-                    "image": "http://hvmatl.net/gallery/img/core-img/ChaTuan.jpg"
-                },
-                {
-                    "name": "Lm. GB Phạm Nguyễn Tuấn Anh",
-                    "title": "Phó Xứ",
-                    "image": "http://hvmatl.net/gallery/img/core-img/ChaTuanAnh.jpg"
-                },
-                {
-                    "name": "Lm. Đaminh Trần Công Thơ",
-                    "title": "Phó Xứ",
-                    "image": "http://hvmatl.net/gallery/img/core-img/ChaTho.jpg"
-                },
-                {
-                    "name": "Sr. Maria Nguyễn Thị Thúy",
-                    "title": "Thư Ký Văn Phòng",
-                    "image": "http://hvmatl.net/gallery/img/core-img/SoThuy.jpg"
-                },
-                {
-                    "name": "Sr. Teresa Đỗ Thị Ngọc Oanh",
-                    "title": "Tr. Ban Giáo Lý",
-                    "image": "http://hvmatl.net/gallery/img/core-img/SoOanh.jpg"
-                },
-                {
-                    "name": "Lm. Isidore Nguyễn Bá Kỳ",
-                    "title": "Cha khách",
-                    "image": "http://hvmatl.net/gallery/img/core-img/ChaCoKy.jpg"
-                },
-                {
-                    "name": "Thầy Giuse Phạm Văn Hòa",
-                    "title": "Phó Tế",
-                    "image": "http://hvmatl.net/gallery/img/core-img/ThayHoa.jpg"
-                }
-            ]
+          "name": "Lm. Phanxicô Trần Quốc Tuấn",
+          "title": "Chánh Xứ",
+          "image": "http://hvmatl.net/gallery/img/core-img/ChaTuan.jpg"
         },
         {
-            "title": "Cựu Linh Mục / Tu Sĩ",
-            "content":
-            [
-                {
-                    "name": "Sr. Christine Trương Mỹ Hạnh",
-                    "title": "Sister",
-                    "date": "1992 - 6/1996",
-                    "image": "http://hvmatl.net/gallery/img/core-img/SoMyHanh.jpg"
-                },
-                {
-                    "name": "Lm. Phêrô Vũ Ngọc Đức",
-                    "title": "Priest",
-                    "date": "6/1996 - 1/2008",
-                    "image": "http://hvmatl.net/gallery/img/core-img/ChaNgocDuc.jpg"
-                },
-                {
-                    "name": "Sr. Anna Nguyễn Ngọc Oanh",
-                    "title": "Sister",
-                    "date": "4/2007 - 12/2012",
-                    "image": "http://hvmatl.net/gallery/img/core-img/SoOanh1.jpg"
-                },
-                {
-                    "name": "Lm. Phanxicô Trần Duy Hưng",
-                    "title": "Priest",
-                    "date": "9/2007 - 12/2009",
-                    "image": "http://hvmatl.net/gallery/img/core-img/ChaDuyHung.jpg"
-                },
-                {
-                    "name": "Lm. Giuse Phạm Minh Tân",
-                    "title": "Priest",
-                    "date": "8/2010 - 7/2012",
-                    "image": "http://hvmatl.net/gallery/img/core-img/ChaMinhTan.jpg"
-                },
-                {
-                    "name": "Lm. Henry Phạm Minh Thắng",
-                    "title": "Priest",
-                    "date": "7/2012 - 10/2013",
-                    "image": "http://hvmatl.net/gallery/img/core-img/ChaMinhThang.jpg"
-                },
-                {
-                    "name": "Sr. Têrêxa Lưu Bích Ngọc",
-                    "title": "Sister",
-                    "date": "2/2012 - 6/2013",
-                    "image": "http://hvmatl.net/gallery/img/core-img/SoBichNgoc.jpg"
-                },
-                {
-                    "name": "Sr. Maria Nguyễn Hồng Hạnh",
-                    "title": "Sister",
-                    "date": "4/2007 - 2016",
-                    "image": "http://hvmatl.net/gallery/img/core-img/SoHongHanh.jpg"
-                },
-                {
-                    "name": "Lm. Antôn Bùi Kim Phong",
-                    "title": "Priest",
-                    "date": "6/2012 - 7/2017",
-                    "image": "http://hvmatl.net/gallery/img/core-img/ChaKimPhong.jpg"
-                },
-                {
-                    "name": "Sr. Maria Nguyễn Mỹ-Linh",
-                    "title": "Sister",
-                    "date": "6/2013 - 6/2018",
-                    "image": "http://hvmatl.net/gallery/img/core-img/SoMyLinh.jpg"
-                },
-                {
-                    "name": "Lm. Đaminh Nguyễn Tấn Công",
-                    "title": "Priest",
-                    "date": "7/2016 - 6/2019",
-                    "image": "http://hvmatl.net/gallery/img/core-img/ChaCong.jpg"
-                },
-                {
-                    "name": "Sr. Anna Trần Đỗ Thụy-An",
-                    "title": "Sister",
-                    "date": "10/2016 - 8/2018",
-                    "image": "http://hvmatl.net/gallery/img/core-img/SoThuyAn.jpg"
-                }
-            ]
+          "name": "Lm. GB Phạm Nguyễn Tuấn Anh",
+          "title": "Phó Xứ",
+          "image": "http://hvmatl.net/gallery/img/core-img/ChaTuanAnh.jpg"
+        },
+        {
+          "name": "Lm. Đaminh Trần Công Thơ",
+          "title": "Phó Xứ",
+          "image": "http://hvmatl.net/gallery/img/core-img/ChaTho.jpg"
+        },
+        {
+          "name": "Sr. Maria Nguyễn Thị Thúy",
+          "title": "Thư Ký Văn Phòng",
+          "image": "http://hvmatl.net/gallery/img/core-img/SoThuy.jpg"
+        },
+        {
+          "name": "Sr. Teresa Đỗ Thị Ngọc Oanh",
+          "title": "Tr. Ban Giáo Lý",
+          "image": "http://hvmatl.net/gallery/img/core-img/SoOanh.jpg"
+        },
+        {
+          "name": "Lm. Isidore Nguyễn Bá Kỳ",
+          "title": "Cha khách",
+          "image": "http://hvmatl.net/gallery/img/core-img/ChaCoKy.jpg"
+        },
+        {
+          "name": "Thầy Giuse Phạm Văn Hòa",
+          "title": "Phó Tế",
+          "image": "http://hvmatl.net/gallery/img/core-img/ThayHoa.jpg"
         }
-    ]    
+      ]
+    },
+    {
+      "title": "Cựu Linh Mục / Tu Sĩ",
+      "content": [
+        {
+          "name": "Sr. Christine Trương Mỹ Hạnh",
+          "title": "Sister",
+          "date": "1992 - 6/1996",
+          "image": "http://hvmatl.net/gallery/img/core-img/SoMyHanh.jpg"
+        },
+        {
+          "name": "Lm. Phêrô Vũ Ngọc Đức",
+          "title": "Priest",
+          "date": "6/1996 - 1/2008",
+          "image": "http://hvmatl.net/gallery/img/core-img/ChaNgocDuc.jpg"
+        },
+        {
+          "name": "Sr. Anna Nguyễn Ngọc Oanh",
+          "title": "Sister",
+          "date": "4/2007 - 12/2012",
+          "image": "http://hvmatl.net/gallery/img/core-img/SoOanh1.jpg"
+        },
+        {
+          "name": "Lm. Phanxicô Trần Duy Hưng",
+          "title": "Priest",
+          "date": "9/2007 - 12/2009",
+          "image": "http://hvmatl.net/gallery/img/core-img/ChaDuyHung.jpg"
+        },
+        {
+          "name": "Lm. Giuse Phạm Minh Tân",
+          "title": "Priest",
+          "date": "8/2010 - 7/2012",
+          "image": "http://hvmatl.net/gallery/img/core-img/ChaMinhTan.jpg"
+        },
+        {
+          "name": "Lm. Henry Phạm Minh Thắng",
+          "title": "Priest",
+          "date": "7/2012 - 10/2013",
+          "image": "http://hvmatl.net/gallery/img/core-img/ChaMinhThang.jpg"
+        },
+        {
+          "name": "Sr. Têrêxa Lưu Bích Ngọc",
+          "title": "Sister",
+          "date": "2/2012 - 6/2013",
+          "image": "http://hvmatl.net/gallery/img/core-img/SoBichNgoc.jpg"
+        },
+        {
+          "name": "Sr. Maria Nguyễn Hồng Hạnh",
+          "title": "Sister",
+          "date": "4/2007 - 2016",
+          "image": "http://hvmatl.net/gallery/img/core-img/SoHongHanh.jpg"
+        },
+        {
+          "name": "Lm. Antôn Bùi Kim Phong",
+          "title": "Priest",
+          "date": "6/2012 - 7/2017",
+          "image": "http://hvmatl.net/gallery/img/core-img/ChaKimPhong.jpg"
+        },
+        {
+          "name": "Sr. Maria Nguyễn Mỹ-Linh",
+          "title": "Sister",
+          "date": "6/2013 - 6/2018",
+          "image": "http://hvmatl.net/gallery/img/core-img/SoMyLinh.jpg"
+        },
+        {
+          "name": "Lm. Đaminh Nguyễn Tấn Công",
+          "title": "Priest",
+          "date": "7/2016 - 6/2019",
+          "image": "http://hvmatl.net/gallery/img/core-img/ChaCong.jpg"
+        },
+        {
+          "name": "Sr. Anna Trần Đỗ Thụy-An",
+          "title": "Sister",
+          "date": "10/2016 - 8/2018",
+          "image": "http://hvmatl.net/gallery/img/core-img/SoThuyAn.jpg"
+        }
+      ]
+    }
+  ],
+  "staff": [
+    {
+      "title": "Hội Đồng Mục Vụ / Các Khối",
+      "year": "2019-2023",
+      "content": [
+        {
+          "name": "Phêrô Nguyễn Thành Danh",
+          "title": "Trưởng ",
+          "deptAcronym": "HĐMV",
+          "deptName": "HĐMV",
+          "image": "http://www.hvmatl.net/gallery/img/core-img/Danh.jpg",
+          "phone": "678-910-8100",
+          "email": "danh.t.nguyen@hvmatl.org"
+        },
+        {
+          "name": "Giuse Nguyễn Đức Sơn",
+          "title": "Trưởng ",
+          "deptAcronym": "HĐTC",
+          "deptName": "HĐTC",
+          "image": "http://www.hvmatl.net/gallery/img/core-img/SonNguyen.jpg",
+          "phone": "678-906-8914",
+          "email": "son.nguyen@hvmatl.org"
+        },
+        {
+          "name": "Phêrô Nguyễn Đức Phúc",
+          "title": "Phó ",
+          "deptAcronym": "HĐMV",
+          "deptName": "HĐMV",
+          "image": "http://www.hvmatl.net/gallery/img/core-img/PhucNguyen.jpg",
+          "phone": "678-978-4518",
+          "email": "peter.d.nguyen@hvmatl.org"
+        },
+        {
+          "name": "Gioan Phạm Thanh Tú",
+          "title": "Trưởng ",
+          "deptAcronym": "KCS",
+          "deptName": "Khối Cơ Sở",
+          "image": "http://www.hvmatl.net/gallery/img/core-img/TuPham.jpg",
+          "phone": "404-376-1336",
+          "email": "tupham@hvmatl.org"
+        },
+        {
+          "name": "Antôn Vũ Thanh",
+          "title": "Phó ",
+          "deptAcronym": "KCS",
+          "deptName": "Khối Cơ Sở",
+          "image": "http://www.hvmatl.net/gallery/img/core-img/ThanhVu.jpg",
+          "phone": "770-401-1916",
+          "email": "thanhvu@hvmatl.org"
+        },
+        {
+          "name": "Phaolô Nguyễn Chinh Paul",
+          "title": "Trưởng ",
+          "deptAcronym": "KGD",
+          "deptName": "Khối Giáo Dục",
+          "image": "http://www.hvmatl.net/gallery/img/core-img/PaulNguyen.jpg",
+          "phone": "678-644-0853",
+          "email": "paul.chinh.nguyen@hvmatl.org"
+        },
+        {
+          "name": "Theresa Nguyễn Lệ Thảo",
+          "deptAcronym": "KGD",
+          "deptName": "Khối Giáo Dục",
+          "title": "Phó ",
+          "image": "http://www.hvmatl.net/gallery/img/core-img/ThaoLe.jpg",
+          "phone": "770-900-0769",
+          "email": "lethao.theresa@hvmatl.org"
+        },
+        {
+          "name": "Anna Lê Tuyết Mai",
+          "deptAcronym": "KDS",
+          "deptName": "Khối Đời Sống",
+          "title": "Trưởng ",
+          "image": "http://www.hvmatl.net/gallery/img/core-img/MaiLe.jpg",
+          "phone": "770-241-0264",
+          "email": "tuyetle@hvmatl.org"
+        },
+        {
+          "name": "Phêrô Hà Thanh Hùng",
+          "deptAcronym": "KDS",
+          "deptName": "Khối Đời Sống",
+          "title": "Phó ",
+          "image": "http://www.hvmatl.net/gallery/img/core-img/HungHa.jpg",
+          "phone": "770-542-9680",
+          "email": "hungha@hvmatl.org"
+        },
+        {
+          "name": "Antôn Vũ Minh Tuấn",
+          "deptAcronym": "KGQ",
+          "deptName": "Khối Gây Quỹ",
+          "title": "Trưởng ",
+          "image": "http://www.hvmatl.net/gallery/img/core-img/TuanVu.jpg",
+          "phone": "678-600-6038",
+          "email": "tuanvu@hvmatl.org"
+        },
+        {
+          "name": "Micae Cao Hùng Anh",
+          "deptAcronym": "KGQ",
+          "deptName": "Khối Gây Quỹ",
+          "title": "Phó ",
+          "image": "http://www.hvmatl.net/gallery/img/core-img/AnhCao.jpg",
+          "phone": "678-665-6189",
+          "email": "anhcao@hvmatl.org"
+        },
+        {
+          "name": "Gioan Phạm Khoa Văn",
+          "deptAcronym": "KHC",
+          "deptName": "Khối Hành Chánh",
+          "title": "Trưởng ",
+          "image": "http://www.hvmatl.net/gallery/img/core-img/VanPham.jpg",
+          "phone": "404-992-1122",
+          "email": "van.k.pham@hvmatl.org"
+        },
+        {
+          "name": "Anna Vũ Thùy Trang",
+          "deptAcronym": "KHC",
+          "deptName": "Khối Hành Chánh",
+          "title": "Phó ",
+          "image": "http://www.hvmatl.net/gallery/img/core-img/TrangVu.jpg",
+          "phone": "678-906-1001",
+          "email": "trang.t.vu@hvmatl.org"
+        },
+        {
+          "name": "Cecilia Lê Tú Anh",
+          "deptAcronym": "KPT",
+          "deptName": "Khối Phụng Tự",
+          "title": "Trưởng ",
+          "image": "http://www.hvmatl.net/gallery/img/core-img/TuAnh.jpg",
+          "phone": "404-403-2763",
+          "email": "tuanhle@hvmatl.org"
+        },
+        {
+          "name": "Gioankim Lê Kevin Tâm",
+          "deptAcronym": "KPT",
+          "deptName": "Khối Phụng Tự",
+          "title": "Phó ",
+          "image": "http://www.hvmatl.net/gallery/img/core-img/TamLe.jpg",
+          "phone": "678-268-8891",
+          "email": "tamle@hvmatl.org"
+        },
+        {
+          "name": "Giuse Vũ Văn Hưởng",
+          "deptAcronym": "KQT",
+          "deptName": "Khối Quản Trị",
+          "title": "Trưởng ",
+          "image": "http://www.hvmatl.net/gallery/img/core-img/HuongVu.jpg",
+          "phone": "704-726-6872",
+          "email": "huongvu@hvmatl.org"
+        },
+        {
+          "name": "Lucia Lê Jennie",
+          "deptAcronym": "KQT",
+          "deptName": "Khối Quản Trị",
+          "title": "Quản Lý Văn Phòng - ",
+          "image": "http://www.hvmatl.net/gallery/img/core-img/JennieLe.jpg",
+          "phone": "678-256-1314",
+          "email": "jenniele@hvmatl.org"
+        },
+        {
+          "name": "Madalena Toyama Madalena ",
+          "deptAcronym": "KQT",
+          "deptName": "Khối Quản Trị",
+          "title": "Thư Ký - ",
+          "image": "http://www.hvmatl.net/gallery/img/core-img/NaMadalena.jpg",
+          "phone": "770-899-3548",
+          "email": "toyamam@hvmatl.org"
+        },
+        {
+          "name": "Giuse Nguyễn Quang Tấn",
+          "deptAcronym": "KTG",
+          "deptName": "Khối Truyền Giáo",
+          "title": "Trưởng ",
+          "image": "http://www.hvmatl.net/gallery/img/core-img/TanNguyen.jpg",
+          "phone": "678-670-0817",
+          "email": "tan.q.nguyen@hvmatl.org"
+        },
+        {
+          "name": "Giuse Trần Khiêm Chánh",
+          "deptAcronym": "KTG",
+          "deptName": "Khối Truyền Giáo",
+          "title": "Phó ",
+          "image": "http://www.hvmatl.net/gallery/img/core-img/ChanhTran.jpg",
+          "phone": "678-234-6530",
+          "email": "chanhtran@hvmatl.org"
+        }
+      ]
+    }
+  ]
 }
+
