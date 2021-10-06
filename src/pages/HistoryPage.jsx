@@ -8,6 +8,7 @@ import { useTranslation } from 'react-multi-lang';
 const history = historyContent;
 
 const HistoryPage = () => {
+
     const t = useTranslation()
     return (
     <>
