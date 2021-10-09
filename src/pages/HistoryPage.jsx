@@ -2,9 +2,33 @@ import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import historyContent from '../database/history-content';
+import hvmatlDataVN from '../database/hvmatlDataVN';
+import hvmatlDataEN from '../database/hvmatlDataEN';
 import History from '../components/History';
-import { useTranslation } from 'react-multi-lang';
+import { useTranslation, getLanguage } from 'react-multi-lang';
 
+/*
+const HistoryPage = () => {
+
+    let Data;
+
+    if (getLanguage() === 'vn') {
+        Data = hvmatlDataVN.history;
+    }
+    if (getLanguage() === 'en') {
+        Data = hvmatlDataEN.history;
+    }
+
+    const t = useTranslation()
+    return (
+        <div>
+            <Header />
+            <History data={Data} />
+            <Footer />
+        </div>
+    );
+};
+*/
 const history = historyContent;
 
 const HistoryPage = () => {

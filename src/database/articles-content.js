@@ -23,6 +23,30 @@ const articleContent =
 [
         {
             "Section": "Các Bài Viết",
+            "date": "2021-10-10",
+            "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
+            "title": "THÁNG TRUYỀN GIÁO VÀ NGÀY THẾ GIỚI TRUYỀN GIÁO 2021",
+            "body":
+        `
+        Tháng Truyền Giáo bắt đầu từ ngày 01/10, lễ thánh Têrêsa Hài đồng Giêsu và kết thúc vào ngày 24/10/2021 và Ngày Thế Giới Truyền Giáo lần thứ 95 cũng được cử hành vào Chúa Nhật áp chót của tháng 10.  Để chuẩn bị tâm tình, Đức Thánh Cha Phanxicô ngày 6 tháng 1 năm 2021 đã gửi sứ điệp cho các Hiệp Hội Giáo Hoàng Truyền Giáo.  Trọng tâm sứ điệp của Tháng Truyền Giáo năm nay là “Chứng Tá” được dựa trên câu Kinh Thánh nền tảng: “Những gì tai đã nghe, mắt đã thấy, chúng tôi không thể không nói ra” (Cv 4,20) .  Đồng thời, Đức TGM Giampietro Dal Toso, Chủ tịch Các Hội Giáo Hoàng Truyền Giáo cũng nhắc nhớ chúng ta rằng: “Mỗi năm, cử hành Tháng Truyền giáo và Ngày Thế giới Truyền giáo nhắc nhớ chúng ta rằng: đức tin của chúng ta luôn là truyền giáo. Chúng ta không thể im lặng về những gì chúng ta đã nghe, đã thấy và đã sống trong cuộc gặp gỡ với Thiên Chúa.”
+
+Trước hết, ta cần tái xác định sứ vụ truyền giáo của mình. Thực vậy, chính Chúa Giêsu trước khi về trời đã trao cho các Tông Đồ và cho chúng ta sứ mạng rao giảng Tin Mừng: “Các con hãy đi giảng dạy cho muôn dân, rửa tội cho họ nhân danh Cha và Con và Thánh Thần, ai tin mà lãnh nhận Phép rửa người đó được ơn cứu độ.” Như vậy, đây là bản chất của Hội Thánh, và Hội Thánh cũng trao phó cho mỗi người chúng ta sứ vụ truyền giáo này.  Nội dung mà chúng ta phải rao giảng là Chúa Giêsu Kitô Phục Sinh như thánh Phaolô xác tín: “Chúng tôi không rao giảng chính mình, mà chỉ rao giảng Đức Kitô Giêsu là Chúa; còn chúng tôi, chúng tôi chỉ là tôi tớ của anh em, vì Đức Giêsu” (2Cr 4, 5).
+
+Kế đến ta hãy kiểm điểm lại lối sống của chính mình. Là một Kitô hữu, câu hỏi được đặt ra là tôi đang sống đạo hay chỉ giữ đạo. Nếu trong đời sống thường ngày, ta chỉ quan tâm làm một số việc đạo đức theo thói quen như đọc kinh, xem lễ, rước lễ, lần hạt, làm dấu thánh giá ...Và đã cảm thấy an tâm thì đó mới chỉ là “giữ đạo” theo thói quen và theo luật lệ, chứ chúng ta chưa sống đạo. Đạo là một ‘Lối Sống’, vậy lối sống của chính tôi đã là lối sống của Chúa Giêsu “yêu mến Thiên Chúa và yêu thương anh em như chính mình” chưa, hay là lối sống chỉ biết vun vén cho bản thân mình, mà quên đi những người chung quanh?
+
+Sau nữa là thực thi sứ vụ truyền giáo của mình. Có rất nhiều cách, chúng ta muốn dùng cách nào cũng được, nhưng nhất thiết phải thi hành hai cách này là: cầu nguyện và đời sống chứng nhân.
+1.      Cầu nguyện cho việc truyền giáo là cách thức quan trọng, cầu nguyện cho những người đi truyền giáo, cầu nguyện cho mọi người mở rộng lòng đón nhận lời Chúa. Ta hãy theo gương Thánh Têrêsa Hài Đồng Giêsu, cả đời không đi đâu truyền giáo, chỉ ở trong bốn bức tường dòng kín cầu nguyện cho việc truyền giáo. Thế mà Hội thánh đã tôn phong ngài làm quan thầy các xứ truyền giáo, ngang hàng với Thánh Phanxicô Xaviê đã bôn ba rao giảng Tin Mừng khắp nơi. Hãy tham gia các Hiệp Hội Giáo Hoàng Truyền Giáo và sống tinh thần Tông Đồ Cầu Nguyện như Nghĩa Binh Thánh Thể hoặc Thiếu Nhi Thánh Thể để cùng với Đức Thánh Cha cầu nguyện cho việc truyền giáo.
+2.      Truyền giáo bằng đời sống chứng nhân của mình. Đây là cách truyền giáo hữu hiệu nhất; đó là truyền giáo bằng đời sống tốt đẹp của chúng con. Một đời sống đạo đức chân thành cởi mở yêu thương là một tấm gương sáng ngời trước mặt mọi người. Một đời sống tốt đẹp có sức lôi cuốn hơn những lời nói hay. Như lời Chúa nói: “để người ta thấy những công việc tốt đẹp chúng con làm, mà ngợi khen Cha các con, Đấng ngự trên trời.” Tôi nhận thấy trong nhiều anh chị em tâm tình “Truyền giáo là sẵn sàng suy nghĩ như Chúa Kitô, cùng với Người tin tưởng rằng những người xung quanh chúng ta cũng là anh chị em của tôi”.  Cụ thể,  trong hoàn cảnh phong tỏa tại chỗ tại quê nhà, những cộng đoàn đức tin tại hải ngoại đã đáp ứng rất nhanh chóng và mạnh mẽ tham gia và hỗ trợ tài chánh vào việc chia cơm xẻ áo với đồng bào trong nước bên cạnh việc cầu nguyện cho đồng bào trong gia đoạn rất khó khăn này. Riêng tại Giáo Xứ chúng ta, có những quyên góp từ những đại gia đình, từ những đoàn hội, và ngay cả những đám tang không nhận Vòng Hoa Phúng Điếu và đã gửi toàn bộ số tiền phúng điếu hoặc vòng hoa này về cứu trợ tại Việt Nam qua các cơ quan bác ái.
+
+Trong tháng Mân Côi này, ta hãy siêng năng lần chuỗi Mân Côi và “xin Mẹ Maria, môn đệ truyền giáo đầu tiên, làm cho lòng khao khát trở nên muối và ánh sáng cho các miền đất của chúng ta gia tăng nơi những người đã lãnh nhận bí tích rửa tội.” Nguyện xin tình yêu thương từ bi của Chúa Giêsu chạm đến trái tim chúng ta và làm cho tất cả chúng ta trở thành những môn đệ truyền giáo đích thực.
+
+Thân mến,
+Lm. Phanxicô Trần Quốc Tuấn
+
+        `
+        },
+        {
+            "Section": "Các Bài Viết",
             "date": "2021-09-19",
             "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
             "title": "Lớp Giáo Lý Dự Tòng",
