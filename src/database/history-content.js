@@ -3,7 +3,7 @@ const history = [
         significance:'two',
         year:'2019',
         title:'Thánh lễ Thánh Hiến nhà thờ mới được cử hành vào lễ Tạ Ơn (First Mass at New Church Celebrated on Thanksgiving)',
-        image:'<img className="history-image" src="img/bg-img/hjnewchurch.jpg" width="40%" height="25%"></img>',
+        /*image:'<img className="history-image" src="img/bg-img/hjnewchurch.jpg" width="60%" height="25%"></img>',*/
         imgsrc:'img/bg-img/hjnewchurch.jpg',
         imgheight:'20%',
         imgwidth:'32%',

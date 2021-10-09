@@ -2,7 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\components"
+    "\\src\\components",
+    "\\src\\css",
+    "\\src\\database",
+    "\\src\\pages"
   ],
+  "SelectedNode": "\\src\\database\\hvmatlDataEN.json",
   "PreviewInSolutionExplorer": false
 }

@@ -47,10 +47,6 @@
     "paragraph34": "Thực hành đời sống đức tin qua Bí Tích Thánh Thể",
     "paragraph35": "Tiếp tục sứ mạng Phúc Âm hóa toàn thế giới"
   },
-  "history": {
-    "pageTitle": "Quá Trình Thành Lập",
-    "pageTitleContinued": "Giáo Xứ Các Thánh Tử Đạo Việt Nam"
-  },
   "header": {
     "top": {
       "massSchedule": "Giờ Lễ"
@@ -115,6 +111,11 @@
       "heading": "Liên Hệ"
     }
   },
+  "history": 
+    {
+      "pageTitle": "Quá Trình Thành Lập",
+      "pageTitleContinued": "Giáo Xứ Các Thánh Tử Đạo Việt Nam"
+    },
   "viethong": {
     "header": {
       "item1": "Trường Việt Hồng",
@@ -463,6 +464,140 @@
           "image": "http://www.hvmatl.net/gallery/img/core-img/ChanhTran.jpg",
           "phone": "678-234-6530",
           "email": "chanhtran@hvmatl.org"
+        }
+      ]
+    }
+  ],
+  "history_in_prog": [
+    {
+      "pageTitle": "Quá Trình Thành Lập",
+      "pageTitleContinued": "Giáo Xứ Các Thánh Tử Đạo Việt Nam",
+      "content": [
+        {
+          "significance": "two",
+          "year": "2019",
+          "title": "Thánh lễ Thánh Hiến nhà thờ mới được cử hành vào lễ Tạ Ơn (First Mass at New Church Celebrated on Thanksgiving)",
+          "imgsrc": "img/bg-img/hjnewchurch.jpg",
+          "imgheight": "20%",
+          "imgwidth": "32%",
+          "description": "Nhà thờ và bàn thờ được Đức Cha Joel M. Konzen giám quản Tông Tòa Tổng Giáo phận Atlanta chủ sự."
+        },
+        {
+          "significance": "one",
+          "year": "2017",
+          "title": "Khởi công xây dựng nhà thờ mới (Ground Breaking New Church)",
+          "imgsrc": "img/bg-img/khoicong.jpg",
+          "imgheight": "20%",
+          "imgwidth": "30%",
+          "description": " Nghi thức khởi công xây dựng nhà thờ mới được chủ sự ngày 27 tháng 8. Việc đặt viên đá đầu tiên và khởi động xây dựng thánh đường là một ước ao từ lâu của giáo xứ."
+        },
+        {
+          "significance": "one",
+          "year": "2013",
+          "title": "Giáo xứ Việt Nam mới (New Vietnamese Parish)",
+          "imgsrc": "img/bg-img/hjchaTuan.jpg",
+          "imgheight": "8%",
+          "imgwidth": "24%",
+          "description": "Họ đạo được nâng lên hàng giáo xứ, trở thành giáo xứ thứ hai trong tổng giáo phận Atlanta. Cha Tuấn Trần trở thành Cha Chánh Xứ của họ đạo."
+        },
+        {
+          "significance": "one",
+          "year": "2011",
+          "title": "Mở rộng khuôn viên Giáo Xứ (Expanded Church Land)",
+          "imgsrc": "img/bg-img/expand.jpg",
+          "imgheight": "20%",
+          "imgwidth": "30%",
+          "description": "Vào ngày 11 tháng 1 năm 2011, giáo xứ Thánh Tử Đạo Việt Nam đã hoàn tất việc mua khuôn viên mới rộng 9 mẫu. "
+        },
+        {
+          "description": "Lễ Hội Mùa Thu được phát động vào cuối tuần ngày Lao Động để gây quỹ cho nhà thờ mới và tạo sinh hoạt cho cộng đồng.",
+          "imgheight": "20%",
+          "imgsrc": "img/bg-img/hjfall_fest.jpg",
+          "imgwidth": "32%",
+          "significance": "one",
+          "title": "Hội chợ mùa thu đầu tiên (First Fall Festival)",
+          "year": "2009"
+        },
+        {
+          "significance": "one",
+          "year": "2006",
+          "title": "Thánh lễ đầu tiên tại địa điểm nhà thờ mới (First Mass at New Church Site)",
+          "imgsrc": "img/bg-img/firstmass.jpg",
+          "imgheight": "8%",
+          "imgwidth": "24%",
+          "description": "Thánh Lễ tiếng Việt đầu tiên tại cơ xở mới họ đạo cùng những sinh hoạt tôn giáo và văn hóa khác. Linh Mục Phêrô Vũ Ngọc Đức nhận bài sai mới làm quản nhiệm họ đạo. Đức Tổng Giám Mục Wilton D. Gregory chủ sự tri thức Thánh Hiến Thánh Đường"
+        },
+        {
+          "significance": "one",
+          "year": "2005",
+          "title": "Khởi công tu sửa khu đất mới. (Renovations Begin)",
+          "imgsrc": "img/bg-img/renovation.jpg",
+          "imgheight": "20%",
+          "imgwidth": "30%",
+          "description": "Khu đất mới được khởi công tu sửa"
+        },
+        {
+          "significance": "two",
+          "year": "2004",
+          "title": "Mua địa điểm xây dựng Thánh Đường. (Purchase Church Site)",
+          "imgsrc": "img/bg-img/purchase.jpg",
+          "imgheight": "20%",
+          "imgwidth": "30%",
+          "description": "Mua cơ xở bán xe hơi Chevrolet với diện tích 7 mẫu và khu nhà tiên chế rộng 50,000 SF"
+        },
+        {
+          "significance": "one",
+          "year": "2003",
+          "title": "Phước lành của Đức Tổng Giám mục (Blessing by the Archbishop)",
+          "imgsrc": "img/bg-img/ArchbishopJohnDonoghue.jpg",
+          "imgheight": "8%",
+          "imgwidth": "24%",
+          "description": "Họ Đạo Các Thánh Từ Đạo Việt Nam được thành lập bởi Đức Tổng Giám Mục John F. Donoghue"
+        },
+        {
+          "significance": "one",
+          "year": "2002",
+          "title": "Bắt đầu gây quỹ xây dựng Thánh Đường (Fundraising Begins)",
+          "imgsrc": "img/bg-img/fundrasing.jpg",
+          "imgheight": "20%",
+          "imgwidth": "30%",
+          "description": "Thực hiện việc gây quỹ xây dựng Thánh Đường."
+        },
+        {
+          "significance": "two",
+          "year": "2001",
+          "title": "Giấy phép được cung cấp bởi Đức Tổng Giám Mục để bắt đầu gây quỹ (Permission given by Archbishop to start fundraising)",
+          "imgsrc": "img/bg-img/permission.jpg",
+          "imgheight": "20%",
+          "imgwidth": "30%",
+          "description": "Đức Tổng Giám Mục John F. Donoghue cho phép gây quỹ xây dựng."
+        },
+        {
+          "significance": "one",
+          "year": "1996",
+          "title": "Linh mục Phêrô Đức Vũ phong chức (Father Peter Duc Vu Ordained)",
+          "imgsrc": "img/bg-img/hjChaDuc.jpg",
+          "imgheight": "20%",
+          "imgwidth": "24%",
+          "description": "Linh Mục Việt Nam đầu tiên thụ phong cho Tổng Giáo Phận Atlanta: Linh Mục Phêrô Vũ Ngọc Đức là Cha Phó Giáo Xứ Holy Cross, phục vụ đặc biệt cho người Việt Công Giáo tại giáo xứ."
+        },
+        {
+          "significance": "one",
+          "year": "1996",
+          "title": "Đoàn Tôma Thiện was formed. (Youth Group Formed)",
+          "imgsrc": "img/bg-img/hjthieunhi.jpg",
+          "imgheight": "20%",
+          "imgwidth": "32%",
+          "description": "Thiếu nhi do Anh Nguyễn Quốc Tuấn dẫn đầu với hơn 200 người tham dự."
+        },
+        {
+          "significance": "one",
+          "year": "1992",
+          "title": "Nguồn gốc của Giáo xứ Thánh Tử Đạo Việt Nam (Origin of Holy Vietnamese Martyrs Parish)",
+          "imgsrc": "img/bg-img/SoMyHanhChaThanh.jpg",
+          "imgheight": "10%",
+          "imgwidth": "32%",
+          "description": "Thánh Lễ tiếng Việt dầu tiên tại Giáo Xứ Holy Cross, Cha Tuyên Úy Linh Mục Tôma Nguyễn Thái Thành và Sơ Christine Trương Mỹ Hạnh phụ trách."
         }
       ]
     }

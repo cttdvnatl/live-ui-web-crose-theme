@@ -18,7 +18,7 @@ const Volunteers = (prop) => {
                             {section.content.map((staff , idx) => {
                                 return (
                                     <div className="col-10 col-md-6 col-lg-2" key={idx}>
-                                        <div className="about-us-content mb-100">
+                                        <div className="about-us-content mb-50">
                                             <center><img src={staff.image} alt="" /></center>
                                             <div className="about-text">
                                                 <h7><b>{staff.name}</b></h7>
