@@ -111,10 +111,6 @@
       "heading": "Contact Us"
     }
   },
-  "history": {
-    "pageTitle": "Our History",
-    "pageTitleContinued": "Holy Vietnamese Martyr's Catholic Church"
-  },
   "viethong": {
     "header": {
       "item1": "Việt Hồng School",
@@ -467,136 +463,137 @@
       ]
     }
   ],
-  "history_in_prog": [
+  "history": 
     {
       "pageTitle": "Our History",
-      "pageTitleContinued": "Holy Vietnamese Martyr's Catholic Church"
-    },
-    {
-      "significance": "two",
-      "year": "2019",
-      "title": "Thánh lễ Thánh Hiến nhà thờ mới được cử hành vào lễ Tạ Ơn (First Mass at New Church Celebrated on Thanksgiving)",
-      "imgsrc": "img/bg-img/hjnewchurch.jpg",
-      "imgheight": "20%",
-      "imgwidth": "32%",
-      "description": " Dedication of church and altar presided by Bishop Joel M. Konzen Administrator of the Archdiocese of Atlanta"
-    },
-    {
-      "significance": "one",
-      "year": "2017",
-      "title": "Khởi công xây dựng nhà thờ mới (Ground Breaking New Church)",
-      "imgsrc": "img/bg-img/khoicong.jpg",
-      "imgheight": "20%",
-      "imgwidth": "30%",
-      "description": " Groundbreaking for new church. Blessed by Archbishop Wilton D. Gregory on Aug. 27, the huge stone and ceremonial groundbreaking marked another step toward the long-sought goal of the new church."
-    },
-    {
-      "significance": "one",
-      "year": "2013",
-      "title": "Giáo xứ Việt Nam mới (New Vietnamese Parish)",
-      "imgsrc": "img/bg-img/hjchaTuan.jpg",
-      "imgheight": "8%",
-      "imgwidth": "24%",
-      "description": "The mission becomes the second Vietnamese parish in the archdiocese. Father Francis Tuan Tran becomes the parish pastor."
-    },
-    {
-      "significance": "one",
-      "year": "2011",
-      "title": "Mở rộng khuôn viên Giáo Xứ (Expanded Church Land)",
-      "imgsrc": "img/bg-img/expand.jpg",
-      "imgheight": "20%",
-      "imgwidth": "30%",
-      "description": "On January 11, 2011 the Archdiocese of Atlanta and our church, The Holy Martyrs of Vietnam Catholic Church, completed the purchase of the 9-acre property."
-    },
-    {
-      "significance": "one",
-      "year": "2009",
-      "title": "Hội chợ mùa thu đầu tiên (First Fall Festival)",
-      "imgsrc": "img/bg-img/hjfall_fest.jpg",
-      "imgheight": "20%",
-      "imgwidth": "32%",
-      "description": "The fall festival launched on Labor Day weekend to raise funds for the new and larger church for the growing community."
-    },
-    {
-      "significance": "one",
-      "year": "2006",
-      "title": "Thánh lễ đầu tiên tại địa điểm nhà thờ mới (First Mass at New Church Site)",
-      "imgsrc": "img/bg-img/firstmass.jpg",
-      "imgheight": "8%",
-      "imgwidth": "24%",
-      "description": "The first Vietnamese Mass at the new facility, with other religious and cultural activities lead by Pastor Peter Vu Ngoc Duc. Consecrated Rite was celebrated by Archbishop Wilton D. Gregory"
-    },
-    {
-      "significance": "one",
-      "year": "2005",
-      "title": "Khởi công tu sửa khu đất mới. (Renovations Begin)",
-      "imgsrc": "img/bg-img/renovation.jpg",
-      "imgheight": "20%",
-      "imgwidth": "30%",
-      "description": "Renovaton started on the new land"
-    },
-    {
-      "significance": "two",
-      "year": "2004",
-      "title": "Mua địa điểm xây dựng Thánh Đường. (Purchase Church Site)",
-      "imgsrc": "img/bg-img/purchase.jpg",
-      "imgheight": "20%",
-      "imgwidth": "30%",
-      "description": "Old Chevrolet car dealership with 7 acres of land and 50,000 SF buildings purchased for the new church"
-    },
-    {
-      "significance": "one",
-      "year": "2003",
-      "title": "Phước lành của Đức Tổng Giám mục (Blessing by the Archbishop)",
-      "imgsrc": "img/bg-img/ArchbishopJohnDonoghue.jpg",
-      "imgheight": "8%",
-      "imgwidth": "24%",
-      "description": "Holy Vietnamese Martyrs parish consecrated by Archbishop John F. Donoghue"
-    },
-    {
-      "significance": "one",
-      "year": "2002",
-      "title": "Bắt đầu gây quỹ xây dựng Thánh Đường (Fundraising Begins)",
-      "imgsrc": "img/bg-img/fundrasing.jpg",
-      "imgheight": "20%",
-      "imgwidth": "30%",
-      "description": "Fundraising begins for the new church."
-    },
-    {
-      "significance": "two",
-      "year": "2001",
-      "title": "Giấy phép được cung cấp bởi Đức Tổng Giám Mục để bắt đầu gây quỹ (Permission given by Archbishop to start fundraising)",
-      "imgsrc": "img/bg-img/permission.jpg",
-      "imgheight": "20%",
-      "imgwidth": "30%",
-      "description": "The Building Fundraising license was granted by Archbishop John F. Donoghue, Archdiocese of Atlanta."
-    },
-    {
-      "significance": "one",
-      "year": "1996",
-      "title": "Linh mục Phêrô Đức Vũ phong chức (Father Peter Duc Vu Ordained)",
-      "imgsrc": "img/bg-img/hjChaDuc.jpg",
-      "imgheight": "20%",
-      "imgwidth": "24%",
-      "description": "First Vietnamese Priest to be ordained to the Archdiocese of Atlanta: Priest Peter Vu Ngoc Duc Deputy Holy Cross Parish and Pastoral Special for Vietnamese Catholics in the parish"
-    },
-    {
-      "significance": "one",
-      "year": "1996",
-      "title": "Đoàn Tôma Thiện was formed. (Youth Group Formed)",
-      "imgsrc": "img/bg-img/hjthieunhi.jpg",
-      "imgheight": "20%",
-      "imgwidth": "32%",
-      "description": "The youth group was leaded by Mr. Nguyen Quoc Tuan with over 200 participants."
-    },
-    {
-      "significance": "one",
-      "year": "1992",
-      "title": "Nguồn gốc của Giáo xứ Thánh Tử Đạo Việt Nam (Origin of Holy Vietnamese Martyrs Parish)",
-      "imgsrc": "img/bg-img/SoMyHanhChaThanh.jpg",
-      "imgheight": "10%",
-      "imgwidth": "32%",
-      "description": "Sister Christine Truong My Hanh, Sister of the Good Shepherd, begins gathering Vietnamese Catholics for Mass at Holy Cross Church, the second Sunday of every month."
+      "pageTitleContinued": "Holy Vietnamese Martyr's Catholic Church",
+      "content": [
+        {
+          "significance": "two",
+          "year": "2019",
+          "title": "Thánh lễ Thánh Hiến nhà thờ mới được cử hành vào lễ Tạ Ơn (First Mass at New Church Celebrated on Thanksgiving)",
+          "imgsrc": "img/bg-img/hjnewchurch.jpg",
+          "imgheight": "20%",
+          "imgwidth": "32%",
+          "description": " Dedication of church and altar presided by Bishop Joel M. Konzen Administrator of the Archdiocese of Atlanta"
+        },
+        {
+          "significance": "one",
+          "year": "2017",
+          "title": "Khởi công xây dựng nhà thờ mới (Ground Breaking New Church)",
+          "imgsrc": "img/bg-img/khoicong.jpg",
+          "imgheight": "20%",
+          "imgwidth": "30%",
+          "description": " Groundbreaking for new church. Blessed by Archbishop Wilton D. Gregory on Aug. 27, the huge stone and ceremonial groundbreaking marked another step toward the long-sought goal of the new church."
+        },
+        {
+          "significance": "one",
+          "year": "2013",
+          "title": "Giáo xứ Việt Nam mới (New Vietnamese Parish)",
+          "imgsrc": "img/bg-img/hjchaTuan.jpg",
+          "imgheight": "8%",
+          "imgwidth": "24%",
+          "description": "The mission becomes the second Vietnamese parish in the archdiocese. Father Francis Tuan Tran becomes the parish pastor."
+        },
+        {
+          "significance": "one",
+          "year": "2011",
+          "title": "Mở rộng khuôn viên Giáo Xứ (Expanded Church Land)",
+          "imgsrc": "img/bg-img/expand.jpg",
+          "imgheight": "20%",
+          "imgwidth": "30%",
+          "description": "On January 11, 2011 the Archdiocese of Atlanta and our church, The Holy Martyrs of Vietnam Catholic Church, completed the purchase of the 9-acre property."
+        },
+        {
+          "significance": "one",
+          "year": "2009",
+          "title": "Hội chợ mùa thu đầu tiên (First Fall Festival)",
+          "imgsrc": "img/bg-img/hjfall_fest.jpg",
+          "imgheight": "20%",
+          "imgwidth": "32%",
+          "description": "The fall festival launched on Labor Day weekend to raise funds for the new and larger church for the growing community."
+        },
+        {
+          "significance": "one",
+          "year": "2006",
+          "title": "Thánh lễ đầu tiên tại địa điểm nhà thờ mới (First Mass at New Church Site)",
+          "imgsrc": "img/bg-img/firstmass.jpg",
+          "imgheight": "8%",
+          "imgwidth": "24%",
+          "description": "The first Vietnamese Mass at the new facility, with other religious and cultural activities lead by Pastor Peter Vu Ngoc Duc. Consecrated Rite was celebrated by Archbishop Wilton D. Gregory"
+        },
+        {
+          "significance": "one",
+          "year": "2005",
+          "title": "Khởi công tu sửa khu đất mới. (Renovations Begin)",
+          "imgsrc": "img/bg-img/renovation.jpg",
+          "imgheight": "20%",
+          "imgwidth": "30%",
+          "description": "Renovaton started on the new land"
+        },
+        {
+          "significance": "two",
+          "year": "2004",
+          "title": "Mua địa điểm xây dựng Thánh Đường. (Purchase Church Site)",
+          "imgsrc": "img/bg-img/purchase.jpg",
+          "imgheight": "20%",
+          "imgwidth": "30%",
+          "description": "Old Chevrolet car dealership with 7 acres of land and 50,000 SF buildings purchased for the new church"
+        },
+        {
+          "significance": "one",
+          "year": "2003",
+          "title": "Phước lành của Đức Tổng Giám mục (Blessing by the Archbishop)",
+          "imgsrc": "img/bg-img/ArchbishopJohnDonoghue.jpg",
+          "imgheight": "8%",
+          "imgwidth": "24%",
+          "description": "Holy Vietnamese Martyrs parish consecrated by Archbishop John F. Donoghue"
+        },
+        {
+          "significance": "one",
+          "year": "2002",
+          "title": "Bắt đầu gây quỹ xây dựng Thánh Đường (Fundraising Begins)",
+          "imgsrc": "img/bg-img/fundrasing.jpg",
+          "imgheight": "20%",
+          "imgwidth": "30%",
+          "description": "Fundraising begins for the new church."
+        },
+        {
+          "significance": "two",
+          "year": "2001",
+          "title": "Giấy phép được cung cấp bởi Đức Tổng Giám Mục để bắt đầu gây quỹ (Permission given by Archbishop to start fundraising)",
+          "imgsrc": "img/bg-img/permission.jpg",
+          "imgheight": "20%",
+          "imgwidth": "30%",
+          "description": "The Building Fundraising license was granted by Archbishop John F. Donoghue, Archdiocese of Atlanta."
+        },
+        {
+          "significance": "one",
+          "year": "1996",
+          "title": "Linh mục Phêrô Đức Vũ phong chức (Father Peter Duc Vu Ordained)",
+          "imgsrc": "img/bg-img/hjChaDuc.jpg",
+          "imgheight": "20%",
+          "imgwidth": "24%",
+          "description": "First Vietnamese Priest to be ordained to the Archdiocese of Atlanta: Priest Peter Vu Ngoc Duc Deputy Holy Cross Parish and Pastoral Special for Vietnamese Catholics in the parish"
+        },
+        {
+          "significance": "one",
+          "year": "1996",
+          "title": "Đoàn Tôma Thiện was formed. (Youth Group Formed)",
+          "imgsrc": "img/bg-img/hjthieunhi.jpg",
+          "imgheight": "20%",
+          "imgwidth": "32%",
+          "description": "The youth group was leaded by Mr. Nguyen Quoc Tuan with over 200 participants."
+        },
+        {
+          "significance": "one",
+          "year": "1992",
+          "title": "Nguồn gốc của Giáo xứ Thánh Tử Đạo Việt Nam (Origin of Holy Vietnamese Martyrs Parish)",
+          "imgsrc": "img/bg-img/SoMyHanhChaThanh.jpg",
+          "imgheight": "10%",
+          "imgwidth": "32%",
+          "description": "Sister Christine Truong My Hanh, Sister of the Good Shepherd, begins gathering Vietnamese Catholics for Mass at Holy Cross Church, the second Sunday of every month."
+        }
+      ]
     }
-  ]
 }

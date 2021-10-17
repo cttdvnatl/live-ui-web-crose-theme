@@ -22,7 +22,7 @@ const About = () => {
                         </div>
                         <div className="col-12 col-lg-5">
                             <div className="about-content">
-                                <h2>{t('about.heading')}</h2>
+                                <h3>{t('about.heading')}</h3>
                                 <p>{t('about.paragraph')}</p>
                                 <h3>{t('about.headingLogo')}</h3>
                                 <h4>{t('about.paraHeading1')}</h4>
@@ -36,7 +36,7 @@ const About = () => {
                                     <li>{t('about.paragraph22')}</li>
                                     <li>{t('about.paragraph23')}</li>
                                     <li>{t('about.paragraph24')}</li>
-                                    <li><dl><dt>{t('about.paragraph25')}</dt>
+                                    <li><dl><dd>{t('about.paragraph25')}</dd>
                                         <dd>{t('about.subparagraph21')}</dd>
                                         <dd>{t('about.subparagraph22')}</dd>
                                         </dl>
