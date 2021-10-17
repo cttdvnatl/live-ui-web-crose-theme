@@ -23,6 +23,42 @@ const articleContent =
 [
         {
             "Section": "Các Bài Viết",
+            "date": "2021-10-17",
+            "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
+            "title": "THÁNG MƯỜI – THÁNG BẢO VỆ SỰ SỐNG",
+            "body":
+        `
+        Từ năm 1973, phán quyết mang tính lịch sử của vụ kiện Roe V. Wade đã trao cho phụ nữ quyền hợp hiến được phá thai trước khi thai nhi đủ trưởng thành để sống tiếp tục ngoài tử cung - tức khoảng 24 tuần tuổi.
+
+Tháng 5 năm 2021 vừa qua, Ông Greg Abbott, Thống đốc Texas đã ký Đạo luật Nhịp Tim (Texas Heartbeat Act), còn được gọi là Đạo luật S.B.8 (tạm dịch: Đạo luật Tim Thai Texas). Luật này quy định rằng một khi nhân viên y tế có thể phát hiện nhịp tim của thai nhi - thường là khoảng vào tuần thứ 6 của thai kỳ, thì việc phá thai sẽ bị cấm. Luật này cũng cho phép người dân có quyền khởi kiện các phòng khám cung cấp dịch vụ phá thai tại bang hoặc những người giúp phụ nữ phá thai. Dự luật này đồng thời nghiêm cấm phá thai do bị cưỡng hiếp hoặc từ mối quan hệ loạn luân nhưng không bao gồm các trường hợp cấp cứu. Ông nói: “Chúng tôi nghĩ rằng nhà nước có quyền và trách nhiệm bảo vệ toàn bộ công dân, kể cả những công dân yếu thế nhất - những thai nhi chưa chào đời - và chúng tôi tin rằng nhà nước phải có trách nhiệm bảo vệ những thai nhi đó khỏi nạn phá thai.”  Những “dự luật tim thai” tương tự cũng được đệ trình ở một số tiểu bang nhằm tìm cách cấm phá thai khi nhịp tim của thai nhi vừa được phát hiện.
+
+Thật đáng buồn thay, Thứ Sáu vừa qua, Hạ Viện Hoa Kỳ đã thông qua đạo luật H.R. 3755 tạm gọi là Hành Động Bảo Vệ Sức khỏe Phụ Nữ. Qua đó:
+-          Cho phép phá thai trong cả nước trong mọi giai đoạn của thai kỳ.
+-          Cấm những luật phò sự sống tại mỗi tiểu bang và chính quyền địa phương.
+-          Bắt buộc mỗi công dân Hoa Kỳ yểm trợ phá thai bằng tiền thuế của họ.
+-          Giới hạn quyền bảo vệ tự do lương tâm của các bác sĩ.
+
+Nhận định dự luật này, Đức TGM Joseph Naumann, Chủ tịch Ủy Ban Phò Sự Sống (Chairman of the Committee on Pro-Life Activities) nhận định rằng:  đây là một đạo luật phò phá thai mà đất nước Hoa Kỳ chưa bao giờ xảy ra.
+
+Là một Kitô Hữu, tháng Mười là Tháng Mân Côi và cũng là Tháng Cầu Nguyện Cho Sự Sống, chúng ta cần phải làm gì?
+
+Sau khi đã hiểu rõ hơn về đạo luật H.R. 3755, Giáo Hội muốn mời gọi chúng ta có những hành động cụ thể để Tôn Trọng Sự Sống.
+
+Trước tiên hãy cầu nguyện và tạ ơn cùng Thiên Chúa là Đấng ban tặng sự sống cho mỗi người chúng ta. Chúng ta được sinh ra là người, đó là một hồng ân và là món quà tặng từ tình yêu của Thiên Chúa. Thiên Chúa vẫn luôn yêu thương và kiên nhẫn chờ đợi ta quay trở về với Ngài. Chính ĐGH Phanxicô đã chỉ dạy: Thiên Chúa là Cha chúng ta, Ngài không bao giờ ngừng yêu thương và chưa bao giờ biết mệt mỏi trong sự tha thứ; chỉ cần một dấu hiệu rất nhỏ của lòng sám hối, Ngài sẽ ban tràn đầy sự an ủi, bình an và hy vọng cho ta.
+
+Đồng thời ta cũng cần có những hành động cụ thể trong giai đoạn khẩn thiết này. Chúng ta thất rõ, Thượng Viện Hoa Kỳ cũng sắp sửa cứu xét và bầu cử về vấn đề này. Vậy ta cần sử dụng quyền bầu cử của mình là hãy liên lạc và lên tiếng với các dân biểu Hạ Viện và Thượng Viện đại diện cho khu vực mình:
+-          Cám ơn họ nếu đã lên tiếng phản đối đạo luật phò phá thai H.R. 3755.
+-          Xin các đại biểu Thượng Viện tiếp tục lên tiếng tôn trọng và bảo vệ sự sống, nhất là quyền được sống của các thai nhi cũng được tôn trọng khi đề cao sức khỏe của phụ nữ.
+
+Nguyện xin Thiên Chúa là nguồn mạch sự sống, qua lời chuyển cầu của Đức Mẹ Mân Côi, chúc lành cho chúng ta. Xin cho việc cầu nguyện, cử hành Thánh Lễ Tạ Ơn và các bí tích giúp chúng ta cảm nghiệm được giá trị của sự sống đến từ Thiên Chúa để yêu mến Chúa hơn trong cuộc sống đức tin và nêu cao tinh thần của Nền Văn Hoá Tôn Trọng Sự Sống.
+
+Thân mến
+Lm. Phanxico Trần Quốc Tuấn
+
+        `
+        },
+        {
+            "Section": "Các Bài Viết",
             "date": "2021-10-10",
             "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
             "title": "THÁNG TRUYỀN GIÁO VÀ NGÀY THẾ GIỚI TRUYỀN GIÁO 2021",

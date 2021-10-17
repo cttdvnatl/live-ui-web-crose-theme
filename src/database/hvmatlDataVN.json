@@ -111,11 +111,6 @@
       "heading": "Liên Hệ"
     }
   },
-  "history": 
-    {
-      "pageTitle": "Quá Trình Thành Lập",
-      "pageTitleContinued": "Giáo Xứ Các Thánh Tử Đạo Việt Nam"
-    },
   "viethong": {
     "header": {
       "item1": "Trường Việt Hồng",
@@ -468,7 +463,7 @@
       ]
     }
   ],
-  "history_in_prog": [
+  "history":
     {
       "pageTitle": "Quá Trình Thành Lập",
       "pageTitleContinued": "Giáo Xứ Các Thánh Tử Đạo Việt Nam",
@@ -601,6 +596,5 @@
         }
       ]
     }
-  ]
 }
 
