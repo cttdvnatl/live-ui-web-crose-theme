@@ -2,8 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\components"
+    "\\src\\pages"
   ],
-  "SelectedNode": "\\src\\components\\ClergyList.jsx",
+  "SelectedNode": "\\src\\pages\\About.jsx",
   "PreviewInSolutionExplorer": false
 }

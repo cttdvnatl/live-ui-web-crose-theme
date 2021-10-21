@@ -3,7 +3,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import VietHongHeader from '../components/VietHongHeader';
 import teacherContent from '../database/vietHongTeachers';
-import DisplayVolunteer from '../components/DisplayVolunteer';
+import DisplayVolunteer from '../components/DisplayVietHong';
 
 const mainTeachers = teacherContent.filter(mainTeachers => mainTeachers.classification === 'main-teacher');
 const mainProctors = teacherContent.filter(mainProctors => mainProctors.classification === 'main-proctor');

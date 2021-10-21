@@ -1,6 +1,6 @@
 {
   "index": {
-    "headerMsg": "2019 Coronavirus News"
+    "headerMsg": "2019 Coronavirus Announcement"
   },
   "info": {
     "item1": {
@@ -20,8 +20,11 @@
     "heading": "Parish Calendar"
   },
   "covid19": {
-    "pageTitle": "2019 Coronavirus News",
+    "pageTitle": "2019 Coronavirus Announcement",
     "button": "Read More"
+  },
+  "activities": {
+    "title": "Parish Activities"
   },
   "about": {
     "pageTitle": "About This Church",
@@ -65,7 +68,7 @@
       "item1": "Parish Activities",
       "item2": "Calender 2021",
       "item3": "Covid-19",
-      "item4": "Parish Youth Org."
+      "item4": "Eucharist's Children"
     },
     "dropdownMenuThree": {
       "dropdownHeading": "Departments",
