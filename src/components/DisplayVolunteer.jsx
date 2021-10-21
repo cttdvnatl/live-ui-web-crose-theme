@@ -15,7 +15,7 @@ const Volunteers = (prop) => {
                             </div>
                         </div>
                         <div className="row about-content justify-content-center">
-                            {section.content.map((staff , idx) => {
+                            {section.content.map((staff, idx) => {
                                 return (
                                     <div className="col-10 col-md-6 col-lg-2" key={idx}>
                                         <div className="about-us-content mb-50">
