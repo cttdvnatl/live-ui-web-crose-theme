@@ -23,6 +23,35 @@ const articleContent =
 [
         {
             "Section": "Các Bài Viết",
+            "date": "2021-10-24",
+            "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
+            "title": "Tuần Tĩnh Tâm Năm Của Các Linh Mục Miền Đông Nam Hoa Kỳ",
+            "body":
+        `
+        Hằng năm, vào Ngày Thế giới Truyền giáo, hãng tin Fides đã công bố Bản thống kê về Giáo hội Công giáo. Theo Bản thống kê năm 2020 với các số liệu mới nhất tính đến ngày 31/12/2018 được dựa trên “Sách Niên giám Thống kê của Giáo hội - Annuarium Statisticum Ecclesiae”. Hiện nay, trên thế giới tổng số linh mục khoảng 414.065  trong đó có 281.874 linh mục Triều và 132.191 linh mục Dòng.  Theo ước tính trung bình trên toàn thế giới,  mỗi linh mục sẽ chịu trách nhiệm mục vụ cho 3,210 giáo dân. Tại năm Châu, tỉ lệ như sau: Châu Á: 2.157;   Châu Mỹ: 5.244;  Châu Phi: 5.088; Châu Âu: 1.672; Châu Đại Dương: 2.318 giáo dân trên mỗi linh mục.
+
+Trong xã hội hiện nay, ta dễ có thể nhận ra rằng, bên cạnh việc chăm sóc mục vụ, việc quản trị càng gia tăng, điều này làm cho cuộc sống của linh mục càng ngày càng trở nên bận rộn, đến nỗi dễ quên đi đời sống thiêng liêng của chính mình. Do đó, Mẹ Giáo Hội luôn quan tâm để các linh mục có giờ nghỉ ngơi và chăm lo đời sống thiêng liêng của mình, cụ thể là luật buộc mỗi năm phải dành một số ngày để tĩnh tâm (Giáo Luật Điều 533).  Với các linh mục Việt Nam tại Miền Đông Nam Hoa Kỳ,  cứ 2 năm một lần sẽ tổ chức tuần tĩnh tâm cho các linh mục. Năm nay, Miền sẽ  tổ chức từ ngày 25 đến 29 tháng 10 năm 2021, tại Clearwater Retreat Center, thành phố St. Petersburg, tiều bang Florida.
+
+Ta cùng tìm hiểu thêm mục đích của Tuần Tĩnh Tâm Hằng Năm của các linh mục:
+
+a. Trước hết là để các linh mục bắt chước mẫu gương cầu nguyện của Chúa Giêsu. Thực vậy, trước khi thi hành sứ vụ, chính Chúa Giêsu đã thực hiện một cuộc tĩnh tâm trong 40 ngày (Lc 4, 1-3). Thêm vào đó, nhiều lần Chúa Giêsu rời khỏi sứ vụ của mình để cầu nguyện một mình, đem lại cho chúng ta một mẫu gương để noi theo.
+
+b. Kế đến là sự chăm sóc của Mẹ Giáo Hội đối với các linh mục nên đã qui định rõ ràng yêu cầu các linh mục, tu sĩ và cả chủng sinh tĩnh tâm hằng năm. Cụ thể: Các tu sĩ trung thành giữ việc tĩnh tâm hàng năm (Điều 663 §5); Các linh mục buộc tham dự các cuộc tĩnh tâm, theo qui định của luật địa phương (Điều 276 §4); các chủng sinh cũng phải lo tĩnh tâm hằng năm (Điều 246 §5).
+
+c. Sau nữa là thời biểu của Tuần Tĩnh Tâm thường bắt đầu từ Thứ Hai cho đến chiều Thứ Sáu. Chương trình sinh hoạt mỗi ngày được sắp đặt căn bản như sau: Ngoài các giờ Kinh Phụng Vụ, Thánh Lễ và chầu Thánh Thể, những người dự cuộc tĩnh tâm nghe giảng 2 lần và có khoảng 3 tiếng đồng hồ suy niệm và cầu nguyện riêng. Đây là những phương thế giúp các linh mục thánh hóa và canh tân đời sống trong ân sủng, để trở thành những con người mới theo hình ảnh của Chúa Giêsu mục tử và trở thành những chứng nhân của Tin Mừng cho thế giới ngày nay.
+
+Tóm gọn lại, tuần tĩnh tâm linh mục được tổ chức để các linh mục gác lại những công việc thường nhật và những việc mục vụ để vào nơi thinh lặng để thể xác được thư giãn, tinh thần được đổi mới. Ta cũng đồng ý với tư tưởng khôn ngoan rằng: linh mục phải là hồ chứa chứ không phải con kênh…. Những con kênh để nước chảy đi và không giữ lại giọt nào. Nhưng là hồ chứa thì trước tiên nó phải đầy, rồi sau đó, không tự cạn, mà chảy tràn ra ngoài, những cánh đồng nào có nước thì luôn được đổi mới. Vì vậy, các khóa tĩnh tâm rất quan trọng, và các nhà lãnh đạo tinh thần cần dành thời gian cho bản thân để được phục hồi.
+
+Trong tâm tình hiệp thông, tôi tha thiết xin qúy ông bà, anh, chị, em cùng dâng lên Thiên Chúa tâm tình tạ ơn với những Thánh Lễ, những cầu nguyện, những tràng chuỗi Mân Côi trong tuần lễ này như món quà tặng quý báu cho các linh mục đang tham dự tuần tĩnh tâm, để đổi mới mà phục vụ cộng đoàn dân Chúa hiệu quả hơn.  Xin cho quý linh mục Miền Đông Nam thực sự có những ngày “nghỉ ngơi” bên Chúa, để khi trở về với một con người đã được đổi mới để phục vụ dân Chúa hiệu quả hơn trong chiều hướng của Thiên Chúa và Giáo Hội.
+Nguyện xin Thiên Chúa, qua lời chuyển cầu của Mẹ Maria, Các Thánh Tử Đạo Việt Nam chúc lành cho Đức Cha giảng phòng cũng như tất cả quý linh mục tham dự tuần tĩnh tâm này.
+
+Thân mến,
+Lm. Phanxicô Trần Quốc Tuấn
+
+        `
+        },
+        {
+            "Section": "Các Bài Viết",
             "date": "2021-10-17",
             "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
             "title": "THÁNG MƯỜI – THÁNG BẢO VỆ SỰ SỐNG",

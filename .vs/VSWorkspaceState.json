@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\src",
+    "\\src\\components",
     "\\src\\pages"
   ],
-  "SelectedNode": "\\src\\pages\\About.jsx",
+  "SelectedNode": "\\src\\components\\DisplayVietHong.jsx",
   "PreviewInSolutionExplorer": false
 }
