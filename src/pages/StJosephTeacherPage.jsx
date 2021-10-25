@@ -6,7 +6,8 @@ import teacherContent from '../database/stJosephTeachers';
 import DisplayVolunteer from '../components/DisplayVietHong';
 
 const mainTeachers = teacherContent.filter(mainTeachers => mainTeachers.classification === 'main-teacher');
-//const assistantTeachers = teacherContent.filter(assistantTeachers => assistantTeachers.classification === 'assistant-teacher');
+const mainProctors = teacherContent.filter(mainProctors => mainProctors.classification === 'main-proctor');
+const childrenEucharist = teacherContent.filter(childrenEucharist => childrenEucharist.classification === 'children-eucharist');
 
 function StJosephTeacherPage() {
     return (
@@ -20,7 +21,23 @@ function StJosephTeacherPage() {
                     <h2>Thầy Cô Ban Giáo Lý Trẻ Em</h2>
                     <h3>Niên Học 2021-2022</h3>
                 </div>
-                <DisplayVolunteer list={teacherContent} />
+                <DisplayVolunteer list={mainTeachers} />
+            </div>
+            <div class="col-12">
+                <div class="section-heading">
+                    <br />
+                    <h2>Thầy Cô Giám Thị Giáo Lý Trẻ Em</h2>
+                    <h3>Niên Học 2021-2022</h3>
+                </div>
+                <DisplayVolunteer list={mainProctors} />
+            </div>
+            <div class="col-12">
+                <div class="section-heading">
+                    <br />
+                    <h2>Thiếu Nhi Thánh Thể Giáo Lý Trẻ Em</h2>
+                    <h3>Niên Học 2021-2022</h3>
+                </div>
+                <DisplayVolunteer list={childrenEucharist} />
             </div>
             <Footer />
         </>

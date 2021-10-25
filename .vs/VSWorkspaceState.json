@@ -1,10 +1,12 @@
 {
   "ExpandedNodes": [
     "",
+    "\\public\\gallery\\img",
+    "\\public\\img\\bg-img",
     "\\src",
     "\\src\\components",
-    "\\src\\pages"
+    "\\src\\database"
   ],
-  "SelectedNode": "\\src\\components\\DisplayVietHong.jsx",
+  "SelectedNode": "\\src\\database\\stJosephTeachers.js",
   "PreviewInSolutionExplorer": false
 }

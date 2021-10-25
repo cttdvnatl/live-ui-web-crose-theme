@@ -1,13 +1,13 @@
 const stJosephTeacherContent = [
     {   
-        classification: 'main-teacher',
+        classification: 'main-proctor',
         image: 'https://hvmatl.net/gallery/kgd/giaoly/gl-1a-01.jpg',
         name: 'HT Nguyễn Thu Thảo',
         email: 'thao.thu.nguyen@hvmatl.org',
         phone: 'Lớp 1A',
     },
     {   
-        classification: 'main-teacher',
+        classification: 'children-eucharist',
         image: 'https://hvmatl.net/gallery/kgd/giaoly/gl-1a-02.jpg',
         name: 'HT Thành Lý',
         email: 'thanh.ly@hvmatl.org',
@@ -84,14 +84,14 @@ const stJosephTeacherContent = [
         phone: 'Lớp 2C',
     },
     {   
-        classification: 'main-teacher',
+        classification: 'children-eucharist',
         image: 'https://hvmatl.net/gallery/kgd/giaoly/gl-2d-01.jpg',
         name: 'HT Uyên Chu',
         email: 'uyen.chu@hvmatl.org',
         phone: 'Lớp 2D',
     },
     {   
-        classification: 'main-teacher',
+        classification: 'children-eucharist',
         image: 'https://hvmatl.net/gallery/kgd/giaoly/gl-2d-02.jpg',
         name: 'HT Khánh Nguyễn',
         email: 'khanh.nguyen@hvmatl.org',
@@ -168,7 +168,7 @@ const stJosephTeacherContent = [
         phone: 'Lớp 4A',
     },
     {   
-        classification: 'main-teacher',
+        classification: 'children-eucharist',
         image: 'https://hvmatl.net/gallery/kgd/giaoly/gl-4a-02.jpg',
         name: 'HT Julie Nguyễn',
         email: 'julie.lamthanh.nguyen@hvmatl.org',
@@ -196,7 +196,7 @@ const stJosephTeacherContent = [
         phone: 'Lớp 4C',
     },
     {   
-        classification: 'main-teacher',
+        classification: 'children-eucharist',
         image: 'https://hvmatl.net/gallery/kgd/giaoly/gl-4c-02.jpg',
         name: 'HT Nhật Nguyễn',
         email: 'nhat.harry.nguyen@hvmatl.org',
@@ -231,7 +231,7 @@ const stJosephTeacherContent = [
         phone: 'Lớp 5B',
     },
     {   
-        classification: 'main-teacher',
+        classification: 'children-eucharist',
         image: 'https://hvmatl.net/gallery/kgd/giaoly/gl-5c-01.jpg',
         name: 'HT Kenny Phạm',
         email: 'kenny.pham@hvmatl.org',
@@ -273,7 +273,7 @@ const stJosephTeacherContent = [
         phone: 'Lớp 6B',
     },
     {   
-        classification: 'main-teacher',
+        classification: 'children-eucharist',
         image: 'https://hvmatl.net/gallery/kgd/giaoly/gl-6c-01.jpg',
         name: 'HT Monica Minh T. Trần',
         email: 'monica.tran@hvmatl.org',
@@ -343,7 +343,7 @@ const stJosephTeacherContent = [
         phone: 'Lớp 8A',
     },
     {   
-        classification: 'main-teacher',
+        classification: 'children-eucharist',
         image: 'https://hvmatl.net/gallery/kgd/giaoly/gl-8a-02.jpg',
         name: 'HT Michael Nguyễn',
         email: 'michael.duc.nguyen@hvmatl.org',
@@ -357,7 +357,7 @@ const stJosephTeacherContent = [
         phone: 'Lớp 8B',
     },
     {   
-        classification: 'main-teacher',
+        classification: 'children-eucharist',
         image: 'https://hvmatl.net/gallery/kgd/giaoly/gl-8b-02.jpg',
         name: 'HT Hồng Ân Nguyễn',
         email: 'jomar.hongan.nguyen@hvmatl.org',
@@ -490,14 +490,14 @@ const stJosephTeacherContent = [
         phone: 'Lớp Hiệp Sĩ 1',
     },
     {   
-        classification: 'main-teacher',
+        classification: 'children-eucharist',
         image: 'https://hvmatl.net/gallery/kgd/giaoly/hs-01-02.jpg',
         name: 'HT Thanh Nguyễn',
         email: 'anthany.nguyen@gmail.com',
         phone: 'Lớp Hiệp Sĩ 1',
     },
     {   
-        classification: 'main-teacher',
+        classification: 'children-eucharist',
         image: 'https://hvmatl.net/gallery/kgd/giaoly/hs-01-03.jpg',
         name: 'HT Joseph Nguyễn',
         email: 'joseph268@gmail.com',
@@ -525,14 +525,14 @@ const stJosephTeacherContent = [
         phone: 'Lớp Hiệp Sĩ 2',
     },
     {   
-        classification: 'main-teacher',
+        classification: 'children-eucharist',
         image: 'https://hvmatl.net/gallery/kgd/giaoly/hs-02-04.jpg',
         name: 'HT Louis Hồ',
         email: 'louis.hieu.ho@hvmatl.org',
         phone: 'Lớp Hiệp Sĩ 2',
     },
     {   
-        classification: 'assistant-teacher',
+        classification: 'children-eucharist',
         image: 'https://hvmatl.net/gallery/kgd/giaoly/gl-1a-01.jpg',
         name: 'HT Nguyễn Thu Thảo',
         email: 'thao.thu.nguyen@hvmatl.org',
