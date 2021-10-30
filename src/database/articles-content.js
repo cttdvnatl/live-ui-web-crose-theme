@@ -23,6 +23,34 @@ const articleContent =
 [
         {
             "Section": "Các Bài Viết",
+            "date": "2021-10-31",
+            "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
+            "title": "THÁNG CẦU NGUYỆN CHO CÁC LINH HỒN",
+            "body":
+        `
+        Hằng năm Giáo Hội dành riêng Tháng Mười Một để nhắc nhớ và kêu gọi các tín hữu cầu nguyện cho các linh hồn trong luyện ngục. Thương nhớ người quá cố, nhất là cha mẹ, anh chị em trong gia đình là chuyện tự nhiên của con người. Vì vậy, việc cầu cho người thân đã qua đời là việc cần thiết, trước là giúp cho các linh hồn thân yêu được cứu thoát khỏi Luyện Ngục, sau là cho người sống được tỏ lòng hiếu thảo đền ơn. Với tâm tình trên, tôi xin chia sẻ mấy tâm tình sau:
+
+Đầu tiên, ta cần nắm rõ Giáo Hội dạy ta thế nào về việc cầu nguyện cho các linh hồn. Ngay từ những thời gian đầu, Giáo Hội đã tôn kính và tưởng niệm các người đã qua đời, và dâng kinh lễ để cầu cho họ, nhất là dâng Thánh lễ (DS 856), để họ được thanh tẩy và tiến vào nơi chiêm ngưỡng Thiên Chúa. Giáo Hội cũng khuyên làm việc bố thí, hưởng các ân xá và thi hành những việc đền tạ để giúp các người đã qua đời. Trong sách Giáo Lý của Giáo Hội Công Giáo năm 1993 cũng dạy rằng: Cần có Luyện Ngục (1030), Luyện Ngục để thanh tẩy (1031).
+
+Kế đến, Giáo Hội tạo cho chúng ta cơ hội và điều kiện để  giúp các linh hồn và giúp chúng ta như Giáo Lý của Giáo Hội Công Giáo số 958 dạy rằng:  “Lời cầu nguyện của chúng ta cho họ (các linh hồn) không chỉ có khả năng giúp họ nhưng cũng còn khả năng làm cho cho lời chuyển cầu của họ mang lại hiệu quả.”
+
+Sau nữa, Giáo Hội dạy cho ta cách thực hiện qua chỉ dẫn của Tòa Ân Giải Tối Cao được ban hành ngày 22 tháng 10 năm 2020. Trong hoàn cảnh đại dịch hiện nay, ngày 27 tháng 10 năm 2021 vừa qua, Tòa Ân Giải Tối Cao lại triển hạn cho chúng ta liên quan đến Ơn Toàn Xá trong tháng 11 qua mấy điểm cụ thể sau:
+
+1.     Người muốn lãnh nhận Ơn Toàn Xá phải thực hiện đủ những qui định của Tòa Ân Giải là xưng tội, rước lễ, cầu nguyện theo ý Đức Thánh Cha và từ bỏ mọi quyến luyến đối với tội lỗi. Tuy nhiên, trong hoàn cảnh đại dịch Covid, việc xưng tội, rước lễ, cầu nguyện theo ý Đức Thánh Cha có thể làm ngay sau khi có thể.
+2.     Đồng thời, là chúng ta cần phải thực hiện một trong các phương cách sau:
+a.      Trong suốt tháng 11, anh chị em đến viếng nghĩa trang và cầu nguyện cho người đã khuất mà mình muốn xin Ơn Toàn Xá. Cầu nguyện thành tiếng hay chỉ trong trí thôi cũng được.
+b.     Viếng nhà thờ, hay nhà nguyện cũng được trong ngày lễ các linh hồn, hay trong ngày lễ các Thánh, hay trong Chúa Nhật 31 tháng 10, hay trong Chúa Nhật 7 tháng 11, và đọc một Kinh Lạy Cha và một Kinh Tin Kính. Nếu vì những ngăn trở chính đáng không thể viếng nhà thờ hay nhà nguyện trong 4 ngày nêu trên thì có thể viếng bất cứ ngày nào trong tháng 11.
+c.      Những người già, người bệnh và tất cả những người vì lý do nghiêm trọng không thể rời khỏi nhà mình, vẫn nhận được Ơn Toàn Xá nếu hiệp nhất về mặt tinh thần với tất cả các tín hữu khác khi họ cầu nguyện trước tượng ảnh Chúa Giêsu, Đức Trinh Nữ Maria, suy niệm Kinh Thánh, đọc những kinh nguyện sốt sắng dành cho người chết, hoặc thực hiện công việc của lòng thương xót, dâng lên Chúa những nỗi đau và những khó khăn của cuộc đời mình.
+
+Xin từng gia đình và từng thành viên hãy biết dùng cơ hội Tháng Các Linh Hồn này để trợ giúp các linh hồn thân yêu cũng như báo hiếu trả nghĩa ông bà tổ tiên.  Xin Thiên Chúa chúc lành cho chúng ta qua những việc của Lòng Thương Xót trong tháng Các Linh Hồn này.
+Thân mến
+
+Lm. Fx. Trần Q. Tuấn
+
+        `
+        },
+        {
+            "Section": "Các Bài Viết",
             "date": "2021-10-24",
             "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
             "title": "Tuần Tĩnh Tâm Năm Của Các Linh Mục Miền Đông Nam Hoa Kỳ",
