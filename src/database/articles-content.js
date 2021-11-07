@@ -23,6 +23,29 @@ const articleContent =
 [
         {
             "Section": "Các Bài Viết",
+            "date": "2021-11-07",
+            "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
+            "title": "LÁ RỤNG VỀ CỘI",
+            "body":
+        `
+        Tháng 11 đưa chúng ta vào mùa thu với cảnh vật thay đổi nhanh chóng: những tán lá xanh ngả vàng và rơi rụng, không khí quanh ta lạnh hơn, ngày ngắn hơn và đêm dài hơn… chợt làm lòng mỗi người chùng xuống. Và tháng 11 cũng mời gọi chúng ta nghĩ đến sự sống – cái chết, đến ý nghĩa cuộc sống và sự thánh thiện nơi đời sống mỗi con người; đến niềm tri ân vì những thành quả mà chúng ta đã gặt hái được trong năm qua, cùng với sự trợ giúp của bao người.
+
+Câu nói ‘Lá rụng về cội’ có thể mang cho chúng ta nhiều suy tư: đó có thể là những người cả đời sống bôn ba đất khách quê người mong được một nơi thân thương vui hưởng tuổi già; có thể là người thích sống bình dị, gần gũi gia đình không bon chen sự đời… Nhưng dù nói thế nào ‘lá rụng về cội’ cũng nhắc nhở chúng ta đến điểm cùng tận và cũng là khởi đầu của mỗi người: trở về với lòng đất mẹ, với Đấng Tạo Hóa, với Thiên Chúa là chủ tể của muôn loài, và chờ đợi một cuộc sống mới với Đức Kitô!
+
+Giáo Xứ chúng ta hằng năm tổ chức thánh lễ cầu cho anh chị em đã qua đời tại hai địa điểm: nghĩa trang Floral Hill ở Tucker, và tại nghĩa trang Winter Chapel. Khi đứng trước những anh chị em đã hoàn thành cuộc lữ hành trần thế và đang an nghỉ, chúng ta suy nghĩ gì: “Sống để làm gì?” Trước hết là nói đến trách nhiệm cụ thể của mỗi một người, hôm nay cũng như trong suốt cuộc đời. Chúng ta không thể trốn tránh trách nhiệm, nếu không muốn nói rằng đời mình nông cạn hay trở nên vô ích vô nghĩa là do mỗi người đã hoàn thành các trách nhiệm được trao phó tới mức nào. Mỗi người đều phải nỗ lực tìm ra lời đáp cho chính mình, với hết mọi khả năng và ngay trong điều kiện sống hiện tại. Không ai có thể trả lời thay cho người khác được. Như mỗi một chiếc lá xanh làm cho cây xanh tươi, làm cho cây có được trái thơm, quả ngọt. Nhưng mỗi chiếc lá sẽ chẳng ở mãi trên cây. Có lúc nó phải rớt xuống, nhưng nó đã hoàn thành tất cả những chức năng và những ước mơ của nó chưa? Bởi vì chẳng có việc gì chúng ta làm ở đây hôm nay, lại không liên quan và có ảnh hưởng đến cuộc sống sau bên kia thế giới - cho dù tốt hay xấu, to hay nhỏ, có ý nghĩa to lớn hay không. 
+
+Nhìn những người anh chị em đang an giấc chờ ngày Phục sinh, họ dường như thụ động, nhưng họ vẫn đồng hành vẫn cầu nguyện cho chúng ta, nhưng chỉ có một điều là họ không thể làm gì cho chính họ. Họ vẫn chờ mong chúng ta nhớ đến họ, cầu nguyện cho họ, và nhờ những quyết định làm điều tốt, dù nhỏ bé nhưng vẫn có thể giúp và thay đổi tình trạng hiện tại của họ. 
+
+Như thánh Phaolô nhắc nhở tín hữu tại Philípphê (3,20): "Quê hương của chúng ta ở trên trời", các anh chị em đó có thể đạt tới, nhưng cũng có những người chưa tới, và chúng ta cũng trên con đường tiến tới đó. Vậy chúng ta cùng những anh chị em đã đạt tới vinh quang bất diệt – các thánh, và những anh chị em đang trong tiến trình thanh luyện để đạt tới vinh quang – những linh hồn nơi luyện ngục, để họ mau đạt tới nguồn cội và hạnh phúc vĩnh cửu. Và cho cả chúng ta, đang trong cuộc lữ hành trần thế, chúng ta cũng hoàn thành những trách nhiệm của mình được trao phó trong vui tươi; để khi giờ được trở về cội nguồn, chúng ta không tiếc nuối nhưng được hiệp hoan cùng những người thân thương của chúng ta, trong ánh sáng trường cửu, và niềm vui bất diệt!
+
+Hiệp nhất trong an bình của Đức Kitô,
+
+Lm. G.B Pham Nguyễn Tuấn Anh
+
+        `
+        },
+        {
+            "Section": "Các Bài Viết",
             "date": "2021-10-31",
             "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
             "title": "THÁNG CẦU NGUYỆN CHO CÁC LINH HỒN",
