@@ -23,6 +23,28 @@ const articleContent =
 [
         {
             "Section": "Các Bài Viết",
+            "date": "2021-11-14",
+            "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
+            "title": "MỪNG KÍNH CÁC THÁNH TỬ ĐẠO VIỆT NAM",
+            "body":
+        `
+        Giáo Hội Việt Nam cảm tạ Chúa và tự hào vì những vị tiền bối là cha ông, là những vị truyền giáo đã can đảm dùng chính đời sống và máu đào làm chứng tá cho Tin Mừng trên dải đất quê hương Việt Nam thân yêu trong suốt 300 năm bị bách hại. Hằng năm, không chỉ Giáo Hội tại Việt Nam, mà Giáo Hội hoàn vũ cùng tưởng niệm các ngài trong phụng vụ chư thánh- An-rê Dũng Lạc và các bạn tử đạo.
+
+Giáo Xứ chúng ta chọn các ngài làm thánh Bổn Mạng. Hằng năm, chúng ta cùng nhau dành thời gian để ôn lại những gương thánh nhân trong thiên hùng sử của 118 vị tử đạo được Giáo Hội tôn vinh; và biết bao vị tử đạo âm thầm chưa được nhắc đến.  Chúng ta cũng dành thời gian lắng đọng tâm hồn để nhìn lại đời sống chính mình, trong tương quan với Thiên Chúa và tha nhân và tìm lại sự bình an trong tâm hồn qua việc giao hòa của bí tích giải tội. Là mỗi Kitô hữu chúng ta tham dự vào phép rửa, cuộc khổ nạn và cái chết, sự phục sinh của Đức Giêsu. Đó là một sự tử đạo liên lỉ qua từng ngày sống! Không phải những lúc Kitô hữu bị bách hại họ mới sống trọn vẹn niềm tin của mình, qua việc dũng cảm tuyên xức đức tin, đổ máu hay hiến dâng mạng sống để minh chứng, mà ngay trong từng ngày sống chúng ta thánh hóa đời sống qua những nghịch cảnh, trái ý của đời sống hiện tại để vác thập giá và hiến dâng chính mình làm của lễ dâng lên Thiên Chúa Cha.
+
+Trong những ngày hồi tâm chuẩn bị mừng lễ năm nay, Giáo Xứ chúng ta vui mừng đón quý cha, Linh mục Micae Nguyễn Trung Tây, dòng Ngôi Lời, và Linh mục Phêrô Nguyễn Hùng Cường, dòng Maryknoll đến để đồng hành và chia sẻ về đề tài chung: Tử Đạo Việt Nam: Trên vùng Đất mới. Các đề tài sẽ được triển khai qua ba ngày Thứ Hai, Thứ Ba, Thứ Tư 15-17 tháng 11 năm 2021: ngày thứ nhất Tử Đạo Việt Nam; ngày thứ hai Trên vùng Đất mới: Vietnamese American; và ngày thứ ba Tử Đạo Hôm nay. Cha Micae Nguyễn Trung Tây là một nhà truyền giáo, một nhà văn, cha giáo của chủng viện. Cùng đồng hành là Cha Phêrô Nguyễn Hùng Cường, thuộc dòng Maryknoll. Ngài là một nhạc sĩ, và cũng công tác ở nước ngoài.
+
+Chúng ta cám ơn Chúa về sự hiện diện và quảng đại của các ngài đã sắp xếp thời gian để giúp Giáo Xứ chúng ta chuẩn bị tâm hồn để mừng lễ Bổn mạng Giáo Xứ cách trang trọng và xứng đáng! Chúng ta cũng cám ơn Chúa vì Chúa ban cho chúng ta có thời gian, cơ hội để được nhìn lại đời sống mình, để sống xứng đáng và trọn vẹn là những Kitô hữu được sinh ra và lớn lên thừa hưởng dòng máu anh hùng tử đạo bất khuất của cha ông chúng ta để lại. Xin cho những ngày Tĩnh tâm và Hòa giải của Giáo Xứ đem lại nhiều ơn phúc trên Giáo Xứ và trên từng người chúng ta. Xin Chúa Thánh Thần soi sáng, hướng dẫn quý cha giảng phòng để những lời nói, chia sẻ và gương lành của các ngài đánh động và làm thay đổi hướng thiện nơi tâm hồn chúng ta.
+
+Xin mọi người cố gắng hết sức sắp xếp thời gian và công việc để tham dự tĩnh tâm, dọn mình đón những hồng ân Thiên Chúa ban qua lời chuyển cầu của Các Thánh Tử Đạo Việt Nam và một lễ Tạ Ơn – Thanksgving nhiều niềm vui và ơn thánh Chúa!
+
+Hiệp nhất trong an bình của Đức Kitô,
+Lm. G.B Phạm Nguyễn Tuấn Anh
+
+        `
+        },
+        {
+            "Section": "Các Bài Viết",
             "date": "2021-11-07",
             "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
             "title": "LÁ RỤNG VỀ CỘI",
