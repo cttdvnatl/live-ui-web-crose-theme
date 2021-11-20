@@ -23,6 +23,31 @@ const articleContent =
 [
         {
             "Section": "Các Bài Viết",
+            "date": "2021-11-21",
+            "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
+            "title": "LỄ CHÚA KITÔ VUA – KẾT THÚC NĂM PHỤNG VỤ",
+            "body":
+        `
+        Thời cánh chung, núi đền thờ Chúa
+đứng kiên cường vượt đỉnh các non cao,
+vươn mình trên hết mọi ngọn đồi.
+(CGKPV, Kinh sáng Thứ Hai, Tuần III)
+
+Trên thế giới có nhiều nơi dựng những bức tượng Chúa Kitô Vua hùng vĩ: châu Mỹ, châu Âu, châu Phi, châu Á… Ở Việt Nam không ai trong chúng ta xa lạ với tượng Chúa Kitô Vua ở núi Tao Phùng - Vũng Tàu.
+
+Kết thúc năm phụng vụ, Giáo Hội mời chúng ta ngước nhìn lên và quy hướng về Đức Giêsu Kitô vị trí cao nhất: Vua Vũ Trụ! Lễ Chúa Kitô Vua nhắc nhở chúng ta Ngài là vua lòng chúng ta, là vua muôn vua, vua của vũ trụ. Đồng thời lễ này cũng mời gọi chúng ta nhìn đến chiều kích cùng tận, cánh chung (éschaton). Chúng ta thường hiểu cánh chung là những thực tại cuối cùng của loài người, Giáo hội và thế giới. Đây không phải là những chuyện xa vời chẳng ăn nhập chi với hiện tại, nhưng là những thực tại vĩnh viễn đưa tới mức viên mãn điều mà hiện nay chúng ta chỉ mới chiếm hữu ở tình trạng khởi đầu và chúng ta đang mong đợi đến hồi kết thúc. Như vậy, cánh chung luận (eschatology) bao gồm hiện tại và trở nên một chiều kích cốt yếu của kinh nghiệm nhân bản và Kitô hữu.
+
+Trọng tâm của cánh chung luận Kitô giáo là chính Đức Kitô: nhờ cuộc phục sinh vinh hiển, Người đã khai trương éschaton, nghĩa là thực tại mới mẻ và vĩnh viễn của lịch sử. Người gồm tóm muôn vật, Người là “hôm qua, hôm nay và mãi mãi” (Dt 13:8), “Alpha và omega, khởi đầu và cùng tận, Đấng hiện có, đã có và sẽ đến” (Kh 1:8). Người đã thắng sự chết, đã vén tấm màn bí ẩn liên quan đến định mệnh con người bằng việc mở ra con đường dẫn đến sự bất tử trong tương lai. Đức Kitô đã chứa đựng lời hứa về cánh chung của Giáo Hội và của vũ trụ; sự phục sinh của Người bảo đảm rằng những lời hứa về các thực tại ấy sẽ được hoàn thành khi đến thời: cuộc quang lâm, sự phục sinh, việc thiết lập triều đại Thiên Chúa. Phụng vụ của Hội thánh, theo những chứng tích cổ thời nhất, luôn duy trì viễn tượng cánh chung ấy, tập trung vào sự phục sinh của Đức Kitô và việc trông đợi Người trở lại, quy hướng tất cả vào việc cử hành mầu nhiệm Vượt qua, là tổng hợp của lịch sử cứu độ.
+
+Trong tháng 11, chúng ta cũng kính nhớ thánh nữ Cêcilia - Bổn mạng ca đoàn Cecilia. Ngài là vị thánh nữ được cả Giáo Hội Công giáo La Mã, Giáo Hội Chính Thống, Anh Giáo và một vài giáo hội Luthero tôn sùng. Ngài được đặt làm bổn mạng của nhạc thánh và các nhạc sĩ. “Hát là cầu nguyện hai lần” (Thánh Augustinô), xin cho từng lời ca, tiếng hát của quý Anh/Chị trong ca đoàn Cecilia toát lên lòng cảm nghiệm sự hiện diện của Chúa trong lòng qua từng ca từ, nâng cao tinh thần phục vụ để thánh hóa bản thân, gần gũi Thiên Chúa; và xin cho sự sinh động phụng vụ của Anh/Chị cũng giúp cộng đoàn nâng tâm hồn lên tới Chúa.
+
+Hiệp nhất trong an bình của Đức Kitô,
+Lm. G.B Pham Nguyễn Tuấn Anh
+
+        `
+        },
+        {
+            "Section": "Các Bài Viết",
             "date": "2021-11-14",
             "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
             "title": "MỪNG KÍNH CÁC THÁNH TỬ ĐẠO VIỆT NAM",
