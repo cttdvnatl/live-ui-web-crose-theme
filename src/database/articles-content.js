@@ -23,6 +23,26 @@ const articleContent =
 [
         {
             "Section": "Các Bài Viết",
+            "date": "2021-11-28",
+            "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
+            "title": "MARANATHA - CHÚA ƠI, XIN HÃY ĐẾN!",
+            "body":
+        `
+        Giáo Xứ chúng ta vừa mừng lễ Bổn Mạng Giáo Xứ - Các Thánh Tử Đạo Việt Nam, lễ cung hiến Thánh Đường Giáo Xứ và một lễ Thanksgiving ngập tràn nắng và hồng ân Thiên Chúa! Chúa Nhật tuần này chúng ta cùng bước vào tuần đầu của Mùa Vọng năm C.
+
+Mùa Vọng theo nguyên ngữ tiếng Latin Adventus, Anh ngữ Advent có nghĩa là đến gần. Mùa Vọng mời gọi người Kitô hữu ‘mong chờ’, ‘trông đợi’. Chúng ta trông đợi gì? Mẹ Giáo Hội dạy chúng ta: Mùa Vọng là thời gian chuẩn bị đón Chúa Kitô "đã đến" lần thứ nhất; mùa chuẩn bị đón Chúa Kitô "sẽ đến" lần thứ hai vào ngày tận thế; mùa chuẩn bị đón Chúa Kitô "sẽ đến" viếng thăm vào cuối đời mỗi người chúng ta; mùa chuẩn bị tâm hồn Kitô hữu xứng đáng để mừng Lễ Giáng Sinh sắp tới.
+
+Mùa Vọng trước tiên là mùa để chúng ta cùng ôn lại lịch sử ơn cứu độ của Đức Kitô trong cuộc đời mình, bắt đầu từ việc dân Do thái mong đợi và chuẩn bị Đấng Messia (Chúa Kitô) đến để "giải phóng" họ khỏi ách nô lệ. Mùa Vọng là mùa chuẩn bị đón Chúa Kitô “sẽ đến” lần thứ hai vào ngày tận thế.  Ngày đó cũng là ngày “không ngờ”, ngày mà “Con Người sẽ ngự đến đầy quyền năng và uy nghi cao cả!” để xét xử phân minh. Tuy nhiên đối với những ai có lòng tin nơi Đấng Cứu Thế, và sống theo Phúc Âm của Ngài, thì ngày đó, không đáng kinh khiếp, nhưng lại là “Ngày Giải Thoát” để bước vào miền hạnh phúc viên mãn của cuộc sống “trường sinh, vinh hiển”. Mùa Vọng còn là mùa chuẩn bị đón Chúa Kitô "sẽ đến" viếng thăm vào cuối đời mỗi người chúng ta. Không ai biết được ngày giờ nào, vì thế, hãy chuẩn bị tâm hồn sẵn sàng. Như Chúa Giêsu nói với chúng ta: “Chúng con hãy coi chừng, hãy tỉnh thức và cầu nguyện, vì chúng con không biết lúc đó là lúc nào!” (Mc 13:33). Mùa Vọng là mùa chúng ta chuẩn bị tâm hồn xứng đáng để mừng Lễ Giáng Sinh sắp tới. Thật sự ta chẳng bao giờ xứng đáng được với chính Chúa, Đấng thánh thiện vô ngần, nhưng chỉ là bớt bất xứng hơn. Điều này đòi hỏi mỗi người phải tỉnh thức, hoán cải, sửa đổi và tu chỉnh cuộc sống không ngừng, để góp phần với Chúa làm cho cuộc sống trở nên chân thật hơn, khiêm tốn hơn.
+
+Năm nay, Giáo Xứ khởi sự lần đầu tiên Lễ Hội Giáng Sinh, với chủ đề: “Cùng Giuse về Bêlem”. Giáo xứ Các Thánh Tử Đạo Việt Nam mời gọi các hội, đoàn, ban, khối, khu xóm và  tất cả mọi người cùng chuẩn bị tham gia Lễ Hội Giáng Sinh với mục đích mừng đón Chúa Giáng Sinh, sống đạo trong vui tươi, sáng tạo, truyền giáo, và đào sâu lòng hiểu biết về Đức tin Công giáo bằng cách cùng làm các hang đá, trang trí ánh sáng điện để mời gọi những anh chị em chưa biết Chúa đến chiêm ngắm và nhận ra Ngài. Hang đá bên ngoài chính là diễn tả hang đá ‘nội tâm’ bên trong của mỗi người chúng ta. Chúa sinh ra không chọn nơi giàu sang, phú quý, nhưng lại chọn nơi bần hàn. Ngài cần một người mẹ để nâng niu, bồng ẵm; cần một người cha để không ngại gian nguy vẫn tiến về quê cha đất tổ; cần những người mục đồng nghèo hèn làm bạn thăm viếng; cần những hơi ấm của các con vật; cần những cọng rơm, máng cỏ; những ánh sao đêm lặng lẽ trong đêm trường… những thứ thật tầm thường, giản dị, nhưng lại được Ngài chọn lựa tỉ mỉ để gửi gắm thân phận khi đến với con người. Vậy Mùa Vọng này, mỗi người chúng ta chọn gì, làm gì để Chúa có thể giáng sinh cách thiêng liêng trong lòng mỗi người chúng ta? Maranatha – Lạy Chúa Giêsu, xin ngự đến!
+
+Hiệp nhất trong an bình của Đức Kitô,
+Lm. G.B Pham Nguyễn Tuấn Anh
+
+        `
+        },
+        {
+            "Section": "Các Bài Viết",
             "date": "2021-11-21",
             "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
             "title": "LỄ CHÚA KITÔ VUA – KẾT THÚC NĂM PHỤNG VỤ",
