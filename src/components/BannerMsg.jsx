@@ -26,8 +26,8 @@ const BannerMsg = (prop) => {
                     <div className="text-center" style={{"marginTop":".5rem"}}>
                     <a href={prop.url}>
                             {msgSize === 'lg' ?
-                                <h2 style={{"color":"#BA4A00"}}>{"Thánh Lễ mừng Bổn Mạng Giáo Xứ Nov 25 - 9:30AM"}</h2> :
-                                <h5 style={{"color":"#ffffff"}}>{"Thánh Lễ mừng Bổn Mạng Giáo Xứ Nov 25 - 9:30AM"}</h5>
+                                <h2 style={{"color":"#BA4A00"}}>{"LỄ HỘI GIÁNG SINH - 12/18/2021 - 5:00PM ~ 11:30PM"}</h2> :
+                                <h5 style={{"color":"#ffffff"}}>{"LỄ HỘI GIÁNG SINH - 12/18/2021 - 5:00PM ~ 11:30PM"}</h5>
                             }
                         </a>                   
                     </div>
