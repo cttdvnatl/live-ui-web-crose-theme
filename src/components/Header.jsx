@@ -250,7 +250,7 @@ const Header = (prop) => {
                         </div>
                         {/* <EmergencyEvent emergency={'emergency' in prop ? prop.emergency : false} message={prop.emergencyMsg} url={prop.url}/> */}
                         {/* <HcmtEvent hcmt={'hcmt' in prop ? prop.hcmt : true} message={prop.hcmtMsg} url={prop.url}/> */}
-                        <BannerMsg banner={'banner' in prop ? prop.banner : true} message={prop.bannerMsg}/>
+                        <BannerMsg banner={'banner' in prop ? prop.banner : true} message={prop.bannerMsg} url={prop.url}/>
                     </div>
                 </div>
             </div>
