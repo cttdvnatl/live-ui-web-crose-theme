@@ -54,7 +54,7 @@ const WeeklyNews = (props) => {
                                         if(targetMonth === month) {
                                             return (
                                             <div className="col-12 col-sm-6 col-md-4 col-lg-3" key={idx}>
-                                                <div className="about-us-content mb-100">
+                                                <div className="about-us-content text-center mb-100">
                                                     <a href="/" onClick={(e) => toggleModal(e, weeklyNews.title, weeklyNews.src)}><img src={weeklyNews.image} alt=""/></a>
                                                     <div className="about-text text-center">
                                                         <a href="/" onClick={(e) => toggleModal(e, weeklyNews.title, weeklyNews.src)}><h4>{weeklyNews.title}</h4></a>
