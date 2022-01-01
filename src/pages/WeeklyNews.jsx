@@ -18,12 +18,12 @@ const WeeklyNews = (props) => {
     useEffect(() => {
         if(sessionStorage.getItem('token') && !props.data.length) {
             let mtplr;
-            const from =  new Date(new Date().setUTCHours(0,0,0,0));
-            from.setMonth(from.getUTCMonth()-1, 0);
-            if([2, 3].includes(new Date().getUTCMonth() + 1)) {
-                mtplr = from.getUTCFullYear() % 4 === 0 ? 31+29 : 31+28;
+            const from =  new Date(new Date().setHours(0,0,0,0));
+            from.setMonth(from.getMonth()-1);
+            if([2, 3].includes(new Date().getMonth() + 1)) {
+                mtplr = from.getFullYear() % 4 === 0 ? 31+29 : 31+28;
             } else {
-                mtplr = from.getUTCMonth() + 1 === 8 ? 62 : 61;
+                mtplr = from.getMonth() + 1 === 8 ? 62 : 61;
             }
             const to = new Date(from.getTime() + mtplr * 86400000);
             (async () => (await props.getWeeklyNews(from, to, sessionStorage.getItem('token'))))();
@@ -41,7 +41,7 @@ const WeeklyNews = (props) => {
                             <div className="row">
                                 <div className="col-12">
                                     <div className="section-heading">
-                                        <h2><b>Thông tin mục vụ tháng {month}</b></h2>
+                                        <h2><b>Thông tin mục vụ tháng {month === 0 ? 12 : month}</b></h2>
                                     </div>
                                 </div>
                             </div>
