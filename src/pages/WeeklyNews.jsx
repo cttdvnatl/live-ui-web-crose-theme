@@ -18,7 +18,7 @@ const WeeklyNews = (props) => {
     useEffect(() => {
         if(sessionStorage.getItem('token') && !props.data.length) {
             let mtplr;
-            const from =  new Date(new Date().setUTCDate(0,0,0,0));
+            const from =  new Date(new Date().setUTCHours(0,0,0,0));
             from.setUTCMonth(from.getUTCMonth()-1);
             if([2, 3].includes(new Date().getMonth() + 1)) {
                 mtplr = from.getUTCFullYear() % 4 === 0 ? 31+29 : 31+28;
