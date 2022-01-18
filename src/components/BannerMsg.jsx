@@ -19,15 +19,15 @@ const BannerMsg = (prop) => {
     }, [resizeCallback]);
 
     return 'banner' in prop && prop.banner === true ? (
-        <div className="container-fluid" style={{"backgroundColor": "#F5CBA7", "display":"block"}}>
+        <div className="container-fluid" style={{"backgroundColor": "#F5B7B1", "display":"block"}}>
             <div className="row">
                 {/* <!-- Section Heading --> */}
                 <div className="col-12">
                     <div className="text-center" style={{"marginTop":".5rem"}}>
                     <a href={prop.url}>
                             {msgSize === 'lg' ?
-                                <h2 style={{"color":"#BA4A00"}}>{"LỄ HỘI GIÁNG SINH - 12/18/2021 - 5:00PM ~ 11:30PM"}</h2> :
-                                <h5 style={{"color":"#BA4A00"}}>{"LỄ HỘI GIÁNG SINH - 12/18/2021 - 5:00PM ~ 11:30PM"}</h5>
+                                <h2 style={{"color":"#943126"}}>{"*****   Click HERE for to register for a Free COVID-19 Home Test Kit     *****"}</h2> :
+                                <h5 style={{"color":"#943126"}}>{"*****   Click HERE for to register for a Free COVID-19 Home Test Kit     *****"}</h5>
                             }
                         </a>                   
                     </div>
