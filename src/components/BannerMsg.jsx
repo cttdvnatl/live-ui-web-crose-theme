@@ -26,8 +26,8 @@ const BannerMsg = (prop) => {
                     <div className="text-center" style={{"marginTop":".5rem"}}>
                     <a href={prop.url}>
                             {msgSize === 'lg' ?
-                                <h2 style={{"color":"#943126"}}>{"*****   Click HERE for to register for a Free COVID-19 Home Test Kit     *****"}</h2> :
-                                <h5 style={{"color":"#943126"}}>{"*****   Click HERE for to register for a Free COVID-19 Home Test Kit     *****"}</h5>
+                                <h2 style={{"color":"#943126"}}>{"*****   Click HERE to register for a Free COVID-19 Home Test Kit     *****"}</h2> :
+                                <h5 style={{"color":"#943126"}}>{"*****   Click HERE to register for a Free COVID-19 Home Test Kit     *****"}</h5>
                             }
                         </a>                   
                     </div>
