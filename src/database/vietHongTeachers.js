@@ -237,6 +237,11 @@ const VietHongTeacherContent = [
         image: 'https://hvmatl.net/gallery/kgd/viethong/viethong-2021-2022-ta-nguyen-bich-phuong.jpg',
         name: 'Nguyễn Bích Phương',
     },
+    {   
+        classification: 'assistant-teacher',
+        image: 'https://hvmatl.net/gallery/kgd/viethong/viethong-2021-2022-ta-nguyen-dieu-veronica.jpg',
+        name: 'Nguyễn Diệu Veronica',
+    },
         {   
         classification: 'assistant-teacher',
         image: 'https://hvmatl.net/gallery/kgd/viethong/viethong-2021-2022-ta-nguyen-joseph-alex.jpg',
@@ -269,6 +274,11 @@ const VietHongTeacherContent = [
     }, 
     {   
         classification: 'assistant-teacher',
+        image: 'https://hvmatl.net/gallery/kgd/viethong/viethong-2021-2022-ta-tran-do-cong-chinh.jpg',
+        name: 'Trần Đỗ Công Chính',
+    },
+    {   
+        classification: 'assistant-teacher',
         image: 'https://hvmatl.net/gallery/kgd/viethong/viethong-2021-2022-ta-tran-gia-kiet.jpg',
         name: 'Trần Gia Kiệt',
     },
@@ -276,6 +286,11 @@ const VietHongTeacherContent = [
         classification: 'assistant-teacher',
         image: 'https://hvmatl.net/gallery/kgd/viethong/viethong-2021-2022-ta-tran-lu-christina.jpg',
         name: 'Trần Lu Christina',
+    },
+    {   
+        classification: 'assistant-teacher',
+        image: 'https://hvmatl.net/gallery/kgd/viethong/viethong-2021-2022-ta-tran-thuy-phuong-uyen.jpg',
+        name: 'Trần Thùy Phương Uyên',
     },
     {   
         classification: 'assistant-teacher',

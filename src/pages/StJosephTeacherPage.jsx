@@ -26,18 +26,18 @@ function StJosephTeacherPage() {
             <div class="col-12">
                 <div class="section-heading">
                     <br />
-                    <h2>Thầy Cô Giám Thị Giáo Lý Trẻ Em</h2>
+                    <h2>Anh Chị Ban Thiếu Nhi Thánh Thể</h2>
                     <h3>Niên Học 2021-2022</h3>
                 </div>
-                <DisplayVolunteer list={mainProctors} />
+                <DisplayVolunteer list={childrenEucharist} />
             </div>
             <div class="col-12">
                 <div class="section-heading">
                     <br />
-                    <h2>Thiếu Nhi Thánh Thể Giáo Lý Trẻ Em</h2>
+                    <h2>Thầy Cô Ban Giám Thị </h2>
                     <h3>Niên Học 2021-2022</h3>
                 </div>
-                <DisplayVolunteer list={childrenEucharist} />
+                <DisplayVolunteer list={mainProctors} />
             </div>
             <Footer />
         </>
