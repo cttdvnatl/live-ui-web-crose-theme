@@ -23,7 +23,7 @@ const CustomCarousel = (props) => {
                         <Carousel.Caption>
                             <div>
                                 {item.title.map((title, idx) => <h1 className="animated fadeInUpShort" key={idx}>{title}</h1>)}
-                                <div className="animated fadeInUpShort">
+                                <div className="">
                                     {item.content !== undefined ? item.content.map((content, i) => <p key={i} dangerouslySetInnerHTML={{__html: content}}/>) : null}
                                 </div>
                                 {item.button !== undefined ? 
