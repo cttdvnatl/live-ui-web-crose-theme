@@ -2,7 +2,7 @@ const stJosephTeacherContent = [
     {   
         classification: 'main-teacher',
         image: 'https://hvmatl.net/gallery/kgd/giaoly/gl-1a-01.jpg',
-        name: 'HT Nguyễn Thu Thảo',
+        name: 'HT Thảo Thu Nguyễn',
         email: 'thao.thu.nguyen@hvmatl.org',
         phone: 'Lớp 1A',
     },
@@ -330,13 +330,6 @@ const stJosephTeacherContent = [
     },
     {   
         classification: 'main-teacher',
-        image: 'https://hvmatl.net/gallery/kgd/giaoly/gl-7c-01.jpg',
-        name: 'Thầy Bình Phạm',
-        email: 'ignatius.binh.pham@hvmatl.org',
-        phone: 'Lớp 7D',
-    },
-    {   
-        classification: 'main-teacher',
         image: 'https://hvmatl.net/gallery/kgd/giaoly/gl-8a-01.jpg',
         name: 'Cô Loan Vũ',
         email: 'loan.vu@hvmatl.org',
@@ -562,7 +555,7 @@ const stJosephTeacherContent = [
     {   
         classification: 'children-eucharist',
         image: 'https://hvmatl.net/gallery/kgd/giaoly/tntt-2b.jpg',
-        name: 'HHT Diana Hoàng',
+        name: 'HT Diana Hoàng',
         email: 'diana.hoang@hvmatl.org',
         phone: 'Lớp 2B',
     },
@@ -597,7 +590,7 @@ const stJosephTeacherContent = [
     {   
         classification: 'children-eucharist',
         image: 'https://hvmatl.net/gallery/kgd/giaoly/tntt-3a.jpg',
-        name: 'HHT Andrew H. Nguyễn',
+        name: 'HT Andrew H. Nguyễn',
         email: 'andrew.huu.nguyen@hvmatl.org',
         phone: 'Lớp 3A',
     },
@@ -793,7 +786,7 @@ const stJosephTeacherContent = [
     {   
         classification: 'children-eucharist',
         image: 'https://hvmatl.net/gallery/kgd/giaoly/tntt-hs-01-01.jpg',
-        name: 'HHT Hải Huỳnh',
+        name: 'HT Hải Huỳnh',
         email: 'hai1207@uga.edu',
         phone: 'Lớp Hiệp Sĩ 1',
     },
