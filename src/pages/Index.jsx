@@ -15,7 +15,7 @@ const Index = () => {
             <Preloader/>
             {/* <Header emergency={true} emergencyMsg={t("index.headerMsg")} url="/covid19"/> */}
             {/* <Header hcmt={false} hcmtMsg={t("index.hcmtMsg")} url="https://fallfestivalatl.org"/> */}
-            <Header banner={true} bannerMsg={t("index.bannerMsg")} url="https://special.usps.com/testkits"/>
+            <Header banner={false} bannerMsg={t("index.bannerMsg")} url="https://special.usps.com/testkits"/>
             <CustomCarousel/>
             <Info/>
             <Event/>

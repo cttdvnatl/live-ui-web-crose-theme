@@ -2,7 +2,7 @@ const stJosephTeacherContent = [
     {   
         classification: 'main-teacher',
         image: 'https://hvmatl.net/gallery/kgd/giaoly/gl-1a-01.jpg',
-        name: 'HT Nguyễn Thu Thảo',
+        name: 'HT Thảo Thu Nguyễn',
         email: 'thao.thu.nguyen@hvmatl.org',
         phone: 'Lớp 1A',
     },
@@ -327,13 +327,6 @@ const stJosephTeacherContent = [
         name: 'Cô Mai Thi Tuyết Lê',
         email: 'mai.tuyet.le@hvmatl.org',
         phone: 'Lớp 7C',
-    },
-    {   
-        classification: 'main-teacher',
-        image: 'https://hvmatl.net/gallery/kgd/giaoly/gl-7c-01.jpg',
-        name: 'Thầy Bình Phạm',
-        email: 'ignatius.binh.pham@hvmatl.org',
-        phone: 'Lớp 7D',
     },
     {   
         classification: 'main-teacher',

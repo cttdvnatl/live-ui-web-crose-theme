@@ -22,12 +22,14 @@ const CustomCarousel = (props) => {
                             <img src={item.image} alt={item.image.slice(item.image.lastIndexOf('/') + 1)}/> : null}
                         <Carousel.Caption>
                             <div>
-                                {item.title.map((title, idx) => <h1 className="animated fadeInUpShort" key={idx}>{title}</h1>)}
-                                <div className="">
+                                {/* {item.title.map((title, idx) => <h1 className="animated fadeInUpShort" key={idx}>{title}</h1>)} */}
+                                {item.title.map((title, idx) => <h1 className=" " key={idx}>{title}</h1>)}
+                                <div className=" ">
                                     {item.content !== undefined ? item.content.map((content, i) => <p key={i} dangerouslySetInnerHTML={{__html: content}}/>) : null}
                                 </div>
                                 {item.button !== undefined ? 
-                                    <a href={item.button.action} className="crose-btn animated fadeInUpShort">{item.button.title}</a> : null}
+                                    // <a href={item.button.action} className="crose-btn animated fadeInUpShort">{item.button.title}</a> : null}
+                                    <a href={item.button.action} className=" ">{item.button.title}</a> : null}
                             </div>
                         </Carousel.Caption>
                 </Carousel.Item>
