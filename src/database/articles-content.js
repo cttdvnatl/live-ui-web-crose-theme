@@ -23,6 +23,178 @@ const articleContent =
 [
         {
             "Section": "Các Bài Viết",
+            "date": "2022-02-13",
+            "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
+            "title": "LỄ ĐỨC MẸ LỘ ĐỨC – NGÀY QUỐC TẾ BỆNH NHÂN",
+            "body":
+                `
+        Khắp nơi trên thế giới, hầu như ở châu lục nào cũng có những nơi đánh dấu sự viếng thăm, hiện ra của Đức Mẹ. Dù hiện ra ở đâu, Đức Mẹ cũng nhắn nhủ con cái loài người thay đổi đời sống, lần hạt Mân côi, đền tạ Trái Tim và làm việc lành phúc đức. Bất cứ nơi nào dấu chân Đức Mẹ bước đến cũng mang lại những ơn thiêng phần hồn, phần xác cho những ai kêu xin, dù họ là người Kitô hữu hay cả những người chưa mang danh Kitô hữu.
+
+Cùng Phụng vụ Giáo Hội, chúng ta nhớ ngày Đức Mẹ hiện ra tại Lộ Đức (Lourdes) với Bernadette vào ngày thứ Năm sau Lễ Tro, 11 tháng 02 năm 1858. Bernadette được hân hạnh gặp Đức Mẹ 18 lần từ ngay 11 tháng 2 đến ngày 16 tháng 7 năm 1858. Mỗi lần hiện ra, Đức Mẹ đều khuyên Bernadette hãy siêng năng lần hạt và làm việc đền tội thay cho các người tội lỗi, yếu đuối. Đức Mẹ còn yêu cầu người ta hãy xây cất cho Ngài một ngôi thánh đướng ở Lộ Đức để dâng kính Mẹ. Dù Bernadette được nhìn thấy Đức Mẹ nhiều lần, nhưng các trẻ em khác thì không được diễm phúc nhìn thấy Đức Mẹ. Ngày 1 tháng 3 năm 1858, một phụ nữ đang mang thai nhúng cánh tay bại liệt của bà vào dòng nước mà Bernadette đào theo nghe lời Đức Mẹ chỉ, bà đã được chữa lành một cách vô cùng kỳ lạ. Tin đồn này lan truyền khắp nơi. Người ta tuôn đến Lộ Đức càng ngày càng đông.
+
+Với những phép lạ kỳ diệu của Đức Mẹ, Bernadette đã trình với Cha sở Lộ Đức về những lần Đức Mẹ hiện ra với em tại hang đá Lộ Đức. Cha sở lúc đó đã xin Bernadette hỏi tên Người là gì. Ngày 25 tháng 3 năm 1858, Đức Mẹ hiện ra với Bernadette và em đã hỏi Đức Mẹ, Đức Trinh Nữ Maria đã mạc khải: “Ta là Đấng Vô Nhiễm Nguyên Tội” . Cha Sở đã tin vào việc Đức Mẹ hiện ra với Bernadette tại Lộ Đức. Lộ Đức từ đó đã trở thành nơi hành hương cho toàn thể thế giới. Một ngôi thánh đường nguy nga đã được xây cất để dâng kính Đức Mẹ theo lời yêu cầu của Mẹ Maria Vô Nhiễm.
+
+Đức Thánh Cha Gioan Phaolô II, năm 1992 đã khởi xướng ngày Quốc Tế cầu nguyện cho Bệnh Nhân hàng năm vào lễ Đức Mẹ Lộ Đức (11 tháng 2) đã xác định: “Ngày Quốc Tế Bệnh Nhân là cơ hội để tái khám phá mối “quan hệ sâu sắc” giữa Đức Mẹ và những người đau yếu.” Theo Đức Thánh Cha: “Sự Vô Nhiễm Nguyên Tội của Đức Mẹ là quả đầu mùa của ơn cứu chuộc được hoàn tất bởi Đức Kitô và lời hứa chiến thắng tội lỗi của Ngài. Nguồn suối phun lên từ lòng đất, mà Đức Mẹ đã mời Bernadette uống, mang đến sức mạnh của Thần Khí Chúa Kitô, là điều chữa lành con người hoàn toàn và mang đến cho con người sự sống muôn đời.”
+
+Hôm nay, Giáo Xứ chúng ta đã tổ chức thánh lễ lúc 11:00am để cầu nguyện cho các thành viên cao niên và đau bệnh trong Giáo Xứ. Có những người đau lâu, ốm dài, bại liệt nhưng được người thân trong gia đình chuẩn bị chu đáo để cùng tham dự thánh lễ ở nhà thờ. Trong thánh lễ, sau phần chia sẻ Lời Chúa, Cha Xứ và quý cha đồng tế đã xức dầu bệnh nhân để nhờ cái chết và sự Phục Sinh của Đức Kitô, xin cho ơn thánh và dầu thánh nâng đỡ những người anh chị em đang đau yếu được ơn chữa lành, và được sức mạnh của Chúa nâng đỡ trong những lúc đau ốm thử thách, nghi nan được nên vững mạnh và thông phần vào sự đau khổ và cuộc thương khó của Đức Kitô, để thánh hóa những đau khổ thể xác, và để cầu nguyện cho những người khác.
+
+Dù là thánh lễ ngày thường và trái giờ, nhưng nhà thờ hầu như cũng đông kín. Cám ơn Ban Bác Ái Xã Hội và quý Anh Chị trong Ban đã tổ chức chu đáo cho thánh lễ, cũng như những phần quà nhỏ bé cho các thành viên cao niên, đau bệnh trong Giáo Xứ. Ban Bác Ái Xã Hội đã gửi những phần quà cho những người tham dự thánh lễ và cả cho những ai đau yếu, cao tuổi ở nhà không thể đến nhà thờ tham dự thánh lễ được. Cám ơn ca đoàn Phêrô hy sinh để chuẩn bị tập hát, vừa hát lễ 8:00am của Giáo Xứ và lễ 11:00am cho bệnh nhân. Xin Thiên Chúa, qua Đức Mẹ Lộ Đức ban ơn chữa lành trên những thành viên cao niên và đau bệnh trong Giáo Xứ, ban ơn cho những người đang chăm sóc những người đau bệnh, cũng như trả công cho tất cả những ai đã hy sinh thời gian, công sức giúp cho thánh lễ cầu cho bệnh nhân hôm nay được tốt đẹp.
+
+Hiệp nhất trong an bình của Đức Kitô,
+Lm. G.B Pham Nguyễn Tuấn Anh
+
+        `
+        },
+        {
+            "Section": "Các Bài Viết",
+            "date": "2022-01-30",
+            "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
+            "title": "THỪA TÁC VỤ ĐỌC SÁCH VÀ GIÚP LỄ",
+            "body":
+                `
+        Thứ Tư ngày 26 tháng 01 vừa qua, lúc 7g00 chiều tại Thánh đường giáo xứ chúng ta, Đức TGM Gregory Hartmayer đã phong nhậm thừa tác vụ Đọc Sách và Giúp Lễ cho 15 ứng viên trong chương trình Thầy Sáu Vĩnh Viễn của TGP Atlanta, trong đó có hai anh Phillip Trần Xuân Phúc và Đaminh Vũ Ngọc Thăng. Trong tâm tình vui mừng tạ ơn, tôi xin chia sẻ ít tâm tình về sự kiện này.
+
+Giáo Hội qua Hiến Chế Phụng Vụ Thánh, số 7 của Công Đồng Vaticanô II dạy về sự hiện diện thực sự của Đức Kitô trong các hoạt động Phụng Vụ: Trong Hy Lễ, trong con người của thừa tác viên, trong sự tụ họp của giáo dân, trong lời của Ngài, và nhất là hiện diện thực sự dưới hai hình thái Thánh Thể. Vì thế, Phụng Vụ đáng được xem là việc thực thi chức vụ tư tế của chính Chúa Giêsu Kitô, trong đó công cuộc thánh hóa con người được biểu tượng nhờ những dấu chỉ khả giác và được thể hiện hữu hiệu cách khác nhau theo từng dấu chỉ, và trong đó việc phụng tự công cộng vẹn toàn cũng được thực thi nhờ Nhiệm Thể Chúa Kitô, nghĩa là gồm cả Ðầu cùng các chi thể của Người. Do đó, vì là công việc của Chúa Kitô tư tế và Thân Thể của Người là Giáo Hội, nên mọi việc cử hành phụng vụ đều là hành vi chí thánh, và không một hành vi nào khác của Giáo Hội có hiệu lực bằng, xét cả về danh hiệu lẫn đẳng cấp.
+
+Khi đề cập về thừa tác vụ trong Giáo Hội, người ta thường nghĩ tới các Thầy Phó Tế, Linh Mục và các vị Giám Mục. Vâng những vị này được định rõ là những thừa tác viên chức thánh (Ordained Minister), và được thiết lập trên bí tích truyền chức thánh. Đồng thời vì lợi ích cho cộng đoàn, Giáo Hội còn có các Thừa Tác Vụ Thiết Lập (Instituted Minister) như là Thừa tác vụ Đọc sách (Lector) và Thừa tác vụ Giúp lễ (Acolyte). Những tín hữu này được sự ủy nhiệm chính thức từ Hội Thánh qua nghi thức phong nhậm để trở thành sự biểu hiện rõ ràng và ổn định cho sứ mệnh của Giáo Hội. Như vậy ta thấy rằng sự khác biệt của Thừa Tác Vụ Thiết Lập với sự ủy nhiệm có thời hạn của Các Thừa tác viên ngoại thường Trao Mình Thánh Chúa và Công Bố Lời Chúa.
+
+Vậy bổn phận của hai Thừa tác vụ Đọc Sách Thánh (Lời Chúa) và Giúp Lễ này là gì?
+Về thừa tác vụ đọc Sách Thánh, thừa tác viên đọc sách thiết lập có bổn phận đọc những bài đọc thứ nhất và thứ hai, thánh vịnh, và Lời Cầu Nguyện Chung  trong cử hành phụng vụ, nhất là khi cử hành Thánh Thể. Tuy vậy, thừa tác viên đọc sách có thể dung hòa các yêu cầu của việc thi hành chức vụ của mình với việc phục vụ cộng đoàn thông qua việc chuẩn bị cho những người đọc sách khác. Khi vắng thầy phó tế thừa tác viên đọc sách có thể kiệu sách Tin Mừng trong đoàn rước khởi đầu vào Thánh Lễ.
+
+Về Thừa Tác Vụ Giúp Lễ, bổn phận của TTV Giúp Lễ là phục vụ bàn thờ, giúp vị Tư Tế và Thầy Phó Tế trong suốt việc cử hành Thánh Thể. Thầy có thể dương cao Thánh Giá trong đoàn rước khởi đầu Thánh Lễ. Bổn phận của thầy là đem sách cho vị chủ tế và cho thầy phó tế. Thầy cần lưu tâm và chăm sóc bàn tiệc thánh, bình rượu, bình nước, các khăn thánh, và thực hiện sứ vụ trao Mình Thánh Chúa ngoại thường. Thừa tác viên giúp lễ cần chu toàn bổn phận nữa là để ý giúp các tín hữu khác chuẩn bị phục vụ bàn thờ cho tốt đẹp. Khi Đức Giám Mục chủ sự các nghi lễ phụng vụ,  hai thầy thừa tác viên giúp lễ cầm Mũ (Mitre) và Gậy (Crozier) giúp Giám Mục.
+
+Chúng ta vui mừng tạ ơn Thiên Chúa và Giáo Hội đã phong nhậm các Thừa tác viên Đọc Sách và Giúp Lễ trong TGP Atlanta, nhất là hai thầy trong giáo xứ chúng ta. Cám ơn gia đình Thầy Philip Phúc và Đa Minh Thăng và toàn thể giáo xứ đã hi sinh, cầu nguyện, và hỗ trợ hai thầy trong ơn gọi phục vụ.
+
+Giáo xứ chung lời chúc mừng và cầu nguyện cho các thầy được nhiều ơn Chúa, tiếp tục tiến bước trong sứ vụ phục vụ của ơn gọi Thầy Sáu Vĩnh Viễn (Permanent Deacon).
+
+Thân mến
+Lm. Fx. Trần Quốc Tuấn
+
+        `
+        },
+        {
+            "Section": "Các Bài Viết",
+            "date": "2022-01-23",
+            "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
+            "title": "TUẦN LỄ CẦU NGUYỆN CHO HIỆP NHẤT KITÔ HỮU 2022",
+            "body":
+                `
+        Chúng ta đang trong tuần lễ cầu nguyện cho sự Hiệp Nhất Giữa các Kitô Hữu. Tuần cầu nguyện cho sự hiệp nhất của  các Kitô hữu được khởi xướng bởi một sáng kiến đại kết của Giáo Hội Anh Giáo và được Giáo Hội Công Giáo chính thức thực hành trong cả Giáo Hội dưới thời Đức Lê-ô XIII (1894).  Cụ thể, hằng năm, từ ngày 18 cho đến 25 tháng 01 toàn thể giáo hội cầu nguyện cho sự hiệp nhất giữa những người tin vào Đức Giêsu Kitô.
+
+Về chủ đề, mỗi năm một chủ đề được chọn dựa trên nền tảng Kinh Thánh để mời gọi tất cả những người tin vào Chúa Kitô cùng suy niệm và hiệp nhất trong tinh thần cầu nguyện. Năm nay, Tuần Cầu Nguyện cho sự Hiệp nhất Kitô hữu năm nay, có chủ đề “Chúng tôi đã thấy ngôi sao của Người xuất hiện ở phương Đông và chúng tôi đã đến thờ lạy Người” (Mt 2,2). Chủ đề này được Hội đồng các Giáo hội Trung Đông chọn để nhắc nhớ kinh nghiệm của các Đạo sĩ, qua đó, các cộng đoàn được mời gọi suy tư, cầu nguyện và thực thi những khía cạnh cụ thể mà chủ đề chung nhắm đến.
+
+Về hình thức, những người thuộc về Kitô giáo bao gồm bao gồm ba nhánh chính:  Công giáo Roma (khoảng 1,2 tỉ), Chính Thống giáo Đông phương (khoảng 216 triệu người) và Tin Lành (Protestantism) (khoảng 510 triệu người), Anh Giáo (Anglican) (khoảng 84 triệu) cộng thêm khoảng 180 triệu những người thuộc các phái nhỏ như: Chứng nhân Jehova, Cơ Đốc Phục Lâm, Mormon…
+
+Về nhận thức, chúng ta cần xác định rõ nét nền tảng những gì liên kết chúng ta là: Kinh Thánh và các Bản Tuyên Xưng Đức Tin của các Công đồng chung đầu tiên. Đây chính là dây liên kết để các tín hữu Kitô có thể nhìn nhận nhau là anh chị em trong cùng niềm tin nơi Chúa Giêsu Kitô là Chúa, là Đấng Cứu Độ duy nhất và là Đấng muốn hiệp nhất tất cả chúng ta. Đồng thời, ta cũng cần lưu ý và tránh mấy điểm sau:
+(a) Không chú tâm đủ vào nhận thức “hồng ân đến từ trên cao chứ không chỉ là kết quả của con người và Giáo Hội.”
+(b) Hiệp Nhất không phải chỉ là đồng nhất, nghĩa là gạt bỏ những truyền thống khác nhau về thần học, phụng vụ, linh đạo và giáo luật của nhau khi chúng ta đến với nhau như anh em để cầu nguyện, cộng tác với nhau trong việc loan báo Tin Mừng và phục vụ những người rốt cùng.
+(c) Loại bỏ nhau hay là gộp nhau lại, nghĩa là sự ép buộc cho bên nào đó phải chối bỏ lịch sử đức tin của mình, và sự hiệp nhất này cũng không chấp nhận sự chiêu dụ tín đồ của nhau, vì hành động này sẽ giết chết hành trình đại kết.
+
+Cụ thể, chúng ta sẽ làm gì trong Tuần Lễ Cầu Nguyện Cho Sự Hiệp Nhất Kitô Hữu này?
+
+Trước hết, ta phải thực hành tinh thần hiệp nhất trong cầu nguyện vì chính Chúa Giêsu đã cầu xin với Chúa Cha cho chúng ta: “Để chúng nên một như Ta” (Ga 17:11). Vậy, gia đình chúng ta hãy sắp xếp để cầu nguyện với nhau cách đặc biệt trong tuần lễ này, nhất là với Kinh Lạy Cha. Lời kinh do chính Đức Kitô dạy này rất cao trọng và chính là lời mời gọi tất cả các Kitô hữu trên toàn thế giới cùng cầu nguyện và cùng nhau sống công chính, hòa bình và hiệp nhất để nước Chúa trị đến.
+
+Kế đến chúng ta cũng tìm hiểu và học hỏi để hiểu và tôn trọng những khác biệt truyền thống văn hoá và tôn giáo của nhau để làm phong phú cho nhau trong đời sống đức tin của mình.
+
+Sau nữa, thực hiện tâm tình mà ĐTC Phanxicô ngày 16/01/2022 khi đề cập đến Tuần Cầu Nguyện này là tất cả mọi người dâng hiến những đấu tranh và khổ đau để ủng hộ sự hiệp nhất của các Kitô hữu.
+
+Nguyện xin Thiên Chúa chúc lành và nối kết chúng ta nên một trong tinh thần cầu nguyện, giúp nhau trong việc loan báo Tin Mừng, và thành chứng nhân cho Đức Kitô.
+
+Thân mến
+Lm. Phanxicô Trần Quốc Tuấn
+
+        `
+        },
+        {
+            "Section": "Các Bài Viết",
+            "date": "2022-01-16",
+            "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
+            "title": "CHÚA NHẬT LỜI CHÚA",
+            "body":
+                `
+        Trong dịp lễ kính thánh Giêrônimô, vị thánh giáo phụ tiến sĩ Hội Thánh về Thánh Kinh nhằm ngày 30/9/2019,  ĐTC Phanxicô đã thiết lập Chúa Nhật Lời Chúa hằng năm, vào mỗi Chúa Nhật III Thường Niên, qua Tông sắc "Aperuit Illis - Người đã mở tâm trí của các vị”.  Chúng ta cùng hướng đến và tìm hiểu thêm về Ngày Chúa Nhật Lời Chúa này.
+
+Trước tiên, mục đích của ĐTC Phanxicô khi thiết lập ngày lễ này là nhằm khuyến khích tất cả người Công giáo quan tâm đến việc hiểu biết Kinh Thánh và vai trò trung tâm của Kinh Thánh trong đời sống của Giáo hội và đức tin Ki-tô giáo. Thực vậy, mục đích này được biểu hiện trong Tông Thư qua câu sau: “Nếu không có Thánh Kinh, thì các biến cố về sứ vụ của Chúa Giêsu cũng như của Giáo Hội Người trên thế gian này vẫn bất khả thấu.” Bởi thế, Thánh Giêrônimô đã dạy rằng: Không biết Thánh Kinh là không biết Chúa Kitô.  Thực vậy, trong ánh sáng của Chúa Nhật Lời Chúa, Thông tư này muốn giúp khơi gợi lại ý thức về tầm quan trọng của Thánh Kinh đối với đời sống của các tín hữu, khởi đi từ âm vang của Lời Chúa trong phụng vụ, đưa chúng ta vào cuộc đối thoại sống động và liên lỉ với Thiên Chúa. “Lời Chúa khi được lắng nghe và cử hành, đặc biệt trong bí tích Thánh Thể, sẽ nuôi dưỡng và kiện cường tâm hồn các Kitô hữu, giúp họ cống hiến một chứng tá đích thực cho Tin Mừng trong cuộc sống hằng ngày” (Evangelii Gaudium, 174).
+
+Kế đến, Chủ đề của ngày Chúa Nhật Lời Chúa năm 2022 được trích từ Phúc âm của thánh Luca là “Phúc cho những ai nghe lời Thiên Chúa” (Lc 11:28). Đoạn Kinh Thánh này trình bày Mẹ Maria chính là khuôn mẫu cho ta trong việc lắng nghe, suy niệm, và đem Lời Chúa ra thực hành. Thực vậy, ta có thể nhận thấy rõ qua Tin mừng rằng: trước mọi biến cố xảy đến, Đức Mẹ đều coi là thánh ý Thiên Chúa nên Mẹ ghi nhớ và suy đi nghĩ lại trong lòng để xin vâng thánh ý Chúa. ĐTC Phanxico muốn mời gọi chúng ta bắt chước Đức Maria là Mẹ chúng ta trong việc trân quý và sống Lời Chúa.
+
+Sau cùng, Chúa Nhật Lời Chúa nhắc nhớ chúng ta điều này: Mục tiêu hàng đầu của đời sống tín hữu là biết lắng nghe và giữ Lời Thiên Chúa, là đem Lời Chúa ra thực hành hằng ngày. Câu hỏi được đặt ra cho ta là: Chúng ta có thói quen đọc Lời Chúa trong gia đình không? Có lẽ, chúng ta đã nghe và nghe Lời Chúa khá nhiều, ít là hằng tuần tại Nhà Thờ, nhưng ta đã cảm nghiệm và thực hành lời Chúa thế nào?
+
+Chúa Nhật Lời Chúa giúp chúng ta khám phá ra rằng: qua việc cử hành phụng vụ Lời Chúa chúng ta có thể cảm nghiệm được tính chất vừa ngọt ngào vừa cay đắng của Lời Chúa như tiên tri Ezekiel khi tuân theo lệnh của Chúa mà ăn cuộn sách thì ngài cảm nghiệm rằng: "Miệng của tôi thì ngọt ngào như mật ong" (Gr 3:3) và thánh Gioan Tông Đồ cũng cảm nhận: "Miệng tôi thì ngọt ngào như mật ong, nhưng khi tôi ăn vào rồi thì dạ dày của tôi cảm thấy đắng cay" (Kh 10:10). Do đó, tính chất ngọt ngào của Lời Chúa khiến chúng ta muốn chia sẻ lời Chúa với tất cả những ai chúng ta gặp gỡ trên đời này và muốn loan báo niềm hy vọng vững chắc được chất chứa nơi Lời Chúa (1Pr 3:15-16). Đồng thời, tính chất đắng cay của Lời Chúa giúp chúng ta nhận thức rằng thật là khó khăn để trung thành sống Lời Chúa khi thấy Lời Chúa bị loại trừ và một thách đố rất lớn cho ta khi nghe Lời Chúa rồi sẽ cần thực hành thương xót với anh chị em mình.
+
+Để kết thúc, tôi muốn mượn lời ĐTC Phanxicô dạy rằng: “Ngày dành riêng cho Sách Thánh muốn không chỉ là “một năm một lần”, nhưng là một biến cố cho suốt cả năm, vì chúng ta cần phải trở nên quen thuộc và thân mật với Thánh Kinh và với Chúa Kitô Phục Sinh, Đấng không ngừng bẻ Lời và Bánh trong cộng đoàn các tín hữu. Vì thế, chúng ta phải luôn tin tưởng vào Thánh Kinh, nếu không thì trái tim vẫn còn lạnh và đôi mắt vẫn còn đóng kín, như dấu hiệu của nhiều dạng thức mù lòa.”
+
+Nguyện xin Chúa Thánh Thần tiếp tục mở lòng chúng ta đón nhận, suy niệm và đem ra thực hành Lời Chúa như Mẹ Maria trong cuộc sống hằng ngày của chúng ta.
+
+Thân mến
+Lm. Phanxicô Trần Quốc Tuấn
+
+        `
+        },
+        {
+            "Section": "Các Bài Viết",
+            "date": "2022-01-09",
+            "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
+            "title": "CHƯƠNG TRÌNH MỤC VỤ 2022",
+            "body":
+        `
+        Chúng ta vừa đón mừng Năm Mới Dương Lịch 2022. Tuy vậy,  theo lịch của Giáo Hội, Năm Mới Phụng Vụ đã bắt đầu với Chúa Nhật I mùa Vọng (khoảng đầu tháng 12 của năm trước) và kết thúc bằng lễ Chúa Kitô Vua (cuối tháng 11).
+
+Bên cạnh những nghi lễ phụng vụ, giáo xứ chúng ta còn có rất nhiều sinh hoạt mục vụ. Do đó, tôi xin dựa vào Lịch Phụng Vụ để giúp chúng ta có cái nhìn tổng quát những Sinh Hoạt Mục Vụ của Giáo Xứ chúng ta trong năm 2022 này.
+
+1)      Mùa Vọng: bắt đầu từ Chúa Nhật I Mùa vọng đến chiều ngày 24/12. Trong thời gian 3 tuần lễ này, Giáo Hội giúp chúng ta hướng lòng về ngày Chúa Kitô sẽ lại đến trong vinh quang để xét xử thế giới và con người. Còn từ ngày 17/12 trở đi, chúng ta được chuẩn bị tâm hồn và đời sống để mừng mầu nhiệm Chúa Giáng Sinh.  Trong suốt Mùa Vọng, Giáo Xứ đã nhắc nhớ và kêu gọi các gia đình tham gia tổ chức Lễ Hội Giáng Sinh bằng cách chung tay trang trí khuôn viên thánh đường bằng ánh đèn Noel và thực hiện các hang đá máng cỏ với các mục đích sau: các gia đình và các Ban, Ngành, Đoàn Hội có cơ hội để cầu nguyện, sinh hoạt, và thực hiện hang đá với nhau. Hang đá thiêng liêng và hang đá thể lý để từng người, mỗi gia đình, và các Ban Ngành đón Chúa giáng sinh.
+
+2) Mùa Giáng Sinh: bắt đầu từ chiều ngày 24/12 đến hết lễ Chúa Giêsu Chịu Phép Rửa để mừng kính mầu nhiệm Nhập Thể, Con Thiên Chúa làm người. Trong mùa này, Giáo Xứ muốn dùng ánh đèn Noel nhấp nháy vui mắt cùng những sắc thái hang đá máng cỏ khác nhau để giới thiệu Sứ điệp Giáng Sinh đến từng gia đình và những quan khách. Mong rằng các gia đình mang các con em đến để các thành viên có thể chiêm ngắm máng cỏ và thấu hiểu sứ điệp Giáng Sinh: Emmanuel – Thiên Chúa ở cùng chúng ta.
+
+3) Mùa Thường Niên: Ngay sau Lễ Chúa Chịu Phép Rửa cho đến Thứ Tư Lễ Tro là Mùa Thường Niên I. Trong Mùa này, chúng ta cùng suy niệm những biến cố của Chúa Giêsu trong đời công khai rao giảng. Về Mục Vụ, Giáo Xứ tổ chức mừng Tết Nguyên Đán. Đức Tổng Giám Mục Gregory Hartmayer sẽ dâng thánh lễ Ngày Mùng 1 Tết vào lúc 8g00 chiều tối. Sẽ có nghi thức Bái Niên Chúa, Hái Lộc Lời Chúa,và Mừng Tuổi cho các cháu nhi đồng (dưới 15 tuổi). Bên cạnh đó, Giáo Xứ cũng cố gắng giữ truyền thống ‘Gói Bánh Chưng’ để phục vụ các gia đình trong dịp Tết.
+
+4) Trong Mùa Chay: kéo dài 40 ngày và bắt đầu từ Thứ Tư Lễ Tro cho đến Lễ Vọng Phục Sinh. Đây là mùa thống hối, trở về với Chúa để sửa soạn tâm hồn đón mừng lễ Phục Sinh và cũng là mùa chuẩn bị trực tiếp cho các dự tòng lãnh nhận các bí tích khai tâm Kitô giáo trong đêm Vọng Phục Sinh. Trong Mùa Chay, giáo xứ cũng giúp các thành viên chuẩn bị tâm hồn qua Tuần Tĩnh Tâm và Hòa Giải. Đặc biệt là chuẩn bị tâm hồn cho những anh chị em trong chương trình Giáo Lý Dự Tòng sẵn sàng lãnh nhận các bí tích Khai Tâm vào đêm Vọng Phục Sinh. Giáo Xứ cũng chuẩn bị mọi người qua việc cử hành phụng vụ Thứ Năm Tuần Thánh và Tam Nhật Vượt Qua là ngày Thứ Thứ Sáu, Thứ Bảy và Chúa Nhật Phục Sinh.
+
+5) Trong Mùa Phục Sinh: Mùa Phục sinh kéo dài 50 ngày, bắt đầu từ Chúa Nhật Phục Sinh cho đến hết lễ Chúa Thánh Thần hiện xuống, thời gian này được cử hành trong niềm hân hoan phấn khởi, và được coi như một ngày lễ duy nhất, hơn nữa như một Đại Chúa Nhật. Trong thời gian này, Giáo xứ hướng tới niềm vui mừng Chúa Sống Lại Thật qua nghi thức phụng vụ long trọng, và giúp anh chị em Tân Tòng tiếp tục biến đổi và thăng tiến trong đời sống thiêng liêng cho đến khi chấm dứt Khóa Giáo Lý Dự Tòng vào lễ Chúa Thánh Thần Hiện Xuống. Sau đó, chương trình Giáo lý Tân Tòng sẽ tiếp tục đồng hành cùng anh chị em này sống đức tin trong thời gian 3 năm kế tiếp.
+
+6) Mùa Thường Niên II: Từ Lễ Chúa Thánh Thần Hiện Xuống cho đến Chúa Nhật 34 Thường niên. Trong Mùa này, Giáo xứ có những sinh hoạt nổi bật sau:
+•	Cuối tháng 5 là Lễ bế Giảng Chương Giáo Lý và Việt Ngữ.
+•	Đầu tháng 6 là Lễ Tạ ơn Mừng Ra trường các Tân Khoa Trung học và Đại Học cho các con em thuộc giáo xứ.
+•	Giữa tháng 7 là Tuần Lễ Khóa Kinh Thánh Mùa Hè cho các em thiếu nhi.
+•	Đầu tháng 9 là Lễ Hội mùa Thu vào cuối tuần Lễ Lao Động (Labor Day). Mục đích là để các gia đình có dịp sinh hoạt vui chơi và cũng để giới thiệu Giáo Xứ đến với các cộng đồng, cộng đoàn người Việt và người bản địa.
+
+Để thực hiện những việc trên, chắc chắn chúng ta phải có sự chúc lành của Thiên Chúa và sự hi sinh đóp góp và phục vụ của quý thành viên.
+
+Chúng ta cùng cảm tạ Thiên Chúa và cám ơn nhau với những gì mà Giáo Xứ chúng ta có ngày hôm nay. Nguyện xin Thiên Chúa chúc lành cho Giáo Xứ với những sinh hoạt mục vụ trong năm 2022 này.
+
+Thân mến
+Lm. Phanxicô Trần Quốc Tuấn
+
+        `
+        },
+        {
+            "Section": "Các Bài Viết",
+            "date": "2022-01-02",
+            "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
+            "title": "Chúc Mừng Năm Mới 2022",
+            "body":
+        `
+        Chúng ta đang hân hoan bước vào Năm Mới 2022!
+Niềm hạnh phúc, sự bình an, và ơn lành của Thiên Chúa vẫn tiếp tục tuôn đổ trên chúng ta. Trong bầu khí tưng bừng và hạnh phúc này, tôi xin gửi đến quý thành viên lời Chúc Mừng Năm Mới và gửi đến quý vị mấy tâm tình để giúp chúng ta định hướng sinh hoạt trong năm mới này:
+
+Trước tiên, chúng ta cùng cảm tạ Thiên Chúa và cám ơn nhau vì năm cũ đã qua để chúng ta hân hoan bước vào Đầu Năm Dương Lịch 2022. Ngày đầu của Năm Mới được ghi dấu bằng Lễ kính Đức Mẹ là Mẹ Thiên Chúa và cũng là Ngày Hòa Bình Thế Giới. Trong dịp này ĐTC Phanxicô cũng gửi đến các giáo hữu Sứ Điệp Ngày Hòa Bình Thế Giới lần thứ 55. Trong đó ĐTC Phanxicô chỉ ra ba con đường để xây dựng một nền hòa bình lâu dài: đối thoại giữa các thế hệ, giáo dục và việc làm. Thứ nhất, đối thoại giữa các thế hệ như là nền tảng cho việc hiện thực hóa các dự án chung. Thứ hai, giáo dục, như một yếu tố của tự do, trách nhiệm và phát triển. Cuối cùng, việc làm, như một phương tiện để nhận thức đầy đủ phẩm giá của con người. Đây là ba yếu tố không thể thiếu để “có thể tạo ra một khế ước xã hội”, mà nếu thiếu nó mọi dự án hòa bình đều không bền vững.
+
+Sau nữa, tất cả chúng ta cùng hướng về sự chuẩn bị tích cực cho Thượng Hội Đồng Giám Mục vào năm tới. Thực vậy, ĐTC Phanxicô mong muốn “Thượng Hội Đồng cho chúng ta cơ hội để trở thành một Hội Thánh biết lắng nghe, thoát ra khỏi thói quen và tạm dừng các mối quan tâm mục vụ của chúng ta để dừng lại và lắng nghe. Để lắng nghe Thánh Thần trong sự tôn thờ và cầu nguyện”. Cụ thể Giáo Hội muốn lắng nghe, đón nhận những ý kiến đóng góp của con cái, nhất là tiếng nói của những người ít lên tiếng, những thành phần thuộc về ngoại vi, những thành viên đã bị tổn thương bởi những sự việc đáng tiếc hoặc không xứng hợp của những thành phần lãnh đạo trong Giáo Hội. Qua đó, Giáo Hội mở cho mình một hướng đi để trở thành “Một Hội Thánh không xa cách với cuộc sống, nhưng dìm mình trong các vấn đề và nhu cầu của ngày nay, băng bó vết thương và chữa lành những trái tim tan vỡ bằng sự an ủi của Thiên Chúa. Chúng ta đừng quên phong cách của Thiên Chúa, phong cách này phải giúp chúng ta: gần gũi, thương xót và dịu dàng.” Chúng ta cùng cầu nguyện, vận động và tham dự các chương trình Giáo Hội Hiệp Hành mà Giáo Hội, Giáo Phận, và Giáo Xứ đề ra.
+
+Sau cùng, thường vào dịp đầu Năm Mới chúng ta có thói quen tốt lành là tự hứa thay đổi cho Năm Mới (New Year Resolution).  Mục đích của việc này là cho chúng ta có một tâm hồn mới chứ không phải chỉ là cho chúng ta có một năm mới. Vậy ta xin sự hướng dẫn của Chúa Thánh Thần, qua ánh sáng Lời Chúa để chính mình và gia đình mình tìm ra và thực hành quyết định đổi mới trong những lãnh vực sau:
+a). Thăng tiến đời sống thiêng liêng của chính mình để hãy gắn bó hơn với Thiên Chúa qua việc siêng năng hơn để cầu nguyện, học hỏi, cử hành bí tích.
+b). Thăng tiến gia đình như: Dành cho nhau thời gian bao nhiêu phút mỗi ngày hoặc mỗi tuần để quan tâm, chia xẻ và sinh hoạt với nhau hằng ngày.
+c). Thăng tiến cộng đoàn và xã hội bằng những nụ cười, sự khích lệ, và chung tay xây dựng Chương trình, cộng đoàn, giáo xứ, và xã hội.
+
+Nguyện xin Thiên Chúa, qua sự chuyển cầu của Đức Maria, Mẹ Thiên Chúa, chúc lành cho từng thành viên, mỗi Gia Đình, và Giáo Xứ tràn đầy: Bình An, Ơn Lành, và Hạnh Phúc trong Năm Mới 2022 này.
+
+Mến chúc,
+Lm. Phanxicô Trần Quốc Tuấn
+
+        `
+        },
+        {
+            "Section": "Các Bài Viết",
             "date": "2021-11-28",
             "image": "https://hvmatl.net/gallery/img/articles/article-logo.png",
             "title": "MARANATHA - CHÚA ƠI, XIN HÃY ĐẾN!",
