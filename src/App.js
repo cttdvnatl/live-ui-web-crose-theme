@@ -49,6 +49,11 @@ import StJosephClassesPage from './pages/StJosephClassesPage';
 import StJosephClassworkPage from './pages/StJosephClassworkPage';
 import VNSaints from './pages/VNSaints';
 import Upload from './pages/Upload';
+import FeedBackSignUpForm from './pages/FeedbackSignUpForm';
+
+//Error/Success Pages
+import FormSubmitSuccessPage from './pages/FormSubmitSuccessPage';
+import FormSubmitErrorPage from './pages/FormSubmitErrorPage';
 
 //Google Analytics
 ReactGA.initialize('UA-168016188-1', {
@@ -150,6 +155,9 @@ const App = (props) => {
             <Route path="/cookies" component={CookiePage}/>
             <Route path="/saint" component={VNSaints}/>
             <Route path="/upload" component={Upload}/>
+            <Route path="/feedback-signup" component={FeedBackSignUpForm}/>
+            <Route path="/form-success" component={FormSubmitSuccessPage}/>
+            <Route path="/form-error" component={FormSubmitErrorPage}/>
         </Router>
     )
 };
