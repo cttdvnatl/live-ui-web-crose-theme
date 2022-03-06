@@ -1,7 +1,7 @@
 import React, {useEffect, useState, useRef, useCallback} from 'react';
 import { setLanguage, getLanguage, useTranslation } from 'react-multi-lang';
-import EmergencyEvent from "./EmergencyNotice";
-import HcmtEvent from "./HcmtNotice";
+//import EmergencyEvent from "./EmergencyNotice";
+//import HcmtEvent from "./HcmtNotice";
 import BannerMsg from "./BannerMsg";
 import PopupModal from "./PopupModal";
 

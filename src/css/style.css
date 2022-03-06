@@ -11,6 +11,7 @@ Version: - v1.0.0
 /* :: 2.0 Import All CSS */
 /*@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css");*/
 @import url(classy-nav.css);
+@import url(FeedbackForm.css);
 @import url(animate.css);
 @import url(timeline.css);
 /* :: 3.0 Base CSS */
