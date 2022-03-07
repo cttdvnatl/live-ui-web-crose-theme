@@ -23,7 +23,7 @@ const FeedbackSignUpForm = () => {
         e.preventDefault();
         if (nameInput.current.value !== '' && emailInput !== '' && dateInput !== '' && captcha === true) {
             submit.current.remove();
-            emailjs.sendForm('service_p3ce1el', 'template_jbrsc2c', form.current, '-ZHFDCmDLZL4Veu0z')
+            emailjs.sendForm('service_wepjlbi', 'template_jbrsc2c', form.current, '-ZHFDCmDLZL4Veu0z')
               .then((result) => {
                   //console.log(result.text);
                   window.location.href = "/form-success";
@@ -64,7 +64,7 @@ const FeedbackSignUpForm = () => {
                         <h6>Người lớn:</h6>
                         <li onClick={() => setDate("Saturday, March 19, 9 am - 10:30 am")}>Thứ 7, Ngày 19, Tháng 3, 9 am - 10:30 am</li>
                         <li onClick={() => setDate("Monday, March 21, 7 pm - 8:30 pm")}>Thứ 2, Ngày 21, Tháng 3, 7 pm - 8:30 pm</li>
-                        <li onClick={() => setDate("Saturday, March 26. 9 am - 10:30 am")}>Thứ 7, Ngày 26, Tháng 3, Từ 9 am - 10:30 am</li>
+                        <li onClick={() => setDate("Saturday, March 26. 9 am - 10:30 am")}>Thứ 7, Ngày 26, Tháng 3, 9 am - 10:30 am</li>
                         <li onClick={() => setDate("Monday, March 28, 7 pm to 8:30 pm")}>Thứ 2, Ngày 28, Tháng 3, 7 pm - 8:30 pm</li>
                         <li onClick={() => setDate("Saturday, April 2, 9 am to 10:30 am")}>Thứ 7, Ngày 2, Tháng 4, 9 am - 10:30 am</li>
                         <li onClick={() => setDate("Monday, April 4, 7 pm to 8:30 pm")}>Thứ 2, Ngày 4, Tháng 4, 7 pm - 8:30 pm</li>
