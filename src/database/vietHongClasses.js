@@ -9,7 +9,7 @@ const Classes = [
     {
         name: "mgb",
         class: "Mẫu Giáo B",
-        teachers: "Cô Đặng Hiền, Cô Lâm Amy, Cô Trần Huyền",
+        teachers: "Cô Đặng Hiền, Thầy Nguyễn Thanh Sơn",
         emails: "",
         classwork: "https://docs.google.com/document/d/e/2PACX-1vSmbzolKGSy-E7YzX68TPr1xzZVH2XzI1DlWvkXYsjQbZO3a2wD-p-kO16Mm_Y3e6vfuwLgDW4vwBnk/pub?embedded=true"
     },
@@ -23,7 +23,7 @@ const Classes = [
     {
         name: "vlb",
         class: "Vỡ Lòng B",
-        teachers: "Thầy Trần Khắc Vinh, Cô Võ Ngọc Trâm, ",
+        teachers: "Thầy Trần Khắc Vinh, Cô Võ Ngọc Trâm",
         emails: "",
         classwork: "https://docs.google.com/document/d/e/2PACX-1vRqCicokmDNzw1uBgBlr3pjHt-093law2fs8biDPe7bh6dNp2DNmaw0gqIxUdGAu8lLNhzHGxqxzjq_/pub?embedded=true"
     },
