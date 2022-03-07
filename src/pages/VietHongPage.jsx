@@ -12,14 +12,13 @@ const VietHong = () => {
             <Header/>
             <VietHongHeader/>
             <br/><br/><br/>
-            <h5 style={{ textAlign: "center" }}>{t('viethong.home.heading')}<br/>
+            <h5 style={{ textAlign: "center" }}>{t('viethong.home.heading')}<br/><br/>
                 {t('viethong.home.line1')} <br/>
-                {t('viethong.home.line2')} <br/><br/>
-                {t('viethong.home.line3')} <br/>                 
-                {t('viethong.home.line4')} <br/>
+                {t('viethong.home.line2')} <br/>
+                {t('viethong.home.line3')} <br/><br/>              
+                {t('viethong.home.line4')} <br/><br/>
                 {t('viethong.home.line5')} <br/><br/>
-                {t('viethong.home.line6')} <br/>
-                {t('viethong.home.line7')} 
+                {t('viethong.home.line6')}
                 <br/><br/>
                 </h5>              
                 <div className="container-fluid text-center">
