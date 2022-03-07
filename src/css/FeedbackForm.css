@@ -2,8 +2,8 @@
     padding: 30px;
     text-align: center;
     display: block;
-    width: 70%;
-    max-width: 600px;
+    width: 80%;
+    max-width: 700px;
     margin: auto;
     border-left: grey solid 1px;
     border-right: grey solid 1px;
@@ -72,8 +72,29 @@
     background-color: #e6e6e6
 }
 
+@media only screen and (min-width: 800px) {
+    .feedback-page .feedback-form-row-dates  {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .feedback-page .feedback-form-row-dates  {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.feedback-page .feedback-form-row .feedback-form-dates h6 {
+   padding-top: 20px;
+}
+
+
 .feedback-page .feedback-form-row .feedback-form-dates li {
     border: 1px solid grey;
+    padding: 5px;
+    cursor: pointer;
 }
 
 .feedback-page .feedback-form-row .feedback-form-dates li:hover {

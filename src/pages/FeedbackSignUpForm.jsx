@@ -59,7 +59,7 @@ const FeedbackSignUpForm = () => {
                 <div class="feedback-form-row">
                     <h5>Click on a date to attend:</h5>
                 </div>
-                <div class="feedback-form-row">
+                <div class="feedback-form-row feedback-form-row-dates">
                     <ul class="feedback-form-dates">
                         <h6>Người lớn:</h6>
                         <li onClick={() => setDate("Saturday, March 19, 9 am - 10:30 am")}>Thứ 7, Ngày 19, Tháng 3, 9 am - 10:30 am</li>
