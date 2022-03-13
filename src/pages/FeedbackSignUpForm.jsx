@@ -71,8 +71,7 @@ const FeedbackSignUpForm = () => {
                     </ul>
                     <ul class="feedback-form-dates">
                         <h6>Thiếu nhi:</h6>
-                        <li onClick={() => setDate("Saturday, March 19, 9 am - 10:30 am")}>Chủ Nhật, Ngày 20, Tháng 3, 2:30 pm - 4:30 pm</li>
-                        <li onClick={() => setDate("Monday, March 21, 7 pm - 8:30 pm")}>Chủ Nhật, Ngày 27, Tháng 3, 2:30 pm - 4:20 pm</li>
+                        <li onClick={() => setDate("Sunday, April 3, 12:30 am")}>Chủ Nhật, Ngày 3, Tháng 4, 12:30 pm</li>
                     </ul>
                 </div>
                 <div class="feedback-form-row">
