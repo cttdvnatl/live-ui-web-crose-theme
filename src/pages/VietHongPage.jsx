@@ -18,7 +18,10 @@ const VietHong = () => {
                 {t('viethong.home.line3')} <br/><br/>              
                 {t('viethong.home.line4')} <br/><br/>
                 {t('viethong.home.line5')} <br/><br/>
-                {t('viethong.home.line6')}
+                {t('viethong.home.line6')} <br/><br/>
+                {t('viethong.home.line7')} <br/><br/>
+                {t('viethong.home.line8')} <br/>
+                {t('viethong.home.line9')} 
                 <br/><br/>
                 </h5>              
                 <div className="container-fluid text-center">
