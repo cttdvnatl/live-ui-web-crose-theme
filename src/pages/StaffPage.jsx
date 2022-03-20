@@ -1,12 +1,12 @@
 import React from 'react';
-import Preloader from '../components/Preloader';
+//import Preloader from '../components/Preloader';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 //import staffcontent from '../database/staff-content';
 import hvmatlDataVN from '../database/hvmatlDataVN';
 import hvmatlDataEN from '../database/hvmatlDataEN';
 import DisplayVolunteer from '../components/DisplayVolunteer';
-import { useTranslation, getLanguage } from 'react-multi-lang';
+import { /*useTranslation,*/ getLanguage } from 'react-multi-lang';
 
 
 const Staff = () => {
@@ -20,7 +20,7 @@ const Staff = () => {
         Data = hvmatlDataEN.staff;
     }
 
-    const t = useTranslation()
+    //const t = useTranslation()
     return (
         <div>
             <Header />

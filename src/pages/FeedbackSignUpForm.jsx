@@ -15,8 +15,16 @@ const FeedbackSignUpForm = () => {
     const [captcha, setCaptcha] = useState(false);
 
     const setDate = (date) => {
-        dateInput.current.value = date;
-        console.log("sd")
+        if (dateInput.current.value === '') {
+            dateInput.current.value += date;
+        }
+        else {
+            dateInput.current.value += ', ' + date;
+        }
+    }
+
+    const clearDate = () => {
+        dateInput.current.value = ''
     }
 
     const sendEmail = (e) => {
@@ -57,7 +65,7 @@ const FeedbackSignUpForm = () => {
                     </div>
                 </div>
                 <div class="feedback-form-row">
-                    <h5>Click on a date to attend:</h5>
+                    <h5>Click on dates to attend:</h5>
                 </div>
                 <div class="feedback-form-row feedback-form-row-dates">
                     <ul class="feedback-form-dates">
@@ -75,8 +83,11 @@ const FeedbackSignUpForm = () => {
                     </ul>
                 </div>
                 <div class="feedback-form-row">
-                    <div class="feedback-form-input feedback-form-input-name">
-                        <input placeholder=" Date" ref={dateInput} type="text" name="user_date" />
+                    <span class="clear-date-button" onClick={() => clearDate()}>Clear Date(s)</span>
+                </div>
+                <div class="feedback-form-row">
+                    <div class="feedback-form-input feedback-form-input-date">
+                        <textarea cols="40" rows="5" placeholder=" Date(s)" ref={dateInput} type="text" name="user_date" />
                     </div>
                 </div>
                 <h4 ref={textErrorMessage} style={{padding: '10px', margin: 'auto', fontFamily: 'sans-serif', display: 'none', color: 'red'}}>Fill in ALL fields</h4>
