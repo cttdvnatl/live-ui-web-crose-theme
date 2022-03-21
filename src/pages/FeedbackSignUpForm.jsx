@@ -87,7 +87,7 @@ const FeedbackSignUpForm = () => {
                 </div>
                 <div class="feedback-form-row">
                     <div class="feedback-form-input feedback-form-input-date">
-                        <textarea cols="40" rows="5" placeholder=" Date(s)" ref={dateInput} type="text" name="user_date" />
+                        <textarea readOnly placeholder=" Date(s)" ref={dateInput} type="text" name="user_date" />
                     </div>
                 </div>
                 <h4 ref={textErrorMessage} style={{padding: '10px', margin: 'auto', fontFamily: 'sans-serif', display: 'none', color: 'red'}}>Fill in ALL fields</h4>
