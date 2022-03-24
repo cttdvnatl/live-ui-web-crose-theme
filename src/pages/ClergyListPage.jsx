@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 //import Data from '../database/Clergy.json';
 import hvmatlDataVN from '../database/hvmatlDataVN';
 import hvmatlDataEN from '../database/hvmatlDataEN';
-import { useTranslation, getLanguage } from 'react-multi-lang';
+import { /*useTranslation,*/ getLanguage } from 'react-multi-lang';
 
 
 
@@ -20,7 +20,7 @@ const ClergyListPage = () => {
         Data = hvmatlDataEN.clergyList;
     }
 
-    const t = useTranslation()
+    //const t = useTranslation()
     return (
         <div>
             <Header/> 

@@ -86,6 +86,11 @@
     }
 }
 
+.feedback-page .feedback-form-row .feedback-form-dates  {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .feedback-page .feedback-form-row .feedback-form-dates h6 {
    padding-top: 20px;
 }
@@ -103,4 +108,26 @@
 
 .feedback-page .feedback-form-row .feedback-form-dates li:active {
     background-color: #d6d6d6
+}
+
+.feedback-page .feedback-form-row .feedback-form-input-date textarea {
+    height: 200px;
+    font-size: 20px
+}
+
+.feedback-page .feedback-form-row .clear-date-button {
+    font-size: 20px;
+    margin: auto;
+    border: 1px gray solid;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.feedback-page .feedback-form-row .clear-date-button:hover {
+    background-color: #f6f6f6;
+}
+
+.feedback-page .feedback-form-row .clear-date-button:active {
+    background-color: #d6d6d6;
 }
