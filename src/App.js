@@ -49,7 +49,8 @@ import StJosephClassesPage from './pages/StJosephClassesPage';
 import StJosephClassworkPage from './pages/StJosephClassworkPage';
 import VNSaints from './pages/VNSaints';
 import Upload from './pages/Upload';
-import FeedBackSignUpForm from './pages/FeedbackSignUpForm';
+//import FeedBackSignUpForm from './pages/FeedbackSignUpForm';
+import FeedbackTextForm from './pages/FeedbackTextForm';
 
 //Error/Success Pages
 import FormSubmitSuccessPage from './pages/FormSubmitSuccessPage';
@@ -155,7 +156,8 @@ const App = (props) => {
             <Route path="/cookies" component={CookiePage}/>
             <Route path="/saint" component={VNSaints}/>
             <Route path="/upload" component={Upload}/>
-            <Route path="/feedback-signup" component={FeedBackSignUpForm}/>
+            {/*<Route path="/feedback-signup" component={FeedBackSignUpForm}/>*/}
+            <Route path="/feedback-signup" component={FeedbackTextForm}/>
             <Route path="/form-success" component={FormSubmitSuccessPage}/>
             <Route path="/form-error" component={FormSubmitErrorPage}/>
         </Router>
