@@ -93,7 +93,7 @@ const Info = (props) => {
                                 <h4>{t("info.item3.heading")}</h4>
                                 <div className="find-out-more-btn">
                                     <p className="text-center" style={{display : 'flex'}}>
-                                        <a href="https://www.facebook.com/pg/cttdvn/videos/?ref=page_internal" style={{fontSize:"30px", color:"#ffffff", backgroundColor: '#6666ff'}} className="crose-btn"><i className="fab fa-facebook-f"/></a>
+                                        <a href="https://www.facebook.com/pg/hvmatl/videos/?ref=page_internal" style={{fontSize:"30px", color:"#ffffff", backgroundColor: '#6666ff'}} className="crose-btn"><i className="fab fa-facebook-f"/></a>
                                         <a style={{fontSize:"30px", color:"#ffffff"}} href="https://www.youtube.com/c/HVMATL"  className="crose-btn"><i className="fab fa-youtube"/></a>
                                     </p>
                                 </div>
