@@ -25,7 +25,7 @@ const Footer = (prop) => {
                             <a href="/weeklyNews"><i style={{color: "#c92f2f"}} className="fas fa-newspaper" aria-hidden="true"/>{t("footer.widget1.item5")}</a>
                             <a href="https://www.tomathienatl.org"><i style={{color: "#c92f2f"}} className="fas fa-users" aria-hidden="true"/>{t("footer.widget1.item6")}</a>
                             <a href="departments.html?x=KGD"><i style={{color: "#c92f2f"}} className="fas fa-graduation-cap" aria-hidden="true"/>{t("footer.widget1.item7")}</a>
-                            <a href="https://fallfestivalatl.org/"><i style={{color: "#c92f2f"}} className="fas fa-holly-berry" aria-hidden="true"/>{t("footer.widget1.item8")}</a>
+                            <a href="https://fallfestival.hvmatl.org/"><i style={{color: "#c92f2f"}} className="fas fa-holly-berry" aria-hidden="true"/>{t("footer.widget1.item8")}</a>
                         </div>
                     </div>
                 </div>
@@ -57,7 +57,7 @@ const Footer = (prop) => {
                         {/* <!-- Footer Social Icon --> */}
                         <div className="col-12 col-md-6 col-sm-6">
                             <div className="footer-social-icon">
-                                <a href="https://www.facebook.com/cttdvn" aria-label="facebook"><i className="fab fa-facebook"/></a>
+                                <a href="https://www.facebook.com/hvmatl" aria-label="facebook"><i className="fab fa-facebook"/></a>
                                 <a href="https://twitter.com/thanhtudaovn" aria-label="twitter"><i className="fab fa-twitter"/></a>
                                 <a href="https://www.youtube.com/user/ThanhTuDaoVietNam" aria-label="youtube"><i className="fab fa-youtube"/></a>
                             </div>
