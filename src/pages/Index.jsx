@@ -13,7 +13,7 @@ const Index = () => {
     return(
         <div>
             <Preloader/>
-            <Header banner={true} bannerMsg={t("index.bannerMsg")} url="/feedback-signup"/>
+            <Header banner={false} bannerMsg={t("index.bannerMsg")} url="/feedback-signup"/>
             <CustomCarousel/>
             <Info/>
             <Event/>
