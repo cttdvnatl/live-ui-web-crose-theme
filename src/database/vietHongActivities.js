@@ -1,15 +1,19 @@
 const VietHongActivities = [
     {
-        img: "image"
+        img: "image",
+        caption: "Caption"
     },
     {
-        img: "image"
+        img: "image",
+        caption: "Caption"
     },
     {
-        img: "image"
+        img: "image",
+        caption: "Caption"
     },
     {
-        img: "image"
+        img: "image",
+        caption: "Caption"
     }
 ]
 

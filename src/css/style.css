@@ -2146,10 +2146,15 @@ p#vn-schedule {
 .activities-image-container .activities-image {
   margin: auto;
   margin-bottom: 30px;
+  text-align: center;
 }
 
 .activities-image-container .activities-image img {
   margin: auto;
+}
+
+.activities-image-container .activities-image figcaption {
+  color: gray;
 }
 
 div#translation-button {

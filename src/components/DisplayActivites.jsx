@@ -5,7 +5,8 @@ const DisplayActivities = ({list}) => {
         <>
         {list.map((VietHongActivities) => (
             <div class="activities-image">
-                <img src={VietHongActivities.img}/>
+                <img alt="activities-img" src={VietHongActivities.img}/>
+                <figcaption>{VietHongActivities.caption}</figcaption>
             </div>
         ))}
         </>
