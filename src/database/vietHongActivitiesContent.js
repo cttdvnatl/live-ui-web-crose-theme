@@ -2,12 +2,12 @@ const VietHongActivitiesContent = [
     {
         classification: 'current-end',
         img: "https://hvmatl.com/gallery/kgd/viethong/activities/2021-22-be-giang-01.jpg",
-        caption: "Toàn trường chào Quốc kỳ và hát Quốc ca Hoa Kỳ và Việt Nam. © 2022 Tri Le"
+        caption: "Toàn trường chuẩn bị chào cờ và hát Quốc ca Hoa Kỳ và Việt Nam. © 2022 Tri Le"
     },
     {
         classification: 'current-end',
         img: "https://hvmatl.com/gallery/kgd/viethong/activities/2021-22-be-giang-02.jpg",
-        caption: "Các em phụ giáo chào Quốc kỳ và hát Quốc ca Hoa Kỳ và Việt Nam với các em lớp 1, 2A và 2B. © 2022 Tri Le"
+        caption: "Các em phụ giáo chào cờ và hát Quốc ca Hoa Kỳ và Việt Nam với các em lớp 1, 2A và 2B. © 2022 Tri Le"
     },
     {
         classification: 'current-end',
@@ -22,7 +22,7 @@ const VietHongActivitiesContent = [
     {
         classification: 'current-end',
         img: "https://hvmatl.com/gallery/kgd/viethong/activities/2021-22-be-giang-05.jpg",
-        caption: "Linh mục phó xứ Gioan Baotixita Phạm Nguyễn Tuấn Anh. © 2022 Tri Le"
+        caption: "Linh mục Gioan Baotixita Phạm Nguyễn Tuấn Anh. © 2022 Tri Le"
     },
     {
         classification: 'current-end',
@@ -42,7 +42,7 @@ const VietHongActivitiesContent = [
     {
         classification: 'current-end',
         img: "https://hvmatl.com/gallery/kgd/viethong/activities/2021-22-be-giang-09.jpg",
-        caption: "Chúc mừng thầy Võ Minh Hoàng 10 năm phục vụ. Chụp với linh mục phó xứ Đaminh Trần Công Thơ. © 2022 Tri Le"
+        caption: "Chúc mừng thầy Võ Minh Hoàng 10 năm phục vụ. Chụp với linh mục Đaminh Trần Công Thơ. © 2022 Tri Le"
     },
     {
         classification: 'current-end',
@@ -53,7 +53,7 @@ const VietHongActivitiesContent = [
     {
         classification: 'current-eveh',
         img: "https://hvmatl.com/gallery/kgd/viethong/activities/2021-22-em-vui-em-hoc-01.jpg",
-        caption: "Chuẩn bị đi lên chào Quốc kỳ và hát Quốc ca Hoa Kỳ và Việt Nam. © 2022 Tri Le"
+        caption: "Chuẩn bị đi lên chào cờ và hát Quốc ca Hoa Kỳ và Việt Nam. © 2022 Tri Le"
     },
     {
         classification: 'current-begin',
@@ -68,7 +68,7 @@ const VietHongActivitiesContent = [
     {
         classification: 'current-begin',
         img: "https://hvmatl.com/gallery/kgd/viethong/activities/2021-22-khai-giang-03.jpg",
-        caption: "Linh mục phó xứ Gioan Baotixita Phạm Nguyễn Tuấn Anh. © 2021 Lan Do"
+        caption: "Linh mục Gioan Baotixita Phạm Nguyễn Tuấn Anh. © 2021 Lan Do"
     },
     {
         classification: 'current-begin',
