@@ -2135,6 +2135,28 @@ p#vn-schedule {
   display: block;
 }
 
+.activities-image-container {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  margin: auto;
+  max-width: 1000px;
+}
+
+.activities-image-container .activities-image {
+  margin: auto;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.activities-image-container .activities-image img {
+  margin: auto;
+}
+
+.activities-image-container .activities-image figcaption {
+  color: gray;
+}
+
 div#translation-button {
   float: left;
   margin-left: 7px;
