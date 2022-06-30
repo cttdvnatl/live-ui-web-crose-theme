@@ -4,7 +4,6 @@ import Footer from '../components/Footer';
 import VietHongHeader from '../components/VietHongHeader';
 import activitiesContent from '../database/vietHongActivitiesContent';
 import DisplayActivities from '../components/DisplayActivites';
-import Data from '../database/vietHongActivitiesContent.js';
 
 const mainCurrentBegin = activitiesContent.filter(mainCurrentBegin => mainCurrentBegin.classification === 'current-begin');
 const mainCurrentEnd = activitiesContent.filter(mainCurrentEnd => mainCurrentEnd.classification === 'current-end');
