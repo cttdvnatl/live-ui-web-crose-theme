@@ -15,6 +15,30 @@ const Forms = () => {
                 </thead>
                 <tbody>
                 <tr>
+                    <td>Volunteer Form Adult (<a href="https://www.hvmatl.com/forms/Vol_Form_Adult.pdf"
+                                                            style={{"color": "#3e48e2"}}>PDF</a>)
+                    </td>
+                    <td style={{"color": "#B18904"}}>Đơn ghi danh thiện nguyện viên <br/><br/>
+                        Application for advance payment guarantee
+                    </td>
+                </tr>
+                <tr>
+                    <td>- </td>
+                    <td>---------------------------------------------</td>
+                </tr>
+                <tr>
+                    <td>Volunteer Form Minor (<a href="https://www.hvmatl.com/forms/Vol_Form_Minor.pdf"
+                                                            style={{"color": "#3e48e2"}}>PDF</a>)
+                    </td>
+                    <td style={{"color": "#B18904"}}>Đơn ghi danh thiện nguyện viên <br/><br/>
+                        Minor's Volunteer Application
+                    </td>
+                </tr> 
+                <tr>
+                    <td>- </td>
+                    <td>---------------------------------------------</td>
+                </tr>                                                  
+                <tr>
                     <td>Application for Advance Payment (<a href="pdf/forms/AdvancedRequestForm.pdf"
                                                             style={{"color": "#3e48e2"}}>PDF</a>)
                     </td>
@@ -22,6 +46,10 @@ const Forms = () => {
                         Application for advance payment guarantee
                     </td>
                 </tr>
+                <tr>
+                    <td>- </td>
+                    <td>---------------------------------------------</td>
+                </tr>                
                 <tr>
                     <td>Check Request Form (<a href="pdf/forms/CheckRequestForm.pdf" style={{"color": "#3e48e2"}}>PDF</a>/<a
                         href="pdf/forms/CheckRequest.xls" style={{"color": "#3e48e2"}}>XLS</a>)
@@ -31,6 +59,10 @@ const Forms = () => {
                         <a href="pdf/forms/SampleCheckRequest.pdf" style={{"color": "#3e48e2"}}>Thí dụ(Example)</a>
                     </td>
                 </tr>
+                <tr>
+                    <td>- </td>
+                    <td>---------------------------------------------</td>
+                </tr>                
                 <tr>
                     <td>Detailed Income Remittance (<a href="pdf/forms/FormNewDetailedIncomeRemittanceForm.pdf"
                                                        style={{"color": "#3e48e2"}}>PDF</a>/<a
@@ -45,6 +77,10 @@ const Forms = () => {
                         </td>
                 </tr>
                 <tr>
+                    <td>- </td>
+                    <td>---------------------------------------------</td>
+                </tr>                  
+                <tr>
                     <td>Financial Compliance (<a href="pdf/forms/Guideline_Finance_Internal_Control.pdf"
                                                  style={{"color": "#3e48e2"}}>PDF</a>)
                     </td>
@@ -53,12 +89,20 @@ const Forms = () => {
                     </td>
                 </tr>
                 <tr>
+                    <td>- </td>
+                    <td>---------------------------------------------</td>
+                </tr>                  
+                <tr>
                     <td>Form Address Change (<a href="pdf/forms/FormAddressChange.pdf" style={{"color": "#3e48e2"}}>PDF</a>)
                     </td>
                     <td style={{"color": "#B18904"}}>Đơn thay đổi địa chỉ <br/><br/>
                         Address change request
                     </td>
                 </tr>
+                <tr>
+                    <td>- </td>
+                    <td>---------------------------------------------</td>
+                </tr>                  
                 <tr>
                     <td>General Income Remittance Form (<a href="pdf/forms/GeneralIncomeRemittanceForm.xls"
                                                            style={{"color": "#3e48e2"}}>XLS</a>)
@@ -69,6 +113,10 @@ const Forms = () => {
                     </td>
 
                 </tr>
+                <tr>
+                    <td>- </td>
+                    <td>---------------------------------------------</td>
+                </tr>                  
                 <tr>
                     <td>Kitchen Food Request Form (<a href="pdf/forms/KitchenFoodRequestForm.xls"
                                                       style={{"color": "#3e48e2"}}>XLS</a>)
@@ -83,7 +131,10 @@ const Forms = () => {
                             be submit to Finance Office at least a week in advance.
                     </td>
                 </tr>
-
+                <tr>
+                    <td>- </td>
+                    <td>---------------------------------------------</td>
+                </tr>  
                 <tr>
                     <td>Purchase Pre Approval Request (<a href="pdf/forms/PurchasePreApprovalRequest.xls"
                                                           style={{"color": "#3e48e2"}}>XLS</a>)
@@ -93,18 +144,29 @@ const Forms = () => {
                     </td>
                 </tr>
                 <tr>
+                    <td>- </td>
+                    <td>---------------------------------------------</td>
+                </tr>                  
+                <tr>
                     <td>Registration Form (<a href="pdf/forms/RegistrationForm.pdf" style={{"color": "#3e48e2"}}>PDF</a>)</td>
                     <td style={{"color": "#B18904"}}>Đơn xin gia nhập giáo xứ<br/><br/>
                         New church member registration.
                     </td>
                 </tr>
                 <tr>
+                    <td>- </td>
+                    <td>---------------------------------------------</td>
+                </tr>                  
+                <tr>
                     <td>Sample Budget (<a href="pdf/forms/SampleBudget.pdf" style={{"color": "#3e48e2"}}>PDF</a>)</td>
                     <td style={{"color": "#B18904"}}>Dự thu - chi tiêu <br/><br/>
                         Detailed budget request form.
                     </td>
                 </tr>
-
+                <tr>
+                    <td>- </td>
+                    <td>---------------------------------------------</td>
+                </tr>  
                 <tr>
                     <td><a href="https://archatl.com/ministries-services/safe-environment/volunteers/"
                            style={{"color": "#3e48e2"}}>Volunteer and Safety Information</a></td>
@@ -112,6 +174,10 @@ const Forms = () => {
                         Link to volunteer and safety requirement.
                     </td>
                 </tr>
+                <tr>
+                    <td>- </td>
+                    <td>---------------------------------------------</td>
+                </tr>                  
                 </tbody>
             </table>
             <br/>
