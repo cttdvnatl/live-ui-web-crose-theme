@@ -88,7 +88,7 @@ const VietHongActivitiesContent = [
     {
         classification: 'current-eveh',
         img: "https://hvmatl.com/gallery/kgd/viethong/activities/2021-22-eveh-05.jpg",
-        caption: "Các cô cổ vũ các em đang thi đấu. © 2022 Tri Le"
+        caption: "Các cô cổ vũ cho các em đang thi đấu. © 2022 Tri Le"
     },
     {
         classification: 'current-eveh',

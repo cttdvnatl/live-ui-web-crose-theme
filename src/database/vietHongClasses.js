@@ -91,7 +91,7 @@ const Classes = [
         classwork: "https://docs.google.com/document/d/e/2PACX-1vQY-_apFhjHxRbg2-IxWBDavJ-Vq5zpXRh5N1vw1PCbxOcn0QgF6-o3mv83wG4ND99JB6fKYAzkRV6n/pub?embedded=true"
     },
     {
-        name: "8",
+        name: "pg",
         class: "Phụ Giáo",
         teachers: "Thầy Trần Thanh Trúc, Cô Nghiêm Trang",
         emails: "",

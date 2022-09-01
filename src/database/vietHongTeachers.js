@@ -45,7 +45,7 @@ const VietHongTeacherContent = [
         classification: 'main-teacher',
         image: 'https://hvmatl.net/gallery/kgd/viethong/vh-2022-23-t-le-ngoc-diem.jpg',
         name: 'Cô Lê Ngọc Diễm',
-        email: 'duyen.b.le@hvmatl.org',
+        email: 'diem.ngoc.le@hvmatl.org',
     },
     {   
         classification: 'main-teacher',
@@ -93,7 +93,7 @@ const VietHongTeacherContent = [
         classification: 'main-teacher',
         image: 'https://hvmatl.net/gallery/kgd/viethong/vh-2022-23-t-nguyen-thi-ai-my.jpg',
         name: 'Cô Nguyễn Thị Ái Mỹ',
-        email: 'anne.nguyen@hvmatl.org',
+        email: 'my.ai.nguyen@hvmatl.org',
     },  
     {   
         classification: 'main-teacher',
