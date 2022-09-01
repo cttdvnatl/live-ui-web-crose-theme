@@ -1,27 +1,23 @@
 const vietHongDocuments = [
-      {   
-        fileName: 'NEW Student Registration Form',
-        downloadFile: 'https://hvmatl.net/gallery/kgd/viethong/Viet-Hong-School-2022-23-NEW-Student-and-School-Policies.pdf',
-        description: 'Đơn Ghi Danh Học Sinh Mới và Nội Quy 2022-23',
-    },
-    {   
-        fileName: 'RETURNING Student Registration Form',
-        downloadFile: 'https://hvmatl.net/gallery/kgd/viethong/Viet-Hong-School-2022-23-RETURNING-Student-and-School-Policies.pdf',
-        description: 'Đơn Ghi Danh Học Sinh Cũ và Nội Quy 2022-23',
-    },
+
     {   
         fileName: 'Parents Handbook',
-        downloadFile: 'https://hvmatl.net/gallery/kgd/viethong/Viet-Hong-School-2021-2022-Parents-Handbook-bilingual.pdf',
-        description: 'Sổ Tay Phụ Huynh 2021-2022',
+        downloadFile: 'https://hvmatl.net/gallery/kgd/viethong/documents/Viet-Hong-School-2022-23-Parents-Handbook-Bilingual.pdf',
+        description: 'Sổ Tay Phụ Huynh 2022-23',
     },
     {   
         fileName: 'School Year Calendar',
-        downloadFile: 'https://hvmatl.net/gallery/kgd/viethong/Viet-Hong-School-2021-2022-School-Year-Calendar.pdf',
-        description: 'Lịch Trình Niên Học 2021-2022',
+        downloadFile: 'https://hvmatl.net/gallery/kgd/viethong/documents/Viet-Hong-School-2022-232-School-Year-Calendar-Bilingual.pdf',
+        description: 'Lịch Trình Niên Học 2022-23',
+    },
+    {   
+        fileName: 'School Policies for Parents and Students',
+        downloadFile: 'https://hvmatl.net/gallery/kgd/viethong/documents/Viet-Hong-School-2022-23-School-Policies-Parents-Students-Bilingual.pdf',
+        description: 'Nội Quy cho Phụ Huynh và Học Sinh 2022-23',
     },
     {   
         fileName: 'Student Absence Form',
-        downloadFile: 'https://hvmatl.net/gallery/kgd/viethong/Viet-Hong-School-2021-2022-Absence-Form.pdf',
+        downloadFile: 'https://hvmatl.net/gallery/kgd/viethong/documents/Viet-Hong-School-2022-23-Absence-Form-Bilingual.pdf',
         description: 'Giấy Xin Phép Vắng Mặt',
     },
     {   

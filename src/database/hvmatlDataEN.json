@@ -117,23 +117,19 @@
   },
   "viethong": {
     "header": {
-      "item1": "Việt Hồng School",
+      "item1": "Viet Hong School",
       "item2": "Staff",
       "item3": "Classes",
       "item4": "Activities",
       "item5": "Documents"
     },
     "home": {
-      "heading": "2022-23 SCHOOL YEAR REGISTRATION",
-      "line1": "This registration day is for new students",
-      "line2": "of Viet Hong Vietnamese Language School.",
-      "line3": "Please go to DOCUMENTS",
-      "line4": "or the link below to get the registration form for your child(ren).",
-      "line5": "http://www.hvmatl.org/viet-hong-documents",
-      "line6": "Date: Saturday, July 16th, 2022",
-      "line7": "Time: 10:30 a.m. to 12:30 p.m.",
-      "line8": "Location: St. Joseph Hall",
-      "line9": "Address: 4545 Timmers Way, Norcross GA 30093",
+      "heading":"Dear parents,",
+      "line1": "We managed to retain our language even after over 1000 years of foreign occupation.",
+      "line2": "Would we be able to retain our language only a few decades away from our homeland?",
+      "line3": "This is when you, the Father, the Mother of our students must decide.",
+      "line4": "Sincerely,",
+      "line5": "The Staff of Viet Hong Vietnamese Language School",
       "announcement": "Please contact us for more information at Viet.Hong.School@hvmatl.org"
     }
   },
