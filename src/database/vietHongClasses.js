@@ -2,7 +2,7 @@ const Classes = [
     {
         name: "mg",
         class: "Mẫu Giáo",
-        teachers: "Cô Dương Hiền, Thầy Nguyễn Vũ Thanh Sơn, Cô Võ Mercy Sarah",
+        teachers: "Cô Dương Hiền, Cô Võ Mercy Sarah, Thầy Nguyễn Thanh Sơn",
         emails: "",
         classwork: "https://docs.google.com/document/d/e/2PACX-1vSmbzolKGSy-E7YzX68TPr1xzZVH2XzI1DlWvkXYsjQbZO3a2wD-p-kO16Mm_Y3e6vfuwLgDW4vwBnk/pub?embedded=true"
     },

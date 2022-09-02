@@ -37,7 +37,7 @@ const VietHongActivitiesPage = () => (
     </div>
     <div class="col-12">
         <div class="section-heading">
-            <h3>Chương Trình Em Vui Em Học</h3>
+            <h3>Chương Trình Em Vui Em Học 2021-22</h3>
         </div>
     </div>
     <div class="activities-image-container">
