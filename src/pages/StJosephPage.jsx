@@ -23,7 +23,18 @@ const StJoseph = () => {
                 {t('stjoseph.home.line8')} <br/>
                 {t('stjoseph.home.line9')} <br/>
                 {t('stjoseph.home.line10')} <br/>
-                {t('stjoseph.home.line11')} 
+                {t('stjoseph.home.line11')} <br/><br/><br/>
+                {t('stjoseph.home.line12')} <br/><br/>
+                {t('stjoseph.home.line13')} <br/>
+                {t('stjoseph.home.line14')} <br/><br/>
+                {t('stjoseph.home.line15')} <br/>
+                {t('stjoseph.home.line16')} <br/><br/>
+                {t('stjoseph.home.line17')} <br/>
+                {t('stjoseph.home.line18')} <br/><br/>
+                {t('stjoseph.home.line19')} <br/><br/>
+                {t('stjoseph.home.line20')} <br/>
+                {t('stjoseph.home.line21')} <br/><br/>
+                {t('stjoseph.home.line22')} <br/>
                 <br/><br/>
                 </h5>
                 <div className="container-fluid text-center">

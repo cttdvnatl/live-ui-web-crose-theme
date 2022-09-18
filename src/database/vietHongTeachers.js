@@ -1,12 +1,6 @@
 const VietHongTeacherContent = [
     {   
         classification: 'main-teacher',
-        image: 'https://hvmatl.net/gallery/kgd/viethong/vh-2022-23-t-do-duc-sieu.jpg',
-        name: 'Thầy Đỗ Đức Siêu',
-        email: 'sieu.duc.do@hvmatl.org',
-    },
-    {   
-        classification: 'main-teacher',
         image: 'https://hvmatl.net/gallery/kgd/viethong/vh-2022-23-t-duong-hien.jpg',
         name: 'Cô Dương Hiền',
         email: 'hien.duong@hvmatl.org',
@@ -20,8 +14,14 @@ const VietHongTeacherContent = [
     {   
         classification: 'main-teacher',
         image: 'https://hvmatl.net/gallery/kgd/viethong/vh-2022-23-t-dang-thi-ngoc-dung.jpg',
-        name: 'Cô Đặng Thị Ngọc Dung',
+        name: 'Cô Đặng Ngọc Dung',
         email: 'deedee.dang@hvmatl.org',
+    },
+    {   
+        classification: 'main-teacher',
+        image: 'https://hvmatl.net/gallery/kgd/viethong/vh-2022-23-t-do-duc-sieu.jpg',
+        name: 'Thầy Đỗ Đức Siêu',
+        email: 'sieu.duc.do@hvmatl.org',
     },
     {   
         classification: 'main-teacher',
