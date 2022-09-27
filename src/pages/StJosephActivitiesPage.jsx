@@ -13,11 +13,8 @@ const StJosephActivitiesPage = () => (
     <br/>
     <div class="col-12">
         <div class="section-heading">
-            <h2>Sinh Hoạt Của Trường Thánh Giuse</h2>
+            <h2>Xin quý phụ huynh trở lại</h2>
         </div>
-    </div>
-    <div class="activities-image-container">
-           <DisplayActivities list={Data}/>
     </div>
     <br/>
     <Footer/>
