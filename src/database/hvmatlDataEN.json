@@ -174,14 +174,9 @@
       "title": "Current Clergy/Sisters",
       "content": [
         {
-          "name": "Fr. Francis Tran Quoc Tuan",
+          "name": "Fr. Francis Trần Quốc Tuấn",
           "title": "Chánh Xứ",
           "image": "http://hvmatl.net/gallery/img/core-img/ChaTuan.jpg"
-        },
-        {
-          "name": "Fr. John Baptist Pham Nguyen Tuan Anh",
-          "title": "Phó Xứ",
-          "image": "http://hvmatl.net/gallery/img/core-img/ChaTuanAnh.jpg"
         },
         {
           "name": "Fr. Dominic Trần Công Thơ",
@@ -284,6 +279,12 @@
           "title": "Sister",
           "date": "10/2016 - 8/2018",
           "image": "http://hvmatl.net/gallery/img/core-img/SoThuyAn.jpg"
+        }, 
+        {
+          "name": "Fr. John Baptist Phạm Nguyễn Tuấn Anh",
+          "title": "Priest",
+          "date": "7/2018 - 8/2022",
+          "image": "http://hvmatl.net/gallery/img/core-img/ChaTuanAnh.jpg"
         }
       ]
     }
