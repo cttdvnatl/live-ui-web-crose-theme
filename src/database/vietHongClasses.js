@@ -30,7 +30,7 @@ const Classes = [
     {
         name: "vld",
         class: "Vỡ Lòng D",
-        teachers: "Cô Phạm T. Nga, Cô Trần Hương, Cô Mai Trí Linh",
+        teachers: "Cô Phạm T. Nga, Cô Nguyễn Thị Vân, Cô Mai Trí Linh",
         emails: "",
         classwork: "https://docs.google.com/document/d/e/2PACX-1vSVMDgIfwdDu1sHGHDOvNyW8PJ427uTphU4A9Bfz0f9UDEiG6SY3h8pe-nTeTEN8AGDUiAQEfFNTlva/pub?embedded=true"
     },
@@ -65,7 +65,7 @@ const Classes = [
     {
         name: "4",
         class: "4",
-        teachers: "Thầy Võ Minh Hoàng, Thầy Nguyễn Hữu Toàn",
+        teachers: "Thầy Võ Minh Hoàng, Thầy Nguyễn Hữu Toàn, Cô Trần Lan Bình,",
         emails: "",
         classwork: "https://docs.google.com/document/d/e/2PACX-1vSSZ6eiKjVc5R7H63hZAP7g66mthjiab1xq8vfPI3oll-CkuvkE_jW-B41Um_h_YohiMiZ16KSgyyzZ/pub?embedded=true"
     },
