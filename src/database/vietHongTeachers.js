@@ -109,12 +109,6 @@ const VietHongTeacherContent = [
     },
     {   
         classification: 'main-teacher',
-        image: 'https://hvmatl.net/gallery/kgd/viethong/vh-2022-23-t-nguyen-thi-van.jpg',
-        name: 'Cô Nguyễn Thị Vân',
-        email: 'van.thi.nguyen@hvmatl.org',
-    },
-    {   
-        classification: 'main-teacher',
         image: 'https://hvmatl.net/gallery/kgd/viethong/vh-2022-23-t-ninh-q-dat.jpg',
         name: 'Thầy Ninh Q. Đạt',
         email: 'dat.ninh@hvmatl.org',
@@ -142,12 +136,6 @@ const VietHongTeacherContent = [
         image: 'https://hvmatl.net/gallery/kgd/viethong/vh-2022-23-t-tran-huyen.jpg',
         name: 'Cô Trần Huyền',
         email: 'huyen.tran@hvmatl.org',
-    },
-    {   
-        classification: 'main-teacher',
-        image: 'https://hvmatl.net/gallery/kgd/viethong/vh-2022-23-t-tran-huong.jpg',
-        name: 'Cô Trần Hương',
-        email: 'huong.tran@hvmatl.org',
     },
     {   
         classification: 'main-teacher',
@@ -257,11 +245,6 @@ const VietHongTeacherContent = [
         classification: 'assistant-teacher',
         image: 'https://hvmatl.net/gallery/kgd/viethong/vh-2022-23-ta-bich-phuong.jpg',
         name: 'Phụ giáo Bích Phương',
-    },
-    {   
-        classification: 'assistant-teacher',
-        image: 'https://hvmatl.net/gallery/kgd/viethong/vh-2022-23-ta-christina.jpg',
-        name: 'Phụ giáo Christina',
     },
     {   
         classification: 'assistant-teacher',
