@@ -26,6 +26,16 @@
   "activities": {
     "title": "Parish Activities"
   },
+  "lhgs": {
+    "pageTitle": "Lễ Hội Giáng Sinh",
+    "heading": "Sunday December 18, 2022",
+    "headingLogo": "5:00PM to 11:00PM",
+    "paraHeading1": "FREE ADMISSION & PARKING",
+    "paraHeading2": "FAMILY FUN with FOOD & DRINK",
+    "paraHeading3": "MUSIC / SINGING / LIVE ANIMALS",
+    "paraHeading4": "Santa Claus gift giving",
+    "paraHeading5": "Lots Beautiful Christmas Scene Decorations"
+  },
   "about": {
     "pageTitle": "About This Church",
     "heading": "Holy Vietnamese Martyr's Catholic Church",
@@ -69,7 +79,8 @@
       "item2": "Calender 2022",
       "item3": "Covid-19",
       "item4": "Eucharist's Youth",
-      "item5": "Fall Festival"
+      "item5": "Fall Festival",
+      "item6": "Christmas Festival"
     },
     "dropdownMenuThree": {
       "dropdownHeading": "Departments",

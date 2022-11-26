@@ -10,6 +10,7 @@ import Index from './pages/Index';
 import StaffPage from './pages/StaffPage';
 import DeptInfo from './pages/DeptOwnerPage';
 import About from './pages/About';
+import ChristmasFestival from './pages/ChristmasFestival';
 import OrganizationChart from './pages/OrganizationChart';
 import VietHong from './pages/VietHongPage';
 import Activities from './pages/ActivitiesPage';
@@ -121,6 +122,7 @@ const App = (props) => {
             <Route path="/staff" component={StaffPage} exact/>
             <Route path="/" component={Index} exact/>
             <Route path="/about" component={About}/>
+            <Route path="/ChristmasFestival" component={ChristmasFestival}/>
             <Route path="/org" component={OrganizationChart}/>
             <Route path="/activities" component={Activities}/>
             <Route path="/covid19" component={Covid19}/>

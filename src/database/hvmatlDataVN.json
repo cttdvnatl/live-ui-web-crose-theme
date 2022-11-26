@@ -27,6 +27,17 @@
   "activities": {
     "title": "Sinh Hoạt Giáo Xứ"
   },
+  "lhgs": {
+    "pageTitle": "Lễ Hội Giáng Sinh",
+    "heading": "- Sunday December 18, 2022",
+    "headingLogo": "- 5:00PM to 11:00PM",
+    "paraHeading1": "NHẠC MỪNG CHÚA GIÁNG SINH",
+    "paraHeading2": "Diễn Nguyện Hoạt Cảnh Thánh Kinh",
+    "paraHeading3": "LÀNG BÊLEM - TRƯNG BÀY HANG ĐÁ (Dự Thi)",
+    "paraHeading4": "MÚA - CA - Phát Quà Ông Già Noel",
+    "paraHeading5": "LÀNG BÊLEM - TRƯNG BÀY HANG ĐÁ (Dự Thi)"    
+
+  },
   "about": {
     "pageTitle": "Sứ Mệnh Giáo Xứ",
     "heading": "Giáo Xứ Các Thánh Tử Đạo Việt Nam",
@@ -70,7 +81,8 @@
       "item2": "Lịch 2022",
       "item3": "Covid-19",
       "item4": "TNTT Tôma Thiện",
-      "item5": "Lễ Hội Mùa Thu"
+      "item5": "Lễ Hội Mùa Thu",
+      "item6": "Lễ Hội Giáng Sinh"
     },
     "dropdownMenuThree": {
       "dropdownHeading": "BAN NGÀNH",
