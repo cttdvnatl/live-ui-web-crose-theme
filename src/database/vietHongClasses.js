@@ -9,7 +9,7 @@ const Classes = [
     {
         name: "vla",
         class: "Vỡ Lòng A",
-        teachers: "Cô Nguyễn Thị Ái Mỹ, Cô Trần Trang",
+        teachers: "Cô Lu Aileen, Cô Nguyễn Thị Ái Mỹ, Cô Trần Trang",
         emails: "",
         classwork: "https://docs.google.com/document/d/e/2PACX-1vT4_8J1SooTMegrDMFNFHHDAs-Lp-6GI_25QjJgxArQhQz9GT8WGAUJPt1O7fuVFoc3hhaU2dYlaug4/pub?embedded=true"
     },
@@ -30,7 +30,7 @@ const Classes = [
     {
         name: "vld",
         class: "Vỡ Lòng D",
-        teachers: "Cô Phạm T. Nga, Cô Nguyễn Thị Vân, Cô Mai Trí Linh",
+        teachers: "Cô Phạm T. Nga, Cô Nguyễn Thị Vân, Cô Lê Ngọc Diễm, Cô Mai Trí Linh",
         emails: "",
         classwork: "https://docs.google.com/document/d/e/2PACX-1vSVMDgIfwdDu1sHGHDOvNyW8PJ427uTphU4A9Bfz0f9UDEiG6SY3h8pe-nTeTEN8AGDUiAQEfFNTlva/pub?embedded=true"
     },
@@ -51,7 +51,7 @@ const Classes = [
     {
         name: "2",
         class: "2",
-        teachers: "Cô Nguyễn Huỳnh Anh, Cô Nguyễn Thị Linh", 
+        teachers: "Cô Nguyễn Huỳnh Anh, Cô Nguyễn Thùy Linh", 
         emails: "",
         classwork: "https://docs.google.com/document/d/e/2PACX-1vSe8he7RZPMhSmV_YoFSB8EQAv3WyS9GQM1N5viaxc0WAkHLGz1uQ7nAUhwg-y3_iZVpFcW4DNnaanl/pub?embedded=true"
     },
@@ -65,7 +65,7 @@ const Classes = [
     {
         name: "4",
         class: "4",
-        teachers: "Thầy Võ Minh Hoàng, Thầy Nguyễn Hữu Toàn, Cô Trần Lan Bình,",
+        teachers: "Thầy Võ Minh Hoàng, Thầy Nguyễn Hữu Toàn, Cô Trần Lan Bình",
         emails: "",
         classwork: "https://docs.google.com/document/d/e/2PACX-1vSSZ6eiKjVc5R7H63hZAP7g66mthjiab1xq8vfPI3oll-CkuvkE_jW-B41Um_h_YohiMiZ16KSgyyzZ/pub?embedded=true"
     },
@@ -86,7 +86,7 @@ const Classes = [
     {
         name: "7",
         class: "7",
-        teachers: "Thầy Ninh Q. Đạt",
+        teachers: "Thầy Ninh Q. Đạt, Thầy Lê Tân",
         emails: "",
         classwork: "https://docs.google.com/document/d/e/2PACX-1vQY-_apFhjHxRbg2-IxWBDavJ-Vq5zpXRh5N1vw1PCbxOcn0QgF6-o3mv83wG4ND99JB6fKYAzkRV6n/pub?embedded=true"
     },
