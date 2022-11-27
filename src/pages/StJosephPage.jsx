@@ -33,8 +33,7 @@ const StJoseph = () => {
                 {t('stjoseph.home.line18')} <br/><br/>
                 {t('stjoseph.home.line19')} <br/><br/>
                 {t('stjoseph.home.line20')} <br/>
-                {t('stjoseph.home.line21')} <br/><br/>
-                {t('stjoseph.home.line22')} <br/>
+                {t('stjoseph.home.line21')} <br/>
                 <br/><br/>
                 </h5>
                 <div className="container-fluid text-center">
