@@ -19,7 +19,7 @@ const VietHongActivitiesPage = () => (
     <br/>
     <div class="col-12">
         <div class="section-heading">
-            <h3>Lễ Bế Giảng Niên Học 2021-22</h3>
+            <h3>Lễ Bế Giảng Niên Học 2021-2022</h3>
         </div>
     </div>
     <div class="activities-image-container">
@@ -27,7 +27,7 @@ const VietHongActivitiesPage = () => (
     </div>
     <div class="col-12">
         <div class="section-heading">
-            <h3>Chương Trình Em Vui Em Học 2021-22</h3>
+            <h3>Chương Trình Em Vui Em Học 2021-2022</h3>
         </div>
     </div>
     <div class="activities-image-container">
@@ -35,7 +35,7 @@ const VietHongActivitiesPage = () => (
     </div>
     <div class="col-12">
         <div class="section-heading">
-            <h3>Lễ Khai Giảng Niên Học 2021-22</h3>
+            <h3>Lễ Khai Giảng Niên Học 2021-2022</h3>
         </div>
     </div>
     <div class="activities-image-container">

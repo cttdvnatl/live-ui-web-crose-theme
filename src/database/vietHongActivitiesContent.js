@@ -28,7 +28,7 @@ const VietHongActivitiesContent = [
     {
         classification: 'current-middle',
         img: "https://hvmatl.com/gallery/kgd/viethong/activities/2021-22-be-giang-01.jpg",
-        caption: "Toàn trường chuẩn bị chào cờ và hát Quốc ca Hoa Kỳ và Việt Nam trong lễ bế giảng niên học 2021-22. © 2022 Tri Le"
+        caption: "Toàn trường chuẩn bị chào cờ và hát Quốc ca Hoa Kỳ và Việt Nam. © 2022 Tri Le"
     },
     {
         classification: 'current-middle',
@@ -163,12 +163,12 @@ const VietHongActivitiesContent = [
     {
         classification: 'current-begin',
         img: "https://hvmatl.com/gallery/kgd/viethong/activities/2021-22-khai-giang-02.jpg",
-        caption: "Lễ khai giảng niên học 2021-22. © 2021 Trang Nghiem"
+        caption: "Lễ khai giảng niên học © 2021 Trang Nghiem"
     },
     {
         classification: 'current-begin',
         img: "https://hvmatl.com/gallery/kgd/viethong/activities/2021-22-khai-giang-03.jpg",
-        caption: "Lễ khai giảng niên học 2021-22. © 2021 Lan Do"
+        caption: "Lễ khai giảng niên học © 2021 Lan Do"
     },
     {
         classification: 'previous',
