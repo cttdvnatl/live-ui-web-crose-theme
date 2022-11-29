@@ -27,16 +27,22 @@
   "activities": {
     "title": "Sinh Hoạt Giáo Xứ"
   },
-  "lhgs": {
-    "pageTitle": "Lễ Hội Giáng Sinh",
-    "heading": "- Sunday December 18, 2022",
-    "headingLogo": "- 5:00PM to 11:00PM",
-    "paraHeading1": "NHẠC MỪNG CHÚA GIÁNG SINH",
-    "paraHeading2": "Diễn Nguyện Hoạt Cảnh Thánh Kinh",
-    "paraHeading3": "LÀNG BÊLEM - TRƯNG BÀY HANG ĐÁ (Dự Thi)",
-    "paraHeading4": "MÚA - CA - Phát Quà Ông Già Noel",
-    "paraHeading5": "LÀNG BÊLEM - TRƯNG BÀY HANG ĐÁ (Dự Thi)"    
-
+  "christmasfestival": {
+    "header": {
+    "item1": "Lễ Hội Giáng Sinh",
+    "item2": "Chương Trình",
+    "item3": "Trưng Bày Hang Đá",
+    "item4": "Ẩm Thực"
+  },
+  "home": {
+    "heading":"",
+    "line1": "Chúa Nhật, ngày 18 tháng 12 năm 2022",
+    "line2": "5 giờ chiều đến 11 giờ tối",
+    "line3": "4545-A Timmers Way, Norcross GA",
+    "line4": "Dịp chung vui cho cả gia đình!",
+    "line5": "Đậu xe và vào cửa miễn phí",
+    "announcement": ""
+  }
   },
   "about": {
     "pageTitle": "Sứ Mệnh Giáo Xứ",

@@ -10,7 +10,7 @@ import Index from './pages/Index';
 import StaffPage from './pages/StaffPage';
 import DeptInfo from './pages/DeptOwnerPage';
 import About from './pages/About';
-import ChristmasFestival from './pages/ChristmasFestival';
+import ChristmasFestival from './pages/ChristmasFestivalPage';
 import OrganizationChart from './pages/OrganizationChart';
 import VietHong from './pages/VietHongPage';
 import Activities from './pages/ActivitiesPage';
