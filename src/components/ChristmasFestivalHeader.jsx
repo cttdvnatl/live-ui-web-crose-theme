@@ -9,7 +9,7 @@ const ChristmasFestivalHeader = () => {
                 <a href="/christmasfestival">{t('christmasfestival.header.item1')}</a>
                 <a href="/christmas-festival-program">{t('christmasfestival.header.item2')}</a>
                 <a href="/christmas-festival-displays">{t('christmasfestival.header.item3')}</a>
-                <a href="/christmas-festival-menu">{t('christmasfestival.header.item4')}</a>
+                <a href="/christmas-festival-cuisine">{t('christmasfestival.header.item4')}</a>
         </div>
         </>
     );

@@ -13,7 +13,7 @@ const mainPrevious = activitiesContent.filter(mainPrevious => mainPrevious.class
 
 const VietHongActivitiesPage = () => (
     <>
-    <Header/>s
+    <Header/>
     <VietHongHeader/>
     <p></p>
     <br/>
