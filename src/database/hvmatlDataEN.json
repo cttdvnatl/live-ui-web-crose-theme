@@ -26,15 +26,21 @@
   "activities": {
     "title": "Parish Activities"
   },
-  "lhgs": {
-    "pageTitle": "Lễ Hội Giáng Sinh",
-    "heading": "Sunday December 18, 2022",
-    "headingLogo": "5:00PM to 11:00PM",
-    "paraHeading1": "FREE ADMISSION & PARKING",
-    "paraHeading2": "FAMILY FUN with FOOD & DRINK",
-    "paraHeading3": "MUSIC / SINGING / LIVE ANIMALS",
-    "paraHeading4": "Santa Claus gift giving",
-    "paraHeading5": "Lots Beautiful Christmas Scene Decorations"
+  "christmasfestival": {
+    "header": {
+    "item1": "Christmas Festival",
+    "item2": "Program",
+    "item3": "Nativity Displays",
+    "item4": "Cuisine"
+  },  "home": {
+    "heading":"Q",
+    "line1": "Sunday, December 18th, 2022",
+    "line2": "5:00 pm to 11:00 pm",
+    "line3": "4545-A Timmers Way, Norcross GA",
+    "line4": "Fun for the whole family!",
+    "line5": "Free parking and entry",
+    "announcement": "Quý phụ huynh muốn biết thêm chi tiết xin liên lạc Viet.Hong.School@hvmatl.org"
+  }
   },
   "about": {
     "pageTitle": "About This Church",
@@ -76,7 +82,7 @@
     "dropdownMenuTwo": {
       "dropdownHeading": "News and Events",
       "item1": "Parish Activities",
-      "item2": "Calender 2022",
+      "item2": "Calendar 2022",
       "item3": "Covid-19",
       "item4": "Eucharist's Youth",
       "item5": "Fall Festival",
@@ -169,13 +175,12 @@
       "line13": "1. Webpage for St. Joseph Religious School",
       "line14": "http://www.hvmatl.org/St-Joseph",
       "line15": "2. Webpage for Viet Hong Vietnamese Language School",
-      "line16": "http://www.hvmatl.org/VietHong",
+      "line16": "http://www.hvmatl.org/",
       "line17": "3. Website for Toma Thien (Vietnamese Eucharistic Youth Movement)",
       "line18": "http://www.tomathienatl.org",
       "line19": "4. Communication methods: Remind app, emails and letters",
       "line20": "5. Please remember to update new information at the Education Department's office",
       "line21": "(address, phone number, email, etc.)",
-      "line22": "6. Letter for VIRTUS class for children",
       "title": "St. Joseph School",
       "announcement": "News and announcements during the school year for Giáo Lý and Thiếu Nhi Thánh Thể Program will be regularly updated on this page."
     }

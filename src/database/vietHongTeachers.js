@@ -98,7 +98,7 @@ const VietHongTeacherContent = [
     {   
         classification: 'main-teacher',
         image: 'https://hvmatl.net/gallery/kgd/viethong/vh-2022-23-t-nguyen-thi-linh.jpg',
-        name: 'Cô Nguyễn Thị Linh',
+        name: 'Cô Nguyễn Thùy Linh',
         email: 'linh.thi.nguyen@hvmatl.org',
     },  
     {   

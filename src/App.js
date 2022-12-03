@@ -10,7 +10,10 @@ import Index from './pages/Index';
 import StaffPage from './pages/StaffPage';
 import DeptInfo from './pages/DeptOwnerPage';
 import About from './pages/About';
-import ChristmasFestival from './pages/ChristmasFestival';
+import ChristmasFestival from './pages/ChristmasFestivalPage';
+import ChristmasFestivalProgramPage from './pages/ChristmasFestivalProgramPage';
+import ChristmasFestivalDisplaysPage from './pages/ChristmasFestivalDisplaysPage';
+import ChristmasFestivalCuisinePage from './pages/ChristmasFestivalCuisinePage';
 import OrganizationChart from './pages/OrganizationChart';
 import VietHong from './pages/VietHongPage';
 import Activities from './pages/ActivitiesPage';
@@ -123,6 +126,9 @@ const App = (props) => {
             <Route path="/" component={Index} exact/>
             <Route path="/about" component={About}/>
             <Route path="/ChristmasFestival" component={ChristmasFestival}/>
+            <Route path="/Christmas-Festival-Program" component={ChristmasFestivalProgramPage}/>
+            <Route path="/Christmas-Festival-Displays" component={ChristmasFestivalDisplaysPage}/>
+            <Route path="/Christmas-Festival-Cuisine" component={ChristmasFestivalCuisinePage}/>
             <Route path="/org" component={OrganizationChart}/>
             <Route path="/activities" component={Activities}/>
             <Route path="/covid19" component={Covid19}/>

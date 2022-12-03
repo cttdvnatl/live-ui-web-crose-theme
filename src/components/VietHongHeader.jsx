@@ -11,8 +11,6 @@ const VietHongHeader = () => {
             <a href="/viet-hong-activities">{t('viethong.header.item4')}</a>
             <a href="/viet-hong-documents">{t('viethong.header.item5')}</a>
         </div>
-    )
-
-}
-
+    );
+};
 export default VietHongHeader;
