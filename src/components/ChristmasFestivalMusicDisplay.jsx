@@ -1,11 +1,11 @@
 import React from 'react';
 
-const ChristmasFestivalCuisineDisplay = ({list}) => {
+const ChristmasFestivalMusicDisplay = ({list}) => {
     return (
         <>
         {list.map((ChristmasFestivalDisplaysContent) => (
                 <div class="row about-content justify-content-center">
-            <div class="cuisine-image">
+            <div class="music-image">
                 <img src={ChristmasFestivalDisplaysContent.img} alt=""/>
                 <figcaption>{ChristmasFestivalDisplaysContent.caption}</figcaption><br/><br/>
             </div>
@@ -16,4 +16,4 @@ const ChristmasFestivalCuisineDisplay = ({list}) => {
     )
 }
 
-export default ChristmasFestivalCuisineDisplay;
+export default ChristmasFestivalMusicDisplay;

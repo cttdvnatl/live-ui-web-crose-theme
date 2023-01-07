@@ -13,7 +13,7 @@ import About from './pages/About';
 import ChristmasFestival from './pages/ChristmasFestivalPage';
 import ChristmasFestivalProgramPage from './pages/ChristmasFestivalProgramPage';
 import ChristmasFestivalDisplaysPage from './pages/ChristmasFestivalDisplaysPage';
-import ChristmasFestivalCuisinePage from './pages/ChristmasFestivalCuisinePage';
+import ChristmasFestivalMusicPage from './pages/ChristmasFestivalMusicPage';
 import OrganizationChart from './pages/OrganizationChart';
 import VietHong from './pages/VietHongPage';
 import Activities from './pages/ActivitiesPage';
@@ -128,7 +128,7 @@ const App = (props) => {
             <Route path="/ChristmasFestival" component={ChristmasFestival}/>
             <Route path="/Christmas-Festival-Program" component={ChristmasFestivalProgramPage}/>
             <Route path="/Christmas-Festival-Displays" component={ChristmasFestivalDisplaysPage}/>
-            <Route path="/Christmas-Festival-Cuisine" component={ChristmasFestivalCuisinePage}/>
+            <Route path="/Christmas-Festival-Music" component={ChristmasFestivalMusicPage}/>
             <Route path="/org" component={OrganizationChart}/>
             <Route path="/activities" component={Activities}/>
             <Route path="/covid19" component={Covid19}/>

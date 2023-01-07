@@ -2,12 +2,12 @@ import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import ChristmasFestivalHeader from '../components/ChristmasFestivalHeader';
-import ChristmasFestivalCuisineContent from '../database/ChristmasFestivalCuisineContent';
-import ChristmasFestivalCuisineDisplay from '../components/ChristmasFestivalCuisineDisplay';
+import ChristmasFestivalMusicContent from '../database/ChristmasFestivalMusicContent';
+import ChristmasFestivalMusicDisplay from '../components/ChristmasFestivalMusicDisplay';
 
-const mainCuisine = ChristmasFestivalCuisineContent.filter(mainCuisine => mainCuisine.classification === 'main-cuisine');
+const mainMusic = ChristmasFestivalMusicContent.filter(mainMusic => mainMusic.classification === 'main-music');
 
-const ChristmasFestivalCuisinePage = () => (
+const ChristmasFestivalMusicPage = () => (
         <>
             <Header/>
             <ChristmasFestivalHeader/>
@@ -17,8 +17,8 @@ const ChristmasFestivalCuisinePage = () => (
             <div class="col-12">
                 <div class="section-heading">
                     <h3></h3>
-            <div class="cuisine-image-container">
-                <ChristmasFestivalCuisineDisplay list={mainCuisine}/> 
+            <div class="music-image-container">
+                <ChristmasFestivalMusicDisplay list={mainMusic}/> 
             </div>
             </div>
             </div>
@@ -28,4 +28,4 @@ const ChristmasFestivalCuisinePage = () => (
         </>
     );
 
-export default ChristmasFestivalCuisinePage;
+export default ChristmasFestivalMusicPage;
