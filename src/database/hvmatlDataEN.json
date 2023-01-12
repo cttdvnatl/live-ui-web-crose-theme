@@ -31,7 +31,7 @@
     "item1": "Christmas Festival",
     "item2": "Program",
     "item3": "Nativity Displays",
-    "item4": "Cuisine"
+    "item4": "Music"
   },  "home": {
     "heading":"Q",
     "line1": "Sunday, December 18th, 2022",
@@ -65,6 +65,25 @@
     "paragraph33": "They themselves focus their lives in Christ as the Shining Sunrise",
     "paragraph34": "They practice and deepen their faith in and through the Eucharist",
     "paragraph35": "They continue to evangelize the World"
+  },
+  "massInfo": {
+    "mass": {
+      "title": "Mass Times",
+      "weekdayMorning": "Monday - Saturday: 7:30AM",
+      "weekdayNight": "Monday - Friday: 6:00PM",
+      "vigil": "Saturday: Vigil Mass 5:30PM",
+      "sunday": "Sunday: 7:30AM , 9:30AM , & 11:30AM"
+    },
+    "confession": {
+      "title": "Reconciliation (Confession)",
+      "weekday": "Weekdays: following 7:30AM Mass",
+      "weekend": "Saturday: 4:30PM - 5:15PM"
+    },
+    "baptism": {
+      "title": "Baptisms",
+      "class": "1st Sunday of Month (Mandatory Class): 9:30AM - 10:30AM",
+      "baptise": "2nd Saturday of Month (Baptism): After Mass 7:30AM"
+    }
   },
   "header": {
     "top": {

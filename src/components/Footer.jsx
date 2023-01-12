@@ -59,7 +59,7 @@ const Footer = (prop) => {
                             <div className="footer-social-icon">
                                 <a href="https://www.facebook.com/hvmatl" aria-label="facebook"><i className="fab fa-facebook"/></a>
                                 <a href="https://twitter.com/thanhtudaovn" aria-label="twitter"><i className="fab fa-twitter"/></a>
-                                <a href="https://www.youtube.com/user/ThanhTuDaoVietNam" aria-label="youtube"><i className="fab fa-youtube"/></a>
+                                <a href="https://www.youtube.com/HVMATL" aria-label="youtube"><i className="fab fa-youtube"/></a>
                             </div>
                         </div>
                     </div>

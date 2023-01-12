@@ -29,20 +29,20 @@
   },
   "christmasfestival": {
     "header": {
-    "item1": "Lễ Hội Giáng Sinh",
-    "item2": "Chương Trình",
-    "item3": "Trưng Bày Hang Đá",
-    "item4": "Ẩm Thực"
-  },
-  "home": {
-    "heading":"",
-    "line1": "Chúa Nhật, ngày 18 tháng 12 năm 2022",
-    "line2": "5 giờ chiều đến 11 giờ tối",
-    "line3": "4545-A Timmers Way, Norcross GA",
-    "line4": "Dịp chung vui cho cả gia đình!",
-    "line5": "Đậu xe và vào cửa miễn phí",
-    "announcement": ""
-  }
+      "item1": "Lễ Hội Giáng Sinh",
+      "item2": "Chương Trình",
+      "item3": "Trưng Bày Hang Đá",
+      "item4": "Văn Nghệ"
+    },
+    "home": {
+      "heading": "",
+      "line1": "Chúa Nhật, ngày 18 tháng 12 năm 2022",
+      "line2": "5 giờ chiều đến 11 giờ tối",
+      "line3": "4545-A Timmers Way, Norcross GA",
+      "line4": "Dịp chung vui cho cả gia đình!",
+      "line5": "Đậu xe và vào cửa miễn phí",
+      "announcement": ""
+    }
   },
   "about": {
     "pageTitle": "Sứ Mệnh Giáo Xứ",
@@ -67,6 +67,25 @@
     "paragraph33": "Tập trung đời sống trong Chúa Kitô là Mặt Trời Công Chính",
     "paragraph34": "Thực hành đời sống đức tin qua Bí Tích Thánh Thể",
     "paragraph35": "Tiếp tục sứ mạng Phúc Âm hóa toàn thế giới"
+  },
+  "massInfo": {
+    "mass": {
+      "title": "Giờ Lễ",
+      "weekdayMorning": "Thứ Hai - Thứ Bảy: 7:30AM",
+      "weekdayNight": "Thứ Hai - Thứ Sáu: 6:00PM",
+      "vigil": "Thứ Bảy: Lễ Vọng Chúa Nhật 5:30PM",
+      "sunday": "Chúa Nhật: 7:30AM , 9:30AM , & 11:30AM"
+    },
+    "confession": {
+      "title": "Giải Tội",
+      "weekday": "Ngày Thường: Sau Thánh Lễ 7:30AM",
+      "weekend": "Thứ Bảy: 4:30PM - 5:15PM"
+    },
+    "baptism": {
+      "title": "Rửa Tội Trẻ Em",
+      "class": "Chúa Nhật Tuần Thứ 1: 9:30AM - 10:30AM",
+      "baptise": "Thứ Bảy Tuần Thứ 2: Sau Lễ 7:30AM"
+    }
   },
   "header": {
     "top": {
@@ -143,7 +162,7 @@
       "item5": "Văn Thư"
     },
     "home": {
-      "heading":"Quý phụ huynh thân mến,",
+      "heading": "Quý phụ huynh thân mến,",
       "line1": "Hơn 1000 năm người dân Việt bị đô hộ bởi ngoại xâm, tiếng Việt mình vẫn còn.",
       "line2": "Hơn vài chục năm xa quê hương, tiếng Việt mình còn không? ",
       "line3": "Đó là điều mà khi làm Cha, làm Mẹ, chúng ta quyết định.",
