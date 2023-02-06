@@ -176,7 +176,7 @@ const Header = (prop) => {
                             <nav className="classy-navbar justify-content-between" id="croseNav">
                                 <a href="/" className="nav-brand"><img src={logo} alt=""/></a>
                                 <div className="classy-navbar-toggler" onClick={activateSidebar}>
-                                    <a href="https://giving.parishsoft.com/App/Giving/holy4545250" className="crose-btn" onClick={(e) => displayModal(e, "Huong dan Donation", "img/core-img/donation_instruction.jpg")}><i className="fas fa-donate"/>  DONATION</a>
+                                    <a href="https://giving.parishsoft.com/App/Giving/holy4545250" className="crose-btn" onClick={(e) => displayModal(e, "Huong dan Donation", "img/core-img/donation_instruction.jpg")}><i className="fas fa-donate"/> OFFERING</a>
                                     <span className="navbarToggler" ref={navbarToggler}><span/><span/><span/></span>
                                 </div>
                                 <div className="classy-menu" ref={navbarMenu} onClick={closeSidebar}>
