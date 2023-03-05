@@ -15,7 +15,16 @@
     "item3": {
       "heading": "Tham Dự Thánh Lễ Trực Tuyến:",
       "description": ""
+    },
+    "item4": {
+      "heading": "Cầu Cho Linh Hồn",
+      "description": ""
     }
+  },
+  "banner": {
+    "headline": "Ghi Danh Niên Khóa Mới của Giáo Xứ",
+    "button1": "Giáo Lý",
+    "button2": "Việt Ngữ"
   },
   "calendar": {
     "heading": "Lịch Giáo Xứ"

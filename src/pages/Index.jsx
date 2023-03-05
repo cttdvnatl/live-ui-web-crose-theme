@@ -12,8 +12,8 @@ const Index = () => {
     const t = useTranslation()
     return(
         <div>
-            <Preloader/>
-            <Header banner={false} bannerMsg={t("")} url=""/>
+            <Preloader />
+            <Header banner={true} bannerMsg={t("banner.headline")} url=""/>
             <CustomCarousel/>
             <Info/>
             <Event/>

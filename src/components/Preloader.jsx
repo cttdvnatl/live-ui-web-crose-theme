@@ -2,7 +2,7 @@ import React from 'react';
 
 const Preloader = (prop) => {
     return (
-        <div className="preloader d-flex align-items-center justify-content-center">
+        <div className="d-none preloader d-flex align-items-center justify-content-center">
             {/*<!-- ##### Preloader ##### -->*/}
             <div >
                 {/*<!-- Line -->*/}

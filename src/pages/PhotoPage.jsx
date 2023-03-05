@@ -4,10 +4,10 @@ import Preloader from "../components/Preloader";
 import Footer from "../components/Footer";
 import content from "../database/photos.json";
 
-const photos = (prop) => {
+const PhotoPage = (prop) => {
     return (
         <div>
-            <Preloader/>
+            {/* <Preloader/> */}
             <Header/>
             <section>
                 <h2 className="section-heading">Thư Viện Hình Ảnh</h2>
@@ -40,4 +40,4 @@ const photos = (prop) => {
         </div>
     );
 };
-export default photos;
+export default PhotoPage;

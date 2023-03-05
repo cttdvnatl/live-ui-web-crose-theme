@@ -14,7 +14,16 @@
     "item3": {
       "heading": "Attending Online Mass",
       "description": ""
+    },
+    "item4": {
+      "heading": "Prayers for the Souls",
+      "description": ""
     }
+  },
+  "banner": {
+    "headline": "Sign Up for the Parish's Annual Session",
+    "button1": "Catholic Education",
+    "button2": "Vietnamese"
   },
   "calendar": {
     "heading": "Parish Calendar"

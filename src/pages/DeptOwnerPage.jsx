@@ -3,6 +3,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 //import { useTranslation } from 'react-multi-lang';
 import DeptOwnerContent from '../database/departmentOwners-content';
+import { useParams } from 'react-router-dom';
 
 /*
 const DeptOwnerPage = ({ match }) => {
@@ -34,8 +35,9 @@ const DeptOwnerPage = ({ match }) => {
     );
 }
 */
-const DeptOwnerPage = ({match}) => {
-    const id = match.params.id;
+const DeptOwnerPage = () => {
+    const { id } = useParams();
+
     const DeptOwnerDetail = DeptOwnerContent.find(DeptOwnerDetail => DeptOwnerDetail.name === id);
     if (!DeptOwnerDetail) return <h1>DeptOwnerDetail does not exist!</h1>
 
@@ -43,11 +45,11 @@ const DeptOwnerPage = ({match}) => {
     <>
     <Header/>
     <p></p>       
-    <div class="row about-content justify-content-center">
-        <div class="col-10 col-md-6 col-lg-3">
-            <div class="about-us-content mb-100">
+    <div className="row about-content justify-content-center">
+        <div className="col-10 col-md-6 col-lg-3">
+            <div className="about-us-content mb-100">
                 <img src={DeptOwnerDetail.primaryOwnerImg} alt=""/>
-                <div class="about-text">
+                <div className="about-text">
                     <h3><b>{DeptOwnerDetail.primaryOwnerTitle}</b></h3>
                     <h4>{DeptOwnerDetail.primaryOwner}</h4>
                     <h4>{DeptOwnerDetail.primaryOwnerPhone}</h4>
@@ -55,10 +57,10 @@ const DeptOwnerPage = ({match}) => {
                 </div>
             </div>
         </div>
-        <div class="col-10 col-md-6 col-lg-3">
-            <div class="about-us-content mb-100">
+        <div className="col-10 col-md-6 col-lg-3">
+            <div className="about-us-content mb-100">
                 <img src={DeptOwnerDetail.secondaryOwnerImg} alt=""/>
-                <div class="about-text">
+                <div className="about-text">
                     <h3><b>{DeptOwnerDetail.secondaryOwnerTitle}</b></h3>
                     <h4>{DeptOwnerDetail.secondaryOwner}</h4>
                     <h4>{DeptOwnerDetail.secondaryOwnerPhone}</h4>
@@ -66,10 +68,10 @@ const DeptOwnerPage = ({match}) => {
                 </div>
             </div>
         </div>
-        <div class="col-10 col-md-6 col-lg-3">
-            <div class="about-us-content mb-100">
+        <div className="col-10 col-md-6 col-lg-3">
+            <div className="about-us-content mb-100">
                 <img src={DeptOwnerDetail.thirdOwnerImg} alt=""/>
-                <div class="about-text">
+                <div className="about-text">
                     <h3><b>{DeptOwnerDetail.thirdOwnerTitle}</b></h3>
                     <h4>{DeptOwnerDetail.thirdOwner}</h4>
                     <h4>{DeptOwnerDetail.thirdOwnerPhone}</h4>

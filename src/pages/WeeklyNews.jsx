@@ -6,6 +6,7 @@ import {connect} from 'react-redux';
 import * as actionType from '../store/actionType';
 import {getWeeklyNews} from '../store/dispatch/dispatch';
 import PopupModal from "../components/PopupModal";
+
 const WeeklyNews = (props) => {
     const toggleModal = (e, title, content) => {
         e.preventDefault();

@@ -1,4 +1,4 @@
-/* [Master Stylesheet] */
+/* [Master Stylesheet]
 /*
 Template Name: Crose
 Template Author: Colorlib
@@ -15,7 +15,7 @@ Version: - v1.0.0
 @import url(animate.css);
 @import url(timeline.css);
 /* :: 3.0 Base CSS */
-* {
+* { 
   margin: 0;
   padding: 0; }
 
@@ -44,7 +44,7 @@ p {
   font-weight: 400; }
 
 a,
-a:hover,
+a:hover
 a:focus {
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
@@ -52,8 +52,9 @@ a:focus {
   outline: 0 solid transparent;
   color: #1f1f2c;
   font-weight: 500;
-  font-size: 14px; }
-
+  font-size: 14px;
+  cursor: pointer;
+}
 ul,
 ol {
   margin: 0; }
@@ -212,8 +213,8 @@ ol {
     border-radius: 0;
     background-color: #c92f2f;
     margin-top: -3px;
-    -webkit-animation: line 40000ms infinite linear;
-    animation: line 40000ms infinite linear; }
+    -webkit-animation: line 40000ms 5s linear;
+    animation: line 40000ms 5s linear; }
 
 @-webkit-keyframes line {
   0% {
