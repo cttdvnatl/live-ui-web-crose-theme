@@ -6,7 +6,6 @@ import Footer from '../components/Footer';
 const Org = () => {
     return (
         <div>
-        <Preloader/>
         <Header/>
             <div>
                 <img className="center" src="https://hvmatl.net/gallery/img/core-img/SDTC.jpg" alt=""/>

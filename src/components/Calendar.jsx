@@ -15,11 +15,11 @@ const Calendar = (prop) => {
         return () => window.removeEventListener("resize", resizeCallback);
     }, [resizeCallback]);
     return(
-        <section>
-            <Ratio className="container-fluid text-center" style={{"height": "750px", "padding":"20px 0"}}>
-                <object style={{"width":"100%", "height":"100%"}} title={"liturgicalCalendar"} data={calendar}/>
+        <div className="container-fluid text-center my-4">
+            <Ratio aspectRatio="16x9">
+                <object title={"liturgicalCalendar"} data={calendar}/>
             </Ratio>
-        </section>
+        </div>
     );
 };
 export default Calendar;

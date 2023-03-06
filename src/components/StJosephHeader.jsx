@@ -15,7 +15,7 @@ const StJosephHeader = () => {
     return (
         <>
         <div id="viet-hong-header">
-            {stJosephLinks.map(link => <Link to={link.path}>{t(link.text)}</Link>)}
+            {stJosephLinks.map(link => <Link key={link.path} to={link.path}>{t(link.text)}</Link>)}
                 {/*<a href="/st-joseph-classes">{t('stjoseph.header.item5')}</a>*/}
             </div>
         </>

@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react';
+import React, {Suspense, useEffect} from 'react';
 import {authenticate, restoreToken} from './store/dispatch/dispatch';
 import {connect, useSelector} from "react-redux";
 import {
@@ -14,6 +14,8 @@ import vn from './database/hvmatlDataVN.json';
 
 //routes
 import routes from './routes.js';
+import Preloader from './components/Preloader';
+import ScrollToTop from './components/ScrollToTop';
 
 //Google Analytics
 ReactGA.initialize('UA-168016188-1', {
@@ -85,7 +87,8 @@ const App = (props) => {
 
     return (
         <Router>
-            <Routes>   
+            <ScrollToTop />
+            <Routes>
                 {routes.map(route => 
                     route.subroutes 
                     ? <Route key={route.path} path={route.path} element={route.component}>{getSubRoutes(route)}</Route>

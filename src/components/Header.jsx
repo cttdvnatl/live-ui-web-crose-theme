@@ -1,3 +1,4 @@
+import axios from 'axios';
 import React, {useEffect, useState, useRef, useCallback} from 'react';
 import { setLanguage, getLanguage, useTranslation } from 'react-multi-lang';
 import { Link } from 'react-router-dom';
@@ -93,7 +94,7 @@ const Header = (prop) => {
             }
         }
     };
-
+    
     //Add event handler after the element is rendered
     useEffect(() => {
         //Call all the callbacks to setup initial value after the element is mounted
@@ -262,7 +263,7 @@ const Header = (prop) => {
                                     </div>
                                 </div>
                                 <div className="top-header-meta">
-                                    <a href="/mass-schedule" className="email-address"><i className="fas fa-calendar-alt" aria-hidden="true" ref={massSchedule}></i><span>{t("header.top.massSchedule")}</span></a>
+                                    <Link to="/mass-schedule" className="email-address"><i className="fas fa-calendar-alt" aria-hidden="true" ref={massSchedule}></i><span>{t("header.top.massSchedule")}</span></Link>
                                     <a href="mailto:info@hvmatl.org" className="email-address"><i className="fas fa-envelope" aria-hidden="true" ref={email}></i> <span>info@hvmatl.org</span></a>
                                     <a href="tel:770-921-0077" className="phone"><i className="fas fa-phone" aria-hidden="true" ref= {phone}></i> <span>770-921-0077</span></a>
                                 </div>
@@ -276,7 +277,7 @@ const Header = (prop) => {
                     <div className="classy-nav-container breakpoint-off" ref={navbar}>
                         <div className="container">
                             <nav className="classy-navbar justify-content-between" id="croseNav">
-                                <a href="/" className="nav-brand"><img src={logo} alt=""/></a>
+                                <Link to="/" className="nav-brand"><img src={logo} alt=""/></Link>
                                 <div className="classy-navbar-toggler" onClick={activateSidebar}>
                                     <a href="https://giving.parishsoft.com/App/Giving/holy4545250" className="crose-btn" onClick={(e) => displayModal(e, "Huong dan Donation", "img/core-img/donation_instruction.jpg")}><i className="fas fa-donate"/> OFFERING</a>
                                     <span className="navbarToggler" ref={navbarToggler}><span/><span/><span/></span>
@@ -296,7 +297,13 @@ const Header = (prop) => {
                         </div>
                         {/* <EmergencyEvent emergency={'emergency' in prop ? prop.emergency : false} message={prop.emergencyMsg} url={prop.url}/> */}
                         {/* <HcmtEvent hcmt={'hcmt' in prop ? prop.hcmt : true} message={prop.hcmtMsg} url={prop.url}/> */}
-                        <BannerMsg banner={'banner' in prop ? prop.banner : false} message={prop.bannerMsg} url={prop.url}/>
+                        <BannerMsg 
+                            banner={'banner' in prop ? prop.banner : false} 
+                            message={prop.bannerMsg} 
+                            button1Text={prop.button1Text}
+                            button2Text={prop.button2Text}
+                            url={prop.url}
+                        />
                     </div>
                 </div>
             </div>

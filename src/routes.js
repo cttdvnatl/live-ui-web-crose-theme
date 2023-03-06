@@ -44,6 +44,9 @@ import ChristmasFestivalDisplaysPage from './pages/ChristmasFestivalDisplaysPage
 import ChristmasFestivalMusicPage from "./pages/ChristmasFestivalMusicPage";
 import ChristmasFestivalProgramPage from "./pages/ChristmasFestivalProgramPage";
 import ChristmasFestivalPage from './pages/ChristmasFestivalPage'
+import React from "react";
+import Preloader from "./components/Preloader";
+import GalleryPage from "./pages/GalleryPage";
 
 const vietHongRoutes = {
     path: '/viet-hong',
@@ -82,9 +85,11 @@ const christmasRoutes = {
 const routes = [
     { path: '/clergy-list', component: <ClergyListPage /> },
     { path: '/departments/:id', component: <DeptOwnerPage /> },
-    { path: '/staff', component: <Staff />, index: true },
+    { path: '/staff', component: <Staff />, index: true},
     { path: '/history', component: <HistoryPage />},
-    { path: '/', component: <Index /> },
+    // { path: '/', component: <React.Suspense fallback={<Preloader />}><Index /></React.Suspense>},
+    { path: '/', component: <Index />},
+    { path: '/gallery/:galleryId', component: <GalleryPage /> },
     { path: '/about', component: <About /> },
     { path: '/org',  component: <Org /> },
     { path: '/activities', component: <ActivitiesPage /> },
@@ -94,7 +99,7 @@ const routes = [
     { path: '/photos', component: <PhotoPage /> },
     { path: '/forms', component: <Forms /> },
     { path: '/catholic-teaching', component: <CatholicTeaching /> },
-    { path: '/weekly-news', component: <WeeklyNews /> },
+    { path: '/weekly-news', component: <React.Suspense fallback={<Preloader />}><WeeklyNews /></React.Suspense> },
     { path: '/contact', component: <ContactPage /> },
     { path: '/prayer-request', component: <PrayerRequest /> },
     { path: '/prayer-request-list', component: <PrayerRequestList /> },
@@ -102,7 +107,7 @@ const routes = [
     // { path: '/fall-fest', component: FallFestPage },
     { path: '/thieu-nhi', component: <ThieuNhiPage /> },
     { path: '/mass-schedule', component: <MassSchedule /> },
-    { path: '/learn-bible', component: <LearnBible /> },
+    { path: '/learn-bible', component: <React.Suspense fallback={<Preloader />}><LearnBible /></React.Suspense> },
     vietHongRoutes,
     stJosephRoutes,
     christmasRoutes,

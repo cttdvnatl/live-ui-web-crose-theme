@@ -213,8 +213,8 @@ ol {
     border-radius: 0;
     background-color: #c92f2f;
     margin-top: -3px;
-    -webkit-animation: line 40000ms 5s linear;
-    animation: line 40000ms 5s linear; }
+    -webkit-animation: line 40000ms infinite linear;
+    animation: line 40000ms infinite linear; }
 
 @-webkit-keyframes line {
   0% {

@@ -136,6 +136,7 @@ const Info = (props) => {
                         return (
                           <a
                             target="_blank"
+                            rel="noreferrer"
                             href={link.link}
                             style={{
                               fontSize: "30px",
