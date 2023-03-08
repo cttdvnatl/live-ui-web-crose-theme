@@ -1,12 +1,13 @@
 import React, {useEffect} from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import Preloader from '../components/Preloader';
 import {connect} from 'react-redux';
 import * as actionType from '../store/actionType';
 import {getWeeklyNews} from '../store/dispatch/dispatch';
 import PopupModal from "../components/PopupModal";
+
 const WeeklyNews = (props) => {
+
     const toggleModal = (e, title, content) => {
         e.preventDefault();
         props.toggleModal({
@@ -16,7 +17,7 @@ const WeeklyNews = (props) => {
     };
 
     useEffect(() => {
-        if(sessionStorage.getItem('token') && !props.data.length) {
+        if (sessionStorage.getItem('token')) {
             let mtplr;
             const from =  new Date(new Date().setUTCHours(0,0,0,0));
             from.setUTCMonth(from.getUTCMonth()-1);
@@ -28,11 +29,10 @@ const WeeklyNews = (props) => {
             const to = new Date(from.getTime() + mtplr * 86400000);
             (async () => (await props.getWeeklyNews(from, to, sessionStorage.getItem('token'))))();
         }
-    }, [props]);
+    }, []);
 
     return (
         <div>
-            <Preloader/>
             <Header/>
             <section className="about-area section-padding-100-0">
                 {[new Date().getMonth() + 1, new Date().getMonth()].map(month => {

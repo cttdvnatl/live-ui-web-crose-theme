@@ -1,5 +1,5 @@
 import React, {useEffect, useState, useCallback} from 'react';
-import ResponsiveEmbed from "react-bootstrap/ResponsiveEmbed";
+import Ratio from "react-bootstrap/Ratio";
 
 const Calendar = (prop) => {
     const [calendar, setCalendar] = useState("");
@@ -15,11 +15,11 @@ const Calendar = (prop) => {
         return () => window.removeEventListener("resize", resizeCallback);
     }, [resizeCallback]);
     return(
-        <section>
-            <ResponsiveEmbed className="container-fluid text-center" style={{"height": "750px", "padding":"20px 0"}}>
-                <object style={{"width":"100%", "height":"100%"}} title={"liturgicalCalendar"} data={calendar}/>
-            </ResponsiveEmbed>
-        </section>
+        <div className="container-fluid text-center my-4">
+            <Ratio aspectRatio="16x9">
+                <object title={"liturgicalCalendar"} data={calendar}/>
+            </Ratio>
+        </div>
     );
 };
 export default Calendar;

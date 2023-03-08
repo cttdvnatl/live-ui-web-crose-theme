@@ -1,8 +1,21 @@
 import React from 'react';
 import { useTranslation } from 'react-multi-lang';
+import { Link } from 'react-router-dom';
 
 const Footer = (prop) => {
     const t = useTranslation()
+
+    const links = [
+        { path: '/', text: t("footer.widget1.item1") },
+        { path: '/about', text: t("footer.widget1.item2")},
+        { path: '/mass-schedule', text: t("footer.widget1.item3")},
+        { path: '/activities', text: t("footer.widget1.item4")},
+        { path: '/weekly-news', text: t("footer.widget1.item5")},
+        { path: 'https://www.tomathienatl.org', text: t("footer.widget1.item6")},
+        { path: '/departments/KGD', text: t("footer.widget1.item7")},
+        { path: 'https://fallfestival.hvmatl.org/', text: t("footer.widget1.item8")}
+    ]
+
     return (
         <footer className="footer-area text-center">
         {/* <!-- Main Footer Area --> */}
@@ -18,14 +31,23 @@ const Footer = (prop) => {
                     <div className="single-footer-widget">
                         <h5 className="widget-title">{t("footer.widget1.heading")}</h5>
                         <div className="quick-link">
-                            <a href="/"><i style={{color: "#c92f2f"}} className="fas fa-church" aria-hidden="true"/>{t("footer.widget1.item1")}</a>
+                            {links.map(link => {
+                                return <Link 
+                                        key={link.path} 
+                                        to={link.path}
+                                        target={link.path.startsWith('http') ? '_blank' : '_self'}
+                                        >
+                                            {link.text}
+                                        </Link>
+                            })}
+                            {/* <a href="/"><i style={{color: "#c92f2f"}} className="fas fa-church" aria-hidden="true"/>{t("footer.widget1.item1")}</a>
                             <a href="/about"><i style={{color: "#c92f2f"}} className="fas fa-dove" aria-hidden="true"/>{t("footer.widget1.item2")}</a>
                             <a href="/massSchedule"><i style={{color: "#c92f2f"}} className="fas fa-clock" aria-hidden="true"/>{t("footer.widget1.item3")}</a>
                             <a href="/activities"><i style={{color: "#c92f2f"}} className="fa fa-bullhorn" aria-hidden="true"/>{t("footer.widget1.item4")}</a>
                             <a href="/weeklyNews"><i style={{color: "#c92f2f"}} className="fas fa-newspaper" aria-hidden="true"/>{t("footer.widget1.item5")}</a>
                             <a href="https://www.tomathienatl.org"><i style={{color: "#c92f2f"}} className="fas fa-users" aria-hidden="true"/>{t("footer.widget1.item6")}</a>
                             <a href="departments.html?x=KGD"><i style={{color: "#c92f2f"}} className="fas fa-graduation-cap" aria-hidden="true"/>{t("footer.widget1.item7")}</a>
-                            <a href="https://fallfestival.hvmatl.org/"><i style={{color: "#c92f2f"}} className="fas fa-holly-berry" aria-hidden="true"/>{t("footer.widget1.item8")}</a>
+                            <a href="https://fallfestival.hvmatl.org/"><i style={{color: "#c92f2f"}} className="fas fa-holly-berry" aria-hidden="true"/>{t("footer.widget1.item8")}</a> */}
                         </div>
                     </div>
                 </div>
@@ -34,10 +56,10 @@ const Footer = (prop) => {
                     <div className="single-footer-widget">
                         <h5 className="widget-title">{t("footer.widget2.heading")}</h5>
                         <div className="contact-information">
-                            <a href="https://goo.gl/maps/3HKC8U28RLt9BcR7A"><i className="fas fa-map" aria-hidden="true"/> 4545-A Timmers Way, Norcross, GA </a>
+                            <a target="_blank" href="https://goo.gl/maps/3HKC8U28RLt9BcR7A"><i className="fas fa-map" aria-hidden="true"/> 4545-A Timmers Way, Norcross, GA </a>
                             <a href="tel:770-921-0077"><i className="fas fa-phone" aria-hidden="true"/> 770-921-0077</a>
                             <a href="mailto:info@hvmatl.org"><i className="fas fa-envelope" aria-hidden="true"/> info@hvmatl.org</a>
-                            <p><a href="/massSchedule"><i className="fas fa-calendar-alt" aria-hidden="true"/>Mon - Sat : 9:30&nbsp;AM - 12:30&nbsp;PM, 1:30&nbsp;PM - 5:00&nbsp;PM</a></p>
+                            <p><Link to="/mass-schedule"><i className="fas fa-calendar-alt" aria-hidden="true"/>Mon - Sat : 9:30&nbsp;AM - 12:30&nbsp;PM, 1:30&nbsp;PM - 5:00&nbsp;PM</Link></p>
                         </div>
                     </div>
                 </div>

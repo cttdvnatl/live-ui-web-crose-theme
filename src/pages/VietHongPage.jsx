@@ -4,6 +4,7 @@ import Footer from '../components/Footer';
 import { useTranslation } from 'react-multi-lang';
 import VietHongHeader from '../components/VietHongHeader';
 import VietHongCalendar from '../components/VietHongCalendar';
+import { Outlet } from 'react-router-dom';
 
 const VietHong = () => {
     const t = useTranslation();
@@ -30,6 +31,7 @@ const VietHong = () => {
                 10:00 a.m. – 12:15 p.m. </p>
                 </div>
                 <VietHongCalendar />
+                <Outlet />
                 </div>
             <Footer/>
         </div>

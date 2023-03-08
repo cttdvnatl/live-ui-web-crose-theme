@@ -11,8 +11,8 @@ const StJosephActivitiesPage = () => (
     <StJosephHeader/>
     <p></p>
     <br/>
-    <div class="col-12">
-        <div class="section-heading">
+    <div className="col-12">
+        <div className="section-heading">
             <h2>Xin quý phụ huynh trở lại</h2>
         </div>
     </div>
