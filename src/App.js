@@ -1,21 +1,64 @@
-import React, {Suspense, useEffect} from 'react';
+import React, {useEffect} from 'react';
 import {authenticate, restoreToken} from './store/dispatch/dispatch';
-import {connect, useSelector} from "react-redux";
+import {connect} from "react-redux";
 import {
     BrowserRouter as Router,
-    Route,
-    Routes
+    Route
 } from 'react-router-dom';
-
+import ClergyListPage from './pages/ClergyListPage';
+import Index from './pages/Index';
+import StaffPage from './pages/StaffPage';
+import DeptInfo from './pages/DeptOwnerPage';
+import About from './pages/About';
+import ChristmasFestival from './pages/ChristmasFestivalPage';
+import ChristmasFestivalProgramPage from './pages/ChristmasFestivalProgramPage';
+import ChristmasFestivalDisplaysPage from './pages/ChristmasFestivalDisplaysPage';
+import ChristmasFestivalMusicPage from './pages/ChristmasFestivalMusicPage';
+import OrganizationChart from './pages/OrganizationChart';
+import VietHong from './pages/VietHongPage';
+import Activities from './pages/ActivitiesPage';
+import Covid19 from "./pages/covid19";
+import Giaoly from "./pages/giaoly";
+import Glgh from "./pages/Glgh";
+import photos from "./pages/photos";
+import Catholic_teaching from "./pages/catholic_teaching";
+import Forms from "./pages/forms";
+import WeeklyNews from "./pages/WeeklyNews";
+import Contact from "./pages/ContactPage";
+import PrayerRequest from "./pages/PrayerRequest";
+import PrayerRequestList from "./pages/PrayerRequestList";
+import History from './pages/HistoryPage';
+import PrintedCalendarPage from './pages/PrintedCalendarPage';
+import FallFestPage from './pages/FallFestPage';
+import ThieuNhiPage from './pages/ThieuNhiPage';
+import VietHongTeacherPage from './pages/VietHongTeacherPage';
+import VietHongActivitiesPage from './pages/VietHongActivitiesPage';
+import VietHongDocumentsPage from './pages/VietHongDocumentsPage';
+import VietHongClassesPage from './pages/VietHongClassesPage';
+import VietHongClassworkPage from './pages/VietHongClassworkPage';
+import MassSchedule from "./pages/MassSchedule";
+import LearnBible from "./pages/LearnBible";
+import Articles from './pages/Articles';
+import ArticleDetail from './pages/ArticleDetail';
 import ReactGA from 'react-ga';
 import {setLanguage, getLanguage, setTranslations, setDefaultLanguage} from 'react-multi-lang';
 import en from './database/hvmatlDataEN.json';
 import vn from './database/hvmatlDataVN.json';
+import CookiePage from './pages/CookiePage';
+import StJoseph from './pages/StJosephPage';
+import StJosephTeacherPage from './pages/StJosephTeacherPage';
+import StJosephActivitiesPage from './pages/StJosephActivitiesPage';
+import StJosephDocumentsPage from './pages/StJosephDocumentsPage';
+import StJosephClassesPage from './pages/StJosephClassesPage';
+import StJosephClassworkPage from './pages/StJosephClassworkPage';
+import VNSaints from './pages/VNSaints';
+import Upload from './pages/Upload';
+//import FeedBackSignUpForm from './pages/FeedbackSignUpForm';
+import FeedbackTextForm from './pages/FeedbackTextForm';
 
-//routes
-import routes from './routes.js';
-import Preloader from './components/Preloader';
-import ScrollToTop from './components/ScrollToTop';
+//Error/Success Pages
+import FormSubmitSuccessPage from './pages/FormSubmitSuccessPage';
+import FormSubmitErrorPage from './pages/FormSubmitErrorPage';
 
 //Google Analytics
 ReactGA.initialize('UA-168016188-1', {
@@ -61,9 +104,6 @@ function getCookie(cookieParam) {
 checkLangCookie()
 
 const App = (props) => {
-
-    const token = useSelector(state => state.token)
-
     useEffect(() => {
         if(!props.token && !sessionStorage.getItem('token')) {
             (async () => {
@@ -78,23 +118,56 @@ const App = (props) => {
             sessionStorage.setItem('token', props.token);
         }
     }, [props]);
-
-    const getSubRoutes = (route) => {
-        return route.subroutes.map(sub => 
-            <Route key={route.path + ' ' + sub.path} path={sub.path} element={sub.component}></Route> 
-        )
-    }
-
     return (
         <Router>
-            <ScrollToTop />
-            <Routes>
-                {routes.map(route => 
-                    route.subroutes 
-                    ? <Route key={route.path} path={route.path} element={route.component}>{getSubRoutes(route)}</Route>
-                    : <Route index={route.index} key={route.path} path={route.path} element={route.component}></Route>
-                )}
-            </Routes>
+            <Route path="/clergy-list" component={ClergyListPage} exact/>
+            <Route path="/departments/:id" component={DeptInfo} exact/>
+            <Route path="/staff" component={StaffPage} exact/>
+            <Route path="/" component={Index} exact/>
+            <Route path="/about" component={About}/>
+            <Route path="/ChristmasFestival" component={ChristmasFestival}/>
+            <Route path="/Christmas-Festival-Program" component={ChristmasFestivalProgramPage}/>
+            <Route path="/Christmas-Festival-Displays" component={ChristmasFestivalDisplaysPage}/>
+            <Route path="/Christmas-Festival-Music" component={ChristmasFestivalMusicPage}/>
+            <Route path="/org" component={OrganizationChart}/>
+            <Route path="/activities" component={Activities}/>
+            <Route path="/covid19" component={Covid19}/>
+            <Route path="/giaoly" component={Giaoly}/>
+            <Route path="/glgh" component={Glgh}/>
+            <Route path="/photos" component={photos}/>
+            <Route path="/forms" component={Forms}/>
+            <Route path="/catholic_teaching" component={Catholic_teaching}/>
+            <Route path="/weeklyNews" component={WeeklyNews}/>
+            <Route path="/contact" component={Contact}/>
+            <Route path="/PrayerRequest" component={PrayerRequest}/>
+            <Route path="/PrayerRequestList" component={PrayerRequestList}/>
+            <Route path="/history" component={History}/>
+            <Route path="/printed-calendar" component={PrintedCalendarPage}/>
+            <Route path="/fall-fest" component={FallFestPage}/>
+            <Route path="/thieu-nhi" component={ThieuNhiPage}/>
+            <Route path="/massSchedule" component={MassSchedule}/>
+            <Route path="/learnBible" component={LearnBible}/>
+            <Route path="/viethong" component={VietHong}/>
+            <Route path="/viet-hong-teachers" component={VietHongTeacherPage}/>
+            <Route path="/viet-hong-activities" component={VietHongActivitiesPage}/>
+            <Route path="/viet-hong-documents" component={VietHongDocumentsPage}/>
+            <Route path="/viet-hong-classes" component={VietHongClassesPage}/>
+            <Route path="/viet-hong-classwork/:vietHongClassURL" component={VietHongClassworkPage}/>
+            <Route path="/st-joseph" component={StJoseph}/>
+            <Route path="/st-joseph-teachers" component={StJosephTeacherPage}/>
+            <Route path="/st-joseph-activities" component={StJosephActivitiesPage}/>
+            <Route path="/st-joseph-documents" component={StJosephDocumentsPage}/>
+            <Route path="/st-joseph-classes" component={StJosephClassesPage}/>
+            <Route path="/st-joseph-classwork/:stJosephClassURL" component={StJosephClassworkPage}/>
+            <Route path="/Articles" component={Articles}/>
+            <Route path="/ArticleDetail/:date" component={ArticleDetail}/>
+            <Route path="/cookies" component={CookiePage}/>
+            <Route path="/saint" component={VNSaints}/>
+            <Route path="/upload" component={Upload}/>
+            {/*<Route path="/feedback-signup" component={FeedBackSignUpForm}/>*/}
+            <Route path="/feedback-signup" component={FeedbackTextForm}/>
+            <Route path="/form-success" component={FormSubmitSuccessPage}/>
+            <Route path="/form-error" component={FormSubmitErrorPage}/>
         </Router>
     )
 };

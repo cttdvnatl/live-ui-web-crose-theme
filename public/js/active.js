@@ -3,15 +3,12 @@
 
     var browserWindow = $(window);
 
-    // react-router-dom navigation does not reload the pages
-    // so this block of code only works on first load, not on subsequent page loads.
-    // use React.Suspense instead
     // :: 1.0 Preloader Active Code
-    // browserWindow.on('load', function () {
-    //     $('.preloader').fadeOut('slow', function () {
-    //         $(this).remove();
-    //     });
-    // });
+    browserWindow.on('load', function () {
+        $('.preloader').fadeOut('slow', function () {
+            $(this).remove();
+        });
+    });
 
     // :: 2.0 Nav Active Code
     if ($.fn.classyNav) {

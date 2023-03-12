@@ -5,7 +5,7 @@
     "image":"http://hvmatl.net/gallery/img/bg-img/191128.jpg",
     "title":"2019 THÁNH ĐƯỜNG",
     "body":"Giáo  Xứ  chúng  ta</b>  View the Construction of our new church.  We have been committed to",
-    "pdf":"/gallery/2019_TD"
+    "pdf":"gallery/2019_TD.html"
   },
   {
     "Section":"covid19",
@@ -13,7 +13,7 @@
     "image":"http://hvmatl.net/gallery/img/bg-img/20190511_RLLD.JPG",
     "title":"2019 Ruoc Le Lan Dau",
     "body":"Thông báo của cha chánh xứ",
-    "pdf":"/gallery/20190511_RLLD"
+    "pdf":"gallery/20190511_RLLD.html"
   },
   {
     "Section":"covid19",
@@ -21,7 +21,7 @@
     "image":"http://hvmatl.net/gallery/img/bg-img/20190504_ThemSuc.JPG",
     "title":"2019 Them Suc",
     "body":"",
-    "pdf":"/gallery/20190504_ThemSuc"
+    "pdf":"gallery/20190504_ThemSuc.html"
   },
   {
     "Section":"covid19",
@@ -29,7 +29,7 @@
     "image":"http://hvmatl.net/gallery/img/bg-img/20190421_NCT_001.jpg",
     "title":"2019 New Church Tour",
     "body":"",
-    "pdf":"/gallery/20190421_NCT"
+    "pdf":"gallery/20190421_NCT.html"
   },
   {
     "Section":"Blog",
@@ -38,7 +38,7 @@
     "date":"04-20-2019",
     "title":"2019 Phuc Sinh",
     "body":"",
-    "pdf":"/gallery/20190420_PhucSinh"
+    "pdf":"gallery/20190420_PhucSinh.html"
   },
   {
     "Section":"Blog",
@@ -47,7 +47,7 @@
     "date":"06-08-2018",
     "title":"2018 Dai Hoi Thanh Th",
     "body":"",
-    "pdf":"/gallery/201806_DHTT"
+    "pdf":"gallery/201806_DHTT.html"
   },
   {
     "Section":"Blog",
@@ -56,7 +56,7 @@
     "date":"05-27-2018",
     "title":"2018 Giao Ly Hon Nhan",
     "body":"",
-    "pdf":"/gallery/201805_GLHH"
+    "pdf":"gallery/201805_GLHH.html"
   },
   {
     "Section":"Blog",
@@ -65,6 +65,6 @@
     "date":"04-20-2019",
     "title":"2018 Dang Hoa",
     "body":"",
-    "pdf":"/gallery/201805_DangHoa"
+    "pdf":"gallery/201805_DangHoa.html"
   }
 ]

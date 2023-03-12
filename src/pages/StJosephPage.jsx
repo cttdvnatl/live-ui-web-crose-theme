@@ -4,7 +4,6 @@ import Footer from '../components/Footer';
 import StJosephHeader from '../components/StJosephHeader';
 import StJosephCalendar from '../components/StJosephCalendar';
 import { useTranslation } from 'react-multi-lang';
-import { Outlet } from 'react-router-dom';
 
 const StJoseph = () => {
     const t = useTranslation()
@@ -43,7 +42,6 @@ const StJoseph = () => {
                     <br/>
                     <StJosephCalendar />
                 </div>
-                <Outlet />
             <Footer/>
         </div>
     );

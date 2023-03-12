@@ -1,20 +1,15 @@
 import React from 'react';
 import { useTranslation } from 'react-multi-lang';
-import { Link } from 'react-router-dom';
 
 const VietHongHeader = () => {
     const t = useTranslation();
-    const viethongLinks = [
-        { path: '/viet-hong', text: 'viethong.header.item1'},
-        { path: '/viet-hong/teachers', text: 'viethong.header.item2'},
-        { path: '/viet-hong/classes', text: 'viethong.header.item3'},
-        { path: '/viet-hong/activities', text: 'viethong.header.item4'},
-        { path: '/viet-hong/documents', text: 'viethong.header.item5'},
-    ]
-
     return (
         <div id="viet-hong-header">
-            {viethongLinks.map(link => <Link to={link.path}>{t(link.text)}</Link>)}
+            <a href="/viethong">{t('viethong.header.item1')}</a>
+            <a href="/viet-hong-teachers">{t('viethong.header.item2')}</a>
+            <a href="/viet-hong-classes">{t('viethong.header.item3')}</a>
+            <a href="/viet-hong-activities">{t('viethong.header.item4')}</a>
+            <a href="/viet-hong-documents">{t('viethong.header.item5')}</a>
         </div>
     );
 };

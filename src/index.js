@@ -11,7 +11,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/style.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import { createRoot } from 'react-dom/client';
 
 const rootReducer = combineReducers({
     auth: authReducer,
@@ -22,11 +21,8 @@ const rootReducer = combineReducers({
 //Redux store
 const store = createStore(rootReducer, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
 
-const container = document.getElementById('root');
-const root = createRoot(container); // createRoot(container!) if you use TypeScript
-
-//ReactDOM.render(<Provider store={store}><App /></Provider>, document.getElementById('root'));
-root.render(<Provider store={store}><App /></Provider>);  
+ReactDOM.render(<Provider store={store}><App /></Provider>, document.getElementById('root'));
+    
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA

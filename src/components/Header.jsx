@@ -1,7 +1,5 @@
-import axios from 'axios';
 import React, {useEffect, useState, useRef, useCallback} from 'react';
 import { setLanguage, getLanguage, useTranslation } from 'react-multi-lang';
-import { Link } from 'react-router-dom';
 //import EmergencyEvent from "./EmergencyNotice";
 //import HcmtEvent from "./HcmtNotice";
 import BannerMsg from "./BannerMsg";
@@ -94,7 +92,7 @@ const Header = (prop) => {
             }
         }
     };
-    
+
     //Add event handler after the element is rendered
     useEffect(() => {
         //Call all the callbacks to setup initial value after the element is mounted
@@ -140,107 +138,6 @@ const Header = (prop) => {
     }
 
     const t = useTranslation();
-
-    const navItems = [    
-        {
-            main: 'header.dropdownMenuOne.dropdownHeading',
-            subs: [
-                { path: '/', text: "header.dropdownMenuOne.item1" },
-                { path: '/about', text: "header.dropdownMenuOne.item2" },
-                { path: '/history', text: "header.dropdownMenuOne.item3" },
-                { path: '/saint', text: "header.dropdownMenuOne.item4" },
-                { path: '/clergy-list', text: "header.dropdownMenuOne.item5" },
-                { path: '/staff', text: "header.dropdownMenuOne.item6" }
-            ]
-        },
-        {
-            main: 'header.dropdownMenuTwo.dropdownHeading',
-            subs: [
-                { path: '/activities', text: "header.dropdownMenuTwo.item1" },
-                { path: '/printed-calendar', text: "header.dropdownMenuTwo.item2" },
-                { path: '/covid19', text: "header.dropdownMenuTwo.item3" },
-                { path: '/thieu-nhi', text: "header.dropdownMenuTwo.item4" },
-                { path: 'https://fallfestival.hvmatl.org', text: "header.dropdownMenuTwo.item5" },
-                { path: '/christmas-festival', text: "header.dropdownMenuTwo.item6" }
-            ]
-        },
-        {
-            main: 'header.dropdownMenuThree.dropdownHeading',
-            subs: [
-                { path: '/org', text: "header.dropdownMenuThree.item1"},
-                { path: '/departments/KCS', text: "header.dropdownMenuThree.item2" },
-                { path: '/departments/KDS', text: "header.dropdownMenuThree.item3" },
-                { path: '/departments/KGD', text: "header.dropdownMenuThree.item4", subs: [
-                    { path: '/st-joseph', text: "header.dropdownMenuThree.subItem1" },
-                    { path: '/viet-hong', text: "header.dropdownMenuThree.subItem2" }
-                ]},
-                { path: '/departments/KHC', text: "header.dropdownMenuThree.item5" },
-                { path: '/departments/KPT', text: "header.dropdownMenuThree.item6" },
-                { path: '/departments/KTG', text: "header.dropdownMenuThree.item7" },
-                { path: '/departments/KQT', text: "header.dropdownMenuThree.item8" },
-                { path: '/departments/KGQ', text: "header.dropdownMenuThree.item9" },
-            ]
-        },
-        {
-            main: "header.dropdownMenuFour.dropdownHeading",
-            subs: [
-                { path: '/weekly-news', text: "header.dropdownMenuFour.item1" },
-                { path: '/articles', text: "header.dropdownMenuFour.item2" }, 
-                { path: '/catholic-teaching', text: "header.dropdownMenuFour.item3" },
-                { path: '/photos', text: "header.dropdownMenuFour.item4" },
-                { path: '/forms', text: "header.dropdownMenuFour.item5" },
-                { path: '/prayer-request', text: "header.dropdownMenuFour.item6" }
-            ]
-        },
-        {
-            main: "header.dropdownMenuFive.dropdownHeading",
-            link: '/contact'
-        }
-    ]
-
-    const navItemList = (list) => {
-        return list.map(item => {
-            if (item.subs) {
-                return  <li key={item.path}><Link 
-                            target={item.path.startsWith("http") ? "_blank" : "_self"} 
-                            to={item.path}>{t(item.text)}</Link>
-                            <ul>{navItemList(item.subs)}</ul>
-                        </li>
-            }
-            else {  
-                return  <li key={item.path}><Link 
-                            target={item.path.startsWith("http") ? "_blank" : "_self"} 
-                            to={item.path}>{t(item.text)}</Link>
-                        </li>
-            }
-        })
-    }
-
-    const navItem = (itemList) => {
-        return itemList.map((item, index) => {
-            if (item.link) {
-                return  <li key={item.main}>
-                            <Link 
-                                target={item.link.startsWith("http") ? "_blank" : "_self"}  
-                                to={item.link}>{t(item.main)}
-                            </Link>
-                        </li>
-            }
-            else {
-                return <li key={item.main} 
-                    className="cn-dropdown-item has-down"
-                    onClick={(e) => toggleSubMenu(index, e)}>
-                        <a>{t(item.main)}</a>
-                        <ul className="dropdown">
-                            {navItemList(item.subs)}
-                        </ul>
-                </li>
-            }
-        })
-    }
-
-
-
     //JSX represent the header element
     return (
         <header className="header-area">
@@ -263,7 +160,7 @@ const Header = (prop) => {
                                     </div>
                                 </div>
                                 <div className="top-header-meta">
-                                    <Link to="/mass-schedule" className="email-address"><i className="fas fa-calendar-alt" aria-hidden="true" ref={massSchedule}></i><span>{t("header.top.massSchedule")}</span></Link>
+                                    <a href="/massSchedule" className="email-address"><i className="fas fa-calendar-alt" aria-hidden="true" ref={massSchedule}></i><span>{t("header.top.massSchedule")}</span></a>
                                     <a href="mailto:info@hvmatl.org" className="email-address"><i className="fas fa-envelope" aria-hidden="true" ref={email}></i> <span>info@hvmatl.org</span></a>
                                     <a href="tel:770-921-0077" className="phone"><i className="fas fa-phone" aria-hidden="true" ref= {phone}></i> <span>770-921-0077</span></a>
                                 </div>
@@ -277,7 +174,7 @@ const Header = (prop) => {
                     <div className="classy-nav-container breakpoint-off" ref={navbar}>
                         <div className="container">
                             <nav className="classy-navbar justify-content-between" id="croseNav">
-                                <Link to="/" className="nav-brand"><img src={logo} alt=""/></Link>
+                                <a href="/" className="nav-brand"><img src={logo} alt=""/></a>
                                 <div className="classy-navbar-toggler" onClick={activateSidebar}>
                                     <a href="https://giving.parishsoft.com/App/Giving/holy4545250" className="crose-btn" onClick={(e) => displayModal(e, "Huong dan Donation", "img/core-img/donation_instruction.jpg")}><i className="fas fa-donate"/> OFFERING</a>
                                     <span className="navbarToggler" ref={navbarToggler}><span/><span/><span/></span>
@@ -288,7 +185,65 @@ const Header = (prop) => {
                                     </div>
                                     <div className="classynav">
                                         <ul ref={navbarItem}>
-                                            {navItem(navItems)}
+                                            <li className="cn-dropdown-item has-down" onClick={(e) => toggleSubMenu(0, e)}><a href="/#">{t("header.dropdownMenuOne.dropdownHeading")}</a>
+                                                <ul className="dropdown">
+                                                    <li><a href="/">{t("header.dropdownMenuOne.item1")}</a></li>
+                                                    <li><a href="/about">{t("header.dropdownMenuOne.item2")}</a></li>
+                                                    <li><a href="/history">{t("header.dropdownMenuOne.item3")}</a></li>
+                                                    <li><a href="/saint">{t("header.dropdownMenuOne.item4")}</a></li>
+                                                    <li><a href="/clergy-list">{t("header.dropdownMenuOne.item5")}</a></li>
+                                                    <li><a href="/staff">{t("header.dropdownMenuOne.item6")}</a></li>
+                                                </ul>
+                                                <span className="dd-trigger"/>
+                                            </li>
+                                            <li className="cn-dropdown-item has-down" onClick={(e) => toggleSubMenu(1, e)}><a href="/#">{t("header.dropdownMenuTwo.dropdownHeading")}</a>
+                                                <ul className="dropdown">
+                                                    <li><a href="/activities">{t("header.dropdownMenuTwo.item1")}</a></li>
+                                                    <li><a href="/printed-calendar">{t("header.dropdownMenuTwo.item2")}</a></li>
+                                                    <li><a href="/covid19">{t("header.dropdownMenuTwo.item3")}</a></li>
+                                                    <li><a href="/thieu-nhi">{t("header.dropdownMenuTwo.item4")}</a></li>
+                                                    <li><a href="https://fallfestival.hvmatl.org/">{t("header.dropdownMenuTwo.item5")}</a></li>
+                                                    <li><a href="/ChristmasFestival">{t("header.dropdownMenuTwo.item6")}</a></li>
+                                                </ul>
+                                                <span className="dd-trigger"/>
+                                            </li>
+                                            <li className="cn-dropdown-item has-down" onClick={(e) => toggleSubMenu(2, e)}>
+                                                <a href="/#">{t("header.dropdownMenuThree.dropdownHeading")}</a>
+                                                <ul className="dropdown">
+                                                <li><a href="/Org">{t("header.dropdownMenuThree.item1")}</a></li>
+                                                    <li><a href="/departments/KCS">{t("header.dropdownMenuThree.item2")}</a></li>
+                                                    <li><a href="/departments/KDS">{t("header.dropdownMenuThree.item3")}</a></li>
+                                                    <li className="KGD"><a href="/departments/KGD">{t("header.dropdownMenuThree.item4")}</a>
+                                                        <ul>
+                                                            <li>
+                                                                <a href='/st-joseph'>{t("header.dropdownMenuThree.subItem1")}</a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="/VietHong"><i>{t("header.dropdownMenuThree.subItem2")}</i></a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="/departments/KHC">{t("header.dropdownMenuThree.item5")}</a></li>
+                                                    <li><a href="/departments/KPT">{t("header.dropdownMenuThree.item6")}</a></li>
+                                                    <li><a href="/departments/KTG">{t("header.dropdownMenuThree.item7")}</a></li>
+                                                    <li><a href="/departments/KQT">{t("header.dropdownMenuThree.item8")}</a></li>
+                                                    <li><a href="/departments/KGQ">{t("header.dropdownMenuThree.item9")}</a></li>
+                                                </ul>
+                                                <span className="dd-trigger"></span>
+                                            </li>
+                                            <li className="cn-dropdown-item has-down" onClick={(e) => toggleSubMenu(3, e)}>
+                                                <a href="/#">{t("header.dropdownMenuFour.dropdownHeading")}</a>
+                                                <ul className="dropdown">
+                                                    <li><a href="/weeklyNews">{t("header.dropdownMenuFour.item1")}</a></li>
+                                                    <li><a href="/Articles">{t("header.dropdownMenuFour.item2")}</a></li>
+                                                    <li><a href="/catholic_teaching">{t("header.dropdownMenuFour.item3")}</a></li>
+                                                    <li><a href="/photos">{t("header.dropdownMenuFour.item4")}</a></li>
+                                                    <li><a href="/forms">{t("header.dropdownMenuFour.item5")}</a></li>
+                                                    <li><a href="/PrayerRequest">{t("header.dropdownMenuFour.item6")}</a></li>
+                                                </ul>
+                                                <span className="dd-trigger"/>
+                                            </li>
+                                            <li><a href="/contact">{t("header.dropdownMenuFive.dropdownHeading")}</a></li>
                                         </ul>
                                         <a href="https://giving.parishsoft.com/App/Giving/holy4545250" className="crose-btn header-btn" onClick={(e) => displayModal(e, "Huong dan Donation", "img/core-img/donation_instruction.jpg")}><i className="fas fa-donate"/>  {t("header.donation")}</a>
                                     </div>
@@ -297,13 +252,7 @@ const Header = (prop) => {
                         </div>
                         {/* <EmergencyEvent emergency={'emergency' in prop ? prop.emergency : false} message={prop.emergencyMsg} url={prop.url}/> */}
                         {/* <HcmtEvent hcmt={'hcmt' in prop ? prop.hcmt : true} message={prop.hcmtMsg} url={prop.url}/> */}
-                        <BannerMsg 
-                            banner={'banner' in prop ? prop.banner : false} 
-                            message={prop.bannerMsg} 
-                            button1Text={prop.button1Text}
-                            button2Text={prop.button2Text}
-                            url={prop.url}
-                        />
+                        <BannerMsg banner={'banner' in prop ? prop.banner : false} message={prop.bannerMsg} url={prop.url}/>
                     </div>
                 </div>
             </div>
