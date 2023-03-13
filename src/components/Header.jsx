@@ -219,7 +219,7 @@ const Header = (prop) => {
                                                                 <a href='/st-joseph'>{t("header.dropdownMenuThree.subItem1")}</a>
                                                             </li>
                                                             <li>
-                                                                <a href="/VietHong"><i>{t("header.dropdownMenuThree.subItem2")}</i></a>
+                                                                <a href="/VietHong">{t("header.dropdownMenuThree.subItem2")}</a>
                                                             </li>
                                                         </ul>
                                                     </li>

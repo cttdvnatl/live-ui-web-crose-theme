@@ -34,11 +34,9 @@ const StJoseph = () => {
                 {t('stjoseph.home.line19')} <br/>
                 {t('stjoseph.home.line20')} <br/><br/>
                 {t('stjoseph.home.line21')} <br/><br/>
-                {t('stjoseph.home.line22')} <br/>
-                <br/><br/>
+                {t('stjoseph.home.line22')} <br/><br/>
                 </h5>
                 <div className="container-fluid text-center">
-                    <h2>{t("stjoseph.home.title")}</h2>
                     <p id="viet-ngu" style={{width: '65%', margin: 'auto'}}>{t('stjoseph.home.announcement')}</p>
                     <br/>
                     <StJosephCalendar />
