@@ -4,7 +4,8 @@
   "homepage": "https://hvmatl.org",
   "private": true,
   "engines": {
-    "node": "18.12.1"
+    "node": "v16.19.1",
+    "npm": "8.19.3"
   },
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
