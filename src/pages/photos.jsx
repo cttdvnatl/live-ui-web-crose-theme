@@ -4,7 +4,7 @@ import Preloader from "../components/Preloader";
 import Footer from "../components/Footer";
 import content from "../database/photos.json";
 
-const photos = (prop) => {
+const Photos = (prop) => {
     return (
         <div>
             <Preloader/>
@@ -40,4 +40,4 @@ const photos = (prop) => {
         </div>
     );
 };
-export default photos;
+export default Photos;
