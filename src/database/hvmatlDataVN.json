@@ -91,6 +91,11 @@
     "top": {
       "massSchedule": "Giờ Lễ"
     },
+    "banner": {
+      "message": "Ghi Danh Niên Học 2023-2024",
+      "button1Text": "Giáo Lý",
+      "button2Text": "Việt Ngữ"
+    },
     "dropdownMenuOne": {
       "dropdownHeading": "GIÁO XỨ",
       "item1": "Trang Chủ",
