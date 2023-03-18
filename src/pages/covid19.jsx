@@ -9,6 +9,7 @@ const Covid19 = (prop) => {
     const t = useTranslation()
     return (
         <div>
+            <Preloader/>
             <Header/>
             <section className="section-padding-100">
                 <h2 className="section-heading">{t("covid19.pageTitle")}</h2>

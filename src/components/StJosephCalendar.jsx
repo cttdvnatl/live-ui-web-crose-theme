@@ -1,5 +1,5 @@
 import React, {useState, useCallback, useEffect} from 'react';
-import Ratio from 'react-bootstrap/Ratio';
+import ResponsiveEmbed from 'react-bootstrap/ResponsiveEmbed';
 
 const StJosephCalendar = (prop) => {
     const [calendar, setCalendar] = useState("");
@@ -16,9 +16,9 @@ const StJosephCalendar = (prop) => {
     }, [resizeCallback]);
 
     return(
-    <Ratio>
-        <object id="viet-hong-calendar" title="VietHong" data={calendar} style={{borderWidth:0}} width="70%" height="650" frameBorder="0" scrolling="no"/>
-    </Ratio>
+    <ResponsiveEmbed>
+        <object id="viet-hong-calendar" title="VietHong" data={calendar} style={{borderWidth:0}} width="70%" height="650" frameborder="0" scrolling="no"/>
+    </ResponsiveEmbed>
     );
 };
 

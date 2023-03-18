@@ -1,8 +1,7 @@
 import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-
-const CatholicTeaching = () => {
+const Catholic_teaching = () => {
     return (
         <div>
             <Header/>
@@ -39,4 +38,4 @@ const CatholicTeaching = () => {
     );
 }
 
-export default CatholicTeaching;
+export default Catholic_teaching;

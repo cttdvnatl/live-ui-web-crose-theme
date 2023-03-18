@@ -8,6 +8,7 @@ const MassSchedule = (prop) => {
     const t = useTranslation()
     return (
         <div>
+            <Preloader/>
             <Header/>
             <section className="section-padding-100">
                 <div className="container">

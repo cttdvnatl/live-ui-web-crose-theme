@@ -6,6 +6,7 @@ import Footer from "../components/Footer";
 const LearnBible = () => {
     return (
         <div>
+            <Preloader/>
             <Header/>
             <section className="about-us-area about-page section-padding-25">
                 <h2 className="section-heading"> Giáo Lý của Giáo Hội Công Giáo.</h2>
