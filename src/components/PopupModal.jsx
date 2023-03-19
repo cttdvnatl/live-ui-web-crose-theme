@@ -1,7 +1,8 @@
 import React from 'react';
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
-import ResponsiveEmbed from "react-bootstrap/ResponsiveEmbed";
+import { Ratio } from 'react-bootstrap';
+
 const PopupModal = (prop) => {
     return (
         <Modal show={prop.show} size="xl" onHide={prop.onHide}>
@@ -13,9 +14,9 @@ const PopupModal = (prop) => {
             <Modal.Body>
                 {prop.content.hasOwnProperty('fileExt') && prop.content.fileExt === 'jpg' ?
                     <img src={prop.content.url} alt="donation_instruction"/> :
-                    <ResponsiveEmbed>
+                    <Ratio>
                         <embed aria-label={prop.content.title} src={prop.content.url}/>
-                    </ResponsiveEmbed>}
+                    </Ratio>}
             </Modal.Body>
             {prop.content.confirm !== undefined && prop.content.confirm !== "" ?
                 <Modal.Footer>

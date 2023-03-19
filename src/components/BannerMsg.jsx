@@ -22,14 +22,18 @@ const BannerMsg = (prop) => {
         <div className="container-fluid" style={{"backgroundColor": "#9932CC", "display":"block"}}>
             <div className="row">
                 {/* <!-- Section Heading --> */}
-                <div className="col-12">
-                    <div className="text-center" style={{"marginTop":".5rem"}}>
+                <div className="col-12 text-center my-2">
+                    <div>
                     <a href={prop.url}>
                             {msgSize === 'lg' ?
-                                <h2 style={{"color":"#FFFACD"}}>{"***    Ghi danh buổi Hiệp Hành của Giáo Xứ     ***"}</h2> :
-                                <h5 style={{"color":"#FFFACD"}}>{"***    Ghi danh buổi Hiệp Hành của Giáo Xứ     ***"}</h5>
+                                <h2 style={{"color":"#FFFACD"}}>***{prop.bannerMsg}***</h2> :
+                                <h5 style={{"color":"#FFFACD"}}>***{prop.bannerMsg}***</h5>
                             }
                         </a>                   
+                    </div>
+                    <div>
+                        {prop.button1Text ? <button onClick={prop.button1Action} class="btn btn-outline-light mx-2">{prop.button1Text}</button> : null }
+                        {prop.button2Text ? <button onClick={prop.button2Action} class="btn btn-outline-light mx-2">{prop.button2Text}</button> : null }
                     </div>
                 </div>
             </div>

@@ -89,6 +89,11 @@
     "top": {
       "massSchedule": "Mass Times"
     },
+    "banner": {
+      "message": "Sign Up for 2023-2024 School Year",
+      "button1Text": "Catholic Education",
+      "button2Text": "Vietnamese"
+    },
     "dropdownMenuOne": {
       "dropdownHeading": "Parish",
       "item1": "Homepage",
