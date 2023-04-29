@@ -2,12 +2,12 @@ import axios from 'axios';
 import * as actionType from '../actionType';
 
 //Auth dispatch
-export const authenticate = (dispatch, credentials) => axios.post('https://hvmatl-backend.herokuapp.com/authentication', credentials)
+export const authenticate = (dispatch, credentials) => axios.post('http://3.83.23.41:3000/authentication', credentials)
     .then(res => dispatch({type: actionType.AUTH, token: res.data.token}));
 
 export const restoreToken = (dispatch, token) => dispatch({type: actionType.AUTH, token: token})
 //Get WeeklyNews
-export const getWeeklyNews = (dispatch, from, to, token) => axios.get('https://hvmatl-backend.herokuapp.com/weeklyNews', {
+export const getWeeklyNews = (dispatch, from, to, token) => axios.get('http://3.83.23.41:3000/weeklyNews', {
         headers: {
             'Authorization': `Bearer ${token}`
         },
@@ -18,7 +18,7 @@ export const getWeeklyNews = (dispatch, from, to, token) => axios.get('https://h
     }).then(res => dispatch({type: actionType.GET_WEEKLY_NEWS, data: res.data}));
 
 //Get Carousel Slides
-export const getSlides = (dispatch, date, token) => axios.get('https://hvmatl-backend.herokuapp.com/carousel', {
+export const getSlides = (dispatch, date, token) => axios.get('http://3.83.23.41:3000/carousel', {
         headers: {
             'Authorization': `Bearer ${token}`
         },
@@ -27,7 +27,7 @@ export const getSlides = (dispatch, date, token) => axios.get('https://hvmatl-ba
         }
     }).then(res => dispatch({type:actionType.GET_SLIDES, data: res.data}));
 
-export const submitForm = (dispatch, formType, formData, token, callback) => axios.post('http://hvmatl-backend.herokuapp.com/allSoulsFeast', formData,{
+export const submitForm = (dispatch, formType, formData, token, callback) => axios.post('http://3.83.23.41:3000/allSoulsFeast', formData,{
     headers: {
         'Authorization': `Bearer ${token}`
     }

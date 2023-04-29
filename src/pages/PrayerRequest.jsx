@@ -31,11 +31,11 @@ const PrayerRequest = () => {
 
     const submit = (event) => {
         event.preventDefault();
-        axios.post('https://hvmatl-backend.herokuapp.com/authentication', {
+        axios.post('http://3.83.23.41:3000/authentication', {
             username: 'anonymous',
             password: 'anonymous'
         }).then(auth => {
-            axios.post('https://hvmatl-backend.herokuapp.com/prayerRequest', getPrayerReq, {
+            axios.post('http://3.83.23.41:3000/prayerRequest', getPrayerReq, {
                 headers: {
                     'Authorization': `Bearer ${auth.data.token}`,
                 }
