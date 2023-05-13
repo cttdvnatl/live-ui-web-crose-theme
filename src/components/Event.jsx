@@ -19,7 +19,7 @@ const Event = (prop) => {
         setShow(false);
         setContent({});
     };
-
+    //Force Rebuild
     // useEffect(() => {
     //     const now = new Date();
     //     const from = new Date(now.setUTCHours(0,0,0,0) - now.getUTCDay() * 86400000);
