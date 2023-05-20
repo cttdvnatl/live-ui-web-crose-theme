@@ -1,50 +1,54 @@
-import React, {useEffect} from "react";
-import {connect} from 'react-redux';
-import {getSlides} from '../store/dispatch/dispatch';
+import React, {useEffect, useState} from "react";
+import axios from 'axios';
 import Carousel from 'react-bootstrap/Carousel';
 import '../css/carousel.css';
 
 const CustomCarousel = (props) => {
+    
+    const [data, setData] = useState(null) 
+    
     useEffect(() => {
-        if((sessionStorage.getItem('token') || props.token) && !props.data.length) {
-            (async () => {
-                await props.getSlides('04-05-2020', props.token || sessionStorage.getItem('token'));
-            })();
-        }
-    }, [props]);
-
-    return (
-        <Carousel interval="10000">
-            {props.data.map((item, index) => {
-                return(
-                    <Carousel.Item key={index}>
-                        {item.image !== undefined ? 
-                            <img src={item.image} alt={item.image.slice(item.image.lastIndexOf('/') + 1)}/> : null}
-                        <Carousel.Caption>
-                            <div>
-                                {/* {item.title.map((title, idx) => <h1 className="animated fadeInUpShort" key={idx}>{title}</h1>)} */}
-                                {item.title.map((title, idx) => <h1 className=" " key={idx}>{title}</h1>)}
-                                <div className=" ">
-                                    {item.content !== undefined ? item.content.map((content, i) => <p key={i} dangerouslySetInnerHTML={{__html: content}}/>) : null}
+        axios.get("https://backend.hvmatl.org/carousel",
+            {
+                auth: {
+                    username: "user",
+                    password: "9ewqt-y823-4twh8-42hu89"
+                }
+            }
+        )
+        .then((res) => {
+            console.log(res)
+            setData(res.data.event);
+        })
+    }, [])
+    
+    if (data) {
+        return (
+            <Carousel interval="10000">
+                {data.map((item, index) => {
+                    return(
+                        <Carousel.Item key={index}>
+                            {item.image !== undefined ? 
+                                <img src={item.image} alt={item.image.slice(item.image.lastIndexOf('/') + 1)}/> : null}
+                            <Carousel.Caption>
+                                <div>
+                                    {/* {item.title.map((title, idx) => <h1 className="animated fadeInUpShort" key={idx}>{title}</h1>)} */}
+                                    {item.title.map((title, idx) => <h1 className=" " key={idx}>{title}</h1>)}
+                                    <div className=" ">
+                                        {item.content !== undefined ? item.content.map((content, i) => <p key={i} dangerouslySetInnerHTML={{__html: content}}/>) : null}
+                                    </div>
+                                    {item.button !== undefined ? 
+                                        // <a href={item.button.action} className="crose-btn animated fadeInUpShort">{item.button.title}</a> : null}
+                                        <a href={item.button.action} className=" ">{item.button.title}</a> : null}
                                 </div>
-                                {item.button !== undefined ? 
-                                    // <a href={item.button.action} className="crose-btn animated fadeInUpShort">{item.button.title}</a> : null}
-                                    <a href={item.button.action} className=" ">{item.button.title}</a> : null}
-                            </div>
-                        </Carousel.Caption>
-                </Carousel.Item>
-                );
-            })}
-        </Carousel>
-    )
+                            </Carousel.Caption>
+                    </Carousel.Item>
+                    );
+                })}
+            </Carousel>
+        )
+    }
+
 };
 
-const mapStateToProps = (state) => ({
-    token: state.auth.token,
-    data: state.carousel.data
-});
-
-const mapDispatchToProps = (dispatch) => ({
-    getSlides: (date, token) => getSlides(dispatch, date, token)
-})
-export default connect(mapStateToProps, mapDispatchToProps)(CustomCarousel);
+export default CustomCarousel;

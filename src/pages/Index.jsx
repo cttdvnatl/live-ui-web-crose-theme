@@ -6,14 +6,14 @@ import Footer from '../components/Footer';
 import Info from '../components/Info';
 import Event from '../components/Event';
 import Calendar from "../components/Calendar";
-import { useTranslation } from 'react-multi-lang';
+//import { useTranslation } from 'react-multi-lang';
 
 const Index = () => {
-    const t = useTranslation()
+    //const t = useTranslation()
     return(
         <div>
             <Preloader/>
-            <Header banner={false} bannerMsg={t("")} url=""/>
+            <Header banner={true} url=""/>
             <CustomCarousel/>
             <Info/>
             <Event/>
