@@ -24,13 +24,13 @@ const Event = (prop) => {
     //     const now = new Date();
     //     const from = new Date(now.setUTCHours(0,0,0,0) - now.getUTCDay() * 86400000);
     //     const to = new Date(now.setUTCHours(0,0,0,0) + (6 - now.getUTCDay()) * 86400000);
-    //     axios.post('https://hvmatl-backend.herokuapp.com/authentication', {
+    //     axios.post('https://hvmatlbackend.com/authentication', {
     //         username: 'anonymous',
     //         password: 'anonymous'
     //     }).then(auth => {
     //         axios({
     //             method: 'GET',
-    //             url:'https://hvmatl-backend.herokuapp.com/weeklyEvent',
+    //             url:'https://hvmatlbackend.com/weeklyEvent',
     //             headers: {
     //                 'Authorization': `Bearer ${auth.data.token}`
     //             },

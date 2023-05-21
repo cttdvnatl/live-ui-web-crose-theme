@@ -16,11 +16,11 @@ const PrayerRequestList = () => {
         setDateRange(dateRange);
         if(dateRange.from !== "" && dateRange.to !== "" &&
             new Date(dateRange.to).getTime() - new Date(dateRange.from).getTime() > 0) {
-            axios.post('https://hvmatl-backend.herokuapp.com/authentication', {
+            axios.post('https://hvmatlbackend.com/authentication', {
                 username: 'anonymous',
                 password: 'anonymous'
             }).then(auth => {
-                axios.get('https://hvmatl-backend.herokuapp.com/prayerRequest', {
+                axios.get('https://hvmatlbackend.com/prayerRequest', {
                     headers: {
                         'Authorization': `Bearer ${auth.data.token}`,
                     },
