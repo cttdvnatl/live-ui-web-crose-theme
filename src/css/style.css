@@ -2047,7 +2047,7 @@ a.nav-brand > img {
   color: white;
   background-color: white;
   width: 90%;
-  height: 80vh;
+  height: 90vh;
   box-shadow: 2px 5px 10px 1px black;
   border-radius: 10px;
   overflow: scroll;
@@ -2056,16 +2056,17 @@ a.nav-brand > img {
 .weekly-news-popup-container .weekly-news-popup iframe {
   z-index: 2;
   margin: auto;
-  margin-top: 50px;
   padding: 5px;
   height: 80vh;
+  width: 90%
 }
 
 .weekly-news-popup-container .weekly-news-popup .close-btn {
   color: #636363;
+  display: flex;
   position: absolute;
   right: 0;
-  padding: 10px;
+  padding: 5px;
   cursor: pointer;
 }
 
