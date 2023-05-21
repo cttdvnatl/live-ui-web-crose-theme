@@ -1,22 +1,57 @@
-import React, {useEffect} from 'react';
+import React, {useEffect, useState} from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import Preloader from '../components/Preloader';
-import {connect} from 'react-redux';
-import * as actionType from '../store/actionType';
-import {getWeeklyNews} from '../store/dispatch/dispatch';
-import PopupModal from "../components/PopupModal";
+import axios from 'axios';
+
+const Popup = (props) => {
+    return (
+        <>
+        <iframe width="1000" src={props.data.src} title={props.data.title}></iframe>
+        </>
+    )
+}
+
 const WeeklyNews = (props) => {
+
+    const [data, setData] = useState([]) 
+    const [popupData, setPopupData] = useState(
+        {
+            title: "",
+            src: "",
+        }
+    ) 
+    const [displayPopup, setDisplayPopup] = useState({
+        opacity: 0,
+    })
+
     const toggleModal = (e, title, content) => {
         e.preventDefault();
-        props.toggleModal({
-            title: title,
-            url: content
-        });
+        setPopupData(
+            {
+                title: title,
+                src: content,
+            }
+        )
+        setDisplayPopup({
+            opacity: 100
+        })
     };
+    
+    const unToggleModal = () => {
+        setPopupData(
+            {
+                title: "",
+                src: "",
+            }
+        )
+        setDisplayPopup({
+            opacity: 0
+        })
+    }
 
     useEffect(() => {
-        if(sessionStorage.getItem('token') && !props.data.length) {
+        if(!data.length) {
             let mtplr;
             const from =  new Date(new Date().setUTCHours(0,0,0,0));
             from.setUTCMonth(from.getUTCMonth()-1);
@@ -26,63 +61,83 @@ const WeeklyNews = (props) => {
                 mtplr = from.getUTCMonth() + 1 === 8 ? 62 : 61;
             }
             const to = new Date(from.getTime() + mtplr * 86400000);
-            (async () => (await props.getWeeklyNews(from, to, sessionStorage.getItem('token'))))();
-        }
-    }, [props]);
+            
 
-    return (
-        <div>
-            <Preloader/>
-            <Header/>
-            <section className="about-area section-padding-100-0">
-                {[new Date().getMonth() + 1, new Date().getMonth()].map(month => {
-                    month = month === 0 ? 12 : month;
-                    return (
-                        <div className="container" key={month}>
-                            <div className="row">
-                                <div className="col-12">
-                                    <div className="section-heading">
-                                        <h2><b>Thông tin mục vụ tháng {month}</b></h2>
+            (async () => (await 
+                axios.post("https://backend.hvmatl.org/weekly-news", 
+                {
+                    from: from,
+                    to: to 
+                },
+                {
+                    auth: {
+                        username: "user",
+                        password: "9ewqt-y823-4twh8-42hu89"
+                    }
+                }
+                )
+                .then((res) => {
+                    console.log(from)
+                    console.log(to)
+
+                    console.log(res.data)
+                    setData(res.data);
+                })
+            ))();
+        }
+    }, [data.length, data]);
+
+    if (data) {
+        return (
+            <div>
+                <Preloader/>
+                <Header/>
+                <div style={displayPopup} className="weekly-news-popup-container">
+                    <div className="weekly-news-popup">
+                        <Popup data={popupData}/>
+                        <h1 onClick={() => unToggleModal()} className='close-btn'>x</h1>
+                    </div>
+                </div>
+                <section className="about-area section-padding-100-0">
+                    {[new Date().getMonth() + 1, new Date().getMonth()].map(month => {
+                        month = month === 0 ? 12 : month;
+                        return (
+                            <div className="container" key={month}>
+                                <div className="row">
+                                    <div className="col-12">
+                                        <div className="section-heading">
+                                            <h2><b>Thông tin mục vụ tháng {month}</b></h2>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div className="row about-content justify-content-center">
-                                {props.data.map(
-                                    (weeklyNews,idx) =>  {
-                                        let targetMonth = new Date(weeklyNews.date).getMonth();
-                                        targetMonth = targetMonth === 0 ? 1 : targetMonth + 1;
-                                        if(targetMonth === month) {
-                                            return (
-                                            <div className="col-12 col-sm-6 col-md-4 col-lg-3" key={idx}>
-                                                <div className="about-us-content text-center mb-100">
-                                                    <a href="/" onClick={(e) => toggleModal(e, weeklyNews.title, weeklyNews.src)}><img src={weeklyNews.image} alt=""/></a>
-                                                    <div className="about-text text-center">
-                                                        <a href="/" onClick={(e) => toggleModal(e, weeklyNews.title, weeklyNews.src)}><h4>{weeklyNews.title}</h4></a>
+                                <div className="row about-content justify-content-center">
+                                    {data.map(
+                                        (weeklyNews,idx) =>  {
+                                            let targetMonth = new Date(weeklyNews.date).getMonth();
+                                            targetMonth = targetMonth === 0 ? 1 : targetMonth + 1;
+                                            if(targetMonth === month) {
+                                                return (
+                                                <div className="col-12 col-sm-6 col-md-4 col-lg-3" key={idx}>
+                                                    <div className="about-us-content text-center mb-100">
+                                                        <a href="/" onClick={(e) => toggleModal(e, weeklyNews.title, weeklyNews.src)}><img src={weeklyNews.image} alt=""/></a>
+                                                        <div className="about-text text-center">
+                                                            <a href="/" onClick={(e) => toggleModal(e, weeklyNews.title, weeklyNews.src)}><h4>{weeklyNews.title}</h4></a>
+                                                        </div>
                                                     </div>
-                                                </div>
-                                            </div>);
-                                        }
-                                        return null;
-                                    })
-                                }
+                                                </div>);
+                                            }
+                                            return null;
+                                        })
+                                    }
+                                </div>
                             </div>
-                        </div>
-                    );
-                })}
-                {props.showPopup.show ? <PopupModal show={props.showPopup.show} content={props.showPopup.content} onHide={() => props.toggleModal({})}/> : null}
-            </section>
-            <Footer/>
-        </div>
-    );
+                        );
+                    })}
+                </section>
+                <Footer/>
+            </div>
+        );
+    }
 };
 
-const mapStateToProps = (state) => ({
-    data: state.weeklyNews.data,
-    showPopup: state.weeklyNews.showPopup
-});
-
-const mapDispatchToProps = (dispatch) => ({
-    getWeeklyNews: (fromDate, toDate, token = null) => getWeeklyNews(dispatch, fromDate, toDate, token),
-    toggleModal: (content) => dispatch({type: actionType.TOGGLE_WEEKLY_NEWS_POPUP, content:content})
-})
-export default connect(mapStateToProps, mapDispatchToProps)(WeeklyNews);
+export default WeeklyNews;

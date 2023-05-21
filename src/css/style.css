@@ -2030,6 +2030,45 @@ a.nav-brand > img {
   line-height: 75px;
   font-size: 30px;
 }
+.weekly-news-popup-container {
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  transition: opacity .2s;
+}
+
+.weekly-news-popup-container .weekly-news-popup {
+  z-index: 2;
+  display: flex;
+  position: absolute;
+  padding-left: auto;
+  padding-right: auto;
+  color: white;
+  background-color: white;
+  width: 90%;
+  height: 80vh;
+  box-shadow: 2px 5px 10px 1px black;
+  border-radius: 10px;
+  overflow: scroll;
+}
+
+.weekly-news-popup-container .weekly-news-popup iframe {
+  z-index: 2;
+  margin: auto;
+  margin-top: 50px;
+  padding: 5px;
+  height: 80vh;
+}
+
+.weekly-news-popup-container .weekly-news-popup .close-btn {
+  color: #636363;
+  position: absolute;
+  right: 0;
+  padding: 10px;
+  cursor: pointer;
+}
+
 /* Tin Tuc Cong Giao Area CSS */
 .tintuc {
   margin: 5% 15%;
