@@ -2041,7 +2041,7 @@ a.nav-brand > img {
 .weekly-news-popup-container .weekly-news-popup {
   z-index: 2;
   display: flex;
-  position: absolute;
+  position: fixed;
   padding-left: auto;
   padding-right: auto;
   color: white;
@@ -2051,6 +2051,7 @@ a.nav-brand > img {
   box-shadow: 2px 5px 10px 1px black;
   border-radius: 10px;
   overflow: scroll;
+  top: 150px;
 }
 
 .weekly-news-popup-container .weekly-news-popup iframe {
