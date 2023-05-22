@@ -4,6 +4,7 @@ import {connect} from 'react-redux';
 import {getWeeklyNews} from '../store/dispatch/dispatch';
 import AllSoulsReqPopupModal from "./AllSoulsReqPopupModal";
 import ConfirmModal from "./ConfirmModal";
+import axios from 'axios';
 
 const Info = (props) => {
     const t = useTranslation()
@@ -16,6 +17,11 @@ const Info = (props) => {
             message: ""
         }
     });
+    
+    const [data, setData] = useState([]) 
+
+
+
     const showPopup = (e) => {
         e.preventDefault();
         setShow(true);
@@ -40,6 +46,17 @@ const Info = (props) => {
     }
 
     useEffect(() => {
+        axios.get("https://backend.hvmatl.org/latest-weekly-news",
+        {
+            auth: {
+                username: "user",
+                password: "9ewqt-y823-4twh8-42hu89"
+            }
+        }
+        )
+        .then((res) => {
+            setData(res.data);
+        })
         if((sessionStorage.getItem('token') || props.token) && !props.image) {
             (async () =>
                 await props.getImage(
@@ -78,7 +95,7 @@ const Info = (props) => {
                     {/* <!-- Single About Us Content --> */}
                     <div className="col-12 col-md-6 col-lg-3">
                         <div className="about-us-content mb-100">
-                            <a href="/weeklyNews"><img id="weeklyNews" src={props.image} alt=""/></a>
+                            <a href="/weeklyNews"><img id="weeklyNews" src={data.image} alt=""/></a>
                             <div className="about-text">
                                 <a href="/weeklyNews"><h4>{t("info.item2.heading")}</h4></a>
                                 <p>{t("info.item2.description")}</p>
