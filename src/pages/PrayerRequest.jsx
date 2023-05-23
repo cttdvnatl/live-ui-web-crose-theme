@@ -31,26 +31,33 @@ const PrayerRequest = () => {
 
     const submit = (event) => {
         event.preventDefault();
-        axios.post('https://hvmatlbackend.com/authentication', {
-            username: 'anonymous',
-            password: 'anonymous'
-        }).then(auth => {
-            axios.post('https://hvmatlbackend.com/prayerRequest', getPrayerReq, {
-                headers: {
-                    'Authorization': `Bearer ${auth.data.token}`,
+        axios.post('https://backend.hvmatl.org/prayer-request/submit', getPrayerReq, 
+            {
+                auth: {
+                    username: "user",
+                    password: "9ewqt-y823-4twh8-42hu89"
                 }
-            }).then(() => {
+            }
+        ).then((res) => {
+            if (res.data === "successful") {
                 setShow(true);
                 setModalContent({
                     title: "Success",
                     content: "Prayer Request Submitted !"
                 });
-            }).catch(() => {
+            }
+            else {
                 setShow(true);
                 setModalContent({
                     title: "Failed",
-                    content: "Prayer Request Failed To Submit. Please try again later"
+                    content: "Prayer Request Not Submitted !"
                 });
+            }
+        }).catch(() => {
+            setShow(true);
+            setModalContent({
+                title: "Failed",
+                content: "Prayer Request Failed To Submit. Please try again later"
             });
         });
     }
@@ -88,7 +95,7 @@ const PrayerRequest = () => {
                                         <div className="col-12 col-lg-4 col-md-6 col-sm-12">
                                             <div className="form-group">
                                                 <label htmlFor="phone">Phone:</label>
-                                                <input type="tel" name="phone" pattern="[0-9]{10}" onChange={(e) => formChangeHandler(e, "phone")} className="form-control" id="contact-number" placeholder="(404) 000 0000"/>
+                                                <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" onChange={(e) => formChangeHandler(e, "phone")} className="form-control" id="contact-number" placeholder="000-000-0000"/>
                                             </div>
                                         </div>
                                         <div className="col-12 col-lg-4 col-md-6 col-sm-12">
