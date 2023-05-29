@@ -7,7 +7,7 @@ import axios from 'axios';
 const Popup = (props) => {
     return (
         <>
-        <iframe src={props.data.src} title={props.data.title}></iframe>
+        <iframe className="file" src={props.data.src} title={props.data.title}></iframe>
         </>
     )
 }
