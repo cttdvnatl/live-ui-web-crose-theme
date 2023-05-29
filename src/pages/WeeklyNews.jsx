@@ -64,7 +64,7 @@ const WeeklyNews = (props) => {
             
 
             (async () => (await 
-                axios.post("https://backend.hvmatl.org/weekly-news", 
+                axios.post("https://backend.hvmatl.org/hvmatl-backend-spring/weekly-news", 
                 {
                     from: from,
                     to: to 
