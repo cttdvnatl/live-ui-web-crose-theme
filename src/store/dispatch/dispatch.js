@@ -27,7 +27,7 @@ export const getSlides = (dispatch, date, token) => axios.get('https://hvmatlbac
         }
     }).then(res => dispatch({type:actionType.GET_SLIDES, data: res.data}));
 
-export const submitForm = (dispatch, formType, formData, token, callback) => axios.post('http://hvmatl-backend.herokuapp.com/allSoulsFeast', formData,{
+export const submitForm = (dispatch, formType, formData, token, callback) => axios.post('https://hvmatlbackend.com/allSoulsFeast', formData,{
     headers: {
         'Authorization': `Bearer ${token}`
     }
