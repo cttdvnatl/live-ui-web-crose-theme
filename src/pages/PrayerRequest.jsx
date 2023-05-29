@@ -31,7 +31,7 @@ const PrayerRequest = () => {
 
     const submit = (event) => {
         event.preventDefault();
-        axios.post('https://backend.hvmatl.org/prayer-request/submit', getPrayerReq, 
+        axios.post('https://backend.hvmatl.org/hvmatl-backend-spring/prayer-request/submit', getPrayerReq, 
             {
                 auth: {
                     username: "user",

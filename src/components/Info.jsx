@@ -46,7 +46,7 @@ const Info = (props) => {
     }
 
     useEffect(() => {
-        axios.get("https://backend.hvmatl.org/latest-weekly-news",
+        axios.get("https://backend.hvmatl.org/hvmatl-backend-spring/latest-weekly-news",
         {
             auth: {
                 username: "user",

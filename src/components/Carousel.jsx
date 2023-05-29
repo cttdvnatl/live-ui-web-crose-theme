@@ -8,7 +8,7 @@ const CustomCarousel = (props) => {
     const [data, setData] = useState(null) 
     
     useEffect(() => {
-        axios.get("https://backend.hvmatl.org/carousel",
+        axios.get("https://backend.hvmatl.org/hvmatl-backend-spring/carousel",
             {
                 auth: {
                     username: "user",
