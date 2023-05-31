@@ -12,15 +12,13 @@ const Popup = (props) => {
         props.data.src.charAt(props.data.src.length-3) === "." || 
         props.data.src.charAt(props.data.src.length-4) === "."
     ) {
-        console.log("p")
         return (
             <>
-            <iframe className="file" src={`http://docs.google.com/gview?url=${props.data.src}&embedded=true`} title={props.data.title}></iframe>
+            <iframe className="file" src={`https://docs.google.com/gview?url=${props.data.src}&embedded=true`} title={props.data.title}></iframe>
             </>
         )
     }
     else {
-        console.log("g")
         return (
             <>
             <iframe className="file" src={props.data.src} title={props.data.title}></iframe>
