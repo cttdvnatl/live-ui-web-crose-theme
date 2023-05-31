@@ -5,11 +5,28 @@ import Preloader from '../components/Preloader';
 import axios from 'axios';
 
 const Popup = (props) => {
-    return (
-        <>
-        <iframe className="file" src={props.data.src} title={props.data.title}></iframe>
-        </>
-    )
+    if (
+        props.data.src.charAt(props.data.src.length) === "." || 
+        props.data.src.charAt(props.data.src.length-1) === "." || 
+        props.data.src.charAt(props.data.src.length-2) === "." || 
+        props.data.src.charAt(props.data.src.length-3) === "." || 
+        props.data.src.charAt(props.data.src.length-4) === "."
+    ) {
+        console.log("p")
+        return (
+            <>
+            <iframe className="file" src={`http://docs.google.com/gview?url=${props.data.src}&embedded=true`} title={props.data.title}></iframe>
+            </>
+        )
+    }
+    else {
+        console.log("g")
+        return (
+            <>
+            <iframe className="file" src={props.data.src} title={props.data.title}></iframe>
+            </>
+        )
+    }
 }
 
 const WeeklyNews = (props) => {
