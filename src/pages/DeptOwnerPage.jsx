@@ -3,6 +3,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 //import { useTranslation } from 'react-multi-lang';
 import DeptOwnerContent from '../database/departmentOwners-content';
+import { useParams } from 'react-router-dom';
 
 /*
 const DeptOwnerPage = ({ match }) => {
@@ -34,8 +35,8 @@ const DeptOwnerPage = ({ match }) => {
     );
 }
 */
-const DeptOwnerPage = ({match}) => {
-    const id = match.params.id;
+const DeptOwnerPage = () => {
+    const { id } = useParams();
     const DeptOwnerDetail = DeptOwnerContent.find(DeptOwnerDetail => DeptOwnerDetail.name === id);
     if (!DeptOwnerDetail) return <h1>DeptOwnerDetail does not exist!</h1>
 
