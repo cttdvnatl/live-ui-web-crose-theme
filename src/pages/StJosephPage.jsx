@@ -25,7 +25,7 @@ const StJoseph = () => {
                 {t('stjoseph.home.line10')} <br/>
                 {t('stjoseph.home.line11')} <br/>
                 {t('stjoseph.home.line12')} <br/>
-                {t('stjoseph.home.line13')} <br/>
+                {t('stjoseph.home.line13')} <br/><br/>
                 {t('stjoseph.home.line14')} <br/><br/>
                 {t('stjoseph.home.line15')} <br/><br/>
                 {t('stjoseph.home.line16')} <br/>
