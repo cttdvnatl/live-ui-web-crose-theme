@@ -20,10 +20,11 @@ const VietHong = () => {
                 {t('viethong.home.line5')} <br/>
                 {t('viethong.home.line6')} <br/><br/>
                 {t('viethong.home.line7')} <br/>
-                {t('viethong.home.line8')} <br/><br/>
+                {t('viethong.home.line8')} <br/>
                 {t('viethong.home.line9')} <br/><br/>
-                {t('viethong.home.line10')} <br/>
-                {t('viethong.home.line11')} <br/><br/>
+                {t('viethong.home.line10')} <br/><br/>
+                {t('viethong.home.line11')} <br/>
+                {t('viethong.home.line12')} <br/><br/>
                 </h5>              
                 <div className="container-fluid text-center">
                 <p id="viet-ngu" style={{width: '65%', margin: 'auto'}}>{t('viethong.home.announcement')}</p>
