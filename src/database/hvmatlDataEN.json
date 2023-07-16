@@ -90,8 +90,8 @@
       "massSchedule": "Mass Times"
     },
     "banner": {
-      "message": "Sign Up for 2023-2024 School Year",
-      "button1Text": "Catholic Education",
+      "message": "First Day of 2023-2024 School Year",
+      "button1Text": "Sunday School",
       "button2Text": "Vietnamese"
     },
     "dropdownMenuOne": {
@@ -165,19 +165,10 @@
       "item5": "Documents"
     },
     "home": {
-      "heading": "REGISTRATION FOR 2023-2024 SCHOOL YEAR",
-      "line1": "For New Students",
-      "line2": "Saturday, July 15th, 2023",
-      "line3": "10:15 a.m. to 12:15 p.m.",
-      "line4": "St. Joseph’s Social Hall",
-      "line5": "Holy Vietnamese Martyrs Church ",
-      "line6": "4545-A Timmers Way, Norcross GA 30093",
-      "line7": "Tuition: $100 per NEW student",
-      "line8": "Tuition: $150 per RETURNING student",
-      "line9": "We accept cash or check (no credit card)",
-      "line10": " Please note if registering for a returning student:",
-      "line11": "• We had printed the 2023-2024 school year registration form for each returning student.",
-      "line12": "• Please let us know the class the returning student attended in the 2022-2023 school year.",  
+      "heading": "FIRST DAY OF 2023-2024 SCHOOL YEAR",
+      "line1": "Saturday, August 12th, 2023",
+      "line2": "10:00 a.m.",
+      "line3": "St. Joseph’s Social Hall",
       "announcement": "Please contact us for more information at Viet.Hong.School@hvmatl.org"
     }
   },
@@ -190,28 +181,10 @@
       "item5": "Classes"
     },
     "home": {
-      "heading": "REGISTRATION FOR 2023-2024 SCHOOL YEAR",
-      "line1": "For New Students",
-      "line2": "Sunday, July 16th, 2023",
-      "line3": " 8:30 a.m. to 1:30 p.m.",
-      "line4": " St. Joseph's Social Hall",
-      "line5": " Holy Vietnamese Martyrs Church",
-      "line6": "4545-A Timmers Way, Norcross GA 30093",
-      "line7": "• Tuition: $100 per NEW student",
-      "line8": "• Tuition: $150 per RETURNING student ",
-      "line9": "• Breakfast fee: $80 per student in first, second, third, fourth, fifth, sixth and seventh grade",
-      "line10": "• Annual fee for the Vietnamese Eucharistic Youth Movement: $15",
-      "line11": "• Tuition is waived for the children after the third child, however, ",
-      "line12": "breakfast fee and annual fee for the Vietnamese Eucharistic Youth Movement still need to be paid.",
-      "line13": "• We accept cash or check (no credit card)",
-      "line14": "Please note:",
-      "line15": "FOR CHILDREN GOING TO RECEIVE THEIR SACRAMENT OF THE EUCHARIST",
-      "line16": "Whom already in second grade and registering for third grade",
-      "line17": "• A copy of their Baptismal Certificate",
-      "line18": "FOR CHILDREN GOING TO RECEIVE THEIR SACRAMENT OF CONFIRMATION",
-      "line19": "Whom already in ninth grade and registering for tenth grade",
-      "line20": "• A copy of their Baptismal and First Communion Certificate",
-      "line21": "We will not be able to accept your registration form without the aforementioned document(s).",
+      "heading": "FIRST DAY OF 2023-2024 SCHOOL YEAR",
+      "line1": "Sunday, August 13th, 2023",
+      "line2": "Please come back",
+      "line3": "Location and time will be updated soon",
       "title": "St. Joseph School",
       "announcement": "News and announcements during the school year for St. Joseph School and the Vietnamese Eucharistic Youth Movement will be regularly updated on this page."
     }

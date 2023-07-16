@@ -102,7 +102,7 @@ const VietHongActivitiesContent = [
     {
         classification: 'eveh-2023',
         img: "https://hvmatl.com/gallery/kgd/viethong/activities/2022-23-eveh-15.jpg",
-        caption: "Các em phụ giáo kết thúc chương trình với ca khúc Sakurairo Mau Koro do Minako Kawae sáng tác, Thùy Chi viết lời Việt tựa đề Xe Đạp. © 2023 Trang Nghiem"
+        caption: "Các em phụ giáo với ca khúc Sakurairo Mau Koro do Minako Kawae sáng tác, Thùy Chi viết lời Việt tựa đề Xe Đạp. © 2023 Trang Nghiem"
     },
     {
         classification: 'eveh-2023',

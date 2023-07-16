@@ -92,7 +92,7 @@
       "massSchedule": "Giờ Lễ"
     },
     "banner": {
-      "message": "Ghi Danh Niên Học 2023-2024",
+      "message": "Ngày Khai Giảng Niên Học 2023-2024",
       "button1Text": "Giáo Lý",
       "button2Text": "Việt Ngữ"
     },
@@ -167,19 +167,10 @@
       "item5": "Văn Thư"
     },
     "home": {
-      "heading": "GHI DANH NIÊN HỌC 2023-2024",
-      "line1": "Dành Cho Học Sinh Mới",
-      "line2": "Thứ Bảy, ngày 15 tháng 7 năm 2023",
-      "line3": "10:15 giờ sáng đến 12:15 giờ trưa",
-      "line4": "Hội Trường Thánh Giuse",
-      "line5": "Giáo Xứ Các Thánh Tử Đạo Việt Nam",
-      "line6": "4545-A Timmers Way, Norcross GA 30093",
-      "line7": "Học phí: $100 cho mỗi học sinh MỚI",
-      "line8": "Học phí: $150 cho mỗi học sinh CŨ",
-      "line9": "Chúng tôi nhận tiền mặt hoặc ngân phiếu (không nhận thẻ tín dụng)",
-      "line10": "Xin lưu ý nếu ghi danh cho học sinh cũ:",
-      "line11": "• Nhà trường chúng tôi đã in đơn ghi danh cho mỗi học sinh cũ.",
-      "line12": "• Xin cho chúng tôi biết lớp học sinh đã học trong niên học 2022-2023.",  
+      "heading": "NGÀY KHAI GIẢNG NIÊN HỌC 2023-2024",
+      "line1": "Thứ Bảy, ngày 12 tháng 8 năm 2023",
+      "line2": "10:00 giờ sáng",
+      "line3": "Hội Trường Thánh Giuse",
         "announcement": "Quý phụ huynh muốn biết thêm chi tiết xin liên lạc Viet.Hong.School@hvmatl.org"
     }
   },
@@ -192,28 +183,10 @@
       "item5": "Các Lớp"
     },
     "home": {
-      "heading": "GHI DANH NIÊN HỌC 2023-2024",
-      "line1": "Dành Cho Học Sinh Mới",
-      "line2": "Chúa Nhật, ngày 16 tháng 7 năm 2023",
-      "line3": "8:30 giờ sáng đến 1:30 giờ chiều",
-      "line4": "Hội Trường Thánh Giuse",
-      "line5": "Giáo Xứ Các Thánh Tử Đạo Việt Nam",
-      "line6": "4545-A Timmers Way, Norcross GA 30093",
-      "line7": "• Học phí: $100 cho mỗi học sinh MỚI",
-      "line8": "• Học phí: $150 cho mỗi học sinh CŨ",
-      "line9": "• Lệ phí ăn sáng: $80 cho mỗi học sinh lớp 1, 2, 3, 4, 5, 6 và 7",
-      "line10": "• Lệ phí niên liễm đóng riêng cho phong trào Thiểu Nhi Thánh Thể: $15",
-      "line11": "• Người con thứ tư trở lên được miễn học phí, ",
-      "line12": "nhưng vẫn phải đóng lệ phí ăn sáng và niên liễm Thiếu Nhi Thánh Thể.",
-      "line13": "• Chúng tôi nhận tiền mặt hoặc ngân phiếu (không nhận thẻ tín dụng)",
-      "line14": "Xin quý phụ huynh lưu ý:",
-      "line15": "NHỮNG EM NHẬN LÃNH BÍ TÍCH MÌNH THÁNH CHÚA",
-      "line16": "Đã học lớp 2 và ghi danh học lớp 3",
-      "line17": "• Nộp bản sao Chứng Chỉ Bí Tích Rửa Tội",
-      "line18": "NHỮNG EM NHẬN LÃNH BÍ TÍCH THÊM SỨC",
-      "line19": "Đã học lớp 9 và ghi danh học lớp 10",
-      "line20": "• Nộp bản sao Chứng Chỉ Bí Tích Rửa Tội và Bí Tích Mình Thánh Chúa",
-      "line21": "Chúng sẽ không nhận đơn ghi danh khi thiếu những giấy tờ trên.",
+      "heading": "NGÀY KHAI GIẢNG NIÊN HỌC 2023-2024",
+      "line1": "Chúa Nhật, ngày 13 tháng 3 năm 2023",
+      "line2": "Xin quý phụ huynh trở lại",
+      "line3": "Địa điểm và thời gian sẽ được cập nhật sau",
       "title": "Trường Thánh Giuse",
       "announcement": "Tin tức và thông báo trong niên học cho chương trình học Giáo Lý và Thiếu Nhi Thánh Thể sẽ được cập nhật thường xuyên trên trang này."
     }
