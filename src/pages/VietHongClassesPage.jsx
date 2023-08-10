@@ -15,7 +15,7 @@ const VietHongClassesPage = () => (
     <br/>
     <div class="col-12">
         <div class="section-heading"><h2>CÁC LỚP</h2>
-        <h3>Niên Học 2022-2023</h3></div>
+        <h3>Niên Học 2023-2024</h3></div>
         
         <DisplayClasses list={vietHongClasses}/>
     </div>
