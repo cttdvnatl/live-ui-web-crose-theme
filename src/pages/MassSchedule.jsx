@@ -22,7 +22,7 @@ const MassSchedule = (prop) => {
                                 <b>{t('massInfo.mass.sunday')}</b><br/><br/>
                                 <h3>{t('massInfo.confession.title')}</h3>
                                 <b>{t('massInfo.confession.weekday')}</b><br/>
-                                <b>{t('massInfo.confession.weekend')}</b><br/><br/><br/>
+                                <b>{t('massInfo.confession.weekend')}</b><br/><br/>
                                 <h3>{t('massInfo.baptism.title')}</h3>
                                 <b>{t('massInfo.baptism.class')}</b><br/>
                                 <b>{t('massInfo.baptism.baptise')}</b><br/><br/><br/>

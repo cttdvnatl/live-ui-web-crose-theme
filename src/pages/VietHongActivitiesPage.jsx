@@ -5,6 +5,7 @@ import VietHongHeader from '../components/VietHongHeader';
 import activitiesContent from '../database/vietHongActivitiesContent';
 import DisplayActivities from '../components/DisplayActivites';
 
+const Begin2024 = activitiesContent.filter(Begin2024 => Begin2024.classification === 'begin-2024');
 const End2023 = activitiesContent.filter(End2023 => End2023.classification === 'end-2023');
 const EVEH2023 = activitiesContent.filter(EVEH2023 => EVEH2023.classification === 'eveh-2023');
 const End2022 = activitiesContent.filter(End2022 => End2022.classification === 'end-2022');
@@ -18,6 +19,14 @@ const VietHongActivitiesPage = () => (
     <VietHongHeader/>
     <p></p>
     <br/>
+    <div class="col-12">
+        <div class="section-heading">
+            <h3>Lễ Khai Giảng Niên Học 2023-2024</h3>
+        </div>
+    </div>
+    <div class="activities-image-container">
+           <DisplayActivities list={Begin2024}/>
+    </div>
     <div class="col-12">
         <div class="section-heading">
             <h3>Lễ Bế Giảng Niên Học 2022-2023</h3>

@@ -70,11 +70,11 @@
   },
   "massInfo": {
     "mass": {
-      "title": "Giờ Lễ",
+      "title": "Giờ Thánh Lễ",
       "weekdayMorning": "Thứ Hai - Thứ Bảy: 7:30AM",
       "weekdayNight": "Thứ Hai - Thứ Sáu: 6:30PM",
       "vigil": "Thứ Bảy: Lễ Vọng Chúa Nhật 5:30PM",
-      "sunday": "Chúa Nhật: 7:00AM , 8:45AM, 11:00AM, *12:45PM (* TNTT Only Mass)
+      "sunday": "Chúa Nhật: 7:00AM, 8:45AM, 11:00AM, *12:45PM (dành riêng cho trẻ em)"
     },
     "confession": {
       "title": "Giải Tội",
