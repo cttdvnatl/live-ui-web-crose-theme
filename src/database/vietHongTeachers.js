@@ -258,6 +258,16 @@ const VietHongTeacherContent = [
     },
     {   
         classification: 'assistant-teacher',
+        image: 'https://hvmatl.net/gallery/kgd/viethong/vh-23-24-ta-alexander.jpg',
+        name: 'Phụ giáo Alexander',
+    },
+    {   
+        classification: 'assistant-teacher',
+        image: 'https://hvmatl.net/gallery/kgd/viethong/vh-23-24-ta-andrew.jpg',
+        name: 'Phụ giáo Andrew',
+    },
+    {   
+        classification: 'assistant-teacher',
         image: 'https://hvmatl.net/gallery/kgd/viethong/vh-23-24-ta-cindy.jpg',
         name: 'Phụ giáo Cindy',
     },
@@ -280,6 +290,11 @@ const VietHongTeacherContent = [
         classification: 'assistant-teacher',
         image: 'https://hvmatl.net/gallery/kgd/viethong/vh-23-24-ta-hong-an.jpg',
         name: 'Phụ giáo Hồng Ân',
+    },
+    {   
+        classification: 'assistant-teacher',
+        image: 'https://hvmatl.net/gallery/kgd/viethong/vh-23-24-ta-jason.jpg',
+        name: 'Phụ giáo Jason',
     },
     {   
         classification: 'assistant-teacher',

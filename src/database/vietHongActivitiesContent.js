@@ -1,23 +1,58 @@
 const VietHongActivitiesContent = [
     {
+        classification: 'begin-2024',
+        img: "https://hvmatl.com/gallery/kgd/viethong/activities/2023-24-khai-giang-01.jpg",
+        caption: "Thầy cô, phụ giáo của Trường Việt Ngữ Việt Hồng chào đón học sinh và phụ huynh. © 2023 Trang Nghiem"
+    },
+    {
+        classification: 'begin-2024',
+        img: "https://hvmatl.com/gallery/kgd/viethong/activities/2023-24-khai-giang-02.jpg",
+        caption: "Thầy cô, phụ giáo và học sinh của Trường Việt Ngữ Việt Hồng. © 2023 Trang Nghiem"
+    },
+    {
+        classification: 'begin-2024',
+        img: "https://hvmatl.com/gallery/kgd/viethong/activities/2023-24-khai-giang-03.jpg",
+        caption: "Linh mục Phó Xứ Lê Minh Nicholas © 2023 Trang Nghiem"
+    },
+    {
+        classification: 'begin-2024',
+        img: "https://hvmatl.com/gallery/kgd/viethong/activities/2023-24-khai-giang-04.jpg",
+        caption: "Toàn trường chuẩn bị chào cờ và hát Quốc Ca Hoa Kỳ và Việt Nam. © 2023 Trang Nghiem"
+    },
+    {
+        classification: 'begin-2024',
+        img: "https://hvmatl.com/gallery/kgd/viethong/activities/2023-24-khai-giang-05.jpg",
+        caption: "Toàn trường hát Quốc Ca © 2023 Trang Nghiem"
+    },
+    {
+        classification: 'begin-2024',
+        img: "https://hvmatl.com/gallery/kgd/viethong/activities/2023-24-khai-giang-06.jpg",
+        caption: "Linh mục Phó Xứ Lê Minh Nicholas khai giảng niên học và đọc kinh với toàn trường. © 2023 Trang Nghiem"
+    },
+    {
+        classification: 'begin-2024',
+        img: "https://hvmatl.com/gallery/kgd/viethong/activities/2023-24-khai-giang-07.jpg",
+        caption: "Thầy Phó Hiệu Trưởng có đôi lời với tất cả trong ngày khai giảng. © 2023 Trang Nghiem"
+    },
+    {
         classification: 'end-2023',
         img: "https://hvmatl.com/gallery/kgd/viethong/activities/2022-23-be-giang-01.jpg",
-        caption: "Các em phụ giáo và học sinh chuẩn bị chào cờ và hát Quốc Ca Hoa Kỳ và Việt Nam © 2023 Lan Do"
+        caption: "Các em phụ giáo và học sinh chuẩn bị chào cờ và hát Quốc Ca Hoa Kỳ và Việt Nam. © 2023 Lan Do"
     },
     {
         classification: 'end-2023',
         img: "https://hvmatl.com/gallery/kgd/viethong/activities/2022-23-be-giang-02.jpg",
-        caption: "Các em phụ giáo và học sinh chào cờ và hát Quốc Ca Hoa Kỳ và Việt Nam © 2023 Lan Do"
+        caption: "Các em phụ giáo và học sinh chào cờ và hát Quốc Ca Hoa Kỳ và Việt Nam. © 2023 Lan Do"
     },
     {
         classification: 'end-2023',
         img: "https://hvmatl.com/gallery/kgd/viethong/activities/2022-23-be-giang-03.jpg",
-        caption: "Thầy Hiệu Trưởng có đôi lời với tất cả. © 2023 Trang Nghiem"
+        caption: "Thầy Hiệu Trưởng có đôi lời với tất cả trong ngày bế giảng niên học. © 2023 Trang Nghiem"
     },
     {
         classification: 'end-2023',
         img: "https://hvmatl.com/gallery/kgd/viethong/activities/2022-23-be-giang-04.jpg",
-        caption: "Thầy Hiệu Trưởng có đôi lời với tất cả. © 2023 Trang Nghiem"
+        caption: "Thầy Hiệu Trưởng có đôi lời với tất cả trong ngày bế giảng niên học. © 2023 Trang Nghiem"
     },
     {
         classification: 'end-2023',
@@ -282,7 +317,7 @@ const VietHongActivitiesContent = [
     {
         classification: 'begin-2022',
         img: "https://hvmatl.com/gallery/kgd/viethong/activities/2021-22-khai-giang-02.jpg",
-        caption: "Lễ khai giảng niên học © 2021 Trang Nghiem"
+        caption: "Linh mục Phó Xứ Gioan Baotixita Phạm Nguyễn Tuấn Anh có đôi lời với tất cả. © 2021 Trang Nghiem"
     },
     {
         classification: 'begin-2022',

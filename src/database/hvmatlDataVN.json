@@ -70,21 +70,21 @@
   },
   "massInfo": {
     "mass": {
-      "title": "Giờ Lễ",
+      "title": "Giờ Thánh Lễ",
       "weekdayMorning": "Thứ Hai - Thứ Bảy: 7:30AM",
-      "weekdayNight": "Thứ Hai - Thứ Sáu: 6:00PM",
+      "weekdayNight": "Thứ Hai - Thứ Sáu: 6:30PM",
       "vigil": "Thứ Bảy: Lễ Vọng Chúa Nhật 5:30PM",
-      "sunday": "Chúa Nhật: 7:30AM , 9:30AM, 11:30AM (Nhà Thờ Thánh Lễ TNTT, Showroom Thánh Lễ cho người lớn)"
+      "sunday": "Chúa Nhật: 7:00AM, 8:45AM, 11:00AM, *12:45PM (dành riêng cho trẻ em)"
     },
     "confession": {
       "title": "Giải Tội",
       "weekday": "Ngày Thường: Sau Thánh Lễ 7:30AM",
-      "weekend": "Thứ Bảy: 4:30PM - 5:15PM"
+      "weekend": "Thứ Bảy: 4:15PM - 5:15PM"
     },
     "baptism": {
       "title": "Rửa Tội Trẻ Em",
-      "class": "Chúa Nhật Tuần Thứ 1 (lớp Giáo Lý): 9:30AM - 10:30AM",
-      "baptise": "Thứ Bảy Tuần Thứ 2 (Rửa Tội): Sau Lễ 7:30AM"
+      "class": "Chúa Nhật Tuần Thứ 2 (lớp Giáo Lý): 9:00AM - 10:15AM",
+      "baptise": "Thứ Bảy Tuần Thứ 3 (Rửa Tội): Sau Lễ 8:00AM"
     }
   },
   "header": {
