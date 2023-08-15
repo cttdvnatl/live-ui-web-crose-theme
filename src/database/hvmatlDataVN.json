@@ -84,7 +84,7 @@
     "baptism": {
       "title": "Rửa Tội Trẻ Em",
       "class": "Chúa Nhật Tuần Thứ 2 (lớp Giáo Lý): 9:00AM - 10:15AM",
-      "baptise": "Thứ Bảy Tuần Thứ 3 (Rửa Tội): Sau Lễ 8:00AM"
+      "baptise": "Thứ Bảy Tuần Thứ 3 (Rửa Tội): 8:00AM (Sau Lễ 7:30AM)"
     }
   },
   "header": {
@@ -92,9 +92,9 @@
       "massSchedule": "Giờ Lễ"
     },
     "banner": {
-      "message": "Ngày Khai Giảng Niên Học 2023-2024",
+      "message": "  Lễ Hội Mùa Thu 2023  ",
       "button1Text": "Giáo Lý",
-      "button2Text": "Việt Ngữ"
+      "button2Text": "Mua Vé Xổ Số"
     },
     "dropdownMenuOne": {
       "dropdownHeading": "GIÁO XỨ",

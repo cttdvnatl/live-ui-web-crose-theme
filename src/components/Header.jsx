@@ -142,7 +142,7 @@ const Header = (prop) => {
     }
 
     const button2Action = () => {
-        window.location.href = '/viethong'
+        window.location.href = 'https://www.vesolhmt.org/'
     }
 
     const t = useTranslation();
@@ -262,10 +262,10 @@ const Header = (prop) => {
                         {/* <HcmtEvent hcmt={'hcmt' in prop ? prop.hcmt : true} message={prop.hcmtMsg} url={prop.url}/> */}
                         <BannerMsg 
                             banner={'banner' in prop ? prop.banner : false} 
-                            button1Text={t("header.banner.button1Text")}
+                            // button1Text={t("header.banner.button1Text")}
                             button2Text={t("header.banner.button2Text")} 
                             bannerMsg={t("header.banner.message")}
-                            button1Action={button1Action}
+                            // button1Action={button1Action}
                             button2Action={button2Action}
                             url={prop.url}/>
                     </div>
