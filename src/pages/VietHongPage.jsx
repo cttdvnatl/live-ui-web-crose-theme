@@ -24,7 +24,7 @@ const VietHong = () => {
                 <br/>
                 <div className="container-fluid text-center">
 
-                <p id="vn-schedule" className="center-50"> <b>Giờ học mỗi thứ Bảy</b> <br/>
+                <p id="vn-schedule" className="center-50"> <b>Giờ Học / School Hours</b> <br/>
                 10:00 a.m. – 12:15 p.m. </p>
                 </div>
                 <VietHongCalendar />
