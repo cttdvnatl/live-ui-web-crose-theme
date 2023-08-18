@@ -19,7 +19,7 @@ const BannerMsg = (prop) => {
     }, [resizeCallback]);
 
     return 'banner' in prop && prop.banner === true ? (
-        <div className="container-fluid" style={{"backgroundColor": "#9932CC", "display":"block"}}>
+        <div className="container-fluid" style={{"backgroundColor": "#0000FF", "display":"block"}}>
             <div className="row">
                 {/* <!-- Section Heading --> */}
                 <div className="col-12 text-center my-2">
