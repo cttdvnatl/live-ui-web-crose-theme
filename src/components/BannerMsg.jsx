@@ -26,8 +26,8 @@ const BannerMsg = (prop) => {
                     <div>
                     <a href={prop.url}>
                             {msgSize === 'lg' ?
-                                <h2 style={{"color":"#FFFACD"}}>***{prop.bannerMsg}***</h2> :
-                                <h5 style={{"color":"#FFFACD"}}>***{prop.bannerMsg}***</h5>
+                                <a href="https://fallfestival.hvmatl.org/"><h2 style={{"color":"#FFFACD"}}>*** {prop.bannerMsg} ***</h2></a> :
+                                <a href="https://fallfestival.hvmatl.org/"><h5 style={{"color":"#FFFACD"}}>*** {prop.bannerMsg} ***</h5></a>
                             }
                         </a>                   
                     </div>
