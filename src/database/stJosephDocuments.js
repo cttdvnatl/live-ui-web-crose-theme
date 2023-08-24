@@ -1,8 +1,8 @@
 const stJosephDocuments = [ 
     {   
-        fileName: 'St. Joseph Parents Handbook',
-        downloadFile: 'https://hvmatl.net/gallery/kgd/giaoly/2022-23-St.Joseph-Parents-Booklet.pdf',
-        description: 'Trường Thánh Giuse Sổ Tay Phụ Huynh 2022-2023',
+        fileName: 'Education Department Parents Handbook',
+        downloadFile: 'https://hvmatl.net/gallery/kgd/giaoly/2023-24-Education-Department-Parents-Handbook.pdf',
+        description: 'Khối Giáo Dục Sổ Tay Phụ Huynh 2023-2024',
     },
     {   
         fileName: 'Permission to Contact Youth',
