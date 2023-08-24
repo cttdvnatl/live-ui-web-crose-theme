@@ -17,7 +17,7 @@ const VietHongTeacherPage = () => (
     <div class="col-12">
         <div class="section-heading">
             <br/>
-            <h2>Thầy Cô Việt Hồng</h2>
+            <h2>Thầy Cô</h2>
             <h3>Niên Học 2023-2024</h3>
         </div>
         <DisplayVolunteer list={mainTeachers} />
@@ -25,7 +25,7 @@ const VietHongTeacherPage = () => (
     <div class="col-12">
         <div class="section-heading">
             <br/>
-            <h2>Thầy Cô Giám Thị Việt Hồng</h2>
+            <h2>Thầy Cô Giám Thị</h2>
             <h3>Niên Học 2023-2024</h3>
         </div>
         <DisplayVolunteer list={mainProctors} />
@@ -33,7 +33,7 @@ const VietHongTeacherPage = () => (
     <div class="col-12">
         <div class="section-heading">
             <br/>
-            <h2>Phụ Giáo Việt Hồng</h2>
+            <h2>Phụ Giáo</h2>
             <h3>Niên Học 2023-2024</h3>
         </div>
         <DisplayVolunteer list={assistantTeachers} />
