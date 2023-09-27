@@ -229,6 +229,12 @@ const VietHongTeacherContent = [
     },
     {   
         classification: 'main-proctor',
+        image: 'https://hvmatl.net/gallery/kgd/viethong/vh-23-24-p-le-phuong-dung.jpg',
+        name: 'Cô Lê Phương Dung',
+        email: 'dung.phuong.le@hvmatl.org',
+    },
+    {   
+        classification: 'main-proctor',
         image: 'https://hvmatl.net/gallery/kgd/viethong/vh-23-24-p-le-thanh-huong.jpg',
         name: 'Cô Lê Thanh Hương',
         email: 'hotrungtran@gmail.com',

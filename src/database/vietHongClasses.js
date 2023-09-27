@@ -2,7 +2,7 @@ const Classes = [
     {
         name: "mga",
         class: "Mẫu Giáo A",
-        teachers: "Cô Dương Hiền, Cô Nguyễn Christine, Thầy Nguyễn Thanh Sơn",
+        teachers: "Cô Dương Hiền, Thầy Nguyễn Thanh Sơn, Cô Nguyễn Christine",
         emails: "",
         classwork: ""
     },
@@ -30,21 +30,21 @@ const Classes = [
     {
         name: "vlc",
         class: "Vỡ Lòng C",
-        teachers: "Cô Phạm T. Nga, Thầy Nguyễn Joseph Alex",
+        teachers: "Cô Phạm Thị Nga, Thầy Nguyễn Joseph Alex",
         emails: "",
         classwork: ""
     },
     {
         name: "vld",
         class: "Vỡ Lòng D",
-        teachers: "Cô Trần Trúc Quỳnh, Cô Đặng Kim, Cô Huỳnh Thi Trang",
+        teachers: "Cô Trần Trúc Quỳnh, Cô Huỳnh Thi Trang, Cô Đặng Kim",
         emails: "",
         classwork: ""
     },
     {
         name: "1a",
         class: "1A",
-        teachers: "Cô Nguyễn Minh Viên",
+        teachers: "Cô Nguyễn Minh Viên, Cô Nguyễn Thị Ngọc Anh",
         emails: "",
         classwork: ""
     },

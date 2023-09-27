@@ -325,36 +325,20 @@ const VietHongActivitiesContent = [
         caption: "Lễ khai giảng niên học © 2021 Lan Do"
     },
     {
-        classification: 'previous',
+        classification: 'ny-2019',
         img: "https://hvmatl.com/gallery/kgd/viethong/activities/2018-19-tet-01.jpg",
-        caption: "Chương trình mừng xuân Kỷ Hợi, chủ đề Xuân Tuổi Thơ. © 2019 Trang Nghiem"
+        caption: "Thầy Đức (MC), ông bà với linh mục Chánh Xứ, linh mục Phó Xứ và thầy Trưởng Khối Giáo Dục. © 2019 Trang Nghiem"
     },
     {
-        classification: 'previous',
+        classification: 'ny-2019',
         img: "https://hvmatl.com/gallery/kgd/viethong/activities/2018-19-tet-02.jpg",
         caption: "Các em mừng tuổi ông bà. © 2019 Trang Nghiem"
     },
     {
-        classification: 'previous',
+        classification: 'ny-2019',
         img: "https://hvmatl.com/gallery/kgd/viethong/activities/2018-19-tet-03.jpg",
         caption: "Thầy Hiệu Trưởng chúc Tết. © 2019 Trang Nghiem"
     },
-    {
-        classification: 'previous',
-        img: "https://hvmatl.com/gallery/kgd/viethong/activities/2018-19-fall-festival-01.jpg",
-        caption: "Thầy cô, các em hát Quốc Ca Việt Nam với ông bà Hội Cao Niên trong ngày khai mạc Hội Chợ Mùa Thu 2018. © 2018 Hien Duong"
-    },
-    {
-        classification: 'previous',
-        img: "https://hvmatl.com/gallery/kgd/viethong/activities/2018-19-fall-festival-02.jpg",
-        caption: "Thầy cô, các em hát Khúc Hát Tạ Ơn do Thy Yên sáng tác với ông bà Hội Cao Niên trong ngày khai mạc Hội Chợ Mùa Thu 2018. © 2018 Hien Duong"
-    },
-    {
-        classification: 'previous',
-        img: "https://hvmatl.com/gallery/kgd/viethong/activities/2018-19-fall-festival-03.jpg",
-        caption: "Các em với linh mục Chánh Xứ Phanxicô Xaviê Trần Quốc Tuấn trong ngày khai mạc Hội Chợ Mùa Thu 2018. © 2018 Hien Duong"
-    },
-    
 ]
 
 export default VietHongActivitiesContent;
