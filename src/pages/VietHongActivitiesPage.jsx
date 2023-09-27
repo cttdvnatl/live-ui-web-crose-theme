@@ -11,7 +11,7 @@ const EVEH2023 = activitiesContent.filter(EVEH2023 => EVEH2023.classification ==
 const End2022 = activitiesContent.filter(End2022 => End2022.classification === 'end-2022');
 const EVEH2022 = activitiesContent.filter(EVEH2022 => EVEH2022.classification === 'eveh-2022');
 const Begin2022 = activitiesContent.filter(Begin2022 => Begin2022.classification === 'begin-2022');
-const Previous = activitiesContent.filter(Previous => Previous.classification === 'previous');
+const NY2019 = activitiesContent.filter(NY2019 => NY2019.classification === 'ny-2019');
 
 const VietHongActivitiesPage = () => (
     <>
@@ -69,11 +69,11 @@ const VietHongActivitiesPage = () => (
     </div>
     <div class="col-12">
         <div class="section-heading">
-            <h2>Sinh Hoạt Những Niên Học Trước</h2>
+            <h3>Chương Trình Mừng Xuân Kỷ Hợi 2019</h3>
         </div>
     </div>
     <div class="activities-image-container">
-           <DisplayActivities list={Previous}/>
+           <DisplayActivities list={NY2019}/>
     </div>
     <Footer/>
     </>
