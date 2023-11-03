@@ -19,7 +19,8 @@ const Popup = (props) => {
                 color: 'blue',
                 textDecoration: 'underline',
                 fontSize: '23px',
-                fontWeight: '600'
+                fontWeight: '600',
+                position: 'absolute'
             }}
             href={props.data.src}>Link to view</a>
             <iframe className="file" src={`https://docs.google.com/gview?url=${props.data.src}&embedded=true`} title={props.data.title}></iframe>
