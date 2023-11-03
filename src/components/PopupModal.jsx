@@ -1,7 +1,7 @@
 import React from 'react';
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button';
-import { Ratio } from 'react-bootstrap';
+import Ratio from 'react-bootstrap/Ratio';
 
 const PopupModal = (prop) => {
     return (

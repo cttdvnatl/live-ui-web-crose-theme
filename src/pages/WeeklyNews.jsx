@@ -14,6 +14,7 @@ const Popup = (props) => {
     ) {
         return (
             <>
+            <a href={props.data.src}>Link to view</a>
             <iframe className="file" src={`https://docs.google.com/gview?url=${props.data.src}&embedded=true`} title={props.data.title}></iframe>
             </>
         )
@@ -21,6 +22,7 @@ const Popup = (props) => {
     else {
         return (
             <>
+            <a href={props.data.src}>Link to view</a>
             <iframe className="file" src={props.data.src} title={props.data.title}></iframe>
             </>
         )
