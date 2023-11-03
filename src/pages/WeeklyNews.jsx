@@ -14,7 +14,14 @@ const Popup = (props) => {
     ) {
         return (
             <>
-            <a href={props.data.src}>Link to view</a>
+            <a 
+            style={{
+                color: 'blue',
+                textDecoration: 'underline',
+                fontSize: '23px',
+                fontWeight: '600'
+            }}
+            href={props.data.src}>Link to view</a>
             <iframe className="file" src={`https://docs.google.com/gview?url=${props.data.src}&embedded=true`} title={props.data.title}></iframe>
             </>
         )
