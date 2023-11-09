@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\database"
   ],
-  "SelectedNode": "\\C:\\Users\\joeym\\Source\\Repos\\live-ui-web-crose-theme",
+  "SelectedNode": "\\src\\database\\stJosephTeachers.js",
   "PreviewInSolutionExplorer": false
 }
