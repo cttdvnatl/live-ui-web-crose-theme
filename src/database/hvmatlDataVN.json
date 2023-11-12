@@ -335,7 +335,7 @@
           "title": "Trưởng ",
           "deptAcronym": "HĐMV",
           "deptName": "HĐMV",
-          "image": "http://www.hvmatl.net/gallery/img/core-img/Danh.jpg",
+          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/Danh.jpg",
           "phone": "678-910-8100",
           "email": "danh.t.nguyen@hvmatl.org"
         },
@@ -344,7 +344,7 @@
           "title": "Trưởng ",
           "deptAcronym": "HĐTC",
           "deptName": "HĐTC",
-          "image": "http://www.hvmatl.net/gallery/img/core-img/SonNguyen.jpg",
+          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/SonNguyen.jpg",
           "phone": "678-906-8914",
           "email": "son.nguyen@hvmatl.org"
         },
@@ -353,7 +353,7 @@
           "title": "Phó ",
           "deptAcronym": "HĐMV",
           "deptName": "HĐMV",
-          "image": "http://www.hvmatl.net/gallery/img/core-img/PhucNguyen.jpg",
+          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/PhucNguyen.jpg",
           "phone": "678-978-4518",
           "email": "peter.d.nguyen@hvmatl.org"
         },
@@ -362,7 +362,7 @@
           "title": "Trưởng ",
           "deptAcronym": "KCS",
           "deptName": "Khối Cơ Sở",
-          "image": "http://www.hvmatl.net/gallery/img/core-img/TuPham.jpg",
+          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/TuPham.jpg",
           "phone": "404-376-1336",
           "email": "tupham@hvmatl.org"
         },
@@ -371,7 +371,7 @@
           "title": "Phó ",
           "deptAcronym": "KCS",
           "deptName": "Khối Cơ Sở",
-          "image": "http://www.hvmatl.net/gallery/img/core-img/ThanhVu.jpg",
+          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/ThanhVu.jpg",
           "phone": "770-401-1916",
           "email": "thanhvu@hvmatl.org"
         },
@@ -380,7 +380,7 @@
           "title": "Trưởng ",
           "deptAcronym": "KGD",
           "deptName": "Khối Giáo Dục",
-          "image": "http://www.hvmatl.net/gallery/img/core-img/PaulNguyen.jpg",
+          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/PaulNguyen.jpg",
           "phone": "678-644-0853",
           "email": "paul.chinh.nguyen@hvmatl.org"
         },
@@ -389,7 +389,7 @@
           "deptAcronym": "KGD",
           "deptName": "Khối Giáo Dục",
           "title": "Phó ",
-          "image": "http://www.hvmatl.net/gallery/img/core-img/ThaoLe.jpg",
+          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/ThaoLe.jpg",
           "phone": "770-900-0769",
           "email": "lethao.theresa@hvmatl.org"
         },
@@ -398,7 +398,7 @@
           "deptAcronym": "KDS",
           "deptName": "Khối Đời Sống",
           "title": "Trưởng ",
-          "image": "http://www.hvmatl.net/gallery/img/core-img/MaiLe.jpg",
+          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/MaiLe.jpg",
           "phone": "770-241-0264",
           "email": "tuyetle@hvmatl.org"
         },
@@ -407,7 +407,7 @@
           "deptAcronym": "KDS",
           "deptName": "Khối Đời Sống",
           "title": "Phó ",
-          "image": "http://www.hvmatl.net/gallery/img/core-img/HungHa.jpg",
+          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/HungHa.jpg",
           "phone": "770-542-9680",
           "email": "hungha@hvmatl.org"
         },
@@ -416,7 +416,7 @@
           "deptAcronym": "KGQ",
           "deptName": "Khối Gây Quỹ",
           "title": "Trưởng ",
-          "image": "http://www.hvmatl.net/gallery/img/core-img/TuanVu.jpg",
+          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/TuanVu.jpg",
           "phone": "678-600-6038",
           "email": "tuanvu@hvmatl.org"
         },
@@ -425,7 +425,7 @@
           "deptAcronym": "KGQ",
           "deptName": "Khối Gây Quỹ",
           "title": "Phó ",
-          "image": "http://www.hvmatl.net/gallery/img/core-img/AnhCao.jpg",
+          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/AnhCao.jpg",
           "phone": "678-665-6189",
           "email": "anhcao@hvmatl.org"
         },
@@ -434,7 +434,7 @@
           "deptAcronym": "KHC",
           "deptName": "Khối Hành Chánh",
           "title": "Trưởng ",
-          "image": "http://www.hvmatl.net/gallery/img/core-img/VanPham.jpg",
+          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/VanPham.jpg",
           "phone": "404-992-1122",
           "email": "van.k.pham@hvmatl.org"
         },
@@ -443,7 +443,7 @@
           "deptAcronym": "KHC",
           "deptName": "Khối Hành Chánh",
           "title": "Phó ",
-          "image": "http://www.hvmatl.net/gallery/img/core-img/TrangVu.jpg",
+          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/TrangVu.jpg",
           "phone": "678-906-1001",
           "email": "trang.t.vu@hvmatl.org"
         },
@@ -452,7 +452,7 @@
           "deptAcronym": "KPT",
           "deptName": "Khối Phụng Tự",
           "title": "Trưởng ",
-          "image": "http://www.hvmatl.net/gallery/img/core-img/TuAnh.jpg",
+          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/TuAnh.jpg",
           "phone": "404-403-2763",
           "email": "tuanhle@hvmatl.org"
         },
@@ -461,7 +461,7 @@
           "deptAcronym": "KPT",
           "deptName": "Khối Phụng Tự",
           "title": "Phó ",
-          "image": "http://www.hvmatl.net/gallery/img/core-img/TamLe.jpg",
+          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/TamLe.jpg",
           "phone": "678-268-8891",
           "email": "tamle@hvmatl.org"
         },
@@ -470,7 +470,7 @@
           "deptAcronym": "KQT",
           "deptName": "Khối Quản Trị",
           "title": "Trưởng ",
-          "image": "http://www.hvmatl.net/gallery/img/core-img/HuongVu.jpg",
+          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/HuongVu.jpg",
           "phone": "704-726-6872",
           "email": "huongvu@hvmatl.org"
         },
@@ -479,7 +479,7 @@
           "deptAcronym": "KQT",
           "deptName": "Khối Quản Trị",
           "title": "Quản Lý Văn Phòng - ",
-          "image": "http://www.hvmatl.net/gallery/img/core-img/JennieLe.jpg",
+          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/JennieLe.jpg",
           "phone": "678-256-1314",
           "email": "jenniele@hvmatl.org"
         },
@@ -488,7 +488,7 @@
           "deptAcronym": "KQT",
           "deptName": "Khối Quản Trị",
           "title": "Thư Ký - ",
-          "image": "http://www.hvmatl.net/gallery/img/core-img/NaMadalena.jpg",
+          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/NaMadalena.jpg",
           "phone": "770-899-3548",
           "email": "toyamam@hvmatl.org"
         },
@@ -497,7 +497,7 @@
           "deptAcronym": "KTG",
           "deptName": "Khối Truyền Giáo",
           "title": "Trưởng ",
-          "image": "http://www.hvmatl.net/gallery/img/core-img/TanNguyen.jpg",
+          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/TanNguyen.jpg",
           "phone": "678-670-0817",
           "email": "tan.q.nguyen@hvmatl.org"
         },
@@ -506,7 +506,7 @@
           "deptAcronym": "KTG",
           "deptName": "Khối Truyền Giáo",
           "title": "Phó ",
-          "image": "http://www.hvmatl.net/gallery/img/core-img/ChanhTran.jpg",
+          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/ChanhTran.jpg",
           "phone": "678-234-6530",
           "email": "chanhtran@hvmatl.org"
         }
