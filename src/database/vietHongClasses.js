@@ -23,14 +23,14 @@ const Classes = [
     {
         name: "vlb",
         class: "Vỡ Lòng B",
-        teachers: "Cô Lê Bích Duyên, Cô Nguyễn Thị Vân",
+        teachers: "Cô Lê Bích Duyên, Cô Ngô Kim Chi",
         emails: "",
         classwork: ""
     },
     {
         name: "vlc",
         class: "Vỡ Lòng C",
-        teachers: "Cô Phạm Thị Nga, Thầy Nguyễn Joseph Alex",
+        teachers: "Cô Phạm Thị Nga, Thầy Nguyễn Joseph Alex, Cô Nghiêm Trang",
         emails: "",
         classwork: ""
     },
@@ -44,14 +44,14 @@ const Classes = [
     {
         name: "1a",
         class: "1A",
-        teachers: "Cô Nguyễn Minh Viên, Cô Nguyễn Thị Ngọc Anh",
+        teachers: "Cô Nguyễn Minh Viên, Cô Nguyễn Thị Ngọc Ánh",
         emails: "",
         classwork: ""
     },
     {
         name: "1b",
         class: "1B",
-        teachers: "Thầy Hoàng Tuấn Long, Cô Phan Tùng",
+        teachers: "Cô Phan Tùng, Thầy Hoàng Tuấn Long",
         emails: "",
         classwork: ""
     },
@@ -65,7 +65,7 @@ const Classes = [
     {
         name: "2",
         class: "2",
-        teachers: "Cô Trần Uyên Chi, Cô Võ Tuyết Trân", 
+        teachers: "Cô Trần Uyên Chi, Thầy Trần Duy Trường, Cô Võ Tuyết Trân", 
         emails: "",
         classwork: ""
     },
@@ -100,7 +100,7 @@ const Classes = [
     {
         name: "7",
         class: "7",
-        teachers: "Thầy Ninh Q. Đạt",
+        teachers: "Thầy Ninh Đạt",
         emails: "",
         classwork: ""
     },

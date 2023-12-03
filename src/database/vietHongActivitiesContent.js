@@ -57,7 +57,7 @@ const VietHongActivitiesContent = [
     {
         classification: 'end-2023',
         img: "https://hvmatl.com/gallery/kgd/viethong/activities/2022-23-be-giang-05.jpg",
-        caption: "Chúc mừng cô Nguyễn Minh Viên, thầy Trần Thanh Trúc 10 năm phục vụ. Chụp với thầy Nguyễn Tuấn, thầy Nguyễn Chính Paul. © 2023 Lan Do"
+        caption: "Chúc mừng cô Nguyễn Minh Viên, thầy Trần Thanh Trúc 10 năm phục vụ. Chụp với thầy Nguyễn Tuấn, thầy Trưởng Khối Giáo Dục Nguyễn Chính Paul. © 2023 Lan Do"
     },
     {
         classification: 'end-2023',
