@@ -9,7 +9,7 @@ const Classes = [
     {
         name: "mgb",
         class: "Mẫu Giáo B",
-        teachers: "Cô Võ Mercy Sarah, Cô Lê Nga, Cô Vũ Kim Liên",
+        teachers: "Cô Võ Mercy Sarah, Cô Lê Nga, Cô King Nguyễn Theresa, Cô Vũ Kim Liên",
         emails: "",
         classwork: ""
     },
