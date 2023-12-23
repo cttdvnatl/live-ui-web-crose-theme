@@ -1,7 +1,7 @@
 const ChristmasFestivalDisplaysContent = [
     {
         classification: 'main-display',
-        img: "https://www.hvmatl.com/gallery/2022_LHGS/2022_LHGS_Nativity_Displays-01.jpg",
+        img: "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHGS/2023-Christmas-festival-navitity-displays-poster.jpg",
         caption: ""
     },
     {

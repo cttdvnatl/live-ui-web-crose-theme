@@ -11,7 +11,7 @@ const ChristmasFestival = () => {
             <Header/>
             <ChristmasFestivalHeader/>
             <h4 style={{ textAlign: "center" }}><br/>
-            <img src="https://www.hvmatl.com/gallery/2022_LHGS/2022_LHGS_Logo.jpg" alt="christmas"/><br/><br/> 
+                <img src="https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHGS/2023-Christmas-festival-banner.jpg" alt="christmas"/><br/><br/> 
                 {t('christmasfestival.home.line1')} <br/>
                 {t('christmasfestival.home.line2')} <br/>
                 {t('christmasfestival.home.line3')} <br/><br/>        
