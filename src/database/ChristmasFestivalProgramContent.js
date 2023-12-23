@@ -1,7 +1,7 @@
 const ChristmasFestivalProgramContent = [
     {
         classification: 'main-program',
-        img: "https://www.hvmatl.com/gallery/2022_LHGS/2022_LHGS_Poster.jpg",
+        img: "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/LHGS/2023-Christmas-festival-01.jpg",
         caption: ""
     },
 
