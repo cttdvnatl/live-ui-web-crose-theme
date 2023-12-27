@@ -2,22 +2,22 @@ const vietHongDocuments = [
 
     {   
         fileName: 'Parents Handbook',
-        downloadFile: 'https://hvmatl.net/gallery/kgd/viethong/documents/Viet-Hong-School-2023-24-Parents-Handbook.pdf',
+        downloadFile: 'https://hvmatl.s3.us-east-2.amazonaws.com/gallery/kgd/viethong/documents/Viet-Hong-School-2023-24-Parents-Handbook.pdf',
         description: 'Sổ Tay Phụ Huynh 2023-2024',
     },
     {   
         fileName: 'School Year Calendar',
-        downloadFile: 'https://hvmatl.net/gallery/kgd/viethong/documents/Viet-Hong-School-2023-24-School-Year-Calendar.pdf',
+        downloadFile: 'https://hvmatl.s3.us-east-2.amazonaws.com/gallery/kgd/viethong/documents/Viet-Hong-School-2023-24-School-Year-Calendar.pdf',
         description: 'Lịch Trình Niên Học 2023-2024',
     },
     {   
         fileName: 'School Policies for Parents and Students',
-        downloadFile: 'https://hvmatl.net/gallery/kgd/viethong/documents/Viet-Hong-School-2023-24-School-Policies-Parents-Students.pdf',
+        downloadFile: 'https://hvmatl.s3.us-east-2.amazonaws.com/gallery/kgd/viethong/documents/Viet-Hong-School-2023-24-School-Policies-Parents-Students.pdf',
         description: 'Nội Quy cho Phụ Huynh và Học Sinh 2023-2024',
     },
     {   
         fileName: 'Student Absence Form',
-        downloadFile: 'https://hvmatl.net/gallery/kgd/viethong/documents/Viet-Hong-School-2022-23-Absence-Form.pdf',
+        downloadFile: 'https://hvmatl.s3.us-east-2.amazonaws.com/gallery/kgd/viethong/documents/Viet-Hong-School-2022-23-Absence-Form.pdf',
         description: 'Giấy Xin Phép Vắng Mặt',
     },
     {   

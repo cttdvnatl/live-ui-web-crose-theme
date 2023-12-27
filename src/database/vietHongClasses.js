@@ -30,7 +30,7 @@ const Classes = [
     {
         name: "vlc",
         class: "Vỡ Lòng C",
-        teachers: "Cô Phạm Thị Nga, Thầy Nguyễn Joseph Alex, Cô Nghiêm Trang",
+        teachers: "Thầy Nguyễn Joseph Alex, Cô Nghiêm Trang",
         emails: "",
         classwork: ""
     },
