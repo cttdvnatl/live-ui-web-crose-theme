@@ -11,7 +11,7 @@ const Footer = (prop) => {
                 <div className="col-sm-1 col-sm-1"/>
                 <div className="col-sm-3 col-md-3">
                     <div className="single-footer-widget">
-                        <p className="footer-logo"><img src="https://hvmatl.net/gallery/img/bg-img/footer_img3.png" alt=""/></p>
+                        <p className="footer-logo"><img src="https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/bg-img/footer_img3.png" alt=""/></p>
                     </div>
                 </div>
                 <div className="col-sm-3 col-md-3">
