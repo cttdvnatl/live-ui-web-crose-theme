@@ -1,7 +1,7 @@
 const stJosephDocuments = [ 
     {   
         fileName: 'Education Department Parents Handbook',
-        downloadFile: 'https://hvmatl.net/gallery/kgd/giaoly/2023-24-Education-Department-Parents-Handbook.pdf',
+        downloadFile: 'https://hvmatl.s3.us-east-2.amazonaws.com/gallery/kgd/giaoly/2023-24-Education-Department-Parents-Handbook.pdf',
         description: 'Khối Giáo Dục Sổ Tay Phụ Huynh 2023-2024',
     },
     {   
