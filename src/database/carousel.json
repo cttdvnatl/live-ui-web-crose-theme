@@ -1,0 +1,84 @@
+[
+    {
+        "title": [
+            ""
+        ],
+        "content": [
+            "<img src='https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/index/Hero_1.jpg' style='filter:brightness(100%)'></img>"
+        ],
+        "_id": {
+            "timestamp": 1605063834,
+            "counter": 630695,
+            "time": 1605063834000,
+            "date": "2020-11-11T03:03:54.000+00:00",
+            "timeSecond": 1605063834,
+            "machineIdentifier": 4528884,
+            "processIdentifier": 23
+        },
+        "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/index/Hero_1.jpg"
+    },
+    {
+        "title": [
+            ""
+        ],
+        "content": [
+            "<u>GIỜ LỄ - MASS SCHEDULE</u>",
+            "Chúa Nhật: 7:00am, 8:45am, 11:00am, 12:45pm (TNTT Only mass)",
+            "Thứ Bảy: 7:30am và 5:30pm (Sunday Vigil Mass)",
+            "<b>Thứ Hai - Thứ Sáu</b>: 7:30 am or 6:30 pm",
+            "<b style='color:#30fbbf'>--Các Lễ Có Live Stream Trong Tuần--</b>",
+            "<b>Thứ Hai - Thứ Bảy</b>: 7:30 am",
+            "<b>Chúa Nhật</b>: 7:00 am & 8:45 am"
+        ],
+        "_id": {
+            "timestamp": 1605063834,
+            "counter": 630696,
+            "time": 1605063834000,
+            "date": "2020-11-11T03:03:54.000+00:00",
+            "timeSecond": 1605063834,
+            "machineIdentifier": 4528884,
+            "processIdentifier": 23
+        },
+        "button": {
+            "title": "Contact Us",
+            "action": "/contact"
+        },
+        "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/index/Hero_2.jpg"
+    },
+    {
+        "title": [
+            ""
+        ],
+        "content": [
+            "<a href=\"https://www.hvmatlevents.org\" target=\"_blank\" rel=\"noopener noreferrer\"><img src='https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/index/Hero_3.jpg' style='filter:brightness(100%)'></img></a>"
+        ],
+        "_id": {
+            "timestamp": 1702071645,
+            "counter": 8619855,
+            "time": 1702071645000,
+            "date": "2023-12-08T21:40:45.000+00:00",
+            "timeSecond": 1702071645,
+            "machineIdentifier": 15314545,
+            "processIdentifier": 8874
+        },
+        "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/index/Hero_3.jpg"
+    },
+    {
+        "title": [
+            ""
+        ],
+        "content": [
+            "<img src='https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/index/Hero_4.jpg' style='filter:brightness(100%)'></img>"
+        ],
+        "_id": {
+            "timestamp": 1703966575,
+            "counter": 3583234,
+            "time": 1703966575000,
+            "date": "2023-12-30T20:02:55.000+00:00",
+            "timeSecond": 1703966575,
+            "machineIdentifier": 3306688,
+            "processIdentifier": -7255
+        },
+        "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/index/Hero_4.jpg"
+    }
+]
