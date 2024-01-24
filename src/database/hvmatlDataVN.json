@@ -220,9 +220,9 @@
           "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/ChaTho.jpg"
         },
         {
-          "name": "Sr. Maria Nguyễn Thị Thúy",
-          "title": "Thư Ký Văn Phòng",
-          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/SoThuy.jpg"
+          "name": "Lm. Nicholas Lê Minh",
+          "title": "Phó Xứ",
+          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/ChaNick.jpg"
         },
         {
           "name": "Sr. Teresa Đỗ Thị Ngọc Oanh",
@@ -238,6 +238,16 @@
           "name": "Thầy Giuse Phạm Văn Hòa",
           "title": "Phó Tế",
           "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/ThayHoa.jpg"
+        },
+        {
+          "name": "Thầy Phillip Trần Xuân Phúc",
+          "title": "Phó Tế",
+          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/ThayPhuc.jpg"
+        },
+        {
+          "name": "Thầy Đaminh Vũ Ngọc Thăng",
+          "title": "Phó Tế",
+          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/ThayThang.jpg"
         }
       ]
     },
@@ -321,7 +331,12 @@
           "title": "Priest",
           "date": "7/2018 - 8/2022",
           "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/ChaTuanAnh.jpg"
-        }
+        },
+        {
+          "name": "Sr. Maria Nguyễn Thị Thúy",
+          "title": "Thư Ký Văn Phòng",
+          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/SoThuy.jpg"
+        },
       ]
     }
   ],

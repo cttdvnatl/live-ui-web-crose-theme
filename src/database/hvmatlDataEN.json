@@ -235,8 +235,18 @@
         },
         {
           "name": "Dea. Joseph Phạm Văn Hòa",
-          "title": "Phó Tế",
+          "title": "Deacon",
           "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/ThayHoa.jpg"
+        },
+        {
+          "name": "Dea. Phillip Trần Xuân Phúc",
+          "title": "Deacon",
+          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/ThayPhuc.jpg"
+        },
+        {
+          "name": "Dea. Đaminh Vũ Ngọc Thăng",
+          "title": "Deacon",
+          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/ThayThang.jpg"
         }
       ]
     },
