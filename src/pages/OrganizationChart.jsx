@@ -8,7 +8,7 @@ const Org = () => {
         <Preloader/>
         <Header/>
             <div>
-                <img className="center" src="https://hvmatl.net/gallery/img/core-img/SDTC.jpg" alt=""/>
+                <img className="center" src="https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/SDTC.jpg" alt=""/>
             </div>
         <Footer/>
         </div>

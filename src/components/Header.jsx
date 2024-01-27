@@ -2,6 +2,7 @@ import React, {useEffect, useState, useRef, useCallback} from 'react';
 import { setLanguage, getLanguage, useTranslation } from 'react-multi-lang';
 //import EmergencyEvent from "./EmergencyNotice";
 //import HcmtEvent from "./HcmtNotice";
+import BannerMsg from '../components/BannerMsg';
 import PopupModal from "./PopupModal";
 
 const Header = (prop) => {
@@ -251,6 +252,7 @@ const Header = (prop) => {
                         </div>
                         {/* <EmergencyEvent emergency={'emergency' in prop ? prop.emergency : false} message={prop.emergencyMsg} url={prop.url}/> */}
                         {/* <HcmtEvent hcmt={'hcmt' in prop ? prop.hcmt : true} message={prop.hcmtMsg} url={prop.url}/> */}
+                        <BannerMsg banner={'banner' in prop ? prop.banner : false} message={prop.bannerMsg} url={prop.url}/>
                     </div>
                 </div>
             </div>

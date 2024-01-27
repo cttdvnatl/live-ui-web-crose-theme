@@ -39,7 +39,7 @@ const CustomCarousel = (props) => {
                                     </div>
                                     {item.button !== undefined ? 
                                         // <a href={item.button.action} className="crose-btn animated fadeInUpShort">{item.button.title}</a> : null}
-                                        <a href={item.button.action} className=" ">{item.button.title}</a> : null}
+                                        <a href={item.button.action} className="crose-btn ">{item.button.title}</a> : null}
                                 </div>
                             </Carousel.Caption>
                     </Carousel.Item>

@@ -16,7 +16,7 @@ const clergies = [
         
 },
 {
-    name: 'Sr. Maria Nguyễn Thị Thúy',
+    name: 'Sr. Maria Nguyễn Thị Thúy 2',
     title: 'Thư Ký Văn Phòng',
     date: '',
     image: '../img/core-img/SoThuy.jpg',
