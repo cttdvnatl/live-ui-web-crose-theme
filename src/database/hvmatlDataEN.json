@@ -102,7 +102,7 @@
     "dropdownMenuTwo": {
       "dropdownHeading": "News and Events",
       "item1": "Parish Activities",
-      "item2": "Calendar 2022",
+      "item2": "Calendar 2024",
       "item3": "Covid-19",
       "item4": "Eucharist's Youth",
       "item5": "Fall Festival",
@@ -228,6 +228,11 @@
           "title": "Tr. Ban Giáo Lý",
           "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/SoOanh.jpg"
         },
+        {
+          "name": "Sr. Hoa Pham",
+          "title": "Tr. Ban Giáo Lý",
+          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/SoHoaPham.jpg"
+        },        
         {
           "name": "Fr. Isidore Nguyễn Bá Kỳ",
           "title": "Cha khách",
