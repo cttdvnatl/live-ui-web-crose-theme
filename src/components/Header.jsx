@@ -200,7 +200,6 @@ const Header = (prop) => {
                                                 <ul className="dropdown">
                                                     <li><a href="/activities">{t("header.dropdownMenuTwo.item1")}</a></li>
                                                     <li><a href="/printed-calendar">{t("header.dropdownMenuTwo.item2")}</a></li>
-                                                    <li><a href="/covid19">{t("header.dropdownMenuTwo.item3")}</a></li>
                                                     <li><a href="/thieu-nhi">{t("header.dropdownMenuTwo.item4")}</a></li>
                                                     <li><a href="https://fallfestival.hvmatl.org/">{t("header.dropdownMenuTwo.item5")}</a></li>
                                                     <li><a href="/ChristmasFestival">{t("header.dropdownMenuTwo.item6")}</a></li>
