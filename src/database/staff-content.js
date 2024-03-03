@@ -139,7 +139,7 @@ const staffContent = [
     deptAcronym: 'KQT',
     deptName: 'Khối Quản Trị',
     title: 'Trưởng ',
-    image: 'https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/ThinhBui.jpg',
+    image: 'https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/thinhbui.png',
     phone: '678-799-1638',
     email: 'thinh.bui@hvmatl.org',
 },

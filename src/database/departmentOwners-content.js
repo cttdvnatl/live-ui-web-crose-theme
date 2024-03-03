@@ -102,7 +102,7 @@ const departments = [
     deptName: 'Khối Quản Trị',
     primaryOwner: 'Phanxico Xavier Thịnh Bùi',
     primaryOwnerTitle: 'Trưởng Khối',
-    primaryOwnerImg: 'https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/ThinhBui.jpg',
+    primaryOwnerImg: 'https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/thinhbui.png',
     primaryOwnerPhone: '678-799-1638',
     primaryOwnerEmail: 'thinh.bui@hvmatl.org',
     secondaryOwner: 'Lucia Lê Jennie',
