@@ -12,13 +12,26 @@ const VietHong = () => {
         <Header/>
             <VietHongHeader/>
             <br/><br/><br/>
-            <h5 style={{ textAlign: "center" }}>{t('viethong.home.heading')}<br/><br/> 
-                {t('viethong.home.line1')} <br/>
-                {t('viethong.home.line2')} <br/> 
-                {t('viethong.home.line3')} <br/><br/>        
-                {t('viethong.home.line4')} <br/><br/> 
-                {t('viethong.home.line5')} <br/><br/><br/>
-                </h5>              
+            <h5 style={{ textAlign: "center" }}>{t('stjoseph.home.heading')}<br/>
+                {t('stjoseph.home.line1')} <br/><br/>
+                {t('stjoseph.home.line2')} <br/>
+                {t('stjoseph.home.line3')} <br/>                 
+                {t('stjoseph.home.line4')} <br/><br/>
+                {t('stjoseph.home.line5')} <br/><br/>
+                {t('stjoseph.home.line6')} <br/>
+                {t('stjoseph.home.line7')} <br/>
+                {t('stjoseph.home.line8')} <br/>
+                {t('stjoseph.home.line9')} <br/><br/>
+                {t('stjoseph.home.line10')} <br/>
+                {t('stjoseph.home.line11')} <br/><br/>
+                {t('stjoseph.home.line12')} <br/>
+                {t('stjoseph.home.line13')} <br/>
+                {t('stjoseph.home.line14')} <br/>
+                {t('stjoseph.home.line15')} <br/><br/>
+                {t('stjoseph.home.line16')} <br/>
+                {t('stjoseph.home.line17')} <br/>
+                {t('stjoseph.home.line18')} <br/><br/><br/>
+                </h5>            
                 <div className="container-fluid text-center">
                 <p id="viet-ngu" style={{width: '65%', margin: 'auto'}}>{t('viethong.home.announcement')}</p>
                 <br/>
