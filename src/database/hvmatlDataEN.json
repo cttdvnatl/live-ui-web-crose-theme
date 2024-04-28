@@ -227,9 +227,14 @@
           "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/ChaTho.jpg"
         },
         {
-          "name": "Sr. Mary Nguyễn Thị Thúy",
-          "title": "Thư Ký Văn Phòng",
-          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/SoThuy.jpg"
+          "name": "Fr. Nicholas Lê Minh",
+          "title": "Phó Xứ",
+          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/ChaNick.jpg"
+        },
+        {
+          "name": "Fr. Peter Đỗ Công Sơn",
+          "title": "Phó Xứ",
+          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/ChaSon.jpg"
         },
         {
           "name": "Sr. Teresa Đỗ Thị Ngọc Oanh",
@@ -240,7 +245,7 @@
           "name": "Sr. Hoa Pham",
           "title": "Tr. Ban Giáo Lý",
           "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/SoHoaPham.jpg"
-        },        
+        },
         {
           "name": "Fr. Isidore Nguyễn Bá Kỳ",
           "title": "Cha khách",
@@ -337,12 +342,17 @@
           "title": "Sister",
           "date": "10/2016 - 8/2018",
           "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/SoThuyAn.jpg"
-        }, 
+        },
         {
           "name": "Fr. John Baptist Phạm Nguyễn Tuấn Anh",
           "title": "Priest",
           "date": "7/2018 - 8/2022",
           "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/ChaTuanAnh.jpg"
+        },
+        {
+          "name": "Sr. Mary Nguyễn Thị Thúy",
+          "title": "Thư Ký Văn Phòng",
+          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/SoThuy.jpg"
         }
       ]
     }

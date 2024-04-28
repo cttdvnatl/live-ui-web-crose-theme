@@ -233,6 +233,11 @@
           "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/ChaNick.jpg"
         },
         {
+          "name": "Fr. Peter Đỗ Công Sơn",
+          "title": "Phó Xứ",
+          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/ChaSon.jpg"
+        },
+        {
           "name": "Sr. Teresa Đỗ Thị Ngọc Oanh",
           "title": "Tr. Ban Giáo Lý",
           "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/SoOanh.jpg"
@@ -241,7 +246,7 @@
           "name": "Sr. Hoa Pham",
           "title": "Tr. Ban Giáo Lý",
           "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/SoHoaPham.jpg"
-        },           
+        },
         {
           "name": "Lm. Isidore Nguyễn Bá Kỳ",
           "title": "Cha khách",
