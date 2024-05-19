@@ -30,12 +30,12 @@ const departments = [
 {
     name: 'KPT',
     deptName: 'Khối Phụng Tự',
-    primaryOwner: 'Cecilia Lê Tú Anh',
+    primaryOwner: 'Cêcilia Lê Tú Anh',
     primaryOwnerTitle: 'Trưởng Khối',
     primaryOwnerImg: 'https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/TuAnh.jpg',
     primaryOwnerPhone: '404-403-2763',
     primaryOwnerEmail: 'tuanhle@hvmatl.org',
-    secondaryOwner: 'Gioakim Lê Kevin Tâm',
+    secondaryOwner: 'Gioan Kim Khẩu Lê Kevin Tâm',
     secondaryOwnerTitle: 'Phó Khối',
     secondaryOwnerImg: 'https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/TamLe.jpg',
     secondaryOwnerPhone: '678-268-8891',
@@ -58,7 +58,7 @@ const departments = [
 {
     name: 'KGD',
     deptName: 'Khối Giáo Dục',
-    primaryOwner: 'Phaolô Nguyễn Chinh Paul',
+    primaryOwner: 'Phaolô Nguyễn Chính',
     primaryOwnerTitle: 'Trưởng Khối',
     primaryOwnerImg: 'https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/PaulNguyen.jpg',
     primaryOwnerPhone: '678-644-0853',
@@ -100,7 +100,7 @@ const departments = [
 {
     name: 'KQT',
     deptName: 'Khối Quản Trị',
-    primaryOwner: 'Phanxico Xavier Thịnh Bùi',
+    primaryOwner: 'Phanxicô Xaviê Bùi Thịnh',
     primaryOwnerTitle: 'Trưởng Khối',
     primaryOwnerImg: 'https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/thinhbui.png',
     primaryOwnerPhone: '678-799-1638',

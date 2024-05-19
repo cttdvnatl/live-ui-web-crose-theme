@@ -166,9 +166,13 @@
       "line1": "Hơn 1000 năm người dân Việt bị đô hộ bởi ngoại xâm, tiếng Việt mình vẫn còn.",
       "line2": "Hơn vài chục năm xa quê hương, tiếng Việt mình còn không?",
       "line3": "Đó là điều mà khi làm Cha, làm Mẹ, chúng ta quyết định.",
-      "line4": "Kính thư,",
-      "line5": "Thầy cô, phụ giáo Trường Việt Ngữ Việt Hồng",
-      "announcement": "Quý phụ huynh muốn biết thêm chi tiết xin liên lạc Viet.Hong.School@hvmatl.org"
+      "line4": "Nhân đây, chúng tôi tha thiết mời quý phụ huynh",
+      "line5": "hãy cùng tham gia với chúng tôi để tiếp tục duy trì ngôn ngữ và văn hóa Việt Nam",
+      "line6": "trong các hoạt động của Trường Việt Ngữ Việt Hồng.",
+      "line7": "Quý vị muốn biết thêm chi tiết xin liên lạc Viet.Hong.School@hvmatl.org",
+      "line8": "Kính thư,",
+      "line9": "Thầy cô, phụ giáo Trường Việt Ngữ Việt Hồng",
+      "announcement": "Tin tức và thông báo của trường sẽ được cập nhật thường xuyên trên trang này."
     }
   },
   "stjoseph": {
@@ -210,7 +214,7 @@
       "title": "Linh Mục / Tu Sĩ - Đương Nhiệm",
       "content": [
         {
-          "name": "Lm. Phanxicô Trần Quốc Tuấn",
+          "name": "Lm. Phanxicô Xaviê Trần Quốc Tuấn",
           "title": "Chánh Xứ",
           "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/ChaTuan.jpg"
         },
@@ -220,27 +224,27 @@
           "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/ChaTho.jpg"
         },
         {
-          "name": "Lm. Nicholas Lê Minh",
+          "name": "Lm. Nicôla Lê Minh",
           "title": "Phó Xứ",
           "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/ChaNick.jpg"
         },
         {
-          "name": "Fr. Peter Đỗ Công Sơn",
+          "name": "Lm. Phêrô Đỗ Công Sơn",
           "title": "Phó Xứ",
           "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/ChaSon.jpg"
         },
         {
-          "name": "Sr. Teresa Đỗ Thị Ngọc Oanh",
+          "name": "Sr. Têrêsa Đỗ Thị Ngọc Oanh",
           "title": "Tr. Ban Giáo Lý",
           "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/SoOanh.jpg"
         },
         {
-          "name": "Sr. Hoa Pham",
+          "name": "Sr. Maria Phạm Thanh Hoa",
           "title": "Tr. Ban Giáo Lý",
           "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/SoHoaPham.jpg"
         },
         {
-          "name": "Lm. Isidore Nguyễn Bá Kỳ",
+          "name": "Lm. Isiđôrô Nguyễn Bá Kỳ",
           "title": "Cha khách",
           "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/ChaCoKy.jpg"
         },
@@ -250,7 +254,7 @@
           "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/ThayHoa.jpg"
         },
         {
-          "name": "Thầy Phillip Trần Xuân Phúc",
+          "name": "Thầy Philipphê Trần Xuân Phúc",
           "title": "Phó Tế",
           "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/ThayPhuc.jpg"
         },
@@ -301,7 +305,7 @@
           "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/ChaMinhThang.jpg"
         },
         {
-          "name": "Sr. Têrêxa Lưu Bích Ngọc",
+          "name": "Sr. Têrêsa Lưu Bích Ngọc",
           "title": "Sister",
           "date": "2/2012 - 6/2013",
           "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/SoBichNgoc.jpg"
@@ -319,7 +323,7 @@
           "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/ChaKimPhong.jpg"
         },
         {
-          "name": "Sr. Maria Nguyễn Mỹ-Linh",
+          "name": "Sr. Maria Nguyễn Mỹ Linh",
           "title": "Sister",
           "date": "6/2013 - 6/2018",
           "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/SoMyLinh.jpg"
@@ -331,13 +335,13 @@
           "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/ChaCong.jpg"
         },
         {
-          "name": "Sr. Anna Trần Đỗ Thụy-An",
+          "name": "Sr. Anna Trần Đỗ Thụy An",
           "title": "Sister",
           "date": "10/2016 - 8/2018",
           "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/SoThuyAn.jpg"
         },
         {
-          "name": "Lm. GB Phạm Nguyễn Tuấn Anh",
+          "name": "Lm. Gioan Baotixita Phạm Nguyễn Tuấn Anh",
           "title": "Priest",
           "date": "7/2018 - 8/2022",
           "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/ChaTuanAnh.jpg"
@@ -345,6 +349,7 @@
         {
           "name": "Sr. Maria Nguyễn Thị Thúy",
           "title": "Thư Ký Văn Phòng",
+          "date": "7/2023",
           "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/SoThuy.jpg"
         }
       ]
@@ -357,27 +362,27 @@
       "content": [
         {
           "name": "Phêrô Nguyễn Thành Danh",
-          "title": "Trưởng ",
+          "title": "Trưởng Hội Đồng Mục Vụ",
           "deptAcronym": "HĐMV",
-          "deptName": "HĐMV",
+          "deptName": "",
           "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/Danh.jpg",
           "phone": "678-910-8100",
           "email": "danh.t.nguyen@hvmatl.org"
         },
         {
           "name": "Giuse Nguyễn Đức Sơn",
-          "title": "Trưởng ",
+          "title": "Trưởng Hội Đồng Tài Chánh",
           "deptAcronym": "HĐTC",
-          "deptName": "HĐTC",
+          "deptName": "",
           "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/SonNguyen.jpg",
           "phone": "678-906-8914",
           "email": "son.nguyen@hvmatl.org"
         },
         {
           "name": "Phêrô Nguyễn Đức Phúc",
-          "title": "Phó ",
+          "title": "Phó Hội Đồng Mục Vụ",
           "deptAcronym": "HĐMV",
-          "deptName": "HĐMV",
+          "deptName": "",
           "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/PhucNguyen.jpg",
           "phone": "678-978-4518",
           "email": "peter.d.nguyen@hvmatl.org"
@@ -401,7 +406,7 @@
           "email": "thanhvu@hvmatl.org"
         },
         {
-          "name": "Phaolô Nguyễn Chinh Paul",
+          "name": "Phaolô Nguyễn Chính",
           "title": "Trưởng ",
           "deptAcronym": "KGD",
           "deptName": "Khối Giáo Dục",
@@ -410,7 +415,7 @@
           "email": "paul.chinh.nguyen@hvmatl.org"
         },
         {
-          "name": "Theresa Nguyễn Lệ Thảo",
+          "name": "Têrêsa Nguyễn Lệ Thảo",
           "deptAcronym": "KGD",
           "deptName": "Khối Giáo Dục",
           "title": "Phó ",
@@ -473,7 +478,7 @@
           "email": "trang.t.vu@hvmatl.org"
         },
         {
-          "name": "Cecilia Lê Tú Anh",
+          "name": "Cêcilia Lê Tú Anh",
           "deptAcronym": "KPT",
           "deptName": "Khối Phụng Tự",
           "title": "Trưởng ",
@@ -482,7 +487,7 @@
           "email": "tuanhle@hvmatl.org"
         },
         {
-          "name": "Gioankim Lê Kevin Tâm",
+          "name": "Gioan Kim Khẩu Lê Kevin Tâm",
           "deptAcronym": "KPT",
           "deptName": "Khối Phụng Tự",
           "title": "Phó ",
@@ -491,7 +496,7 @@
           "email": "tamle@hvmatl.org"
         },
         {
-          "name": "Phanxico Xavier Thịnh Bùi",
+          "name": "Phanxicô Xaviê Bùi Thịnh",
           "deptAcronym": "KQT",
           "deptName": "Khối Quản Trị",
           "title": "Trưởng ",
