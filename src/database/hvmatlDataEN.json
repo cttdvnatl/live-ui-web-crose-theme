@@ -161,19 +161,17 @@
       "item5": "Documents"
     },
     "home": {
-      "heading":"REGISTRATION FOR 2024-2025 SCHOOL YEAR",
-      "line1": "Saturday, April 13th, 2024",
-      "line2": "Saturday, April 20th, 2024",
-      "line3": "Saturday, April 27th, 2024",
-      "line4": "10:15 a.m. to 12:15 p.m.",
-      "line5": "St. Joseph Social Hall",
-      "line6": "• Tuition if registered during the three (3) registration days above: $100 per student",
-      "line7": "• Tuition if registered after 12:15 p.m. on Saturday, April 27th, 2024: $150 per student",
-      "line8": "Please note:",
-      "line9": "• We have printed the registration form for each student.",
-      "line10": "• When registering, please let us know",
-      "line11": "the name of your child(dren)'s teachers and/or their current class.",
-      "announcement": "Please contact us for more information at Viet.Hong.School@hvmatl.org"
+      "heading":"Dear parents,",
+      "line1": "We managed to retain our language even after over 1000 years of foreign occupation.",
+      "line2": "Would we be able to retain our language only a few decades away from our homeland?",
+      "line3": "This is when you, the Father, the Mother of our students must decide.",
+      "line4": "Please consider helping us in our effort to preserve our Vietnamese culture and language.",
+      "line5": "We are always in need of volunteers in all capacities and positions.",
+      "line6": "Please join us to make a difference.",
+      "line7": "Please contact us for more information at Viet.Hong.School@hvmatl.org",
+      "line8": "Sincerely,",
+      "line9": "The Staff of Viet Hong Vietnamese Language School",
+      "announcement": "News and announcements about our school will be regularly updated on this page."
     }
   },
   "stjoseph": {
@@ -185,29 +183,27 @@
       "item5": "Classes"
     },
     "home": {
-      "heading": "REGISTRATION FOR 2024-2025 SCHOOL YEAR",
-      "line1": "Sunday, April 14th, 2024",
-      "line2": "Sunday, April 21th, 2024",
-      "line3": "Sunday, April 28th, 2024",
-      "line4": "8:00 a.m. to 1:00 p.m.",
-      "line5": "St. Joseph Social Hall",
-      "line6": "• Tuition if registered during the three (3) registration days above: $100 per student",
-      "line7": "• Tuition if registered after Sunday, April 28th, 2024: $150 per student",
-      "line8": "• Meal plan fee: $80 per student in first to seventh grade",
-      "line9": "• Annual due for the Vietnamese Eucharistic Youth Movement: $15",
-      "line10": "• Tuition is waived for the children after the third child, however, ",
-      "line11": "meal plan fee and the Vietnamese Eucharistic Youth Movement's annual due still need to be paid.",
-      "line12": "Please note the followings:",
-      "line13": "We will not be able to accept your registration form without the required document(s):",
-      "line14": "FOR CHILDREN REGISTERING FOR FIRST GRADE",
-      "line15": "We only accepts children who were born before September 1st, 2018",
-      "line16": "• A copy of their Baptismal Certificate",
-      "line17": "FOR CHILDREN GOING TO RECEIVE THEIR SACRAMENT OF THE EUCHARIST",
-      "line18": "Whom already in second grade and registering for third grade",
-      "line19": "• A copy of their Baptismal Certificate",
-      "line20": "FOR CHILDREN GOING TO RECEIVE THEIR SACRAMENT OF CONFIRMATION",
-      "line21": "Whom already in ninth grade and registering for tenth grade",
-      "line22": "• A copy of their Baptismal and First Communion Certificate",
+      "heading": "Sunday School and Vietnamese Eucharistic Youth Movement Program",
+      "line1": "2023-2024 School Year",
+      "line2": "Ngành Ấu and Ngành Thiếu",
+      "line3": "• Class 1, 2, 3, 4, 5, 6,  7",
+      "line4": "• Sunday from 10:30 a.m. to 12:30 p.m.",
+      "line5": "• At building Dominic Savio, Thomas Thien and Carlos Acutis",
+      "line6": "ATTEND HOLY MASS FOR CHILDREN AT 12:45 P.M.",
+      "line7": "Ngành Nghĩa and Ngành Hiệp",
+      "line8": "• Class 8, 9, 10 and Hiệp Sĩ I, II, III",
+      "line9": "• Sunday from 2:00 to 3:45 p.m.",
+      "line10": "• At building Dominic Savio, Thomas Thien and Carlos Acutis",
+      "line11": "ANNOUNCEMENTS FROM THE EDUCATION DEPARTMENT",
+      "line12": "1. Webpage for St. Joseph Religious School",
+      "line13": "http://www.hvmatl.org/St-Joseph",
+      "line14": "2. Webpage for Viet Hong Vietnamese Language School",
+      "line15": "http://www.hvmatl.org/VietHong",
+      "line16": "3. Website for Thomas Thien (Vietnamese Eucharistic Youth Movement)",
+      "line17": "http://www.tomathienatl.org",
+      "line18": "4. Communication methods: Remind app, emails and letters",
+      "line19": "5. Please remember to update new information at the Education Department's office",
+      "line20": "(address, phone number, email, etc.)",
       "title": "St. Joseph School",
       "announcement": "News and announcements during the school year for Sunday School and the Vietnamese Eucharistic Youth Movement will be regularly updated on this page."
     }
@@ -217,47 +213,52 @@
       "title": "Current Clergy/Sisters",
       "content": [
         {
-          "name": "Fr. Francis Trần Quốc Tuấn",
+          "name": "Fr. Francis Xavier Tuan Q. Tran",
           "title": "Chánh Xứ",
           "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/ChaTuan.jpg"
         },
         {
-          "name": "Fr. Dominic Trần Công Thơ",
+          "name": "Fr. Dominic Tho C. Tran",
           "title": "Phó Xứ",
           "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/ChaTho.jpg"
         },
         {
-          "name": "Sr. Mary Nguyễn Thị Thúy",
-          "title": "Thư Ký Văn Phòng",
-          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/SoThuy.jpg"
+          "name": "Fr. Nicholas Minh Le",
+          "title": "Phó Xứ",
+          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/ChaNick.jpg"
         },
         {
-          "name": "Sr. Teresa Đỗ Thị Ngọc Oanh",
+          "name": "Fr. Peter Son C. Do",
+          "title": "Phó Xứ",
+          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/ChaSon.jpg"
+        },
+        {
+          "name": "Sr. Teresa Oanh N. Do",
           "title": "Tr. Ban Giáo Lý",
           "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/SoOanh.jpg"
         },
         {
-          "name": "Sr. Hoa Pham",
+          "name": "Sr. Maria Hoa T. Pham",
           "title": "Tr. Ban Giáo Lý",
           "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/SoHoaPham.jpg"
-        },        
+        },
         {
-          "name": "Fr. Isidore Nguyễn Bá Kỳ",
+          "name": "Fr. Isidore Ky B. Nguyen",
           "title": "Cha khách",
           "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/ChaCoKy.jpg"
         },
         {
-          "name": "Dea. Joseph Phạm Văn Hòa",
+          "name": "Dea. Joseph Hoa V. Pham",
           "title": "Deacon",
           "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/ThayHoa.jpg"
         },
         {
-          "name": "Dea. Phillip Trần Xuân Phúc",
+          "name": "Dea. Phillip Phuc X. Tran",
           "title": "Deacon",
           "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/ThayPhuc.jpg"
         },
         {
-          "name": "Dea. Đaminh Vũ Ngọc Thăng",
+          "name": "Dea. Dominic Thang N. Vu",
           "title": "Deacon",
           "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/ThayThang.jpg"
         }
@@ -267,82 +268,88 @@
       "title": "Past Clergy/Sisters",
       "content": [
         {
-          "name": "Sr. Christine Trương Mỹ Hạnh",
+          "name": "Sr. Christine Hanh M. Truong",
           "title": "Sister",
           "date": "1992 - 6/1996",
           "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/SoMyHanh.jpg"
         },
         {
-          "name": "Fr. Peter Vũ Ngọc Đức",
+          "name": "Fr. Peter Duc N. Vu",
           "title": "Priest",
           "date": "6/1996 - 1/2008",
           "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/ChaNgocDuc.jpg"
         },
         {
-          "name": "Sr. Anna Nguyễn Ngọc Oanh",
+          "name": "Sr. Anna Oanh N. Nguyen",
           "title": "Sister",
           "date": "4/2007 - 12/2012",
           "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/SoOanh1.jpg"
         },
         {
-          "name": "Fr. Francis Trần Duy Hưng",
+          "name": "Fr. Francis Hung D. Tran",
           "title": "Priest",
           "date": "9/2007 - 12/2009",
           "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/ChaDuyHung.jpg"
         },
         {
-          "name": "Fr. Joseph Phạm Minh Tân",
+          "name": "Fr. Joseph Tan M. Pham",
           "title": "Priest",
           "date": "8/2010 - 7/2012",
           "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/ChaMinhTan.jpg"
         },
         {
-          "name": "Fr. Henry Phạm Minh Thắng",
+          "name": "Fr. Henry Thang M. Pham",
           "title": "Priest",
           "date": "7/2012 - 10/2013",
           "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/ChaMinhThang.jpg"
         },
         {
-          "name": "Sr. Teresa Lưu Bích Ngọc",
+          "name": "Sr. Teresa Ngoc B. Luu",
           "title": "Sister",
           "date": "2/2012 - 6/2013",
           "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/SoBichNgoc.jpg"
         },
         {
-          "name": "Sr. Mary Nguyễn Hồng Hạnh",
+          "name": "Sr. Mary Hanh H. Nguyen",
           "title": "Sister",
           "date": "4/2007 - 2016",
           "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/SoHongHanh.jpg"
         },
         {
-          "name": "Fr. Anthony Bùi Kim Phong",
+          "name": "Fr. Anthony Phong K. Bui",
           "title": "Priest",
           "date": "6/2012 - 7/2017",
           "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/ChaKimPhong.jpg"
         },
         {
-          "name": "Sr. Mary Nguyễn Mỹ-Linh",
+          "name": "Sr. Mary Linh M. Nguyen",
           "title": "Sister",
           "date": "6/2013 - 6/2018",
           "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/SoMyLinh.jpg"
         },
         {
-          "name": "Fr. Dominic Nguyễn Tấn Công",
+          "name": "Fr. Dominic Cong T. Nguyen",
           "title": "Priest",
           "date": "7/2016 - 6/2019",
           "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/ChaCong.jpg"
         },
         {
-          "name": "Sr. Anna Trần Đỗ Thụy-An",
+          "name": "Sr. Anna An T. Do Tran",
           "title": "Sister",
           "date": "10/2016 - 8/2018",
           "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/SoThuyAn.jpg"
-        }, 
+        },
         {
-          "name": "Fr. John Baptist Phạm Nguyễn Tuấn Anh",
+          "name": "Fr. John the Baptist Anh T. Nguyen Pham",
           "title": "Priest",
           "date": "7/2018 - 8/2022",
           "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/ChaTuanAnh.jpg"
+        },
+        {
+          "name": "Sr. Maria Thuy T. Nguyen",
+          "title": "Thư Ký Văn Phòng",
+          "date": "7/2024",
+          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/SoThuy.jpg"
         }
       ]
     }
@@ -353,7 +360,7 @@
       "year": "2019-2023",
       "content": [
         {
-          "name": "Peter Danh Nguyen",
+          "name": "Peter Danh T. Nguyen",
           "title": "Director ",
           "deptAcronym": "HĐMV",
           "deptName": "Pastoral Council",
@@ -362,7 +369,7 @@
           "email": "danh.t.nguyen@hvmatl.org"
         },
         {
-          "name": "Joseph Son Nguyen",
+          "name": "Joseph Son D. Nguyen",
           "title": "Director ",
           "deptAcronym": "HĐTC",
           "deptName": "Finance Council",
@@ -371,7 +378,7 @@
           "email": "son.nguyen@hvmatl.org"
         },
         {
-          "name": "Peter Phuc Nguyen",
+          "name": "Peter Phuc D. Nguyen",
           "title": "Deputy ",
           "deptAcronym": "HĐMV",
           "deptName": "Pastoral Council",
@@ -380,7 +387,7 @@
           "email": "peter.d.nguyen@hvmatl.org"
         },
         {
-          "name": "John Tu Pham",
+          "name": "John Tu T. Pham",
           "title": "Director ",
           "deptAcronym": "KCS",
           "deptName": "Maintenance Department",
@@ -407,7 +414,7 @@
           "email": "paul.chinh.nguyen@hvmatl.org"
         },
         {
-          "name": "Teresa Thao Le Nguyen",
+          "name": "Teresa Thao L. Nguyen",
           "deptAcronym": "KGD",
           "deptName": "Education Department",
           "title": "Deputy ",
@@ -416,7 +423,7 @@
           "email": "lethao.theresa@hvmatl.org"
         },
         {
-          "name": "Anna Mai Tuyet Le",
+          "name": "Anna Mai T. Le",
           "deptAcronym": "KDS",
           "deptName": "Religious Life",
           "title": "Director ",
@@ -425,7 +432,7 @@
           "email": "tuyetle@hvmatl.org"
         },
         {
-          "name": "Peter Hung Thanh Ha",
+          "name": "Peter Hung T. Ha",
           "deptAcronym": "KDS",
           "deptName": "Religious Life",
           "title": "Deputy ",
@@ -434,7 +441,7 @@
           "email": "hungha@hvmatl.org"
         },
         {
-          "name": "Anthony Tuan Minh Vu",
+          "name": "Anthony Tuan M. Vu",
           "deptAcronym": "KGQ",
           "deptName": "Fundraising Department",
           "title": "Director ",
@@ -443,7 +450,7 @@
           "email": "tuanvu@hvmatl.org"
         },
         {
-          "name": "Michael Anh Hung Cao",
+          "name": "Michael Anh H. Cao",
           "deptAcronym": "KGQ",
           "deptName": "Fundraising Department",
           "title": "Deputy ",
@@ -452,7 +459,7 @@
           "email": "anhcao@hvmatl.org"
         },
         {
-          "name": "John Van Khoa Pham",
+          "name": "John Van K. Pham",
           "deptAcronym": "KHC",
           "deptName": "Administration Department",
           "title": "Director ",
@@ -461,7 +468,7 @@
           "email": "van.k.pham@hvmatl.org"
         },
         {
-          "name": "Anna Trang Thuy Vu",
+          "name": "Anna Trang T. Vu",
           "deptAcronym": "KHC",
           "deptName": "Administration Department",
           "title": "Deputy ",
@@ -470,7 +477,7 @@
           "email": "trang.t.vu@hvmatl.org"
         },
         {
-          "name": "Cecilia Anh Tu Le",
+          "name": "Cecilia Anh T. Le",
           "deptAcronym": "KPT",
           "deptName": "Liturgy Department",
           "title": "Director ",
@@ -479,7 +486,7 @@
           "email": "tuanhle@hvmatl.org"
         },
         {
-          "name": "JohnKim Kevin Tam Le",
+          "name": "John Chrysostom Kevin T. Le",
           "deptAcronym": "KPT",
           "deptName": "Liturgy Department",
           "title": "Deputy ",
@@ -488,13 +495,13 @@
           "email": "tamle@hvmatl.org"
         },
         {
-          "name": "Joseph Huong Van Vu",
+          "name": "Francis Xavier Thinh Bui",
           "deptAcronym": "KQT",
           "deptName": "Management Department",
           "title": "Director ",
-          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/HuongVu.jpg",
-          "phone": "704-726-6872",
-          "email": "huongvu@hvmatl.org"
+          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/thinhbui.png",
+          "phone": "678-799-1638",
+          "email": "thinh.bui@hvmatl.org"
         },
         {
           "name": "Lucy Jennie Le",
@@ -515,7 +522,7 @@
           "email": "toyamam@hvmatl.org"
         },
         {
-          "name": "Joseph Tan Quang Nguyen",
+          "name": "Joseph Tan Q. Nguyen",
           "deptAcronym": "KTG",
           "deptName": "Missionary Department",
           "title": "Director ",
@@ -524,7 +531,7 @@
           "email": "tan.q.nguyen@hvmatl.org"
         },
         {
-          "name": "Joseph Chanh Khiem Tran",
+          "name": "Joseph Chanh K. Tran",
           "deptAcronym": "KTG",
           "deptName": "Missionary Department",
           "title": "Deputy ",

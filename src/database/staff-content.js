@@ -45,7 +45,7 @@ const staffContent = [
     email: 'thanhvu@hvmatl.org', 
 },
 {
-    name: 'Phaolô Nguyễn Chinh Paul',
+    name: 'Phaolô Nguyễn Chính',
     deptAcronym: 'KGD',
     deptName: 'Khối Giáo Dục',
     title: 'Trưởng ',
@@ -54,7 +54,7 @@ const staffContent = [
     email: 'paul.chinh.nguyen@hvmatl.org',
 },
 {
-    name: 'Theresa Nguyễn Lệ Thảo',
+    name: 'Têrêsa Nguyễn Lệ Thảo',
     deptAcronym: 'KGD',
     deptName: 'Khối Giáo Dục',    
     title: 'Phó ',
@@ -117,7 +117,7 @@ const staffContent = [
     email: 'trang.t.vu@hvmatl.org',
 },
 {
-    name: 'Cecilia Lê Tú Anh',
+    name: 'Cêcilia Lê Tú Anh',
     deptAcronym: 'KPT',
     deptName: 'Khối Phụng Tự',
     title: 'Trưởng ',
@@ -126,7 +126,7 @@ const staffContent = [
     email: 'tuanhle@hvmatl.org',
 },
 {
-    name: 'Gioakim Lê Kevin Tâm',
+    name: 'Gioan Kim Khẩu Lê Kevin Tâm',
     deptAcronym: 'KPT',
     deptName: 'Khối Phụng Tự',    
     title: 'Phó ',
@@ -135,7 +135,7 @@ const staffContent = [
     email: 'tamle@hvmatl.org',
 },
 {
-    name: 'Phanxico Xavier Thịnh Bùi',
+    name: 'Phanxicô Xaviê Bùi Thịnh',
     deptAcronym: 'KQT',
     deptName: 'Khối Quản Trị',
     title: 'Trưởng ',
