@@ -242,7 +242,12 @@ const Header = (prop) => {
                                                 </ul>
                                                 <span className="dd-trigger"/>
                                             </li>
-                                            <li><a href="/contact">{t("header.dropdownMenuFive.dropdownHeading")}</a></li>
+                                            <li className="cn-dropdown-item has-down" onClick={(e) => toggleSubMenu(4, e)}>
+                                                <a href="/contact">{t("header.dropdownMenuFive.dropdownHeading")}</a>
+                                            </li>
+                                            <li className="cn-dropdown-item has-down" onClick={(e) => toggleSubMenu(5, e)}>
+                                                <a href="https://archatl.com/offices/child-and-youth-protection/reporting-abuse/reporting-child-abuse/">{t("header.dropdownMenuSix.dropdownHeading")}</a>
+                                            </li>
                                         </ul>
                                         <a href="https://giving.parishsoft.com/App/Giving/holy4545250" className="crose-btn header-btn" onClick={(e) => displayModal(e, "Huong dan Donation", "img/core-img/donation_instruction.jpg")}><i className="fas fa-donate"/>  {t("header.donation")}</a>
                                     </div>
