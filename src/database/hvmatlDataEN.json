@@ -92,7 +92,7 @@
     },
     "dropdownMenuOne": {
       "dropdownHeading": "Parish",
-      "item1": "Homepage",
+      "item1": "Contact",
       "item2": "About",
       "item3": "History",
       "item4": "Vietnamese Saints",
@@ -132,9 +132,6 @@
       "item6": "Prayer Request"
     },
     "dropdownMenuFive": {
-      "dropdownHeading": "Contact"
-    },
-    "dropdownMenuSix": {
       "dropdownHeading": "Report child abuse"
     },
     "donation": "Donations"
