@@ -93,7 +93,7 @@
     },
     "dropdownMenuOne": {
       "dropdownHeading": "GIÁO XỨ",
-      "item1": "Trang Chủ",
+      "item1": "LIÊN HỆ",
       "item2": "Sứ Mệnh Giáo Xứ",
       "item3": "Lịch Sử Giáo Xứ",
       "item4": "Các Thánh Tử Đạo",
@@ -133,9 +133,6 @@
       "item6": "Xin Lễ"
     },
     "dropdownMenuFive": {
-      "dropdownHeading": "LIÊN HỆ"
-    },
-    "dropdownMenuSix": {
       "dropdownHeading": "Bảo vệ trẻ em"
     },
     "donation": "Dâng Hiến"

@@ -52,17 +52,18 @@ const DeptOwnerPage = ({match}) => {
         <a href="https://archatl.com/ministries-services/safe-environment/"
             style={{
                 cursor: "pointer",
-                margin: "auto",
                 textAlign: "center",
-                margin: 10
+                marginTop: 30,
+                marginBottom: 30
             }} 
             target="_blank"
         >
             <img 
-                src="https://hvmatl.s3.us-east-2.amazonaws.com/gallery/kgd/arch-diocese/arch-diocese-promise-to-protect.png"
+                src="https://hvmatl.s3.us-east-2.amazonaws.com/gallery/kgd/arch-diocese/arch-diocese-promise-to-protect-2.png"
                 style={{
                     cursor: "pointer",
-                    width: "350px"
+                    width: "500px",
+                    boxShadow: "2px 2px 4px 2px lightgray"
                 }}
                 alt="promise-to-protect-img"
             />
