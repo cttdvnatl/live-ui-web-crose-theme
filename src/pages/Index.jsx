@@ -24,7 +24,7 @@ const Index = () => {
                 <a style={{color: "blue", textDecoration: "underline", fontSize: 20}}
                     href="https://hvmatl.s3.us-east-2.amazonaws.com/gallery/2024-HDMV-Voting/Danh++Sa%CC%81ch+U%CC%9B%CC%81ng+Cu%CC%9B%CC%89+Vie%CC%82n+H%C4%90MV.JPG"
                 >
-                    Danh Sách Ứng Cử
+                    <img width="600px" src="https://hvmatl.s3.us-east-2.amazonaws.com/gallery/2024-HDMV-Voting/Danh++Sa%CC%81ch+U%CC%9B%CC%81ng+Cu%CC%9B%CC%89+Vie%CC%82n+H%C4%90MV.JPG"></img>
                 </a>
             </div>
             <Info/>
