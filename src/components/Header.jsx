@@ -199,10 +199,11 @@ const Header = (prop) => {
                                             <li className="cn-dropdown-item has-down" onClick={(e) => toggleSubMenu(1, e)}><a href="/#">{t("header.dropdownMenuTwo.dropdownHeading")}</a>
                                                 <ul className="dropdown">
                                                     <li><a href="/activities">{t("header.dropdownMenuTwo.item1")}</a></li>
-                                                    <li><a href="/printed-calendar">{t("header.dropdownMenuTwo.item2")}</a></li>
-                                                    <li><a href="/thieu-nhi">{t("header.dropdownMenuTwo.item4")}</a></li>
-                                                    <li><a href="https://fallfestival.hvmatl.org/">{t("header.dropdownMenuTwo.item5")}</a></li>
-                                                    <li><a href="/ChristmasFestival">{t("header.dropdownMenuTwo.item6")}</a></li>
+                                                    <li><a href="/room-reservation">{t("header.dropdownMenuTwo.item2")}</a></li>
+                                                    <li><a href="/printed-calendar">{t("header.dropdownMenuTwo.item4")}</a></li>
+                                                    <li><a href="/thieu-nhi">{t("header.dropdownMenuTwo.item5")}</a></li>
+                                                    <li><a href="https://fallfestival.hvmatl.org/">{t("header.dropdownMenuTwo.item6")}</a></li>
+                                                    <li><a href="/ChristmasFestival">{t("header.dropdownMenuTwo.item7")}</a></li>
                                                 </ul>
                                                 <span className="dd-trigger"/>
                                             </li>
