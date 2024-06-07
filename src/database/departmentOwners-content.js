@@ -63,7 +63,7 @@ const departments = [
     primaryOwnerImg: 'https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/PaulNguyen.jpg',
     primaryOwnerPhone: '678-644-0853',
     primaryOwnerEmail: 'paul.chinh.nguyen@hvmatl.org',
-    secondaryOwner: 'Theresa Nguyễn Lệ Thảo',
+    secondaryOwner: 'Têrêsa Nguyễn Lệ Thảo',
     secondaryOwnerTitle: 'Phó Khối',
     secondaryOwnerImg: 'https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/ThaoLe.jpg',
     secondaryOwnerPhone: '770-900-0769',
