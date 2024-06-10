@@ -74,7 +74,7 @@
       "weekdayMorning": "Thứ Hai - Thứ Bảy: 7:30AM",
       "weekdayNight": "Thứ Hai - Thứ Sáu: 6:30PM",
       "vigil": "Thứ Bảy: Lễ Vọng Chúa Nhật 5:30PM",
-      "sunday": "Chúa Nhật: 7:00AM, 8:45AM, 11:00AM, *12:45PM (dành riêng cho trẻ em)"
+      "sunday": "Chúa Nhật: 7:00AM, 8:45AM, 11:00AM"
     },
     "confession": {
       "title": "Giải Tội",
@@ -84,12 +84,12 @@
     "baptism": {
       "title": "Rửa Tội Trẻ Em",
       "class": "Chúa Nhật Tuần Thứ 2 (lớp Giáo Lý): 9:00AM - 10:15AM",
-      "baptise": "Thứ Bảy Tuần Thứ 3 (Rửa Tội): 8:00AM (Sau Lễ 7:30AM)"
+      "baptise": "Thứ Bảy Tuần Thứ 3 (Rửa Tội): 8:00AM (Sau Thánh Lễ 7:30AM)"
     }
   },
   "header": {
     "top": {
-      "massSchedule": "Giờ Lễ"
+      "massSchedule": "Giờ Thánh Lễ"
     },
     "dropdownMenuOne": {
       "dropdownHeading": "GIÁO XỨ",
@@ -142,7 +142,7 @@
       "heading": "Quick Links",
       "item1": "Trang Chủ",
       "item2": "Giới Thiệu",
-      "item3": "Giờ Lễ",
+      "item3": "Giờ Thánh Lễ",
       "item4": "Thông Báo",
       "item5": "Tờ Thông Tin",
       "item6": "Thiếu Nhi Thánh Thể",

@@ -73,7 +73,7 @@
       "weekdayMorning": "Monday - Saturday: 7:30AM",
       "weekdayNight": "Monday - Friday: 6:30PM",
       "vigil": "Saturday: Vigil Mass 5:30PM",
-      "sunday": "Sunday: 7:00AM, 8:45AM, 11:00AM, *12:45PM (for TNTT children only)"
+      "sunday": "Sunday: 7:00AM, 8:45AM, 11:00AM"
     },
     "confession": {
       "title": "Reconciliation (Confession)",
@@ -82,8 +82,8 @@
     },
     "baptism": {
       "title": "Baptisms",
-      "class": "2st Sunday of the Month (Mandatory Class): 9:00AM - 10:15AM",
-      "baptise": "3rd Saturday of the Month (Baptism): After 7:30AM Mass (at 8:00AM)"
+      "class": "2nd Sunday of the Month (Mandatory Class): 9:00AM - 10:15AM",
+      "baptise": "3rd Saturday of the Month (Baptism): 8:00AM (After 7:30AM Mass)"
     }
   },
   "header": {
