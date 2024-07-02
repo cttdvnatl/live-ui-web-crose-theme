@@ -25,6 +25,7 @@ const Volunteers = (prop) => {
                                                 <h6>{staff.title}{staff.deptName}</h6>
                                                 <h4 style={{ fontSize: '11px' }}>{staff.email}</h4>
                                                 <h4 style={{ fontSize: '12px' }}>{staff.phone}</h4>
+                                                <h4 style={{ fontSize: '11px' }}>{staff.date ? <h4>{staff.date}</h4> : null}</h4>
                                             </div>
                                         </div>
                                     </div>

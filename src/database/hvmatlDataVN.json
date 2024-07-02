@@ -363,16 +363,16 @@
   "staff": [
     {
       "title": "Hội Đồng Mục Vụ / Các Khối",
-      "year": "2019-2023",
+      "year": "2014-2028",
       "content": [
         {
-          "name": "Phêrô Nguyễn Thành Danh",
+          "name": "Montfort Nguyễn Công Chính",
           "title": "Trưởng Hội Đồng Mục Vụ",
           "deptAcronym": "HĐMV",
           "deptName": "",
-          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/Danh.jpg",
-          "phone": "678-910-8100",
-          "email": "danh.t.nguyen@hvmatl.org"
+          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/ChinhNguyen.jpg",
+          "phone": "770-912-9788",
+          "email": "congchinhnguyen@hvmatl.org"
         },
         {
           "name": "Giuse Nguyễn Đức Sơn",
@@ -384,31 +384,31 @@
           "email": "son.nguyen@hvmatl.org"
         },
         {
-          "name": "Phêrô Nguyễn Đức Phúc",
+          "name": "Maria Vũ Kim Hương",
           "title": "Phó Hội Đồng Mục Vụ",
           "deptAcronym": "HĐMV",
           "deptName": "",
-          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/PhucNguyen.jpg",
-          "phone": "678-978-4518",
-          "email": "peter.d.nguyen@hvmatl.org"
+          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/HuongKimVu.jpg",
+          "phone": "678-982-3422",
+          "email": "huong.kim.vu@hvmatl.org"
         },
         {
-          "name": "Gioan Phạm Thanh Tú",
+          "name": "Trình Ngọc Phúc",
           "title": "Trưởng ",
           "deptAcronym": "KCS",
           "deptName": "Khối Cơ Sở",
-          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/TuPham.jpg",
-          "phone": "404-376-1336",
-          "email": "tupham@hvmatl.org"
+          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/PhucTrinh.jpg",
+          "phone": "404-",
+          "email": "phuc.trinh@hvmatl.org"
         },
         {
-          "name": "Antôn Vũ Thanh",
+          "name": "Lê Thức",
           "title": "Phó ",
           "deptAcronym": "KCS",
           "deptName": "Khối Cơ Sở",
-          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/ThanhVu.jpg",
-          "phone": "770-401-1916",
-          "email": "thanhvu@hvmatl.org"
+          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/ThucLe.jpg",
+          "phone": "",
+          "email": "thucle@hvmatl.org"
         },
         {
           "name": "Phaolô Nguyễn Chính",
@@ -438,13 +438,13 @@
           "email": "tuyetle@hvmatl.org"
         },
         {
-          "name": "Phêrô Hà Thanh Hùng",
+          "name": "Martino Nguyễn Ngọc Thành",
           "deptAcronym": "KDS",
           "deptName": "Khối Đời Sống",
           "title": "Phó ",
-          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/HungHa.jpg",
-          "phone": "770-542-9680",
-          "email": "hungha@hvmatl.org"
+          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/ThanhNguyen.jpg",
+          "phone": "",
+          "email": "thanh.ngoc.nguyenhvmatl.org"
         },
         {
           "name": "Antôn Vũ Minh Tuấn",
@@ -465,13 +465,13 @@
           "email": "anhcao@hvmatl.org"
         },
         {
-          "name": "Gioan Phạm Khoa Văn",
+          "name": "Vicente Bùi Anh Chương",
           "deptAcronym": "KHC",
           "deptName": "Khối Hành Chánh",
           "title": "Trưởng ",
-          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/VanPham.jpg",
-          "phone": "404-992-1122",
-          "email": "van.k.pham@hvmatl.org"
+          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/ChuongBui.jpg",
+          "phone": "912-398-4981",
+          "email": "chuongbui@hvmatl.org"
         },
         {
           "name": "Anna Vũ Thùy Trang",
@@ -483,23 +483,23 @@
           "email": "trang.t.vu@hvmatl.org"
         },
         {
-          "name": "Cêcilia Lê Tú Anh",
-          "deptAcronym": "KPT",
-          "deptName": "Khối Phụng Tự",
-          "title": "Trưởng ",
-          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/TuAnh.jpg",
-          "phone": "404-403-2763",
-          "email": "tuanhle@hvmatl.org"
-        },
-        {
           "name": "Gioan Kim Khẩu Lê Kevin Tâm",
           "deptAcronym": "KPT",
           "deptName": "Khối Phụng Tự",
-          "title": "Phó ",
+          "title": "Trưởng ",
           "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/TamLe.jpg",
           "phone": "678-268-8891",
           "email": "tamle@hvmatl.org"
         },
+        {
+          "name": "Anselmo Nguyễn Quốc Dũng",
+          "deptAcronym": "KPT",
+          "deptName": "Khối Phụng Tự",
+          "title": "Phó ",
+          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/DungNguyen.jpg",
+          "phone": "404-",
+          "email": "dung.quoc.nguyen@hvmatl.org"
+        },        
         {
           "name": "Phanxicô Xaviê Bùi Thịnh",
           "deptAcronym": "KQT",
@@ -528,22 +528,75 @@
           "email": "toyamam@hvmatl.org"
         },
         {
-          "name": "Giuse Nguyễn Quang Tấn",
-          "deptAcronym": "KTG",
-          "deptName": "Khối Truyền Giáo",
-          "title": "Trưởng ",
-          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/TanNguyen.jpg",
-          "phone": "678-670-0817",
-          "email": "tan.q.nguyen@hvmatl.org"
-        },
-        {
           "name": "Giuse Trần Khiêm Chánh",
           "deptAcronym": "KTG",
           "deptName": "Khối Truyền Giáo",
-          "title": "Phó ",
+          "title": "Truởng ",
           "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/ChanhTran.jpg",
           "phone": "678-234-6530",
           "email": "chanhtran@hvmatl.org"
+        },
+        {
+          "name": "Phêrô Nguyễn Hữu Đức",
+          "deptAcronym": "KTG",
+          "deptName": "Khối Truyền Giáo",
+          "title": "Phó ",
+          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/DucNguyen.jpg",
+          "phone": "678-640-6568",
+          "email": "duc.huu.nguyen@hvmatl.org"
+        }   
+      ]
+    },
+    {
+      "title": "Cựu Hội Đồng Mục Vụ / Các Khối",
+      "content": [
+        {
+          "name": "Phêrô Nguyễn Thành Danh",
+          "title": "Trưởng Hội Đồng Mục Vụ",
+          "date": "7/2015 - 6/2024",
+          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/Danh.jpg"
+        },
+        {
+          "name": "Phêrô Nguyễn Đức Phúc",
+          "title": "Trưởng Khối Hành Chánh, Phó Hội Đồng Mục Vụ",
+          "date": "7/2015 - 6/2024",
+          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/PhucNguyen.jpg"
+        },
+        {
+          "name": "Phêrô Hà Thanh Hùng",
+          "title": "Phó Khối Cơ Sở, Phó Khối Đời Sống",
+          "date": "7/2015 - 6/2024",
+          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/HungHa.jpg"
+        },
+        {
+          "name": "Cêcilia Lê Tú Anh",
+          "title": "Phó/Trưởng Khối Phụng Tự",
+          "date": "7/2015 - 6/2024",
+          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/TuAnh.jpg"
+        },
+        {
+          "name": "Giuse Nguyễn Quang Tấn",
+          "title": "Phó/Trưởng Khối Truyền Giáo",
+          "date": "7/2015 - 6/2024",
+          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/TanNguyen.jpg"
+        },
+        {
+          "name": "Gioan Phạm Thanh Tú",
+          "title": "Phó/Trưởng Khối Cơ Sở",
+          "date": "7/2019 - 6/2024",
+          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/TuPham.jpg"
+        },
+        {
+          "name": "Antôn Vũ Thanh",
+          "title": "Phó Khối Cơ Sở",
+          "date": "7/2019 - 6/2024",
+          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/ThanhVu.jpg"
+        },
+        {
+          "name": "Gioan Phạm Khoa Văn",
+          "title": "Trưởng Khối Hành Chánh",
+          "date": "7/2019 - 6/2024",
+          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/VanPham.jpg"
         }
       ]
     }

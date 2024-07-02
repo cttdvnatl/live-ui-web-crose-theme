@@ -391,22 +391,22 @@
           "email": "peter.d.nguyen@hvmatl.org"
         },
         {
-          "name": "John Tu T. Pham",
+          "name": "Phuc N. Trinh",
           "title": "Director ",
           "deptAcronym": "KCS",
           "deptName": "Maintenance Department",
-          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/TuPham.jpg",
-          "phone": "404-376-1336",
-          "email": "tupham@hvmatl.org"
+          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/PhucTrinh.jpg",
+          "phone": "",
+          "email": "phuc.trinh@hvmatl.org"
         },
         {
-          "name": "Anthony Thanh Vu",
+          "name": "Le Thuc",
           "title": "Deputy ",
           "deptAcronym": "KCS",
           "deptName": "Maintenance Department",
-          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/ThanhVu.jpg",
-          "phone": "770-401-1916",
-          "email": "thanhvu@hvmatl.org"
+          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/ThucLe.jpg",
+          "phone": "",
+          "email": "thucle@hvmatl.org"
         },
         {
           "name": "Paul Chinh Nguyen",
@@ -463,13 +463,13 @@
           "email": "anhcao@hvmatl.org"
         },
         {
-          "name": "John Van K. Pham",
+          "name": "Vincent Bui A. Chuong",
           "deptAcronym": "KHC",
           "deptName": "Administration Department",
           "title": "Director ",
-          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/VanPham.jpg",
-          "phone": "404-992-1122",
-          "email": "van.k.pham@hvmatl.org"
+          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/ChuongBui.jpg",
+          "phone": "912-398-4981",
+          "email": "chuongbui@hvmatl.org"
         },
         {
           "name": "Anna Trang T. Vu",
@@ -481,23 +481,23 @@
           "email": "trang.t.vu@hvmatl.org"
         },
         {
-          "name": "Cecilia Anh T. Le",
-          "deptAcronym": "KPT",
-          "deptName": "Liturgy Department",
-          "title": "Director ",
-          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/TuAnh.jpg",
-          "phone": "404-403-2763",
-          "email": "tuanhle@hvmatl.org"
-        },
-        {
           "name": "John Chrysostom Kevin T. Le",
           "deptAcronym": "KPT",
           "deptName": "Liturgy Department",
-          "title": "Deputy ",
+          "title": "Director ",
           "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/TamLe.jpg",
           "phone": "678-268-8891",
           "email": "tamle@hvmatl.org"
         },
+        {
+          "name": "Anselmo Dung Q. Nguyen",
+          "deptAcronym": "KPT",
+          "deptName": "Liturgy Department",
+          "title": "Deputy ",
+          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/DungNguyen.jpg",
+          "phone": "404-403-2763",
+          "email": "dung.quoc.nguyen@hvmatl.org"
+        },        
         {
           "name": "Francis Xavier Thinh Bui",
           "deptAcronym": "KQT",
@@ -526,25 +526,78 @@
           "email": "toyamam@hvmatl.org"
         },
         {
-          "name": "Joseph Tan Q. Nguyen",
-          "deptAcronym": "KTG",
-          "deptName": "Missionary Department",
-          "title": "Director ",
-          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/TanNguyen.jpg",
-          "phone": "678-670-0817",
-          "email": "tan.q.nguyen@hvmatl.org"
-        },
-        {
           "name": "Joseph Chanh K. Tran",
           "deptAcronym": "KTG",
           "deptName": "Missionary Department",
-          "title": "Deputy ",
+          "title": "Director ",
           "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/ChanhTran.jpg",
           "phone": "678-234-6530",
           "email": "chanhtran@hvmatl.org"
+        },
+        {
+          "name": "Peter Nguyen H. Duc",
+          "deptAcronym": "KTG",
+          "deptName": "Missionary Department",
+          "title": "Deputy ",
+          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/DucNguyen.jpg",
+          "phone": "678-640-6568",
+          "email": "duc.huu.nguyen@hvmatl.org"
+        }        
+      ]
+    },
+    {
+      "title": "Previous Staffs",
+      "content": [
+        {
+          "name": "Peter Nguyen T. Danh",
+          "title": "Pastoral Council Director",
+          "date": "7/2015 - 6/2024",
+          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/Danh.jpg"
+        },
+        {
+          "name": "Peter Nguyen D. Phuc",
+          "title": "Pastoral Council Deputy",
+          "date": "7/2015 - 6/2024",
+          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/PhucNguyen.jpg"
+        },
+        {
+          "name": "Peter Ha T. Hung",
+          "title": "Religious Life Dept. Deputy",
+          "date": "7/2015 - 6/2024",
+          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/HungHa.jpg"
+        },
+        {
+          "name": "Cecilia Le T. Anh",
+          "title": "Liturgy Dept. Deputy/Director",
+          "date": "7/2015 - 6/2024",
+          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/TuAnh.jpg"
+        },
+        {
+          "name": "Joseph Tan Q. Nguyen",
+          "title": "Missionary Dept. Deputy/Director",
+          "date": "7/2015 - 6/2024",
+          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/TanNguyen.jpg"
+        },
+        {
+          "name": "John Pham T. Tu",
+          "title": "Maintenance Dept. Director",
+          "date": "7/2019 - 6/2024",
+          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/TuPham.jpg"
+        },
+        {
+          "name": "Anthony Vũ Thanh",
+          "title": "Maintenance Dept. Deputy",
+          "date": "7/2019 - 6/2024",
+          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/ThanhVu.jpg"
+        },
+        {
+          "name": "John Pham K. Van",
+          "title": "Administration Dept. Director",
+          "date": "7/2019 - 6/2024",
+          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/VanPham.jpg"
         }
       ]
-    }
+    }    
   ],
   "history": 
     {
