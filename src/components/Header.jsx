@@ -131,10 +131,12 @@ const Header = (prop) => {
     function setLanguageVN() {
         setLanguage('vn');
         setLangCookie('vn');
+        window.location = window.location.href
     }
     function setLanguageEN() {
         setLanguage('en');
         setLangCookie('en');
+        window.location = window.location.href
     }
 
     const t = useTranslation();
