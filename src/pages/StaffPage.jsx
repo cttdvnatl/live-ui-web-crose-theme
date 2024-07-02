@@ -10,15 +10,14 @@ import { /*useTranslation,*/ getLanguage } from 'react-multi-lang';
 
 const Staff = () => {
 
-    const [Data, setData] = useState(hvmatlDataVN.staff)
-    useEffect(() => {
-        if (getLanguage === 'vn') {
-            setData(hvmatlDataVN.staff);
-        }
-        else if (getLanguage === 'en') {
-            setData(hvmatlDataEN.staff);
-        }
-    }, [])
+    let Data; 
+
+    if (getLanguage() === 'vn') {
+        Data = hvmatlDataVN.staff;
+    }
+    else if (getLanguage() === 'en') {
+        Data = hvmatlDataEN.staff;
+    }
 
     //const t = useTranslation()
     return (
