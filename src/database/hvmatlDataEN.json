@@ -361,16 +361,16 @@
   "staff": [
     {
       "title": "Pastoral Council / Departments",
-      "year": "2019-2023",
+      "year": "2024-2028",
       "content": [
         {
-          "name": "Peter Danh T. Nguyen",
+          "name": "Montfort Chinh C. Nguyen",
           "title": "Director ",
           "deptAcronym": "HĐMV",
           "deptName": "Pastoral Council",
-          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/Danh.jpg",
-          "phone": "678-910-8100",
-          "email": "danh.t.nguyen@hvmatl.org"
+          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/ChinhNguyen.jpg",
+          "phone": "770-912-9788",
+          "email": "congchinhnguyen@hvmatl.org"
         },
         {
           "name": "Joseph Son D. Nguyen",
@@ -382,30 +382,30 @@
           "email": "son.nguyen@hvmatl.org"
         },
         {
-          "name": "Peter Phuc D. Nguyen",
+          "name": "Maria Hương K. Vu",
           "title": "Deputy ",
           "deptAcronym": "HĐMV",
           "deptName": "Pastoral Council",
-          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/PhucNguyen.jpg",
-          "phone": "678-978-4518",
-          "email": "peter.d.nguyen@hvmatl.org"
+          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/HuongKimVu.jpg",
+          "phone": "678-982-3422",
+          "email": "Huong.k.vu@hvmatl.org"
         },
         {
-          "name": "Phuc N. Trinh",
+          "name": "John Phuc N. Trinh",
           "title": "Director ",
           "deptAcronym": "KCS",
           "deptName": "Maintenance Department",
           "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/PhucTrinh.jpg",
-          "phone": "",
+          "phone": "770-841-6107",
           "email": "phuc.trinh@hvmatl.org"
         },
         {
-          "name": "Le Thuc",
+          "name": "Joseph Le Thuc",
           "title": "Deputy ",
           "deptAcronym": "KCS",
           "deptName": "Maintenance Department",
           "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/ThucLe.jpg",
-          "phone": "",
+          "phone": "404-644-8505",
           "email": "thucle@hvmatl.org"
         },
         {
@@ -436,13 +436,13 @@
           "email": "tuyetle@hvmatl.org"
         },
         {
-          "name": "Peter Hung T. Ha",
+          "name": "Martino Thanh N. Nguyen",
           "deptAcronym": "KDS",
           "deptName": "Religious Life",
           "title": "Deputy ",
-          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/HungHa.jpg",
-          "phone": "770-542-9680",
-          "email": "hungha@hvmatl.org"
+          "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/ThanhNguyen.jpg",
+          "phone": "404-360-1362",
+          "email": "thanh.ngoc.nguyenhvmatl.org"
         },
         {
           "name": "Anthony Tuan M. Vu",
@@ -495,7 +495,7 @@
           "deptName": "Liturgy Department",
           "title": "Deputy ",
           "image": "https://hvmatl.s3.us-east-2.amazonaws.com/gallery/img/core-img/DungNguyen.jpg",
-          "phone": "404-403-2763",
+          "phone": "404-483-7994",
           "email": "dung.quoc.nguyen@hvmatl.org"
         },        
         {
