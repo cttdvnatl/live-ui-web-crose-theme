@@ -184,31 +184,27 @@
       "item5": "Các Lớp"
     },
     "home": {
-      "heading": "KINH THÁNH MÙA HÈ",
-      "line1": "Ngày 8 đến ngày 12 tháng 7 năm 2024",
-      "line2": "9 giờ sáng đến 5 giờ chiều",
-      "line3": "Tại Giáo Xứ Các Thánh Tử Đạo Việt Nam",
-      "line4": "GHI DANH NIÊN HỌC 2024-2025",
-      "line5": "Chúa Nhật, ngày 21 tháng 7 năm 2024",
-      "line6": "8 giờ sáng đến 1 giờ trưa",
-      "line7": "Hội Trường Thánh Giuse",
-      "line8": "• Học phí cho học sinh mới: $100 mỗi học sinh",
-      "line9": "• Học phí cho học sinh cũ: $150 mỗi học sinh",
-      "line10": "• Lệ phí ăn trưa: $80 cho mỗi học sinh lớp một đến lớp bảy",
-      "line11": "• Lệ phí niên liễm đóng riêng cho phong trào Thiếu Nhi Thánh Thể: $15",
-      "line12": "• Người con thứ tư trở lên được miễn học phí,",
-      "line13": "nhưng vẫn phải đóng lệ phí ăn trưa và niên liễm Thiếu Nhi Thánh Thể.",
-      "line14": "Xin quý phụ huynh lưu ý,",
-      "line15": "chúng sẽ không nhận đơn ghi danh khi thiếu những giấy tờ sau:",
-      "line16": "NHỮNG EM GHI DANH VÀO LỚP MỘT",
-      "line17": "Chúng tôi chỉ nhận học sinh sanh trước ngày 1 tháng 9 năm 2018",
-      "line18": "• Bản sao Chứng Chỉ Bí Tích Rửa Tội",
-      "line19": "NHỮNG EM SẼ LÃNH NHẬN BÍ TÍCH MÌNH THÁNH CHÚA",
-      "line20": "Đã học lớp 2 và ghi danh học lớp 3",
-      "line21": "• Bản sao Chứng Chỉ Bí Tích Rửa Tội",
-      "line22": "NHỮNG EM SẼ LÃNH NHẬN BÍ TÍCH THÊM SỨC",
-      "line23": "Đã học lớp 9 và ghi danh học lớp 10",
-      "line24": "• Bản sao Chứng Chỉ Bí Tích Rửa Tội và Bí Tích Mình Thánh Chúa",
+      "heading": "GHI DANH NIÊN HỌC 2024-2025",
+      "line1": "Chúa Nhật, ngày 21 tháng 7 năm 2024",
+      "line2": "8 giờ sáng đến 1 giờ trưa",
+      "line3": "Hội Trường Thánh Giuse",
+      "line4": "• Học phí cho học sinh mới: $100 mỗi học sinh",
+      "line5": "• Học phí cho học sinh cũ: $150 mỗi học sinh",
+      "line6": "• Lệ phí ăn trưa: $80 cho mỗi học sinh lớp một đến lớp bảy",
+      "line7": "• Lệ phí niên liễm đóng riêng cho phong trào Thiếu Nhi Thánh Thể: $15",
+      "line8": "• Người con thứ tư trở lên được miễn học phí,",
+      "line9": "nhưng vẫn phải đóng lệ phí ăn trưa và niên liễm Thiếu Nhi Thánh Thể.",
+      "line10": "Xin quý phụ huynh lưu ý,",
+      "line11": "chúng sẽ không nhận đơn ghi danh khi thiếu những giấy tờ sau:",
+      "line12": "NHỮNG EM GHI DANH VÀO LỚP MỘT",
+      "line13": "Chúng tôi chỉ nhận học sinh sanh trước ngày 1 tháng 9 năm 2018",
+      "line14": "• Bản sao Chứng Chỉ Bí Tích Rửa Tội",
+      "line15": "NHỮNG EM SẼ LÃNH NHẬN BÍ TÍCH MÌNH THÁNH CHÚA",
+      "line16": "Đã học lớp 2 và ghi danh học lớp 3",
+      "line17": "• Bản sao Chứng Chỉ Bí Tích Rửa Tội",
+      "line18": "NHỮNG EM SẼ LÃNH NHẬN BÍ TÍCH THÊM SỨC",
+      "line19": "Đã học lớp 9 và ghi danh học lớp 10",
+      "line20": "• Bản sao Chứng Chỉ Bí Tích Rửa Tội và Bí Tích Mình Thánh Chúa",
 
       "title": "Trường Thánh Giuse",
       "announcement": "Tin tức và thông báo trong niên học cho chương trình học Giáo Lý và Thiếu Nhi Thánh Thể sẽ được cập nhật thường xuyên trên trang này."
@@ -363,7 +359,7 @@
   "staff": [
     {
       "title": "Hội Đồng Mục Vụ / Các Khối",
-      "year": "2014-2028",
+      "year": "2024-2028",
       "content": [
         {
           "name": "Montfort Nguyễn Công Chính",
@@ -438,7 +434,7 @@
           "email": "tuyetle@hvmatl.org"
         },
         {
-          "name": "Martino Nguyễn Ngọc Thành",
+          "name": "Martinô Nguyễn Ngọc Thành",
           "deptAcronym": "KDS",
           "deptName": "Khối Đời Sống",
           "title": "Phó ",
@@ -465,7 +461,7 @@
           "email": "anhcao@hvmatl.org"
         },
         {
-          "name": "Vicente Bùi Anh Chương",
+          "name": "Vinh Sơn Bùi Anh Chương",
           "deptAcronym": "KHC",
           "deptName": "Khối Hành Chánh",
           "title": "Trưởng ",
@@ -548,7 +544,7 @@
       ]
     },
     {
-      "title": "Cựu Hội Đồng Mục Vụ / Các Khối",
+      "title": "Cựu Hội Đồng Mục Vụ / Các Khối Của Các Nhiệm Kỳ Trước",
       "content": [
         {
           "name": "Phêrô Nguyễn Thành Danh",
