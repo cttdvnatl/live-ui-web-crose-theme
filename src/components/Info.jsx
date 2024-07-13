@@ -47,12 +47,7 @@ const Info = (props) => {
 
     useEffect(() => {
         axios.get("https://backend.hvmatl.org/hvmatl-backend-spring/latest-weekly-news",
-        {
-            auth: {
-                username: "user",
-                password: "9ewqt-y823-4twh8-42hu89"
-            }
-        }
+
         )
         .then((res) => {
             setData(res.data);
