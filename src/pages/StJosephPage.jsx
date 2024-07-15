@@ -35,9 +35,16 @@ const StJoseph = () => {
                 {t('stjoseph.home.line20')} <br/><br/><br/>
                 </h5>
                 <div className="container-fluid text-center">
-                    <h2>{t("stjoseph.home.title")}</h2>
                     <p id="viet-ngu" style={{width: '65%', margin: 'auto'}}>{t('stjoseph.home.announcement')}</p>
                     <br/>
+
+                    <div className="container-fluid text-center">
+                    <p id="vn-schedule" className="center-50"> <b>Giờ Học / School Hours</b> <br/></p>
+                    <p id="vn-schedule" className="center-50">
+                    First Class Period – 10:30 a.m. to 12:45 p.m.</p>
+                    <p id="vn-schedule" className="center-50"> 
+                    Second Class Period – 2:00 p.m. to 3:45 p.m.</p>
+                    </div>
                     <StJosephCalendar />
                 </div>
             <Footer/>
