@@ -131,10 +131,12 @@ const Header = (prop) => {
     function setLanguageVN() {
         setLanguage('vn');
         setLangCookie('vn');
+        window.location = window.location.href
     }
     function setLanguageEN() {
         setLanguage('en');
         setLangCookie('en');
+        window.location = window.location.href
     }
 
     const t = useTranslation();
@@ -187,7 +189,7 @@ const Header = (prop) => {
                                         <ul ref={navbarItem}>
                                             <li className="cn-dropdown-item has-down" onClick={(e) => toggleSubMenu(0, e)}><a href="/#">{t("header.dropdownMenuOne.dropdownHeading")}</a>
                                                 <ul className="dropdown">
-                                                    <li><a href="/">{t("header.dropdownMenuOne.item1")}</a></li>
+                                                    <li><a href="/contact">{t("header.dropdownMenuOne.item1")}</a></li>
                                                     <li><a href="/about">{t("header.dropdownMenuOne.item2")}</a></li>
                                                     <li><a href="/history">{t("header.dropdownMenuOne.item3")}</a></li>
                                                     <li><a href="/saint">{t("header.dropdownMenuOne.item4")}</a></li>
@@ -243,7 +245,9 @@ const Header = (prop) => {
                                                 </ul>
                                                 <span className="dd-trigger"/>
                                             </li>
-                                            <li><a href="/contact">{t("header.dropdownMenuFive.dropdownHeading")}</a></li>
+                                            <li className="cn-dropdown-item has-down" onClick={(e) => toggleSubMenu(4, e)}>
+                                                <a href="https://archatl.com/offices/child-and-youth-protection/reporting-abuse/reporting-child-abuse/">{t("header.dropdownMenuFive.dropdownHeading")}</a>
+                                            </li>
                                         </ul>
                                         <a href="https://giving.parishsoft.com/App/Giving/holy4545250" className="crose-btn header-btn" onClick={(e) => displayModal(e, "Huong dan Donation", "img/core-img/donation_instruction.jpg")}><i className="fas fa-donate"/>  {t("header.donation")}</a>
                                     </div>

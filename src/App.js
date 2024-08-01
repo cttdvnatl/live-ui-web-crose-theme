@@ -1,6 +1,4 @@
 import React, {useEffect} from 'react';
-import {authenticate, restoreToken} from './store/dispatch/dispatch';
-import {connect} from "react-redux";
 import {
     BrowserRouter as Router,
     Routes,
@@ -158,7 +156,7 @@ const App = (props) => {
     ]
 
     useEffect(() => {
-        if(!props.token && !sessionStorage.getItem('token')) {
+        /*if(!props.token && !sessionStorage.getItem('token')) {
             (async () => {
                 const auth = await props.auth({
                     username: 'anonymous',
@@ -169,7 +167,7 @@ const App = (props) => {
             props.restoreToken(sessionStorage.getItem('token'));
         } else {
             sessionStorage.setItem('token', props.token);
-        }
+        }*/
     }, [props]);
     return (
         <Router>
@@ -180,6 +178,7 @@ const App = (props) => {
     )
 };
 
+/*
 const mapStateToProps = (state) => ({
     token: state.auth.token
 });
@@ -187,5 +186,6 @@ const mapStateToProps = (state) => ({
 const mapDispatchToProps = (dispatch) => ({
     auth: (credentials) => authenticate(dispatch, credentials),
     restoreToken: (token) => restoreToken(dispatch, token)
-})
-export default connect(mapStateToProps, mapDispatchToProps)(App);
+})*/
+//export default connect(mapStateToProps, mapDispatchToProps)(App);
+export default App;

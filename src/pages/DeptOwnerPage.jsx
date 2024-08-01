@@ -48,6 +48,29 @@ const DeptOwnerPage = ({match}) => {
     <Header/>
     <p></p>       
     <div class="row about-content justify-content-center">
+        {id === "KGD" ? 
+        <a href="https://archatl.com/ministries-services/safe-environment/"
+            style={{
+                cursor: "pointer",
+                textAlign: "center",
+                marginTop: 30,
+                marginBottom: 30
+            }} 
+            target="_blank"
+        >
+            <img 
+                src="https://hvmatl.s3.us-east-2.amazonaws.com/gallery/kgd/arch-diocese/arch-diocese-promise-to-protect-2.png"
+                style={{
+                    cursor: "pointer",
+                    width: "500px",
+                    boxShadow: "2px 2px 4px 2px lightgray"
+                }}
+                alt="promise-to-protect-img"
+            />
+        </a>
+        :
+        <></>
+        }
         <div class="col-10 col-md-6 col-lg-3">
             <div class="about-us-content mb-100">
                 <img src={DeptOwnerDetail.primaryOwnerImg} alt=""/>

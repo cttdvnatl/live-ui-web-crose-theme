@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 //import Preloader from '../components/Preloader';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
@@ -8,15 +8,14 @@ import hvmatlDataEN from '../database/hvmatlDataEN';
 import DisplayVolunteer from '../components/DisplayVolunteer';
 import { /*useTranslation,*/ getLanguage } from 'react-multi-lang';
 
-
 const Staff = () => {
 
-    let Data;
+    let Data; 
 
     if (getLanguage() === 'vn') {
         Data = hvmatlDataVN.staff;
     }
-    if (getLanguage() === 'en') {
+    else if (getLanguage() === 'en') {
         Data = hvmatlDataEN.staff;
     }
 

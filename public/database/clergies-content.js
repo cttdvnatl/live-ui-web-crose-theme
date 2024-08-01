@@ -28,7 +28,7 @@ const clergies = [
     comment: [``]
 },
 {
-    name: 'Sr. Teresa Đỗ Thị Ngọc Oanh',
+    name: 'Sr. Têrêsa Đỗ Thị Ngọc Oanh',
     title: 'Tr. Ban Giáo Lý',
     index: '4',
     startDate: '',
