@@ -685,7 +685,7 @@
     "timeTextBoxName": "00:00",
     "hours": "Cho bao nhiêu tiếng?*:",
     "hoursTextBoxName": "0",
-    "nameOfGroup":"Tên Khối/Ban/Ngành/Đoàn/Hội/Nhóm*:",
+    "nameOfGroup":"Tên Ban/Ngành*:",
     "name": "Tên người yêu cầu *:",
     "nameTextBoxName": "Last, Middle, First",
     "email":"Điện Thư*:",
@@ -711,7 +711,7 @@
     "altarServer": "Giúp lễ?*:",
     "sound": "Âm thanh*:",
     "liveStream": "Live stream?*:",
-    "slideShow": "Slide Show:*:",
+    "slideShow": "Slideshow?*:",
     "usher": "Hướng dẫn?*:",
     "speech": "Lời cảm ơn cuối Thánh Lễ?*:"
   }

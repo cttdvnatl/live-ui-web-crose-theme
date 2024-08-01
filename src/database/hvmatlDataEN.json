@@ -712,7 +712,7 @@
       "altarServer": "Altar Server?*:",
       "sound": "Sound?*:",
       "liveStream": "Live stream?*:",
-      "slideShow": "Slide Show:*:",
+      "slideShow": "Slideshow?*:",
       "usher": "Usher?*:",
       "speech": "Thank you speech at the end of Mass?*:"
     }
