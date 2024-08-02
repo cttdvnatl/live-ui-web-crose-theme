@@ -9,6 +9,7 @@ import Index from './pages/Index';
 import StaffPage from './pages/StaffPage';
 import DeptInfo from './pages/DeptOwnerPage';
 import About from './pages/About';
+import RoomReservation from './pages/RoomReservation';
 import ChristmasFestival from './pages/ChristmasFestivalPage';
 import ChristmasFestivalProgramPage from './pages/ChristmasFestivalProgramPage';
 import ChristmasFestivalDisplaysPage from './pages/ChristmasFestivalDisplaysPage';
@@ -109,6 +110,7 @@ const App = (props) => {
         { path: '/staff', element: <StaffPage /> },
         { path: '/', element: <Index /> },
         { path: '/about', element: <About /> },
+        { path: '/room-reservation', element: <RoomReservation /> },
         { path: '/ChristmasFestival', element: <ChristmasFestival /> },
         { path: '/Christmas-Festival-Program', element: <ChristmasFestivalProgramPage /> },
         { path: '/Christmas-Festival-Displays', element: <ChristmasFestivalDisplaysPage /> },

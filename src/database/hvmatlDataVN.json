@@ -103,11 +103,12 @@
     "dropdownMenuTwo": {
       "dropdownHeading": "TIN TỨC/SỰ KIỆN",
       "item1": "Sinh Hoạt Giáo Xứ",
-      "item2": "Lịch 2024",
-      "item3": "Covid-19",
-      "item4": "TNTT Tôma Thiện",
-      "item5": "Lễ Hội Mùa Thu",
-      "item6": "Lễ Hội Giáng Sinh"
+      "item2": "Đặt Phòng",
+      "item3": "Lịch 2024",
+      "item4": "Covid-19",
+      "item5": "TNTT Tôma Thiện",
+      "item6": "Lễ Hội Mùa Thu",
+      "item7": "Lễ Hội Giáng Sinh"
     },
     "dropdownMenuThree": {
       "dropdownHeading": "BAN NGÀNH",
@@ -180,9 +181,9 @@
       "heading": "KHAI GIẢNG NIÊN HỌC 2024-2025",
       "line1": "Chúa Nhật, ngày 11 tháng 8 năm 2024",
       "line2": "Học sinh lớp 1, 2, 3, 4, 5, 6, 7",
-      "line3": "• Xin quý phụ huynh đưa con em vào thẳng lớp học lúc 10 giờ 30 sáng.",
+      "line3": "• Xin quý phụ huynh đưa con em vào thẳng lớp học vào lúc 10 giờ 30 sáng.",
       "line4": "Học sinh Lớp 8, 9, 10 và lớp Hiệp Sĩ I, II, III",
-      "line5": "• Xin quý phụ huynh đưa con em đến nhà thờ để tham dự thánh lễ lúc 12 giờ 30 trưa.",
+      "line5": "• Xin quý phụ huynh đưa con em đến nhà thờ để tham dự thánh lễ vào lúc 12 giờ 45 trưa.",
       "line6": "• Sau thánh lễ, các em sẽ vào thẳng lớp học.",
       "announcement": "Tin tức và thông báo trong niên học cho Chương Trình Giáo Lý và Thiếu Nhi Thánh Thể sẽ được cập nhật thường xuyên trên trang này."
     }
@@ -705,6 +706,50 @@
         "description": "Thánh Lễ tiếng Việt dầu tiên tại Giáo Xứ Holy Cross, Cha Tuyên Úy Linh Mục Tôma Nguyễn Thái Thành và Sơ Christine Trương Mỹ Hạnh phụ trách."
       }
     ]
+  },
+  "roomReservationForm": {
+    "pageTitle": "Đơn Xin Dụng Cơ Sở Và Dụng Cụ",
+    "where": "Cơ sở cần dùng*:",
+    "whereTextBoxName": "Tên cơ sở ", 
+    "reason": "Mục Đích*:",
+    "reasonTextBoxName": "Lý do sử dụng",
+    "date": "Ngày dùng*:",
+    "dateTextBoxName": "MM/DD",
+    "days": "Cho bao nhiêu ngày?*:",
+    "daysTextBoxName": "0",
+    "time": "Thời gian*:",
+    "timeTextBoxName": "00:00",
+    "hours": "Cho bao nhiêu tiếng?*:",
+    "hoursTextBoxName": "0",
+    "nameOfGroup":"Tên Ban/Ngành*:",
+    "name": "Tên người yêu cầu *:",
+    "nameTextBoxName": "Last, Middle, First",
+    "email":"Điện Thư*:",
+    "emailTextBoxName": "your.email@gmail.com",
+    "phone":"Điện Thoại*:",
+    "phoneTextBoxName": "(404) 000 0000",
+    "equipment":"Dụng cụ cần dùng*:",
+    "operatingEquipmentOne": "Cần có trợ giúp hiện diện khi sử dụng?*:",
+    "operatingEquipmentTwo": "Cần hướng dẫn cách sử dụng?*:",
+    "foodDrink": "Phục vụ ăn/uống*:",
+    "entertainment": "Có tổ chức ca nhạc/văn nghệ*:",
+    "attendants": "Số người tham dự*:",
+    "message":"Nhu cầu khác*:",
+    "yes": "Yes",
+    "no": "No",
+    "statement": "I want to reserve the main church",
+    "celebrantName": "Chủ Tế*:",
+    "celebrantNameTextBoxName": "Tên Chủ Tế",
+    "language": "Ngôn ngữ*:",
+    "languageTextBoxName": " ",
+    "sacristy": "Phòng thánh?*:",
+    "choir": "Ca đoàn?*:",
+    "altarServer": "Giúp lễ?*:",
+    "sound": "Âm thanh*:",
+    "liveStream": "Live stream?*:",
+    "slideShow": "Slideshow?*:",
+    "usher": "Hướng dẫn?*:",
+    "speech": "Lời cảm ơn cuối Thánh Lễ?*:"
   }
 }
 

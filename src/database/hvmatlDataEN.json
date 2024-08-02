@@ -102,11 +102,12 @@
     "dropdownMenuTwo": {
       "dropdownHeading": "News and Events",
       "item1": "Parish Activities",
-      "item2": "Calendar 2024",
-      "item3": "Covid-19",
-      "item4": "Eucharist's Youth",
-      "item5": "Fall Festival",
-      "item6": "Christmas Festival"
+      "item2": "Room Reservation",
+      "item3": "Calendar 2024",
+      "item4": "Covid-19",
+      "item5": "Eucharist's Youth",
+      "item6": "Fall Festival",
+      "item7": "Christmas Festival"
     },
     "dropdownMenuThree": {
       "dropdownHeading": "Departments",
@@ -178,10 +179,10 @@
     "home": {
       "heading": "FIRST DAY OF THE 2024-2025 SCHOOL YEAR",
       "line1": "Sunday, August 11th, 2024",
-      "line2": "Students attending class 1, 2, 3, 4, 5, 6, 7",
+      "line2": "Students in grades 1, 2, 3, 4, 5, 6, 7",
       "line3": "• Parents please bring your child/ren directly to their class at 10:30 a.m.",
-      "line4": "Students attending class 8, 9, 10 and Hiệp Sĩ I, II, III",
-      "line5": "• Parents please bring your child/ren to church so they can attend holy mass at 12:30 p.m.",
+      "line4": "Students in grades 8, 9, 10 and Hiệp Sĩ I, II, III",
+      "line5": "• Parents please bring your child/ren to church so they can attend holy mass at 12:45 p.m.",
       "line6": "• After the holy mass, the children will go directly to their class.",
       "announcement": "News and announcements during the school year for the Religious Education Program and the Vietnamese Eucharistic Youth Movement will be regularly updated on this page."
     }
@@ -705,5 +706,49 @@
           "description": "Sister Christine Truong My Hanh, Sister of the Good Shepherd, begins gathering Vietnamese Catholics for Mass at Holy Cross Church, the second Sunday of every month."
         }
       ]
+    },
+    "roomReservationForm": {
+      "pageTitle": "Reservation Form",
+      "where": "Facility/Room*:",
+      "whereTextBoxName": "Name of Room/Facility", 
+      "reason": "Purpose*:",
+      "reasonTextBoxName": "Reason for Use",
+      "date": "Date of Use*:",
+      "dateTextBoxName": "MM/DD",
+      "days": "Number of Days*:",
+      "daysTextBoxName": "0",
+      "time": "Time*:",
+      "timeTextBoxName": "00:00",
+      "hours": "Number of Hours*:",
+      "hoursTextBoxName": "0",
+      "nameOfGroup":"Department/Team*:",
+      "name": "Requestor's Name*:",
+      "nameTextBoxName": "Last, Middle, First",
+      "email":"Email*:",
+      "emailTextBoxName": "your.email@gmail.com",
+      "phone":"Phone Number*:",
+      "phoneTextBoxName": "(404) 000 0000",
+      "equipment":"Equipment Needed*:",
+      "operatingEquipmentOne": "Support needed to operate equipment?*:",
+      "operatingEquipmentTwo": "Training needed only?*:",
+      "foodDrink": "Food or Drink served?*:",
+      "entertainment": "Entertainment?*:",
+      "attendants": "Number of Attendants*:",
+      "message":"Other Needs*:",
+      "yes": "Yes",
+      "no": "No",
+      "statement": "I want to reserve the main church",
+      "celebrantName": "Celebrant Name*:",
+      "celebrantNameTextBoxName": "Name of Celebrant",
+      "language": "Language*:",
+      "languageTextBoxName": "Name of Language",
+      "sacristy": "Sacristy?*:",
+      "choir": "Choir?*:",
+      "altarServer": "Altar Server?*:",
+      "sound": "Sound?*:",
+      "liveStream": "Live stream?*:",
+      "slideShow": "Slideshow?*:",
+      "usher": "Usher?*:",
+      "speech": "Thank you speech at the end of Mass?*:"
     }
 }
