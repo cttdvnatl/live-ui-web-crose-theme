@@ -13,7 +13,7 @@ const StJosephActivitiesPage = () => (
     <br/>
     <div class="col-12">
         <div class="section-heading">
-            <h2>Xin quý phụ huynh trở lại</h2>
+            <h3>Xin quý phụ huynh trở lại</h3>
         </div>
     </div>
     <br/>

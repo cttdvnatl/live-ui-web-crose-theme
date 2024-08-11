@@ -20,7 +20,7 @@ function StJosephTeacherPage() {
                 <div class="section-heading">
                     <br/>
                     <h2>Giáo Lý Viên</h2>
-                    <h3>Niên Học 2023-2024</h3>
+                    <h3>Niên Học 2024-2025</h3>
                 </div>
                 <DisplayVolunteer list={mainTeachers} />
             </div>
@@ -28,7 +28,7 @@ function StJosephTeacherPage() {
                 <div class="section-heading">
                     <br />
                     <h2>Ban Điều Hành Thiếu Nhi Thánh Thể</h2>
-                    <h3>Niên Học 2023-2024</h3>
+                    <h3>Niên Học 2024-2025</h3>
                 </div>
                 <DisplayVolunteer list={tnttRep} />
             </div>
@@ -36,7 +36,7 @@ function StJosephTeacherPage() {
                 <div class="section-heading">
                     <br />
                     <h2>Huynh Trưởng <br/> Hiệp Sĩ Trưởng Thành</h2>
-                    <h3>Niên Học 2023-2024</h3>
+                    <h3>Niên Học 2024-2025</h3>
                 </div>
                 <DisplayVolunteer list={childrenEucharist} />
             </div>
@@ -44,7 +44,7 @@ function StJosephTeacherPage() {
                 <div class="section-heading">
                     <br />
                     <h2>Thầy Cô Giám Thị </h2>
-                    <h3>Niên Học 2023-2024</h3>
+                    <h3>Niên Học 2024-2025</h3>
                 </div>
                 <DisplayVolunteer list={mainProctors} />
             </div>
