@@ -13,7 +13,7 @@ const StJosephActivitiesPage = () => (
     <br/>
     <div class="col-12">
         <div class="section-heading">
-            <h3>Xin quý phụ huynh trở lại</h3>
+            <DisplayActivities list={Data}/>
         </div>
     </div>
     <br/>
