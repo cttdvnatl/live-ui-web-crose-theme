@@ -3,10 +3,11 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import stJosephClasses from '../database/stJosephClasses.js';
 import StJosephHeader from '../components/StJosephHeader';
+import { useParams } from 'react-router-dom';
 
 const StJosephClassworkPage = ({match}) => {
-    const stJosephClassURL = match.params.stJosephClassURL;
-    const iframe = stJosephClasses.find(iframe => iframe.name === stJosephClassURL);
+    const { className } = useParams();
+    const iframe = stJosephClasses.find(iframe => iframe.class.toLowerCase() === className.toLowerCase());
 
     if (!iframe) {
         return (

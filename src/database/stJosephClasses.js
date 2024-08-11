@@ -11,7 +11,7 @@ const Classes = [
         class: "1B",
         teachers: "Thầy Trường Vũ, HT Cecilia Huỳnh, Cô Arlene Dang",
         emails: "",
-        classwork: ""
+        classwork: "https://fallfestival.hvmatl.org"
     },
     {
         name: "1c",

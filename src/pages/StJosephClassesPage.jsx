@@ -5,8 +5,6 @@ import StJosephHeader from '../components/StJosephHeader';
 import DisplayClasses from '../components/DisplayClasses';
 import stJosephClasses from '../database/stJosephClasses.js';
 
-
-
 const StJosephClassesPage = () => (
     <>
     <Header/>

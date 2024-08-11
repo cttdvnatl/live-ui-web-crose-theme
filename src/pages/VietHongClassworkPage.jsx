@@ -3,10 +3,11 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import vietHongClasses from '../database/vietHongClasses.js';
 import VietHongHeader from '../components/VietHongHeader';
+import { useParams } from 'react-router-dom';
 
-const VietHongClassworkPage = ({match}) => {
-    const vietHongClassURL = match.params.vietHongClassURL;
-    const iframe = vietHongClasses.find(iframe => iframe.name === vietHongClassURL);
+const VietHongClassworkPage = () => {
+    const { className } = useParams();
+    const iframe = vietHongClasses.find(iframe => iframe.class.toLowerCase() === className.toLowerCase());
 
     if (!iframe) {
         return (
