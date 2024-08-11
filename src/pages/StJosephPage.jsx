@@ -25,9 +25,12 @@ const StJoseph = () => {
                     <br/>
 
                     <div className="container-fluid text-center">
-                    <p id="vn-schedule" className="center-50"> <b>Giờ Học / School Hours</b> <br/></p>
+                    <p id="vn-schedule" className="center-50"> 
+                    Giờ Học / School Hours <br/></p>
                     <p id="vn-schedule" className="center-50">
                     First Class Period – 10:30 a.m. to 12:30 p.m.</p>
+                    <p id="vn-schedule" className="center-50">
+                    <b> Thánh Lễ / Holy Mass at 12:45 p.m. </b></p>
                     <p id="vn-schedule" className="center-50"> 
                     Second Class Period – 2:00 p.m. to 4:00 p.m.</p>
                     </div>
