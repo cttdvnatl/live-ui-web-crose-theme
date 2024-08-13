@@ -12,7 +12,8 @@ const StJosephClassesPage = () => (
     <p></p>
     <br/>
     <div class="col-12">
-        <div class="section-heading"><h2>CÁC LỚP</h2></div>
+        <div class="section-heading"><h2>Danh Bạ Các Lớp</h2>        
+        <h3>Niên Học 2024-2025</h3></div>
         <DisplayClasses list={stJosephClasses}/>
     </div>
     <br/>

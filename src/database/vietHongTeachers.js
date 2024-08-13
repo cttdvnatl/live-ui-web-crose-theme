@@ -1,6 +1,18 @@
 const VietHongTeacherContent = [
     {   
         classification: 'main-teacher',
+        image: 'https://hvmatl.s3.us-east-2.amazonaws.com/gallery/kgd/viethong/vh-23-24-t-bui-ba-thanh.jpg',
+        name: 'Thầy Bùi Bá Thạnh',
+        email: 'thanh.ba.bui@hvmatl.org ',
+    },
+    {   
+        classification: 'main-teacher',
+        image: 'https://hvmatl.s3.us-east-2.amazonaws.com/gallery/kgd/viethong/vh-23-24-t-cam-minh-dan.jpg',
+        name: 'Cô Cam Minh Dan',
+        email: 'minhdan.cam@hvmatl.org',
+    },
+    {   
+        classification: 'main-teacher',
         image: 'https://hvmatl.s3.us-east-2.amazonaws.com/gallery/kgd/viethong/vh-23-24-t-duong-hien.jpg',
         name: 'Cô Dương Hiền',
         email: 'hien.duong@hvmatl.org',
@@ -25,9 +37,21 @@ const VietHongTeacherContent = [
     },
     {   
         classification: 'main-teacher',
+        image: 'https://hvmatl.s3.us-east-2.amazonaws.com/gallery/kgd/viethong/vh-23-24-t-do-cao-long.jpg',
+        name: 'Thầy Đỗ Cao Long',
+        email: 'long.cao.do@hvmatl.org ',
+    },
+    {   
+        classification: 'main-teacher',
         image: 'https://hvmatl.s3.us-east-2.amazonaws.com/gallery/kgd/viethong/vh-23-24-t-do-duc-sieu.jpg',
         name: 'Thầy Đỗ Đức Siêu',
         email: 'sieu.duc.do@hvmatl.org',
+    },
+    {   
+        classification: 'main-teacher',
+        image: 'https://hvmatl.s3.us-east-2.amazonaws.com/gallery/kgd/viethong/vh-23-24-t-hoang-nga-brooke.jpg',
+        name: 'Cô Hoàng Nga Brooke',
+        email: 'brooke.nga.hoang@hvmatl.org',
     },
     {   
         classification: 'main-teacher',
@@ -37,15 +61,9 @@ const VietHongTeacherContent = [
     },
     {   
         classification: 'main-teacher',
-        image: 'https://hvmatl.com/gallery/kgd/viethong/vh-23-24-t-huynh-bao-tran.jpg',
+        image: 'https://hvmatl.s3.us-east-2.amazonaws.com/gallery/kgd/viethong/vh-23-24-t-huynh-bao-tran.jpg',
         name: 'Cô Huỳnh Bảo Trân',
         email: 'tran.bao.huynh@hvmatl.org',
-    },
-    {   
-        classification: 'main-teacher',
-        image: 'https://hvmatl.s3.us-east-2.amazonaws.com/gallery/kgd/viethong/vh-23-24-t-huynh-trang.jpg',
-        name: 'Cô Huỳnh Thi Trang',
-        email: 'trang.thi.huynh@hvmatl.org',
     },
     {   
         classification: 'main-teacher',
@@ -76,31 +94,13 @@ const VietHongTeacherContent = [
         image: 'https://hvmatl.s3.us-east-2.amazonaws.com/gallery/kgd/viethong/vh-23-24-t-tuong-vy.jpg',
         name: 'Cô Nguyễn Christine',
         email: 'christine.vy.nguyen@hvmatl.org',
-    },    
-    {   
-        classification: 'main-teacher',
-        image: 'https://hvmatl.s3.us-east-2.amazonaws.com/gallery/kgd/viethong/vh-23-24-t-nguyen-a-tuan.jpg',
-        name: 'Thầy Nguyễn Anh Tuấn',
-        email: 'tuan.nguyen@hvmatl.org',
-    },        
+    },            
     {   
         classification: 'main-teacher',
         image: 'https://hvmatl.s3.us-east-2.amazonaws.com/gallery/kgd/viethong/vh-23-24-t-nguyen-huu-toan.jpg',
         name: 'Thầy Nguyễn Hữu Toàn',
         email: 'toan.nguyen@hvmatl.org',
     },    
-    {   
-        classification: 'main-teacher',
-        image: 'https://hvmatl.s3.us-east-2.amazonaws.com/gallery/kgd/viethong/vh-23-24-t-alex.jpg',
-        name: 'Thầy Nguyễn Joseph Alex',
-        email: 'alex.joseph.nguyen@hvmatl.org',
-    }, 
-    {   
-        classification: 'main-teacher',
-        image: 'https://hvmatl.s3.us-east-2.amazonaws.com/gallery/kgd/viethong/vh-23-24-t-nguyen-minh-vien.jpg',
-        name: 'Cô Nguyễn Minh Viên',
-        email: 'minh-vien.nguyen@hvmatl.org',
-    },   
     {   
         classification: 'main-teacher',
         image: 'https://hvmatl.s3.us-east-2.amazonaws.com/gallery/kgd/viethong/vh-23-24-t-nguyen-chau.jpg',
@@ -121,12 +121,6 @@ const VietHongTeacherContent = [
     },
     {   
         classification: 'main-teacher',
-        image: 'https://hvmatl.s3.us-east-2.amazonaws.com/gallery/kgd/viethong/vh-23-24-t-nguyen-van.jpg',
-        name: 'Cô Nguyễn Thị Vân',
-        email: 'van.thi.nguyen@hvmatl.org',
-    },  
-    {   
-        classification: 'main-teacher',
         image: 'https://hvmatl.s3.us-east-2.amazonaws.com/gallery/kgd/viethong/vh-23-24-t-nguyen-thuy-linh.jpg',
         name: 'Cô Nguyễn Thùy Linh',
         email: 'linh.thi.nguyen@hvmatl.org',
@@ -145,27 +139,15 @@ const VietHongTeacherContent = [
     },
     {   
         classification: 'main-teacher',
-        image: 'https://hvmatl.s3.us-east-2.amazonaws.com/gallery/kgd/viethong/vh-23-24-t-pham-t-nga.jpg',
-        name: 'Cô Phạm T. Nga',
-        email: 'nga.pham@hvmatl.org',
-    },   
-    {   
-        classification: 'main-teacher',
-        image: 'https://hvmatl.s3.us-east-2.amazonaws.com/gallery/kgd/viethong/vh-23-24-t-phan-tung.jpg',
-        name: 'Cô Phan Tùng',
-        email: 'tung.phan@hvmatl.org',
-    },
-    {   
-        classification: 'main-teacher',
         image: 'https://hvmatl.s3.us-east-2.amazonaws.com/gallery/kgd/viethong/vh-23-24-t-tran-jimmy-viet.jpg',
         name: 'Thầy Trần Jimmy Việt',
         email: 'viet.tran@hvmatl.org',
     },
     {   
         classification: 'main-teacher',
-        image: 'https://hvmatl.s3.us-east-2.amazonaws.com/gallery/kgd/viethong/vh-23-24-t-tran-lan-binh.jpg',
-        name: 'Cô Trần Lan Bình',
-        email: 'binh.lan.tran@hvmatl.org',
+        image: 'https://hvmatl.s3.us-east-2.amazonaws.com/gallery/kgd/viethong/vh-23-24-t-tran-kalena.jpg',
+        name: 'Cô Trần Kalena',
+        email: 'kalena.tran@hvmatl.org ',
     },  
     {   
         classification: 'main-teacher',
@@ -184,6 +166,12 @@ const VietHongTeacherContent = [
         image: 'https://hvmatl.s3.us-east-2.amazonaws.com/gallery/kgd/viethong/vh-23-24-t-tran-uyen-chi.jpg',
         name: 'Cô Trần Uyên Chi',
         email: 'uyen.chi.tran@hvmatl.org',
+    },
+    {   
+        classification: 'main-teacher',
+        image: 'https://hvmatl.s3.us-east-2.amazonaws.com/gallery/kgd/viethong/vh-23-24-t-trinh-phuong-hong.jpg',
+        name: 'Thầy Trịnh Phương Hồng',
+        email: 'phanxicoxavie.hong.trinh@hvmatl.org',
     },
     {   
         classification: 'main-teacher',
@@ -230,7 +218,7 @@ const VietHongTeacherContent = [
     {   
         classification: 'main-proctor',
         image: 'https://hvmatl.s3.us-east-2.amazonaws.com/gallery/kgd/viethong/vh-23-24-p-le-phuong-dung.jpg',
-        name: 'Cô Lê Phương Dung',
+        name: 'Cô Lê Mỹ Dung',
         email: 'dung.phuong.le@hvmatl.org',
     },
     {   
@@ -238,12 +226,6 @@ const VietHongTeacherContent = [
         image: 'https://hvmatl.s3.us-east-2.amazonaws.com/gallery/kgd/viethong/vh-23-24-p-le-thanh-huong.jpg',
         name: 'Cô Lê Thanh Hương',
         email: 'hotrungtran@gmail.com',
-    },
-    {   
-        classification: 'main-proctor',
-        image: 'https://hvmatl.s3.us-east-2.amazonaws.com/gallery/kgd/viethong/vh-23-24-p-nguyen-john.jpg',
-        name: 'Nguyễn John',
-        email: 'john.phan.nguyen@hvmatl.org',
     },
     {   
         classification: 'main-proctor',
@@ -259,11 +241,6 @@ const VietHongTeacherContent = [
     },
     {   
         classification: 'assistant-teacher',
-        image: 'https://hvmatl.s3.us-east-2.amazonaws.com/gallery/kgd/viethong/vh-23-24-ta-ai-vy.jpg',
-        name: 'Phụ giáo Ái Vy',
-    },
-    {   
-        classification: 'assistant-teacher',
         image: 'https://hvmatl.s3.us-east-2.amazonaws.com/gallery/kgd/viethong/vh-23-24-ta-alexander.jpg',
         name: 'Phụ giáo Alexander',
     },
@@ -274,28 +251,13 @@ const VietHongTeacherContent = [
     },
     {   
         classification: 'assistant-teacher',
-        image: 'https://hvmatl.s3.us-east-2.amazonaws.com/gallery/kgd/viethong/vh-23-24-ta-cindy.jpg',
-        name: 'Phụ giáo Cindy',
-    },
-    {   
-        classification: 'assistant-teacher',
-        image: 'https://hvmatl.s3.us-east-2.amazonaws.com/gallery/kgd/viethong/vh-23-24-ta-cong-chinh.jpg',
-        name: 'Phụ giáo Công Chính',
-    },
-    {   
-        classification: 'assistant-teacher',
-        image: 'https://hvmatl.s3.us-east-2.amazonaws.com/gallery/kgd/viethong/vh-23-24-ta-dieu-veronica.jpg',
-        name: 'Phụ giáo Diệu Veronica',
-    },
-    {   
-        classification: 'assistant-teacher',
         image: 'https://hvmatl.s3.us-east-2.amazonaws.com/gallery/kgd/viethong/vh-23-24-ta-gia-kiet.jpg',
         name: 'Phụ giáo Gia Kiệt',
     },
     {   
         classification: 'assistant-teacher',
-        image: 'https://hvmatl.s3.us-east-2.amazonaws.com/gallery/kgd/viethong/vh-23-24-ta-hong-an.jpg',
-        name: 'Phụ giáo Hồng Ân',
+        image: 'https://hvmatl.s3.us-east-2.amazonaws.com/gallery/kgd/viethong/vh-23-24-ta-huyen-tran.jpg',
+        name: 'Phụ giáo Huyền Trân',
     },
     {   
         classification: 'assistant-teacher',
@@ -309,13 +271,8 @@ const VietHongTeacherContent = [
     },
     {   
         classification: 'assistant-teacher',
-        image: 'https://hvmatl.s3.us-east-2.amazonaws.com/gallery/kgd/viethong/vh-23-24-ta-nguyen-khang.jpg',
-        name: 'Phụ giáo Nguyên Khang',
-    },
-    {   
-        classification: 'assistant-teacher',
-        image: 'https://hvmatl.s3.us-east-2.amazonaws.com/gallery/kgd/viethong/vh-23-24-ta-phuong-uyen.jpg',
-        name: 'Phụ giáo Phương Uyên',
+        image: 'https://hvmatl.s3.us-east-2.amazonaws.com/gallery/kgd/viethong/vh-23-24-ta-quynh-anh.jpg',
+        name: 'Phụ giáo Quỳnh Anh',
     },
     {   
         classification: 'assistant-teacher',
@@ -324,8 +281,8 @@ const VietHongTeacherContent = [
     },
     {   
         classification: 'assistant-teacher',
-        image: 'https://hvmatl.s3.us-east-2.amazonaws.com/gallery/kgd/viethong/vh-23-24-ta-tien-dat.jpg',
-        name: 'Phụ giáo Tiến Đạt',
+        image: 'https://hvmatl.s3.us-east-2.amazonaws.com/gallery/kgd/viethong/vh-23-24-ta-thien-an.jpg',
+        name: 'Phụ giáo Thiên Ân',
     },
 ]
 
