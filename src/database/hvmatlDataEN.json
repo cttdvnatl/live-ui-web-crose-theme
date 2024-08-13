@@ -162,9 +162,13 @@
       "item5": "Documents"
     },
     "home": {
-      "heading": "FIRST DAY OF THE 2024-2025 SCHOOL YEAR",
-      "line1": "Saturday, August 10th, 2024",
-      "line2": "10 a.m. at St. Joseph Social Hall",
+      "heading":"Dear parents,",
+      "line1": "We managed to retain our language even after over 1000 years of foreign occupation.",
+      "line2": "Would we be able to retain our language only a few decades away from our homeland?",
+      "line3": "This is when you, the Father, the Mother of our students must decide.",
+      "line4": "Sincerely,",
+      "line5": "The Staff of Viet Hong Vietnamese Language School",
+      "line6": "Please contact us for more information at Viet.Hong.School@hvmatl.org",
       "announcement": "News and announcements during the school year for the Vietnamese Program will be regularly updated on this page."
     }
   },
@@ -177,13 +181,27 @@
       "item5": "Documents"
     },
     "home": {
-      "heading": "FIRST DAY OF THE 2024-2025 SCHOOL YEAR",
-      "line1": "Sunday, August 11th, 2024",
-      "line2": "Students in grades 1, 2, 3, 4, 5, 6, 7",
-      "line3": "• Parents please bring your child/ren directly to their class at 10:30 a.m.",
-      "line4": "Students in grades 8, 9, 10 and Hiep Si I, II, III",
-      "line5": "• Parents please bring your child/ren to church so they can attend holy mass at 12:45 p.m.",
-      "line6": "• After the holy mass, the children will go directly to their class.",
+      "heading": "Sunday School and Vietnamese Eucharistic Youth Movement Program",
+      "line1": "2024-2025 School Year",
+      "line2": "Ngành Ấu and Ngành Thiếu",
+      "line3": "• Grades 1, 2, 3, 4, 5, 6 and 7",
+      "line4": "• Sunday from 10:30 a.m. to 12:30 p.m.",
+      "line5": "• At building Dominic Savio, Thomas Thien and Carlos Acutis",
+      "line6": "ATTEND HOLY MASS FOR CHILDREN AT 12:45 P.M.",
+      "line7": "Ngành Nghĩa and Ngành Hiệp",
+      "line8": "• Grades 8, 9, 10 and Hiep Si I, II, III",
+      "line9": "• Sunday from 2:00 p.m. to 4:00 p.m.",
+      "line10": "• At building Dominic Savio, Thomas Thien and Carlos Acutis",
+      "line11": "ANNOUNCEMENTS FROM THE EDUCATION DEPARTMENT",
+      "line12": "1. Webpage for St. Joseph Religious School",
+      "line13": "http://www.hvmatl.org/St-Joseph",
+      "line14": "2. Webpage for Viet Hong Vietnamese Language School",
+      "line15": "http://www.hvmatl.org/",
+      "line16": "3. Website for Toma Thien (Vietnamese Eucharistic Youth Movement)",
+      "line17": "http://www.tomathienatl.org",
+      "line18": "4. Communication methods: Remind app, emails and letters",
+      "line19": "5. Please remember to update new information at the Education Department's office",
+      "line20": "(address, phone number, email, etc.)",
       "announcement": "News and announcements during the school year for the Religious Education Program and the Vietnamese Eucharistic Youth Movement will be regularly updated on this page."
     }
   },

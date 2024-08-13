@@ -9,49 +9,49 @@ const Classes = [
     {
         name: "mgb",
         class: "Mẫu Giáo B",
-        teachers: "Cô Võ Mercy Sarah, Cô Lê Nga, Cô King Nguyễn Theresa, Cô Vũ Kim Liên",
+        teachers: "Cô Võ Mercy Sarah, Cô King Nguyễn Theresa, Cô Nguyễn Lê Thùy Linh",
         emails: "",
         classwork: ""
     },
     {
         name: "vla",
         class: "Vỡ Lòng A",
-        teachers: "Cô Đặng Ngọc Dung, Cô Huỳnh Bảo Trân",
+        teachers: "Cô Đặng Ngọc Dung, Cô Huỳnh Bảo Trân, Thầy Trần Minh Mark",
         emails: "",
         classwork: ""
     },
     {
         name: "vlb",
         class: "Vỡ Lòng B",
-        teachers: "Cô Lê Bích Duyên, Cô Ngô Kim Chi",
+        teachers: "Cô Lê Bích Duyên, Thầy Đỗ Cao Long",
         emails: "",
         classwork: ""
     },
     {
         name: "vlc",
         class: "Vỡ Lòng C",
-        teachers: "Thầy Nguyễn Joseph Alex, Cô Nghiêm Trang",
+        teachers: "Cô Trần Trúc Quỳnh, Cô Ngô Kim Chi",
         emails: "",
         classwork: ""
     },
     {
         name: "vld",
         class: "Vỡ Lòng D",
-        teachers: "Cô Trần Trúc Quỳnh, Cô Huỳnh Thi Trang, Cô Đặng Kim",
+        teachers: "Cô Đặng Kim, Cô Nguyễn Ngọc Nga, Cô Lê Nga",
         emails: "",
         classwork: ""
     },
     {
         name: "1a",
         class: "1A",
-        teachers: "Cô Nguyễn Minh Viên, Cô Nguyễn Thị Ngọc Ánh",
+        teachers: "Thầy Hoàng Tuấn Long, Cô Vũ Thủy",
         emails: "",
         classwork: ""
     },
     {
         name: "1b",
         class: "1B",
-        teachers: "Cô Phan Tùng, Thầy Hoàng Tuấn Long",
+        teachers: "Cô Nghiêm Trang, Cô Tiffany Lê, Cô Hoàng Nga Brooke",
         emails: "",
         classwork: ""
     },
@@ -63,9 +63,16 @@ const Classes = [
         classwork: ""
     },
     {
-        name: "2",
-        class: "2",
-        teachers: "Cô Trần Uyên Chi, Thầy Trần Duy Trường, Cô Võ Tuyết Trân", 
+        name: "2a",
+        class: "2A",
+        teachers: "Cô Trần Uyên Chi, Cô Nguyễn Thị Thuy-Vi, Cô Phạm Thùy Trâm", 
+        emails: "",
+        classwork: ""
+    },
+    {
+        name: "2b",
+        class: "2B",
+        teachers: "Cô Võ Tuyết Trân Thầy Trần Duy Trường, Cô Trần Kalena", 
         emails: "",
         classwork: ""
     },
@@ -79,7 +86,7 @@ const Classes = [
     {
         name: "4",
         class: "4",
-        teachers: "Thầy Võ Minh Hoàng, Cô Trần Lan Bình",
+        teachers: "Thầy Võ Minh Hoàng, Thầy Trịnh Phương Hồng",
         emails: "",
         classwork: ""
     },
@@ -100,7 +107,7 @@ const Classes = [
     {
         name: "7",
         class: "7",
-        teachers: "Thầy Ninh Đạt",
+        teachers: "Thầy Ninh Đạt, Cô Cam Minh Dan",
         emails: "",
         classwork: ""
     },

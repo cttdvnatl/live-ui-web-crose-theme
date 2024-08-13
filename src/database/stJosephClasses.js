@@ -11,7 +11,7 @@ const Classes = [
         class: "1B",
         teachers: "Thầy Trường Vũ, HT Cecilia Huỳnh, Cô Arlene Dang",
         emails: "",
-        classwork: ""
+        classwork: "https://fallfestival.hvmatl.org"
     },
     {
         name: "1c",
@@ -102,7 +102,7 @@ const Classes = [
         class: "4C",
         teachers: "Cô Diệu Nguyễn, Thầy Ngọc Mai",
         emails: "",
-        classwork: ""
+        classwork: "https://docs.google.com/document/d/1gy97GADF_cWD3XIOW8yut749f-Zzlg5uSs7WscYm4kw/edit?usp=drive_link"
     },
     {
         name: "5a",
