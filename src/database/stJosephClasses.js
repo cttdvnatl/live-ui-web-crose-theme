@@ -2,7 +2,7 @@ const Classes = [
     {
         name: "1a",
         class: "1A",
-        teachers: "Thầy Nick Tô, HSTT James Đỗ",
+        teachers: "Thầy Nick Tô, HSTT James Đỗ, Cô Ngân Thanh Nguyễn",
         emails: "",
         classwork: "https://drive.google.com/open?id=10x4IsfTsb5U_yOKOV5P44P7du3BzaHtw2q8E7y039NA&usp=drive_copy",
     },
@@ -156,7 +156,7 @@ const Classes = [
     {
         name: "7b",
         class: "7B",
-        teachers: "Thầy Sơn Trần, Cô Thiên Tứ Nhật Nguyễn",
+        teachers: "Thầy Sơn Trần, Cô Thiên Tú Nhật Nguyễn",
         emails: "",
         classwork: ""
     },
@@ -170,7 +170,7 @@ const Classes = [
     {
         name: "8a",
         class: "8A",
-        teachers: "Thầy Lâm An, Cô Thủy Thanh Thanh Trần",
+        teachers: "Thầy Lâm An, Cô Thủy Thanh Trần",
         emails: "",
         classwork: ""
     },
