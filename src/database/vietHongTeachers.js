@@ -85,6 +85,18 @@ const VietHongTeacherContent = [
     },
     {   
         classification: 'main-teacher',
+        image: 'https://hvmatl.s3.us-east-2.amazonaws.com/gallery/kgd/viethong/vh-23-24-t-le-tiffany.jpg',
+        name: 'Cô Lê Tiffany',
+        email: 'tiffany.le@hvmatl.org',
+    },
+    {   
+        classification: 'main-teacher',
+        image: 'https://hvmatl.s3.us-east-2.amazonaws.com/gallery/kgd/viethong/vh-23-24-t-mai-tri-linh.jpg',
+        name: 'Cô Mai Trí Linh',
+        email: 'linh.tri.mai@hvmatl.org',
+    }, 
+    {   
+        classification: 'main-teacher',
         image: 'https://hvmatl.s3.us-east-2.amazonaws.com/gallery/kgd/viethong/vh-23-24-t-nghiem-trang.jpg',
         name: 'Cô Nghiêm Trang',
         email: 'tnghiem@hvmatl.org',
@@ -278,6 +290,11 @@ const VietHongTeacherContent = [
         classification: 'assistant-teacher',
         image: 'https://hvmatl.s3.us-east-2.amazonaws.com/gallery/kgd/viethong/vh-23-24-ta-quynh-shayla.jpg',
         name: 'Phụ giáo Quỳnh Shayla',
+    },
+    {   
+        classification: 'assistant-teacher',
+        image: 'https://hvmatl.s3.us-east-2.amazonaws.com/gallery/kgd/viethong/vh-23-24-ta-sofia.jpg',
+        name: 'Phụ giáo Sofia',
     },
     {   
         classification: 'assistant-teacher',
