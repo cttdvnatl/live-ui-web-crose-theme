@@ -1,8 +1,8 @@
 const stJosephDocuments = [ 
     {   
-        fileName: 'Education Department Schedule',
+        fileName: 'School Year Education Department Schedule',
         downloadFile: 'https://hvmatl.s3.us-east-2.amazonaws.com/gallery/kgd/giaoly/2024-25-Education-Department-Calendar.pdf',
-        description: 'Khối Giáo Dục Lịch Trình 2024-2025',
+        description: 'Khối Giáo Dục Lịch Trình Niên Học 2024-2025',
     },
     {   
         fileName: 'Permission to Contact Youth',
