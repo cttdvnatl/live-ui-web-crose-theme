@@ -177,7 +177,7 @@ const Classes = [
     {
         name: "8b",
         class: "8B",
-        teachers: "Cô Trang Nghiêm, Thầy Đăng Vũ, ",
+        teachers: "Cô Trang Nghiêm, Thầy Đăng Vũ",
         emails: "",
         classwork: "https://docs.google.com/document/d/1Ukok02zqdZJ8e_sSnZAla-KwK5l0wyHCpLFJQANgozo/edit?usp=drive_link"
     },
