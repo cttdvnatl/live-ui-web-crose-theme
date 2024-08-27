@@ -1,5 +1,9 @@
 const vietHongDocuments = [
-
+    {   
+        fileName: 'Education Department Parents Handbook',
+        downloadFile: 'https://hvmatl.s3.us-east-2.amazonaws.com/gallery/kgd/giaoly/2024-25-Education-Department-Parents-Handbook.pdf',
+        description: 'Khối Giáo Dục Sổ Tay Phụ Huynh 2024-2025',
+    },
     {   
         fileName: 'School Year Calendar',
         downloadFile: 'https://hvmatl.s3.us-east-2.amazonaws.com/gallery/kgd/viethong/documents/Viet-Hong-School-2024-25-School-Year-Calendar.pdf',
