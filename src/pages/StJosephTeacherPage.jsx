@@ -27,7 +27,7 @@ function StJosephTeacherPage() {
             <div class="col-12">
                 <div class="section-heading">
                     <br />
-                    <h2>Ban Điều Hành Thiếu Nhi Thánh Thể</h2>
+                    <h2>Ban Chấp Hành Thiếu Nhi Thánh Thể</h2>
                     <h3>Niên Học 2024-2025</h3>
                 </div>
                 <DisplayVolunteer list={tnttRep} />
