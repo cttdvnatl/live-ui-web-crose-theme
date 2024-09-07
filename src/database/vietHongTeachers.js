@@ -204,12 +204,6 @@ const VietHongTeacherContent = [
         email: 'tran.tuyet.vo@hvmatl.org',
     },
     {   
-        classification: 'main-teacher',
-        image: 'https://hvmatl.s3.us-east-2.amazonaws.com/gallery/kgd/viethong/vh-23-24-t-vu-kim-lien.jpg',
-        name: 'Cô Vũ Kim Liên',
-        email: 'lien.vu@hvmatl.org',
-    },
-    {   
         classification: 'main-proctor',
         image: 'https://hvmatl.s3.us-east-2.amazonaws.com/gallery/kgd/viethong/vh-23-24-p-do-mong-lan.jpg',
         name: 'Thầy Đỗ Mộng Lân',
