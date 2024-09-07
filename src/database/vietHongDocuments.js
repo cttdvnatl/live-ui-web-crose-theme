@@ -5,6 +5,11 @@ const vietHongDocuments = [
         description: 'Khối Giáo Dục Sổ Tay Phụ Huynh 2024-2025',
     },
     {   
+        fileName: 'Viet Hong School Parents Handbook',
+        downloadFile: 'https://hvmatl.s3.us-east-2.amazonaws.com/gallery/kgd/viethong/documents/2024-2025-Viet-Hong-Parent-Handbook-bilingual-webpage-edition.pdf',
+        description: 'Trường Việt Hồng Sổ Tay Phụ Huynh 2024-2025',
+    },
+    {   
         fileName: 'School Year Calendar',
         downloadFile: 'https://hvmatl.s3.us-east-2.amazonaws.com/gallery/kgd/viethong/documents/Viet-Hong-School-2024-25-School-Year-Calendar.pdf',
         description: 'Lịch Trình Niên Học 2024-2025',

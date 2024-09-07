@@ -2,7 +2,7 @@ const Classes = [
     {
         name: "mga",
         class: "Mẫu Giáo A",
-        teachers: "Cô Dương Hiền, Thầy Nguyễn Thanh Sơn, Cô Nguyễn Christine",
+        teachers: "Cô Nguyễn Christine, Thầy Nguyễn Thanh Sơn, Cô Dương Hiền",
         emails: "",
         classwork: ""
     },
@@ -16,7 +16,7 @@ const Classes = [
     {
         name: "vla",
         class: "Vỡ Lòng A",
-        teachers: "Cô Đặng Ngọc Dung, Cô Huỳnh Bảo Trân, Thầy Trần Minh Mark",
+        teachers: "Cô Đặng Ngọc Dung, Thầy Trần Minh Mark, Cô Huỳnh Bảo Trân",
         emails: "",
         classwork: ""
     },
