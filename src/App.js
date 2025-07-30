@@ -20,7 +20,7 @@ import Activities from './pages/ActivitiesPage';
 import Covid19 from "./pages/covid19";
 import Giaoly from "./pages/giaoly";
 import Glgh from "./pages/Glgh";
-import CatholicTeaching from "./pages/catholic_teaching";
+//import CatholicTeaching from "./pages/catholic_teaching";
 import Forms from "./pages/forms";
 import WeeklyNews from "./pages/WeeklyNews";
 import Contact from "./pages/ContactPage";
@@ -122,7 +122,8 @@ const App = (props) => {
         { path: '/glgh', element: <Glgh /> },
         { path: '/photos', element: <Photos /> },
         { path: '/forms', element: <Forms /> },
-        { path: '/catholic_teaching', element: <CatholicTeaching /> },
+        //{ path: '/catholic_teaching', element: <CatholicTeaching /> },
+        { path: 'https://www.volunteer-form.hvmatl.org/volunteer-form/' },
         { path: '/weeklyNews', element: <WeeklyNews /> },
         { path: '/contact', element: <Contact /> },
         { path: '/PrayerRequest', element: <PrayerRequest /> },
